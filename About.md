@@ -27,7 +27,6 @@ HW&Hh pays $20/interview. <br>
 
 _Unsolicited content will be considered for publication but not given priority_. <br>
 <br>
-<br>
 
 # Alejandra Hernández
 ## Editor,   
