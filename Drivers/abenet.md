@@ -164,10 +164,9 @@ If change be god, August be holy. Our
 skin, darkened by July, settles into  
 the heat, like a mother’s arms. We run 
 
- in the parking lot turned fair ground,  
+in the parking lot turned fair ground,  
 chase ice cream trucks with dollars  
 we got for a kiss. At MLK park, a ball   
-
 
 smacks and a girl is baptized in dunk tank.  
 Somebody’s grandma rocks a crying  
