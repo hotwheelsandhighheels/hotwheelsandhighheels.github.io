@@ -1,7 +1,6 @@
 .container {
   margin: auto;
-  max-width: 1080
-  px;
+  max-width: 900px;
   display: grid;
   justify-content: center;
 }
