@@ -2,7 +2,6 @@
   margin: auto;
   max-width: 900px;
   display: grid;
-  justify-content: center;
 }
 .banner {
   width: 100%
