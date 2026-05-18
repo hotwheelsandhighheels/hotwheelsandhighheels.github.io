@@ -21,8 +21,6 @@ Driving really fast on an empty highway with the windows down and the night sky 
 
 ## Registration
 HW&Hh publishes solicited interviews and ***short-form*** creative content. <br>
-HW&Hh accepts previously published creative content as long as it fits the vibe. <br>
-HW&Hh accepts A.I. generated content with **discretion** and artist statement. <br>
 HW&Hh pays $20/interview. <br>
 
 _Unsolicited content will be considered for publication but not given priority_. <br>
