@@ -2,9 +2,11 @@
 <html lang="en-US">
 {% include head.html %}
 
-  <body> <!-- this is the container for all visible content -->
+  <body>
+    <div class="container"><!-- this is the container for all visible content -->
     {% include header.html %}
     {{ content }}
     {% include footer.html %}
+    </div> 
   </body>
 </html>
