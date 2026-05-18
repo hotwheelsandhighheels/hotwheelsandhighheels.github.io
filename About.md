@@ -6,11 +6,11 @@ permalink: /About/
 # About
 
 ## The Wheel 
-A toddler plays with toy cars in grandma's closet  
-using shoes with heels as inclines  
+A toddler plays with toy cars in grandma's closet using shoes with heels as inclines  
 
-Interviews will be solicited  
-but if you fit the vibe, _crash into me_
+I am interested in memory work and interviewing memory workers 
+
+Interviews will be solicited but if you fit the vibe, _crash into me_
 
 ## The Vibe  
 Millennial, as in epoch-forming  
