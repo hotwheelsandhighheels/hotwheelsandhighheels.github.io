@@ -1,0 +1,6 @@
+# this is where you do configurations apparently. I don't exactly know what that means. 
+
+  plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

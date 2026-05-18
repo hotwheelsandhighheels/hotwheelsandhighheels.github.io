@@ -1,10 +1,13 @@
+---
+layout: post
+---
 # Alana Rodriguez
 
-![Self Portrait](/Images/Alana_Profile.jpeg "Self Portrait") 
+![Self Portrait](/assets/Images/Alana_Profile.jpeg "Self Portrait") 
 
 Alana Rodriguez is an MFA Poetry student from Chula Vista, CA. She is the Social Media & Marketing Coordinator for the _San Diego Poetry Annual_ and an intern for _Poetry International_. Find her work in _Boats Against the Current_, _Unfortunately_, _Lit Mag_, and forthcoming in _Zone 3_. Alana is passionate about encouraging young poets in both the Latinx and LGBTQ+ communities to pursue publication and share their work with the world.
 
-_Connect with Alana on IG_: [@pressmynumber](instagram.com/pressmynumber)
+_Connect with Alana on IG_: [@pressmynumber](https://www.instagram.com/pressmynumber)
 
 ---
 
@@ -133,7 +136,7 @@ Alana
 
 # a poem by Alana Rodriguez
 
-For that swirling pile of trash
+## For that swirling pile of trash 
 
 on Third & Palomar,   
 in the corner  
@@ -160,7 +163,7 @@ broken chicken bones
 pieces of neighbors, dead   
 bits of skin,  
 like the ones I rip from   
-my fingers, peel
+my fingers, peel  
 until thickening, then   
 miss when they bleed—  
 that hurricane of human   

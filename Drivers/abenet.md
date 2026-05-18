@@ -1,11 +1,15 @@
-# a.benet
+---
+layout: post
+---
 
-![Self Portrait](/Images/A-benet_Profile.JPG.png "Self Portrait") 
+# a.benét
+
+![Self Portrait](/assets/Images/A-benet_Profile.JPG.png "Self Portrait") 
 
 a. benét is Black poet and creative. She is a San Diego, California native, where she is a first year Master’s student and _Prebys Creative Writing_ scholar at San Diego State University studying poetry. Her poetry has appeared or is forthcoming in _LETTERS Journal_, _Foglifter Press_, _Honey Literary_, _Diode Poetry_, and others. She has been nominated for _Best of the Net_, and was the 1st place winner of the _2020 Grossmont College Slam Poetry Competition_.
 
-_Connect with [a.benet](https://sites.google.com/view/benetthewriter/home)_  
-on [Instagram](instagram.com/jackhinzo) and [BlueSky](https://bsky.app/profile/benetthewriter.bsky.social)
+_Connect with [a.benét](https://sites.google.com/view/benetthewriter/home)_  
+on [Instagram](https://www.instagram.com/benetthewriter/) and [BlueSky](https://bsky.app/profile/benetthewriter.bsky.social)
 
 ---
 
@@ -152,18 +156,17 @@ To the letter of my childhood San Diego, I say thank you. I wouldn’t be who I 
 San Diego of the future, my hope is that you still hold space for community, that you don’t close yourself off. I want third spaces and gardens. I want more BIPOC owned businesses, small and thriving. I want children playing hopscotch at MLK park, water balloons in the summer. I hope your beaches and taco shop are still the best in California. I hope your residents are still stereotyped as chill, as calm as the pacific.  
 
 
-# a poem by a. benét 
+# a poem by a. benét
 
-**Somewhere in the Bay, a Girl Dreams of the Daygo**
+## **Somewhere in the Bay, a Girl Dreams of the Daygo**
 
 If change be god, August be holy. Our  
 skin, darkened by July, settles into  
 the heat, like a mother’s arms. We run 
 
- in the parking lot turned fair ground,  
+in the parking lot turned fair ground,  
 chase ice cream trucks with dollars  
 we got for a kiss. At MLK park, a ball   
-
 
 smacks and a girl is baptized in dunk tank.  
 Somebody’s grandma rocks a crying  

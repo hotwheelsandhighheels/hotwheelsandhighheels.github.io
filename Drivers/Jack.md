@@ -1,10 +1,13 @@
+---
+layout: post
+---
 # Jack Hinzo
 
-![Self Portrait](/Images/Jack_Profile.jpeg "Self Portrait") 
+![Self Portrait](/assets/Images/Jack_Profile.jpeg "Self Portrait") 
 
 Jack Hinzo is an English student at San Diego State University who writes and takes photos in his spare time. He enjoys cold mornings, hot coffee, and spending times with his cats.
 
-_Connect with Jack on IG_: [@jackhinzo](instagram.com/jackhinzo)
+_Connect with Jack on IG_: [@jackhinzo](https://www.instagram.com/jackhinzo)
 
 ---
 

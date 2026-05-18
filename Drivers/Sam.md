@@ -1,6 +1,9 @@
+---
+layout: post
+---
 # Sam Yaziji
 
-![Unknown Credit](/Images/Sam_Profile.JPG "Unknown Credit") 
+![Unknown Credit](/assets/Images/Sam_Profile.JPG "Unknown Credit") 
 
 Sam Yaziji is a writer from Miami, Florida. He is an MFA student in poetry at San Diego State University, where he also works as the print production editor for _Poetry International_. His poems have been published or are forthcoming in _Zone 3 Press_, _Apocalypse Confidential_, and the _Bicoastal Review_. He has research forthcoming in _Pulse: The Journal of Science and Culture_. His research interests include Eastern Christian hymnography, post-phenomenology, and cybernetics.
 

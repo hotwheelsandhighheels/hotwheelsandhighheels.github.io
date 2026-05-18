@@ -1,10 +1,13 @@
+---
+layout: post
+---
 # Angela Mendoza
 
-![Unknown Credit](/Images/Angela_Profile.JPG "Unknown Credit") 
+![Unknown Credit](/assets/Images/Angela_Profile.JPG "Unknown Credit") 
 
 Angela Mendoza is a Chicana, Central American-American writer hailing from the Bay Area in Northern California. She recently graduated from the MFA program at San Diego State University, where she taught classes in literature and creative writing. She’s presented at the _RE: Border_ conference in San Diego as well as the _Latinx Literary Conference_ in New York City. She is currently teaching at U.C. San Diego and working on her debut novel.
 
-_Connect with Angela on IG_: [@angelasmendoza](instagram.com/angelasmendoza)
+_Connect with Angela on IG_: [@angelasmendoza](https://www.instagram.com/angelasmendoza)
 
 ---
 
