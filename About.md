@@ -7,7 +7,9 @@ permalink: /About/
 
 ## The Wheel 
 A toddler plays with toy cars in grandma's closet using shoes with heels as inclines  
-I am interested in memory work and interviewing memory workers 
+
+I am interested in memory work and interviewing memory workers  
+
 Interviews will be solicited but if you fit the vibe, _crash into me_
 
 ## The Vibe  
@@ -28,13 +30,17 @@ _Unsolicited content will be considered for publication but not given priority_.
 ## Editor,   
 
 _Woman first, mother second_ has been the driving force behind many of my decisions over the past sixteen years, including the decision to answer an elusive call through poetry.  
+
 I'm from San Diego and have no aspirations to leave; San Diego is too beautiful.  
+
 My cousins are my best friends. Nothing matters without them. Without them there is no love, no poetry.   
+
 [Publications & Performances](/About/enginecheck)  
+
 [Email](mailto:alejandra@hotwheelsandhighheels.com)
 
 ## Acknowledgements
-Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Support for the arts is slim nowadays, support for literature within arts funding is even less. Your contributions mean the world to me! 
+Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Support for the arts is slim nowadays, support for literature within arts funding is even less. Your contributions mean the world to me!  
 
 Julian & Mercedes Hernández  
 Julian R. Hernández  
