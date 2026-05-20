@@ -16,21 +16,21 @@ img {
   height: auto;
 }
 h1 {font-family: Times;
-    font-size: 27pt;
+    font-size: 24pt;
     color: #ff00a3}
 h2 {font-family: Times;
-    font-size: 23pt;
+    font-size: 24pt;
     color: #a300ff}
 body {
   background-color: black;
   h3 {font-family: Times;
-    font-size: 21pt;
+    font-size: 16pt;
     color: #a300ff}
   p {font-family: Times;
-    font-size: 17pt;
+    font-size: 14pt;
     color: white}
   a {font-family: Times;
-    font-size: 17pt;
+    font-size: 14pt;
     color: #ff00a3;
     text-decoration: none;}
   a:hover {text-decoration: underline;}
