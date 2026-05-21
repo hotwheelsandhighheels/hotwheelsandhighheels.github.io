@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&display=swap');
+
 .container {
   margin: auto;
   max-width: 900px;
@@ -24,33 +26,43 @@ body {
 }
 
 h1 {
-  font-family: Times;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
   font-size: 24pt;
   color: #ff00a3;
   margin: 0 0 8px 0;
 }
 
 h2 {
-  font-family: Times;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
   font-size: 24pt;
   color: #a300ff;
   margin: 0 0 8px 0;
 }
 
 h3 {
-  font-family: Times;
-  font-size: 16pt;
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  font-size: 12pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
   color: #a300ff;
   margin: 0 0 8px 0;
 }
 
 p {
-  font-family: Times;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 14pt;
+  line-height: 1.75;
+  margin-bottom: 12px;
   color: white;
 }
 
 a {
-  font-family: Times;
+  font-family: 'Jost', sans-serif;
   font-size: 14pt;
   color: #ff00a3;
   text-decoration: none;
@@ -62,6 +74,9 @@ a:hover {
 
 nav {
   background: black;
+  padding: 10px 0;
+  margin-bottom: 16px;
+  border-bottom: 0.5px solid #ff00a322;
 }
 
 nav ul {
@@ -78,13 +93,20 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #ff00a3;
+  font-size: 11pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: white;
+  opacity: 0.7;
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  opacity: 1;
+  color: #ff00a3;
 }
 
 .active {
-  text-decoration: underline;
+  color: #ff00a3 !important;
+  opacity: 1 !important;
 }
