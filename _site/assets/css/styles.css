@@ -89,6 +89,7 @@ nav {
   text-transform: uppercase;
   color: #a300ff;
   opacity: 0.85;
+  white-space: nowrap;
 }
 nav ul {
   display: flex;
@@ -156,7 +157,10 @@ nav ul li a:hover {
     flex-wrap: wrap;
     padding: 12px 20px;
   }
-
+  .nav-logo {
+    font-size: 9pt;
+    letter-spacing: 0.12em;
+  }
   .nav-toggle {
     display: flex;
   }
@@ -183,4 +187,7 @@ nav ul li a:hover {
     border-bottom: 0.5px solid #ffffff0f;
     font-size: 11pt;
   }
+  p { font-size: 11pt; }
+  h1 { font-size: 20pt; }
+  h2 { font-size: 18pt; }
 }
