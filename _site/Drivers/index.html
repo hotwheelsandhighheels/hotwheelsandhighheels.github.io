@@ -44,6 +44,7 @@
     
   </ul>
 </nav>
+<button id="backToTop">↑</button>
 <script>
 function toggleMenu() {
   const menu = document.getElementById('nav-menu');
@@ -51,6 +52,17 @@ function toggleMenu() {
   menu.classList.toggle('open');
   btn.classList.toggle('open');
 }
+const backToTopBtn = document.getElementById('backToTop');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    backToTopBtn.style.opacity = '1';
+    backToTopBtn.style.pointerEvents = 'auto';
+  } else {
+    backToTopBtn.style.opacity = '0';
+    backToTopBtn.style.pointerEvents = 'none';
+  }
+});
 </script>
     <center><br /><br /><br /><p>
 <h2>Interviews</h2>
