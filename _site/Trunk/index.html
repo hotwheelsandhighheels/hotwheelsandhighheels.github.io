@@ -27,19 +27,31 @@
 
   <body>
     <div class="container"><!-- this is the container for all visible content -->
-        <nav>
-      <ul>
-        
-        <li><a class="" href="/">Home</a></li>
-        
-        <li><a class="" href="/About/">About</a></li>
-        
-        <li><a class="" href="/Drivers/">Drivers</a></li>
-        
-        <li><a class="active" href="/Trunk/">Trunk</a></li>
-        
-      </ul>
-    </nav>
+    <nav>
+  <span class="nav-logo">Hot Wheels & High Heels</span>
+  <button class="nav-toggle" aria-label="Open menu" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+  <ul id="nav-menu">
+    
+    <li><a class="" href="/">Home</a></li>
+    
+    <li><a class="" href="/About/">About</a></li>
+    
+    <li><a class="" href="/Drivers/">Drivers</a></li>
+    
+    <li><a class="active" href="/Trunk/">Trunk</a></li>
+    
+  </ul>
+</nav>
+<script>
+function toggleMenu() {
+  const menu = document.getElementById('nav-menu');
+  const btn = document.querySelector('.nav-toggle');
+  menu.classList.toggle('open');
+  btn.classList.toggle('open');
+}
+</script>
     <h1 id="the-millennial-epoch">The Millennial Epoch</h1>
 
 <p>Separate from the millennial age cohort, and much like the volta in poetry, an epoch references

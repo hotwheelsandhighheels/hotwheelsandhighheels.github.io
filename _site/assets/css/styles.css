@@ -74,11 +74,22 @@ a:hover {
 
 nav {
   background: black;
-  padding: 10px 0;
+  padding: 10px 32px;
   margin-bottom: 16px;
   border-bottom: 0.5px solid #ff00a322;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
+.nav-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13pt;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #a300ff;
+  opacity: 0.85;
+}
 nav ul {
   display: flex;
   list-style: none;
@@ -109,4 +120,67 @@ nav ul li a:hover {
 .active {
   color: #ff00a3 !important;
   opacity: 1 !important;
+}
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 1.5px;
+  background: #ff00a3;
+  transition: all 0.3s ease;
+}
+
+.nav-toggle.open span:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+
+.nav-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.open span:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+    padding: 12px 20px;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 12px 0;
+    gap: 4px;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 0.5px solid #ffffff0f;
+    font-size: 11pt;
+  }
 }
