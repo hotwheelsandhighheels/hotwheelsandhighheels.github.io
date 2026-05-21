@@ -151,16 +151,18 @@ nav ul li a:hover {
 .nav-toggle.open span:nth-child(3) {
   transform: translateY(-6.5px) rotate(-45deg);
 }
-
 @media (max-width: 600px) {
   nav {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 12px 20px;
+    align-items: center;
   }
-  .nav-logo {
+
+  nav .nav-logo {
     font-size: 9pt;
     letter-spacing: 0.12em;
   }
+
   .nav-toggle {
     display: flex;
   }
@@ -187,6 +189,7 @@ nav ul li a:hover {
     border-bottom: 0.5px solid #ffffff0f;
     font-size: 11pt;
   }
+
   p { font-size: 11pt; }
   h1 { font-size: 20pt; }
   h2 { font-size: 18pt; }
