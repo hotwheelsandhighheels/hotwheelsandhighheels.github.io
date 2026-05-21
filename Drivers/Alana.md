@@ -156,7 +156,7 @@ sop up red, shred, then
 toss to the wind,   
 petals, now mixing with  
 faded receipts,   
-salon foams, tire-stained  
+salon foams, tire-stained  
 baby wipes, and   
 broken chicken bones   
 —those forgotten   
