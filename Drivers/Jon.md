@@ -5,9 +5,7 @@ layout: post
 
 <div class="bio-card">
   <div class="bio-image">
-
-    ![Photo by Kimberly Tobias](/assets/Images/Jon_Profile.jpg "Photo by Kimberly Tobias")
-
+    <img src="/assets/Images/Jon_Profile.jpg" alt="Photo by Kimberly Tobias">
   </div>
   <div class="bio-text">
 
