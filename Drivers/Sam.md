@@ -2,10 +2,17 @@
 layout: post
 ---
 # Sam Yaziji
+<div class="bio-card">
+  <div class="bio-image">
+    <img src="/assets/Images/Sam_Profile.JPG" alt="Photo by Kimberly Tobias">
+  </div>
+  <div class="bio-text">
 
-![Unknown Credit](/assets/Images/Sam_Profile.JPG "Unknown Credit") 
+<p>Sam Yaziji is a writer from Miami, Florida. He is an MFA student in poetry at San Diego State University, where he also works as the print production editor for <em>Poetry International</em>. His poems have been published or are forthcoming in <em>Zone 3 Press</em>, <em>Apocalypse Confidential</em>, and the <em>Bicoastal Review</em>. He has research forthcoming in <em>Pulse: The Journal of Science and Culture</em>. His research interests include Eastern Christian hymnography, post-phenomenology, and cybernetics.
+</p>
 
-Sam Yaziji is a writer from Miami, Florida. He is an MFA student in poetry at San Diego State University, where he also works as the print production editor for _Poetry International_. His poems have been published or are forthcoming in _Zone 3 Press_, _Apocalypse Confidential_, and the _Bicoastal Review_. He has research forthcoming in _Pulse: The Journal of Science and Culture_. His research interests include Eastern Christian hymnography, post-phenomenology, and cybernetics.
+  </div>
+</div>
 
 _Connect with [Sam](https://samyaziji.weebly.com/)_
 

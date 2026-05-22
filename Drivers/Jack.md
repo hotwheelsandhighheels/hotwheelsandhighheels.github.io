@@ -3,9 +3,16 @@ layout: post
 ---
 # Jack Hinzo
 
-![Self Portrait](/assets/Images/Jack_Profile.jpeg "Self Portrait") 
+<div class="bio-card">
+  <div class="bio-image">
+    <img src="/assets/Images/Jack_Profile.jpeg" alt="Self-Portrait">
+  </div>
+  <div class="bio-text">
 
-Jack Hinzo is an English student at San Diego State University who writes and takes photos in his spare time. He enjoys cold mornings, hot coffee, and spending times with his cats.
+<p>Jack Hinzo is an English student at San Diego State University who writes and takes photos in his spare time. He enjoys cold mornings, hot coffee, and spending times with his cats.</p>
+
+  </div>
+</div>
 
 _Connect with Jack on IG_: [@jackhinzo](https://www.instagram.com/jackhinzo)
 

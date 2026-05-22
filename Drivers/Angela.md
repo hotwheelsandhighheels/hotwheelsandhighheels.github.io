@@ -3,9 +3,16 @@ layout: post
 ---
 # Angela Mendoza
 
-![Unknown Credit](/assets/Images/Angela_Profile.JPG "Unknown Credit") 
+<div class="bio-card">
+  <div class="bio-image">
+    <img src="/assets/Images/Angela_Profile.JPG" alt="Bio Image">
+  </div>
+  <div class="bio-text">
 
-Angela Mendoza is a Chicana, Central American-American writer hailing from the Bay Area in Northern California. She recently graduated from the MFA program at San Diego State University, where she taught classes in literature and creative writing. She’s presented at the _RE: Border_ conference in San Diego as well as the _Latinx Literary Conference_ in New York City. She is currently teaching at U.C. San Diego and working on her debut novel.
+<p>Angela Mendoza is a Chicana, Central American-American writer hailing from the Bay Area in Northern California. She recently graduated from the MFA program at San Diego State University, where she taught classes in literature and creative writing. She’s presented at the <em>RE: Border</em> conference in San Diego as well as the<em>Latinx Literary Conference</em> in New York City. She is currently teaching at U.C. San Diego and working on her debut novel.</p>
+
+  </div>
+</div>
 
 _Connect with Angela on IG_: [@angelasmendoza](https://www.instagram.com/angelasmendoza)
 

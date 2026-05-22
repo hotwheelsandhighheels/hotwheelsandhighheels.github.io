@@ -3,13 +3,20 @@ layout: post
 ---
 # Alana Rodriguez
 
-![Self Portrait](/assets/Images/Alana_Profile.jpeg "Self Portrait") 
+<div class="bio-card">
+  <div class="bio-image">
+    <img src="/assets/Images/Alana_Profile.jpeg" alt="Self-Portrait">
+  </div>
+  <div class="bio-text">
 
-Alana Rodriguez is an MFA Poetry student from Chula Vista, CA. She is the Social Media & Marketing Coordinator for the _San Diego Poetry Annual_ and an intern for _Poetry International_. Find her work in _Boats Against the Current_, _Unfortunately_, _Lit Mag_, and forthcoming in _Zone 3_. Alana is passionate about encouraging young poets in both the Latinx and LGBTQ+ communities to pursue publication and share their work with the world.
+<p>Alana Rodriguez is an MFA Poetry student from Chula Vista, CA. She is the Social Media & Marketing Coordinator for the <em>San Diego Poetry Annual</em> and an intern for <em>Poetry International</em>. Find her work in <em>Boats Against the Current</em>, <em>Unfortunately</em>, <em>Lit Mag</em>, and forthcoming in <em>Zone 3</em>. Alana is passionate about encouraging young poets in both the Latinx and LGBTQ+ communities to pursue publication and share their work with the world.</p>
+
+  </div>
+</div>
 
 _Connect with Alana on IG_: [@pressmynumber](https://www.instagram.com/pressmynumber)
 
----
+***
 
 ### Tell me about your favorite pair of shoes: 
 
