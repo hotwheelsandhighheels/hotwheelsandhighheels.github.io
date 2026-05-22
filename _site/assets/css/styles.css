@@ -216,3 +216,20 @@ body.post .back-to-top {
 body.post .back-to-top:hover {
   opacity: 1;
 }
+.bio-card {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+.bio-image {
+  flex-shrink: 0;
+  width: 200px;
+}
+.bio-image img {
+  width: 100%;
+  border-radius: 4px;
+}
+.bio-text {
+  flex: 1;
+}
