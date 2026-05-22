@@ -240,3 +240,8 @@ body.post .back-to-top:hover {
 .bio-text {
   flex: 1;
 }
+hr {
+  border: none;
+  border-top: 0.5px solid #ff00a3;
+  margin: 24px 0;
+}
