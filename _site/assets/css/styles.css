@@ -245,3 +245,68 @@ hr {
   border-top: 0.5px solid #ff00a3;
   margin: 24px 0;
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  display: block;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.6);
+  transition: filter 0.3s ease;
+}
+
+.gallery-card:hover img {
+  filter: brightness(1);
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  transform: translateY(8px);
+  transition: transform 0.3s ease;
+}
+
+.gallery-overlay p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16pt;
+  font-style: italic;
+  color: #ff00a3;
+  margin: 0;
+}
+
+.gallery-card:hover .gallery-overlay {
+  transform: translateY(0);
+}
+
+.poetry-links {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.poetry-links a {
+  display: block;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
