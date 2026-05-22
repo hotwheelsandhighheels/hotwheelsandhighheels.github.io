@@ -246,7 +246,7 @@ hr {
   margin: 24px 0;
 }
 .gallery {
-  display: grid;
+  display: grid !important;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-bottom: 48px;
