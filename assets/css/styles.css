@@ -197,6 +197,13 @@ nav ul li a:hover {
   p { font-size: 10pt; }
   h1 { font-size: 20pt; }
   h2 { font-size: 18pt; }
+  
+  .bio-card {
+    flex-direction: column;
+}
+  .bio-image {
+    width: 100%;
+}
 }
 body.post .back-to-top {
   position: fixed;
