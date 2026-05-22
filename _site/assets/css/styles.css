@@ -194,3 +194,21 @@ nav ul li a:hover {
   h1 { font-size: 20pt; }
   h2 { font-size: 18pt; }
 }
+body.post .back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: transparent;
+  border: 1px solid #ff00a3;
+  color: #ff00a3;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+body.post back-to-top:hover{
+  opacity: 1;
+}

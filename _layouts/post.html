@@ -2,11 +2,12 @@
 <html lang="en-US">
 {% include head.html %}
 
-  <body> <!-- this is the container for all visible content -->
+  <body class="post"> <!-- this is the container for all visible content -->
     <div class="container">
     {% include header.html %}
     {{ content }}
     </div>
+    <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="back-to-top">&#8593;</button>
   </body>
 
 </html>
