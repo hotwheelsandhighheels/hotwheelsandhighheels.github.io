@@ -42,7 +42,7 @@ permalink: /Drivers/
   </a>
 
   <a href="/Drivers/Sam" class="gallery-card">
-    <img src="/assets/Images/Sam_Profile.JPG" alt="Sam Yaziji">
+    <img src="/assets/Images/Sam_Cover.jpg" alt="Sam Yaziji">
     <div class="gallery-overlay">
       <p>Sam Yaziji</p>
     </div>
