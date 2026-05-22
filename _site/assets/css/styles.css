@@ -245,8 +245,11 @@ hr {
   border-top: 0.5px solid #ff00a3;
   margin: 24px 0;
 }
+.container .gallery {
+  display: grid;
+}
 .gallery {
-  display: grid !important;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-bottom: 48px;
