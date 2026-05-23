@@ -91,9 +91,10 @@ nav {
   font-weight: 400;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #a300ff;
+  color: #a300ff !important;
   opacity: 0.85;
   white-space: nowrap;
+  text-decoration: none;
 }
 nav ul {
   display: flex;
