@@ -96,6 +96,9 @@ nav {
   white-space: nowrap;
   text-decoration: none;
 }
+.nav-logo:hover {
+  text-decoration: none;
+}
 nav ul {
   display: flex;
   list-style: none;
