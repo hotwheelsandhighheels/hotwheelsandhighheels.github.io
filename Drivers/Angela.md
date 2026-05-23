@@ -9,7 +9,7 @@ layout: post
   </div>
   <div class="bio-text">
 
-<p>Angela Mendoza is a Chicana, Central American-American writer hailing from the Bay Area in Northern California. She recently graduated from the MFA program at San Diego State University, where she taught classes in literature and creative writing. She’s presented at the <em>RE: Border</em> conference in San Diego as well as the<em>Latinx Literary Conference</em> in New York City. She is currently teaching at U.C. San Diego and working on her debut novel.</p>
+<p>Angela Mendoza is a Chicana, Central American-American writer hailing from the Bay Area in Northern California. She recently graduated from the MFA program at San Diego State University, where she taught classes in literature and creative writing. She’s presented at the <em>RE: Border</em> conference in San Diego as well as the <em>Latinx Literary Conference</em> in New York City. She is currently teaching at U.C. San Diego and working on her debut novel.</p>
 
   </div>
 </div>

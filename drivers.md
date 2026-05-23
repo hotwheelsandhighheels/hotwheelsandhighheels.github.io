@@ -5,7 +5,6 @@ permalink: /Drivers/
 ---
 
 <div class="gallery">
-
   <a href="/Drivers/Jon" class="gallery-card">
     <img src="/assets/Images/Jon_Cover.jpg" alt="Jon Tobias">
     <div class="gallery-overlay">
