@@ -11,9 +11,7 @@
 }
 
 .footer {
-  max-height: 50pt;
-  padding: 1px;
-  margin: 1px;
+  max-height: 70pt;
 }
 
 img {
@@ -226,6 +224,9 @@ body.post .back-to-top {
 }
 body.post .back-to-top:hover {
   opacity: 1;
+}
+body.post .container {
+  padding-bottom: 64px;
 }
 .bio-card {
   display: flex;
