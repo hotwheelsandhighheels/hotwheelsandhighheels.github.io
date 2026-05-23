@@ -1,4 +1,7 @@
 # this is where you do configurations apparently. I don't exactly know what that means. 
+title: Hot Wheels & High Heels 
+description: Come with me & catch a vibe! 
+url: hotwheelsandhighheels.com
 
   plugins:
   - jekyll-feed
