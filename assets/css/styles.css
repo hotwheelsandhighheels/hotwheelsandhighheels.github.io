@@ -318,3 +318,10 @@ hr {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+body {
+  cursor: url('/assets/Images/cursor.svg'), auto;
+}
+
+a, button {
+  cursor: url('/assets/Images/cursor.svg') 8 2, auto;
+}

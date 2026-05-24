@@ -3,7 +3,7 @@ title: Hot Wheels & High Heels
 description: Come with me & catch a vibe! 
 url: hotwheelsandhighheels.com
 
-  plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
