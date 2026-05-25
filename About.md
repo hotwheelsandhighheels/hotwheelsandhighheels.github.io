@@ -10,7 +10,7 @@ A toddler plays with toy cars in grandma's closet using shoes with heels as incl
 
 I am interested in memory work and interviewing memory workers  
 
-Interviews will be solicited but if you fit the vibe, _crash into me_
+Interviews are solicited but if you fit the vibe, _crash into me_
 
 ## The Vibe  
 Millennial, as in epoch-forming  
