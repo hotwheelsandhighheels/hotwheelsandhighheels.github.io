@@ -11,7 +11,17 @@
    Lora: warm readable serif for body text, h3, links
    Multiple weights loaded so we can use bold, regular, and italic variants */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+:root {
+  --bg: #0a0608;
+  --text: #f5f0f5;
+  --pink: #ff00a3;
+  --purple: #a300ff;
+}
 
+[data-theme="light"] {
+  --bg: #f5f0f5;
+  --text: #0a0608;
+}
 /* --- CONTAINER ---
    Centers all page content and caps the width at 900px.
    margin: auto pushes equal space on left and right, centering the block.
@@ -49,7 +59,7 @@ img {
    Pure black is harsh on the eyes with white text.
    #0a0608 has a barely-there warm undertone that makes the pink and purple glow. */
 body {
-  background-color: #0a0608;
+  background-color: var(--bg);
 }
 
 /* --- HEADINGS ---
@@ -62,7 +72,7 @@ h1 {
   font-style: italic;
   font-weight: 400;
   font-size: 24pt;
-  color: #ff00a3;
+  color: var(--pink);
   margin: 0 0 8px 0;
 }
 
@@ -77,7 +87,7 @@ h2 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
   font-size: 24pt;
-  color: #a300ff;
+  color: var(--purple);
   margin: 0 0 8px 0;
 }
 
@@ -87,7 +97,7 @@ h3 {
   font-size: 12pt;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #a300ff;
+  color: var(--purple);
   margin: 0 0 8px 0;
 }
 
@@ -101,7 +111,7 @@ p {
   font-size: 14pt;
   line-height: 1.75;
   margin-bottom: 12px;
-  color: white;
+  color: var(--text);
 }
 
 /* --- LINKS ---
@@ -110,7 +120,7 @@ p {
 a {
   font-family: 'Lora', serif;
   font-size: 14pt;
-  color: #ff00a3;
+  color: var(--pink);
   text-decoration: none;
 }
 
@@ -122,10 +132,10 @@ a:hover {
    flex + space-between pushes the logo left and links right.
    border-bottom is a barely-visible pink line that grounds the nav. */
 nav {
-  background: #0a0608;
+  background: var(--bg);
   padding: 10px 32px;
   margin-bottom: 16px;
-  border-bottom: 0.5px solid #ff00a322; /* #ff00a322 = pink at ~13% opacity */
+  border-bottom: 0.5px solid rgba(245,240,245,0.06); /* #ff00a322 = pink at ~13% opacity */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -142,7 +152,7 @@ nav {
   font-weight: 400;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #a300ff !important;
+  color: var(--purple) !important;
   opacity: 0.85;
   white-space: nowrap;
   text-decoration: none;
@@ -173,20 +183,20 @@ nav ul li a {
   font-size: 11pt;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: white;
+  color: var(--text);
   opacity: 0.7;
 }
 
 nav ul li a:hover {
   text-decoration: none;
   opacity: 1;
-  color: #ff00a3;
+  color: var(--pink);
 }
 
 /* Highlights the current page link in pink.
    !important overrides the inherited white color and opacity from nav ul li a. */
 .active {
-  color: #ff00a3 !important;
+  color: var(--pink) !important;
   opacity: 1 !important;
 }
 
@@ -208,7 +218,7 @@ nav ul li a:hover {
   display: block;
   width: 22px;
   height: 1.5px;
-  background: #ff00a3;
+  background: var(--pink);
   transition: all 0.3s ease;
 }
 
@@ -268,7 +278,7 @@ nav ul li a:hover {
   nav ul li a {
     display: block;
     padding: 10px 0;
-    border-bottom: 0.5px solid #ffffff0f; /* barely visible divider between links */
+    border-bottom: 0.5px solid rgba(245,240,245,0.06); /* barely visible divider between links */
     font-size: 11pt;
   }
 
@@ -298,8 +308,8 @@ body.post .back-to-top {
   bottom: 24px;
   right: 24px;
   background: transparent;
-  border: 1px solid #ff00a3;
-  color: #ff00a3;
+  border: 1px solid var(--pink);
+  color: var(--pink);
   font-size: 18px;
   width: 40px;
   height: 40px;
@@ -357,7 +367,7 @@ body.post .container {
    then we draw only the top border in pink at 0.5px for a delicate line. */
 hr {
   border: none;
-  border-top: 0.5px solid #ff00a3;
+  border-top: 0.5px solid var(--pink);
   margin: 24px 0; /* 24px above and below, 0 on the sides */
 }
 
@@ -421,7 +431,7 @@ hr {
   font-family: 'Cormorant Garamond', serif;
   font-size: 16pt;
   font-style: italic;
-  color: #ff00a3;
+  color: var(--pink);
   margin: 0;
 }
 
@@ -492,8 +502,8 @@ a, button {
 .embeddable-buttondown-form input[type="email"] {
   flex: 1;
   background: transparent;
-  border: 0.5px solid #ff00a3;
-  color: white;
+  border: 0.5px solid var(--pink);
+  color: var(--text);
   font-family: 'Lora', serif;
   font-size: 11pt;
   padding: 10px 16px;
@@ -504,8 +514,8 @@ a, button {
    Consistent design language across interactive elements. */
 .embeddable-buttondown-form input[type="submit"] {
   background: transparent;
-  border: 0.5px solid #ff00a3;
-  color: #ff00a3;
+  border: 0.5px solid var(--pink);
+  color: var(--pink);
   font-family: 'Lora', serif;
   font-size: 11pt;
   letter-spacing: 0.18em;
@@ -523,4 +533,30 @@ a, button {
    display: none removes it from the layout completely. */
 .embeddable-buttondown-form p {
   display: none;
+}
+/* --- THEME TOGGLE BUTTON ---
+   Mirrors the back-to-top button but sits in the bottom LEFT corner.
+   Shows on all pages unlike back-to-top which is post only.
+   ☀️ = dark mode active (click for light), 🌙 = light mode active (click for dark) */
+.theme-toggle {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  background: transparent;
+  border: 1px solid var(--pink);
+  color: var(--pink);
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  opacity: 1;
 }
