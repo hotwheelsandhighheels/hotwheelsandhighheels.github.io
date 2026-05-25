@@ -43,7 +43,7 @@ I had a wonderful experience growing up in Miami. People are embedded in the cit
 
 Mr. Shanoskie, Mrs. Arboleda, Mr. Cox
 
-Miami is known for its multicultural blend. How do you see your own identity within that mix, and does your poetry reflect the cultural layering that Miami embodies? How does it influence your view of boundaries—personal, artistic, or cultural? 
+### Miami is known for its multicultural blend. How do you see your own identity within that mix, and does your poetry reflect the cultural layering that Miami embodies? How does it influence your view of boundaries—personal, artistic, or cultural? 
 
 I was blessed to grow up around my maternal grandparents, who came from Cuba in the 60s and lived most of their lives in South Florida. They never learned English, and their Cuban culture was overwhelming in the best possible way, though I struggled with it in certain moments. I miss them. There’s a certain lack of boundaries in Cuban culture, a real Nietzschean spirit. In its best manifestation, people are radically authentic, brutally honest. Materialism comes with that, too, and in its extreme, so does a kind of repulsive, self-loving disposition. I’ve had to learn to temper myself because of this, and have tried to learn how to be quiet and a little less selfishly assertive, though I still often struggle with that. The aspects of Syrian culture I grew up with—a sense of sophistication and old-world mystique, as well as an awareness of international geopolitics—also balance out the more rugged Cuban elements. The superficiality people commonly associate with Miami comes from the culture of the more recent transplants, I think.
 
