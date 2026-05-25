@@ -81,7 +81,7 @@ a turn in history characterized by dramatic change in perspective.</p>
       localStorage.removeItem('theme'); // forgets the saved preference
     } else {
       html.setAttribute('data-theme', 'light');
-      btn.textContent = '☾';
+      btn.textContent = '☽';
       localStorage.setItem('theme', 'light'); // saves 'light' to the browser
     }
   }
@@ -91,7 +91,7 @@ a turn in history characterized by dramatic change in perspective.</p>
   const saved = localStorage.getItem('theme');
   if (saved) {
     document.documentElement.setAttribute('data-theme', saved);
-    document.querySelector('.theme-toggle').textContent = '☾';
+    document.querySelector('.theme-toggle').textContent = '☽';
   }
   </script>
   </body>
