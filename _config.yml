@@ -27,3 +27,9 @@ plugins:
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - _templates

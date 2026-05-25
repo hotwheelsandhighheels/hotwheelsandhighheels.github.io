@@ -1,25 +1,18 @@
 <!doctype html><!-- tells the browser this is an HTML5 document -->
 <html lang="en-US"><!-- lang attribute helps screen readers and search engines -->
-
   <!-- head.html contains all metadata: charset, viewport, stylesheet link, SEO tags -->
   {% include head.html %}
-
   <body>
     <!-- .container centers content and caps width at 900px — defined in styles.css -->
     <div class="container">
-
       <!-- header.html contains the nav bar and hamburger menu -->
       {% include header.html %}
-
       <!-- {{ content }} is where the page's markdown or HTML content gets injected -->
       <!-- for example About.md, Trunk.md, index.html all use this layout -->
       {{ content }}
-
       <!-- footer.html contains the 4Runner image and tagline -->
       <!-- NOT included in post.html — posts don't have a footer -->
       {% include footer.html %}
-
     </div>
   </body>
-
 </html>
