@@ -1,5 +1,7 @@
 ---
 layout: post
+title: Sam Yaziji
+description: An interview with Sam Yaziji, poet, musician, and researcher interested in Eastern Christian hymnography, post-phenomenology, and cybernetics.
 ---
 # Sam Yaziji
 <div class="bio-card">

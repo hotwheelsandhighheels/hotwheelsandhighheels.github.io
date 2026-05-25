@@ -1,5 +1,7 @@
 ---
 layout: post
+title: A. Benét
+description: An interview with A. Benét, San Diego native and poetry MFA candidate at San Diego State University. 
 ---
 
 # a.benét

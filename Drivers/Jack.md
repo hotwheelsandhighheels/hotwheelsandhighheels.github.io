@@ -1,5 +1,7 @@
 ---
 layout: post
+title: Jack Hinzo
+description: An interview with Jack Hinzo, San Diego native and photographer with interest in polaroid. 
 ---
 # Jack Hinzo
 
