@@ -599,14 +599,12 @@ body .theme-toggle:hover {
   align-items: center;
   justify-content: space-between;
   padding: 48px 0;
-  width: 100%;
 }
 
 .teaser-static {
   position: relative;
   width: 100%;
   min-height: 400px;
-  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -619,26 +617,24 @@ body .theme-toggle:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  opacity: 0.15;
+  overflow: hidden;
+  z-index: 0;
 }
 
 .static-line {
-  flex-shrink: 0;
   height: 2px;
+  margin-bottom: 3px;
   background: linear-gradient(90deg, transparent, var(--pink), var(--purple), transparent);
-  animation: flicker 0.15s infinite;
+  animation: flicker 2s ease-in-out infinite;
 }
 
 .static-line:nth-child(odd) {
-  animation-delay: 0.07s;
+  animation-delay: 1s;
   opacity: 0.5;
 }
 
 .static-line:nth-child(3n) {
-  background: linear-gradient(90deg, transparent, var(--text), transparent);
+  background: linear-gradient(90deg, transparent, var(--purple), transparent);
 }
 
 @keyframes flicker {
