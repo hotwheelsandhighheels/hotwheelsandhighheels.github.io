@@ -327,7 +327,7 @@ a, button {
 }
 
 .embeddable-buttondown-form {
-  display: flex;
+  display: flex !important;
   align-items: center;
   gap: 8px;
   margin-top: 48px;
