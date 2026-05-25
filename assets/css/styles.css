@@ -325,7 +325,9 @@ body {
 a, button {
   cursor: url('/assets/Images/cursor.svg') 8 2, auto;
 }
-
+.container .embeddable-buttondown-form {
+  display: flex;
+}
 .embeddable-buttondown-form {
   display: flex !important;
   align-items: center;
