@@ -1,9 +1,28 @@
-# this is where you do configurations apparently. I don't exactly know what that means. 
-title: Hot Wheels & High Heels 
-description: Come with me & catch a vibe! 
+# _config.yml — Jekyll site configuration
+# Changes here affect the whole site — restart Jekyll locally after editing
+
+# Site title — appears in browser tabs, search results, and social share previews
+# jekyll-seo-tag appends this to every page title: "Page Title | Hot Wheels & High Heels"
+title: Hot Wheels & High Heels
+
+# Site description — used by jekyll-seo-tag as the default meta description
+# Shows up as the preview text in Google search results
+# Individual pages can override this with their own description: in front matter
+description: Come with me & catch a vibe!
+
+# Your live domain — must include https:// for the sitemap to generate valid URLs
+# Without https:// Google Search Console will flag all sitemap URLs as invalid
 url: "https://hotwheelsandhighheels.com"
+
+# permalink: pretty generates clean URLs without .html
+# /Drivers/Jon instead of /Drivers/Jon.html
+# Works alongside .htaccess which handles any legacy .html redirects
 permalink: pretty
 
+# Jekyll plugins — must also be listed in your Gemfile
+# jekyll-feed: generates /feed.xml RSS feed for subscribers
+# jekyll-sitemap: generates /sitemap.xml for search engine crawlers
+# jekyll-seo-tag: generates all meta, og, and twitter tags automatically
 plugins:
 - jekyll-feed
 - jekyll-sitemap
