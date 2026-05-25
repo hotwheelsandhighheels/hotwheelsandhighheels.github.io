@@ -122,7 +122,7 @@ a:hover {
    flex + space-between pushes the logo left and links right.
    border-bottom is a barely-visible pink line that grounds the nav. */
 nav {
-  background: black;
+  background: #0a0608;
   padding: 10px 32px;
   margin-bottom: 16px;
   border-bottom: 0.5px solid #ff00a322; /* #ff00a322 = pink at ~13% opacity */
