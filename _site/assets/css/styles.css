@@ -325,3 +325,46 @@ body {
 a, button {
   cursor: url('/assets/Images/cursor.svg') 8 2, auto;
 }
+
+.embeddable-buttondown-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.embeddable-buttondown-form label {
+  display: none;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  flex: 1;
+  background: transparent;
+  border: 0.5px solid #ff00a3;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 11pt;
+  padding: 10px 16px;
+  outline: none;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  background: transparent;
+  border: 0.5px solid #ff00a3;
+  color: #ff00a3;
+  font-family: 'Lora', serif;
+  font-size: 11pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+  opacity: 0.7;
+}
+
+.embeddable-buttondown-form p {
+  display: none;
+}
