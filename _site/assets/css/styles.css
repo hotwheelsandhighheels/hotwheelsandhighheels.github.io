@@ -599,6 +599,7 @@ body .theme-toggle:hover {
   align-items: center;
   justify-content: space-between;
   padding: 48px 0;
+  width: 100%;
 }
 
 .teaser-static {
