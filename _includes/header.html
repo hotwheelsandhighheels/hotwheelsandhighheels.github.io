@@ -1,41 +1,19 @@
-<!-- header.html — included in EVERY layout via {% include header.html %} -->
-<!-- contains the navigation bar and hamburger menu javascript -->
-
 <nav>
-
-  <!-- site logo — links to home page (href="/") -->
-  <!-- styled as .nav-logo in CSS — Cormorant Garamond uppercase purple -->
-  <!-- text-decoration: none and color override are in CSS to prevent default link styling -->
   <a href="/" class="nav-logo">Hot Wheels & High Heels</a>
-
-  <!-- hamburger button — hidden on desktop, visible on mobile via CSS @media query -->
-  <!-- aria-label="Open menu" is for screen readers — describes what the button does -->
-  <!-- onclick calls the toggleMenu() function defined in the <script> below -->
-  <!-- three empty <span> tags are the three lines of the hamburger icon, styled in CSS -->
   <button class="nav-toggle" aria-label="Open menu" onclick="toggleMenu()">
     <span></span><span></span><span></span>
   </button>
-
-  <!-- nav links — built from _data/menu.yml automatically -->
-  <!-- {% for item in site.data.menu %} loops through each item in menu.yml -->
-  <!-- {% if page.url == item.link %} adds class="active" to highlight the current page -->
   <ul id="nav-menu">
     {% for item in site.data.menu %}
     <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
     {% endfor %}
   </ul>
-
 </nav>
-
 <script>
-// toggleMenu() is called when the hamburger button is clicked
-// it adds/removes the 'open' class on both the menu and the button
-// in CSS: nav ul.open sets display: flex to show the menu
-// in CSS: .nav-toggle.open animates the three lines into an X
 function toggleMenu() {
-  const menu = document.getElementById('nav-menu');   // grabs the <ul id="nav-menu"> element
-  const btn = document.querySelector('.nav-toggle');  // grabs the hamburger button
-  menu.classList.toggle('open');  // adds 'open' if not there, removes it if it is
-  btn.classList.toggle('open');   // same for the button — triggers the X animation
+  const menu = document.getElementById('nav-menu');
+  const btn = document.querySelector('.nav-toggle');
+  menu.classList.toggle('open');
+  btn.classList.toggle('open');
 }
 </script>

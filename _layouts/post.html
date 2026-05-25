@@ -1,35 +1,13 @@
-<!doctype html><!-- tells the browser this is an HTML5 document -->
-<html lang="en-US"><!-- lang attribute helps screen readers and search engines -->
+<!doctype html><!-- defines document type -->
+<html lang="en-US">
+{% include head.html %}
 
-  <!-- head.html contains all metadata: charset, viewport, stylesheet link, SEO tags -->
-  {% include head.html %}
-
-  <!-- class="post" scopes CSS rules to this layout only -->
-  <!-- in styles.css, body.post targets styles that should ONLY apply to contributor pages -->
-  <!-- examples: body.post h1 { text-align: center } and body.post .back-to-top { } -->
-  <body class="post">
-
-    <!-- .container centers content and caps width at 900px -->
+  <body class="post"> <!-- this is the container for all visible content -->
     <div class="container">
-
-      <!-- header.html contains the nav bar and hamburger menu -->
-      {% include header.html %}
-
-      <!-- {{ content }} is where the contributor's markdown file gets injected -->
-      <!-- includes the bio card, interview content, and links -->
-      {{ content }}
-
+    {% include header.html %}
+    {{ content }}
     </div>
-    <!-- NOTE: no {% include footer.html %} here — posts don't have the 4Runner footer -->
-    <!-- bottom spacing is handled by body.post .container { padding-bottom: 64px } in CSS -->
-
-    <!-- back to top button — sits OUTSIDE .container so position: fixed works correctly -->
-    <!-- position: fixed is relative to the viewport, not the container -->
-    <!-- &#8593; is the HTML code for an upward arrow ↑ -->
-    <!-- aria-label is for screen readers — announces "back to top" -->
-    <!-- window.scrollTo smooth scrolls to the top when clicked -->
     <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="back-to-top">&#8593;</button>
-
   </body>
 
 </html>
