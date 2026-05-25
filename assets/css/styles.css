@@ -1,28 +1,62 @@
+/* ============================================
+   HOT WHEELS & HIGH HEELS — styles.css
+   Colors: #ff00a3 (pink), #a300ff (purple), white, #0a0608 (off-black)
+   Fonts: Playfair Display (h1/names), Cormorant Garamond (h2/nav-logo), Lora (body/h3)
+   ============================================ */
+
+/* --- GOOGLE FONTS IMPORT ---
+   Loads all three typefaces from Google Fonts.
+   Playfair Display: italic serif for h1 (contributor names)
+   Cormorant Garamond: elegant serif for h2 and nav logo
+   Lora: warm readable serif for body text, h3, links
+   Multiple weights loaded so we can use bold, regular, and italic variants */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
+/* --- CONTAINER ---
+   Centers all page content and caps the width at 900px.
+   margin: auto pushes equal space on left and right, centering the block.
+   display: block is explicit to prevent browser defaults from interfering. */
 .container {
   margin: auto;
   max-width: 900px;
   display: block;
 }
 
+/* --- BANNER ---
+   The hero image at the top of the home page.
+   width: 100% makes it stretch edge to edge of the container. */
 .banner {
   width: 100%;
 }
 
+/* --- FOOTER IMAGE ---
+   The 4Runner photo in the footer.
+   max-height caps it so it doesn't take over the page. */
 .footer {
   max-height: 70pt;
 }
 
+/* --- IMAGES (GLOBAL) ---
+   Prevents any image from overflowing its container.
+   height: auto preserves the original aspect ratio. */
 img {
   max-width: 100%;
   height: auto;
 }
 
+/* --- BODY ---
+   Off-black background instead of pure #000000.
+   Pure black is harsh on the eyes with white text.
+   #0a0608 has a barely-there warm undertone that makes the pink and purple glow. */
 body {
   background-color: #0a0608;
 }
 
+/* --- HEADINGS ---
+   h1: Playfair Display italic — used for contributor names. Editorial, fashion-forward.
+   h2: Cormorant Garamond — section headers. Structured and elegant.
+   h3: Lora uppercase — labels and subcategories. Clean and readable.
+   margin: 0 0 8px 0 resets browser default large margins (top right bottom left). */
 h1 {
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -32,6 +66,9 @@ h1 {
   margin: 0 0 8px 0;
 }
 
+/* Centers h1 on post pages only (contributor name as byline).
+   Uses body.post to scope it — only fires when <body class="post"> is present.
+   Default pages and home page h1s are unaffected. */
 body.post h1 {
   text-align: center;
 }
@@ -54,6 +91,10 @@ h3 {
   margin: 0 0 8px 0;
 }
 
+/* --- PARAGRAPH ---
+   Lora at weight 300 (light) feels warm and literary.
+   line-height: 1.75 adds generous spacing between lines for readability.
+   margin-bottom: 12px adds space between paragraphs. */
 p {
   font-family: 'Lora', serif;
   font-weight: 300;
@@ -63,6 +104,9 @@ p {
   color: white;
 }
 
+/* --- LINKS ---
+   Pink by default, no underline at rest.
+   Underline appears on hover as a subtle interactive signal. */
 a {
   font-family: 'Lora', serif;
   font-size: 14pt;
@@ -74,15 +118,24 @@ a:hover {
   text-decoration: underline;
 }
 
+/* --- NAVIGATION BAR ---
+   flex + space-between pushes the logo left and links right.
+   border-bottom is a barely-visible pink line that grounds the nav. */
 nav {
   background: black;
   padding: 10px 32px;
   margin-bottom: 16px;
-  border-bottom: 0.5px solid #ff00a322;
+  border-bottom: 0.5px solid #ff00a322; /* #ff00a322 = pink at ~13% opacity */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+/* --- NAV LOGO ---
+   The site title on the left of the nav.
+   It's an <a> tag so we override link defaults (color, underline).
+   white-space: nowrap prevents it from wrapping onto two lines.
+   !important on color overrides the global a { color: #ff00a3 } rule. */
 .nav-logo {
   font-family: 'Cormorant Garamond', serif;
   font-size: 13pt;
@@ -94,9 +147,15 @@ nav {
   white-space: nowrap;
   text-decoration: none;
 }
+
 .nav-logo:hover {
   text-decoration: none;
 }
+
+/* --- NAV LINKS ---
+   Links displayed in a horizontal row.
+   Uppercase + letter-spacing gives them a refined editorial feel.
+   opacity: 0.7 at rest, 1 on hover for a subtle interactive effect. */
 nav ul {
   display: flex;
   list-style: none;
@@ -124,10 +183,17 @@ nav ul li a:hover {
   color: #ff00a3;
 }
 
+/* Highlights the current page link in pink.
+   !important overrides the inherited white color and opacity from nav ul li a. */
 .active {
   color: #ff00a3 !important;
   opacity: 1 !important;
 }
+
+/* --- HAMBURGER MENU BUTTON ---
+   Hidden on desktop (display: none).
+   Shows on mobile via the @media query below.
+   Three <span> tags inside form the three lines of the hamburger icon. */
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -146,6 +212,8 @@ nav ul li a:hover {
   transition: all 0.3s ease;
 }
 
+/* When .open class is added via JavaScript, the three lines animate into an X.
+   First line rotates 45deg down, middle line disappears, third line rotates 45deg up. */
 .nav-toggle.open span:nth-child(1) {
   transform: translateY(6.5px) rotate(45deg);
 }
@@ -157,22 +225,30 @@ nav ul li a:hover {
 .nav-toggle.open span:nth-child(3) {
   transform: translateY(-6.5px) rotate(-45deg);
 }
+
+/* --- MOBILE STYLES ---
+   Everything inside @media (max-width: 600px) only applies on screens 600px wide or less.
+   This is where we override desktop styles for phone screens. */
 @media (max-width: 600px) {
   nav {
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; /* keeps logo and hamburger on the same line */
     padding: 12px 20px;
     align-items: center;
   }
 
+  /* Smaller logo font so it fits on one line next to the hamburger */
   nav .nav-logo {
     font-size: 9pt;
     letter-spacing: 0.12em;
   }
 
+  /* Show the hamburger button on mobile */
   .nav-toggle {
     display: flex;
   }
 
+  /* Hide the nav links by default on mobile.
+     They appear when .open class is toggled by the hamburger button. */
   nav ul {
     display: none;
     flex-direction: column;
@@ -192,21 +268,31 @@ nav ul li a:hover {
   nav ul li a {
     display: block;
     padding: 10px 0;
-    border-bottom: 0.5px solid #ffffff0f;
+    border-bottom: 0.5px solid #ffffff0f; /* barely visible divider between links */
     font-size: 11pt;
   }
 
+  /* Smaller font sizes on mobile — pt values scale up on phone screens
+     so we bring them down to keep proportions feeling right */
   p { font-size: 10pt; }
   h1 { font-size: 20pt; }
   h2 { font-size: 18pt; }
-  
+
+  /* Bio card stacks vertically on mobile instead of side by side */
   .bio-card {
     flex-direction: column;
-}
+  }
+
+  /* Image goes full width when stacked */
   .bio-image {
     width: 100%;
+  }
 }
-}
+
+/* --- BACK TO TOP BUTTON ---
+   Scoped to body.post so it only appears on post pages, not default pages.
+   position: fixed keeps it stuck to the bottom right of the viewport while scrolling.
+   border-radius: 50% makes it a circle (only works because width and height are equal). */
 body.post .back-to-top {
   position: fixed;
   bottom: 24px;
@@ -220,46 +306,79 @@ body.post .back-to-top {
   border-radius: 50%;
   cursor: pointer;
   opacity: 0.7;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; /* smooth fade on hover */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 body.post .back-to-top:hover {
   opacity: 1;
 }
+
+/* Adds breathing room at the bottom of post pages.
+   Posts don't have a footer so without this the content hits the edge abruptly. */
 body.post .container {
   padding-bottom: 64px;
 }
+
+/* --- BIO CARD ---
+   Flexbox layout for contributor profile: photo on the left, bio text on the right.
+   gap: 24px is the space between the photo and text columns.
+   align-items: flex-start lines both columns up from the top edge. */
 .bio-card {
   display: flex;
   gap: 24px;
   align-items: flex-start;
   margin-bottom: 24px;
 }
+
+/* flex-shrink: 0 prevents flexbox from squishing the photo to make room for text.
+   The photo stays locked at 200px regardless of screen size (until mobile breakpoint). */
 .bio-image {
   flex-shrink: 0;
   width: 200px;
 }
+
 .bio-image img {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 4px; /* subtle rounded corners, softer than a hard square edge */
 }
+
+/* flex: 1 tells the bio text column to take up all remaining space
+   after the fixed 200px photo column has claimed its share. */
 .bio-text {
   flex: 1;
 }
+
+/* --- HORIZONTAL RULE ---
+   Used as a divider between the bio section and interview content.
+   border: none resets the browser's default hr styling first,
+   then we draw only the top border in pink at 0.5px for a delicate line. */
 hr {
   border: none;
   border-top: 0.5px solid #ff00a3;
-  margin: 24px 0;
+  margin: 24px 0; /* 24px above and below, 0 on the sides */
 }
+
+/* --- IMAGE GALLERY (DRIVERS PAGE) ---
+   .container prefix adds specificity to override browser's default display: block on divs.
+   Without this, the grid doesn't fire on the live site even though CSS is correct. */
 .container .gallery {
   display: grid;
 }
+
+/* 3 equal columns on desktop, gap between cards, space below the whole gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* 1fr = 1 fraction of available space */
   gap: 16px;
   margin-bottom: 48px;
 }
 
+/* position: relative is required so the overlay child can use position: absolute
+   relative to this card, not the whole page.
+   overflow: hidden clips the image and overlay to the card's border-radius. */
 .gallery-card {
   position: relative;
   overflow: hidden;
@@ -267,6 +386,9 @@ hr {
   display: block;
 }
 
+/* object-fit: cover fills the fixed height without stretching — crops if needed.
+   This keeps all cards the same height regardless of original image dimensions.
+   filter: brightness(0.6) darkens the image to ~60% at rest for moody effect. */
 .gallery-card img {
   width: 100%;
   height: 300px;
@@ -276,10 +398,14 @@ hr {
   transition: filter 0.3s ease;
 }
 
+/* Image brightens to full on hover */
 .gallery-card:hover img {
   filter: brightness(1);
 }
 
+/* The name overlay sits at the bottom of the card using absolute positioning.
+   gradient fades from transparent to dark so the name is readable over the image.
+   translateY(8px) nudges it slightly down at rest — on hover it slides back to 0. */
 .gallery-overlay {
   position: absolute;
   bottom: 0;
@@ -299,10 +425,13 @@ hr {
   margin: 0;
 }
 
+/* Slides the overlay up to its natural position on hover */
 .gallery-card:hover .gallery-overlay {
   transform: translateY(0);
 }
 
+/* --- POETRY LINKS ---
+   Centered text block below the gallery on the Drivers page. */
 .poetry-links {
   text-align: center;
   margin-top: 24px;
@@ -313,11 +442,17 @@ hr {
   margin-bottom: 8px;
 }
 
+/* Gallery drops to 2 columns on mobile */
 @media (max-width: 600px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* --- CUSTOM CURSOR ---
+   Replaces the default browser cursor with our SVG double heart on all elements.
+   The two numbers after the URL on a, button are the hotspot coordinates (x y) —
+   where exactly on the cursor image the click registers. */
 body {
   cursor: url('/assets/Images/cursor.svg'), auto;
 }
@@ -325,11 +460,18 @@ body {
 a, button {
   cursor: url('/assets/Images/cursor.svg') 8 2, auto;
 }
+
+/* --- EMAIL SIGNUP FORM (BUTTONDOWN) ---
+   .container prefix adds specificity to override browser's default display: block.
+   Same fix as .container .gallery above — needed on live site. */
 .container .embeddable-buttondown-form {
   display: flex;
 }
+
+/* Centered single-line form: email input + subscribe button side by side.
+   max-width + auto margins centers the form within the container. */
 .embeddable-buttondown-form {
-  display: flex !important;
+  display: flex;
   align-items: center;
   gap: 8px;
   margin-top: 48px;
@@ -338,10 +480,15 @@ a, button {
   margin-right: auto;
 }
 
+/* Label is hidden visually but kept in HTML for accessibility (screen readers).
+   display: none removes it from the layout entirely. */
 .embeddable-buttondown-form label {
   display: none;
 }
 
+/* Email input: transparent background matches the page, pink border matches the theme.
+   flex: 1 makes it take up all available space next to the button.
+   outline: none removes the default browser focus ring. */
 .embeddable-buttondown-form input[type="email"] {
   flex: 1;
   background: transparent;
@@ -353,6 +500,8 @@ a, button {
   outline: none;
 }
 
+/* Submit button matches the back-to-top button style: transparent + pink border.
+   Consistent design language across interactive elements. */
 .embeddable-buttondown-form input[type="submit"] {
   background: transparent;
   border: 0.5px solid #ff00a3;
@@ -370,6 +519,8 @@ a, button {
   opacity: 0.7;
 }
 
+/* Hides the "Powered by Buttondown" link.
+   display: none removes it from the layout completely. */
 .embeddable-buttondown-form p {
   display: none;
 }
