@@ -626,6 +626,7 @@ body .theme-toggle:hover {
 }
 
 .static-line {
+  flex-shrink: 0;
   height: 2px;
   background: linear-gradient(90deg, transparent, var(--pink), var(--purple), transparent);
   animation: flicker 0.15s infinite;
