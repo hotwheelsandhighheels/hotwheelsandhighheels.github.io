@@ -54,3 +54,18 @@ permalink: /Drivers/
   <a href="/Drivers/Alana#a-poem-by-alana-rodriguez">"For that swirling pile of trash" by Alana Rodriguez</a>
   <a href="/Drivers/abenet#a-poem-by-a-benét">"Somewhere in the Bay, a Girl Dreams of the Daygo" by a.benét</a>
 </div>
+
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/hotwheelsandhighheels"
+  method="post"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="submit" value="Subscribe" />
+  <p>
+    <a href="https://buttondown.com/refer/hotwheelsandhighheels" target="_blank">
+      Powered by Buttondown.
+    </a>
+  </p>
+</form>
