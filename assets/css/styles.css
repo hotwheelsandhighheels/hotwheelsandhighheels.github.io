@@ -381,7 +381,7 @@ hr {
 /* 3 equal columns on desktop, gap between cards, space below the whole gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 1fr = 1 fraction of available space */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* 1fr = 1 fraction of available space */
   gap: 16px;
   margin-bottom: 48px;
 }
@@ -562,4 +562,131 @@ body .theme-toggle {
 
 body .theme-toggle:hover {
   opacity: 1;
+}
+/* --- FEATURE CARD ---
+   Always last in the gallery grid — links to the coming soon page.
+   Transparent with pink border at rest, pulses on hover.
+   No image — pure CSS card. */
+.feature-card {
+  background: transparent;
+  border: 1px solid var(--pink);
+  height: 300px; /* matches gallery-card img height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* pulse animation — border and text glow pink on hover */
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+.feature-card:hover {
+  border-color: var(--pink);
+  box-shadow: 0 0 12px var(--pink);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+/* --- TEASER PAGE (REVVING UP) ---
+   Full height static effect page for upcoming features.
+   Static lines animate with flicker effect behind centered text.
+   Subscribe form at the bottom as call to action. */
+.teaser-page {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 0;
+}
+
+.teaser-static {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* static lines sit behind the text using z-index */
+.static-lines {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  opacity: 0.15;
+}
+
+.static-line {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--pink), var(--purple), transparent);
+  animation: flicker 0.15s infinite;
+}
+
+.static-line:nth-child(odd) {
+  animation-delay: 0.07s;
+  opacity: 0.5;
+}
+
+.static-line:nth-child(3n) {
+  background: linear-gradient(90deg, transparent, var(--text), transparent);
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* text sits on top of the static lines */
+.teaser-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.teaser-label {
+  font-family: 'Lora', serif;
+  font-size: 10pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--purple);
+  opacity: 0.7;
+  margin-bottom: 16px;
+}
+
+/* overrides the global h1 style for this page */
+.teaser-title {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 48pt;
+  color: var(--pink);
+  margin: 0 0 8px 0;
+}
+
+.teaser-sub {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--purple);
+  opacity: 0.6;
+}
+
+.teaser-subscribe {
+  text-align: center;
+  width: 100%;
+  margin-top: 48px;
+}
+
+.teaser-subscribe-label {
+  font-family: 'Lora', serif;
+  font-size: 10pt;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text);
+  opacity: 0.4;
+  margin-bottom: 16px;
 }

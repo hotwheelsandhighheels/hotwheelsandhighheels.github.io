@@ -1,0 +1,55 @@
+---
+layout: post
+title: Revving Up
+permalink: /revving-up/
+---
+
+<div class="teaser-page">
+  <div class="teaser-static">
+    <div class="static-lines">
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+      <div class="static-line"></div>
+    </div>
+    <div class="teaser-content">
+      <p class="teaser-label">Next Feature</p>
+      <h1 class="teaser-title">Revving Up</h1>
+      <p class="teaser-sub">something's coming</p>
+    </div>
+  </div>
+
+  <div class="teaser-subscribe">
+    <p class="teaser-subscribe-label">Subscribe to be first in the lane</p>
+    <form
+      action="https://buttondown.com/api/emails/embed-subscribe/hotwheelsandhighheels"
+      method="post"
+      class="embeddable-buttondown-form"
+    >
+      <label for="bd-email">Enter your email</label>
+      <input type="email" name="email" id="bd-email" />
+      <input type="submit" value="Subscribe" />
+      <p>
+        <a href="https://buttondown.com/refer/hotwheelsandhighheels" target="_blank">
+          Powered by Buttondown.
+        </a>
+      </p>
+    </form>
+  </div>
+</div>
