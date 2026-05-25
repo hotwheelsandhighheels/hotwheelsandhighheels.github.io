@@ -605,6 +605,7 @@ body .theme-toggle:hover {
   position: relative;
   width: 100%;
   min-height: 400px;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
