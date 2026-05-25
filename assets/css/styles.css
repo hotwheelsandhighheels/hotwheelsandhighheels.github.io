@@ -537,8 +537,10 @@ a, button {
 /* --- THEME TOGGLE BUTTON ---
    Mirrors the back-to-top button but sits in the bottom LEFT corner.
    Shows on all pages unlike back-to-top which is post only.
-   ☀️ = dark mode active (click for light), 🌙 = light mode active (click for dark) */
-.theme-toggle {
+   ☼ = dark mode active (click for light), ☾ = light mode active (click for dark)
+   body prefix adds specificity to override browser default button sizing —
+   same pattern as body .theme-toggle, .container .gallery, etc. */
+body .theme-toggle {
   position: fixed;
   bottom: 24px;
   left: 24px;
@@ -546,6 +548,7 @@ a, button {
   border: 1px solid var(--pink);
   color: var(--pink);
   font-size: 16px;
+  line-height: 1;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -556,10 +559,7 @@ a, button {
   align-items: center;
   justify-content: center;
 }
-body .theme-toggle {
-  width: 40px;
-  height: 40px;
-}
-.theme-toggle:hover {
+
+body .theme-toggle:hover {
   opacity: 1;
 }
