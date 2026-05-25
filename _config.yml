@@ -2,6 +2,7 @@
 title: Hot Wheels & High Heels 
 description: Come with me & catch a vibe! 
 url: hotwheelsandhighheels.com
+permalink: pretty
 
 plugins:
 - jekyll-feed
