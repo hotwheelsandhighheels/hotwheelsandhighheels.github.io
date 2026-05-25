@@ -330,7 +330,10 @@ a, button {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-top: 24px;
+  margin-top: 48px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .embeddable-buttondown-form label {
