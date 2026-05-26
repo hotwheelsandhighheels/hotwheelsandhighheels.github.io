@@ -44,9 +44,28 @@
    The 4Runner photo in the footer.
    max-height caps it so it doesn't take over the page. */
 .footer {
-  max-height: 70pt;
+  max-height: 150pt;
+  filter: drop-shadow(0 0 12px rgba(255, 0, 163, 0.4)) drop-shadow(0 0 24px rgba(163, 0, 255, 0.2));
+}
+/* --- FOOTER DEDICATION ---
+   Eulogy chic — Cormorant Garamond italic for the 4Runner memorial text.
+   First line in purple, second line smaller and off-white. */
+.footer-dedication {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 18pt;
+  color: var(--purple);
+  margin: 0 0 4px 0;
 }
 
+.footer-dedication-sub {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 13pt;
+  color: var(--text);
+  opacity: 0.6;
+  margin: 0;
+}
 /* --- IMAGES (GLOBAL) ---
    Prevents any image from overflowing its container.
    height: auto preserves the original aspect ratio. */
