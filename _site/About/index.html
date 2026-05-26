@@ -1,4 +1,4 @@
-<!doctype html><!-- defines document type -->
+<!doctype html>
 <html lang="en-US">
 <head><!-- the head includes all meta data -->
     <meta charset="UTF-8">
@@ -25,9 +25,9 @@
 
 </head>
 
-  <body class="post"> <!-- this is the container for all visible content -->
+  <body>
     <div class="container">
-      <nav>
+    <nav>
   <a href="/" class="nav-logo">Hot Wheels & High Heels</a>
   <button class="nav-toggle" aria-label="Open menu" onclick="toggleMenu()">
     <span></span><span></span><span></span>
@@ -52,7 +52,7 @@ function toggleMenu() {
   btn.classList.toggle('open');
 }
 </script>
-      <h1 id="about">About</h1>
+    <h1 id="about">About</h1>
 
 <h2 id="the-wheel">The Wheel</h2>
 <p>A toddler plays with toy cars in grandma’s closet using shoes with heels as inclines</p>
@@ -100,35 +100,41 @@ Faith Davis<br />
 Emily Buchanan<br />
 Grace Mathews</p>
 
+    <footer>
+  <div style="text-align: center;">
+    <img class="footer" src="/assets/Images/4runner.jpg" alt="Toyota 4Runner, White with black trim">
+    <p>RIP My 2000 Toyota 4runner <br>
+    you were the <i>hottest</i> salvage on these sunny roads</p>
+  </div>
+</footer>
     </div>
-    <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="back-to-top">&#8593;</button>
-      <!-- light/dark mode toggle — bottom left corner, mirrors back-to-top button on right -->
+    <!-- light/dark mode toggle — bottom left corner, mirrors back-to-top button on right -->
     <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">☼</button>
-    <script>
-    // toggleTheme() runs when the button is clicked
-    // it flips between dark (default) and light mode
-    // localStorage saves the choice so it persists across pages
-    function toggleTheme() {
-      const html = document.documentElement;
-      const btn = document.querySelector('.theme-toggle');
-      if (html.getAttribute('data-theme') === 'light') {
-        html.removeAttribute('data-theme');
-        btn.textContent = '☼';
-        localStorage.removeItem('theme'); // forgets the saved preference
-      } else {
-        html.setAttribute('data-theme', 'light');
-        btn.textContent = '☽';
-        localStorage.setItem('theme', 'light'); // saves 'light' to the browser
-      }
+      <script>
+  // toggleTheme() runs when the button is clicked
+  // it flips between dark (default) and light mode
+  // localStorage saves the choice so it persists across pages
+  function toggleTheme() {
+    const html = document.documentElement;
+    const btn = document.querySelector('.theme-toggle');
+    if (html.getAttribute('data-theme') === 'light') {
+      html.removeAttribute('data-theme');
+      btn.textContent = '☼';
+      localStorage.removeItem('theme'); // forgets the saved preference
+    } else {
+      html.setAttribute('data-theme', 'light');
+      btn.textContent = '☽';
+      localStorage.setItem('theme', 'light'); // saves 'light' to the browser
     }
+  }
 
-    // runs immediately on every page load before anything renders
-    // checks if a theme preference was saved and applies it right away
-    const saved = localStorage.getItem('theme');
-    if (saved) {
-      document.documentElement.setAttribute('data-theme', saved);
-      document.querySelector('.theme-toggle').textContent = '☽';
-    }
-    </script>
+  // runs immediately on every page load before anything renders
+  // checks if a theme preference was saved and applies it right away
+  const saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    document.querySelector('.theme-toggle').textContent = '☽';
+  }
+  </script>
   </body>
 </html>
