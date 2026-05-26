@@ -34,7 +34,6 @@ permalink: /revving-up/
       <p class="teaser-sub">something's coming</p>
     </div>
   </div>
-
   <div class="teaser-subscribe">
     <p class="teaser-subscribe-label">Subscribe to be first in the lane</p>
     <form

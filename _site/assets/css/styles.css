@@ -604,7 +604,7 @@ body .theme-toggle:hover {
 .teaser-static {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 320px;
   display: flex !important;
 }
 
@@ -683,7 +683,7 @@ body .theme-toggle:hover {
 .teaser-subscribe {
   text-align: center;
   width: 100%;
-  margin-top: 48px;
+  margin-top: 16px;
 }
 
 .teaser-subscribe-label {
