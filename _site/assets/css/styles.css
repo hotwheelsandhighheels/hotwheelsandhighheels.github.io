@@ -30,7 +30,7 @@
   margin: auto;
   max-width: 900px;
   display: block;
-  padding-bottom: 64px;
+  padding-bottom: 120px;
 }
 
 /* --- BANNER ---
@@ -324,7 +324,7 @@ nav ul li a:hover {
    Scoped to body.post so it only appears on post pages, not default pages.
    position: fixed keeps it stuck to the bottom right of the viewport while scrolling.
    border-radius: 50% makes it a circle (only works because width and height are equal). */
-body.post .back-to-top {
+.back-to-top {
   position: fixed;
   bottom: 24px;
   right: 24px;
@@ -343,15 +343,10 @@ body.post .back-to-top {
   justify-content: center;
 }
 
-body.post .back-to-top:hover {
+.back-to-top:hover {
   opacity: 1;
 }
 
-/* Adds breathing room at the bottom of post pages.
-   Posts don't have a footer so without this the content hits the edge abruptly. */
-body.post .container {
-  padding-bottom: 64px;
-}
 
 /* --- BIO CARD ---
    Flexbox layout for contributor profile: photo on the left, bio text on the right.
