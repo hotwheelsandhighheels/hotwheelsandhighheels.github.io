@@ -36,3 +36,7 @@ It is a marker of 21st century life that a large percentage of our cultural hist
 The web was built on a vision of a universally-linked hypertext communications system. It has offered us a lot more than that. It is a network-informed economy. It is a history built on parallel truths. It is, by all intentions, participatory. 
 
 [Bibliography](https://www.zotero.org/groups/6565887/millennial_epoch)
+
+<br>
+<br>
+<br>
