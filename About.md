@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: About
 permalink: /About/
 ---
@@ -47,6 +47,6 @@ Julian R. Hernández
 Maria E. Siordia  
 William A. Nericcio  
 Carson Sandell  
-Faith Davis
-Emily Buchanan
-Grace Mathews
+Faith Davis  
+Emily Buchanan  
+Grace Mathews  
