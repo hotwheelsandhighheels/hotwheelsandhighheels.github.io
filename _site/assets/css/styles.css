@@ -604,19 +604,17 @@ body .theme-toggle:hover {
 .teaser-static {
   position: relative;
   width: 100%;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 500px;
+  display: flex !important;
 }
 
 /* static lines sit behind the text using z-index */
 .static-lines {
   position: absolute;
-  top: 0;
+  top: 60px;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 60px;
   overflow: hidden;
   z-index: 0;
 }
@@ -652,7 +650,6 @@ body .theme-toggle:hover {
   display: flex !important;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .teaser-label {
