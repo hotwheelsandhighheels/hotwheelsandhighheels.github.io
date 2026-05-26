@@ -34,3 +34,5 @@ Artificial Intelligence
 It is a marker of 21st century life that a large percentage of our cultural history has been digitally recorded online. The web can then be classified as an archive. More importantly, the web allowed us to participate in the accumulation of objects--what gets included or excluded is a communal effort, giving new weight to archival value. 
 
 The web was built on a vision of a universally-linked hypertext communications system. It has offered us a lot more than that. It is a network-informed economy. It is a history built on parallel truths. It is, by all intentions, participatory. 
+
+[Bibliography](https://www.zotero.org/groups/6565887/millennial_epoch)
