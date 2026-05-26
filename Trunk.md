@@ -9,7 +9,7 @@ permalink: /Trunk/
 Separate from the millennial age cohort, and much like the volta in poetry, an epoch references
 a turn in history characterized by dramatic change in perspective. 
 
-## Raise your hand if you've ever felt personally victimized by [ _______ ] 
+### Raise your hand if you've ever felt personally victimized by [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] 
 
 In 2004, a well known cult-classic called **Mean Girls** graced our screens with the above quote. Fittingly, the characters in the movie are the eldest of an age cohort, dubbed _Millennials_ by pop-sociologists Neil Howe and William Strauss, that came of age at the turn of the millennium. The lives of these individuals, and those succeeding them, have been dictated by a confluence of sociopolitical and -economic events. Such as:  
 
