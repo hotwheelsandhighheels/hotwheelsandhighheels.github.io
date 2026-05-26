@@ -148,6 +148,22 @@ a {
 a:hover {
   text-decoration: underline;
 }
+/* --- LISTS --- */
+.ugh-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding-bottom: 20pt;
+  margin: 0;
+  font-family: 'Lora', serif;
+  font-size: 12pt;
+  color: var(--text);
+}
+
+.ugh-list li {
+  box-sizing: border-box;
+}
 
 /* --- NAVIGATION BAR ---
    flex + space-between pushes the logo left and links right.
