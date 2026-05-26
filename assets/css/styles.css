@@ -37,8 +37,9 @@
    width: 100% makes it stretch edge to edge of the container. */
 .banner {
   width: 100%;
+  box-shadow: 0 4px 24px rgba(255, 0, 163, 0.2), 0 0 48px rgba(163, 0, 255, 0.1);
+  display: block;
 }
-
 /* --- FOOTER IMAGE ---
    The 4Runner photo in the footer.
    max-height caps it so it doesn't take over the page. */
