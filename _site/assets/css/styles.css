@@ -729,3 +729,17 @@ body .theme-toggle:hover {
   opacity: 0.4;
   margin-bottom: 16px;
 }
+/* --- 4RUNNER SHAKE ANIMATION ---
+   Triggered by JavaScript when the image is clicked.
+   Mimics a car engine starting — quick left/right vibration. */
+@keyframes carShake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px) rotate(-1deg); }
+  40% { transform: translateX(6px) rotate(1deg); }
+  60% { transform: translateX(-4px) rotate(-0.5deg); }
+  80% { transform: translateX(4px) rotate(0.5deg); }
+}
+
+.footer-shake {
+  animation: carShake 0.5s ease-in-out;
+}

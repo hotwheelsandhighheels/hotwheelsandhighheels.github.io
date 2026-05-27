@@ -1,7 +1,33 @@
 <footer>
   <div style="text-align: center;">
-    <img class="footer" src="/assets/Images/4runner.png" alt="Toyota 4Runner, White with black trim">
-    <p class="footer-dedication">RIP my 2000 toyota 4runner</p>
+    <img class="footer" id="runner" src="/assets/Images/4runner.png" alt="Toyota 4Runner, White with black trim" onclick="revTheEngine()">
+    <p class="footer-dedication">RIP My 2000 Toyota 4runner</p>
     <p class="footer-dedication-sub">you were the <i>hottest</i> salvage on these sunny roads</p>
   </div>
 </footer>
+
+<script>
+// Array of three recorded 4Runner sounds
+// Math.random() picks one randomly each click
+function revTheEngine() {
+  const sounds = [
+    'assets/sounds/01 Unlocking 4runner.mp3',
+    'assets/sounds/02 Engine Start 4runner.mp3',
+    'assets/sounds/06 Loitering 4runner.mp3'
+  ];
+
+  // picks a random index between 0 and 2
+  const random = sounds[Math.floor(Math.random() * sounds.length)];
+  
+  // creates a new audio object and plays it
+  const audio = new Audio(random);
+  audio.play();
+
+  // adds the shake class to trigger the animation
+  const car = document.getElementById('runner');
+  car.classList.add('footer-shake');
+
+  // removes the shake class after 0.5s so it can be triggered again
+  setTimeout(() => car.classList.remove('footer-shake'), 500);
+}
+</script>
