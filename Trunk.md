@@ -45,9 +45,3 @@ The web was built on a vision of a universally-linked hypertext communications s
 
 [Bibliography](https://www.zotero.org/groups/6565887/millennial_epoch)
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
