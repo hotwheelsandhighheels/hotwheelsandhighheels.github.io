@@ -808,3 +808,108 @@ body .theme-toggle:hover {
   opacity: 1;
   text-decoration: underline;
 }
+/* --- BLOCKQUOTE / PULL QUOTE ---
+   For pull quotes from interviews or poems.
+   Left border in pink, italic Cormorant Garamond, indented. */
+.pull-quote {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: var(--text);
+  border-left: 2px solid var(--pink);
+  margin: 24px 0;
+  padding: 8px 24px;
+  opacity: 0.85;
+}
+
+/* --- IMAGE CAPTION ---
+   Small label below images for photo credits or descriptions. */
+.caption {
+  font-family: 'Lora', serif;
+  font-size: 9pt;
+  color: var(--text);
+  opacity: 0.4;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+/* --- TAG / BADGE ---
+   Small pill labels for categorizing content.
+   Transparent with purple border, uppercase Lora. */
+.tag {
+  display: inline-block;
+  font-family: 'Lora', serif;
+  font-size: 9pt;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--purple);
+  border: 0.5px solid var(--purple);
+  border-radius: 20px;
+  padding: 4px 12px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+/* --- CALLOUT BOX ---
+   Highlighted aside or editor's note.
+   Subtle pink left border, slightly muted background. */
+.callout {
+  border-left: 2px solid var(--pink);
+  padding: 12px 20px;
+  margin: 24px 0;
+  background: rgba(255, 0, 163, 0.04);
+}
+
+.callout p {
+  margin: 0;
+  font-size: 12pt;
+  opacity: 0.8;
+}
+
+/* --- AUDIO PLAYER ---
+   Wrapper for contributor audio recordings or sound clips.
+   Native browser audio element styled to match the site. */
+.audio-player {
+  margin: 24px 0;
+}
+
+.audio-label {
+  font-family: 'Lora', serif;
+  font-size: 9pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--purple);
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+audio {
+  width: 100%;
+  filter: invert(1) hue-rotate(180deg);
+  opacity: 0.7;
+}
+
+audio:hover {
+  opacity: 1;
+}
+
+/* --- VIDEO EMBED ---
+   Responsive 16:9 video wrapper for YouTube or Vimeo embeds.
+   padding-top: 56.25% is the magic number for 16:9 aspect ratio. */
+.video-wrap {
+  position: relative;
+  padding-top: 56.25%;
+  margin: 24px 0;
+  overflow: hidden;
+}
+
+.video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid rgba(255, 0, 163, 0.2);
+}
