@@ -17,7 +17,7 @@ image: assets/Images/Jack_Cover.jpeg
   </div>
 </div>
 
-_Connect with Jack on IG_: [@jackhinzo](https://www.instagram.com/jackhinzo)
+_Connect with Jack on IG_: [@caatssoup](https://www.instagram.com/caatssoup/)
 
 ---
 
