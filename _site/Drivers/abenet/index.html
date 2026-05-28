@@ -16,11 +16,13 @@
 <link rel="canonical" href="http://localhost:4000/Drivers/abenet/" />
 <meta property="og:url" content="http://localhost:4000/Drivers/abenet/" />
 <meta property="og:site_name" content="Hot Wheels &amp; High Heels" />
+<meta property="og:image" content="http://localhost:4000/assets/Images/A-benet_cover.jpg" />
 <meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/Images/A-benet_cover.jpg" />
 <meta property="twitter:title" content="A. Benét" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"An interview with A. Benét, San Diego native and poetry MFA candidate at San Diego State University.","headline":"A. Benét","url":"http://localhost:4000/Drivers/abenet/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"An interview with A. Benét, San Diego native and poetry MFA candidate at San Diego State University.","headline":"A. Benét","image":"http://localhost:4000/assets/Images/A-benet_cover.jpg","url":"http://localhost:4000/Drivers/abenet/"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -235,6 +237,27 @@ under the heat. We family, race low</p>
 <p>riders as they pass, kick up dirt<br />
 with our feet, see the prints they leave<br />
 behind. A relief.</p>
+
+<hr />
+
+<p><span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span></p>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/A-benet_cover.jpg" alt="a.benet cover photo" />
+</div>
+<script>
+// opens the lightbox by adding .open class
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+
+// closes the lightbox by removing .open class
+// clicking anywhere on the overlay closes it, not just the X
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>
 
 
     </div>

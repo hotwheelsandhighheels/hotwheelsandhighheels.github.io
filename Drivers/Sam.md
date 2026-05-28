@@ -2,6 +2,7 @@
 layout: post
 title: Sam Yaziji
 description: An interview with Sam Yaziji, poet, musician, and researcher interested in Eastern Christian hymnography, post-phenomenology, and cybernetics.
+image: assets/Images/Sam_Cover.jpg
 ---
 # Sam Yaziji
 <div class="bio-card">
@@ -132,3 +133,22 @@ I agree, but I think that the challenges and blessings are the same as they ever
 ### Do you see your poetry as a way to share your faith with others, or is it more of a personal exploration? How do you feel when readers connect with your spiritual themes?
 
 I see it more as a personal exploration, but I’m really delighted when readers connect with my (occasionally-overt) spiritual themes. St. Porphyrios says, "whoever wants to become a Christian must first become a poet."
+
+<span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/Sam_Cover.jpg" alt="Sam Yaziji cover photo">
+</div>
+<script>
+// opens the lightbox by adding .open class
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+
+// closes the lightbox by removing .open class
+// clicking anywhere on the overlay closes it, not just the X
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>

@@ -2,6 +2,7 @@
 layout: post
 title: Alana Rodriguez
 description: An interview with Alana Rodriguez, Poetry MFA graduate from San Diego State University and Social Media & Marketing Coordinator for the San Diego Poetry Annual. 
+image: assets/Images/Alana_Cover.jpeg
 ---
 # Alana Rodriguez
 
@@ -189,3 +190,23 @@ then spit down 
 into the current,   
 that dancing current,   
 how it beats like a heart.
+
+
+<span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/Alana_Cover.jpeg" alt="Alana Rodriguez cover photo">
+</div>
+<script>
+// opens the lightbox by adding .open class
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+
+// closes the lightbox by removing .open class
+// clicking anywhere on the overlay closes it, not just the X
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>

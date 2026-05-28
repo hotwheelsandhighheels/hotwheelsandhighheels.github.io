@@ -743,3 +743,67 @@ body .theme-toggle:hover {
 .footer-shake {
   animation: carShake 0.5s ease-in-out;
 }
+/* --- LIGHTBOX ---
+   Full screen overlay for cover photos on post pages.
+   position: fixed covers the entire viewport regardless of scroll position.
+   z-index: 1000 puts it on top of everything including the nav and buttons.
+   Hidden by default — JavaScript adds .open class to show it. */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 6, 8, 0.95);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.lightbox.open {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  box-shadow: 0 0 48px rgba(255, 0, 163, 0.2), 0 0 96px rgba(163, 0, 255, 0.1);
+}
+
+/* X close button — top right corner */
+.lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-family: 'Lora', serif;
+  font-size: 14pt;
+  color: var(--pink);
+  cursor: pointer;
+  opacity: 0.7;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.lightbox-close:hover {
+  opacity: 1;
+}
+
+/* subtle link style — matches connect links on post pages */
+.cover-photo-link {
+  font-family: 'Lora', serif;
+  font-size: 14pt;
+  font-style: italic;
+  color: var(--pink);
+  cursor: pointer;
+  opacity: 0.7;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.cover-photo-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}

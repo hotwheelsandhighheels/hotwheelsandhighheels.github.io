@@ -2,10 +2,10 @@
 layout: post
 title: A. Benét
 description: An interview with A. Benét, San Diego native and poetry MFA candidate at San Diego State University. 
+image: assets/Images/A-benet_cover.jpg
 ---
 
 # a.benét
-
 
 <div class="bio-card">
   <div class="bio-image">
@@ -190,3 +190,23 @@ riders as they pass, kick up dirt
 with our feet, see the prints they leave  
 behind. A relief.
 
+***
+
+<span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/A-benet_cover.jpg" alt="a.benet cover photo">
+</div>
+<script>
+// opens the lightbox by adding .open class
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+
+// closes the lightbox by removing .open class
+// clicking anywhere on the overlay closes it, not just the X
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>

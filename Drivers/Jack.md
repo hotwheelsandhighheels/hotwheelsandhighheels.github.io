@@ -2,6 +2,7 @@
 layout: post
 title: Jack Hinzo
 description: An interview with Jack Hinzo, San Diego native and photographer with interest in polaroid. 
+image: assets/Images/Jack_Cover.jpeg
 ---
 # Jack Hinzo
 
@@ -179,3 +180,22 @@ Teenagers are in the pivotal part of their lives where they are deciding on who 
 Take it easy on high school, it never was, and never will be that serious. 
 
 I hope you started to relax a little bit. Look around and see how many people love you. then say you love them too.
+
+<span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/Jack_Cover.jpeg" alt="jack hinzo cover photo">
+</div>
+<script>
+// opens the lightbox by adding .open class
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+
+// closes the lightbox by removing .open class
+// clicking anywhere on the overlay closes it, not just the X
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>

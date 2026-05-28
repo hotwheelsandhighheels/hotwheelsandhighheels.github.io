@@ -2,6 +2,7 @@
 layout: post
 title: Jon Tobias
 description: An interview with Jon Tobias, San Diego native, poetry MFA graduate from San Diego State University and author of the chapbook Talking to Ghosts, published by Quillkeepers Press.
+image: assets/Images/Jon_Cover.jpg
 ---
 # Jon Tobias
 
@@ -16,8 +17,7 @@ description: An interview with Jon Tobias, San Diego native, poetry MFA graduate
   </div>
 </div>
 
-_Connect with Jon on IG_: [Metaphors_be_with_you](https://www.instagram.com/metaphors_be_with_you)
-
+_Connect with Jon on IG_: [Metaphors_be_with_you](https://www.instagram.com/metaphors_be_with_you)  
 _Check out his chapbook_ [Talking to Ghosts](https://www.amazon.com/dp/B0CXRZGD7P?ref=cm_sw_r_ffobk_cp_ud_dp_72299J8DV36J7M4SQZE4&ref_=cm_sw_r_ffobk_cp_ud_dp_72299J8DV36J7M4SQZE4&social_share=cm_sw_r_ffobk_cp_ud_dp_72299J8DV36J7M4SQZE4&bestFormat=true)
 
 ***
@@ -167,3 +167,22 @@ Probably the street/neighborhood I grew up in. Where I spent most of my unadult 
 ### What would you write in a letter to the San Diego of your childhood, and what would you write in a letter to the San Diego of the future?
 
 Dear baby San Diego. Do you remember the Drive-in? Do you remember Marshal Scotty's? The Wednesday afternoon muscle cars and lowriders? Do you remember when I was fascinated with ghosts and my mother would call me at home from places that were crowded and tell me she was alone? From the middle of the Santa Fe Station, she'd say, "Do you think this place is haunted? Can you hear all the people? It's weird because I am alone. It's just me and all the dead travelers waiting for their train." San Diego. How much of you is a ghost. How do you phantom limb a street? Do you still hold the memory of my first kiss in the dirt lot behind my old home that is now apartment housing? Is the ghost of my first kiss floating in someone's bedroom? What part of you is grave? What part of you is phoenix? What patch of you do you want me to press my lips to before I pray?
+
+<span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/Jon_Cover.jpg" alt="Jon Tobias cover photo">
+</div>
+<script>
+// opens the lightbox by adding .open class
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+
+// closes the lightbox by removing .open class
+// clicking anywhere on the overlay closes it, not just the X
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>

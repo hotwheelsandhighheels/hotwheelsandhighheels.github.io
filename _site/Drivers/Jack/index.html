@@ -16,11 +16,13 @@
 <link rel="canonical" href="http://localhost:4000/Drivers/Jack/" />
 <meta property="og:url" content="http://localhost:4000/Drivers/Jack/" />
 <meta property="og:site_name" content="Hot Wheels &amp; High Heels" />
+<meta property="og:image" content="http://localhost:4000/assets/Images/Jack_Cover.jpeg" />
 <meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/Images/Jack_Cover.jpeg" />
 <meta property="twitter:title" content="Jack Hinzo" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"An interview with Jack Hinzo, San Diego native and photographer with interest in polaroid.","headline":"Jack Hinzo","url":"http://localhost:4000/Drivers/Jack/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"An interview with Jack Hinzo, San Diego native and photographer with interest in polaroid.","headline":"Jack Hinzo","image":"http://localhost:4000/assets/Images/Jack_Cover.jpeg","url":"http://localhost:4000/Drivers/Jack/"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -228,6 +230,26 @@ Padres fans are my favorite sports people, that will never change.</p>
 <p>Take it easy on high school, it never was, and never will be that serious.</p>
 
 <p>I hope you started to relax a little bit. Look around and see how many people love you. then say you love them too.</p>
+
+<p><span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span></p>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/Jack_Cover.jpeg" alt="jack hinzo cover photo" />
+</div>
+<script>
+// opens the lightbox by adding .open class
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+
+// closes the lightbox by removing .open class
+// clicking anywhere on the overlay closes it, not just the X
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>
+
 
     </div>
     <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="back-to-top">&#8593;</button>

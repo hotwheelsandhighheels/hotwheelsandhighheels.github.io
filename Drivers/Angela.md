@@ -2,6 +2,7 @@
 layout: post
 title: Angela Mendoza
 description: An interview with Angela Mendoza, Fiction MFA graduate from San Diego State University and professor at U.C. San Diego. 
+image: assets/Images/Angela_Cover.JPG
 ---
 # Angela Mendoza
 
@@ -151,3 +152,22 @@ I love in Spanish. I love like my mami. Filled with fire and rage and sadness an
 ### What are your hopes for Chicana representation in literature? How do you want your own work to contribute to that vision?
 
 I want us to demand space. I want us to familiarize the world with our experience. I want them to see us even when they want to hide us or remove us. I hope my work demands attention in ways my person doesn't.
+
+<span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/Angela_Cover.JPG" alt="Angela Mendoza cover photo">
+</div>
+<script>
+// opens the lightbox by adding .open class
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+
+// closes the lightbox by removing .open class
+// clicking anywhere on the overlay closes it, not just the X
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>

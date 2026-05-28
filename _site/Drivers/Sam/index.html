@@ -16,11 +16,13 @@
 <link rel="canonical" href="http://localhost:4000/Drivers/Sam/" />
 <meta property="og:url" content="http://localhost:4000/Drivers/Sam/" />
 <meta property="og:site_name" content="Hot Wheels &amp; High Heels" />
+<meta property="og:image" content="http://localhost:4000/assets/Images/Sam_Cover.jpg" />
 <meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/Images/Sam_Cover.jpg" />
 <meta property="twitter:title" content="Sam Yaziji" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"An interview with Sam Yaziji, poet, musician, and researcher interested in Eastern Christian hymnography, post-phenomenology, and cybernetics.","headline":"Sam Yaziji","url":"http://localhost:4000/Drivers/Sam/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"An interview with Sam Yaziji, poet, musician, and researcher interested in Eastern Christian hymnography, post-phenomenology, and cybernetics.","headline":"Sam Yaziji","image":"http://localhost:4000/assets/Images/Sam_Cover.jpg","url":"http://localhost:4000/Drivers/Sam/"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -180,6 +182,26 @@ function toggleMenu() {
 <h3 id="do-you-see-your-poetry-as-a-way-to-share-your-faith-with-others-or-is-it-more-of-a-personal-exploration-how-do-you-feel-when-readers-connect-with-your-spiritual-themes">Do you see your poetry as a way to share your faith with others, or is it more of a personal exploration? How do you feel when readers connect with your spiritual themes?</h3>
 
 <p>I see it more as a personal exploration, but I’m really delighted when readers connect with my (occasionally-overt) spiritual themes. St. Porphyrios says, “whoever wants to become a Christian must first become a poet.”</p>
+
+<p><span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span></p>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/Sam_Cover.jpg" alt="Sam Yaziji cover photo" />
+</div>
+<script>
+// opens the lightbox by adding .open class
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+
+// closes the lightbox by removing .open class
+// clicking anywhere on the overlay closes it, not just the X
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>
+
 
     </div>
     <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="back-to-top">&#8593;</button>

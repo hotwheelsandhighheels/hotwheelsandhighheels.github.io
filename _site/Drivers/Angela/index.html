@@ -16,11 +16,13 @@
 <link rel="canonical" href="http://localhost:4000/Drivers/Angela/" />
 <meta property="og:url" content="http://localhost:4000/Drivers/Angela/" />
 <meta property="og:site_name" content="Hot Wheels &amp; High Heels" />
+<meta property="og:image" content="http://localhost:4000/assets/Images/Angela_Cover.JPG" />
 <meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/Images/Angela_Cover.JPG" />
 <meta property="twitter:title" content="Angela Mendoza" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"An interview with Angela Mendoza, Fiction MFA graduate from San Diego State University and professor at U.C. San Diego.","headline":"Angela Mendoza","url":"http://localhost:4000/Drivers/Angela/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"An interview with Angela Mendoza, Fiction MFA graduate from San Diego State University and professor at U.C. San Diego.","headline":"Angela Mendoza","image":"http://localhost:4000/assets/Images/Angela_Cover.JPG","url":"http://localhost:4000/Drivers/Angela/"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -200,6 +202,26 @@ function toggleMenu() {
 <h3 id="what-are-your-hopes-for-chicana-representation-in-literature-how-do-you-want-your-own-work-to-contribute-to-that-vision">What are your hopes for Chicana representation in literature? How do you want your own work to contribute to that vision?</h3>
 
 <p>I want us to demand space. I want us to familiarize the world with our experience. I want them to see us even when they want to hide us or remove us. I hope my work demands attention in ways my person doesn’t.</p>
+
+<p><span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span></p>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/Angela_Cover.JPG" alt="Angela Mendoza cover photo" />
+</div>
+<script>
+// opens the lightbox by adding .open class
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+
+// closes the lightbox by removing .open class
+// clicking anywhere on the overlay closes it, not just the X
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>
+
 
     </div>
     <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="back-to-top">&#8593;</button>
