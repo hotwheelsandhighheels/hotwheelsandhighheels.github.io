@@ -10,7 +10,7 @@ A toddler plays with toy cars in grandma's closet using shoes with heels as incl
 
 I am interested in memory work and interviewing memory workers  
 
-Interviews are solicited but if you fit the vibe, _crash into me_
+If you fit the vibe, _crash into me_
 
 ## The Vibe  
 Millennial, as in epoch-forming  
@@ -20,10 +20,8 @@ Californian: Sunny, ocean waves, sandy beaches
 Driving really fast on an empty highway with the windows down and the night sky ahead
 
 ## Registration
-HW&Hh publishes solicited interviews and ***short-form*** creative content. <br>
-HW&Hh pays $20/interview. <br>
-
-_Unsolicited content will be considered for publication but not given priority_. <br>
+HW&Hh publishes memory work in the form of oral histories and creative content. <br>
+HW&Hh 
 <br>
 
 # Alejandra Hernández
