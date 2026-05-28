@@ -25,7 +25,8 @@
 /* --- CONTAINER ---
    Centers all page content and caps the width at 900px.
    margin: auto pushes equal space on left and right, centering the block.
-   display: block is explicit to prevent browser defaults from interfering. */
+   display: block is explicit to prevent browser defaults from interfering. 
+   padding-bottom: keeps page content from touching bottom of screen. */
 .container {
   margin: auto;
   max-width: 900px;
