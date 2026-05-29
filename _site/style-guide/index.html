@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en-US">
+<head><!-- the head includes all meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hot Wheels &amp; High Heels" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Style Guide | Hot Wheels &amp; High Heels</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Style Guide" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Come with me &amp; catch a vibe!" />
+<meta property="og:description" content="Come with me &amp; catch a vibe!" />
+<link rel="canonical" href="http://localhost:4000/style-guide/" />
+<meta property="og:url" content="http://localhost:4000/style-guide/" />
+<meta property="og:site_name" content="Hot Wheels &amp; High Heels" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Style Guide" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Come with me &amp; catch a vibe!","headline":"Style Guide","url":"http://localhost:4000/style-guide/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+    <div class="container">
+    <nav>
+  <a href="/" class="nav-logo">Hot Wheels & High Heels</a>
+  <button class="nav-toggle" aria-label="Open menu" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+  <ul id="nav-menu">
+    
+    <li><a class="" href="/">Home</a></li>
+    
+    <li><a class="" href="/About/">About</a></li>
+    
+    <li><a class="" href="/Drivers/">Drivers</a></li>
+    
+    <li><a class="" href="/Trunk/">Trunk</a></li>
+    
+  </ul>
+</nav>
+<script>
+function toggleMenu() {
+  const menu = document.getElementById('nav-menu');
+  const btn = document.querySelector('.nav-toggle');
+  menu.classList.toggle('open');
+  btn.classList.toggle('open');
+}
+</script>
+    <!-- ============================================
+     HOT WHEELS & HIGH HEELS — STYLE GUIDE
+     Hidden page — not indexed by search engines (sitemap: false)
+     Use this as a reference for every component available on the site.
+     To use any component, copy the HTML block and paste into your markdown file.
+     ============================================ -->
+
+<!-- ============================================
+     TYPOGRAPHY
+     ============================================ -->
+
+<h2 id="typography">Typography</h2>
+
+<h1 id="h1--playfair-display-italic-pink">H1 — Playfair Display Italic Pink</h1>
+<h2 id="h2--cormorant-garamond-purple">H2 — Cormorant Garamond Purple</h2>
+<h3 id="h3--lora-uppercase-purple">H3 — Lora Uppercase Purple</h3>
+
+<p>This is a paragraph in Lora light. <em>This is italic.</em> <strong>This is bold.</strong> This is a <a href="#">pink link</a> that underlines on hover.</p>
+
+<hr />
+
+<!-- ============================================
+     BLOCKQUOTE
+     Pull quotes from interviews or poems.
+     Usage: wrap text in > in markdown
+     ============================================ -->
+
+<h2 id="blockquote">Blockquote</h2>
+
+<blockquote class="pull-quote">
+  "The speed limit is 140mph but some cars go faster than that."
+</blockquote>
+
+<hr />
+
+<!-- ============================================
+     IMAGE CAPTION
+     Use below any image that needs a credit or description.
+     Usage: add <p class="caption"> below your image markdown
+     ============================================ -->
+
+<h2 id="image-caption">Image Caption</h2>
+
+<p><img src="/assets/Images/Banner.PNG" alt="example" /></p>
+<p class="caption">Photo by Kimberly Tobias — banner image</p>
+
+<hr />
+
+<!-- ============================================
+     TAG / BADGE
+     For categorizing posts or labeling content.
+     Usage: <span class="tag">label</span>
+     ============================================ -->
+
+<h2 id="tags">Tags</h2>
+
+<p><span class="tag">poetry</span>
+<span class="tag">interview</span>
+<span class="tag">san diego</span></p>
+
+<hr />
+
+<!-- ============================================
+     CALLOUT BOX
+     For highlighted notes, asides, or editor's notes.
+     Usage: <div class="callout">your text</div>
+     ============================================ -->
+
+<h2 id="callout-box">Callout Box</h2>
+
+<div class="callout">
+  <p><em>Editor's note:</em> This interview has been lightly edited for clarity and length.</p>
+</div>
+
+<hr />
+
+<!-- ============================================
+     WORD BANK / TAG CLOUD
+     Borderless grid of words or terms.
+     Usage: <ul class="ugh-list"> with <li> items
+     ============================================ -->
+
+<h2 id="word-bank">Word Bank</h2>
+
+<ul class="ugh-list">
+  <li>flash</li>
+  <li>salvage</li>
+  <li>velocity</li>
+  <li>chrome</li>
+  <li>asphalt</li>
+  <li>stiletto</li>
+  <li>throttle</li>
+  <li>lace</li>
+  <li>ignition</li>
+  <li>gloss</li>
+  <li>torque</li>
+  <li>lipstick</li>
+</ul>
+
+<hr />
+
+<!-- ============================================
+     AUDIO PLAYER
+     For contributor recordings, poems read aloud, or sound clips.
+     Usage: replace the src with your actual audio file path.
+     Audio files go in /assets/sounds/
+     ============================================ -->
+
+<h2 id="audio-player">Audio Player</h2>
+
+<div class="audio-player">
+  <p class="audio-label">listen</p>
+  <audio controls="">
+    <source src="/assets/sounds/Engine_Start_4runner.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<hr />
+
+<!-- ============================================
+     VIDEO EMBED
+     For embedded YouTube or Vimeo videos.
+     Usage: replace the src with your actual embed URL.
+     Get embed URL from YouTube: Share > Embed > copy src value only
+     ============================================ -->
+
+<h2 id="video-embed">Video Embed</h2>
+
+<div class="video-wrap">
+  <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+  </iframe>
+</div>
+
+<hr />
+
+<!-- ============================================
+     COVER PHOTO LIGHTBOX
+     Clickable link that opens cover photo full screen.
+     Usage: copy this entire block to the bottom of a contributor post.
+     Change the img src and alt for each contributor.
+     ============================================ -->
+
+<h2 id="cover-photo-lightbox">Cover Photo Lightbox</h2>
+
+<p><span class="cover-photo-link" onclick="openLightbox()">cover photo</span></p>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/Images/Jon_Cover.jpg" alt="Jon Tobias cover photo" />
+</div>
+
+<script>
+function openLightbox() {
+  document.getElementById('lightbox').classList.add('open');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+</script>
+
+<hr />
+
+<!-- ============================================
+     HORIZONTAL RULE DIVIDER
+     Pink 0.5px line used between bio and interview content.
+     Usage: *** in markdown or <hr> in HTML
+     ============================================ -->
+
+<h2 id="divider">Divider</h2>
+
+<hr />
+
+<!-- ============================================
+     SUBSCRIBE FORM
+     Buttondown email signup form.
+     Usage: paste this wherever you want a signup form.
+     Already on the Drivers page and Revving Up page.
+     ============================================ -->
+
+<h2 id="subscribe-form">Subscribe Form</h2>
+
+<form action="https://buttondown.com/api/emails/embed-subscribe/hotwheelsandhighheels" method="post" class="embeddable-buttondown-form">
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="submit" value="Subscribe" />
+  <p>
+    <a href="https://buttondown.com/refer/hotwheelsandhighheels" target="_blank">
+      Powered by Buttondown.
+    </a>
+  </p>
+</form>
+
+    </div>
+    <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="back-to-top">&#8593;</button>
+    <!-- light/dark mode toggle — bottom left corner, mirrors back-to-top button on right -->
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">☼</button>
+      <script>
+  // toggleTheme() runs when the button is clicked
+  // it flips between dark (default) and light mode
+  // localStorage saves the choice so it persists across pages
+  function toggleTheme() {
+    const html = document.documentElement;
+    const btn = document.querySelector('.theme-toggle');
+    if (html.getAttribute('data-theme') === 'light') {
+      html.removeAttribute('data-theme');
+      btn.textContent = '☼';
+      localStorage.removeItem('theme'); // forgets the saved preference
+    } else {
+      html.setAttribute('data-theme', 'light');
+      btn.textContent = '☽';
+      localStorage.setItem('theme', 'light'); // saves 'light' to the browser
+    }
+  }
+
+  // runs immediately on every page load before anything renders
+  // checks if a theme preference was saved and applies it right away
+  const saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    document.querySelector('.theme-toggle').textContent = '☽';
+  }
+  </script>
+  </body>
+</html>

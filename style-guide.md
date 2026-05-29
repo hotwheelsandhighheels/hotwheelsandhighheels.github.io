@@ -2,6 +2,7 @@
 layout: default
 title: Style Guide
 permalink: /style-guide/
+sitemap: false
 ---
 
 <!-- ============================================
