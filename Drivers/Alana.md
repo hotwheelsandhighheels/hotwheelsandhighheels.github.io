@@ -191,6 +191,7 @@ into the current, 
 that dancing current,   
 how it beats like a heart.
 
+***
 
 <span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
 

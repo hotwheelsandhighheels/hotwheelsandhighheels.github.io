@@ -153,6 +153,8 @@ I love in Spanish. I love like my mami. Filled with fire and rage and sadness an
 
 I want us to demand space. I want us to familiarize the world with our experience. I want them to see us even when they want to hide us or remove us. I hope my work demands attention in ways my person doesn't.
 
+***
+
 <span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">

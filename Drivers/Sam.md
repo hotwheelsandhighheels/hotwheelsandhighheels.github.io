@@ -134,6 +134,8 @@ I agree, but I think that the challenges and blessings are the same as they ever
 
 I see it more as a personal exploration, but I’m really delighted when readers connect with my (occasionally-overt) spiritual themes. St. Porphyrios says, "whoever wants to become a Christian must first become a poet."
 
+***
+
 <span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">

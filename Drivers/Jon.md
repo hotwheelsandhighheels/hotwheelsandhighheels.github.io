@@ -168,6 +168,8 @@ Probably the street/neighborhood I grew up in. Where I spent most of my unadult 
 
 Dear baby San Diego. Do you remember the Drive-in? Do you remember Marshal Scotty's? The Wednesday afternoon muscle cars and lowriders? Do you remember when I was fascinated with ghosts and my mother would call me at home from places that were crowded and tell me she was alone? From the middle of the Santa Fe Station, she'd say, "Do you think this place is haunted? Can you hear all the people? It's weird because I am alone. It's just me and all the dead travelers waiting for their train." San Diego. How much of you is a ghost. How do you phantom limb a street? Do you still hold the memory of my first kiss in the dirt lot behind my old home that is now apartment housing? Is the ghost of my first kiss floating in someone's bedroom? What part of you is grave? What part of you is phoenix? What patch of you do you want me to press my lips to before I pray?
 
+***
+
 <span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">

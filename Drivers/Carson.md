@@ -106,6 +106,8 @@ Answer to question two goes here.
 
 Poem text goes here.
 
+***
+
 <span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">

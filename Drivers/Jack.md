@@ -181,6 +181,8 @@ Take it easy on high school, it never was, and never will be that serious.
 
 I hope you started to relax a little bit. Look around and see how many people love you. then say you love them too.
 
+***
+
 <span class="cover-photo-link" onclick="openLightbox()">Cover Photo</span>
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
