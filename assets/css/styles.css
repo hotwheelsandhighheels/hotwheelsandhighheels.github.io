@@ -320,12 +320,16 @@ nav ul li a:hover {
     font-size: 11pt;
   }
 
+  .ugh-list {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 10pt;
+  }
+
   /* Smaller font sizes on mobile — pt values scale up on phone screens
      so we bring them down to keep proportions feeling right */
   p { font-size: 10pt; }
   h1 { font-size: 20pt; }
   h2 { font-size: 18pt; }
-  .ugh-list { font-size: 10pt; }
   a { font-size: 10pt; }
 
   /* Bio card stacks vertically on mobile instead of side by side */
