@@ -100,13 +100,13 @@ permalink: /Trunk/
      3. Update data-total to match new count
      Replace placeholder images with your actual screenshots. -->
 
-<div class="slideshow" id="slideshow" data-current="6" data-total="6">
+<div class="slideshow" id="slideshow" data-current="1" data-total="6">
 
   <div class="slide active">
     <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot">
     <p class="caption">HuffPost</p>
   </div>
-  <div class="slide active">
+  <div class="slide">
     <img src="/assets/AI/chestnutreview.png" alt="AI submission guidelines screenshot">
     <p class="caption">Chestnut Review</p>
   </div>
@@ -144,25 +144,17 @@ permalink: /Trunk/
 
 <script>
 const slides = document.querySelectorAll('.slide');
-const total = slides.length;
-
-// set total count automatically — no need to update manually
-document.getElementById('total').textContent = total;
-
-// hide all slides except first on page load
-slides.forEach((slide, index) => {
-  if (index !== 0) slide.style.display = 'none';
-});
+document.getElementById('total').textContent = slides.length;
 
 function changeSlide(direction) {
   const slideshow = document.getElementById('slideshow');
   const allSlides = slideshow.querySelectorAll('.slide');
   let current = parseInt(slideshow.getAttribute('data-current'));
-  allSlides[current - 1].style.display = 'none';
+  allSlides[current - 1].classList.remove('active');
   current = current + direction;
   if (current < 1) current = allSlides.length;
   if (current > allSlides.length) current = 1;
-  allSlides[current - 1].style.display = 'block';
+  allSlides[current - 1].classList.add('active');
   slideshow.setAttribute('data-current', current);
   document.getElementById('current').textContent = current;
 }
