@@ -8,7 +8,7 @@ permalink: /Trunk/
 
 <h1>Trunk</h1>
 
-<p class="wiki-intro">An ongoing collection of research and reference material. This is a living document — sections will grow over time.</p>
+<p class="wiki-intro">An ongoing collection of research and reference material re: memory work. This is a living document — sections will grow over time.</p>
 
 <!-- TABLE OF CONTENTS
      Add new sections here as you write them.
@@ -19,12 +19,13 @@ permalink: /Trunk/
   <ol class="wiki-toc-list">
     <li><a href="#millennial-epoch">The Millennial Epoch</a>
       <ol>
-        <li><a href="#wordbank">How Many of You Have Ever Felt Personally Victimized</a></li>
+        <li><a href="#wordbank">How Many of You Have Ever Felt Personally Victimized By... </a></li>
       </ol>
     </li>
     <li><a href="#social-archive">The Social Archive</a>
       <ol>
-        <li><a href="#AIcontent">AI Content</a></li>
+        <li><a href="#borndigital">Born Digital Content</a></li>
+        <li><a href="#AIcontent">AI Content Reception</a></li>
       </ol>
     </li>
     <li><a href="#bibliography">Bibliography</a>
@@ -84,8 +85,10 @@ permalink: /Trunk/
 
 <p>The web was built on a vision of a universally-linked hypertext communications system. It has offered us a lot more than that. It is a network-informed economy. It is a history built on parallel truths. It is, by all intentions, participatory.</p>
 
+<h3 id="borndigital">Born Digital Content</h3>
+
 <!-- 2.1 -->
-<h3 id="AIcontent">AI Content</h3>
+<h3 id="AIcontent">AI Content Reception</h3>
 
 <p>A comparison of stances on AI generated content. Collected for reference and research.</p>
 
