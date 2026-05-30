@@ -913,3 +913,104 @@ audio:hover {
   height: 100%;
   border: 0.5px solid rgba(255, 0, 163, 0.2);
 }
+/* --- WIKI PAGE ---
+   Wikipedia-style layout for Trunk pages.
+   Clean, structured, editorial. */
+.wiki-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wiki-intro {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.wiki-toc {
+  border: 0.5px solid rgba(163, 0, 255, 0.3);
+  padding: 16px 24px;
+  display: inline-block;
+  min-width: 200px;
+  margin: 16px 0;
+}
+
+.wiki-toc h3 {
+  margin-bottom: 8px;
+}
+
+.wiki-toc-list {
+  margin: 0;
+  padding-left: 20px;
+  font-family: 'Lora', serif;
+  font-size: 12pt;
+}
+
+.wiki-toc-list li {
+  margin-bottom: 4px;
+}
+
+/* --- SLIDESHOW ---
+   Single image at a time with caption and navigation arrows.
+   Add slides by duplicating the .slide div pattern.
+   Only .active slide is visible at any time. */
+.slideshow {
+  margin: 24px 0;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  border: 0.5px solid rgba(255, 0, 163, 0.2);
+}
+
+.slideshow-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.slide-btn {
+  background: transparent;
+  border: 0.5px solid var(--pink);
+  color: var(--pink);
+  font-size: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-btn:hover {
+  opacity: 1;
+}
+
+.slide-count {
+  font-family: 'Lora', serif;
+  font-size: 10pt;
+  letter-spacing: 0.15em;
+  color: var(--text);
+  opacity: 0.5;
+}
+.container .slide {
+  display: none;
+}
+
+.container .slide.active {
+  display: block;
+}
