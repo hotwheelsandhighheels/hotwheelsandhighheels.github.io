@@ -6,11 +6,9 @@ permalink: /About/
 # About
 
 ## The Wheel 
-A toddler plays with toy cars in grandma's closet using shoes with heels as inclines  
+A toddler plays with toy cars in grandma's closet using shoes with heels as inclines.  
 
-I am interested in memory work and interviewing memory workers  
-
-If you fit the vibe, _crash into me_
+I am interested in memory work and interviewing memory workers. If you fit the vibe, _crash into me_
 
 ## The Vibe  
 Millennial, as in epoch-forming  
@@ -20,8 +18,8 @@ Californian: Sunny, ocean waves, sandy beaches
 Driving really fast on an empty highway with the windows down and the night sky ahead
 
 ## Registration
-HW&Hh publishes memory work in the form of oral histories and creative content. <br>
-HW&Hh 
+HW&Hh publishes memory work in the form of oral histories and creative content.
+<br>
 <br>
 
 # Alejandra Hernández
