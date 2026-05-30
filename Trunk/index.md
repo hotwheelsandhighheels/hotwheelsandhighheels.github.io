@@ -175,6 +175,6 @@ function changeSlide(direction) {
      <hr>
 -->
 <hr>
-<p class="bibliography"><a href="https://www.zotero.org/groups/6565887/millennial_epoch">Bibliography</a></p>
+<p id="bibliography"><a href="https://www.zotero.org/groups/6565887/millennial_epoch">Bibliography</a></p>
 
 </div>
