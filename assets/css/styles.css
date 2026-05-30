@@ -959,23 +959,42 @@ audio:hover {
    Only .active slide is visible at any time. */
 .slideshow {
   margin: 24px 0;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
 }
 
 .slide {
+  flex: 1;
+  display: none;
+  overflow: hidden;
+}
+
+.container .slide {
   display: none;
 }
 
 .slide.active {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .slide.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide img {
   width: 100%;
-  max-height: 300px;
+  flex: 1;
   object-fit: contain;
   border: 0.5px solid rgba(255, 0, 163, 0.2);
+  min-height: 0;
 }
-
 .slideshow-controls {
   display: flex;
   align-items: center;
@@ -1010,13 +1029,6 @@ audio:hover {
   letter-spacing: 0.15em;
   color: var(--text);
   opacity: 0.5;
-}
-.container .slide {
-  display: none;
-}
-
-.container .slide.active {
-  display: block;
 }
 /* --- ACCORDION ---
    Expandable content sections. Click header to show/hide content.
