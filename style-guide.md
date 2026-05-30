@@ -206,3 +206,27 @@ function closeLightbox() {
     </a>
   </p>
 </form>
+<!-- ============================================
+     ACCORDION
+     ============================================ -->
+
+***
+
+## Accordion
+
+<div class="accordion">
+  <button class="accordion-header" onclick="toggleAccordion(this)">
+    Section Title <span class="accordion-icon">+</span>
+  </button>
+  <div class="accordion-content">
+    <p>Content goes here. Can be any HTML — paragraphs, lists, images, whatever.</p>
+  </div>
+</div>
+<script>
+function toggleAccordion(header) {
+  const content = header.nextElementSibling;
+  const icon = header.querySelector('.accordion-icon');
+  content.classList.toggle('open');
+  icon.textContent = content.classList.contains('open') ? '−' : '+';
+}
+</script>

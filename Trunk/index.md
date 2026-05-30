@@ -80,7 +80,7 @@ permalink: /Trunk/
 
 <h2 id="social-archive">The Social Archive</h2>
 
-<p>It is a marker of 21st century life that a large percentage of our cultural history has been digitally recorded online. The web can then be classified as an archive. More importantly, the web allowed us to participate in the accumulation of objects — what gets included or excluded is a communal effort, giving new weight to archival value.</p>
+<p>It is a marker of 21st century life that a large percentage of our cultural history has been digitally recorded online. The web can then be classified as an archive. More importantly, the web allows us to participate in the accumulation of objects — what gets included or excluded is a communal effort, giving new depth to archival value.</p>
 
 <p>The web was built on a vision of a universally-linked hypertext communications system. It has offered us a lot more than that. It is a network-informed economy. It is a history built on parallel truths. It is, by all intentions, participatory.</p>
 
@@ -96,16 +96,31 @@ permalink: /Trunk/
      3. Update data-total to match new count
      Replace placeholder images with your actual screenshots. -->
 
-<div class="slideshow" id="slideshow" data-current="2" data-total="2">
+<div class="slideshow" id="slideshow" data-current="6" data-total="6">
 
   <div class="slide active">
     <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot">
     <p class="caption">HuffPost</p>
   </div>
-
-<div class="slide active">
+  <div class="slide active">
     <img src="/assets/AI/chestnutreview.png" alt="AI submission guidelines screenshot">
     <p class="caption">Chestnut Review</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/bluehorsepress.png" alt="Publication name submission guidelines">
+    <p class="caption">Bluehorse Press</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/cleavermagazine.png" alt="Publication name submission guidelines">
+    <p class="caption">Cleaver Magazine</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/indianapolisreview.png" alt="Publication name submission guidelines">
+    <p class="caption">Indianapolis Review</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/raleighreview.png" alt="Publication name submission guidelines">
+    <p class="caption">Raleigh Review</p>
   </div>
 
   <!-- ADD MORE SLIDES HERE:

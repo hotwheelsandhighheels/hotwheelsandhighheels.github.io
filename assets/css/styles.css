@@ -1014,3 +1014,47 @@ audio:hover {
 .container .slide.active {
   display: block;
 }
+/* --- ACCORDION ---
+   Expandable content sections. Click header to show/hide content.
+   + icon rotates to — when open. */
+.accordion {
+  border-bottom: 0.5px solid var(--pink);
+  margin-bottom: 8px;
+}
+
+.accordion-header {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-family: 'Lora', serif;
+  font-size: 12pt;
+  letter-spacing: 0.1em;
+  text-align: left;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.accordion-header:hover {
+  opacity: 1;
+  color: var(--pink);
+}
+
+.accordion-icon {
+  color: var(--pink);
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.accordion-content {
+  display: none;
+  padding: 0 0 16px 0;
+}
+
+.accordion-content.open {
+  display: block;
+}
