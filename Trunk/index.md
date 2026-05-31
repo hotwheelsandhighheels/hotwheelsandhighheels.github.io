@@ -108,7 +108,7 @@ permalink: /Trunk/
   </div>
   <div class="slide">
     <img src="/assets/AI/chestnutreview.png" alt="AI submission guidelines screenshot from Chestnut Review">
-    <p class="caption">Chestnut Review<br>Promises to permanently ban any author whose work is discovered or identified as AI-generated.<br>Also promises that they do not us AI tools. </p>
+    <p class="caption">Chestnut Review<br>Promises to permanently ban any author whose work is discovered or identified as AI-generated.<br>Also promises that they do not use AI tools. </p>
   </div>
   <div class="slide">
     <img src="/assets/AI/bluehorsepress.png" alt="AI submission guidelines screenshot from Bluehorse Press">
