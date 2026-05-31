@@ -85,7 +85,7 @@ permalink: /Trunk/
 
 <p>The web was built on a vision of a universally-linked hypertext communications system. It has offered us a lot more than that. It is a network-informed economy. It is a history built on parallel truths. It is, by all intentions, participatory.</p>
 
-<h3 id="borndigital">Born Digital Content</h3>
+<h3 id="borndigital">Born Digital</h3>
 <h4 id="memes">Memes</h4>
 
 <!-- 2.1 -->
@@ -100,9 +100,9 @@ permalink: /Trunk/
      3. Update data-total to match new count
      Replace placeholder images with your actual screenshots. -->
 
-<div class="slideshow" id="slideshow" data-current="1" data-total="6">
+<div class="slideshow" id="slideshow" data-current="1" data-total="29">
 
-  <div class="slide active">
+  <div class="slide">
     <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
     <p class="caption">HuffPost<br>The website's search feature is powered by OpenAI and contains a warning about possible inaccuracies.</p>
   </div>
@@ -130,7 +130,94 @@ permalink: /Trunk/
     <img src="/assets/AI/B. Christian.png" alt="Cited in the recent publication Large language models pass a standard three-party Turing Test by C.R. Jones & B.K. Bergen: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass.">
     <p class="caption">Cited in the recent publication, "Large language models pass a standard three-party Turing Test" C.R. Jones & B.K. Bergen: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass. <br><br>B. Christian, The Most Human Human: What Talking with Computers Teaches Us about What It Means to Be Alive (Anchor, 2011).</p>
   </div>
-
+    <div class="slide">
+    <img src="/assets/AI/Afterdinnerconversation.png" alt="AI submission guidelines screenshot from After Dinner Conversation">
+    <p class="caption">After Dinner Conversation<br>Tried it, didn't like it.</p>
+  </div>
+    <div class="slide">
+    <img src="/assets/AI/AlternativeMilkMagazine.png" alt="AI submission guidelines screenshot from Alternative Milk Magazine">
+    <p class="caption">Alternative Milk Magazine</p>
+  </div>
+    <div class="slide">
+    <img src="/assets/AI/BaltimoreReview.png" alt="AI submission guidelines screenshot from Baltimore Review">
+    <p class="caption">Baltimore Review<br>AI is mad annoying bro</p>
+  </div>
+    <div class="slide">
+    <img src="/assets/AI/BrevityMagazine.png" alt="AI submission guidelines screenshot from Brevity Magazine">
+    <p class="caption">Brevity Magazine</p>
+  </div>
+    <div class="slide">
+    <img src="/assets/AI/EpistemicLit.png" alt="AI submission guidelines screenshot from Epistemic Lit">
+    <p class="caption">Epistemic Lit<br><i>strictly</i>forbidden</p>
+  </div>
+    <div class="slide">
+    <img src="/assets/AI/EtSequiturMagazine.png" alt="AI submission guidelines screenshot from Et Sequitur Magazine">
+    <p class="caption">Et Sequitur Magazine<br>in whole, in part, or in any way</p>
+  </div>
+    <div class="slide">
+    <img src="/assets/AI/GlassJournalofPoetry.png" alt="AI submission guidelines screenshot from Glass: A Journal of Poetry">
+    <p class="caption">Glass: A Journal of Poetry<br>only human, with the typos</p>
+  </div>
+    <div class="slide">
+    <img src="/assets/AI/HexLiterary.png" alt="AI submission guidelines screenshot from Hex Literary">
+    <p class="caption">Hex Literary</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/HippocampusMagazine.png" alt="AI submission guidelines screenshot from Hippocampus Magazine">
+    <p class="caption">Hippocampus Magazine<br>Only you, only you, only YOU</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/JosephineQuarterly.png" alt="AI submission guidelines screenshot from Josephine Quarterly">
+    <p class="caption">Josephine Quarterly</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/MUSELiteraryJournal.png" alt="AI submission guidelines screenshot from MUSE Literary Journal">
+    <p class="caption">MUSE Literary Journal</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/OkayDonkeyMagazine.png" alt="AI submission guidelines screenshot from Okay Donkey Magazine">
+    <p class="caption">Okay Donkey Magazine<br>They are <i>trusting</i> you!</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/OneArtPoetry.png" alt="AI submission guidelines screenshot from One Art Poetry<">
+    <p class="caption">One Art Poetry<br>About as welcome as your cat's or dog's artistic creations</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/PalettePoetry.png" alt="AI submission guidelines screenshot from Palette Poetry">
+    <p class="caption">Palette Poetry<br>Immediately no.</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/PhoebeJournal.png" alt="AI submission guidelines screenshot from Phoebe Journal">
+    <p class="caption">Phoebe Journal<br>ethical reasons, a plethora of them</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/RadonJournal.png" alt="AI submission guidelines screenshot from Radon Journal">
+    <p class="caption">Radon Journal<br>HARD pass</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/Rattle.png" alt="AI submission guidelines screenshot from Rattle">
+    <p class="caption">Rattle<br>Please explain why you would possibly need AI to assist your writing process.</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/Seasidegothic.png" alt="AI submission guidelines screenshot from Seaside Gothic">
+    <p class="caption">Seaside Gothic<br>so specific, will ban you for life</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/TheFoolsWorld.png" alt="AI submission guidelines screenshot from The Fool's World">
+    <p class="caption">The Fool's World<br>Strictly banned.</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/thewildumbrella.png" alt="AI submission guidelines screenshot from The Wild Umbrella">
+    <p class="caption">The Wild Umbrella<br>in any part</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/trampset.png" alt="AI submission guidelines screenshot from Trampset">
+    <p class="caption">Trampset<br>Tramps, yes! AI, no...</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/VariantLiterature.png" alt="AI submission guidelines screenshot from">
+    <p class="caption">Variant Literature</p>
+  </div>
   <!-- ADD MORE SLIDES HERE:
   <div class="slide">
     <img src="/assets/Images/submissions/pub2.jpg" alt="AI submission guidelines screenshot from">
@@ -147,18 +234,29 @@ permalink: /Trunk/
 </div>
 
 <script>
-const slides = document.querySelectorAll('.slide');
+const slideshow = document.getElementById('slideshow');
+const allSlides = Array.from(slideshow.querySelectorAll('.slide'));
+
+// shuffle the slides randomly on page load
+for (let i = allSlides.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  slideshow.insertBefore(allSlides[j], allSlides[i]);
+}
+
+// activate the first slide after shuffle
+const slides = slideshow.querySelectorAll('.slide');
+slides[0].classList.add('active');
+slideshow.setAttribute('data-current', '1');
 document.getElementById('total').textContent = slides.length;
 
 function changeSlide(direction) {
-  const slideshow = document.getElementById('slideshow');
-  const allSlides = slideshow.querySelectorAll('.slide');
+  const allSl = slideshow.querySelectorAll('.slide');
   let current = parseInt(slideshow.getAttribute('data-current'));
-  allSlides[current - 1].classList.remove('active');
+  allSl[current - 1].classList.remove('active');
   current = current + direction;
-  if (current < 1) current = allSlides.length;
-  if (current > allSlides.length) current = 1;
-  allSlides[current - 1].classList.add('active');
+  if (current < 1) current = allSl.length;
+  if (current > allSl.length) current = 1;
+  allSl[current - 1].classList.add('active');
   slideshow.setAttribute('data-current', current);
   document.getElementById('current').textContent = current;
 }
