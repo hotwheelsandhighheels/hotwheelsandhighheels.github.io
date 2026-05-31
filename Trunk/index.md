@@ -103,33 +103,37 @@ permalink: /Trunk/
 <div class="slideshow" id="slideshow" data-current="1" data-total="6">
 
   <div class="slide active">
-    <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot">
+    <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
     <p class="caption">HuffPost</p>
   </div>
   <div class="slide">
-    <img src="/assets/AI/chestnutreview.png" alt="AI submission guidelines screenshot">
+    <img src="/assets/AI/chestnutreview.png" alt="AI submission guidelines screenshot from Chestnut Review">
     <p class="caption">Chestnut Review</p>
   </div>
   <div class="slide">
-    <img src="/assets/AI/bluehorsepress.png" alt="Publication name submission guidelines">
+    <img src="/assets/AI/bluehorsepress.png" alt="AI submission guidelines screenshot from Bluehorse Press">
     <p class="caption">Bluehorse Press</p>
   </div>
   <div class="slide">
-    <img src="/assets/AI/cleavermagazine.png" alt="Publication name submission guidelines">
+    <img src="/assets/AI/cleavermagazine.png" alt="AI submission guidelines screenshot from Cleaver Magazine">
     <p class="caption">Cleaver Magazine</p>
   </div>
   <div class="slide">
-    <img src="/assets/AI/indianapolisreview.png" alt="Publication name submission guidelines">
+    <img src="/assets/AI/indianapolisreview.png" alt="AI submission guidelines screenshot from Indianapolis Review">
     <p class="caption">Indianapolis Review</p>
   </div>
   <div class="slide">
-    <img src="/assets/AI/raleighreview.png" alt="Publication name submission guidelines">
+    <img src="/assets/AI/raleighreview.png" alt="AI submission guidelines screenshot from Raleigh Review">
     <p class="caption">Raleigh Review</p>
+  </div>
+    <div class="slide">
+    <img src="/assets/AI/B. Christian.png" alt="Cited in the recent publication Large language models pass a standard three-party Turing Test by C.R. Jones & B.K. Bergen: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass.">
+    <p class="caption">Cited in the recent publication, "Large language models pass a standard three-party Turing Test" C.R. Jones & B.K. Bergen: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass. <br><br>B. Christian, The Most Human Human: What Talking with Computers Teaches Us about What It Means to Be Alive (Anchor, 2011).</p>
   </div>
 
   <!-- ADD MORE SLIDES HERE:
   <div class="slide">
-    <img src="/assets/Images/submissions/pub2.jpg" alt="Publication name submission guidelines">
+    <img src="/assets/Images/submissions/pub2.jpg" alt="AI submission guidelines screenshot from">
     <p class="caption">Publication name — key details here</p>
   </div>
   -->
