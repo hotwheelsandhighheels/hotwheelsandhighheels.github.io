@@ -233,10 +233,10 @@ permalink: /Trunk/
   <div class="slide">
     <img src="/assets/AI/TorchMagazine.png" alt="AI submission guidelines screenshot from Torch Magazine">
     <p class="caption">Torch Magazine</p>
+  </div>
   <div class="slide">
     <img src="/assets/AI/Blackbird.png" alt="AI submission guidelines screenshot from Blackbird">
     <p class="caption">Blackbird</p>
-  </div>
   </div>
   <!-- ADD MORE SLIDES HERE:
   <div class="slide">
