@@ -148,11 +148,11 @@ permalink: /Trunk/
   </div>
     <div class="slide">
     <img src="/assets/AI/EpistemicLit.png" alt="AI submission guidelines screenshot from Epistemic Lit">
-    <p class="caption">Epistemic Lit<br><i>strictly</i>forbidden</p>
+    <p class="caption">Epistemic Lit<br><b>Strictly</b> forbidden</p>
   </div>
     <div class="slide">
     <img src="/assets/AI/EtSequiturMagazine.png" alt="AI submission guidelines screenshot from Et Sequitur Magazine">
-    <p class="caption">Et Sequitur Magazine<br>in whole, in part, or in any way</p>
+    <p class="caption">Et Sequitur Magazine<br>In whole, in part, or in any way.</p>
   </div>
     <div class="slide">
     <img src="/assets/AI/GlassJournalofPoetry.png" alt="AI submission guidelines screenshot from Glass: A Journal of Poetry">
@@ -176,11 +176,11 @@ permalink: /Trunk/
   </div>
   <div class="slide">
     <img src="/assets/AI/OkayDonkeyMagazine.png" alt="AI submission guidelines screenshot from Okay Donkey Magazine">
-    <p class="caption">Okay Donkey Magazine<br>They are <i>trusting</i> you!</p>
+    <p class="caption">Okay Donkey Magazine<br>They are <b>trusting</b> you!</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/OneArtPoetry.png" alt="AI submission guidelines screenshot from One Art Poetry<">
-    <p class="caption">One Art Poetry<br>About as welcome as your cat's or dog's artistic creations</p>
+    <p class="caption">One Art Poetry<br>About as welcome as your cat's or dog's artistic creations.</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/PalettePoetry.png" alt="AI submission guidelines screenshot from Palette Poetry">
@@ -188,7 +188,7 @@ permalink: /Trunk/
   </div>
   <div class="slide">
     <img src="/assets/AI/PhoebeJournal.png" alt="AI submission guidelines screenshot from Phoebe Journal">
-    <p class="caption">Phoebe Journal<br>ethical reasons, a plethora of them</p>
+    <p class="caption">Phoebe Journal<br>Ethical reasons, a plethora of them.</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/RadonJournal.png" alt="AI submission guidelines screenshot from Radon Journal">
@@ -200,7 +200,7 @@ permalink: /Trunk/
   </div>
   <div class="slide">
     <img src="/assets/AI/Seasidegothic.png" alt="AI submission guidelines screenshot from Seaside Gothic">
-    <p class="caption">Seaside Gothic<br>so specific, will ban you for life</p>
+    <p class="caption">Seaside Gothic<br>Specific af, will ban for life.</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/TheFoolsWorld.png" alt="AI submission guidelines screenshot from The Fool's World">
@@ -208,7 +208,7 @@ permalink: /Trunk/
   </div>
   <div class="slide">
     <img src="/assets/AI/thewildumbrella.png" alt="AI submission guidelines screenshot from The Wild Umbrella">
-    <p class="caption">The Wild Umbrella<br>in any part</p>
+    <p class="caption">The Wild Umbrella<br>In. Any. Part.</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/trampset.png" alt="AI submission guidelines screenshot from Trampset">
