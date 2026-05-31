@@ -91,7 +91,7 @@ permalink: /Trunk/
 <!-- 2.1 -->
 <h3 id="AIreception">AI Reception</h3>
 
-<p>A comparison of stances on AI generated content. Collected for reference and research.</p>
+<p>Our search engines, social media, and even some publications have implemented AI tools. Is AI being superimposed? Here is a comparison of published statements on AI generated content. <i>Collected for reference and research, please reach out to submit or withdraw statement.</i></p>
 
 <!-- SLIDESHOW
      To add images:
