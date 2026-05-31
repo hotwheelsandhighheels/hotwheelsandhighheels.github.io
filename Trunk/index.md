@@ -100,7 +100,7 @@ permalink: /Trunk/
      3. Update data-total to match new count
      Replace placeholder images with your actual screenshots. -->
 
-<div class="slideshow" id="slideshow" data-current="1" data-total="35">
+<div class="slideshow" id="slideshow" data-current="1" data-total="34">
 
   <div class="slide">
     <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
@@ -156,7 +156,7 @@ permalink: /Trunk/
   </div>
     <div class="slide">
     <img src="/assets/AI/GlassJournalofPoetry.png" alt="AI submission guidelines screenshot from Glass: A Journal of Poetry">
-    <p class="caption">Glass: A Journal of Poetry<br>only human, with the typos</p>
+    <p class="caption">Glass: A Journal of Poetry<br>Only human, with the typos</p>
   </div>
     <div class="slide">
     <img src="/assets/AI/HexLiterary.png" alt="AI submission guidelines screenshot from Hex Literary">
@@ -164,7 +164,7 @@ permalink: /Trunk/
   </div>
   <div class="slide">
     <img src="/assets/AI/HippocampusMagazine.png" alt="AI submission guidelines screenshot from Hippocampus Magazine">
-    <p class="caption">Hippocampus Magazine<br>Only you, only you, only YOU</p>
+    <p class="caption">Hippocampus Magazine<br>YOU are the visuals baby!</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/JosephineQuarterly.png" alt="AI submission guidelines screenshot from Josephine Quarterly">
@@ -220,15 +220,15 @@ permalink: /Trunk/
   </div>
   <div class="slide">
     <img src="/assets/AI/Foglifter Journal.png" alt="AI submission guidelines screenshot from Foglifter Journal">
-    <p class="caption">Foglifter Journal</p>
+    <p class="caption">Foglifter Journal<br>AI isn't a medium, it cannot talk to ghosts.</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/Ploughshares.png" alt="AI submission guidelines screenshot from Ploughshares">
-    <p class="caption">Ploughshares</p>
+    <p class="caption">Ploughshares<br>Oof, are the robots writing manuscripts?!</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/TheSouthernReview.png" alt="AI submission guidelines screenshot from The Southern Review">
-    <p class="caption">The Southern Review</p>
+    <p class="caption">The Southern Review<br>Allowed? Must disclose.</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/TorchMagazine.png" alt="AI submission guidelines screenshot from Torch Magazine">
