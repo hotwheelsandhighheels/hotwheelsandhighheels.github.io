@@ -104,27 +104,27 @@ permalink: /Trunk/
 
   <div class="slide active">
     <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
-    <p class="caption">HuffPost</p>
+    <p class="caption">HuffPost<br>The website's search feature is powered by OpenAI and contains a warning about possible inaccuracies.</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/chestnutreview.png" alt="AI submission guidelines screenshot from Chestnut Review">
-    <p class="caption">Chestnut Review</p>
+    <p class="caption">Chestnut Review<br>Promises to permanently ban any author whose work is discovered or identified as AI-generated.<br>Also promises that they do not us AI tools. </p>
   </div>
   <div class="slide">
     <img src="/assets/AI/bluehorsepress.png" alt="AI submission guidelines screenshot from Bluehorse Press">
-    <p class="caption">Bluehorse Press</p>
+    <p class="caption">Bluehorse Press<br>With an emphasis, AI-generated content lacks integrity.</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/cleavermagazine.png" alt="AI submission guidelines screenshot from Cleaver Magazine">
-    <p class="caption">Cleaver Magazine</p>
+    <p class="caption">Cleaver Magazine<br>Diversity does not include AI "voices"</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/indianapolisreview.png" alt="AI submission guidelines screenshot from Indianapolis Review">
-    <p class="caption">Indianapolis Review</p>
+    <p class="caption">Indianapolis Review<br>NOT interested, unless something like a collage or a cento.</p>
   </div>
   <div class="slide">
     <img src="/assets/AI/raleighreview.png" alt="AI submission guidelines screenshot from Raleigh Review">
-    <p class="caption">Raleigh Review</p>
+    <p class="caption">Raleigh Review<br>YOU be your own judge & be upfront.</p>
   </div>
     <div class="slide">
     <img src="/assets/AI/B. Christian.png" alt="Cited in the recent publication Large language models pass a standard three-party Turing Test by C.R. Jones & B.K. Bergen: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass.">
