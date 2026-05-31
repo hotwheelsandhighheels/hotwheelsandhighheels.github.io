@@ -25,7 +25,7 @@ permalink: /Trunk/
     <li><a href="#social-archive">The Social Archive</a>
       <ol>
         <li><a href="#borndigital">Born Digital Content</a></li>
-        <li><a href="#AIcontent">AI Content Reception</a></li>
+        <li><a href="#AIreception">AI Reception</a></li>
       </ol>
     </li>
     <li><a href="#bibliography">Bibliography</a>
@@ -89,7 +89,7 @@ permalink: /Trunk/
 <h4 id="memes">Memes</h4>
 
 <!-- 2.1 -->
-<h3 id="AIcontent">AI Content Reception</h3>
+<h3 id="AIreception">AI Reception</h3>
 
 <p>A comparison of stances on AI generated content. Collected for reference and research.</p>
 
