@@ -100,7 +100,7 @@ permalink: /Trunk/
      3. Update data-total to match new count
      Replace placeholder images with your actual screenshots. -->
 
-<div class="slideshow" id="slideshow" data-current="1" data-total="29">
+<div class="slideshow" id="slideshow" data-current="1" data-total="34">
 
   <div class="slide">
     <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
@@ -215,8 +215,28 @@ permalink: /Trunk/
     <p class="caption">Trampset<br>Tramps, yes! AI, no...</p>
   </div>
   <div class="slide">
-    <img src="/assets/AI/VariantLiterature.png" alt="AI submission guidelines screenshot from">
+    <img src="/assets/AI/VariantLiterature.png" alt="AI submission guidelines screenshot from Variant Literature">
     <p class="caption">Variant Literature</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/Foglifter Journal.png" alt="AI submission guidelines screenshot from Foglifter Journal">
+    <p class="caption">Foglifter Journal</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/Ploughshares.png" alt="AI submission guidelines screenshot from Ploughshares">
+    <p class="caption">Ploughshares</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/TheSouthernReview.png" alt="AI submission guidelines screenshot from The Southern Review">
+    <p class="caption">The Southern Review</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/TorchMagazine.png" alt="AI submission guidelines screenshot from Torch Magazine">
+    <p class="caption">Torch Magazine</p>
+  <div class="slide">
+    <img src="/assets/AI/Blackbird.png" alt="AI submission guidelines screenshot from Blackbird">
+    <p class="caption">Blackbird</p>
+  </div>
   </div>
   <!-- ADD MORE SLIDES HERE:
   <div class="slide">
