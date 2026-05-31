@@ -100,7 +100,7 @@ permalink: /Trunk/
      3. Update data-total to match new count
      Replace placeholder images with your actual screenshots. -->
 
-<div class="slideshow" id="slideshow" data-current="1" data-total="34">
+<div class="slideshow" id="slideshow" data-current="1" data-total="35">
 
   <div class="slide">
     <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
