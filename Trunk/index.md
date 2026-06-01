@@ -91,7 +91,9 @@ permalink: /Trunk/
 <!-- 2.1 -->
 <h3 id="AIreception">AI Reception</h3>
 
-<p>Our search engines, social media, and even some publications have implemented AI tools. Is AI being superimposed? Here is a comparison of published statements on AI generated content.<br> <i>Collected for reference and research, please reach out to submit or withdraw statement.</i></p>
+<p>Search engines, social media, and even some publications have implemented AI tools. Is AI being superimposed? Here is a comparison of published* statements on AI generated content.</p>
+
+<p><i>*Collected for reference and research, please reach out to submit or withdraw statement.</i></p>
 
 <!-- SLIDESHOW
      To add images:
@@ -100,7 +102,7 @@ permalink: /Trunk/
      3. Update data-total to match new count
      Replace placeholder images with your actual screenshots. -->
 
-<div class="slideshow" id="slideshow" data-current="1" data-total="34">
+<div class="slideshow" id="slideshow" data-current="1" data-total="35">
 
   <div class="slide">
     <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
@@ -128,7 +130,7 @@ permalink: /Trunk/
   </div>
     <div class="slide">
     <img src="/assets/AI/B. Christian.png" alt="Cited in the recent publication Large language models pass a standard three-party Turing Test by C.R. Jones & B.K. Bergen: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass.">
-    <p class="caption">Cited in the recent publication, "Large language models pass a standard three-party Turing Test" C.R. Jones & B.K. Bergen: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass. <br><br>B. Christian, The Most Human Human: What Talking with Computers Teaches Us about What It Means to Be Alive (Anchor, 2011).</p>
+    <p class="caption">Cited in the recent publication, "Large language models pass a standard three-party Turing Test" C.R. Jones & B.K. Bergen 2026: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass. <br><br>B. Christian, The Most Human Human: What Talking with Computers Teaches Us about What It Means to Be Alive (Anchor, 2011).</p>
   </div>
     <div class="slide">
     <img src="/assets/AI/Afterdinnerconversation.png" alt="AI submission guidelines screenshot from After Dinner Conversation">
@@ -237,6 +239,10 @@ permalink: /Trunk/
   <div class="slide">
     <img src="/assets/AI/Blackbird.png" alt="AI submission guidelines screenshot from Blackbird">
     <p class="caption">Blackbird</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/wikipedia.png" alt="AI guidelines from Wikipedia">
+    <p class="caption">Wikipedia<br>In a nutshell, LLMs should not introduce content of its own.</p>
   </div>
   <!-- ADD MORE SLIDES HERE:
   <div class="slide">
