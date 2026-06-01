@@ -244,6 +244,10 @@ permalink: /Trunk/
     <img src="/assets/AI/wikipedia.png" alt="AI guidelines from Wikipedia">
     <p class="caption">Wikipedia<br>In a nutshell, LLMs should not introduce content of its own.</p>
   </div>
+  <div class="slide">
+    <img src="/assets/AI/popeleoxiv.PNG" alt="Voyant Cirrus Word Cloud of Pope Leo XIV's Encyclical Letter MAGNIFICA HUMANITAS">
+    <p class="caption">Using Voyant Tools, a word cloud visualization of Pope Leo XIV's Encyclical Letter MAGNIFICA HUMANITAS on safeguarding the human person in the time of artifical intelligence. <br><br>Most frequent words in the corpus: human (237); social (186); good (120).</p>
+  </div>
   <!-- ADD MORE SLIDES HERE:
   <div class="slide">
     <img src="/assets/Images/submissions/pub2.jpg" alt="AI submission guidelines screenshot from">
