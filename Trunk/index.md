@@ -81,12 +81,11 @@ permalink: /Trunk/
 
 <h2 id="social-archive">The Social Archive</h2>
 
-<p>It is a marker of 21st century life that a large percentage of our cultural history has been digitally recorded online. The web can then be classified as an archive. More importantly, the web allows us to participate in the accumulation of objects — what gets included or excluded is a communal effort, giving new depth to archival value.</p>
+<p>It is a marker of 21st century life that a large percentage of our cultural history has been digitally recorded online. The web can be classified as an archive. More importantly, the web allows us to participate in the accumulation of objects — what gets included or excluded is a communal effort, giving new depth to archival value.</p>
 
 <p>The web was built on a vision of a universally-linked hypertext communications system. It has offered us a lot more than that. It is a network-informed economy. It is a history built on parallel truths. It is, by all intentions, participatory.</p>
 
 <h3 id="borndigital">Born Digital</h3>
-<h4 id="memes">Memes</h4>
 
 <!-- 2.1 -->
 <h3 id="AIreception">AI Reception</h3>
