@@ -102,7 +102,7 @@ permalink: /Trunk/
      3. Update data-total to match new count
      Replace placeholder images with your actual screenshots. -->
 
-<div class="slideshow" id="slideshow" data-current="1" data-total="35">
+<div class="slideshow" id="slideshow" data-current="1" data-total="42">
 
   <div class="slide">
     <img src="/assets/AI/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
@@ -247,6 +247,30 @@ permalink: /Trunk/
   <div class="slide">
     <img src="/assets/AI/popeleoxiv.PNG" alt="Voyant Cirrus Word Cloud of Pope Leo XIV's Encyclical Letter MAGNIFICA HUMANITAS">
     <p class="caption">Using Voyant Tools, a word cloud visualization of Pope Leo XIV's Encyclical Letter MAGNIFICA HUMANITAS on safeguarding the human person in the time of artifical intelligence. <br><br>Most frequent words in the corpus: human (237); social (186); good (120).</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/Brockovich Data Centers.png" alt="Screenshot from Erin Brockovich's AI Data Center Initiative">
+    <p class="caption">An initiative by Erin Brockovich, environmental advocate, looking at the spread and effects of AI Data Centers. </p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/fourteenhills.png" alt="AI submission guidelines screenshot from Fourteen Hills">
+    <p class="caption">Fourteen Hills</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/geist.png" alt="AI submission guidelines screenshot from Geist">
+    <p class="caption">Geist</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/oxfordamerican.png" alt="AI submission guidelines screenshot from Oxford American">
+    <p class="caption">Oxford American</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/The Sun Magazine.png" alt="AI submission guidelines screenshot from The Sun Magazine">
+    <p class="caption">The Sun Magazine</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/AI/rhinopoetry.png" alt="AI submission guidelines screenshot from RHINO">
+    <p class="caption">RHINO</p>
   </div>
   <!-- ADD MORE SLIDES HERE:
   <div class="slide">
