@@ -7,11 +7,27 @@ permalink: /Trunk/
 <div class="wiki-page">
 
 <h1>Trunk</h1>
+<p class="wiki-intro">
+A living archive of millennial memory, creativity, and cultural history.
+</p>
 
-<p class="wiki-intro">A living archive of millennial memory, creativity, and cultural history. Built through interviews, research, and community contribution, this archive documents how an epoch shaped a generation.<br>
-This archive is incomplete by design.<br>
-If you have memories, screenshots, conversations, photographs, stories, artifacts, poems, playlists, forum posts, memes, journals, or other evidence of life during the millennial epoch, you're invited to contribute.<br>
-Context matters more than nostalgia.</p>
+<p class="wiki-intro">
+Built through interviews, research, creative work, and community contribution, this archive documents how people become themselves through the places, technologies, communities, and cultural moments that shape them.
+</p>
+
+<p class="wiki-intro">
+This archive is incomplete by design.
+</p>
+
+<p class="wiki-intro">
+The Trunk collects evidence from the millennial epoch: memories, photographs, conversations, screenshots, poems, songs, journals, internet relics, local histories, and the stories attached to them. Readers are invited to contribute their own materials and help expand the record.
+</p>
+<p class="wiki-manifesto">
+Context matters more than nostalgia.
+</p>
+<p class="wiki-intro">
+What follows is not a comprehensive history. It is a growing collection of records, recollections, artifacts, and interpretations assembled in public.
+</p>
 
 <!-- TABLE OF CONTENTS
      Add new sections here as you write them.
@@ -25,12 +41,14 @@ Context matters more than nostalgia.</p>
         <li><a href="#wordbank">How Many of You Have Ever Felt Personally Victimized By... </a></li>
       </ol>
     </li>
+    <li> <a href="#place-memory">Place &amp; Memory</a> </li>
     <li><a href="#social-archive">The Social Archive</a>
       <ol>
-        <li><a href="#borndigital">Born Digital Content</a></li>
         <li><a href="#AIreception">AI Reception</a></li>
       </ol>
     </li>
+    <li> <a href="#creative-life">Creative Work</a> </li> 
+    <li> <a href="#contribute">Contribute</a> </li>
     <li><a href="#bibliography">Bibliography</a>
     </li>
   </ol>
@@ -71,15 +89,40 @@ Context matters more than nostalgia.</p>
   <li>Artificial Intelligence</li>
 </ul>
 
-<!-- ADD MORE 1.x SECTIONS HERE as the essay grows
-     Pattern:
-     <h3 id="your-anchor">1.2 Your Section Title</h3>
-     <p>Content here.</p>
-     <hr>
--->
+<p>
+The millennial epoch is not defined by birth year alone. It is defined by the experience of living through overlapping technological, political, economic, and cultural transformations. Some were spectacular. Others were so gradual they became invisible. Together they shaped how a generation understood work, identity, community, memory, and the future.
+</p>
+
+<p>
+The interviews, artifacts, and creative work collected throughout this archive document what that formation looked and felt like in lived experience.
+</p>
 
 <!-- ============================================
-     SECTION 2 — THE SOCIAL ARCHIVE
+     SECTION 2 — PLACE & MEMORY
+     ============================================ -->
+
+<h2 id="place-memory">Place & Memory</h2>
+
+<p>
+This section is being built from patterns emerging across the interviews.
+New commentary and collected materials will be added as the archive grows.
+</p>
+<p>
+Across the interviews, contributors return repeatedly to questions of place: neighborhoods, churches, malls, schools, transit systems, music venues, and local landmarks. This section gathers those patterns and traces how people become themselves through the places that shape them.
+</p>
+
+<h3 id="third-places">Third Places</h3>
+
+<p>
+Many contributors describe places that no longer exist:
+bookstores, malls, diners, arcades, skate shops, music venues,
+internet cafés, and neighborhood gathering spaces.
+The disappearance of these places forms a recurring theme
+throughout the interviews.
+</p>
+
+<!-- ============================================
+     SECTION 3 — THE SOCIAL ARCHIVE
      ============================================ -->
 
 <h2 id="social-archive">The Social Archive</h2>
@@ -88,14 +131,19 @@ Context matters more than nostalgia.</p>
 
 <p>The web was built on a vision of a universally-linked hypertext communications system. It has offered us a lot more than that. It is a network-informed economy. It is a history built on parallel truths. It is, by all intentions, participatory.</p>
 
-<h3 id="borndigital">Born Digital</h3>
+<p>The web is not just where history is stored. It is where history happened.</p>
 
-<!-- 2.1 -->
+<p>
+The materials collected below document one example of an epochal shift already underway: public attempts to define the cultural, ethical, and economic boundaries of artificial intelligence.
+</p>
+
 <h3 id="AIreception">AI Reception</h3>
 
 <p>Search engines, social media, and even some publications have implemented AI tools. Is AI being superimposed? Here is a comparison of published* statements on AI generated content.</p>
 
 <p><i>*Collected for reference and research, please reach out to submit or withdraw statement.</i></p>
+
+<!-- SLIDESHOW stays here, unchanged -->
 
 <!-- SLIDESHOW
      To add images:
@@ -318,12 +366,27 @@ function changeSlide(direction) {
 }
 </script>
 
-<!-- ADD MORE 2.x SECTIONS HERE as the essay grows
-     Pattern:
-     <h3 id="your-anchor">2.2 Your Section Title</h3>
-     <p>Content here.</p>
-     <hr>
--->
+
+<!-- ============================================
+     SECTION 4 — CREATIVE Work
+     ============================================ -->
+
+<h2 id="creative-life">Creative </h2>
+
+<p>
+Creative work is evidence. Poems, photographs, songs, journals, zines, recordings, and other artistic responses reveal how people make meaning from historical experience. This section collects creative artifacts from the archive and documents the cultural practices that produced them.
+</p>
+
+
+<!-- ============================================
+     SECTION 5 — CONTRIBUTE
+     ============================================ -->
+
+<h2 id="contribute">Contribute</h2>
+
+<p>This archive grows through community contribution. If you have memories, screenshots, conversations, photographs, poems, or other artifacts from the millennial epoch — especially those tied to a specific place — you're invited to submit them. Include a note about what the artifact means and how it fits the archive.</p>
+
+<p>Contact me through <a href="mailto:alejandra@hotwheelsandhighheels.com">email</a> with materials, context, and any relevant dates, locations, or background information.</p>
 <hr>
 <p id="bibliography"><a href="https://www.zotero.org/groups/6565887/millennial_epoch">Bibliography</a></p>
 
