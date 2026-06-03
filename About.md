@@ -22,7 +22,7 @@ Humans are beautiful. Look what we made...
 
 HW&Hh collects: memories, artifacts, interviews, creative work, and digital traces from the millennial epoch.  
 
-Readers are invited to contribute their own:  
+Readers are invited to contribute:  
 <ul>
     <li>conversations you had when Beyoncé broke the internet</li>
     <li>memes you made when Trump announced he was running for president</li>
