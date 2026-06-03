@@ -18,7 +18,7 @@ Californian: Sunny, ocean waves, sandy beaches
 Driving really fast on an empty highway with the windows down and the night sky ahead
 
 ## Registration
-HW&Hh publishes memory work in the form of interviews and creative content.
+HW&Hh is a literary publication and memory archive. It documents life & memory in the millennial epoch. Readers are invited to contribute stories, artifacts, writings, interviews, and recollections. 
 <br>
 <br>
 
