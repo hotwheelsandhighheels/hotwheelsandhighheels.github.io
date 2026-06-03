@@ -433,13 +433,16 @@ nav ul li a:hover {
   h1 { font-size: 20pt; }
   h2 { font-size: 18pt; }
   a { font-size: 10pt; }
-  .container ul, .container ol, .wiki-page ul, .wiki-page ol {
+  .container ul:not(.a-list), .container ol, .wiki-page ul:not(.a-list), .wiki-page ol {
     font-size: 10pt;
   }
   .a-list {
     grid-template-columns: repeat(2, 1fr);
     font-size: 10pt;
   }
+  .wiki-manifesto {
+  font-size: 13pt;
+}
 
   .bio-card {
     flex-direction: column;
