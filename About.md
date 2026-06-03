@@ -25,11 +25,12 @@ The web, memory, millennials, culture, poetry, technology, history — it's all 
 HW&Hh collects the evidence: memories, artifacts, interviews, creative work, and digital traces from the millennial epoch.  
 
 Readers are invited to contribute their own:  
-
-conversations you had when Beyoncé broke the internet
-memes you made when Trump announced he was running for president
-screenshots, photographs, poems, stories, internet relics
-personal memories tied to epoch-forming events  
+<ul class="a-list">
+    <li>conversations you had when Beyoncé broke the internet</li>
+    <li>memes you made when Trump announced he was running for president</li>
+    <li>screenshots, photographs, poems, stories, internet relics</li>
+    <li>personal memories tied to epoch-forming events</li>
+</ul>
 
 The web is not just where history is stored. It is where history happened.  
 
@@ -54,11 +55,13 @@ My cousins are my best friends. Nothing matters without them. Without them there
 ## Acknowledgements
 Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Support for the arts is slim nowadays, support for literature within arts funding is even less. Your contributions mean the world to me!  
 
-Julian & Mercedes Hernández  
-Julian R. Hernández  
-Maria E. Siordia  
-William A. Nericcio  
-Carson Sandell  
-Faith Davis  
-Emily Buchanan  
-Grace Mathews  
+<ul class="a-list">
+    <li>Julian & Mercedes Hernández</li>
+    <li>Julian R. Hernández</li>
+    <li>Maria E. Siordia</li>
+    <li>William A. Nericcio</li>
+    <li>Carson Sandell</li>
+    <li>Faith Davis</li>
+    <li>Emily Buchanan</li>
+    <li>Grace Mathews</li>
+</ul>

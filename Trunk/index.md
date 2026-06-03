@@ -69,7 +69,7 @@ What follows is not a comprehensive history. It is a growing collection of recor
 
 <p>In 2004, a well known cult-classic called <strong>Mean Girls</strong> graced our screens with the above quote. Fittingly, the characters in the movie are the eldest of an age cohort, dubbed <em>Millennials</em> by pop-sociologists Neil Howe and William Strauss, that came of age at the turn of the millennium. The lives of these individuals, and those succeeding them, have been dictated by a confluence of sociopolitical and -economic events. Such as:</p>
 
-<ul class="ugh-list">
+<ul class="a-list">
   <li>Post-Late-Capitalism</li>
   <li>Ronald Reagan</li>
   <li>War on Drugs</li>

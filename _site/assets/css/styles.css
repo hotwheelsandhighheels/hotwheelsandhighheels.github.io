@@ -243,9 +243,9 @@ a:hover {
 }
 
 /* --- LISTS ---
-   .ugh-list: the word bank / tag cloud grid used on Trunk and style guide.
+   .a-list: the word bank / tag cloud grid used on Trunk and style guide.
    CSS grid with auto-fill columns — items wrap naturally without gaps. */
-.ugh-list {
+.a-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
@@ -257,7 +257,7 @@ a:hover {
   color: var(--text);
 }
 
-.ugh-list li {
+.a-list li {
   box-sizing: border-box;
 }
 
