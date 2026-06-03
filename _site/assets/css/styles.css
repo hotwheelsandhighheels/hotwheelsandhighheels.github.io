@@ -166,8 +166,8 @@ a:hover {
   box-sizing: border-box;
 }
 /* --- GLOBAL LIST STYLES ---
-   Applies to any ul or ol without a specific class.
-   Matches the paragraph font and color. */
+   Ensures lists inside content areas inherit the site's font and color.
+   No custom bullets — keeps browser default markers. */
 .container ul, .container ol, .wiki-page ul, .wiki-page ol {
   font-family: 'Lora', serif;
   font-size: 14pt;
@@ -177,17 +177,8 @@ a:hover {
   margin-bottom: 12px;
 }
 
-ul li, ol li {
+.container ul li, .container ol li, .wiki-page ul li, .wiki-page ol li {
   margin-bottom: 4px;
-}
-.container ul, .wiki-page ul {
-  list-style-type: none;
-}
-
-.container ul li::before, .wiki-page ul li::before {
-  content: "—";
-  color: var(--pink);
-  margin-right: 8px;
 }
 
 /* --- NAVIGATION BAR ---
