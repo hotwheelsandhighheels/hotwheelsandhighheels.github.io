@@ -342,6 +342,20 @@ nav ul li a:hover {
     width: 100%;
   }
 }
+  /* Adds Seizure Safety Support for users */
+@media (prefers-reduced-motion: no-preference) {
+  .static-line {
+    animation: flicker 2s ease-in-out infinite;
+  }
+
+  .static-line:nth-child(odd) {
+    animation-delay: 1s;
+  }
+
+  .feature-card:hover {
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+}
 
 /* --- BACK TO TOP BUTTON ---
    Scoped to body.post so it only appears on post pages, not default pages.
@@ -546,7 +560,6 @@ a, button {
   font-family: 'Lora', serif;
   font-size: 11pt;
   padding: 10px 16px;
-  outline: none;
 }
 
 /* Submit button matches the back-to-top button style: transparent + pink border.
@@ -625,7 +638,6 @@ body .theme-toggle:hover {
 .feature-card:hover {
   border-color: var(--pink);
   box-shadow: 0 0 12px var(--pink);
-  animation: pulse 1.5s ease-in-out infinite;
 }
 /* --- TEASER PAGE (REVVING UP) ---
    Full height static effect page for upcoming features.
@@ -662,11 +674,9 @@ body .theme-toggle:hover {
   height: 2px;
   margin-bottom: 3px;
   background: linear-gradient(90deg, transparent, var(--pink), var(--purple), transparent);
-  animation: flicker 2s ease-in-out infinite;
 }
 
 .static-line:nth-child(odd) {
-  animation-delay: 1s;
   opacity: 0.5;
 }
 
@@ -1073,4 +1083,61 @@ audio:hover {
 
 .accordion-content.open {
   display: block;
+}
+/* This is a global safety net to reduce motion for users */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  body,
+  a,
+  button {
+    cursor: auto !important;
+  }
+}
+/* --- SKIP LINK ---
+   Hidden until focused via Tab key.
+   Pops into view for keyboard users. */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  background: var(--pink);
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 9999;
+  font-family: 'Lora', serif;
+  font-size: 11pt;
+  text-decoration: none;
+  border-radius: 0 0 4px 4px;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+/* --- FOCUS INDICATOR ---
+   Pink glow replaces browser default blue outline.
+   Matches the site's color palette. */
+:focus-visible {
+  outline: 2px solid var(--pink);
+  outline-offset: 2px;
+}
+/* --- SCREEN READER ONLY ---
+   Visually hidden but read by assistive technology. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }

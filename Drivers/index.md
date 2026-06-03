@@ -5,7 +5,9 @@ permalink: /Drivers/
 ---
 
 <div class="gallery">
-  <a href="/revving-up" class="gallery-card feature-card"></a>
+  <a href="/revving-up" class="gallery-card feature-card" aria-label="Coming soon — Revving Up">
+    <span class="sr-only">Coming soon — Revving Up</span>
+  </a>
   <a href="/Drivers/Sam" class="gallery-card">
     <img src="/assets/Images/Sam_Cover.jpg" alt="Sam Yaziji">
     <div class="gallery-overlay">

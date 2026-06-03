@@ -7,26 +7,28 @@
 </footer>
 
 <script>
-// Array of three recorded 4Runner sounds
+// Array of 4Runner sounds
 // Math.random() picks one randomly each click
 function revTheEngine() {
   const sounds = [
-    'assets/sounds/Unlocking 4runner.mp3',
-    'assets/sounds/02 Engine Start 4runner.mp3',
+    '/assets/sounds/Unlocking 4runner.mp3',
+    '/assets/sounds/02 Engine Start 4runner.mp3',
   ];
 
-  // picks a random index between 0 and 2
+// picks a random index from the sounds array
   const random = sounds[Math.floor(Math.random() * sounds.length)];
   
   // creates a new audio object and plays it
   const audio = new Audio(random);
   audio.play();
 
-  // adds the shake class to trigger the animation
+  // Adds the shake class to trigger the animation. Only shake if the user hasn't requested reduced motion
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const car = document.getElementById('runner');
   car.classList.add('footer-shake');
 
   // removes the shake class after 0.5s so it can be triggered again
   setTimeout(() => car.classList.remove('footer-shake'), 500);
+  }
 }
 </script>
