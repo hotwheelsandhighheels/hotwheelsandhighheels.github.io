@@ -8,7 +8,7 @@ permalink: /About/
 ## The Wheel 
 A toddler plays with toy cars in grandma's closet using shoes with heels as inclines.  
 
-I am interested in memory work and interviewing memory workers. If you fit the vibe, _crash into me_
+I am interested in memory work and connecting with memory workers. If you fit the vibe, _crash into me_
 
 ## The Vibe  
 Millennial, as in epoch-forming  
@@ -18,7 +18,9 @@ Californian: Sunny, ocean waves, sandy beaches
 Driving really fast on an empty highway with the windows down and the night sky ahead
 
 ## Registration
-HW&Hh is a literary publication and memory archive. It documents life & memory in the millennial epoch. Readers are invited to contribute stories, artifacts, writings, interviews, and recollections. 
+HW&Hh is a literary publication and memory archive. It documents life & memory in the millennial epoch. Readers are invited to contribute: conversations during major cultural events, internet artifacts, personal memories, contextualized screenshots, reflections tied to epoch-forming moments. 
+
+
 <br>
 <br>
 

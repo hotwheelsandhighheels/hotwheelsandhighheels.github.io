@@ -8,7 +8,7 @@ image: assets/Images/Angela_Cover.JPG
 
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/Angela_Profile.JPG" alt="Bio Image">
+    <img src="/assets/Images/Angela_Profile.JPG" alt="Angela Mendoza">
   </div>
   <div class="bio-text">
 

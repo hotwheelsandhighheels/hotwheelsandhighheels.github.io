@@ -8,7 +8,7 @@ permalink: /Trunk/
 
 <h1>Trunk</h1>
 
-<p class="wiki-intro">An ongoing collection of research and reference material re: memory work. This is a living document — sections will grow over time.</p>
+<p class="wiki-intro">A living archive of millennial memory, creativity, and cultural history. Built through interviews, research, and community contribution, this archive documents how an epoch shaped a generation.</p>
 
 <!-- TABLE OF CONTENTS
      Add new sections here as you write them.
