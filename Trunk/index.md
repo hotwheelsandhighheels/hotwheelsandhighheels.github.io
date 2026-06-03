@@ -8,19 +8,10 @@ permalink: /Trunk/
 
 <h1>Trunk</h1>
 <p class="wiki-intro">
-A living archive of millennial memory, creativity, and cultural history.
-</p>
-
-<p class="wiki-intro">
-Built through interviews, research, creative work, and community contribution, this archive documents how people become themselves through the places, technologies, communities, and cultural moments that shape them.
-</p>
-
-<p class="wiki-intro">
 This archive is incomplete by design.
 </p>
-
 <p class="wiki-intro">
-The Trunk collects evidence from the millennial epoch: memories, photographs, conversations, screenshots, poems, songs, journals, internet relics, local histories, and the stories attached to them. Readers are invited to contribute their own materials and help expand the record.
+Built through interviews, research, creative work, and community contribution, the Trunk collects evidence from the millennial epoch: memories, photographs, conversations, screenshots, poems, songs, journals, internet relics, local histories, and the stories attached to them. Readers are invited to contribute their own materials and help expand the record.
 </p>
 <p class="wiki-manifesto">
 Context matters more than nostalgia.
@@ -68,7 +59,6 @@ What follows is not a comprehensive history. It is a growing collection of recor
 <h3 id="wordbank">How many of you have ever felt personally victimized by [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</h3>
 
 <p>In 2004, a well known cult-classic called <strong>Mean Girls</strong> graced our screens with the above quote. Fittingly, the characters in the movie are the eldest of an age cohort, dubbed <em>Millennials</em> by pop-sociologists Neil Howe and William Strauss, that came of age at the turn of the millennium. The lives of these individuals, and those succeeding them, have been dictated by a confluence of sociopolitical and -economic events. Such as:</p>
-
 <ul class="a-list">
   <li>Post-Late-Capitalism</li>
   <li>Ronald Reagan</li>
@@ -88,13 +78,8 @@ What follows is not a comprehensive history. It is a growing collection of recor
   <li>Covid-19</li>
   <li>Artificial Intelligence</li>
 </ul>
-
 <p>
-The millennial epoch is not defined by birth year alone. It is defined by the experience of living through overlapping technological, political, economic, and cultural transformations. Some were spectacular. Others were so gradual they became invisible. Together they shaped how a generation understood work, identity, community, memory, and the future.
-</p>
-
-<p>
-The interviews, artifacts, and creative work collected throughout this archive document what that formation looked and felt like in lived experience.
+The millennial epoch is not defined by birth year alone. It is defined by the experience of living through overlapping technological, political, economic, and cultural transformations. Some were spectacular. Others were so gradual they became invisible.
 </p>
 
 <!-- ============================================
@@ -102,24 +87,6 @@ The interviews, artifacts, and creative work collected throughout this archive d
      ============================================ -->
 
 <h2 id="place-memory">Place & Memory</h2>
-
-<p>
-This section is being built from patterns emerging across the interviews.
-New commentary and collected materials will be added as the archive grows.
-</p>
-<p>
-Across the interviews, contributors return repeatedly to questions of place: neighborhoods, churches, malls, schools, transit systems, music venues, and local landmarks. This section gathers those patterns and traces how people become themselves through the places that shape them.
-</p>
-
-<h3 id="third-places">Third Places</h3>
-
-<p>
-Many contributors describe places that no longer exist:
-bookstores, malls, diners, arcades, skate shops, music venues,
-internet cafés, and neighborhood gathering spaces.
-The disappearance of these places forms a recurring theme
-throughout the interviews.
-</p>
 
 <!-- ============================================
      SECTION 3 — THE SOCIAL ARCHIVE
@@ -130,12 +97,6 @@ throughout the interviews.
 <p>It is a marker of 21st century life that a large percentage of our cultural history has been digitally recorded online. The web can be classified as an archive. More importantly, the web allows us to participate in the accumulation of objects — what gets included or excluded is a communal effort, giving new depth to archival value.</p>
 
 <p>The web was built on a vision of a universally-linked hypertext communications system. It has offered us a lot more than that. It is a network-informed economy. It is a history built on parallel truths. It is, by all intentions, participatory.</p>
-
-<p>The web is not just where history is stored. It is where history happened.</p>
-
-<p>
-The materials collected below document one example of an epochal shift already underway: public attempts to define the cultural, ethical, and economic boundaries of artificial intelligence.
-</p>
 
 <h3 id="AIreception">AI Reception</h3>
 
@@ -371,12 +332,6 @@ function changeSlide(direction) {
      SECTION 4 — CREATIVE Work
      ============================================ -->
 
-<h2 id="creative-life">Creative </h2>
-
-<p>
-Creative work is evidence. Poems, photographs, songs, journals, zines, recordings, and other artistic responses reveal how people make meaning from historical experience. This section collects creative artifacts from the archive and documents the cultural practices that produced them.
-</p>
-
 
 <!-- ============================================
      SECTION 5 — CONTRIBUTE
@@ -384,9 +339,9 @@ Creative work is evidence. Poems, photographs, songs, journals, zines, recording
 
 <h2 id="contribute">Contribute</h2>
 
-<p>This archive grows through community contribution. If you have memories, screenshots, conversations, photographs, poems, or other artifacts from the millennial epoch — especially those tied to a specific place — you're invited to submit them. Include a note about what the artifact means and how it fits the archive.</p>
+<p>If you have memories, screenshots, conversations, photographs, poems, or other artifacts from the millennial epoch, I invite you to submit them. Please include a note about what the artifact means and how it fits the archive.</p>
 
-<p>Contact me through <a href="mailto:alejandra@hotwheelsandhighheels.com">email</a> with materials, context, and any relevant dates, locations, or background information.</p>
+<p>Contact me through <a href="mailto:alejandra@hotwheelsandhighheels.com">email</a> with materials, context, and any relevant information.</p>
 <hr>
 <p id="bibliography"><a href="https://www.zotero.org/groups/6565887/millennial_epoch">Bibliography</a></p>
 
