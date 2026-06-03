@@ -18,11 +18,9 @@ Californian: Sunny, ocean waves, sandy beaches
 Driving really fast on an empty highway with the windows down and the night sky ahead
 
 ## Registration
-Humans are beautiful. Look what we made.  
+Humans are beautiful. Look what we made...  
 
-The web, memory, millennials, culture, poetry, technology, history — it's all connected.  
-
-HW&Hh collects the evidence: memories, artifacts, interviews, creative work, and digital traces from the millennial epoch.  
+HW&Hh collects: memories, artifacts, interviews, creative work, and digital traces from the millennial epoch.  
 
 Readers are invited to contribute their own:  
 <ul>
@@ -30,11 +28,7 @@ Readers are invited to contribute their own:
     <li>memes you made when Trump announced he was running for president</li>
     <li>screenshots, photographs, poems, stories, internet relics</li>
     <li>personal memories tied to epoch-forming events</li>
-</ul>
-
-The web is not just where history is stored. It is where history happened.  
-
-Hot Wheels & High Heels is a living archive of millennial memory. Through interviews, creative work, and community contribution, it documents what it felt like to come of age in a specific time and place — and invites you to add your story to the record.  
+</ul>  
 
 *Context matters more than nostalgia.*
 
