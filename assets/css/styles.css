@@ -1,7 +1,8 @@
 /* ============================================
    HOT WHEELS & HIGH HEELS — styles.css
-   Colors: #ff00a3 (pink), #a300ff (purple), white, #0a0608 (off-black)
+   Colors: #ff00a3 (pink), #a300ff (purple), #f5f0f5 (off-white), #0a0608 (off-black)
    Fonts: Playfair Display (h1/names), Cormorant Garamond (h2/nav-logo), Lora (body/h3)
+   Last updated: June 2026
    ============================================ */
 
 /* --- GOOGLE FONTS IMPORT ---
@@ -9,8 +10,15 @@
    Playfair Display: italic serif for h1 (contributor names)
    Cormorant Garamond: elegant serif for h2 and nav logo
    Lora: warm readable serif for body text, h3, links
-   Multiple weights loaded so we can use bold, regular, and italic variants */
+   Multiple weights loaded so we can use bold, regular, and italic variants.
+   IMPORTANT: Commas separate values within a single axis (like wght@0,400,0,700).
+   Semicolons separate different axes (like ital@ and wght@). */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400,0,700,1,400&family=Cormorant+Garamond:ital,wght@0,400,0,600,1,400&family=Lora:ital,wght@0,400,0,600,1,400,1,600&display=swap');
+
+/* --- CSS VARIABLES ---
+   Define all colors here. To add light mode: only --bg and --text swap.
+   Pink and purple stay the same. [data-theme="light"] is added to <html>
+   by JavaScript when user toggles light mode. localStorage remembers the choice. */
 :root {
   --bg: #0a0608;
   --text: #f5f0f5;
@@ -22,10 +30,87 @@
   --bg: #f5f0f5;
   --text: #0a0608;
 }
+
+/* ============================================
+   ACCESSIBILITY FOUNDATION
+   Reduced motion, skip link, focus indicators, screen reader utilities.
+   These must load early so they can override later styles.
+   ============================================ */
+
+/* --- REDUCED MOTION SAFETY NET ---
+   Users who have set "reduce motion" in their OS/browser preferences
+   will have all animations and transitions disabled automatically.
+   Required for seizure safety — the teaser page flicker and 4Runner shake
+   are the main concerns. Custom cursor also reverts to system default. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  body,
+  a,
+  button {
+    cursor: auto !important;
+  }
+}
+
+/* --- SKIP LINK ---
+   Visually hidden until a keyboard user presses Tab.
+   Slides down from the top so keyboard users can skip directly to main content.
+   Required for keyboard navigation accessibility. */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  background: var(--pink);
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 9999;
+  font-family: 'Lora', serif;
+  font-size: 11pt;
+  text-decoration: none;
+  border-radius: 0 0 4px 4px;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* --- FOCUS INDICATOR ---
+   Replaces browser default blue outline with pink glow matching site palette.
+   :focus-visible only shows on keyboard navigation, not mouse clicks.
+   Removing focus indicators without replacement is an accessibility violation. */
+:focus-visible {
+  outline: 2px solid var(--pink);
+  outline-offset: 2px;
+}
+
+/* --- SCREEN READER ONLY ---
+   Visually hidden but still read by screen readers and assistive technology.
+   Use on form labels, icon buttons, and any element that needs accessible text
+   without being visually visible. DO NOT use display:none for labels —
+   that removes them from the accessibility tree entirely. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* --- CONTAINER ---
    Centers all page content and caps the width at 900px.
    margin: auto pushes equal space on left and right, centering the block.
-   display: block is explicit to prevent browser defaults from interfering. 
+   display: block is explicit to prevent browser defaults from interfering.
    padding-bottom: keeps page content from touching bottom of screen. */
 .container {
   margin: auto;
@@ -36,19 +121,25 @@
 
 /* --- BANNER ---
    The hero image at the top of the home page.
-   width: 100% makes it stretch edge to edge of the container. */
+   width: 100% makes it stretch edge to edge of the container.
+   box-shadow uses two layers: pink glow underneath, wider purple ambient glow.
+   Included on home page only via _includes/banner.html — not in layouts. */
 .banner {
   width: 100%;
   box-shadow: 0 4px 24px rgba(255, 0, 163, 0.2), 0 0 48px rgba(163, 0, 255, 0.1);
   display: block;
 }
+
 /* --- FOOTER IMAGE ---
-   The 4Runner photo in the footer.
-   max-height caps it so it doesn't take over the page. */
+   The 4Runner photo in the footer. max-height caps it so it doesn't take over.
+   drop-shadow (not box-shadow) follows the transparent PNG shape of the car.
+   box-shadow would glow around the invisible rectangular box —
+   drop-shadow glows around the car itself. */
 .footer {
   max-height: 150pt;
   filter: drop-shadow(0 0 12px rgba(255, 0, 163, 0.4)) drop-shadow(0 0 24px rgba(163, 0, 255, 0.2));
 }
+
 /* --- FOOTER DEDICATION ---
    Eulogy chic — Cormorant Garamond italic for the 4Runner memorial text.
    First line in purple, second line smaller and off-white. */
@@ -68,6 +159,7 @@
   opacity: 0.6;
   margin: 0;
 }
+
 /* --- IMAGES (GLOBAL) ---
    Prevents any image from overflowing its container.
    height: auto preserves the original aspect ratio. */
@@ -88,7 +180,7 @@ body {
    h1: Playfair Display italic — used for contributor names. Editorial, fashion-forward.
    h2: Cormorant Garamond — section headers. Structured and elegant.
    h3: Lora uppercase — labels and subcategories. Clean and readable.
-   margin: 0 0 8px 0 resets browser default large margins (top right bottom left). */
+   margin: 0 0 8px 0 resets browser default large margins. */
 h1 {
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -149,7 +241,10 @@ a {
 a:hover {
   text-decoration: underline;
 }
-/* --- LISTS --- */
+
+/* --- LISTS ---
+   .ugh-list: the word bank / tag cloud grid used on Trunk and style guide.
+   CSS grid with auto-fill columns — items wrap naturally without gaps. */
 .ugh-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -165,8 +260,10 @@ a:hover {
 .ugh-list li {
   box-sizing: border-box;
 }
+
 /* --- GLOBAL LIST STYLES ---
    Ensures lists inside content areas inherit the site's font and color.
+   Scoped to .container and .wiki-page to avoid affecting nav ul.
    No custom bullets — keeps browser default markers. */
 .container ul, .container ol, .wiki-page ul, .wiki-page ol {
   font-family: 'Lora', serif;
@@ -183,22 +280,22 @@ a:hover {
 
 /* --- NAVIGATION BAR ---
    flex + space-between pushes the logo left and links right.
-   border-bottom is a barely-visible pink line that grounds the nav. */
+   border-bottom is a barely-visible line that grounds the nav without being loud. */
 nav {
   background: var(--bg);
   padding: 10px 32px;
   margin-bottom: 16px;
-  border-bottom: 0.5px solid rgba(245,240,245,0.06); /* #ff00a322 = pink at ~13% opacity */
+  border-bottom: 0.5px solid rgba(245,240,245,0.06);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 /* --- NAV LOGO ---
-   The site title on the left of the nav.
+   The site title on the left of the nav. Links to home page (href="/").
    It's an <a> tag so we override link defaults (color, underline).
    white-space: nowrap prevents it from wrapping onto two lines.
-   !important on color overrides the global a { color: #ff00a3 } rule. */
+   !important on color overrides the global a { color: var(--pink) } rule. */
 .nav-logo {
   font-family: 'Cormorant Garamond', serif;
   font-size: 13pt;
@@ -246,17 +343,19 @@ nav ul li a:hover {
   color: var(--pink);
 }
 
-/* Highlights the current page link in pink.
+/* Highlights the current page link in pink with underline.
+   Underline added as a non-color accessibility indicator.
    !important overrides the inherited white color and opacity from nav ul li a. */
 .active {
   color: var(--pink) !important;
   opacity: 1 !important;
+  text-decoration: underline !important;
 }
 
 /* --- HAMBURGER MENU BUTTON ---
-   Hidden on desktop (display: none).
-   Shows on mobile via the @media query below.
-   Three <span> tags inside form the three lines of the hamburger icon. */
+   Hidden on desktop (display: none). Shows on mobile via the @media query below.
+   Three <span> tags inside form the three lines of the hamburger icon.
+   aria-expanded is updated by JavaScript in header.html when menu opens/closes. */
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -291,27 +390,24 @@ nav ul li a:hover {
 
 /* --- MOBILE STYLES ---
    Everything inside @media (max-width: 600px) only applies on screens 600px wide or less.
-   This is where we override desktop styles for phone screens. */
+   This is the single mobile breakpoint — do not add intermediate breakpoints
+   without discussion. */
 @media (max-width: 600px) {
   nav {
-    flex-wrap: nowrap; /* keeps logo and hamburger on the same line */
+    flex-wrap: nowrap;
     padding: 12px 20px;
     align-items: center;
   }
 
-  /* Smaller logo font so it fits on one line next to the hamburger */
   nav .nav-logo {
     font-size: 9pt;
     letter-spacing: 0.12em;
   }
 
-  /* Show the hamburger button on mobile */
   .nav-toggle {
     display: flex;
   }
 
-  /* Hide the nav links by default on mobile.
-     They appear when .open class is toggled by the hamburger button. */
   nav ul {
     display: none;
     flex-direction: column;
@@ -331,51 +427,31 @@ nav ul li a:hover {
   nav ul li a {
     display: block;
     padding: 10px 0;
-    border-bottom: 0.5px solid rgba(245,240,245,0.06); /* barely visible divider between links */
+    border-bottom: 0.5px solid rgba(245,240,245,0.06);
     font-size: 11pt;
   }
 
+  p { font-size: 10pt; }
+  h1 { font-size: 20pt; }
+  h2 { font-size: 18pt; }
+  a { font-size: 10pt; }
   .ugh-list {
     grid-template-columns: repeat(2, 1fr);
     font-size: 10pt;
   }
 
-  /* Smaller font sizes on mobile — pt values scale up on phone screens
-     so we bring them down to keep proportions feeling right */
-  p { font-size: 10pt; }
-  h1 { font-size: 20pt; }
-  h2 { font-size: 18pt; }
-  a { font-size: 10pt; }
-
-  /* Bio card stacks vertically on mobile instead of side by side */
   .bio-card {
     flex-direction: column;
   }
 
-  /* Image goes full width when stacked */
   .bio-image {
     width: 100%;
   }
 }
-  /* Adds Seizure Safety Support for users */
-@media (prefers-reduced-motion: no-preference) {
-  .static-line {
-    animation: flicker 2s ease-in-out infinite;
-  }
-
-  .static-line:nth-child(odd) {
-    animation-delay: 1s;
-  }
-
-  .feature-card:hover {
-    animation: pulse 1.5s ease-in-out infinite;
-  }
-}
 
 /* --- BACK TO TOP BUTTON ---
-   Scoped to body.post so it only appears on post pages, not default pages.
-   position: fixed keeps it stuck to the bottom right of the viewport while scrolling.
-   border-radius: 50% makes it a circle (only works because width and height are equal). */
+   Fixed bottom right of the viewport. Shows on all pages.
+   border-radius: 50% makes it a circle (width and height are equal). */
 .back-to-top {
   position: fixed;
   bottom: 24px;
@@ -389,7 +465,7 @@ nav ul li a:hover {
   border-radius: 50%;
   cursor: url('/assets/Images/cursor.svg'), auto;
   opacity: 0.7;
-  transition: opacity 0.3s ease; /* smooth fade on hover */
+  transition: opacity 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -399,11 +475,11 @@ nav ul li a:hover {
   opacity: 1;
 }
 
-
 /* --- BIO CARD ---
    Flexbox layout for contributor profile: photo on the left, bio text on the right.
    gap: 24px is the space between the photo and text columns.
-   align-items: flex-start lines both columns up from the top edge. */
+   align-items: flex-start lines both columns up from the top edge.
+   Stacks vertically on mobile via the @media query above. */
 .bio-card {
   display: flex;
   gap: 24px;
@@ -411,8 +487,6 @@ nav ul li a:hover {
   margin-bottom: 24px;
 }
 
-/* flex-shrink: 0 prevents flexbox from squishing the photo to make room for text.
-   The photo stays locked at 200px regardless of screen size (until mobile breakpoint). */
 .bio-image {
   flex-shrink: 0;
   width: 200px;
@@ -420,11 +494,9 @@ nav ul li a:hover {
 
 .bio-image img {
   width: 100%;
-  border-radius: 4px; /* subtle rounded corners, softer than a hard square edge */
+  border-radius: 4px;
 }
 
-/* flex: 1 tells the bio text column to take up all remaining space
-   after the fixed 200px photo column has claimed its share. */
 .bio-text {
   flex: 1;
 }
@@ -436,27 +508,24 @@ nav ul li a:hover {
 hr {
   border: none;
   border-top: 0.5px solid var(--pink);
-  margin: 24px 0; /* 24px above and below, 0 on the sides */
+  margin: 24px 0;
 }
 
 /* --- IMAGE GALLERY (DRIVERS PAGE) ---
    .container prefix adds specificity to override browser's default display: block on divs.
-   Without this, the grid doesn't fire on the live site even though CSS is correct. */
+   Without this prefix, the grid doesn't fire on the live site even though CSS is correct.
+   This is a known specificity pattern — see also .container .embeddable-buttondown-form */
 .container .gallery {
   display: grid;
 }
 
-/* 3 equal columns on desktop, gap between cards, space below the whole gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* 1fr = 1 fraction of available space */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 16px;
   margin-bottom: 48px;
 }
 
-/* position: relative is required so the overlay child can use position: absolute
-   relative to this card, not the whole page.
-   overflow: hidden clips the image and overlay to the card's border-radius. */
 .gallery-card {
   position: relative;
   overflow: hidden;
@@ -464,9 +533,6 @@ hr {
   display: block;
 }
 
-/* object-fit: cover fills the fixed height without stretching — crops if needed.
-   This keeps all cards the same height regardless of original image dimensions.
-   filter: brightness(0.6) darkens the image to ~60% at rest for moody effect. */
 .gallery-card img {
   width: 100%;
   height: 300px;
@@ -476,14 +542,10 @@ hr {
   transition: filter 0.3s ease;
 }
 
-/* Image brightens to full on hover */
 .gallery-card:hover img {
   filter: brightness(1);
 }
 
-/* The name overlay sits at the bottom of the card using absolute positioning.
-   gradient fades from transparent to dark so the name is readable over the image.
-   translateY(8px) nudges it slightly down at rest — on hover it slides back to 0. */
 .gallery-overlay {
   position: absolute;
   bottom: 0;
@@ -503,9 +565,26 @@ hr {
   margin: 0;
 }
 
-/* Slides the overlay up to its natural position on hover */
 .gallery-card:hover .gallery-overlay {
   transform: translateY(0);
+}
+
+/* --- FEATURE CARD ---
+   Always last in the gallery grid — links to the coming soon /revving-up/ page.
+   Transparent with pink border at rest, glows on hover. No image — pure CSS card.
+   Must have aria-label in HTML for screen reader accessibility. */
+.feature-card {
+  background: transparent;
+  border: 1px solid var(--pink);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-card:hover {
+  border-color: var(--pink);
+  box-shadow: 0 0 12px var(--pink);
 }
 
 /* --- POETRY LINKS ---
@@ -528,9 +607,10 @@ hr {
 }
 
 /* --- CUSTOM CURSOR ---
-   Replaces the default browser cursor with our SVG double heart on all elements.
-   The two numbers after the URL on a, button are the hotspot coordinates (x y) —
-   where exactly on the cursor image the click registers. */
+   Replaces the default browser cursor with SVG double heart.
+   The two numbers after the URL on a, button are hotspot coordinates (x y) —
+   where exactly on the cursor image the click registers.
+   Automatically reverts to auto for prefers-reduced-motion users (see top of file). */
 body {
   cursor: url('/assets/Images/cursor.svg'), auto;
 }
@@ -541,13 +621,12 @@ a, button {
 
 /* --- EMAIL SIGNUP FORM (BUTTONDOWN) ---
    .container prefix adds specificity to override browser's default display: block.
-   Same fix as .container .gallery above — needed on live site. */
+   Same pattern as .container .gallery above — needed on live site.
+   The <label> in HTML should use class="sr-only" for screen reader accessibility. */
 .container .embeddable-buttondown-form {
   display: flex;
 }
 
-/* Centered single-line form: email input + subscribe button side by side.
-   max-width + auto margins centers the form within the container. */
 .embeddable-buttondown-form {
   display: flex;
   align-items: center;
@@ -558,15 +637,11 @@ a, button {
   margin-right: auto;
 }
 
-/* Label is hidden visually but kept in HTML for accessibility (screen readers).
-   display: none removes it from the layout entirely. */
 .embeddable-buttondown-form label {
-  display: none;
+  /* Label uses .sr-only class in HTML for screen reader accessibility.
+     Do not use display:none here — it removes the label from the accessibility tree. */
 }
 
-/* Email input: transparent background matches the page, pink border matches the theme.
-   flex: 1 makes it take up all available space next to the button.
-   outline: none removes the default browser focus ring. */
 .embeddable-buttondown-form input[type="email"] {
   flex: 1;
   background: transparent;
@@ -577,8 +652,11 @@ a, button {
   padding: 10px 16px;
 }
 
-/* Submit button matches the back-to-top button style: transparent + pink border.
-   Consistent design language across interactive elements. */
+.embeddable-buttondown-form input[type="email"]:focus {
+  outline: 2px solid var(--pink);
+  outline-offset: 2px;
+}
+
 .embeddable-buttondown-form input[type="submit"] {
   background: transparent;
   border: 0.5px solid var(--pink);
@@ -596,17 +674,15 @@ a, button {
   opacity: 0.7;
 }
 
-/* Hides the "Powered by Buttondown" link.
-   display: none removes it from the layout completely. */
 .embeddable-buttondown-form p {
   display: none;
 }
+
 /* --- THEME TOGGLE BUTTON ---
-   Mirrors the back-to-top button but sits in the bottom LEFT corner.
-   Shows on all pages unlike back-to-top which is post only.
-   ☼ = dark mode active (click for light), ☾ = light mode active (click for dark)
-   body prefix adds specificity to override browser default button sizing —
-   same pattern as body .theme-toggle, .container .gallery, etc. */
+   Fixed bottom LEFT corner — mirrors back-to-top button on the right.
+   Shows on all pages. ☼ = dark mode active (click for light),
+   ☾ = light mode active (click for dark).
+   body prefix adds specificity to override browser default button sizing. */
 body .theme-toggle {
   position: fixed;
   bottom: 24px;
@@ -630,34 +706,12 @@ body .theme-toggle {
 body .theme-toggle:hover {
   opacity: 1;
 }
-/* --- FEATURE CARD ---
-   Always last in the gallery grid — links to the coming soon page.
-   Transparent with pink border at rest, pulses on hover.
-   No image — pure CSS card. */
-.feature-card {
-  background: transparent;
-  border: 1px solid var(--pink);
-  height: 300px; /* matches gallery-card img height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-/* pulse animation — border and text glow pink on hover */
-@keyframes pulse {
-  0% { opacity: 1; }
-  50% { opacity: 0.4; }
-  100% { opacity: 1; }
-}
-
-.feature-card:hover {
-  border-color: var(--pink);
-  box-shadow: 0 0 12px var(--pink);
-}
 /* --- TEASER PAGE (REVVING UP) ---
    Full height static effect page for upcoming features.
    Static lines animate with flicker effect behind centered text.
-   Subscribe form at the bottom as call to action. */
+   Subscribe form at the bottom as call to action.
+   Animation is wrapped in prefers-reduced-motion: no-preference below. */
 .teaser-page {
   min-height: 80vh;
   display: flex;
@@ -674,7 +728,6 @@ body .theme-toggle:hover {
   display: flex !important;
 }
 
-/* static lines sit behind the text using z-index */
 .static-lines {
   position: absolute;
   top: 60px;
@@ -704,7 +757,42 @@ body .theme-toggle:hover {
   50% { opacity: 1; }
 }
 
-/* text sits on top of the static lines */
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+@keyframes carShake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px) rotate(-1deg); }
+  40% { transform: translateX(6px) rotate(1deg); }
+  60% { transform: translateX(-4px) rotate(-0.5deg); }
+  80% { transform: translateX(4px) rotate(0.5deg); }
+}
+
+/* --- ANIMATIONS (MOTION-SAFE ONLY) ---
+   All animations are wrapped here so they only fire for users who haven't
+   requested reduced motion. Covers: teaser page flicker, 4Runner shake,
+   feature card pulse. Keyframes are defined above. */
+@media (prefers-reduced-motion: no-preference) {
+  .static-line {
+    animation: flicker 2s ease-in-out infinite;
+  }
+
+  .static-line:nth-child(odd) {
+    animation-delay: 1s;
+  }
+
+  .footer-shake {
+    animation: carShake 0.5s ease-in-out;
+  }
+
+  .feature-card:hover {
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+}
+
 .teaser-content {
   position: relative;
   z-index: 1;
@@ -726,7 +814,6 @@ body .theme-toggle:hover {
   margin-bottom: 16px;
 }
 
-/* overrides the global h1 style for this page */
 .teaser-title {
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -759,25 +846,14 @@ body .theme-toggle:hover {
   opacity: 0.4;
   margin-bottom: 16px;
 }
-/* --- 4RUNNER SHAKE ANIMATION ---
-   Triggered by JavaScript when the image is clicked.
-   Mimics a car engine starting — quick left/right vibration. */
-@keyframes carShake {
-  0%, 100% { transform: translateX(0); }
-  20% { transform: translateX(-6px) rotate(-1deg); }
-  40% { transform: translateX(6px) rotate(1deg); }
-  60% { transform: translateX(-4px) rotate(-0.5deg); }
-  80% { transform: translateX(4px) rotate(0.5deg); }
-}
 
-.footer-shake {
-  animation: carShake 0.5s ease-in-out;
-}
 /* --- LIGHTBOX ---
    Full screen overlay for cover photos on post pages.
    position: fixed covers the entire viewport regardless of scroll position.
-   z-index: 1000 puts it on top of everything including the nav and buttons.
-   Hidden by default — JavaScript adds .open class to show it. */
+   z-index: 1000 puts it on top of everything including nav and buttons.
+   Hidden by default — JavaScript adds .open class to show it.
+   TO DO post-launch: upgrade close button from <span> to <button>,
+   add role="dialog" and aria-modal="true" to the lightbox div. */
 .lightbox {
   position: fixed;
   top: 0;
@@ -803,7 +879,6 @@ body .theme-toggle:hover {
   box-shadow: 0 0 48px rgba(255, 0, 163, 0.2), 0 0 96px rgba(163, 0, 255, 0.1);
 }
 
-/* X close button — top right corner */
 .lightbox-close {
   position: absolute;
   top: 24px;
@@ -821,7 +896,6 @@ body .theme-toggle:hover {
   opacity: 1;
 }
 
-/* subtle link style — matches connect links on post pages */
 .cover-photo-link {
   font-family: 'Lora', serif;
   font-size: 14pt;
@@ -837,6 +911,7 @@ body .theme-toggle:hover {
   opacity: 1;
   text-decoration: underline;
 }
+
 /* --- BLOCKQUOTE / PULL QUOTE ---
    For pull quotes from interviews or poems.
    Left border in pink, italic Cormorant Garamond, indented. */
@@ -883,7 +958,7 @@ body .theme-toggle:hover {
 
 /* --- CALLOUT BOX ---
    Highlighted aside or editor's note.
-   Subtle pink left border, slightly muted background. */
+   Subtle pink left border, barely-there pink background tint. */
 .callout {
   border-left: 2px solid var(--pink);
   padding: 12px 20px;
@@ -899,7 +974,7 @@ body .theme-toggle:hover {
 
 /* --- AUDIO PLAYER ---
    Wrapper for contributor audio recordings or sound clips.
-   Native browser audio element styled to match the site. */
+   Native browser audio element with CSS invert trick for dark theme styling. */
 .audio-player {
   margin: 24px 0;
 }
@@ -942,9 +1017,11 @@ audio:hover {
   height: 100%;
   border: 0.5px solid rgba(255, 0, 163, 0.2);
 }
+
 /* --- WIKI PAGE ---
    Wikipedia-style layout for Trunk pages.
-   Clean, structured, editorial. */
+   max-width slightly narrower than .container for better reading line length.
+   TOC box uses purple border at low opacity — intentionally subtle. */
 .wiki-page {
   max-width: 800px;
   margin: 0 auto;
@@ -953,6 +1030,14 @@ audio:hover {
 .wiki-intro {
   font-style: italic;
   opacity: 0.7;
+}
+
+.wiki-manifesto {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 16pt;
+  color: var(--pink);
+  margin: 16px 0;
 }
 
 .wiki-toc {
@@ -977,18 +1062,12 @@ audio:hover {
 .wiki-toc-list li {
   margin-bottom: 4px;
 }
-.wiki-manifesto {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-size: 16pt;
-  color: var(--pink);
-  margin: 16px 0;
-}
 
 /* --- SLIDESHOW ---
    Single image at a time with caption and navigation arrows.
-   Add slides by duplicating the .slide div pattern.
-   Only .active slide is visible at any time. */
+   Fixed height container so controls stay locked at the bottom.
+   JavaScript handles show/hide via classList.add/remove('active').
+   DO NOT use style.display in JavaScript — conflicts with CSS. */
 .slideshow {
   margin: 24px 0;
   height: 500px;
@@ -1027,14 +1106,17 @@ audio:hover {
   border: 0.5px solid rgba(255, 0, 163, 0.2);
   min-height: 0;
 }
+
 .slideshow-controls {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
   margin-top: 16px;
+  flex-shrink: 0;
 }
 
+/* Slide buttons need aria-label in HTML for screen reader accessibility */
 .slide-btn {
   background: transparent;
   border: 0.5px solid var(--pink);
@@ -1062,9 +1144,11 @@ audio:hover {
   color: var(--text);
   opacity: 0.5;
 }
+
 /* --- ACCORDION ---
    Expandable content sections. Click header to show/hide content.
-   + icon rotates to — when open. */
+   + icon changes to — when open via JavaScript.
+   TO DO post-launch: add aria-expanded and aria-controls to .accordion-header. */
 .accordion {
   border-bottom: 0.5px solid var(--pink);
   margin-bottom: 8px;
@@ -1105,61 +1189,4 @@ audio:hover {
 
 .accordion-content.open {
   display: block;
-}
-/* This is a global safety net to reduce motion for users */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-
-  body,
-  a,
-  button {
-    cursor: auto !important;
-  }
-}
-/* --- SKIP LINK ---
-   Hidden until focused via Tab key.
-   Pops into view for keyboard users. */
-.skip-link {
-  position: absolute;
-  top: -100%;
-  left: 16px;
-  background: var(--pink);
-  color: #fff;
-  padding: 8px 16px;
-  z-index: 9999;
-  font-family: 'Lora', serif;
-  font-size: 11pt;
-  text-decoration: none;
-  border-radius: 0 0 4px 4px;
-  transition: top 0.2s ease;
-}
-
-.skip-link:focus {
-  top: 0;
-}
-/* --- FOCUS INDICATOR ---
-   Pink glow replaces browser default blue outline.
-   Matches the site's color palette. */
-:focus-visible {
-  outline: 2px solid var(--pink);
-  outline-offset: 2px;
-}
-/* --- SCREEN READER ONLY ---
-   Visually hidden but read by assistive technology. */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
