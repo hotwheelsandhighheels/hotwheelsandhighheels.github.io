@@ -8,7 +8,10 @@ permalink: /Trunk/
 
 <h1>Trunk</h1>
 
-<p class="wiki-intro">A living archive of millennial memory, creativity, and cultural history. Built through interviews, research, and community contribution, this archive documents how an epoch shaped a generation.</p>
+<p class="wiki-intro">A living archive of millennial memory, creativity, and cultural history. Built through interviews, research, and community contribution, this archive documents how an epoch shaped a generation.<br>
+This archive is incomplete by design.<br>
+If you have memories, screenshots, conversations, photographs, stories, artifacts, poems, playlists, forum posts, memes, journals, or other evidence of life during the millennial epoch, you're invited to contribute.<br>
+Context matters more than nostalgia.</p>
 
 <!-- TABLE OF CONTENTS
      Add new sections here as you write them.

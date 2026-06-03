@@ -8,7 +8,7 @@ permalink: /About/
 ## The Wheel 
 A toddler plays with toy cars in grandma's closet using shoes with heels as inclines.  
 
-I am interested in memory work and connecting with memory workers. If you fit the vibe, _crash into me_
+I am interested in memory work and interviewing with memory workers. If you fit the vibe, _crash into me_
 
 ## The Vibe  
 Millennial, as in epoch-forming  
@@ -18,11 +18,25 @@ Californian: Sunny, ocean waves, sandy beaches
 Driving really fast on an empty highway with the windows down and the night sky ahead
 
 ## Registration
-HW&Hh is a literary publication and memory archive. It documents life & memory in the millennial epoch. Readers are invited to contribute: conversations during major cultural events, internet artifacts, personal memories, contextualized screenshots, reflections tied to epoch-forming moments. 
+Humans are beautiful. Look what we made.  
 
+The web, memory, millennials, culture, poetry, technology, history — it's all connected.  
 
-<br>
-<br>
+HW&Hh collects the evidence: memories, artifacts, interviews, creative work, and digital traces from the millennial epoch.  
+
+Readers are invited to contribute their own:  
+
+* conversations you had when Beyoncé broke the internet
+* memes you made when Trump announced he was running
+* screenshots, photographs, poems, stories, internet relics
+* personal memories tied to epoch-forming events  
+
+The web is not just where history is stored. It is where history happened.  
+
+Hot Wheels & High Heels is a living archive of millennial memory. Through interviews, creative work, and community contribution, it documents what it felt like to come of age in a specific time and place — and invites you to add your story to the record.  
+
+*Context matters more than nostalgia.*
+
 
 # Alejandra Hernández
 ## Editor,   
