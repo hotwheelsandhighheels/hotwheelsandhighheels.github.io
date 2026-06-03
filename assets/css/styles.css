@@ -264,7 +264,7 @@ a:hover {
    Ensures lists inside content areas inherit the site's font and color.
    Scoped to .container and .wiki-page to avoid affecting nav ul.
    No custom bullets — keeps browser default markers. */
-.container ul, .container ol, .wiki-page ul, .wiki-page ol {
+.container ul:not(.a-list), .container ol, .wiki-page ul:not(.a-list), .wiki-page ol {
   font-family: 'Lora', serif;
   font-size: 14pt;
   color: var(--text);
@@ -1018,6 +1018,24 @@ audio:hover {
    Wikipedia-style layout for Trunk pages.
    TOC box uses purple border at low opacity — intentionally subtle.
    No numbers, full width to match container. */
+.wiki-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wiki-intro {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.wiki-manifesto {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 16pt;
+  color: var(--pink);
+  margin: 16px 0;
+}
+
 .wiki-toc {
   border: 0.5px solid rgba(163, 0, 255, 0.3);
   padding: 16px 24px;
