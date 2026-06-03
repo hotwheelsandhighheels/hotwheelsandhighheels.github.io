@@ -637,11 +637,6 @@ a, button {
   margin-right: auto;
 }
 
-.embeddable-buttondown-form label {
-  /* Label uses .sr-only class in HTML for screen reader accessibility.
-     Do not use display:none here — it removes the label from the accessibility tree. */
-}
-
 .embeddable-buttondown-form input[type="email"] {
   flex: 1;
   background: transparent;
