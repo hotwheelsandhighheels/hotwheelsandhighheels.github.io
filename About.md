@@ -25,7 +25,7 @@ The web, memory, millennials, culture, poetry, technology, history — it's all 
 HW&Hh collects the evidence: memories, artifacts, interviews, creative work, and digital traces from the millennial epoch.  
 
 Readers are invited to contribute their own:  
-<ul class="a-list">
+<ul>
     <li>conversations you had when Beyoncé broke the internet</li>
     <li>memes you made when Trump announced he was running for president</li>
     <li>screenshots, photographs, poems, stories, internet relics</li>
@@ -55,7 +55,7 @@ My cousins are my best friends. Nothing matters without them. Without them there
 ## Acknowledgements
 Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Support for the arts is slim nowadays, support for literature within arts funding is even less. Your contributions mean the world to me!  
 
-<ul class="a-list">
+<ul>
     <li>Julian & Mercedes Hernández</li>
     <li>Julian R. Hernández</li>
     <li>Maria E. Siordia</li>
