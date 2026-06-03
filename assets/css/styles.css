@@ -260,24 +260,6 @@ a:hover {
 .a-list li {
   box-sizing: border-box;
 }
-
-/* --- GLOBAL LIST STYLES ---
-   Ensures lists inside content areas inherit the site's font and color.
-   Scoped to .container and .wiki-page to avoid affecting nav ul.
-   No custom bullets — keeps browser default markers. */
-.container ul, .container ol, .wiki-page ul, .wiki-page ol {
-  font-family: 'Lora', serif;
-  font-size: 14pt;
-  color: var(--text);
-  line-height: 1.75;
-  padding-left: 24px;
-  margin-bottom: 12px;
-}
-
-.container ul li, .container ol li, .wiki-page ul li, .wiki-page ol li {
-  margin-bottom: 4px;
-}
-
 /* --- NAVIGATION BAR ---
    flex + space-between pushes the logo left and links right.
    border-bottom is a barely-visible line that grounds the nav without being loud. */
