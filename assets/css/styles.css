@@ -420,7 +420,7 @@ nav ul li a:hover {
   .container ul, .container ol, .wiki-page ul, .wiki-page ol {
     font-size: 10pt;
   }
-  .ugh-list {
+  .a-list {
     grid-template-columns: repeat(2, 1fr);
     font-size: 10pt;
   }
