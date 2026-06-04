@@ -373,7 +373,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag economics">Economy</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
-
+<div class="timeline-entry right" data-category="tech culture" data-era="always-online" data-platform="facebook">
+  <h3>The Like Button</h3>
+  <p>Facebook introduces the Like button. A single click becomes the dominant gesture of the social web — affirmation, acknowledgment, and data point simultaneously. The way we express approval is quietly standardized.</p>
+  <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
+</div>
 <div class="timeline-entry left" data-category="economics" data-era="always-online">
   <h3>The Gig Economy Expands</h3>
   <p>Work becomes precarious. Freelance, contract, and app-based labor replace stable employment for millions.</p>
