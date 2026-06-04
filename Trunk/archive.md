@@ -12,7 +12,11 @@ The web was built on a vision of a universally-linked hypertext communications s
 
 The web is not just where history is stored. It is where history happened.
 
+---
+
 ## Platform Histories
+
+*0 artifacts collected*
 
 *Screenshots, profiles, and interfaces from the platforms that shaped millennial social life.*
 
@@ -20,11 +24,15 @@ The web is not just where history is stored. It is where history happened.
 
 ## Memes & Viral Moments
 
+*0 artifacts collected*
+
 *Images, posts, and cultural fragments that spread across the web and became shared reference points for a generation.*
 
 ---
 
-## Personal Archives
+## Personal Collections
+
+*0 artifacts collected*
 
 *Contributor-submitted materials — photos, playlists, conversations, journals — accompanied by the stories that give them meaning.*
 
@@ -32,11 +40,15 @@ The web is not just where history is stored. It is where history happened.
 
 ## Digital Debris
 
+*0 artifacts collected*
+
 *Defunct websites, dead platforms, error screens, and the remnants of an earlier internet.*
 
 ---
 
 ## AI Reception
+
+*42 artifacts collected*
 
 *Statements from literary publications on AI-generated content. Collected for reference and research. A case study in how the epoch responds to its own emerging technology.*
 
@@ -255,6 +267,7 @@ function changeSlide(direction) {
   document.getElementById('current').textContent = current;
 }
 </script>
+
 ---
 
 *More artifacts are being collected. If you have screenshots, posts, or digital materials from the millennial epoch — especially those accompanied by context — you're invited to contribute.*
