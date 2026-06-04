@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Archive
+title: The Social Archive
 permalink: /Trunk/archive/
 ---
 
@@ -12,13 +12,42 @@ The web was built on a vision of a universally-linked hypertext communications s
 
 The web is not just where history is stored. It is where history happened.
 
+## Platform Histories
+
+*Screenshots, profiles, and interfaces from the platforms that shaped millennial social life.*
+
+---
+
+## Memes & Viral Moments
+
+*Images, posts, and cultural fragments that spread across the web and became shared reference points for a generation.*
+
+---
+
+## Personal Archives
+
+*Contributor-submitted materials — photos, playlists, conversations, journals — accompanied by the stories that give them meaning.*
+
+---
+
+## Digital Debris
+
+*Defunct websites, dead platforms, error screens, and the remnants of an earlier internet.*
+
 ---
 
 ## AI Reception
 
+*Statements from literary publications on AI-generated content. Collected for reference and research. A case study in how the epoch responds to its own emerging technology.*
+
 Search engines, social media, and even some publications have implemented AI tools. Is AI being superimposed? Here is a comparison of published* statements on AI generated content.
 
 *Collected for reference and research, please reach out to withdraw or amend statement.*
+
+<!-- ============================================
+     INSERT EXISTING SLIDESHOW HTML HERE
+     Keep all 42 slides + the JS exactly as-is
+     ============================================ -->
 
 <!-- SLIDESHOW -->
 <div class="slideshow" id="slideshow" data-current="1" data-total="42">
@@ -226,3 +255,6 @@ function changeSlide(direction) {
   document.getElementById('current').textContent = current;
 }
 </script>
+---
+
+*More artifacts are being collected. If you have screenshots, posts, or digital materials from the millennial epoch — especially those accompanied by context — you're invited to contribute.*

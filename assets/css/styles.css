@@ -992,7 +992,24 @@ body .theme-toggle:hover {
 .tag-quote.tag-identity { border-color: var(--theme-identity); color: var(--theme-identity); }
 .tag-quote.tag-creativity { border-color: var(--theme-creativity); color: var(--theme-creativity); }
 .tag-quote.tag-future { border-color: var(--theme-future); color: var(--theme-future); }
+/* --- THEME LEGEND ---
+   Horizontal list of theme colors at top of Witnesses page.
+   Teaches the visual language before the reader encounters quotes. */
+.theme-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0 24px 0;
+  font-family: 'Lora', serif;
+  font-size: 10pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
 
+.theme-legend span {
+  padding: 2px 0;
+}
 /* --- IMAGE CAPTION ---
    Small label below images for photo credits or descriptions. */
 .caption {
