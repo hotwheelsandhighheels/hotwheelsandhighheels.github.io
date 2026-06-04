@@ -13,7 +13,10 @@ Dr. Avriel Epps. AI Ethics & Justice, Human Development Professor at Harvard. [w
 
 # Creative Content
 
+Mindy Honey -- City Beat Beyonce Spread
+
 # Poetry Related
+
 
 # AI Related 
 
