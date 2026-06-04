@@ -428,7 +428,6 @@ nav ul li a:hover {
     border-bottom: 0.5px solid rgba(245,240,245,0.06);
     font-size: 11pt;
   }
-
   p { font-size: 10pt; }
   h1 { font-size: 20pt; }
   h2 { font-size: 18pt; }
@@ -441,18 +440,24 @@ nav ul li a:hover {
     font-size: 10pt;
   }
   .wiki-manifesto {
-  font-size: 10pt;
-}
-
+    font-size: 13pt;
+  }
+  .trunk-card h2 {
+    font-size: 16pt;
+  }
+  .trunk-card h3 {
+    font-size: 9pt;
+  }
+  .trunk-card p {
+    font-size: 10pt;
+  }
   .bio-card {
     flex-direction: column;
   }
-
   .bio-image {
     width: 100%;
   }
 }
-
 /* --- BACK TO TOP BUTTON ---
    Fixed bottom right of the viewport. Shows on all pages.
    border-radius: 50% makes it a circle (width and height are equal). */
