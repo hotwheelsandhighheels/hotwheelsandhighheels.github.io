@@ -1086,7 +1086,7 @@ audio:hover {
 .trunk-card {
   border: 0.5px solid rgba(163, 0, 255, 0.25);
   padding: 20px;
-  background: rgba(10, 6, 8, 0.3);
+  background: transparent;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
