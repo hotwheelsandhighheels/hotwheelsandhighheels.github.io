@@ -5,20 +5,21 @@
    Last updated: June 2026
    ============================================ */
 
+
+/* ============================================
+   1. FONTS & VARIABLES
+   ============================================ */
+
 /* --- GOOGLE FONTS IMPORT ---
-   Loads all three typefaces from Google Fonts.
    Playfair Display: italic serif for h1 (contributor names)
    Cormorant Garamond: elegant serif for h2 and nav logo
    Lora: warm readable serif for body text, h3, links
-   Multiple weights loaded so we can use bold, regular, and italic variants.
    IMPORTANT: Commas separate values within a single axis (like wght@0,400,0,700).
    Semicolons separate different axes (like ital@ and wght@). */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400,0,700,1,400&family=Cormorant+Garamond:ital,wght@0,400,0,600,1,400&family=Lora:ital,wght@0,400,0,600,1,400,1,600&display=swap');
 
 /* --- CSS VARIABLES ---
-   Define all colors here. To add light mode: only --bg and --text swap.
-   Pink and purple stay the same. [data-theme="light"] is added to <html>
-   by JavaScript when user toggles light mode. localStorage remembers the choice. */
+   Define all colors here. [data-theme="light"] swaps --bg and --text. */
 :root {
   --bg: #0a0608;
   --text: #f5f0f5;
@@ -26,16 +27,14 @@
   --purple: #a300ff;
   
   /* Theme tag colors — for color-coded quotes and connections.
-     Place and Loss share the core brand colors.
-     The remaining five expand the palette for metadata and witness quotes.
      --theme-epoch is for internal/admin use only — not public-facing. */
---theme-place: #8fd3c7;      /* chartreuse */
---theme-loss: #ff8c69;       /* coral */
---theme-intimacy: #ffe066;   /* gold */
---theme-web: #4df0ff;        /* cyan */
---theme-identity: #ffb3ff;   /* orchid */
---theme-creativity: #7fffd4; /* mint */
---theme-future: #e6e6e6;     /* silver */
+  --theme-place: #8fd3c7;
+  --theme-loss: #ff8c69;
+  --theme-intimacy: #ffe066;
+  --theme-web: #4df0ff;
+  --theme-identity: #ffb3ff;
+  --theme-creativity: #7fffd4;
+  --theme-future: #e6e6e6;
 }
 
 [data-theme="light"] {
@@ -50,17 +49,16 @@
   --theme-future: #666666;
 }
 
+
 /* ============================================
-   ACCESSIBILITY FOUNDATION
+   2. ACCESSIBILITY FOUNDATION
    Reduced motion, skip link, focus indicators, screen reader utilities.
    These must load early so they can override later styles.
    ============================================ */
 
 /* --- REDUCED MOTION SAFETY NET ---
-   Users who have set "reduce motion" in their OS/browser preferences
-   will have all animations and transitions disabled automatically.
-   Required for seizure safety — the teaser page flicker and 4Runner shake
-   are the main concerns. Custom cursor also reverts to system default. */
+   Disables all animations/transitions for users with reduced motion preference.
+   Custom cursor reverts to system default. Required for seizure safety. */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -78,9 +76,7 @@
 }
 
 /* --- SKIP LINK ---
-   Visually hidden until a keyboard user presses Tab.
-   Slides down from the top so keyboard users can skip directly to main content.
-   Required for keyboard navigation accessibility. */
+   Visually hidden until Tab focus. Slides down for keyboard users. */
 .skip-link {
   position: absolute;
   top: -100%;
@@ -101,19 +97,15 @@
 }
 
 /* --- FOCUS INDICATOR ---
-   Replaces browser default blue outline with pink glow matching site palette.
-   :focus-visible only shows on keyboard navigation, not mouse clicks.
-   Removing focus indicators without replacement is an accessibility violation. */
+   Pink glow replaces browser default blue outline. */
 :focus-visible {
   outline: 2px solid var(--pink);
   outline-offset: 2px;
 }
 
 /* --- SCREEN READER ONLY ---
-   Visually hidden but still read by screen readers and assistive technology.
-   Use on form labels, icon buttons, and any element that needs accessible text
-   without being visually visible. DO NOT use display:none for labels —
-   that removes them from the accessibility tree entirely. */
+   Visually hidden but read by assistive technology.
+   DO NOT use display:none for labels. */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -126,11 +118,14 @@
   border: 0;
 }
 
+
+/* ============================================
+   3. GLOBAL ELEMENTS
+   Container, body, images, headings, paragraphs, links, lists, hr
+   ============================================ */
+
 /* --- CONTAINER ---
-   Centers all page content and caps the width at 900px.
-   margin: auto pushes equal space on left and right, centering the block.
-   display: block is explicit to prevent browser defaults from interfering.
-   padding-bottom: keeps page content from touching bottom of screen. */
+   Centers content, caps at 900px. */
 .container {
   margin: auto;
   max-width: 900px;
@@ -138,68 +133,19 @@
   padding-bottom: 120px;
 }
 
-/* --- BANNER ---
-   The hero image at the top of the home page.
-   width: 100% makes it stretch edge to edge of the container.
-   box-shadow uses two layers: pink glow underneath, wider purple ambient glow.
-   Included on home page only via _includes/banner.html — not in layouts. */
-.banner {
-  width: 100%;
-  box-shadow: 0 4px 24px rgba(255, 0, 163, 0.2), 0 0 48px rgba(163, 0, 255, 0.1);
-  display: block;
+/* --- BODY ---
+   Off-black with warm undertone — makes pink/purple glow. */
+body {
+  background-color: var(--bg);
 }
 
-/* --- FOOTER IMAGE ---
-   The 4Runner photo in the footer. max-height caps it so it doesn't take over.
-   drop-shadow (not box-shadow) follows the transparent PNG shape of the car.
-   box-shadow would glow around the invisible rectangular box —
-   drop-shadow glows around the car itself. */
-.footer {
-  max-height: 150pt;
-  filter: drop-shadow(0 0 12px rgba(255, 0, 163, 0.4)) drop-shadow(0 0 24px rgba(163, 0, 255, 0.2));
-}
-
-/* --- FOOTER DEDICATION ---
-   Eulogy chic — Cormorant Garamond italic for the 4Runner memorial text.
-   First line in purple, second line smaller and off-white. */
-.footer-dedication {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-size: 18pt;
-  color: var(--purple);
-  margin: 0 0 4px 0;
-}
-
-.footer-dedication-sub {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-size: 13pt;
-  color: var(--text);
-  opacity: 0.6;
-  margin: 0;
-}
-
-/* --- IMAGES (GLOBAL) ---
-   Prevents any image from overflowing its container.
-   height: auto preserves the original aspect ratio. */
+/* --- IMAGES (GLOBAL) --- */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* --- BODY ---
-   Off-black background instead of pure #000000.
-   Pure black is harsh on the eyes with white text.
-   #0a0608 has a barely-there warm undertone that makes the pink and purple glow. */
-body {
-  background-color: var(--bg);
-}
-
-/* --- HEADINGS ---
-   h1: Playfair Display italic — used for contributor names. Editorial, fashion-forward.
-   h2: Cormorant Garamond — section headers. Structured and elegant.
-   h3: Lora uppercase — labels and subcategories. Clean and readable.
-   margin: 0 0 8px 0 resets browser default large margins. */
+/* --- HEADINGS --- */
 h1 {
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -209,9 +155,6 @@ h1 {
   margin: 0 0 8px 0;
 }
 
-/* Centers h1 on post pages only (contributor name as byline).
-   Uses body.post to scope it — only fires when <body class="post"> is present.
-   Default pages and home page h1s are unaffected. */
 body.post h1 {
   text-align: center;
 }
@@ -234,10 +177,7 @@ h3 {
   margin: 0 0 8px 0;
 }
 
-/* --- PARAGRAPH ---
-   Lora at weight 300 (light) feels warm and literary.
-   line-height: 1.75 adds generous spacing between lines for readability.
-   margin-bottom: 12px adds space between paragraphs. */
+/* --- PARAGRAPH --- */
 p {
   font-family: 'Lora', serif;
   font-weight: 300;
@@ -247,9 +187,7 @@ p {
   color: var(--text);
 }
 
-/* --- LINKS ---
-   Pink by default, no underline at rest.
-   Underline appears on hover as a subtle interactive signal. */
+/* --- LINKS --- */
 a {
   font-family: 'Lora', serif;
   font-size: 14pt;
@@ -261,9 +199,15 @@ a:hover {
   text-decoration: underline;
 }
 
-/* --- LISTS ---
-   .a-list: the word bank / tag cloud grid used on Trunk and style guide.
-   CSS grid with auto-fill columns — items wrap naturally without gaps. */
+/* --- HORIZONTAL RULE ---
+   0.5px pink line — delicate divider. */
+hr {
+  border: none;
+  border-top: 0.5px solid var(--pink);
+  margin: 24px 0;
+}
+
+/* --- LISTS --- */
 .a-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -279,10 +223,8 @@ a:hover {
 .a-list li {
   box-sizing: border-box;
 }
-/* --- GLOBAL LIST STYLES ---
-   Ensures lists inside content areas inherit the site's font and color.
-   Scoped to .container and .wiki-page to avoid affecting nav ul.
-   No custom bullets — keeps browser default markers. */
+
+/* Global list styles — scoped to avoid nav */
 .container ul:not(.a-list), .container ol, .wiki-page ul:not(.a-list), .wiki-page ol {
   font-family: 'Lora', serif;
   font-size: 14pt;
@@ -295,9 +237,13 @@ a:hover {
 .container ul li, .container ol li, .wiki-page ul li, .wiki-page ol li {
   margin-bottom: 4px;
 }
-/* --- NAVIGATION BAR ---
-   flex + space-between pushes the logo left and links right.
-   border-bottom is a barely-visible line that grounds the nav without being loud. */
+
+
+/* ============================================
+   4. NAVIGATION
+   Nav bar, logo, links, hamburger menu
+   ============================================ */
+
 nav {
   background: var(--bg);
   padding: 10px 32px;
@@ -308,11 +254,6 @@ nav {
   justify-content: space-between;
 }
 
-/* --- NAV LOGO ---
-   The site title on the left of the nav. Links to home page (href="/").
-   It's an <a> tag so we override link defaults (color, underline).
-   white-space: nowrap prevents it from wrapping onto two lines.
-   !important on color overrides the global a { color: var(--pink) } rule. */
 .nav-logo {
   font-family: 'Cormorant Garamond', serif;
   font-size: 13pt;
@@ -329,10 +270,6 @@ nav {
   text-decoration: none;
 }
 
-/* --- NAV LINKS ---
-   Links displayed in a horizontal row.
-   Uppercase + letter-spacing gives them a refined editorial feel.
-   opacity: 0.7 at rest, 1 on hover for a subtle interactive effect. */
 nav ul {
   display: flex;
   list-style: none;
@@ -360,19 +297,13 @@ nav ul li a:hover {
   color: var(--pink);
 }
 
-/* Highlights the current page link in pink with underline.
-   Underline added as a non-color accessibility indicator.
-   !important overrides the inherited white color and opacity from nav ul li a. */
 .active {
   color: var(--pink) !important;
   opacity: 1 !important;
   text-decoration: underline !important;
 }
 
-/* --- HAMBURGER MENU BUTTON ---
-   Hidden on desktop (display: none). Shows on mobile via the @media query below.
-   Three <span> tags inside form the three lines of the hamburger icon.
-   aria-expanded is updated by JavaScript in header.html when menu opens/closes. */
+/* --- HAMBURGER MENU --- */
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -391,8 +322,6 @@ nav ul li a:hover {
   transition: all 0.3s ease;
 }
 
-/* When .open class is added via JavaScript, the three lines animate into an X.
-   First line rotates 45deg down, middle line disappears, third line rotates 45deg up. */
 .nav-toggle.open span:nth-child(1) {
   transform: translateY(6.5px) rotate(45deg);
 }
@@ -405,81 +334,49 @@ nav ul li a:hover {
   transform: translateY(-6.5px) rotate(-45deg);
 }
 
-/* --- MOBILE STYLES ---
-   Everything inside @media (max-width: 600px) only applies on screens 600px wide or less.
-   This is the single mobile breakpoint — do not add intermediate breakpoints
-   without discussion. */
-@media (max-width: 600px) {
-  nav {
-    flex-wrap: nowrap;
-    padding: 12px 20px;
-    align-items: center;
-  }
 
-  nav .nav-logo {
-    font-size: 9pt;
-    letter-spacing: 0.12em;
-  }
+/* ============================================
+   5. BANNER & FOOTER
+   ============================================ */
 
-  .nav-toggle {
-    display: flex;
-  }
-
-  nav ul {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    padding: 12px 0;
-    gap: 4px;
-  }
-
-  nav ul.open {
-    display: flex;
-  }
-
-  nav ul li {
-    margin: 0;
-  }
-
-  nav ul li a {
-    display: block;
-    padding: 10px 0;
-    border-bottom: 0.5px solid rgba(245,240,245,0.06);
-    font-size: 11pt;
-  }
-  p { font-size: 10pt; }
-  h1 { font-size: 20pt; }
-  h2 { font-size: 18pt; }
-  a { font-size: 10pt; }
-  .container ul:not(.a-list), .container ol, .wiki-page ul:not(.a-list), .wiki-page ol {
-    font-size: 10pt;
-  }
-  .a-list {
-    grid-template-columns: repeat(2, 1fr);
-    font-size: 10pt;
-  }
-  .wiki-manifesto {
-    font-size: 13pt;
-  }
-  .trunk-card h2 {
-    font-size: 16pt;
-  }
-  .trunk-card h3 {
-    font-size: 9pt;
-  }
-  .trunk-card p {
-    font-size: 10pt;
-  }
-  .bio-card {
-    flex-direction: column;
-  }
-  .bio-image {
-    width: 100%;
-  }
+/* --- BANNER ---
+   Hero image on home page only. */
+.banner {
+  width: 100%;
+  box-shadow: 0 4px 24px rgba(255, 0, 163, 0.2), 0 0 48px rgba(163, 0, 255, 0.1);
+  display: block;
 }
-/* --- BACK TO TOP BUTTON ---
-   Fixed bottom right of the viewport. Shows on all pages.
-   border-radius: 50% makes it a circle (width and height are equal). */
+
+/* --- FOOTER IMAGE ---
+   4Runner PNG. drop-shadow follows car shape. */
+.footer {
+  max-height: 150pt;
+  filter: drop-shadow(0 0 12px rgba(255, 0, 163, 0.4)) drop-shadow(0 0 24px rgba(163, 0, 255, 0.2));
+}
+
+.footer-dedication {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 18pt;
+  color: var(--purple);
+  margin: 0 0 4px 0;
+}
+
+.footer-dedication-sub {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 13pt;
+  color: var(--text);
+  opacity: 0.6;
+  margin: 0;
+}
+
+
+/* ============================================
+   6. BUTTONS & INTERACTIVE
+   Back to top, theme toggle, custom cursor
+   ============================================ */
+
 .back-to-top {
   position: fixed;
   bottom: 24px;
@@ -503,11 +400,48 @@ nav ul li a:hover {
   opacity: 1;
 }
 
+body .theme-toggle {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  background: transparent;
+  border: 1px solid var(--pink);
+  color: var(--pink);
+  font-size: 16px;
+  line-height: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: url('/assets/Images/cursor.svg') 8 2, auto;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body .theme-toggle:hover {
+  opacity: 1;
+}
+
+/* --- CUSTOM CURSOR ---
+   SVG double heart. Reverts to auto for reduced motion users. */
+body {
+  cursor: url('/assets/Images/cursor.svg'), auto;
+}
+
+a, button {
+  cursor: url('/assets/Images/cursor.svg') 8 2, auto;
+}
+
+
+/* ============================================
+   7. CONTRIBUTOR PAGES
+   Bio card, gallery, feature card, poetry links, lightbox, cover photo
+   ============================================ */
+
 /* --- BIO CARD ---
-   Flexbox layout for contributor profile: photo on the left, bio text on the right.
-   gap: 24px is the space between the photo and text columns.
-   align-items: flex-start lines both columns up from the top edge.
-   Stacks vertically on mobile via the @media query above. */
+   Flexbox: photo left, bio right. Stacks on mobile. */
 .bio-card {
   display: flex;
   gap: 24px;
@@ -529,20 +463,7 @@ nav ul li a:hover {
   flex: 1;
 }
 
-/* --- HORIZONTAL RULE ---
-   Used as a divider between the bio section and interview content.
-   border: none resets the browser's default hr styling first,
-   then we draw only the top border in pink at 0.5px for a delicate line. */
-hr {
-  border: none;
-  border-top: 0.5px solid var(--pink);
-  margin: 24px 0;
-}
-
-/* --- IMAGE GALLERY (DRIVERS PAGE) ---
-   .container prefix adds specificity to override browser's default display: block on divs.
-   Without this prefix, the grid doesn't fire on the live site even though CSS is correct.
-   This is a known specificity pattern — see also .container .embeddable-buttondown-form */
+/* --- IMAGE GALLERY (DRIVERS PAGE) --- */
 .container .gallery {
   display: grid;
 }
@@ -597,10 +518,6 @@ hr {
   transform: translateY(0);
 }
 
-/* --- FEATURE CARD ---
-   Always last in the gallery grid — links to the coming soon /revving-up/ page.
-   Transparent with pink border at rest, glows on hover. No image — pure CSS card.
-   Must have aria-label in HTML for screen reader accessibility. */
 .feature-card {
   background: transparent;
   border: 1px solid var(--pink);
@@ -615,8 +532,6 @@ hr {
   box-shadow: 0 0 12px var(--pink);
 }
 
-/* --- POETRY LINKS ---
-   Centered text block below the gallery on the Drivers page. */
 .poetry-links {
   text-align: center;
   margin-top: 24px;
@@ -627,256 +542,7 @@ hr {
   margin-bottom: 8px;
 }
 
-/* Gallery drops to 2 columns on mobile */
-@media (max-width: 600px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* --- CUSTOM CURSOR ---
-   Replaces the default browser cursor with SVG double heart.
-   The two numbers after the URL on a, button are hotspot coordinates (x y) —
-   where exactly on the cursor image the click registers.
-   Automatically reverts to auto for prefers-reduced-motion users (see top of file). */
-body {
-  cursor: url('/assets/Images/cursor.svg'), auto;
-}
-
-a, button {
-  cursor: url('/assets/Images/cursor.svg') 8 2, auto;
-}
-
-/* --- EMAIL SIGNUP FORM (BUTTONDOWN) ---
-   .container prefix adds specificity to override browser's default display: block.
-   Same pattern as .container .gallery above — needed on live site.
-   The <label> in HTML should use class="sr-only" for screen reader accessibility. */
-.container .embeddable-buttondown-form {
-  display: flex;
-}
-
-.embeddable-buttondown-form {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 48px;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.embeddable-buttondown-form input[type="email"] {
-  flex: 1;
-  background: transparent;
-  border: 0.5px solid var(--pink);
-  color: var(--text);
-  font-family: 'Lora', serif;
-  font-size: 11pt;
-  padding: 10px 16px;
-}
-
-.embeddable-buttondown-form input[type="email"]:focus {
-  outline: 2px solid var(--pink);
-  outline-offset: 2px;
-}
-
-.embeddable-buttondown-form input[type="submit"] {
-  background: transparent;
-  border: 0.5px solid var(--pink);
-  color: var(--pink);
-  font-family: 'Lora', serif;
-  font-size: 11pt;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  padding: 10px 20px;
-  cursor: url('/assets/Images/cursor.svg'), auto;
-  transition: opacity 0.3s ease;
-}
-
-.embeddable-buttondown-form input[type="submit"]:hover {
-  opacity: 0.7;
-}
-
-.embeddable-buttondown-form p {
-  display: none;
-}
-
-/* --- THEME TOGGLE BUTTON ---
-   Fixed bottom LEFT corner — mirrors back-to-top button on the right.
-   Shows on all pages. ☼ = dark mode active (click for light),
-   ☾ = light mode active (click for dark).
-   body prefix adds specificity to override browser default button sizing. */
-body .theme-toggle {
-  position: fixed;
-  bottom: 24px;
-  left: 24px;
-  background: transparent;
-  border: 1px solid var(--pink);
-  color: var(--pink);
-  font-size: 16px;
-  line-height: 1;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  cursor: url('/assets/Images/cursor.svg') 8 2, auto;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-body .theme-toggle:hover {
-  opacity: 1;
-}
-
-/* --- TEASER PAGE (REVVING UP) ---
-   Full height static effect page for upcoming features.
-   Static lines animate with flicker effect behind centered text.
-   Subscribe form at the bottom as call to action.
-   Animation is wrapped in prefers-reduced-motion: no-preference below. */
-.teaser-page {
-  min-height: 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 48px 0;
-}
-
-.teaser-static {
-  position: relative;
-  width: 100%;
-  height: 320px;
-  display: flex !important;
-}
-
-.static-lines {
-  position: absolute;
-  top: 60px;
-  left: 0;
-  right: 0;
-  bottom: 60px;
-  overflow: hidden;
-  z-index: 0;
-}
-
-.static-line {
-  height: 2px;
-  margin-bottom: 3px;
-  background: linear-gradient(90deg, transparent, var(--pink), var(--purple), transparent);
-}
-
-.static-line:nth-child(odd) {
-  opacity: 0.5;
-}
-
-.static-line:nth-child(3n) {
-  background: linear-gradient(90deg, transparent, var(--purple), transparent);
-}
-
-@keyframes flicker {
-  0%, 100% { opacity: 0.3; }
-  50% { opacity: 1; }
-}
-
-@keyframes pulse {
-  0% { opacity: 1; }
-  50% { opacity: 0.4; }
-  100% { opacity: 1; }
-}
-
-@keyframes carShake {
-  0%, 100% { transform: translateX(0); }
-  20% { transform: translateX(-6px) rotate(-1deg); }
-  40% { transform: translateX(6px) rotate(1deg); }
-  60% { transform: translateX(-4px) rotate(-0.5deg); }
-  80% { transform: translateX(4px) rotate(0.5deg); }
-}
-
-/* --- ANIMATIONS (MOTION-SAFE ONLY) ---
-   All animations are wrapped here so they only fire for users who haven't
-   requested reduced motion. Covers: teaser page flicker, 4Runner shake,
-   feature card pulse. Keyframes are defined above. */
-@media (prefers-reduced-motion: no-preference) {
-  .static-line {
-    animation: flicker 2s ease-in-out infinite;
-  }
-
-  .static-line:nth-child(odd) {
-    animation-delay: 1s;
-  }
-
-  .footer-shake {
-    animation: carShake 0.5s ease-in-out;
-  }
-
-  .feature-card:hover {
-    animation: pulse 1.5s ease-in-out infinite;
-  }
-}
-
-.teaser-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  width: 100%;
-  min-height: 200px;
-  display: flex !important;
-  flex-direction: column;
-  align-items: center;
-}
-
-.teaser-label {
-  font-family: 'Lora', serif;
-  font-size: 10pt;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--purple);
-  opacity: 0.7;
-  margin-bottom: 16px;
-}
-
-.teaser-title {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 48pt;
-  color: var(--pink);
-  margin: 0 0 8px 0;
-}
-
-.teaser-sub {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 13pt;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--purple);
-  opacity: 0.6;
-}
-
-.teaser-subscribe {
-  text-align: center;
-  width: 100%;
-  margin-top: 16px;
-}
-
-.teaser-subscribe-label {
-  font-family: 'Lora', serif;
-  font-size: 10pt;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--text);
-  opacity: 0.4;
-  margin-bottom: 16px;
-}
-
-/* --- LIGHTBOX ---
-   Full screen overlay for cover photos on post pages.
-   position: fixed covers the entire viewport regardless of scroll position.
-   z-index: 1000 puts it on top of everything including nav and buttons.
-   Hidden by default — JavaScript adds .open class to show it.
-   TO DO post-launch: upgrade close button from <span> to <button>,
-   add role="dialog" and aria-modal="true" to the lightbox div. */
+/* --- LIGHTBOX --- */
 .lightbox {
   position: fixed;
   top: 0;
@@ -935,9 +601,13 @@ body .theme-toggle:hover {
   text-decoration: underline;
 }
 
-/* --- BLOCKQUOTE / PULL QUOTE ---
-   For pull quotes from interviews or poems.
-   Left border in pink, italic Cormorant Garamond, indented. */
+
+/* ============================================
+   8. COMPONENTS
+   Pull quote, caption, tag, callout, audio, video, accordion, slideshow
+   ============================================ */
+
+/* --- PULL QUOTE --- */
 .pull-quote {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
@@ -948,70 +618,8 @@ body .theme-toggle:hover {
   padding: 8px 24px;
   opacity: 0.85;
 }
-/* --- COLOR-CODED QUOTE SYSTEM ---
-   Theme tags for Driver interviews and the Witnesses collection.
-   Seven public-facing themes + one internal metadata marker.
-   
-   Inline usage:
-     <span class="tag-place">"You can't google my hood."</span>
-   
-   Blockquote usage:
-     <blockquote class="tag-quote tag-place">
-       "You can't google my hood."
-     </blockquote>
-   
-   Multiple tags can be combined:
-     <span class="tag-place tag-loss">Text</span>
-*/
 
-.tag-place { color: var(--theme-place); }
-.tag-loss { color: var(--theme-loss); }
-.tag-intimacy { color: var(--theme-intimacy); }
-.tag-web { color: var(--theme-web); }
-.tag-identity { color: var(--theme-identity); }
-.tag-creativity { color: var(--theme-creativity); }
-.tag-future { color: var(--theme-future); }
-
-/* Blockquote variant — colored left border + matching text.
-   Use with a theme class to set both border and text color. */
-.tag-quote {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-size: 18pt;
-  line-height: 1.5;
-  margin: 16px 0;
-  padding: 8px 16px;
-  border-left: 3px solid;
-  display: block;
-}
-
-.tag-quote.tag-place { border-color: var(--theme-place); color: var(--theme-place); }
-.tag-quote.tag-loss { border-color: var(--theme-loss); color: var(--theme-loss); }
-.tag-quote.tag-intimacy { border-color: var(--theme-intimacy); color: var(--theme-intimacy); }
-.tag-quote.tag-web { border-color: var(--theme-web); color: var(--theme-web); }
-.tag-quote.tag-identity { border-color: var(--theme-identity); color: var(--theme-identity); }
-.tag-quote.tag-creativity { border-color: var(--theme-creativity); color: var(--theme-creativity); }
-.tag-quote.tag-future { border-color: var(--theme-future); color: var(--theme-future); }
-/* --- THEME LEGEND ---
-   Horizontal list of theme colors at top of Witnesses page.
-   Teaches the visual language before the reader encounters quotes. */
-.theme-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin: 20px 0 24px 0;
-  font-family: 'Lora', serif;
-  font-size: 10pt;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  opacity: 0.8;
-}
-
-.theme-legend span {
-  padding: 2px 0;
-}
-/* --- IMAGE CAPTION ---
-   Small label below images for photo credits or descriptions. */
+/* --- IMAGE CAPTION --- */
 .caption {
   font-family: 'Lora', serif;
   font-size: 9pt;
@@ -1023,9 +631,7 @@ body .theme-toggle:hover {
   margin-bottom: 16px;
 }
 
-/* --- TAG / BADGE ---
-   Small pill labels for categorizing content.
-   Transparent with purple border, uppercase Lora. */
+/* --- TAG / BADGE --- */
 .tag {
   display: inline-block;
   font-family: 'Lora', serif;
@@ -1040,9 +646,7 @@ body .theme-toggle:hover {
   margin-bottom: 6px;
 }
 
-/* --- CALLOUT BOX ---
-   Highlighted aside or editor's note.
-   Subtle pink left border, barely-there pink background tint. */
+/* --- CALLOUT BOX --- */
 .callout {
   border-left: 2px solid var(--pink);
   padding: 12px 20px;
@@ -1056,9 +660,7 @@ body .theme-toggle:hover {
   opacity: 0.8;
 }
 
-/* --- AUDIO PLAYER ---
-   Wrapper for contributor audio recordings or sound clips.
-   Native browser audio element with CSS invert trick for dark theme styling. */
+/* --- AUDIO PLAYER --- */
 .audio-player {
   margin: 24px 0;
 }
@@ -1084,8 +686,7 @@ audio:hover {
 }
 
 /* --- VIDEO EMBED ---
-   Responsive 16:9 video wrapper for YouTube or Vimeo embeds.
-   padding-top: 56.25% is the magic number for 16:9 aspect ratio. */
+   16:9 responsive wrapper. */
 .video-wrap {
   position: relative;
   padding-top: 56.25%;
@@ -1102,10 +703,371 @@ audio:hover {
   border: 0.5px solid rgba(255, 0, 163, 0.2);
 }
 
-/* --- WIKI PAGE ---
-   Wikipedia-style layout for Trunk pages.
-   TOC box uses purple border at low opacity — intentionally subtle.
-   No numbers, full width to match container. */
+/* --- ACCORDION --- */
+.accordion {
+  border-bottom: 0.5px solid var(--pink);
+  margin-bottom: 8px;
+}
+
+.accordion-header {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-family: 'Lora', serif;
+  font-size: 12pt;
+  letter-spacing: 0.1em;
+  text-align: left;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.accordion-header:hover {
+  opacity: 1;
+  color: var(--pink);
+}
+
+.accordion-icon {
+  color: var(--pink);
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.accordion-content {
+  display: none;
+  padding: 0 0 16px 0;
+}
+
+.accordion-content.open {
+  display: block;
+}
+
+/* --- SLIDESHOW --- */
+.slideshow {
+  margin: 24px 0;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide {
+  flex: 1;
+  display: none;
+  overflow: hidden;
+}
+
+.container .slide {
+  display: none;
+}
+
+.slide.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .slide.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  width: 100%;
+  flex: 1;
+  object-fit: contain;
+  border: 0.5px solid rgba(255, 0, 163, 0.2);
+  min-height: 0;
+}
+
+.slideshow-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 16px;
+  flex-shrink: 0;
+}
+
+.slide-btn {
+  background: transparent;
+  border: 0.5px solid var(--pink);
+  color: var(--pink);
+  font-size: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-btn:hover {
+  opacity: 1;
+}
+
+.slide-count {
+  font-family: 'Lora', serif;
+  font-size: 10pt;
+  letter-spacing: 0.15em;
+  color: var(--text);
+  opacity: 0.5;
+}
+
+
+/* ============================================
+   9. EMAIL SIGNUP FORM (BUTTONDOWN)
+   ============================================ */
+
+.container .embeddable-buttondown-form {
+  display: flex;
+}
+
+.embeddable-buttondown-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 48px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  flex: 1;
+  background: transparent;
+  border: 0.5px solid var(--pink);
+  color: var(--text);
+  font-family: 'Lora', serif;
+  font-size: 11pt;
+  padding: 10px 16px;
+}
+
+.embeddable-buttondown-form input[type="email"]:focus {
+  outline: 2px solid var(--pink);
+  outline-offset: 2px;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  background: transparent;
+  border: 0.5px solid var(--pink);
+  color: var(--pink);
+  font-family: 'Lora', serif;
+  font-size: 11pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  cursor: url('/assets/Images/cursor.svg'), auto;
+  transition: opacity 0.3s ease;
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+  opacity: 0.7;
+}
+
+.embeddable-buttondown-form p {
+  display: none;
+}
+
+
+/* ============================================
+   10. TEASER PAGE (REVVING UP)
+   ============================================ */
+
+.teaser-page {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 0;
+}
+
+.teaser-static {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  display: flex !important;
+}
+
+.static-lines {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 60px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.static-line {
+  height: 2px;
+  margin-bottom: 3px;
+  background: linear-gradient(90deg, transparent, var(--pink), var(--purple), transparent);
+}
+
+.static-line:nth-child(odd) {
+  opacity: 0.5;
+}
+
+.static-line:nth-child(3n) {
+  background: linear-gradient(90deg, transparent, var(--purple), transparent);
+}
+
+.teaser-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  min-height: 200px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teaser-label {
+  font-family: 'Lora', serif;
+  font-size: 10pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--purple);
+  opacity: 0.7;
+  margin-bottom: 16px;
+}
+
+.teaser-title {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 48pt;
+  color: var(--pink);
+  margin: 0 0 8px 0;
+}
+
+.teaser-sub {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--purple);
+  opacity: 0.6;
+}
+
+.teaser-subscribe {
+  text-align: center;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.teaser-subscribe-label {
+  font-family: 'Lora', serif;
+  font-size: 10pt;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text);
+  opacity: 0.4;
+  margin-bottom: 16px;
+}
+
+
+/* ============================================
+   11. COLOR-CODED QUOTE SYSTEM
+   Theme tags for Driver interviews and Witnesses collection.
+   ============================================ */
+
+.tag-place { color: var(--theme-place); }
+.tag-loss { color: var(--theme-loss); }
+.tag-intimacy { color: var(--theme-intimacy); }
+.tag-web { color: var(--theme-web); }
+.tag-identity { color: var(--theme-identity); }
+.tag-creativity { color: var(--theme-creativity); }
+.tag-future { color: var(--theme-future); }
+
+/* Blockquote variant — colored left border + matching text */
+.tag-quote {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 18pt;
+  line-height: 1.5;
+  margin: 16px 0;
+  padding: 8px 16px;
+  border-left: 3px solid;
+  display: block;
+}
+
+.tag-quote.tag-place { border-color: var(--theme-place); color: var(--theme-place); }
+.tag-quote.tag-loss { border-color: var(--theme-loss); color: var(--theme-loss); }
+.tag-quote.tag-intimacy { border-color: var(--theme-intimacy); color: var(--theme-intimacy); }
+.tag-quote.tag-web { border-color: var(--theme-web); color: var(--theme-web); }
+.tag-quote.tag-identity { border-color: var(--theme-identity); color: var(--theme-identity); }
+.tag-quote.tag-creativity { border-color: var(--theme-creativity); color: var(--theme-creativity); }
+.tag-quote.tag-future { border-color: var(--theme-future); color: var(--theme-future); }
+
+/* --- QUOTE ATTRIBUTION ---
+   Contributor name link below blockquotes on Witnesses page.
+   Uses Playfair Display italic like H1, sized for blockquote context. */
+.quote-attribution {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 16pt;
+  margin: 4px 0 8px 0;
+}
+
+.quote-attribution a {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 16pt;
+  color: var(--pink);
+  text-decoration: none;
+}
+
+.quote-attribution a:hover {
+  text-decoration: underline;
+}
+
+/* --- THEME LEGEND ---
+   Horizontal list at top of Witnesses page.
+   Matches Epoch category legend style. */
+.theme-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 12px 0;
+  padding-bottom: 12px;
+  border-bottom: 0.5px solid rgba(163, 0, 255, 0.2);
+}
+
+.theme-legend span {
+  font-family: 'Lora', serif;
+  font-size: 9pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+/* --- WITNESS PILL TAGS ---
+   Match timeline tag pill style for theme tags under quotes. */
+.timeline-tag.place { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); border-radius: 12px; }
+.timeline-tag.loss { background: rgba(255, 140, 105, 0.12); color: var(--theme-loss); border: 0.5px solid rgba(255, 140, 105, 0.25); border-radius: 12px; }
+.timeline-tag.intimacy { background: rgba(255, 224, 102, 0.12); color: var(--theme-intimacy); border: 0.5px solid rgba(255, 224, 102, 0.25); border-radius: 12px; }
+.timeline-tag.web { background: rgba(77, 240, 255, 0.12); color: var(--theme-web); border: 0.5px solid rgba(77, 240, 255, 0.25); border-radius: 12px; }
+.timeline-tag.identity { background: rgba(255, 179, 255, 0.12); color: var(--theme-identity); border: 0.5px solid rgba(255, 179, 255, 0.25); border-radius: 12px; }
+.timeline-tag.creativity { background: rgba(127, 255, 212, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(127, 255, 212, 0.25); border-radius: 12px; }
+.timeline-tag.future { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); border-radius: 12px; }
+
+
+/* ============================================
+   12. WIKI PAGE (LEGACY)
+   ============================================ */
+
 .wiki-page {
   max-width: 800px;
   margin: 0 auto;
@@ -1152,10 +1114,12 @@ audio:hover {
   padding-left: 16px;
   list-style: none;
 }
-/* --- TRUNK DASHBOARD ---
-   Research interface for the millennial epoch archive.
-   Six collection zones in a 2-column grid on desktop.
-   Single column on mobile. Cards feel like objects on a desk. */
+
+
+/* ============================================
+   13. TRUNK DASHBOARD
+   ============================================ */
+
 .trunk-dashboard {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1206,9 +1170,12 @@ audio:hover {
 .trunk-card-full {
   grid-column: 1 / -1;
 }
-/* --- ARCHIVE ARTIFACT SYSTEM ---
-   For /Trunk/archive/. Each artifact has media + context.
-   Consistent format for all collected materials. */
+
+
+/* ============================================
+   14. ARCHIVE ARTIFACT SYSTEM
+   ============================================ */
+
 .artifact {
   display: flex;
   flex-direction: column;
@@ -1268,34 +1235,11 @@ audio:hover {
   opacity: 0.5;
 }
 
-@media (max-width: 600px) {
-  .artifact-context h3 {
-    font-size: 14pt;
-  }
-  
-  .artifact-description {
-    font-size: 10pt;
-  }
-  
-  .artifact-significance {
-    font-size: 10pt;
-  }
-}
-/* Mobile: single column */
-@media (max-width: 600px) {
-  .trunk-dashboard {
-    grid-template-columns: 1fr;
-  }
-  
-  .trunk-card-full {
-    grid-column: 1;
-  }
-}
-/* --- EPOCH TIMELINE ---
-   Vertical timeline for /Trunk/epoch/.
-   Alternating left/right on desktop, single column on mobile.
-   Five era sections with headers.
-   Category tags use theme color variables. */
+
+/* ============================================
+   15. EPOCH TIMELINE
+   ============================================ */
+
 .timeline {
   position: relative;
   margin: 32px 0;
@@ -1385,14 +1329,13 @@ audio:hover {
   z-index: 1;
 }
 
-/* Event entry — base styles */
+/* Event entry */
 .timeline-entry {
   position: relative;
   width: 43%;
   margin-bottom: 24px;
 }
 
-/* Left side events */
 .timeline-entry.left {
   float: left;
   clear: left;
@@ -1400,11 +1343,6 @@ audio:hover {
   padding-right: 7%;
 }
 
-.timeline-entry.left::before {
-  right: -30px;
-}
-
-/* Right side events */
 .timeline-entry.right {
   float: right;
   clear: right;
@@ -1412,11 +1350,6 @@ audio:hover {
   padding-left: 7%;
 }
 
-.timeline-entry.right::before {
-  left: -30px;
-}
-
-/* Event title */
 .timeline-entry h3 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
@@ -1427,7 +1360,6 @@ audio:hover {
   letter-spacing: 0;
 }
 
-/* Event description */
 .timeline-entry p {
   font-family: 'Lora', serif;
   font-size: 11pt;
@@ -1437,7 +1369,7 @@ audio:hover {
   margin: 0 0 6px 0;
 }
 
-/* Category tag inside timeline entry */
+/* Category pill tags in timeline */
 .timeline-entry .timeline-tag {
   display: inline-block;
   font-family: 'Lora', serif;
@@ -1456,13 +1388,149 @@ audio:hover {
 .timeline-tag.economics { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
 .timeline-tag.local { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
 
-/* Clear floats after each era */
 .timeline-clear {
   clear: both;
 }
 
-/* Mobile: single column, line on left */
+
+/* ============================================
+   16. KEYFRAMES (MOTION-SAFE)
+   ============================================ */
+
+@keyframes flicker {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+@keyframes carShake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px) rotate(-1deg); }
+  40% { transform: translateX(6px) rotate(1deg); }
+  60% { transform: translateX(-4px) rotate(-0.5deg); }
+  80% { transform: translateX(4px) rotate(0.5deg); }
+}
+
+
+/* ============================================
+   17. MOBILE STYLES (MAX-WIDTH: 600px)
+   ALL mobile overrides in one place.
+   ============================================ */
+
 @media (max-width: 600px) {
+
+  /* --- NAV --- */
+  nav {
+    flex-wrap: nowrap;
+    padding: 12px 20px;
+    align-items: center;
+  }
+
+  nav .nav-logo {
+    font-size: 9pt;
+    letter-spacing: 0.12em;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 12px 0;
+    gap: 4px;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 0.5px solid rgba(245,240,245,0.06);
+    font-size: 11pt;
+  }
+
+  /* --- GLOBAL TYPE SCALING --- */
+  p { font-size: 10pt; }
+  h1 { font-size: 20pt; }
+  h2 { font-size: 18pt; }
+  a { font-size: 10pt; }
+
+  .container ul:not(.a-list), .container ol, .wiki-page ul:not(.a-list), .wiki-page ol {
+    font-size: 10pt;
+  }
+
+  .a-list {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 10pt;
+  }
+
+  .wiki-manifesto {
+    font-size: 13pt;
+  }
+
+  /* --- BIO CARD --- */
+  .bio-card {
+    flex-direction: column;
+  }
+
+  .bio-image {
+    width: 100%;
+  }
+
+  /* --- GALLERY --- */
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* --- TRUNK DASHBOARD --- */
+  .trunk-dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .trunk-card-full {
+    grid-column: 1;
+  }
+
+  .trunk-card h2 {
+    font-size: 16pt;
+  }
+
+  .trunk-card h3 {
+    font-size: 9pt;
+  }
+
+  .trunk-card p {
+    font-size: 10pt;
+  }
+
+  /* --- ARCHIVE ARTIFACTS --- */
+  .artifact-context h3 {
+    font-size: 14pt;
+  }
+
+  .artifact-description {
+    font-size: 10pt;
+  }
+
+  .artifact-significance {
+    font-size: 10pt;
+  }
+
+  /* --- EPOCH TIMELINE --- */
   .timeline-legend {
     gap: 8px;
   }
@@ -1513,12 +1581,6 @@ audio:hover {
     padding-right: 16px;
   }
 
-  .timeline-entry.left::before,
-  .timeline-entry.right::before {
-    left: 13px;
-    right: auto;
-  }
-
   .timeline-entry h3 {
     font-size: 12pt;
   }
@@ -1528,168 +1590,26 @@ audio:hover {
   }
 }
 
-/* Mobile: single column, line on left */
-@media (max-width: 600px) {
-  .timeline::before {
-    left: 16px;
+
+/* ============================================
+   18. ANIMATIONS (MOTION-SAFE ONLY)
+   Only fire when user has NOT requested reduced motion.
+   ============================================ */
+
+@media (prefers-reduced-motion: no-preference) {
+  .static-line {
+    animation: flicker 2s ease-in-out infinite;
   }
 
-  .timeline-year {
-    text-align: left;
-    padding-left: 36px;
-    margin: 24px 0 12px 0;
+  .static-line:nth-child(odd) {
+    animation-delay: 1s;
   }
 
-  .timeline-year h2 {
-    font-size: 22pt;
-    padding: 0;
+  .footer-shake {
+    animation: carShake 0.5s ease-in-out;
   }
 
-  .timeline-entry {
-    width: auto;
-    float: none;
-    padding-left: 36px;
-    padding-right: 0;
-    text-align: left;
-    margin-bottom: 16px;
+  .feature-card:hover {
+    animation: pulse 1.5s ease-in-out infinite;
   }
-
-  .timeline-entry.left,
-  .timeline-entry.right {
-    float: none;
-    text-align: left;
-    padding-left: 36px;
-    padding-right: 0;
-  }
-
-  .timeline-entry p {
-    font-size: 11pt;
-  }
-}
-/* --- SLIDESHOW ---
-   Single image at a time with caption and navigation arrows.
-   Fixed height container so controls stay locked at the bottom.
-   JavaScript handles show/hide via classList.add/remove('active').
-   DO NOT use style.display in JavaScript — conflicts with CSS. */
-.slideshow {
-  margin: 24px 0;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-}
-
-.slide {
-  flex: 1;
-  display: none;
-  overflow: hidden;
-}
-
-.container .slide {
-  display: none;
-}
-
-.slide.active {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.container .slide.active {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.slide img {
-  width: 100%;
-  flex: 1;
-  object-fit: contain;
-  border: 0.5px solid rgba(255, 0, 163, 0.2);
-  min-height: 0;
-}
-
-.slideshow-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  margin-top: 16px;
-  flex-shrink: 0;
-}
-
-/* Slide buttons need aria-label in HTML for screen reader accessibility */
-.slide-btn {
-  background: transparent;
-  border: 0.5px solid var(--pink);
-  color: var(--pink);
-  font-size: 16px;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  cursor: pointer;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slide-btn:hover {
-  opacity: 1;
-}
-
-.slide-count {
-  font-family: 'Lora', serif;
-  font-size: 10pt;
-  letter-spacing: 0.15em;
-  color: var(--text);
-  opacity: 0.5;
-}
-
-/* --- ACCORDION ---
-   Expandable content sections. Click header to show/hide content.
-   + icon changes to — when open via JavaScript.
-   TO DO post-launch: add aria-expanded and aria-controls to .accordion-header. */
-.accordion {
-  border-bottom: 0.5px solid var(--pink);
-  margin-bottom: 8px;
-}
-
-.accordion-header {
-  width: 100%;
-  background: transparent;
-  border: none;
-  color: var(--text);
-  font-family: 'Lora', serif;
-  font-size: 12pt;
-  letter-spacing: 0.1em;
-  text-align: left;
-  padding: 16px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-.accordion-header:hover {
-  opacity: 1;
-  color: var(--pink);
-}
-
-.accordion-icon {
-  color: var(--pink);
-  font-size: 18px;
-  transition: transform 0.3s ease;
-}
-
-.accordion-content {
-  display: none;
-  padding: 0 0 16px 0;
-}
-
-.accordion-content.open {
-  display: block;
 }
