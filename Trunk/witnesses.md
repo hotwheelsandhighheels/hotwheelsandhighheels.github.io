@@ -22,8 +22,6 @@ These excerpts are signals, not conclusions. Themes overlap. Categories are poro
   <span class="tag-future">● Future</span>
 </div>
 
-<hr>
-
 ## Place
 
 <!--
