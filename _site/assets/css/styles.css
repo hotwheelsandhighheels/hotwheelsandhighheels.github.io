@@ -1131,12 +1131,13 @@ audio:hover {
   border: 0.5px solid rgba(163, 0, 255, 0.25);
   padding: 20px;
   background: transparent;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .trunk-card:hover {
   border-color: rgba(255, 0, 163, 0.4);
   box-shadow: 0 0 16px rgba(255, 0, 163, 0.08);
+  transform: translateY(-2px);
 }
 
 .trunk-card h2 {
