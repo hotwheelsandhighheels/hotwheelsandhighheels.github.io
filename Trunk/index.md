@@ -5,17 +5,12 @@ permalink: /Trunk/
 ---
 
   <h1>Trunk</h1>
+
 <div class="trunk-dashboard">
   <!-- INTRO — full width -->
   <div class="trunk-card trunk-card-full">
     <p class="wiki-intro">
-      A living archive of millennial memory, creativity, and cultural history.
-    </p>
-    <p class="wiki-intro">
-      This archive is incomplete by design.
-    </p>
-    <p class="wiki-manifesto">
-      Context matters more than nostalgia.
+      A living archive of millennial memory, creativity, and cultural history. This archive is incomplete by design.
     </p>
   </div>
   <!-- 1. THE EPOCH -->
@@ -61,9 +56,8 @@ permalink: /Trunk/
   <!-- 6. ADD TO THE ARCHIVE -->
   <div class="trunk-card trunk-card-full">
     <h3>Collection 06</h3>
-    <h2>Add to the Archive</h2>
-    <p>If you have memories, artifacts, or stories from the millennial epoch, I invite you to contribute. Include a note about what the artifact means and how it fits.</p>
-    <p>Contact me through <a href="mailto:alejandra@hotwheelsandhighheels.com">email</a> with materials, context, and any relevant dates, locations, or background information.</p>
+    <h2>Submissions</h2>
+    <p>Contact me through with materials, context, and any relevant dates, locations, or background information.</p>
   </div>
 </div>
 
