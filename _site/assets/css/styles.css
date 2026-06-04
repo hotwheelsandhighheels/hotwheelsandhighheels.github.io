@@ -1200,6 +1200,281 @@ audio:hover {
     grid-column: 1;
   }
 }
+/* --- EPOCH TIMELINE ---
+   Vertical timeline for /Trunk/epoch/.
+   Alternating left/right on desktop, single column on mobile.
+   Five era sections with headers.
+   Category tags use theme color variables. */
+.timeline {
+  position: relative;
+  margin: 32px 0;
+  padding: 0;
+}
+
+/* Category legend at top */
+.timeline-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 0.5px solid rgba(163, 0, 255, 0.2);
+}
+
+.timeline-legend span {
+  font-family: 'Lora', serif;
+  font-size: 9pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.timeline-legend .legend-tech { color: var(--theme-web); }
+.timeline-legend .legend-politics { color: var(--theme-loss); }
+.timeline-legend .legend-culture { color: var(--theme-creativity); }
+.timeline-legend .legend-economics { color: var(--theme-future); }
+.timeline-legend .legend-local { color: var(--theme-place); }
+
+/* Era section headers */
+.timeline-era {
+  text-align: center;
+  margin: 40px 0 20px 0;
+  clear: both;
+}
+
+.timeline-era:first-child {
+  margin-top: 0;
+}
+
+.timeline-era h3 {
+  display: inline-block;
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  font-size: 10pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--purple);
+  opacity: 0.6;
+  margin: 0;
+  padding: 4px 16px;
+  border: 0.5px solid rgba(163, 0, 255, 0.2);
+  border-radius: 20px;
+}
+
+/* The vertical line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background: var(--pink);
+  opacity: 0.4;
+}
+
+/* Year marker */
+.timeline-year {
+  position: relative;
+  text-align: center;
+  margin: 28px 0 12px 0;
+  clear: both;
+}
+
+.timeline-year h2 {
+  display: inline-block;
+  background: var(--bg);
+  padding: 0 16px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 26pt;
+  color: var(--purple);
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* Event entry — base styles */
+.timeline-entry {
+  position: relative;
+  width: 43%;
+  margin-bottom: 24px;
+}
+
+/* Left side events */
+.timeline-entry.left {
+  float: left;
+  clear: left;
+  text-align: right;
+  padding-right: 7%;
+}
+
+.timeline-entry.left::before {
+  right: -30px;
+}
+
+/* Right side events */
+.timeline-entry.right {
+  float: right;
+  clear: right;
+  text-align: left;
+  padding-left: 7%;
+}
+
+.timeline-entry.right::before {
+  left: -30px;
+}
+
+/* Event title */
+.timeline-entry h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 14pt;
+  color: var(--text);
+  margin: 0 0 4px 0;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* Event description */
+.timeline-entry p {
+  font-family: 'Lora', serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  color: var(--text);
+  opacity: 0.8;
+  margin: 0 0 6px 0;
+}
+
+/* Category tag inside timeline entry */
+.timeline-entry .timeline-tag {
+  display: inline-block;
+  font-family: 'Lora', serif;
+  font-size: 7pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+.timeline-tag.tech { background: rgba(82, 229, 255, 0.12); color: var(--theme-web); border: 0.5px solid rgba(82, 229, 255, 0.25); }
+.timeline-tag.politics { background: rgba(255, 140, 105, 0.12); color: var(--theme-loss); border: 0.5px solid rgba(255, 140, 105, 0.25); }
+.timeline-tag.culture { background: rgba(255, 143, 207, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(255, 143, 207, 0.25); }
+.timeline-tag.economics { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
+.timeline-tag.local { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
+
+/* Clear floats after each era */
+.timeline-clear {
+  clear: both;
+}
+
+/* Mobile: single column, line on left */
+@media (max-width: 600px) {
+  .timeline-legend {
+    gap: 8px;
+  }
+
+  .timeline-legend span {
+    font-size: 8pt;
+  }
+
+  .timeline-era {
+    text-align: left;
+    padding-left: 36px;
+    margin: 28px 0 16px 0;
+  }
+
+  .timeline-era h3 {
+    font-size: 9pt;
+  }
+
+  .timeline::before {
+    left: 16px;
+  }
+
+  .timeline-year {
+    text-align: left;
+    padding-left: 36px;
+    margin: 20px 0 10px 0;
+  }
+
+  .timeline-year h2 {
+    font-size: 20pt;
+    padding: 0;
+  }
+
+  .timeline-entry {
+    width: auto;
+    float: none;
+    padding-left: 36px;
+    padding-right: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .timeline-entry.left,
+  .timeline-entry.right {
+    float: none;
+    text-align: left;
+    padding-left: 36px;
+    padding-right: 16px;
+  }
+
+  .timeline-entry.left::before,
+  .timeline-entry.right::before {
+    left: 13px;
+    right: auto;
+  }
+
+  .timeline-entry h3 {
+    font-size: 12pt;
+  }
+
+  .timeline-entry p {
+    font-size: 10pt;
+  }
+}
+
+/* Mobile: single column, line on left */
+@media (max-width: 600px) {
+  .timeline::before {
+    left: 16px;
+  }
+
+  .timeline-year {
+    text-align: left;
+    padding-left: 36px;
+    margin: 24px 0 12px 0;
+  }
+
+  .timeline-year h2 {
+    font-size: 22pt;
+    padding: 0;
+  }
+
+  .timeline-entry {
+    width: auto;
+    float: none;
+    padding-left: 36px;
+    padding-right: 0;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  .timeline-entry.left,
+  .timeline-entry.right {
+    float: none;
+    text-align: left;
+    padding-left: 36px;
+    padding-right: 0;
+  }
+
+  .timeline-entry p {
+    font-size: 11pt;
+  }
+}
 /* --- SLIDESHOW ---
    Single image at a time with caption and navigation arrows.
    Fixed height container so controls stay locked at the bottom.
