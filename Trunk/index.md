@@ -29,13 +29,18 @@ permalink: /Trunk/
     <p><a href="/Trunk/archive/">Browse artifacts →</a></p>
   </div>
 
-  <!-- 3. THE WITNESSES -->
-  <div class="trunk-card">
-    <h3>Collection 03</h3>
-    <h2>The Witnesses</h2>
-    <p>Color-coded voices from the Driver interviews on place, loss, intimacy, identity, creativity, the web, and the future.</p>
-    <p><a href="/Trunk/witnesses/">Hear witnesses →</a></p>
-  </div>
+<!-- 3. THE WITNESSES -->
+<div class="trunk-card">
+  <h3>Collection 03</h3>
+  <h2>The Witnesses</h2>
+
+  <blockquote class="tag-quote tag-place">
+    "You can't google my hood."
+  </blockquote>
+  <p>— Angela Mendoza</p>
+
+  <p><a href="/Trunk/witnesses/">Hear more voices →</a></p>
+</div>
 
   <!-- 4. FIELD NOTES -->
   <div class="trunk-card">
