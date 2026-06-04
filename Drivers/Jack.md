@@ -33,19 +33,19 @@ I’ve worn them at least 3 days a week since then. There’s near holes in the 
 
 I used to drive a 1990 Lexus es250. It was my grandfathers car, and probably the most valuable thing ever given to me. Not to say the car was particularly nice. Panels were falling off, the passengers side door didn’t open from the outside, and it perpetually smelled of old man cologne. I remember one January, it was so cold the condensation actually started to freeze on the wheel. 
 
-Its coolant pipe blew up on the I-8 two years ago, and that was the end of it. The car was so old they stopped making replacement parts for it.
+<span class="tag-loss">Its coolant pipe blew up on the I-8 two years ago, and that was the end of it. The car was so old they stopped making replacement parts for it.</span>
 
 I drive a 2023 Kia forte now, but I still miss driving that Lexus, feeling every pebble on the road, listening to radio stations, messing with the cigarette lighter. Waiting for the windows to defrost.
 
 ### What parts of San Diego feel like they belong to you alone? Which places capture the essence of “true” San Diego for you, and which ones feel like they’re just playing the part?
 
-I think the last remnants of real San Diego reside at the trolley stations. The San Diego I grew up in was so much more diverse and mixed. My neighborhood had all types of people, now it’s mostly rich whites or the navy. When I’m riding the trolley, I see every one on there. Working class people getting to work, sports fans, businessmen hopping in and off to different parts of the city. It’s chaotic but it’s nice I think. Definitely not boring.
+<span class="tag-place">I think the last remnants of real San Diego reside at the trolley stations.</span> The San Diego I grew up in was so much more diverse and mixed. My neighborhood had all types of people, now it’s mostly rich whites or the navy. When I’m riding the trolley, I see every one on there. Working class people getting to work, sports fans, businessmen hopping in and off to different parts of the city. It’s chaotic but it’s nice I think. Definitely not boring.
 
 ### What was it like growing up in San Diego? Was there ever a time you dreamt of leaving? If you could go anywhere, where would you go—and would you eventually find yourself back here?
 
-For a long time i didn’t want to leave San Diego. Everything felt so dense and big— It would take me decades to explore every nook and cranny. Now, I’m not so sure I desire to delve into every city corner and street. The older I get the more I want to crawl out of my city, into other parts of the world. 
+For a long time i didn’t want to leave San Diego. Everything felt so dense and big— It would take me decades to explore every nook and cranny. Now, I’m not so sure I desire to delve into every city corner and street.  <span class="tag-future">The older I get the more I want to crawl out of my city, into other parts of the world. 
 
-With all that said, however, I’m not really sure where I’m gonna end up. I could see myself coming back after a while, I could see myself living in another part of the country, in the other part of the world.
+With all that said, however, I’m not really sure where I’m gonna end up.</span> I could see myself coming back after a while, I could see myself living in another part of the country, in the other part of the world.
 
 ### Tell me about your parents. What are the stories you hold about their connection to this city? Were they born here, or did life bring them here? What was San Diego to them?
 
@@ -65,7 +65,7 @@ Sometimes I look at old photos of my dad, though, and it’s like looking at a m
 
 ### Where do you go when you crave romance? What place draws you back to friendship, to childhood? Where do you go to feel free, to unleash anger, to find unfiltered joy?
 
-There is a small park near UCSD. My boyfriend and I kissed there for the first time. Every time we walk past it we stop, think, take it in. Enjoy each others company. It’s nice. Feels very pure to me.
+<span class="tag-intimacy">There is a small park near UCSD. My boyfriend and I kissed there for the first time. Every time we walk past it we stop, think, take it in.</span> Enjoy each others company. It’s nice. Feels very pure to me.
 
 ### Favorite Beach:
 
@@ -98,13 +98,13 @@ I think about my high school teacher Mike Crawford a lot. I wonder if I would ha
 
 ### Tell me about that moment of transcendence that made you fall in love with your medium.
 
-When I took a Polaroid of myself with a group of people a few years ago, it was the first time I realized how sad I was. It was a combo of where I was in the photo, the way the light reflected off my glasses, and most notably, how vacant my expression was. I think then I realized photography can show emotion unlike any other medium. It reproduced a vacancy and sadness almost exactly.
+ <span class="tag-creativity">When I took a Polaroid of myself with a group of people a few years ago, it was the first time I realized how sad I was.</span> It was a combo of where I was in the photo, the way the light reflected off my glasses, and most notably, how vacant my expression was. I think then I realized photography can show emotion unlike any other medium. It reproduced a vacancy and sadness almost exactly.
 
 ### What’s a moment in your life when photography helped you understand something you couldn’t put into words?
 
 When I look at photos of old friends, with me next to them, I can look into my own eyes and see, remember how I felt in that moment, whether it be sad, happy, longing. I took a self portrait 2 years ago and looking back at it, looking at how my eye bags fell and how the corners of my mouth stretched, I saw a profound sadness. 
 
-I think photography is a lot like looking in a mirror and seeing an old, or sometimes just different, reflection than what you’re used to
+I think <span class="tag-web">photography is a lot like looking in a mirror and seeing an old, or sometimes just different, reflection than what you’re used to.</span>
 
 ### How does San Diego’s landscape, light, and culture influence your photography?
 
@@ -122,7 +122,7 @@ I know people are ‘good’ at Polaroid and can get consistent results, but the
 
 ### What about the instant nature of Polaroids inspires you as an artist, especially in a time dominated by digital photography?
 
-You can’t redo a Polaroid. Thats thrilling for me. What it prints out is what you get.
+<span class="tag-web">You can’t redo a Polaroid.</span> Thats thrilling for me. What it prints out is what you get.
 
 ### Do you consider the imperfections in Polaroid photography—like light leaks or unexpected chemical reactions—part of the art? Can you share a favorite “happy accident” from your work?
 
@@ -169,7 +169,7 @@ Look at all of these little corners of the world, all in this one city.
 
 ### If you could pick a single street, park, or hidden corner of San Diego to shoot an entire collection about, where would it be? Why?
 
-I would shoot at the 12th and imperial trolley station. It’s where every corner of San Diego convenes. A lot of stuff goes on right there between people.
+<span class="tag-place">I would shoot at the 12th and imperial trolley station. It’s where every corner of San Diego convenes.</span> A lot of stuff goes on right there between people.
 
 ### What made you want to teach high school, and why do you think teenagers are such important subjects—not for a camera, but for life?
 

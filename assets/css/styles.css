@@ -24,11 +24,30 @@
   --text: #f5f0f5;
   --pink: #ff00a3;
   --purple: #a300ff;
+  
+  /* Theme tag colors — for color-coded quotes and connections.
+     Place and Loss share the core brand colors.
+     The remaining five expand the palette for metadata and witness quotes.
+     --theme-epoch is for internal/admin use only — not public-facing. */
+--theme-place: #8fd3c7;      /* chartreuse */
+--theme-loss: #ff8c69;       /* coral */
+--theme-intimacy: #ffe066;   /* gold */
+--theme-web: #4df0ff;        /* cyan */
+--theme-identity: #ffb3ff;   /* orchid */
+--theme-creativity: #7fffd4; /* mint */
+--theme-future: #e6e6e6;     /* silver */
 }
 
 [data-theme="light"] {
   --bg: #f5f0f5;
   --text: #0a0608;
+  --theme-place: #4f8f85;
+  --theme-loss: #d96b48;
+  --theme-intimacy: #b8860b;
+  --theme-web: #008fb3;
+  --theme-identity: #9b5ca9;
+  --theme-creativity: #2ca88f;
+  --theme-future: #666666;
 }
 
 /* ============================================
@@ -929,6 +948,50 @@ body .theme-toggle:hover {
   padding: 8px 24px;
   opacity: 0.85;
 }
+/* --- COLOR-CODED QUOTE SYSTEM ---
+   Theme tags for Driver interviews and the Witnesses collection.
+   Seven public-facing themes + one internal metadata marker.
+   
+   Inline usage:
+     <span class="tag-place">"You can't google my hood."</span>
+   
+   Blockquote usage:
+     <blockquote class="tag-quote tag-place">
+       "You can't google my hood."
+     </blockquote>
+   
+   Multiple tags can be combined:
+     <span class="tag-place tag-loss">Text</span>
+*/
+
+.tag-place { color: var(--theme-place); }
+.tag-loss { color: var(--theme-loss); }
+.tag-intimacy { color: var(--theme-intimacy); }
+.tag-web { color: var(--theme-web); }
+.tag-identity { color: var(--theme-identity); }
+.tag-creativity { color: var(--theme-creativity); }
+.tag-future { color: var(--theme-future); }
+
+/* Blockquote variant — colored left border + matching text.
+   Use with a theme class to set both border and text color. */
+.tag-quote {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 18pt;
+  line-height: 1.5;
+  margin: 16px 0;
+  padding: 8px 16px;
+  border-left: 3px solid;
+  display: block;
+}
+
+.tag-quote.tag-place { border-color: var(--theme-place); color: var(--theme-place); }
+.tag-quote.tag-loss { border-color: var(--theme-loss); color: var(--theme-loss); }
+.tag-quote.tag-intimacy { border-color: var(--theme-intimacy); color: var(--theme-intimacy); }
+.tag-quote.tag-web { border-color: var(--theme-web); color: var(--theme-web); }
+.tag-quote.tag-identity { border-color: var(--theme-identity); color: var(--theme-identity); }
+.tag-quote.tag-creativity { border-color: var(--theme-creativity); color: var(--theme-creativity); }
+.tag-quote.tag-future { border-color: var(--theme-future); color: var(--theme-future); }
 
 /* --- IMAGE CAPTION ---
    Small label below images for photo credits or descriptions. */
