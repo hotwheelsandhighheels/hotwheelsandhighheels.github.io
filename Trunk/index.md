@@ -37,8 +37,6 @@ permalink: /Trunk/
   <blockquote class="tag-quote tag-place">
     "You can't google my hood."
   </blockquote>
-  <p>— Angela Mendoza</p>
-
   <p><a href="/Trunk/witnesses/">Hear more voices →</a></p>
 </div>
 
