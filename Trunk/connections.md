@@ -88,7 +88,7 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
 </div>
 <div class="connection-node theme-web" 
      id="node-platforms-concept"
-     data-x="420" data-y="560">
+     data-x="420" data-y="110">
   <h3>Platforms</h3>
   <span class="node-type">Concept</span>
 </div>
@@ -136,6 +136,10 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
     <h3>Manoff</h3>
     <span class="node-type">Researcher</span>
   </div>
+  <div class="connection-node theme-place" id="node-the-trunk" data-x="260" data-y="240">
+  <h3>The Trunk</h3>
+  <span class="node-type">Archive</span>
+</div>
 
   <!-- ============================================
        SOCIAL MEDIA CLUSTER
@@ -180,6 +184,10 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
     <h3>Google Groups</h3>
     <span class="node-type">Platform</span>
   </div>
+  <div class="connection-node theme-web" id="node-feed" data-x="380" data-y="250">
+  <h3>The Feed</h3>
+  <span class="node-type">Concept</span>
+</div>
 
   <!-- ============================================
        PEOPLE / WITNESSES CLUSTER
@@ -296,6 +304,10 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
     <h3>Forgetting</h3>
     <span class="node-type">Concept</span>
   </div>
+  <div class="connection-node theme-place" id="node-place-memory" data-x="160" data-y="500">
+  <h3>Place Memory</h3>
+  <span class="node-type">Concept</span>
+</div>
 
   <!-- ============================================
        CULTURE CLUSTER
@@ -392,6 +404,7 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
     { from: 'node-archive', to: 'node-metadata' },
     { from: 'node-archive', to: 'node-web-archives' },
     { from: 'node-archive', to: 'node-manoff' },
+    { from: 'node-archive', to: 'node-loss-concept' },
     { from: 'node-derrida', to: 'node-archive-fever' },
     { from: 'node-derrida', to: 'node-archons' },
     { from: 'node-derrida', to: 'node-authority' },
@@ -418,6 +431,11 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
     { from: 'node-tiktok', to: 'node-algorithms' },
     { from: 'node-tumblr', to: 'node-communities' },
     { from: 'node-forums', to: 'node-communities' },
+    { from: 'node-feed', to: 'node-algorithms' },
+{ from: 'node-feed', to: 'node-attention' },
+{ from: 'node-feed', to: 'node-social-media' },
+{ from: 'node-feed', to: 'node-virality' },
+{ from: 'node-feed', to: 'node-identity-concept' },
 
     // People / Witnesses cluster
     { from: 'node-people', to: 'node-memory-workers' },
@@ -508,6 +526,7 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
 { from: 'node-place-concept', to: 'node-communities' },
 { from: 'node-place-concept', to: 'node-storytelling' },
 { from: 'node-place-concept', to: 'node-culture' },
+{ from: 'node-place-concept', to: 'node-archive' },
 
 // Loss connections
 { from: 'node-loss-concept', to: 'node-archive' },
@@ -522,6 +541,7 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
 { from: 'node-identity-concept', to: 'node-social-media' },
 { from: 'node-identity-concept', to: 'node-communities' },
 { from: 'node-identity-concept', to: 'node-nostalgia' },
+{ from: 'node-identity-concept', to: 'node-memory' },
 
 // Attention connections
 { from: 'node-attention', to: 'node-algorithms' },
@@ -530,6 +550,7 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
 { from: 'node-attention', to: 'node-corporations' },
 { from: 'node-attention', to: 'node-ai' },
 { from: 'node-attention', to: 'node-surveillance' },
+{ from: 'node-attention', to: 'node-power' },
 
 // Platforms connections
 { from: 'node-platforms-concept', to: 'node-corporations' },
@@ -545,7 +566,16 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
 { from: 'node-ai', to: 'node-archive' },
 { from: 'node-ai', to: 'node-storytelling' },
 { from: 'node-ai', to: 'node-memory' },
-{ from: 'node-loss-concept', to: 'node-memory' }
+{ from: 'node-loss-concept', to: 'node-memory' },
+{ from: 'node-memory-workers', to: 'node-storytelling' },
+{ from: 'node-the-trunk', to: 'node-archive' },
+{ from: 'node-the-trunk', to: 'node-social-media' },
+{ from: 'node-the-trunk', to: 'node-people' },
+{ from: 'node-place-memory', to: 'node-place-concept' },
+{ from: 'node-place-memory', to: 'node-history' },
+{ from: 'node-place-memory', to: 'node-storytelling' },
+{ from: 'node-place-memory', to: 'node-nostalgia' },
+{ from: 'node-place-memory', to: 'node-archive' },
   ];
 
   function positionNodes() {
