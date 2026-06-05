@@ -62,6 +62,36 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
     <h3>Power</h3>
     <span class="node-type">Concept</span>
   </div>
+  <div class="connection-node theme-place" 
+     id="node-place-concept"
+     data-x="200" data-y="140">
+  <h3>Place</h3>
+  <span class="node-type">Concept</span>
+</div>
+<div class="connection-node theme-loss" 
+     id="node-loss-concept"
+     data-x="640" data-y="140">
+  <h3>Loss</h3>
+  <span class="node-type">Concept</span>
+</div>
+<div class="connection-node theme-identity" 
+     id="node-identity-concept"
+     data-x="100" data-y="340">
+  <h3>Identity</h3>
+  <span class="node-type">Concept</span>
+</div>
+<div class="connection-node theme-future" 
+     id="node-attention"
+     data-x="740" data-y="340">
+  <h3>Attention</h3>
+  <span class="node-type">Concept</span>
+</div>
+<div class="connection-node theme-web" 
+     id="node-platforms-concept"
+     data-x="420" data-y="560">
+  <h3>Platforms</h3>
+  <span class="node-type">Concept</span>
+</div>
 
   <!-- ============================================
        ARCHIVE CLUSTER
@@ -335,6 +365,11 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
     { from: 'node-memory', to: 'node-history' },
     { from: 'node-memory', to: 'node-culture' },
     { from: 'node-memory', to: 'node-power' },
+    { from: 'node-memory', to: 'node-place-concept' },
+    { from: 'node-memory', to: 'node-loss-concept' },
+    { from: 'node-memory', to: 'node-identity-concept' },
+    { from: 'node-memory', to: 'node-attention' },
+    { from: 'node-memory', to: 'node-platforms-concept' },
 
     // First ring cross-connections
     { from: 'node-archive', to: 'node-history' },
@@ -345,9 +380,6 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
     { from: 'node-social-media', to: 'node-power' },
     { from: 'node-people', to: 'node-storytelling' },
     { from: 'node-people', to: 'node-culture' },
-    { from: 'node-storytelling', to: 'node-history' },
-    { from: 'node-technology', to: 'node-power' },
-    { from: 'node-culture', to: 'node-history' },
 
     // Archive cluster
     { from: 'node-archive', to: 'node-derrida' },
@@ -468,7 +500,52 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
     { from: 'node-ismail', to: 'node-memes' },
     { from: 'node-ismail', to: 'node-born-digital' },
     { from: 'node-vlassenroot', to: 'node-social-media' },
-    { from: 'node-vlassenroot', to: 'node-web-archives' }
+    { from: 'node-vlassenroot', to: 'node-web-archives' },
+
+// Place connections
+{ from: 'node-place-concept', to: 'node-nostalgia' },
+{ from: 'node-place-concept', to: 'node-history' },
+{ from: 'node-place-concept', to: 'node-communities' },
+{ from: 'node-place-concept', to: 'node-storytelling' },
+{ from: 'node-place-concept', to: 'node-culture' },
+
+// Loss connections
+{ from: 'node-loss-concept', to: 'node-archive' },
+{ from: 'node-loss-concept', to: 'node-forgetting' },
+{ from: 'node-loss-concept', to: 'node-nostalgia' },
+{ from: 'node-loss-concept', to: 'node-social-media' },
+{ from: 'node-loss-concept', to: 'node-culture' },
+
+// Identity connections
+{ from: 'node-identity-concept', to: 'node-people' },
+{ from: 'node-identity-concept', to: 'node-storytelling' },
+{ from: 'node-identity-concept', to: 'node-social-media' },
+{ from: 'node-identity-concept', to: 'node-communities' },
+{ from: 'node-identity-concept', to: 'node-nostalgia' },
+
+// Attention connections
+{ from: 'node-attention', to: 'node-algorithms' },
+{ from: 'node-attention', to: 'node-social-media' },
+{ from: 'node-attention', to: 'node-virality' },
+{ from: 'node-attention', to: 'node-corporations' },
+{ from: 'node-attention', to: 'node-ai' },
+{ from: 'node-attention', to: 'node-surveillance' },
+
+// Platforms connections
+{ from: 'node-platforms-concept', to: 'node-corporations' },
+{ from: 'node-platforms-concept', to: 'node-social-media' },
+{ from: 'node-platforms-concept', to: 'node-algorithms' },
+{ from: 'node-platforms-concept', to: 'node-censorship' },
+{ from: 'node-platforms-concept', to: 'node-data-collection' },
+{ from: 'node-platforms-concept', to: 'node-power' },
+
+// Critical cross-connections ChatGPT flagged
+{ from: 'node-nostalgia', to: 'node-social-media' },
+{ from: 'node-algorithms', to: 'node-identity-concept' },
+{ from: 'node-ai', to: 'node-archive' },
+{ from: 'node-ai', to: 'node-storytelling' },
+{ from: 'node-ai', to: 'node-memory' },
+{ from: 'node-loss-concept', to: 'node-memory' }
   ];
 
   function positionNodes() {
