@@ -13,11 +13,11 @@ image: assets/Images/Angela_Cover.JPG
   <div class="bio-text">
 
 <p>Angela Mendoza is a Chicana, Central American-American writer hailing from the Bay Area in Northern California. She recently graduated from the MFA program at San Diego State University, where she taught classes in literature and creative writing. She’s presented at the <em>RE: Border</em> conference in San Diego as well as the <em>Latinx Literary Conference</em> in New York City. She is currently teaching at U.C. San Diego and working on her debut novel.</p>
-
+  <p class="connect-links">
+    <a href="https://www.instagram.com/angelasmendoza">Instagram</a>
+  </p>
   </div>
 </div>
-
-_Connect with Angela on IG_: [@angelasmendoza](https://www.instagram.com/angelasmendoza)
 
 ---
 
@@ -31,7 +31,7 @@ My favorite car ever is a 1970’s Cadillac Eldorado Coupe. It’s smooth. It’
 
 ### What parts of Roseland feel like they belong to you alone? Which places capture the essence of “true” Roseland for you, and which ones feel like they’re just playing the part?
 
-I don’t think any part of Roseland belonged only to me. That’s what I loved—and still love—about it so much. It was always ours; everybody’s. I felt small there because there were always so many of us. My grandparents’ house was full of family by sundown. My dad’s check cashing joint was full of migrants sending money home to loved ones. On Sunday’s the streets were full of people cruising in and out of the hair salon, the joyeria, Sam’s Cafe. We were all always there.
+I don’t think any part of Roseland belonged only to me. That’s what I loved—and still love—about it so much. It was always ours; everybody’s. I felt small there because there were always so many of us. My grandparents’ house was full of family by sundown. My dad’s check cashing joint was full of migrants sending money home to loved ones. On Sundays the streets were full of people cruising in and out of the hair salon, the joyeria, Sam’s Cafe. We were all always there.
 
 ### What was it like growing up in Roseland? Was there ever a time you dreamt of leaving? If you could go anywhere, where would you go—and would you eventually find yourself back?
 
@@ -55,7 +55,7 @@ A physical location in Roseland that inspires my creativity is my grandparent’
 
 ### Are there people, traditions, or stories from Roseland that you feel connected to or inspired by? Tell me about them.
 
-<span class="tag-place">Roseland was my first example of the beauty and closeness of immigrant communities.</span> I’m lucky to have experienced it and be a product of it. A lot of latino/a folks in the United States don’t get to experience a neighborhood like that. They become removed from the cultura. Traditions included the taco truck, western union money transfers, the intersection of Sebastopol Rd and West Ave, cowboy boots, tending rose bushes, little two door pick-up trucks, the dollar tree, chelas on summer nights for the adults and fresh oranges in the morning for the babies. Oh, and Foster’s Freeze. I’ll never stop reppin Roseland.
+<span class="tag-place">Roseland was my first example of the beauty and closeness of immigrant communities.</span> I’m lucky to have experienced it and be a product of it. A lot of latino/a folks in the United States don’t get to experience a neighborhood like that. They become removed from the cultura. Traditions included the taco truck, western union money transfers, the intersection of Sebastopol Rd and West Ave, cowboy boots, tending rose bushes, little two door pick-up trucks, the Dollar Tree, chelas on summer nights for the adults and fresh oranges in the morning for the babies. Oh, and Foster’s Freeze. I’ll never stop reppin Roseland.
 
 There are certain places we hold sacred. For Roseland, some example, I pulled place from a google search like Roseland Creek Park or Creek Tunnels. Do any of these places resonate with you? 
 
@@ -63,7 +63,7 @@ None of these places resonate with me. A lot of them are outside Roseland. This 
 
 ### What’s changed most about Santa Rosa in the past 10 years, or even the past 20? What parts of it never change, no matter what?
 
-How much space do I have? <span class="tag-loss">Roseland is almost unrecognizable to me now. My grandparent’s house is run down, with junk in the yard and the rose bushes have disappeared. My dad’s check cashing joint of 30 years on Sebastopol Rd is a barber shop now.</span> The dollar tree went out of business. They put in an outdoor event space that made it on the news for its food trucks and live music, but gave all the credit to the umbrella area of ritzy “Sonoma County,” without even mentioning the name Roseland or people who made the hood what it is. Like my tia, who's responsible for lots of the community's gardens.
+How much space do I have? <span class="tag-loss">Roseland is almost unrecognizable to me now. My grandparent’s house is run down, with junk in the yard and the rose bushes have disappeared. My dad’s check cashing joint of 30 years on Sebastopol Rd is a barber shop now.</span> The dollar tree went out of business. They put in an outdoor event space that made it on the news for its food trucks and live music, but gave all the credit to the umbrella area of ritzy “Sonoma County,” without even mentioning the name Roseland or people who made the hood what it is. Like my tia, whose responsible for lots of the community's gardens.
 
 ### What’s a sound unique to Roseland that instantly brings you back to a particular memory or feeling?
 
@@ -83,7 +83,7 @@ Roseland gave me my Chicana roots. We had so much Mexican culture around and so 
 
 ### Who are your inspirations? 
 
-I'm someone who's easily inspired. Some constant inspirations: My family. A sunny day. The ocean. Traveling. Meeting a new person. Toni Morrison. Dancing. Newer inspirations: My partner's mind. Los Angeles. Open mic's. My cousin who doubles as my built-in best friend. A hot outfit.
+I'm someone who's easily inspired. Some constant inspirations: My family. A sunny day. The ocean. Traveling. Meeting a new person. Toni Morrison. Dancing. Newer inspirations: My partner's mind. Los Angeles. Open mics. My cousin who doubles as my built-in best friend. A hot outfit.
 
 ### What was your favorite book growing up? Favorite book(s) as an adult? Recent read that you loved? 
 
@@ -131,7 +131,7 @@ This makes me want to tear up. <span class="tag-intimacy">To the Roseland of my 
 
 ### What does being Chicana mean to you personally? Are there aspects of your identity that you find yourself discovering or redefining over time?
 
-<span class="tag-identity">Being Chicana is everything to me. It’s what I’m most proud of. I’m wearing the gold bamboo hoops with my name across the middle in my predominantly white workplace because I’m Chicana down.</span> To me, being Chicana enacts preserving and progressing at the same time. I preserve what my Mexican culture has morphed into in this new region, especially throughout the 90’s. At the same time, I progress the Mexican identity and culture into something more representative of the Mexican-American experience. My Chicanidad has created a pathway for my most authentic self to transpire, which is a complex, nuanced, mix of the cultures I was born into, as well as the cultures I’ve grown up around or been introduced to by loved ones.
+<span class="tag-identity">Being Chicana is everything to me. It’s what I’m most proud of. I’m wearing the gold bamboo hoops with my name across the middle in my predominantly white workplace because I’m Chicana down.</span> To me, being Chicana enacts preserving and progressing at the same time. I preserve what my Mexican culture has morphed into in this new region, especially throughout the 90s. At the same time, I progress the Mexican identity and culture into something more representative of the Mexican-American experience. My Chicanidad has created a pathway for my most authentic self to transpire, which is a complex, nuanced, mix of the cultures I was born into, as well as the cultures I’ve grown up around or been introduced to by loved ones.
 
 ### Do you feel a responsibility to represent Chicana voices in your work, or is it something that naturally finds its way in? How do you balance personal storytelling with broader cultural representation?
 
@@ -143,7 +143,7 @@ In my opinion, the west coast has the strongest roots for Chicano/a culture, esp
 
 ### Who are the Chicanx writers, artists, or figures that have influenced you the most? What qualities in their work resonate deeply with you?
 
-Luis Rodriguez was the first Chicano writer I ever read. I couldn’t believe someone was actually documenting our experience so honestly and so formally. Literature and Chicanismo had not yet intersected in my young mind. When it finally did, through Rodriguez, my world expanded into a panorama view. It gives me chills to think about how I felt the first time I read his work. I thought to myself, people actually read this? And care? Oooouuuueee. I was so excited. As a woman, Selena Quintanilla’s influence will always be seen in my hair, make up, clothes, and attitude.
+Luis Rodriguez was the first Chicano writer I ever read. I couldn’t believe someone was actually documenting our experience so honestly and so formally. Literature and Chicanismo had not yet intersected in my young mind. When it finally did, through Rodriguez, my world expanded into a panorama view. It gives me chills to think about how I felt the first time I read his work. I thought to myself, people actually read this? And care? Oooouuuueee. I was so excited. As a woman, Selena Quintanilla’s influence will always be seen in my hair, makeup, clothes, and attitude.
 
 ### How does language play into your work and identity? Do you find power in bilingual expression, or are there parts of Chicana identity that words alone don’t quite capture?
 

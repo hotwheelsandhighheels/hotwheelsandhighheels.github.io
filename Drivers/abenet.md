@@ -13,23 +13,26 @@ image: assets/Images/A-benet_cover.jpg
   </div>
   <div class="bio-text">
 
-<p>a. benét is a Black poet and creative. She is a San Diego, California native, where she is a first year Master’s student and <em> Prebys Creative Writing</em>  scholar at San Diego State University studying poetry. Her poetry has appeared or is forthcoming in <em>LETTERS Journal</em>, <em>Foglifter Press</em>, <em>Honey Literary</em>, <em>Diode Poetry</em>, and others. She has been nominated for <em>Best of the Net</em>, and was the 1st place winner of the <em>2020 Grossmont College Slam Poetry Competition</em>.</p>
-
+<p>a. benét is a Black poet and creative. She is a San Diego, California native, where she is a first-year Master’s student and <em>Prebys Creative Writing</em>  scholar at San Diego State University studying poetry. Her poetry has appeared or is forthcoming in <em>LETTERS Journal</em>, <em>Foglifter Press</em>, <em>Honey Literary</em>, <em>Diode Poetry</em>, and others. She has been nominated for <em>Best of the Net</em>, and was the 1st place winner of the <em>2020 Grossmont College Slam Poetry Competition</em>.</p>
+<p class="connect-links">
+  <a href="https://sites.google.com/view/benetthewriter/home">Website</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/benetthewriter/">Instagram</a>
+  &nbsp;·&nbsp;
+  <a href="https://bsky.app/profile/benetthewriter.bsky.social">Bluesky</a>
+</p>
   </div>
 </div>
-
-_Connect with [a.benét](https://sites.google.com/view/benetthewriter/home)_  
-on [Instagram](https://www.instagram.com/benetthewriter/) and [BlueSky](https://bsky.app/profile/benetthewriter.bsky.social)
 
 ---
 
 ### Tell me about your favorite pair of shoes: 
 
-Right now, my go-to shoes are my pandas, my nike dunk retro lows. I wouldn’t consider myself a sneaker head at all. Growing up, I wore knock off brand shoes from payless. Now, as an adult, it's tough to pay more than $40 for a pair of shoes. But I wanted these, like I wanted air forces when they were the “new” basic. But what makes these more special is that they were a gift from my girlfriend who is very much a sneaker head and I feel like I’m making her proud when I wear them.
+Right now, my go-to shoes are my pandas, my Nike dunk retro lows. I wouldn’t consider myself a sneaker head at all. Growing up, I wore knock off brand shoes from Payless. Now, as an adult, it's tough to pay more than $40 for a pair of shoes. But I wanted these, like I wanted air forces when they were the “new” basic. But what makes these more special is that they were a gift from my girlfriend who is very much a sneaker head and I feel like I’m making her proud when I wear them.
 
 ### Tell me about your favorite car: 
 
-Ten years ago I would have said a jeep wrangler, but now that I’m closer to my 30s, I would probably pick something more practical, like a Toyota Corolla. My 2013 baby is getting me where I need to be. His name is Sommar and he has started to rust I think it adds to his character. I consider his energy to match the black air forces. I've been told I do a great job of keeping him clean. I don't play about mess in my car. Sommar is also special to me because he was a gift. While I was saving up for a car, my family decided to buy one for me and I couldn't be more grateful.
+Ten years ago I would have said a Jeep Wrangler, but now that I’m closer to my 30s, I would probably pick something more practical, like a Toyota Corolla. My 2013 baby is getting me where I need to be. His name is Sommar and he has started to rust I think it adds to his character. I consider his energy to match the black air forces. I've been told I do a great job of keeping him clean. I don't play about mess in my car. Sommar is also special to me because he was a gift. While I was saving up for a car, my family decided to buy one for me and I couldn't be more grateful.
 
 ### What parts of San Diego feel like they belong to you alone? Which places capture the essence of “true” San Diego for you, and which ones feel like they’re just playing the part?
 
@@ -67,7 +70,7 @@ Plaza Bonita
 
 ### Favorite Teacher(s):
 
-My third grade teacher, Mrs Geary
+My third grade teacher, Mrs. Geary
 
 ### Do you know where the wild parrots came from? 
 
@@ -77,7 +80,7 @@ No, but I’d like to think <span class="tag-web">they grew tired of borders</sp
 
 <span class="tag-loss">Not this is how I find out Horton Plaza doesn’t exist anymore.</span> Next you’re gonna say Seaport Village isn’t a thing anymore either.
 
-It's absence, like so many other absence in San Diego now, mean gentrification and tourism, <span class="tag-loss">meaning we're losing more than my memories,</span> or yours, but what made San Diego the best place to grow up.
+Its absence, like so many other absences in San Diego now, mean gentrification and tourism, <span class="tag-loss">meaning we're losing more than my memories,</span> or yours, but what made San Diego the best place to grow up.
 
 ### What’s changed most about San Diego in the past 10 years, or even the past 20? What parts of it never change, no matter what?
 
@@ -91,7 +94,7 @@ I think all the people who have grown close to me at one point or another in my 
 
 I think of my Somali friends in High School, my friend from Florida whose house I spent the night over everyday for a week. <span class="tag-intimacy">I think of my childhood neighbor who taught me so much about sharing and kindness, or my friend across the street and how we used to ride bikes and check the street for pennies.</span> 
 
-I think what makes the change unexpected to me is that they weren’t life long friends, though at the time I would have assumed so. They were here to teach me something or change something in me at that time in my life, and move on.
+I think what makes the change unexpected to me is that they weren’t lifelong friends, though at the time I would have assumed so. They were here to teach me something or change something in me at that time in my life, and move on.
 
 ### San Diego is a blend of border life and coastal life. How do you think that mix influences your view of boundaries—personal, artistic, or cultural?
 
@@ -163,7 +166,7 @@ I remember the dry heat and lizards, the purple honeysuckle bushes. I can still 
 
 To the letter of my childhood San Diego, I say thank you. I wouldn’t be who I am if I wasn’t running in these streets as a kid, if I wasn’t brought up in these churches and schools. Thank you for teaching my tongue to love hot cheetos, chamoy, and tajin. Thank you for bridging two worlds into one, for teaching me that there’s no border that could keep this land from its people. 
 
- <span class="tag-future">San Diego of the future, my hope is that you still hold space for community, that you don’t close yourself off.</span> I want third spaces and gardens. I want more BIPOC owned businesses, small and thriving. I want children playing hopscotch at MLK park, water balloons in the summer. I hope your beaches and taco shop are still the best in California. I hope your residents are still stereotyped as chill, as calm as the pacific.  
+ <span class="tag-future">San Diego of the future, my hope is that you still hold space for community, that you don’t close yourself off.</span> I want third spaces and gardens. I want more BIPOC owned businesses, small and thriving. I want children playing hopscotch at MLK park, water balloons in the summer. I hope your beaches and taco shop are still the best in California. I hope your residents are still stereotyped as chill, as calm as the Pacific.  
 
 
 # a poem by a. benét

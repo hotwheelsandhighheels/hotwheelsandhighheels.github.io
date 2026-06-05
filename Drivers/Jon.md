@@ -10,15 +10,16 @@ image: assets/Images/Jon_Cover.jpg
   <div class="bio-image">
     <img src="/assets/Images/Jon_Profile.jpg" alt="Photo by Kimberly Tobias">
   </div>
-  <div class="bio-text">
-
-<p> Jon Tobias is an MFA student at San Diego State University. He is the author of the chapbook, <strong>Talking to Ghosts</strong>, published by <em>Quillkeepers Press</em>. His poems have appeared in anthologies and online with <em>Quillkeepers Press</em>, <em>Zone 3</em>, <em>White Stag Publishing</em>, and <em>Kindabummed Magazine</em>. His short fiction has appeared online and in print by <em>A Word With You Press</em>.</p>
-
-  </div>
+<div class="bio-text">
+  <p> Jon Tobias is an MFA student at San Diego State University. He is the author of the chapbook, <strong>Talking to Ghosts</strong>, published by <em>Quillkeepers Press</em>. His poems have appeared in anthologies and online with <em>Quillkeepers Press</em>, <em>Zone 3</em>, <em>White Stag Publishing</em>, and <em>Kindabummed Magazine</em>. His short fiction has appeared online and in print by <em>A Word With You Press</em>.</p>
+  
+  <p class="connect-links">
+    <a href="https://www.instagram.com/metaphors_be_with_you">Instagram</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.amazon.com/dp/B0CXRZGD7P">Talking to Ghosts</a>
+  </p>
 </div>
-
-_Connect with Jon on IG_: [Metaphors_be_with_you](https://www.instagram.com/metaphors_be_with_you)  
-_Check out his chapbook_ [Talking to Ghosts](https://www.amazon.com/dp/B0CXRZGD7P?ref=cm_sw_r_ffobk_cp_ud_dp_72299J8DV36J7M4SQZE4&ref_=cm_sw_r_ffobk_cp_ud_dp_72299J8DV36J7M4SQZE4&social_share=cm_sw_r_ffobk_cp_ud_dp_72299J8DV36J7M4SQZE4&bestFormat=true)
+</div>
 
 ***
 
@@ -106,7 +107,7 @@ Right now would be when I do the same morning walks with my dog in my neighborho
 
 ### Tell me about that moment of transcendence that sealed your destiny as a writer:
 
-I was given my first book of poetry as a kid. It was a copy of Dragons Dragons by Eric Carle. It's a collection of poems about mythological characters across multiple cultures. I couldn't read yet, but people wouldn't know it because I pretty much had that book memorized. It's where I found my love for poetry. For the longest time because of that book <span class="tag-creativity">I thought poetry was what you went to when you wanted to talk about what you thought god was.</span> It wasn't until I found Russel Simmons Def Poetry Jam that I knew I was going to be a poet. It was the first time poetry felt like it was about my own lived experiences. Something clicked while watching it, and I knew it was what I was going to do for the rest of my life. I'll never not be a poet. I'll die if I try to be anything else.
+I was given my first book of poetry as a kid. It was a copy of Dragons Dragons by Eric Carle. It's a collection of poems about mythological characters across multiple cultures. I couldn't read yet, but people wouldn't know it because I pretty much had that book memorized. It's where I found my love for poetry. For the longest time because of that book <span class="tag-creativity">I thought poetry was what you went to when you wanted to talk about what you thought god was.</span> It wasn't until I found Russell Simmons Def Poetry Jam that I knew I was going to be a poet. It was the first time poetry felt like it was about my own lived experiences. Something clicked while watching it, and I knew it was what I was going to do for the rest of my life. I'll never not be a poet. I'll die if I try to be anything else.
 
 ### Who are your inspirations?Name a few that are constant and a few that are new. 
 

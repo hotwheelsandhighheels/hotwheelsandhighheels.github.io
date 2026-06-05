@@ -14,9 +14,10 @@ published: false
   <div class="bio-text">
     <p>BIOGRAPHY GOES HERE.</p>
   </div>
+  <p class="connect-links">
+  <a href="link">Website</a>
+</p>
 </div>
-
-_Connect with Carson_: [HANDLE](url)
 
 ***
 

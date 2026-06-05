@@ -12,12 +12,12 @@ image: assets/Images/Jack_Cover.jpeg
   </div>
   <div class="bio-text">
 
-<p>Jack Hinzo is an English student at San Diego State University who writes and takes photos in his spare time. He enjoys cold mornings, hot coffee, and spending times with his cats.</p>
-
+<p>Jack Hinzo is an English student at San Diego State University who writes and takes photos in his spare time. He enjoys cold mornings, hot coffee, and spending time with his cats.</p>
+  <p class="connect-links">
+    <a href="https://www.instagram.com/caatssoup/">Instagram</a>
+  </p>
   </div>
 </div>
-
-_Connect with Jack on IG_: [@caatssoup](https://www.instagram.com/caatssoup/)
 
 ---
 
@@ -31,7 +31,7 @@ I’ve worn them at least 3 days a week since then. There’s near holes in the 
 
 ### Tell me about your favorite car: 
 
-I used to drive a 1990 Lexus es250. It was my grandfathers car, and probably the most valuable thing ever given to me. Not to say the car was particularly nice. Panels were falling off, the passengers side door didn’t open from the outside, and it perpetually smelled of old man cologne. I remember one January, it was so cold the condensation actually started to freeze on the wheel. 
+I used to drive a 1990 Lexus es250. It was my grandfather's car, and probably the most valuable thing ever given to me. Not to say the car was particularly nice. Panels were falling off, the passenger's side door didn’t open from the outside, and it perpetually smelled of old man cologne. I remember one January, it was so cold the condensation actually started to freeze on the wheel. 
 
 <span class="tag-loss">Its coolant pipe blew up on the I-8 two years ago, and that was the end of it. The car was so old they stopped making replacement parts for it.</span>
 
@@ -39,27 +39,27 @@ I drive a 2023 Kia forte now, but I still miss driving that Lexus, feeling every
 
 ### What parts of San Diego feel like they belong to you alone? Which places capture the essence of “true” San Diego for you, and which ones feel like they’re just playing the part?
 
-<span class="tag-place">I think the last remnants of real San Diego reside at the trolley stations.</span> The San Diego I grew up in was so much more diverse and mixed. My neighborhood had all types of people, now it’s mostly rich whites or the navy. When I’m riding the trolley, I see every one on there. Working class people getting to work, sports fans, businessmen hopping in and off to different parts of the city. It’s chaotic but it’s nice I think. Definitely not boring.
+<span class="tag-place">I think the last remnants of real San Diego reside at the trolley stations.</span> The San Diego I grew up in was so much more diverse and mixed. My neighborhood had all types of people, now it’s mostly rich whites or the navy. When I’m riding the trolley, I see everyone on there. Working class people getting to work, sports fans, businessmen hopping in and off to different parts of the city. It’s chaotic but it’s nice I think. Definitely not boring.
 
 ### What was it like growing up in San Diego? Was there ever a time you dreamt of leaving? If you could go anywhere, where would you go—and would you eventually find yourself back here?
 
-For a long time i didn’t want to leave San Diego. Everything felt so dense and big— It would take me decades to explore every nook and cranny. Now, I’m not so sure I desire to delve into every city corner and street.  <span class="tag-future">The older I get the more I want to crawl out of my city, into other parts of the world. 
+For a long time I didn’t want to leave San Diego. Everything felt so dense and big— It would take me decades to explore every nook and cranny. Now, I’m not so sure I desire to delve into every city corner and street.  <span class="tag-future">The older I get the more I want to crawl out of my city, into other parts of the world. 
 
 With all that said, however, I’m not really sure where I’m gonna end up.</span> I could see myself coming back after a while, I could see myself living in another part of the country, in the other part of the world.
 
 ### Tell me about your parents. What are the stories you hold about their connection to this city? Were they born here, or did life bring them here? What was San Diego to them?
 
-My dad is a San Diego native. He grew up in national city, and lived there for most of his life, excluding his baseball years. Mom was from a old mining town in PA, who became a flight attendant. They met on an airplane, actually. 
+My dad is a San Diego native. He grew up in national city, and lived there for most of his life, excluding his baseball years. Mom was from an old mining town in PA, who became a flight attendant. They met on an airplane, actually. 
 
 I think my Dad liked San Diego passively, he didn’t think or talk about it too much. My mom loved being by the beach, that I know. We went to the beach every day for a whole summer one year.
 
 ### Which parent do you see most when you look at yourself? And what pieces of the other parent show up in ways you can’t deny?
 
-I am my mothers child, that’s for sure. We think the same, laugh the same, stress out in the same way over the same things. We get mad at the same things. My Dad and I keep organized and have similarly strict schedules, but I think we do it for different reasons. 
+I am my mother's child, that’s for sure. We think the same, laugh the same, stress out in the same way over the same things. We get mad at the same things. My Dad and I keep organized and have similarly strict schedules, but I think we do it for different reasons. 
 
 I think he finds peace in keeping a regimented routine. I like to have an orderly schedule so my mind can wander throughout the day.
 
-Everyone says I look like my mom, and I kind of agree. We’’re pale skinned skinny people. 
+Everyone says I look like my mom, and I kind of agree. We’re pale skinned skinny people. 
 
 Sometimes I look at old photos of my dad, though, and it’s like looking at a mirror. Same smile lines, same hair parting. Freaks me out a little bit.
 
@@ -122,7 +122,7 @@ I know people are ‘good’ at Polaroid and can get consistent results, but the
 
 ### What about the instant nature of Polaroids inspires you as an artist, especially in a time dominated by digital photography?
 
-<span class="tag-web">You can’t redo a Polaroid.</span> Thats thrilling for me. What it prints out is what you get.
+<span class="tag-web">You can’t redo a Polaroid.</span> That's thrilling for me. What it prints out is what you get.
 
 ### Do you consider the imperfections in Polaroid photography—like light leaks or unexpected chemical reactions—part of the art? Can you share a favorite “happy accident” from your work?
 
