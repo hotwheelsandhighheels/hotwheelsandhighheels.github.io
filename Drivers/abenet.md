@@ -9,7 +9,7 @@ image: assets/Images/A-benet_cover.jpg
 
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/A-benet_Profile.JPG.png" alt="Self-Portrait">
+    <img src="/assets/Images/A-benet_Profile.JPG.png" alt="Profile of a black woman wearing a cream-colored knitted top and a copper head wrap.">
   </div>
   <div class="bio-text">
 

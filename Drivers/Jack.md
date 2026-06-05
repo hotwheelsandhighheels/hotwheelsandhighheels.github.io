@@ -8,7 +8,7 @@ image: assets/Images/Jack_Cover.jpeg
 
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/Jack_Profile.jpeg" alt="Self-Portrait">
+    <img src="/assets/Images/Jack_Profile.jpeg" alt="Self-Portrait polaroid of Jack looking into the camera with his eyeglasses set on the counter in front of him.">
   </div>
   <div class="bio-text">
 

@@ -8,7 +8,7 @@ image: assets/Images/Alana_Cover.jpeg
 
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/Alana_Profile.jpeg" alt="Self-Portrait">
+    <img src="/assets/Images/Alana_Profile.jpeg" alt="Selfie of a latina woman wearing a yellow top against a grey background">
   </div>
   <div class="bio-text">
 

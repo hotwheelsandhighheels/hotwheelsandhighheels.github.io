@@ -8,7 +8,7 @@ image: assets/Images/Angela_Cover.JPG
 
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/Angela_Profile.JPG" alt="Angela Mendoza">
+    <img src="/assets/Images/Angela_Profile.JPG" alt="Portrait of a latina woman in white pants and a red top sitting down with a wine glass in hand. Palms cover the area behind her.">
   </div>
   <div class="bio-text">
 
