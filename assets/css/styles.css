@@ -921,10 +921,10 @@ audio:hover {
 
 .static-lines {
   position: absolute;
-  top: 60px;
+  top: 40px;
   left: 0;
   right: 0;
-  bottom: 60px;
+  bottom: 40px;
   overflow: hidden;
   z-index: 0;
 }
