@@ -61,7 +61,7 @@ permalink: /Trunk/
     <h3>Collection 06</h3>
     <h2>Submissions</h2>
     <p>Contact me with materials, context, and any relevant dates, locations, or background information.</p>
-    <p><a href="/About.md">Vroom Vroom →</a></p>
+    <p><a href="/About/">Vroom Vroom →</a></p>
   </div>
 </div>
 
