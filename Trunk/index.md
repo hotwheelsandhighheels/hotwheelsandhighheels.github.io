@@ -37,7 +37,7 @@ permalink: /Trunk/
   <blockquote class="tag-quote tag-place">
     "You can't google my hood..."
   </blockquote>
-  <p><a href="Trunk/drivers/">Hear more voices →</a></p>
+  <p><a href="/Trunk/drivers/">Hear more voices →</a></p>
 </div>
 
   <!-- 4. FIELD NOTES -->
