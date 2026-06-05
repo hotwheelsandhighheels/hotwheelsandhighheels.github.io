@@ -41,7 +41,7 @@ permalink: /revving-up/
       method="post"
       class="embeddable-buttondown-form"
     >
-      <label for="bd-email">Enter your email</label>
+      <label for="bd-email" class="sr-only">Enter your email</label>
       <input type="email" name="email" id="bd-email" />
       <input type="submit" value="Subscribe" />
       <p>
