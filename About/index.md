@@ -22,12 +22,12 @@ Humans are beautiful. Look what we made...
 
 HW&Hh collects: memories, artifacts, interviews, creative work, and digital traces from the millennial epoch.  
 
-Readers are invited to contribute:  
+Send me things like:  
 <ul>
+    <li>screenshots, photographs, poems, stories, internet relics</li>
+    <li>reblogs, retweets, reposts from your Tumblr, Twitter, etc.</li>
     <li>conversations you had when Beyoncé broke the internet</li>
     <li>memes you made when Trump announced he was running for president</li>
-    <li>screenshots, photographs, poems, stories, internet relics</li>
-    <li>personal memories tied to epoch-forming events</li>
 </ul>  
 
 *Context matters more than nostalgia.*
@@ -47,7 +47,7 @@ My cousins are my best friends. Nothing matters without them. Without them there
 [Email](mailto:alejandra@hotwheelsandhighheels.com)
 
 ## Acknowledgements
-Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Support for the arts is slim nowadays, support for literature within arts funding is even less. Your contributions mean the world to me!  
+Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Support for the arts is slim, support for literature within arts funding is even less. Your contributions mean the world to me!  
 
 <ul>
     <li>Julian & Mercedes Hernández</li>
