@@ -77,7 +77,7 @@ No, but I’d like to think <span class="tag-web">they grew tired of borders</sp
 
 <span class="tag-loss">Not this is how I find out Horton Plaza doesn’t exist anymore.</span> Next you’re gonna say Seaport Village isn’t a thing anymore either.
 
-It's absence, like so many other absence in San Diego now, mean gentrification and tourism, </span> meaning we're losing more than my memories,</span> or yours, but what made San Diego the best place to grow up.
+It's absence, like so many other absence in San Diego now, mean gentrification and tourism, <span class="tag-loss">meaning we're losing more than my memories,</span> or yours, but what made San Diego the best place to grow up.
 
 ### What’s changed most about San Diego in the past 10 years, or even the past 20? What parts of it never change, no matter what?
 
