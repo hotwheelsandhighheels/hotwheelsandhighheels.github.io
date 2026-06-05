@@ -1,14 +1,14 @@
 ---
 layout: default
-title: The Witnesses
-permalink: /Trunk/witnesses/
+title: The Drivers
+permalink: /Trunk/drivers/
 ---
 
-# The Witnesses
+# The Drivers
 
-Color-coded voices from the Driver interviews.
+Color-coded voices from my interviews.
 
-These excerpts are signals, not conclusions. Themes overlap. Categories are porous. Memory rarely fits neatly into a single box. This archive remains incomplete by design.
+These excerpts are signals, not conclusions. Themes overlap. Categories are porous. Memory rarely fits neatly into a single box. 
 
 <hr>
 
