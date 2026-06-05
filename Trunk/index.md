@@ -17,7 +17,7 @@ permalink: /Trunk/
   <div class="trunk-card">
     <h3>Collection 01</h3>
     <h2>The Millennial Epoch</h2>
-    <p>The events, technologies, and conditions that shaped a generation — from 1982 to the present.</p>
+    <p>The events, technologies, and conditions that shaped generations from 1982 to the present.</p>
     <p><a href="/Trunk/epoch/">Explore the timeline →</a></p>
   </div>
 
@@ -25,7 +25,7 @@ permalink: /Trunk/
   <div class="trunk-card">
     <h3>Collection 02</h3>
     <h2>The Social Archive</h2>
-    <p>Screenshots, posts, platforms, digital debris.</p>
+    <p>Screenshots, posts, platforms, digital debris, artificial technology.</p>
     <p><a href="/Trunk/archive/">Browse artifacts →</a></p>
   </div>
 
@@ -37,15 +37,15 @@ permalink: /Trunk/
   <blockquote class="tag-quote tag-place">
     "You can't google my hood..."
   </blockquote>
-  <p><a href="/Trunk/drivers/">Hear more voices →</a></p>
+  <p><a href="/Trunk/drivers/">Flag them down →</a></p>
 </div>
 
   <!-- 4. FIELD NOTES -->
   <div class="trunk-card">
     <h3>Collection 04</h3>
     <h2>Field Notes</h2>
-    <p>Research in progress.</p>
-    <p><a href="/Trunk/notes/">Read notes →</a></p>
+    <p>Reasearch notes, presented as working lists.</p>
+    <p><a href="/Trunk/notes/">Browse the glove box →</a></p>
   </div>
 
   <!-- 5. CONNECTIONS — full width, this is the centerpiece -->
@@ -53,7 +53,7 @@ permalink: /Trunk/
     <h3>Collection 05</h3>
     <h2>Connections</h2>
     <p>A visual map of themes, events, contributors, and artifacts.</p>
-    <p><a href="/Trunk/connections/">Explore the map →</a></p>
+    <p><a href="/Trunk/connections/">Road map →</a></p>
   </div>
 
   <!-- 6. ADD TO THE ARCHIVE -->
