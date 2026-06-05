@@ -175,7 +175,7 @@ Dear baby San Diego. Do you remember the Drive-in? Do you remember Marshal Scott
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Jon_Cover.jpg" alt="Jon Tobias cover photo">
+  <img src="/assets/Images/Jon_Cover.jpg" alt="a recreated photo of hot wheels and high heels's banner. A cropped view of Jon Tobias reading a book on the toilet with a mug on the ground in front of him. He is wearing blue briefs with bananas printed on them. He has colorful sneakers with pink laces. The book he is reading is by CA CONRAD.">
 </div>
 <script>
 // opens the lightbox by adding .open class

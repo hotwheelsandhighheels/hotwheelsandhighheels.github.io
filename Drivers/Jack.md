@@ -187,7 +187,7 @@ I hope you started to relax a little bit. Look around and see how many people lo
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Jack_Cover.jpeg" alt="jack hinzo cover photo">
+  <img src="/assets/Images/Jack_Cover.jpeg" alt="A photo of Jack sitting on a bathroom counter, one leg bent and the other extend under a closed faucet. There is a full wall mirror in front of the counter that Jack is leaning against. There is a wine bottle on the counter, a wine glass in his hand, and a book in the other. His face is only visible in the mirror.">
 </div>
 <script>
 // opens the lightbox by adding .open class

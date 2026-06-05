@@ -197,7 +197,7 @@ how it beats like a heart.
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Alana_Cover.jpeg" alt="Alana Rodriguez cover photo">
+  <img src="/assets/Images/Alana_Cover.jpeg" alt="a recreated photo of hot wheels and high heels's banner. Alana Rodriguez sits outside on a stoop. Visible in the fram are her hands holding a cell phone, her long hair, an iced latte, and her sneakers. On one shoe, the laces hold a City of Chula Vista pendant.">
 </div>
 <script>
 // opens the lightbox by adding .open class

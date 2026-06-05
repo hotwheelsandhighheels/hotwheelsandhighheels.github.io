@@ -159,7 +159,7 @@ I love in Spanish. I love like my mami. Filled with fire and rage and sadness an
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Angela_Cover.JPG" alt="Angela Mendoza cover photo">
+  <img src="/assets/Images/Angela_Cover.JPG" alt="A cropped photo of a blue chevy lowrider with a woman leaning against it. You can see the lower, driver's side half of the front bumper, headlight, and front wheel. The woman poses with one leg bent as if to show off her heels. The heels are open-toed, strapped, and golden.">
 </div>
 <script>
 // opens the lightbox by adding .open class

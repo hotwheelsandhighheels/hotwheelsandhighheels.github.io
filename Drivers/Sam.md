@@ -140,7 +140,7 @@ I see it more as a personal exploration, but I’m really delighted when readers
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Sam_Cover.jpg" alt="Sam Yaziji cover photo">
+  <img src="/assets/Images/Sam_Cover.jpg" alt="A blurry photo taken from a vehicle. The outline of the vehicle's window is visible in the frame. The view captures a coral sunset above a small shopping center. The location markers are blurred, the only text legible is DELI.">
 </div>
 <script>
 // opens the lightbox by adding .open class
