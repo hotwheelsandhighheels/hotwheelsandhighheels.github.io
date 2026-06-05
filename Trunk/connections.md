@@ -553,8 +553,8 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
       'node-epoch': '/Trunk/epoch/',
       'node-social-media': '/Trunk/archive/',
       'node-archive': '/Trunk/archive/',
-      'node-people': '/Trunk/witnesses/',
-      'node-storytelling': '/Trunk/witnesses/',
+      'node-people': '/Trunk/drivers/',
+      'node-storytelling': '/Trunk/drivers/',
       'node-history': '/Trunk/epoch/',
       'node-technology': '/Trunk/archive/'
     };
