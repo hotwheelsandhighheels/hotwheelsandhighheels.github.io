@@ -31,6 +31,9 @@
 <loc>http://localhost:4000/Trunk/connections/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Trunk/drivers/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/About/enginecheck/</loc>
 </url>
 <url>
@@ -50,8 +53,5 @@
 </url>
 <url>
 <loc>http://localhost:4000/revving-up/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/Trunk/witnesses/</loc>
 </url>
 </urlset>
