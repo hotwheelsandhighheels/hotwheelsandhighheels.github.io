@@ -1252,7 +1252,118 @@ audio:hover {
   color: var(--text);
   opacity: 0.5;
 }
+/* ============================================
+   15. CONNECTIONS MAP
+   Interactive mind map for /Trunk/connections/.
+   Draggable nodes with theme colors.
+   ============================================ */
 
+.connections-container {
+  position: relative;
+  width: 100%;
+  min-height: 1000px;
+  margin: 32px 0;
+  overflow: visible;
+}
+/* On the Connections page only, let the map expand wider than the container */
+.container .connections-container {
+  max-width: none;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+/* SVG canvas for connection lines */
+.connections-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.connections-svg line {
+  stroke: var(--pink);
+  stroke-width: 0.5px;
+  opacity: 0.3;
+}
+
+/* Individual node */
+.connection-node {
+  position: absolute;
+  padding: 10px 16px;
+  border: 0.5px solid;
+  border-radius: 6px;
+  cursor: grab;
+  user-select: none;
+  z-index: 1;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  min-width: 80px;
+  text-align: center;
+}
+
+.connection-node:active {
+  cursor: grabbing;
+}
+
+.connection-node:hover {
+  box-shadow: 0 0 16px rgba(255, 0, 163, 0.12);
+  z-index: 2;
+}
+
+.connection-node h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 13pt;
+  margin: 0;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.connection-node .node-type {
+  font-family: 'Lora', serif;
+  font-size: 7pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  display: block;
+  margin-top: 2px;
+}
+
+/* Node theme colors */
+.connection-node.theme-place { border-color: var(--theme-place); color: var(--theme-place); }
+.connection-node.theme-loss { border-color: var(--theme-loss); color: var(--theme-loss); }
+.connection-node.theme-intimacy { border-color: var(--theme-intimacy); color: var(--theme-intimacy); }
+.connection-node.theme-web { border-color: var(--theme-web); color: var(--theme-web); }
+.connection-node.theme-identity { border-color: var(--theme-identity); color: var(--theme-identity); }
+.connection-node.theme-creativity { border-color: var(--theme-creativity); color: var(--theme-creativity); }
+.connection-node.theme-future { border-color: var(--theme-future); color: var(--theme-future); }
+
+/* Center node — Memory Worker */
+.connection-node.center-node {
+  border-color: var(--pink);
+  background: rgba(255, 0, 163, 0.06);
+}
+
+.connection-node.center-node h3 {
+  color: var(--pink);
+  font-size: 16pt;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .connections-container {
+    min-height: 400px;
+  }
+
+  .connection-node {
+    padding: 8px 12px;
+  }
+
+  .connection-node h3 {
+    font-size: 11pt;
+  }
+}
 
 /* ============================================
    15. EPOCH TIMELINE
