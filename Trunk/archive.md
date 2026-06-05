@@ -6,12 +6,7 @@ permalink: /Trunk/archive/
 
 # The Social Archive
 
-It is a marker of 21st century life that a large percentage of our cultural history has been digitally recorded online. The web can be classified as an archive. More importantly, the web allows us to participate in the accumulation of objects — what gets included or excluded is a communal effort, giving new depth to archival value.
-
-The web was built on a vision of a universally-linked hypertext communications system. It has offered us a lot more than that. It is a network-informed economy. It is a history built on parallel truths. It is, by all intentions, participatory.
-
-The web is not just where history is stored. It is where history happened.
-
+It is a marker of The Millennial Epoch that a large percentage of our cultural history has been digitally recorded online. The web allows us to participate. It is a network-informed economy. It is a history built on parallel truths. 
 ---
 
 ## Platform Histories
@@ -51,10 +46,6 @@ The web is not just where history is stored. It is where history happened.
 *42 artifacts collected*
 
 *Statements from literary publications on AI-generated content. Collected for reference and research. A case study in how the epoch responds to its own emerging technology.*
-
-Search engines, social media, and even some publications have implemented AI tools. Is AI being superimposed? Here is a comparison of published* statements on AI generated content.
-
-*Collected for reference and research, please reach out to withdraw or amend statement.*
 
 <!-- ============================================
      INSERT EXISTING SLIDESHOW HTML HERE
