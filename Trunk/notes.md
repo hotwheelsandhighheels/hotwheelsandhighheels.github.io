@@ -46,9 +46,7 @@ permalink: /Trunk/notes/
 * Livestreams
 * Digital ephemera
 * Heritage created digitally rather than digitized later
-* Ismail: virality
-* Ismail: mutability
-* Ismail: intertextuality
+* Virality, mutability, & intertextuality of objects
 * Cultural value of internet artifacts
 * Future historians studying memes
 
@@ -63,9 +61,6 @@ permalink: /Trunk/notes/
 * Disaster communication
 * Protest documentation
 * Viral cultural moments
-* The Dress
-* Ice Bucket Challenge
-* Pandemic TikTok
 * Historical record of public reaction
 * Social media as evidence of cultural mood
 * Users documenting their own lives
