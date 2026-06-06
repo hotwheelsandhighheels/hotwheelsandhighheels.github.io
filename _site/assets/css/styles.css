@@ -10,24 +10,14 @@
    1. FONTS & VARIABLES
    ============================================ */
 
-/* --- GOOGLE FONTS IMPORT ---
-   Playfair Display: italic serif for h1 (contributor names)
-   Cormorant Garamond: elegant serif for h2 and nav logo
-   Lora: warm readable serif for body text, h3, links
-   IMPORTANT: Commas separate values within a single axis (like wght@0,400,0,700).
-   Semicolons separate different axes (like ital@ and wght@). */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400,0,700,1,400&family=Cormorant+Garamond:ital,wght@0,400,0,600,1,400&family=Lora:ital,wght@0,400,0,600,1,400,1,600&display=swap');
 
-/* --- CSS VARIABLES ---
-   Define all colors here. [data-theme="light"] swaps --bg and --text. */
 :root {
   --bg: #0a0608;
   --text: #f5f0f5;
   --pink: #ff00a3;
   --purple: #a300ff;
   
-  /* Theme tag colors — for color-coded quotes and connections.
-     --theme-epoch is for internal/admin use only — not public-facing. */
   --theme-place: #8fd3c7;
   --theme-loss: #ff8c69;
   --theme-intimacy: #ffe066;
@@ -52,13 +42,8 @@
 
 /* ============================================
    2. ACCESSIBILITY FOUNDATION
-   Reduced motion, skip link, focus indicators, screen reader utilities.
-   These must load early so they can override later styles.
    ============================================ */
 
-/* --- REDUCED MOTION SAFETY NET ---
-   Disables all animations/transitions for users with reduced motion preference.
-   Custom cursor reverts to system default. Required for seizure safety. */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -67,16 +52,11 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-
-  body,
-  a,
-  button {
+  body, a, button {
     cursor: auto !important;
   }
 }
 
-/* --- SKIP LINK ---
-   Visually hidden until Tab focus. Slides down for keyboard users. */
 .skip-link {
   position: absolute;
   top: -100%;
@@ -96,16 +76,11 @@
   top: 0;
 }
 
-/* --- FOCUS INDICATOR ---
-   Pink glow replaces browser default blue outline. */
 :focus-visible {
   outline: 2px solid var(--pink);
   outline-offset: 2px;
 }
 
-/* --- SCREEN READER ONLY ---
-   Visually hidden but read by assistive technology.
-   DO NOT use display:none for labels. */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -121,11 +96,8 @@
 
 /* ============================================
    3. GLOBAL ELEMENTS
-   Container, body, images, headings, paragraphs, links, lists, hr
    ============================================ */
 
-/* --- CONTAINER ---
-   Centers content, caps at 900px. */
 .container {
   margin: auto;
   max-width: 900px;
@@ -133,19 +105,15 @@
   padding-bottom: 120px;
 }
 
-/* --- BODY ---
-   Off-black with warm undertone — makes pink/purple glow. */
 body {
   background-color: var(--bg);
 }
 
-/* --- IMAGES (GLOBAL) --- */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* --- HEADINGS --- */
 h1 {
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -177,7 +145,6 @@ h3 {
   margin: 0 0 8px 0;
 }
 
-/* --- PARAGRAPH --- */
 p {
   font-family: 'Lora', serif;
   font-weight: 400;
@@ -187,7 +154,6 @@ p {
   color: var(--text);
 }
 
-/* --- LINKS --- */
 a {
   font-family: 'Lora', serif;
   font-size: 14pt;
@@ -199,8 +165,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* --- HORIZONTAL RULE ---
-   0.5px pink line — delicate divider. */
 hr {
   border: none;
   border-top: 0.5px solid var(--pink);
@@ -224,7 +188,6 @@ hr {
   box-sizing: border-box;
 }
 
-/* Global list styles — scoped to avoid nav */
 .container ul:not(.a-list), .container ol, .wiki-page ul:not(.a-list), .wiki-page ol {
   font-family: 'Lora', serif;
   font-size: 14pt;
@@ -241,7 +204,6 @@ hr {
 
 /* ============================================
    4. NAVIGATION
-   Nav bar, logo, links, hamburger menu
    ============================================ */
 
 nav {
@@ -339,16 +301,12 @@ nav ul li a:hover {
    5. BANNER & FOOTER
    ============================================ */
 
-/* --- BANNER ---
-   Hero image on home page only. */
 .banner {
   width: 100%;
   box-shadow: 0 4px 24px rgba(255, 0, 163, 0.4), 0 0 48px rgba(163, 0, 255, 0.3);
   display: block;
 }
 
-/* --- FOOTER IMAGE ---
-   4Runner PNG. drop-shadow follows car shape. */
 .footer {
   max-height: 150pt;
   filter: drop-shadow(0 0 12px rgba(255, 0, 163, 0.4)) drop-shadow(0 0 24px rgba(163, 0, 255, 0.2));
@@ -374,7 +332,6 @@ nav ul li a:hover {
 
 /* ============================================
    6. BUTTONS & INTERACTIVE
-   Back to top, theme toggle, custom cursor
    ============================================ */
 
 .back-to-top {
@@ -394,6 +351,10 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.back-to-top:hover {
+  opacity: 1;
 }
 
 body .theme-toggle {
@@ -416,8 +377,10 @@ body .theme-toggle {
   justify-content: center;
 }
 
-/* --- CUSTOM CURSOR ---
-   SVG double heart. Reverts to auto for reduced motion users. */
+body .theme-toggle:hover {
+  opacity: 1;
+}
+
 body {
   cursor: url('/assets/Images/cursor.svg'), auto;
 }
@@ -429,11 +392,8 @@ a, button {
 
 /* ============================================
    7. CONTRIBUTOR PAGES
-   Bio card, gallery, feature card, poetry links, lightbox, cover photo
    ============================================ */
 
-/* --- BIO CARD ---
-   Flexbox: photo left, bio right. Stacks on mobile. */
 .bio-card {
   display: flex;
   gap: 24px;
@@ -454,9 +414,7 @@ a, button {
 .bio-text {
   flex: 1;
 }
-/* --- CONNECT LINKS ---
-   Standardized social/website links inside bio card.
-   Dots separate multiple links. Pink on hover. */
+
 .connect-links {
   font-family: 'Lora', serif;
   font-size: 12pt;
@@ -475,7 +433,8 @@ a, button {
   opacity: 1;
   text-decoration: none;
 }
-/* --- IMAGE GALLERY (DRIVERS PAGE) --- */
+
+/* --- IMAGE GALLERY --- */
 .container .gallery {
   display: grid;
 }
@@ -612,8 +571,8 @@ a, button {
   opacity: 1;
   text-decoration: underline;
 }
-/* --- DRIVER NAVIGATION ---
-   Previous/Next links at bottom of contributor pages. */
+
+/* --- DRIVER NAVIGATION --- */
 .driver-nav {
   display: flex;
   justify-content: space-between;
@@ -636,20 +595,20 @@ a, button {
   opacity: 1;
   text-decoration: none;
 }
-/* Space after banner before contributor name */
+
 .banner + h1 {
   margin-top: 36px;
 }
-/* Contributor name — larger than default H1 */
+
 h1.driver-name {
   font-size: 36pt;
 }
+
+
 /* ============================================
    8. COMPONENTS
-   Pull quote, caption, tag, callout, audio, video, accordion, slideshow
    ============================================ */
 
-/* --- PULL QUOTE --- */
 .pull-quote {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
@@ -661,7 +620,6 @@ h1.driver-name {
   opacity: 0.85;
 }
 
-/* --- IMAGE CAPTION --- */
 .caption {
   font-family: 'Lora', serif;
   font-size: 9pt;
@@ -673,7 +631,6 @@ h1.driver-name {
   margin-bottom: 16px;
 }
 
-/* --- TAG / BADGE --- */
 .tag {
   display: inline-block;
   font-family: 'Lora', serif;
@@ -688,7 +645,6 @@ h1.driver-name {
   margin-bottom: 6px;
 }
 
-/* --- CALLOUT BOX --- */
 .callout {
   border-left: 2px solid var(--pink);
   padding: 12px 20px;
@@ -702,7 +658,6 @@ h1.driver-name {
   opacity: 0.8;
 }
 
-/* --- AUDIO PLAYER --- */
 .audio-player {
   margin: 24px 0;
 }
@@ -727,8 +682,6 @@ audio:hover {
   opacity: 1;
 }
 
-/* --- VIDEO EMBED ---
-   16:9 responsive wrapper. */
 .video-wrap {
   position: relative;
   padding-top: 56.25%;
@@ -867,7 +820,7 @@ audio:hover {
 
 
 /* ============================================
-   9. EMAIL SIGNUP FORM (BUTTONDOWN)
+   9. EMAIL SIGNUP FORM
    ============================================ */
 
 .container .embeddable-buttondown-form {
@@ -922,7 +875,7 @@ audio:hover {
 
 
 /* ============================================
-   10. TEASER PAGE (REVVING UP)
+   10. TEASER PAGE
    ============================================ */
 
 .teaser-page {
@@ -1022,7 +975,6 @@ audio:hover {
 
 /* ============================================
    11. COLOR-CODED QUOTE SYSTEM
-   Theme tags for Driver interviews and Witnesses collection.
    ============================================ */
 
 .tag-place { color: var(--theme-place); }
@@ -1033,7 +985,6 @@ audio:hover {
 .tag-creativity { color: var(--theme-creativity); }
 .tag-future { color: var(--theme-future); }
 
-/* Blockquote variant — colored left border + matching text */
 .tag-quote {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
@@ -1053,9 +1004,6 @@ audio:hover {
 .tag-quote.tag-creativity { border-color: var(--theme-creativity); color: var(--theme-creativity); }
 .tag-quote.tag-future { border-color: var(--theme-future); color: var(--theme-future); }
 
-/* --- QUOTE ATTRIBUTION ---
-   Contributor name link below blockquotes on Witnesses page.
-   Uses Playfair Display italic like H1, sized for blockquote context. */
 .quote-attribution {
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -1075,9 +1023,6 @@ audio:hover {
   text-decoration: underline;
 }
 
-/* --- THEME LEGEND ---
-   Horizontal list at top of Witnesses page.
-   Matches Epoch category legend style. */
 .theme-legend {
   display: flex;
   flex-wrap: wrap;
@@ -1095,8 +1040,7 @@ audio:hover {
   opacity: 0.8;
 }
 
-/* --- WITNESS PILL TAGS ---
-   Match timeline tag pill style for theme tags under quotes. */
+/* --- WITNESS PILL TAGS --- */
 .timeline-tag.place,
 .timeline-tag.loss,
 .timeline-tag.intimacy,
@@ -1122,6 +1066,7 @@ audio:hover {
 .timeline-tag.identity { background: rgba(255, 179, 255, 0.12); color: var(--theme-identity); border: 0.5px solid rgba(255, 179, 255, 0.25); }
 .timeline-tag.creativity { background: rgba(127, 255, 212, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(127, 255, 212, 0.25); }
 .timeline-tag.future { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
+
 
 /* ============================================
    12. WIKI PAGE (LEGACY)
@@ -1294,10 +1239,10 @@ audio:hover {
   color: var(--text);
   opacity: 0.5;
 }
+
+
 /* ============================================
    15. CONNECTIONS MAP
-   Interactive mind map for /Trunk/connections/.
-   Draggable nodes with theme colors.
    ============================================ */
 
 .connections-container {
@@ -1307,13 +1252,13 @@ audio:hover {
   margin: 32px 0;
   overflow: visible;
 }
-/* On the Connections page only, let the map expand wider than the container */
+
 .container .connections-container {
   max-width: none;
   margin-left: -16px;
   margin-right: -16px;
 }
-/* SVG canvas for connection lines */
+
 .connections-svg {
   position: absolute;
   top: 0;
@@ -1330,7 +1275,6 @@ audio:hover {
   opacity: 0.3;
 }
 
-/* Individual node */
 .connection-node {
   position: absolute;
   padding: 10px 16px;
@@ -1372,7 +1316,6 @@ audio:hover {
   margin-top: 2px;
 }
 
-/* Node theme colors */
 .connection-node.theme-place { border-color: var(--theme-place); color: var(--theme-place); }
 .connection-node.theme-loss { border-color: var(--theme-loss); color: var(--theme-loss); }
 .connection-node.theme-intimacy { border-color: var(--theme-intimacy); color: var(--theme-intimacy); }
@@ -1381,7 +1324,6 @@ audio:hover {
 .connection-node.theme-creativity { border-color: var(--theme-creativity); color: var(--theme-creativity); }
 .connection-node.theme-future { border-color: var(--theme-future); color: var(--theme-future); }
 
-/* Center node — Memory Worker */
 .connection-node.center-node {
   border-color: var(--pink);
   background: rgba(255, 0, 163, 0.06);
@@ -1392,20 +1334,6 @@ audio:hover {
   font-size: 16pt;
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-  .connections-container {
-    min-height: 400px;
-  }
-
-  .connection-node {
-    padding: 8px 12px;
-  }
-
-  .connection-node h3 {
-    font-size: 11pt;
-  }
-}
 /* --- NODE PREVIEW POPUP --- */
 .node-preview {
   position: absolute;
@@ -1472,8 +1400,9 @@ audio:hover {
   opacity: 1;
 }
 
+
 /* ============================================
-   15. EPOCH TIMELINE
+   16. EPOCH TIMELINE
    ============================================ */
 
 .timeline {
@@ -1482,22 +1411,37 @@ audio:hover {
   padding: 0;
 }
 
-/* Category legend at top */
+/* --- CLICKABLE LEGEND --- */
 .timeline-legend {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 8px;
   margin-bottom: 32px;
   padding-bottom: 16px;
   border-bottom: 0.5px solid rgba(163, 0, 255, 0.2);
 }
 
-.timeline-legend span {
+.timeline-legend button {
   font-family: 'Lora', serif;
   font-size: 9pt;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  opacity: 0.7;
+  background: transparent;
+  border: 0.5px solid rgba(163, 0, 255, 0.2);
+  border-radius: 12px;
+  padding: 4px 10px;
+  cursor: url('/assets/Images/cursor.svg') 8 2, auto;
+  opacity: 0.6;
+  transition: opacity 0.3s ease, border-color 0.3s ease;
+}
+
+.timeline-legend button:hover {
+  opacity: 1;
+}
+
+.timeline-legend button.active {
+  opacity: 1;
+  border-color: currentColor;
 }
 
 .timeline-legend .legend-tech { color: var(--theme-web); }
@@ -1505,8 +1449,9 @@ audio:hover {
 .timeline-legend .legend-culture { color: var(--theme-creativity); }
 .timeline-legend .legend-economics { color: var(--theme-future); }
 .timeline-legend .legend-local { color: var(--theme-place); }
+.timeline-legend .legend-all { color: var(--text); }
 
-/* Era section headers */
+/* --- ERA HEADERS --- */
 .timeline-era {
   text-align: center;
   margin: 40px 0 20px 0;
@@ -1533,7 +1478,7 @@ audio:hover {
   border-radius: 20px;
 }
 
-/* The vertical line */
+/* --- VERTICAL LINE --- */
 .timeline::before {
   content: '';
   position: absolute;
@@ -1545,7 +1490,7 @@ audio:hover {
   opacity: 0.4;
 }
 
-/* Year marker */
+/* --- YEAR BUBBLE --- */
 .timeline-year {
   position: relative;
   text-align: center;
@@ -1566,7 +1511,7 @@ audio:hover {
   z-index: 1;
 }
 
-/* Event entry */
+/* --- EVENT ENTRIES --- */
 .timeline-entry {
   position: relative;
   width: 43%;
@@ -1585,6 +1530,14 @@ audio:hover {
   clear: right;
   text-align: left;
   padding-left: 7%;
+}
+
+.timeline-entry.hidden {
+  display: none;
+}
+
+.timeline-year.hidden {
+  display: none;
 }
 
 .timeline-entry h3 {
@@ -1606,7 +1559,7 @@ audio:hover {
   margin: 0 0 6px 0;
 }
 
-/* Category pill tags in timeline */
+/* --- CATEGORY PILL TAGS --- */
 .timeline-entry .timeline-tag {
   display: inline-block;
   font-family: 'Lora', serif;
@@ -1631,7 +1584,7 @@ audio:hover {
 
 
 /* ============================================
-   16. KEYFRAMES (MOTION-SAFE)
+   17. KEYFRAMES
    ============================================ */
 
 @keyframes flicker {
@@ -1655,8 +1608,7 @@ audio:hover {
 
 
 /* ============================================
-   17. MOBILE STYLES (MAX-WIDTH: 600px)
-   ALL mobile overrides in one place.
+   18. MOBILE STYLES (MAX-WIDTH: 600px)
    ============================================ */
 
 @media (max-width: 600px) {
@@ -1767,13 +1719,27 @@ audio:hover {
     font-size: 10pt;
   }
 
-  /* --- EPOCH TIMELINE --- */
-  .timeline-legend {
-    gap: 8px;
+  /* --- CONNECTIONS MAP --- */
+  .connections-container {
+    min-height: 400px;
   }
 
-  .timeline-legend span {
+  .connection-node {
+    padding: 8px 12px;
+  }
+
+  .connection-node h3 {
+    font-size: 11pt;
+  }
+
+  /* --- EPOCH TIMELINE --- */
+  .timeline-legend {
+    gap: 6px;
+  }
+
+  .timeline-legend button {
     font-size: 8pt;
+    padding: 3px 8px;
   }
 
   .timeline-era {
@@ -1790,15 +1756,14 @@ audio:hover {
     left: 16px;
   }
 
-  .timeline-year {
-    text-align: left;
-    padding-left: 36px;
-    margin: 20px 0 10px 0;
-  }
+.timeline-year h2 {
+  font-size: 20pt;
+  padding: 0;
+}
 
   .timeline-year h2 {
-    font-size: 20pt;
-    padding: 0;
+    font-size: 16pt;
+    padding: 2px 14px;
   }
 
   .timeline-entry {
@@ -1829,8 +1794,7 @@ audio:hover {
 
 
 /* ============================================
-   18. ANIMATIONS (MOTION-SAFE ONLY)
-   Only fire when user has NOT requested reduced motion.
+   19. ANIMATIONS (MOTION-SAFE ONLY)
    ============================================ */
 
 @media (prefers-reduced-motion: no-preference) {
