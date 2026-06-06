@@ -259,7 +259,7 @@ nav ul li a:hover {
   color: var(--pink);
 }
 
-.active {
+nav .active {
   color: var(--pink) !important;
   opacity: 1 !important;
   text-decoration: underline !important;
@@ -1432,8 +1432,39 @@ audio:hover {
   padding: 4px 10px;
   cursor: url('/assets/Images/cursor.svg') 8 2, auto;
   opacity: 0.6;
+  text-decoration: none;
   transition: opacity 0.3s ease, border-color 0.3s ease;
 }
+
+.timeline-legend .legend-tech,
+.timeline-legend .legend-tech:hover,
+.timeline-legend .legend-tech:focus,
+.timeline-legend .legend-tech:active { color: var(--theme-web) !important; }
+
+.timeline-legend .legend-politics,
+.timeline-legend .legend-politics:hover,
+.timeline-legend .legend-politics:focus,
+.timeline-legend .legend-politics:active { color: var(--theme-loss) !important; }
+
+.timeline-legend .legend-culture,
+.timeline-legend .legend-culture:hover,
+.timeline-legend .legend-culture:focus,
+.timeline-legend .legend-culture:active { color: var(--theme-creativity) !important; }
+
+.timeline-legend .legend-economics,
+.timeline-legend .legend-economics:hover,
+.timeline-legend .legend-economics:focus,
+.timeline-legend .legend-economics:active { color: var(--theme-future) !important; }
+
+.timeline-legend .legend-local,
+.timeline-legend .legend-local:hover,
+.timeline-legend .legend-local:focus,
+.timeline-legend .legend-local:active { color: var(--theme-place) !important; }
+
+.timeline-legend .legend-all,
+.timeline-legend .legend-all:hover,
+.timeline-legend .legend-all:focus,
+.timeline-legend .legend-all:active { color: var(--text) !important; }
 
 .timeline-legend button:hover {
   opacity: 1;
@@ -1443,13 +1474,6 @@ audio:hover {
   opacity: 1;
   border-color: currentColor;
 }
-
-.timeline-legend .legend-tech { color: var(--theme-web); }
-.timeline-legend .legend-politics { color: var(--theme-loss); }
-.timeline-legend .legend-culture { color: var(--theme-creativity); }
-.timeline-legend .legend-economics { color: var(--theme-future); }
-.timeline-legend .legend-local { color: var(--theme-place); }
-.timeline-legend .legend-all { color: var(--text); }
 
 /* --- ERA HEADERS --- */
 .timeline-era {

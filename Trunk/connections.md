@@ -6,7 +6,7 @@ permalink: /Trunk/connections/
 
 # Connections
 
-The Millennial Epoch across themes, categories, and concepts
+Connections maps the relationships between concepts, contributors, platforms, and events across the archive. Each node represents an idea. Each line represents a link.
 
  *Drag to explore. Click to visit.*
 

@@ -6,8 +6,9 @@ permalink: /Trunk/notes/
 
 # Field Notes
 
-<p class="wiki-intro">Research notes, presented as working lists. These are living documents, incomplete by design.
-    </p>
+Field Notes tracks the research behind the archive. Concepts, reading notes, working definitions, and questions — the ideas that shape how the Trunk understands memory.
+
+---
 
 ## Foundations 
 

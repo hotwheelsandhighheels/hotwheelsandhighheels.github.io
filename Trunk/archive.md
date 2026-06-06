@@ -6,7 +6,9 @@ permalink: /Trunk/archive/
 
 # The Social Archive
 
-It is a marker of The Millennial Epoch that a large percentage of our cultural history has been digitally recorded online. The web allows us to participate. It is a network-informed economy. It is a history built on parallel truths. 
+The Social Archive collects what was made and shared online during the millennial epoch. Screenshots, posts, photographs, videos, comments, and digital debris — evidence of how people recorded their lives on the web.
+
+The web is not just where history is stored. It is where history happened.
 
 ---
 
