@@ -767,14 +767,16 @@ The Millennial Epoch across themes, categories, and concepts
     }
   });
 
-  // Node preview data
 const previewData = {
+  // Center
   'node-memory': {
     title: 'Memory',
     type: 'Center',
     description: 'The central concept of the archive. Everything in the Trunk orbits around how memory is created, preserved, distorted, and transmitted across generations.',
     link: null
   },
+
+  // First Ring Concepts
   'node-archive': {
     title: 'Archive',
     type: 'Concept',
@@ -811,6 +813,50 @@ const previewData = {
     description: 'The timeline of the millennial epoch. Events, platforms, and cultural shifts that shaped a generation from 1982 to the present.',
     link: '/Trunk/epoch/'
   },
+  'node-culture': {
+    title: 'Culture',
+    type: 'Concept',
+    description: 'The shared meanings that connect people across time. Culture provides the symbols, stories, and practices through which memory is expressed.',
+    link: null
+  },
+  'node-power': {
+    title: 'Power',
+    type: 'Concept',
+    description: 'The forces that shape what is remembered and what is forgotten. Power influences archives, institutions, platforms, and access to history.',
+    link: null
+  },
+  'node-place-concept': {
+    title: 'Place',
+    type: 'Concept',
+    description: 'The locations where memory takes root. Places connect people to community, identity, and lived experience.',
+    link: null
+  },
+  'node-loss-concept': {
+    title: 'Loss',
+    type: 'Concept',
+    description: 'The experience of disappearance and change. Loss gives memory its urgency and often motivates preservation.',
+    link: null
+  },
+  'node-identity-concept': {
+    title: 'Identity',
+    type: 'Concept',
+    description: 'How individuals and communities understand themselves. Identity is formed through memory, relationships, culture, and place.',
+    link: null
+  },
+  'node-attention': {
+    title: 'Attention',
+    type: 'Concept',
+    description: 'The mechanism that determines what becomes visible. Attention shapes what information is amplified, preserved, and remembered.',
+    link: null
+  },
+  'node-platforms-concept': {
+    title: 'Platforms',
+    type: 'Concept',
+    description: 'The digital spaces where contemporary memory is created and shared. Platforms organize participation, communication, and preservation online.',
+    link: null
+  },
+
+  // Contributors
   'node-angela': {
     title: 'Angela Mendoza',
     type: 'Contributor',
@@ -852,6 +898,396 @@ const previewData = {
     type: 'Era',
     description: 'The period from 1982 to the present that shaped millennials and those following — defined by technological, political, and economic transformation.',
     link: '/Trunk/epoch/'
+  },
+
+  // Archive Cluster
+  'node-derrida': {
+    title: 'Derrida',
+    type: 'Researcher',
+    description: 'Philosopher whose work examined the relationship between archives, memory, and technology. His ideas continue to shape archival theory and practice.',
+    link: null
+  },
+  'node-archive-fever': {
+    title: 'Archive Fever',
+    type: 'Text',
+    description: 'Derrida\'s 1995 study of the archive. The text explores preservation, authority, forgetting, and responsibility to the future.',
+    link: null
+  },
+  'node-archons': {
+    title: 'Archons',
+    type: 'Concept',
+    description: 'The guardians of the archive in Derrida\'s account. Archons possess the authority to preserve, organize, and interpret records.',
+    link: null
+  },
+  'node-authority': {
+    title: 'Authority',
+    type: 'Concept',
+    description: 'The power to determine what belongs in the archive and how it is understood. Authority shapes both preservation and interpretation.',
+    link: null
+  },
+  'node-preservation': {
+    title: 'Preservation',
+    type: 'Concept',
+    description: 'The process of protecting records, artifacts, and memories from loss. Preservation extends the life of information across time.',
+    link: null
+  },
+  'node-digital-heritage': {
+    title: 'Digital Heritage',
+    type: 'Concept',
+    description: 'Cultural materials created and preserved in digital form. Digital heritage documents how people live, communicate, and create online.',
+    link: null
+  },
+  'node-born-digital': {
+    title: 'Born-Digital',
+    type: 'Concept',
+    description: 'Materials that originate in digital form rather than being digitized later. These records are native to the internet and digital technologies.',
+    link: null
+  },
+  'node-metadata': {
+    title: 'Metadata',
+    type: 'Concept',
+    description: 'Information about information. Metadata provides details that help identify, organize, and interpret records.',
+    link: null
+  },
+  'node-web-archives': {
+    title: 'Web Archives',
+    type: 'Concept',
+    description: 'Collections that preserve websites and online content over time. They help document parts of the internet that might otherwise disappear.',
+    link: null
+  },
+  'node-manoff': {
+    title: 'Manoff',
+    type: 'Researcher',
+    description: 'Scholar of archival studies whose work examines archives as cultural, political, and technological systems. Her research emphasizes the relationship between archives and power.',
+    link: null
+  },
+  'node-the-trunk': {
+    title: 'The Trunk',
+    type: 'Archive',
+    description: 'The project\'s central archive. The Trunk gathers interviews, artifacts, research, and connections related to memory in the millennial epoch.',
+    link: '/Trunk/'
+  },
+  'node-provenance': {
+    title: 'Provenance',
+    type: 'Concept',
+    description: 'The documented origin and history of a record or artifact. Provenance helps establish authenticity and context.',
+    link: null
+  },
+  'node-context': {
+    title: 'Context',
+    type: 'Concept',
+    description: 'The circumstances surrounding the creation and use of a record. Context helps explain how information acquires meaning.',
+    link: null
+  },
+
+  // Social Media Cluster
+  'node-myspace': {
+    title: 'MySpace',
+    type: 'Platform',
+    description: 'One of the earliest major social networking platforms. MySpace helped establish online identity, customization, and public self-documentation.',
+    link: null
+  },
+  'node-facebook': {
+    title: 'Facebook',
+    type: 'Platform',
+    description: 'A social networking platform built around personal profiles and social connections. Facebook became a major archive of everyday life.',
+    link: null
+  },
+  'node-twitter': {
+    title: 'Twitter / X',
+    type: 'Platform',
+    description: 'A platform centered on short public messages and real-time conversation. It functions as a record of reactions, events, and public discourse.',
+    link: null
+  },
+  'node-tumblr': {
+    title: 'Tumblr',
+    type: 'Platform',
+    description: 'A blogging and social networking platform known for creative communities and fandom culture. Tumblr shaped new forms of online expression and identity.',
+    link: null
+  },
+  'node-instagram': {
+    title: 'Instagram',
+    type: 'Platform',
+    description: 'A platform centered on images and visual storytelling. Instagram transformed photography into a primary form of social communication.',
+    link: null
+  },
+  'node-tiktok': {
+    title: 'TikTok',
+    type: 'Platform',
+    description: 'A short-form video platform driven by algorithmic discovery. TikTok accelerates the creation and circulation of cultural trends.',
+    link: null
+  },
+  'node-youtube': {
+    title: 'YouTube',
+    type: 'Platform',
+    description: 'A video-sharing platform that serves as both entertainment network and public archive. It preserves personal expression alongside cultural history.',
+    link: null
+  },
+  'node-forums': {
+    title: 'Forums',
+    type: 'Platform',
+    description: 'Discussion-based communities organized around shared interests. Forums helped establish many of the internet\'s earliest forms of collective memory.',
+    link: null
+  },
+  'node-email': {
+    title: 'Email',
+    type: 'Platform',
+    description: 'A digital communication system that preserves conversations across time. Email remains one of the most durable forms of personal recordkeeping.',
+    link: null
+  },
+  'node-google-groups': {
+    title: 'Google Groups',
+    type: 'Platform',
+    description: 'A discussion platform built around mailing lists and online communities. It preserves conversations that document everyday social life.',
+    link: null
+  },
+  'node-feed': {
+    title: 'The Feed',
+    type: 'Concept',
+    description: 'The continuously updated stream of content presented by digital platforms. The feed shapes visibility, attention, and memory.',
+    link: null
+  },
+  'node-platform-death': {
+    title: 'Platform Death',
+    type: 'Concept',
+    description: 'The decline, closure, or transformation of digital platforms. Platform death raises questions about preservation and cultural loss.',
+    link: null
+  },
+  'node-aesthetics': {
+    title: 'Internet Aesthetics',
+    type: 'Concept',
+    description: 'The visual styles and creative conventions that emerge online. Internet aesthetics help define distinct periods of digital culture.',
+    link: null
+  },
+
+  // People / Witnesses Cluster
+  'node-memory-workers': {
+    title: 'Memory Workers',
+    type: 'Concept',
+    description: 'People who record, preserve, interpret, or transmit memory. Archivists, writers, historians, and ordinary users can all function as memory workers.',
+    link: null
+  },
+  'node-communities': {
+    title: 'Communities',
+    type: 'Concept',
+    description: 'Groups connected through shared experience, identity, or place. Communities create and sustain collective memory.',
+    link: null
+  },
+  'node-algorithmic-self': {
+    title: 'Algorithmic Self',
+    type: 'Concept',
+    description: 'The version of a person represented through data, profiles, and platform activity. The algorithmic self is shaped by both user behavior and technological systems.',
+    link: null
+  },
+
+  // Storytelling Cluster
+  'node-poetry': {
+    title: 'Poetry',
+    type: 'Form',
+    description: 'A literary form that uses language, rhythm, and imagery to express experience. Poetry can preserve emotional and personal dimensions of memory.',
+    link: null
+  },
+  'node-memoir': {
+    title: 'Memoir',
+    type: 'Form',
+    description: 'A narrative account based on lived experience. Memoir transforms personal memory into a shared story.',
+    link: null
+  },
+  'node-oral-history': {
+    title: 'Oral History',
+    type: 'Form',
+    description: 'The recording of personal testimony through spoken accounts. Oral history preserves experiences that may not exist in written records.',
+    link: null
+  },
+  'node-testimony': {
+    title: 'Testimony',
+    type: 'Form',
+    description: 'A firsthand account of lived experience. Testimony serves as both evidence and memory.',
+    link: null
+  },
+  'node-double-perspective': {
+    title: 'Double Perspective',
+    type: 'Theory',
+    description: 'The ability to experience an event while simultaneously reflecting upon it. This perspective links lived experience to memory work.',
+    link: null
+  },
+  'node-witnessing': {
+    title: 'Witnessing',
+    type: 'Concept',
+    description: 'The act of observing, remembering, and recounting events. Witnessing transforms experience into historical record.',
+    link: null
+  },
+  'node-fandom': {
+    title: 'Fandom',
+    type: 'Concept',
+    description: 'Communities formed around shared cultural interests. Fandoms generate archives, traditions, and collective memory of their own.',
+    link: null
+  },
+
+  // Technology Cluster
+  'node-ai': {
+    title: 'AI',
+    type: 'Concept',
+    description: 'Systems designed to generate, analyze, or respond to information. AI raises new questions about authorship, memory, and cultural preservation.',
+    link: null
+  },
+  'node-surveillance': {
+    title: 'Surveillance',
+    type: 'Concept',
+    description: 'The collection and monitoring of information about people and their activities. Surveillance produces records that can shape memory and behavior.',
+    link: null
+  },
+  'node-algorithms': {
+    title: 'Algorithms',
+    type: 'Concept',
+    description: 'Sets of rules used to sort, recommend, and prioritize information. Algorithms influence what becomes visible online.',
+    link: null
+  },
+  'node-berners-lee': {
+    title: 'Berners-Lee',
+    type: 'Researcher',
+    description: 'Computer scientist who proposed the World Wide Web. His vision of universal access helped establish the infrastructure of digital memory.',
+    link: null
+  },
+  'node-digital-sobriety': {
+    title: 'Digital Sobriety',
+    type: 'Concept',
+    description: 'A practice of using digital technologies with greater intention and awareness. Digital sobriety responds to concerns about attention, data, and information overload.',
+    link: null
+  },
+  'node-smartphones': {
+    title: 'Smartphones',
+    type: 'Concept',
+    description: 'Portable devices that combine communication, media creation, and internet access. Smartphones turned everyday life into a continuously documented experience.',
+    link: null
+  },
+  'node-cloud': {
+    title: 'Cloud',
+    type: 'Concept',
+    description: 'Remote systems used to store and access digital information. The cloud allows memory to persist beyond individual devices.',
+    link: null
+  },
+  'node-datafication': {
+    title: 'Datafication',
+    type: 'Concept',
+    description: 'The process of converting human activity into measurable data. Datafication transforms experience into information that can be stored, analyzed, and monetized.',
+    link: null
+  },
+
+  // History Cluster
+  'node-collective-memory': {
+    title: 'Collective Memory',
+    type: 'Concept',
+    description: 'The shared memory of a group, community, or society. Collective memory helps shape cultural identity and historical understanding.',
+    link: null
+  },
+  'node-personal-memory': {
+    title: 'Personal Memory',
+    type: 'Concept',
+    description: 'The recollection of individual experiences. Personal memory forms the foundation of identity and storytelling.',
+    link: null
+  },
+  'node-familial-memory': {
+    title: 'Familial Memory',
+    type: 'Concept',
+    description: 'Memories shared across families and generations. Familial memory connects personal experience to larger histories.',
+    link: null
+  },
+  'node-nostalgia': {
+    title: 'Nostalgia',
+    type: 'Concept',
+    description: 'A longing for or reflection upon the past. Nostalgia influences how people remember, interpret, and preserve experience.',
+    link: null
+  },
+  'node-forgetting': {
+    title: 'Forgetting',
+    type: 'Concept',
+    description: 'The loss, absence, or fading of memory. Forgetting is as important to history as remembering.',
+    link: null
+  },
+  'node-place-memory': {
+    title: 'Place Memory',
+    type: 'Concept',
+    description: 'Memory connected to specific locations. Places often preserve experiences long after events have passed.',
+    link: null
+  },
+  'node-millennials': {
+    title: 'Millennials',
+    type: 'Concept',
+    description: 'The generation born during the transition from analog to digital life. Millennials occupy a unique position between pre-internet and internet eras.',
+    link: null
+  },
+  'node-generational-memory': {
+    title: 'Generational Memory',
+    type: 'Concept',
+    description: 'Memories shared by people shaped by similar historical conditions. Generational memory connects personal experience to larger social change.',
+    link: null
+  },
+
+  // Culture Cluster
+  'node-memes': {
+    title: 'Memes',
+    type: 'Concept',
+    description: 'Images, phrases, or cultural references that spread through imitation and adaptation. Memes function as units of collective cultural memory.',
+    link: null
+  },
+  'node-virality': {
+    title: 'Virality',
+    type: 'Concept',
+    description: 'The rapid circulation of content through networks and communities. Virality determines which moments become widely shared cultural reference points.',
+    link: null
+  },
+  'node-participation': {
+    title: 'Participation',
+    type: 'Concept',
+    description: 'The act of contributing to shared cultural or digital spaces. Participation transforms audiences into creators, curators, and archivists.',
+    link: null
+  },
+  'node-remix': {
+    title: 'Remix Culture',
+    type: 'Concept',
+    description: 'The practice of adapting, combining, and reusing existing cultural materials. Remix culture treats creativity as an ongoing conversation.',
+    link: null
+  },
+
+  // Power Cluster
+  'node-corporations': {
+    title: 'Corporations',
+    type: 'Concept',
+    description: 'Organizations that own and operate many of the platforms where digital memory is stored. Corporate decisions shape access, visibility, and preservation.',
+    link: null
+  },
+  'node-censorship': {
+    title: 'Censorship',
+    type: 'Concept',
+    description: 'The restriction, removal, or suppression of information. Censorship influences what can be remembered and shared.',
+    link: null
+  },
+  'node-data-collection': {
+    title: 'Data Collection',
+    type: 'Concept',
+    description: 'The gathering of information about people, behaviors, and interactions. Data collection creates records that shape both memory and power.',
+    link: null
+  },
+
+  // Researchers
+  'node-tosic': {
+    title: 'Tošić',
+    type: 'Researcher',
+    description: 'Researcher whose work examines memory, archives, and the coexistence of multiple perspectives. The concept of parallel truths informs the social archive.',
+    link: null
+  },
+  'node-ismail': {
+    title: 'Ismail',
+    type: 'Researcher',
+    description: 'Researcher whose work contributes to discussions of stewardship, digital preservation, and responsibility toward future users.',
+    link: null
+  },
+  'node-vlassenroot': {
+    title: 'Vlassenroot',
+    type: 'Researcher',
+    description: 'Researcher whose work examines digital heritage, memory practices, and the preservation of born-digital culture.',
+    link: null
   }
 };
 
