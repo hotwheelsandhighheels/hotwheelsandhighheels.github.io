@@ -178,10 +178,10 @@ permalink: /Trunk/notes/
 ## Reading Notes
 
 <div class="accordion">
-  <button class="accordion-header" onclick="toggleAccordion(this)">
-    Derrida <span class="accordion-icon">+</span>
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-derrida">
+  Derrida <span class="accordion-icon">+</span>
   </button>
-  <div class="accordion-content">
+<div class="accordion-content" id="accordion-derrida">
     <ul>
       <li>Arkheion — the residence of the archons, place of authority</li>
       <li>Archons — guardians with the power to interpret the archives</li>
@@ -197,10 +197,10 @@ permalink: /Trunk/notes/
 </div>
 
 <div class="accordion">
-  <button class="accordion-header" onclick="toggleAccordion(this)">
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-berners-lee">
     Berners-Lee <span class="accordion-icon">+</span>
   </button>
-  <div class="accordion-content">
+<div class="accordion-content" id="accordion-berners-lee">
     <ul>
       <li>Hypertext — human-readable information linked without constraint</li>
       <li>Hypermedia — expansion beyond text to graphics, speech, video</li>
@@ -215,11 +215,12 @@ permalink: /Trunk/notes/
   </div>
 </div>
 
+
 <div class="accordion">
-  <button class="accordion-header" onclick="toggleAccordion(this)">
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-manoff">
     Manoff <span class="accordion-icon">+</span>
   </button>
-  <div class="accordion-content">
+<div class="accordion-content" id="accordion-manoff">
     <ul>
       <li>Archives and democracy — no political power without control of the archive</li>
       <li>Archives are not neutral — even inclusive archives reflect prevailing prejudice</li>
@@ -233,10 +234,10 @@ permalink: /Trunk/notes/
 </div>
 
 <div class="accordion">
-  <button class="accordion-header" onclick="toggleAccordion(this)">
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-tosic">
     Tošić <span class="accordion-icon">+</span>
   </button>
-  <div class="accordion-content">
+<div class="accordion-content" id="accordion-tosic">
     <ul>
       <li>Parallel truths — subjective archiving can lead to objective research results</li>
       <li>Digital mini-archives — social media users as curators and interpreters of history</li>
@@ -250,10 +251,10 @@ permalink: /Trunk/notes/
 </div>
 
 <div class="accordion">
-  <button class="accordion-header" onclick="toggleAccordion(this)">
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-ismail">
     Ismail <span class="accordion-icon">+</span>
   </button>
-  <div class="accordion-content">
+<div class="accordion-content" id="accordion-ismail">
     <ul>
       <li>Memes as archival discourse — cultural units of transmission</li>
       <li>Virality — rapid spread across platforms, speed increases archival value</li>
@@ -270,10 +271,10 @@ permalink: /Trunk/notes/
 </div>
 
 <div class="accordion">
-  <button class="accordion-header" onclick="toggleAccordion(this)">
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-vlassenroot">
     Vlassenroot <span class="accordion-icon">+</span>
   </button>
-  <div class="accordion-content">
+<div class="accordion-content" id="accordion-vlassenroot">
     <ul>
       <li>Web archiving and social media — exploratory analysis</li>
       <li>Social media content as born-digital heritage of cultural, societal, historical interest</li>
@@ -287,10 +288,10 @@ permalink: /Trunk/notes/
 </div>
 
 <div class="accordion">
-  <button class="accordion-header" onclick="toggleAccordion(this)">
-    Roulston & deMarrais <span class="accordion-icon">+</span>
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-roultson">
+    Roulston & deMarrais<span class="accordion-icon">+</span>
   </button>
-  <div class="accordion-content">
+<div class="accordion-content" id="accordion-roulston">
     <ul>
       <li>Traditional archive characteristics — static, unique, authentic</li>
       <li>Static — fixed in time and space, secured so it cannot be changed</li>
@@ -303,10 +304,10 @@ permalink: /Trunk/notes/
 </div>
 
 <div class="accordion">
-  <button class="accordion-header" onclick="toggleAccordion(this)">
-    Gebeil & Peyssard <span class="accordion-icon">+</span>
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-gebeil">
+    Gebeil & Peyssard<span class="accordion-icon">+</span>
   </button>
-  <div class="accordion-content">
+<div class="accordion-content" id="accordion-gebeil">
     <ul>
       <li>Web archives as digital heritage — memory for future societies</li>
       <li>Indispensable source of contemporary facts for researchers</li>
@@ -322,7 +323,8 @@ permalink: /Trunk/notes/
 function toggleAccordion(header) {
   const content = header.nextElementSibling;
   const icon = header.querySelector('.accordion-icon');
-  content.classList.toggle('open');
-  icon.textContent = content.classList.contains('open') ? '−' : '+';
+  const expanded = content.classList.toggle('open');
+  icon.textContent = expanded ? '−' : '+';
+  header.setAttribute('aria-expanded', expanded);
 }
 </script>

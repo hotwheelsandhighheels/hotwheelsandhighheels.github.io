@@ -73,6 +73,7 @@ function toggleMenu() {
 
   const expanded = btn.classList.contains('open');
   btn.setAttribute('aria-expanded', expanded);
+  btn.setAttribute('aria-label', expanded ? 'Close menu' : 'Open menu');
 }
 </script>
     <main id="main" tabindex="-1">
