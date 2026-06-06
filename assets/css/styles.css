@@ -1406,6 +1406,71 @@ audio:hover {
     font-size: 11pt;
   }
 }
+/* --- NODE PREVIEW POPUP --- */
+.node-preview {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  min-width: 280px;
+  max-width: 360px;
+}
+
+.node-preview-content {
+  background: var(--bg);
+  border: 0.5px solid var(--pink);
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 24px rgba(255, 0, 163, 0.15);
+}
+
+.node-preview-content h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 18pt;
+  color: var(--pink);
+  margin: 0 0 4px 0;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.node-preview-content p {
+  font-family: 'Lora', serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  color: var(--text);
+  opacity: 0.8;
+  margin: 0 0 12px 0;
+}
+
+.node-preview-content a {
+  font-family: 'Lora', serif;
+  font-size: 11pt;
+  color: var(--pink);
+  text-decoration: none;
+}
+
+.node-preview-content a:hover {
+  text-decoration: underline;
+}
+
+.node-preview-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-family: 'Lora', serif;
+  font-size: 10pt;
+  color: var(--pink);
+  cursor: pointer;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.node-preview-close:hover {
+  opacity: 1;
+}
 
 /* ============================================
    15. EPOCH TIMELINE

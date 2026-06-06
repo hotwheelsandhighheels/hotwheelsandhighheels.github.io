@@ -14,6 +14,16 @@ The Millennial Epoch across themes, categories, and concepts
 ---
 
 <div class="connections-container" id="connections-map">
+<!-- NODE PREVIEW POPUP -->
+<div class="node-preview" id="node-preview" style="display: none;">
+  <div class="node-preview-content">
+    <span class="node-preview-close" onclick="closePreview()">close</span>
+    <h3 id="preview-title"></h3>
+    <p id="preview-type"></p>
+    <p id="preview-description"></p>
+    <a id="preview-link" href="#">Visit page →</a>
+  </div>
+</div>
   <svg class="connections-svg" id="connections-svg"></svg>
 
   <!-- ============================================
@@ -415,6 +425,93 @@ The Millennial Epoch across themes, categories, and concepts
   const container = document.getElementById('connections-map');
   const svg = document.getElementById('connections-svg');
   const nodes = container.querySelectorAll('.connection-node');
+// Preview data for each clickable node
+const previewData = {
+  'node-memory': {
+    title: 'Memory',
+    type: 'Center',
+    description: 'The central concept of the archive. Everything in the Trunk orbits around how memory is created, preserved, distorted, and transmitted across generations.',
+    link: null
+  },
+  'node-archive': {
+    title: 'Archive',
+    type: 'Concept',
+    description: 'A collection of evidence from the millennial epoch. The Archive asks what survives, who decides, and what power shapes the record.',
+    link: '/Trunk/archive/'
+  },
+  'node-social-media': {
+    title: 'Social Media',
+    type: 'Concept',
+    description: 'The platforms where millennial memory was made. Social media transformed ordinary users into archivists and witnesses of their own lives.',
+    link: '/Trunk/archive/'
+  },
+  'node-people': {
+    title: 'People',
+    type: 'Concept',
+    description: 'The witnesses. Contributors, memory workers, communities — the people whose experiences form the archive.',
+    link: '/Trunk/drivers/'
+  },
+  'node-storytelling': {
+    title: 'Storytelling',
+    type: 'Concept',
+    description: 'How memory becomes narrative. Poetry, memoir, oral history, testimony — the forms memory takes when it\'s shared.',
+    link: '/Trunk/drivers/'
+  },
+  'node-technology': {
+    title: 'Technology',
+    type: 'Concept',
+    description: 'The tools that shape memory. From smartphones to AI, technology doesn\'t just record experience — it changes what we remember and how.',
+    link: '/Trunk/archive/'
+  },
+  'node-history': {
+    title: 'History',
+    type: 'Concept',
+    description: 'The timeline of the millennial epoch. Events, platforms, and cultural shifts that shaped a generation from 1982 to the present.',
+    link: '/Trunk/epoch/'
+  },
+  'node-angela': {
+    title: 'Angela Mendoza',
+    type: 'Contributor',
+    description: 'Chicana writer from Roseland. "You can\'t google my hood." Her testimony documents immigrant communities, displacement, and the meaning of home.',
+    link: '/Drivers/Angela/'
+  },
+  'node-jon': {
+    title: 'Jon Tobias',
+    type: 'Contributor',
+    description: 'Poet from El Cajon. "How do you phantom limb a street?" His work explores memory, vulnerability, and the ghosts of places that disappear.',
+    link: '/Drivers/Jon/'
+  },
+  'node-alana': {
+    title: 'Alana Rodriguez',
+    type: 'Contributor',
+    description: 'Poet from Chula Vista. "I can\'t even find a picture of them on Google to prove they were real." Her work documents girlhood, loss, and the irreplaceable.',
+    link: '/Drivers/Alana/'
+  },
+  'node-abenet': {
+    title: 'a.benét',
+    type: 'Contributor',
+    description: 'Black poet from City Heights. "Boundaries don\'t exist." Her work maps identity, community, and the streets that raised her.',
+    link: '/Drivers/abenet/'
+  },
+  'node-sam': {
+    title: 'Sam Yaziji',
+    type: 'Contributor',
+    description: 'Poet and musician from Miami. "I\'ve always been a lay archivist." His work bridges faith, philosophy, and the digital age.',
+    link: '/Drivers/Sam/'
+  },
+  'node-jack': {
+    title: 'Jack Hinzo',
+    type: 'Contributor',
+    description: 'Photographer from San Diego. "You can\'t redo a Polaroid." His work captures the melancholy underneath the sunshine.',
+    link: '/Drivers/Jack/'
+  },
+  'node-epoch': {
+    title: 'Millennial Epoch',
+    type: 'Era',
+    description: 'The period from 1982 to the present that shaped millennials and those following — defined by technological, political, and economic transformation.',
+    link: '/Trunk/epoch/'
+  }
+};
 
   const connections = [
     // Center to first ring
@@ -757,30 +854,126 @@ The Millennial Epoch across themes, categories, and concepts
     }
   });
 
-  container.addEventListener('click', function(e) {
-    if (hasMoved) return;
-    const node = e.target.closest('.connection-node');
-    if (!node) return;
-    const id = node.id;
-    const links = {
-      'node-angela': '/Drivers/Angela/',
-      'node-jon': '/Drivers/Jon/',
-      'node-alana': '/Drivers/Alana/',
-      'node-abenet': '/Drivers/abenet/',
-      'node-sam': '/Drivers/Sam/',
-      'node-jack': '/Drivers/Jack/',
-      'node-epoch': '/Trunk/epoch/',
-      'node-social-media': '/Trunk/archive/',
-      'node-archive': '/Trunk/archive/',
-      'node-people': '/Trunk/drivers/',
-      'node-storytelling': '/Trunk/drivers/',
-      'node-history': '/Trunk/epoch/',
-      'node-technology': '/Trunk/archive/'
-    };
-    if (links[id]) {
-      window.location.href = links[id];
-    }
-  });
+  // Node preview data
+const previewData = {
+  'node-memory': {
+    title: 'Memory',
+    type: 'Center',
+    description: 'The central concept of the archive. Everything in the Trunk orbits around how memory is created, preserved, distorted, and transmitted across generations.',
+    link: null
+  },
+  'node-archive': {
+    title: 'Archive',
+    type: 'Concept',
+    description: 'A collection of evidence from the millennial epoch. The Archive asks what survives, who decides, and what power shapes the record.',
+    link: '/Trunk/archive/'
+  },
+  'node-social-media': {
+    title: 'Social Media',
+    type: 'Concept',
+    description: 'The platforms where millennial memory was made. Social media transformed ordinary users into archivists and witnesses of their own lives.',
+    link: '/Trunk/archive/'
+  },
+  'node-people': {
+    title: 'People',
+    type: 'Concept',
+    description: 'The witnesses. Contributors, memory workers, communities — the people whose experiences form the archive.',
+    link: '/Trunk/drivers/'
+  },
+  'node-storytelling': {
+    title: 'Storytelling',
+    type: 'Concept',
+    description: 'How memory becomes narrative. Poetry, memoir, oral history, testimony — the forms memory takes when it\'s shared.',
+    link: '/Trunk/drivers/'
+  },
+  'node-technology': {
+    title: 'Technology',
+    type: 'Concept',
+    description: 'The tools that shape memory. From smartphones to AI, technology doesn\'t just record experience — it changes what we remember and how.',
+    link: '/Trunk/archive/'
+  },
+  'node-history': {
+    title: 'History',
+    type: 'Concept',
+    description: 'The timeline of the millennial epoch. Events, platforms, and cultural shifts that shaped a generation from 1982 to the present.',
+    link: '/Trunk/epoch/'
+  },
+  'node-angela': {
+    title: 'Angela Mendoza',
+    type: 'Contributor',
+    description: 'Chicana writer from Roseland. "You can\'t google my hood." Her testimony documents immigrant communities, displacement, and the meaning of home.',
+    link: '/Drivers/Angela/'
+  },
+  'node-jon': {
+    title: 'Jon Tobias',
+    type: 'Contributor',
+    description: 'Poet from El Cajon. "How do you phantom limb a street?" His work explores memory, vulnerability, and the ghosts of places that disappear.',
+    link: '/Drivers/Jon/'
+  },
+  'node-alana': {
+    title: 'Alana Rodriguez',
+    type: 'Contributor',
+    description: 'Poet from Chula Vista. "I can\'t even find a picture of them on Google to prove they were real." Her work documents girlhood, loss, and the irreplaceable.',
+    link: '/Drivers/Alana/'
+  },
+  'node-abenet': {
+    title: 'a.benét',
+    type: 'Contributor',
+    description: 'Black poet from City Heights. "Boundaries don\'t exist." Her work maps identity, community, and the streets that raised her.',
+    link: '/Drivers/abenet/'
+  },
+  'node-sam': {
+    title: 'Sam Yaziji',
+    type: 'Contributor',
+    description: 'Poet and musician from Miami. "I\'ve always been a lay archivist." His work bridges faith, philosophy, and the digital age.',
+    link: '/Drivers/Sam/'
+  },
+  'node-jack': {
+    title: 'Jack Hinzo',
+    type: 'Contributor',
+    description: 'Photographer from San Diego. "You can\'t redo a Polaroid." His work captures the melancholy underneath the sunshine.',
+    link: '/Drivers/Jack/'
+  },
+  'node-epoch': {
+    title: 'Millennial Epoch',
+    type: 'Era',
+    description: 'The period from 1982 to the present that shaped millennials and those following — defined by technological, political, and economic transformation.',
+    link: '/Trunk/epoch/'
+  }
+};
+
+// Show preview on click
+container.addEventListener('click', function(e) {
+  if (hasMoved) return;
+  const node = e.target.closest('.connection-node');
+  if (!node) {
+    closePreview();
+    return;
+  }
+  const id = node.id;
+  const data = previewData[id];
+  if (!data) return;
+
+  const preview = document.getElementById('node-preview');
+  document.getElementById('preview-title').textContent = data.title;
+  document.getElementById('preview-type').textContent = data.type;
+  document.getElementById('preview-description').textContent = data.description;
+
+  const link = document.getElementById('preview-link');
+  if (data.link) {
+    link.href = data.link;
+    link.style.display = 'inline';
+  } else {
+    link.style.display = 'none';
+  }
+
+  preview.style.display = 'block';
+});
+
+// Close preview
+function closePreview() {
+  document.getElementById('node-preview').style.display = 'none';
+}
 
   positionNodes();
   window.addEventListener('resize', drawLines);
