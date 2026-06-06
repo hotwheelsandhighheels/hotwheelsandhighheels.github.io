@@ -10,9 +10,9 @@ image: assets/Images/Alana_Cover.jpeg
      src="/assets/Images/Alana_Cover.jpeg" 
      alt="A recreated photo of Hot Wheels & High Heels' banner. Alana Rodriguez sits outside on a stoop. Visible in the frame are her hands holding a cell phone, her long hair, an iced latte, and her sneakers. On one shoe, the laces hold a City of Chula Vista pendant." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 8px;">
+     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
-# Alana Rodriguez
+<h1 class="driver-name">Alana Rodriguez</h1>
 
 <!-- BIO CARD -->
 <div class="bio-card">
@@ -78,19 +78,21 @@ how it beats like a heart.
 
 ***
 
+# A Conversation
+
 ### Tell me about your favorite pair of shoes: 
 
-In third grade, my elementary school took me and a group of students to a local Payless to pick out a free pair of shoes with some players from the San Diego Chargers. I had no idea why I was chosen or what it meant, but I was excited. Instead of choosing practical every day sneakers, I chose a High School Musical sneaker/flat hybrid. They were as atrocious as you could imagine. <span class="tag-intimacy">I stepped on Zac Efron and Vanessa Hudgens every day until their faces became indiscernible. I loved those shoes so much,</span> but <span class="tag-web">I can't even find a picture of them on Google to prove they were real.</span> It wasn't until I was older did I realize I got the free shoes because I was a "child in need."
+In third grade, my elementary school took me and a group of students to a local Payless to pick out a free pair of shoes with some players from the San Diego Chargers. I had no idea why I was chosen or what it meant, but I was excited. Instead of choosing practical every day sneakers, I chose a High School Musical sneaker/flat hybrid. They were as atrocious as you could imagine. <a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">I stepped on Zac Efron and Vanessa Hudgens every day until their faces became indiscernible. I loved those shoes so much,</span></a> but <a href="/Trunk/drivers/#web"><span class="tag-web">I can't even find a picture of them on Google to prove they were real.</span></a> It wasn't until I was older did I realize I got the free shoes because I was a "child in need."
 
 ### Tell me about your favorite car: 
 
 Growing up, my mom would sell her cars then buy a different used one every couple years. It's for that reason I don't have one single childhood car to be attached to. Instead, I have memories of car auctions and Craigslist shopping. 
 
-When I was 19, I bought my first car—used from OfferUp, of course—a 2014 Chevy Sonic. Short and stubby just like me. The backseat is full of Squishmallows and tote bags. It's cute, but fussy. I drop 100s on it every few months for whatever new issue pops up. It's been five years and my mom urges me to just sell it and look for another used. <span class="tag-loss">I love my car too much and I hate how everything is replaceable.</span>
+When I was 19, I bought my first car—used from OfferUp, of course—a 2014 Chevy Sonic. Short and stubby just like me. The backseat is full of Squishmallows and tote bags. It's cute, but fussy. I drop 100s on it every few months for whatever new issue pops up. It's been five years and my mom urges me to just sell it and look for another used. <a href="/Trunk/drivers/#loss"><span class="tag-loss">I love my car too much and I hate how everything is replaceable.</span></a>
 
 ### What parts of San Diego feel like they belong to you alone? Which places capture the essence of "true" San Diego for you, and which ones feel like they're just playing the part?
 
-<span class="tag-place">West Chula Vista. I swear I know each street like the back of my hand. It feels personal anytime I hear a negative comment.</span> I feel like gatekeeping everything we have. <span class="tag-identity">I can tell when someone isn't from here.</span>  <span class="tag-future">Next year, there's a billion dollar hotel opening and I'm afraid it's going to change the atmosphere of the place I've known my entire life.</span> 
+<a href="/Trunk/drivers/#place"><span class="tag-place">West Chula Vista. I swear I know each street like the back of my hand. It feels personal anytime I hear a negative comment.</span></a> I feel like gatekeeping everything we have. <a href="/Trunk/drivers/#identity"><span class="tag-identity">I can tell when someone isn't from here.</span></a> <a href="/Trunk/drivers/#future"><span class="tag-future">Next year, there's a billion dollar hotel opening and I'm afraid it's going to change the atmosphere of the place I've known my entire life.</span></a> 
 
 East Chula Vista on the other hand is so manicured and manufactured. The neighborhoods have no personality and I swear I've gotten lost because every house looks the same. It's like stepping into a different world because the tax brackets are higher and everyone has an HOA. It's weird. But I will admit, I'm jealous they get a Trader Joe's.
 
@@ -164,7 +166,7 @@ I need to be under some kind of pressure or it won't be a good piece.
 
 ### What does a writing process even look like to you? 
 
-I wish I had a process.  <span class="tag-creativity">A random voice gives me a word or a phrase and I jot it down in my notes. I come back to it a few times until I realize it's not good enough.</span> Then something like a prompt or an incident makes me want to sit down at my laptop and an entire piece just comes from nowhere.
+I wish I had a process. <a href="/Trunk/drivers/#creativity"><span class="tag-creativity">A random voice gives me a word or a phrase and I jot it down in my notes. I come back to it a few times until I realize it's not good enough.</span></a> Then something like a prompt or an incident makes me want to sit down at my laptop and an entire piece just comes from nowhere.
 
 ### How does life inform your poetry? How does your poetry inform life? Do you think writing is more about observing life or living it? Where do you draw the line?
 
@@ -182,11 +184,11 @@ I've been playing guitar for 13 years. (Though, quantity of time does not equal 
 
 ### Is there a place in San Diego that's woven into your memory or writing in ways that surprise you? What's the story behind it?
 
-<span class="tag-loss">On my way to work every morning, I pass a sidewalk memorial for a young girl who was hit by a car while walking with her friend. Sometimes there are bunches and bunches of flowers. Sometimes there is nothing.</span> I don't know why I became so aware of this. Or why, in some macabre way, I keep tabs on the flowers. In 2023, I lost a cousin in a motorcycle accident in Arizona. I wish I could pass his memorial every day.
+<a href="/Trunk/drivers/#loss"><span class="tag-loss">On my way to work every morning, I pass a sidewalk memorial for a young girl who was hit by a car while walking with her friend. Sometimes there are bunches and bunches of flowers. Sometimes there is nothing.</span></a> I don't know why I became so aware of this. Or why, in some macabre way, I keep tabs on the flowers. In 2023, I lost a cousin in a motorcycle accident in Arizona. I wish I could pass his memorial every day.
 
 ### If you could pick a single street, park, or hidden corner of San Diego to write an entire collection about, where would it be? Why?
 
-<span class="tag-place">Third Ave Chula Vista. I have memories attached to every inch of that street, north and south.</span> There is so much to see and do for locals and visitors alike. Grocery stores, bars, homes. There are characters on every corner.
+<a href="/Trunk/drivers/#place"><span class="tag-place">Third Ave Chula Vista. I have memories attached to every inch of that street, north and south.</span></a> There is so much to see and do for locals and visitors alike. Grocery stores, bars, homes. There are characters on every corner.
 
 ### What would you write in a letter to the San Diego of your childhood, and what would you write in a letter to the San Diego of the future?
 

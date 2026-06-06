@@ -10,9 +10,9 @@ image: assets/Images/A-benet_cover.jpg
      src="/assets/Images/A-benet_cover.jpg" 
      alt="A recreated photo of Hot Wheels & High Heels' banner. a.benét's hands holding a cell phone between her knees with both hands. The cell phone is in camera mode. There is a leopard-print bag on the ground next to a green mug with coffee in it. The bag is open and shows a pencil case and notebook. a.benét wears a jean jacket, gold jewelry, black pants and Nikes." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 8px;">
+     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
-# a.benét
+<h1 class="driver-name">a.benét</h1>
 
 <!-- BIO CARD -->
 <div class="bio-card">
@@ -59,6 +59,8 @@ behind. A relief.
 
 ***
 
+# A Conversation
+
 ### Tell me about your favorite pair of shoes: 
 
 Right now, my go-to shoes are my pandas, my Nike dunk retro lows. I wouldn't consider myself a sneaker head at all. Growing up, I wore knock off brand shoes from Payless. Now, as an adult, it's tough to pay more than $40 for a pair of shoes. But I wanted these, like I wanted air forces when they were the "new" basic. But what makes these more special is that they were a gift from my girlfriend who is very much a sneaker head and I feel like I'm making her proud when I wear them.
@@ -69,7 +71,7 @@ Ten years ago I would have said a Jeep Wrangler, but now that I'm closer to my 3
 
 ### What parts of San Diego feel like they belong to you alone? Which places capture the essence of "true" San Diego for you, and which ones feel like they're just playing the part?
 
-<span class="tag-place">The parts of San Diego that feel like mine alone are the streets and alleys that had something to do with molding me into who I am today.</span> It's not one city that belongs to me, but the side street in City Heights that bleeds schools into neighborhoods, the views at the summit of Emerald Hills, Skyline and 61st, always. 
+<a href="/Trunk/drivers/#place"><span class="tag-place">The parts of San Diego that feel like mine alone are the streets and alleys that had something to do with molding me into who I am today.</span></a> It's not one city that belongs to me, but the side street in City Heights that bleeds schools into neighborhoods, the views at the summit of Emerald Hills, Skyline and 61st, always. 
 
 These places capture the essence of San Diego because it is where real people are and by real I mean this isn't for tourist's eyes. These are places where the everyday monotony becomes a reason to cling to life. 
 
@@ -107,13 +109,13 @@ My third grade teacher, Mrs. Geary
 
 ### Do you know where the wild parrots came from? 
 
-No, but I'd like to think <span class="tag-web">they grew tired of borders</span> and followed the ocean to what used to be home.
+No, but I'd like to think <a href="/Trunk/drivers/#web"><span class="tag-web">they grew tired of borders</span></a> and followed the ocean to what used to be home.
 
 ### What memories do you carry with you from Horton Plaza? What does its absence mean for you?
 
-<span class="tag-loss">Not this is how I find out Horton Plaza doesn't exist anymore.</span> Next you're gonna say Seaport Village isn't a thing anymore either.
+<a href="/Trunk/drivers/#loss"><span class="tag-loss">Not this is how I find out Horton Plaza doesn't exist anymore.</span></a> Next you're gonna say Seaport Village isn't a thing anymore either.
 
-Its absence, like so many other absences in San Diego now, mean gentrification and tourism, <span class="tag-loss">meaning we're losing more than my memories,</span> or yours, but what made San Diego the best place to grow up.
+Its absence, like so many other absences in San Diego now, mean gentrification and tourism, <a href="/Trunk/drivers/#loss"><span class="tag-loss">meaning we're losing more than my memories,</span></a> or yours, but what made San Diego the best place to grow up.
 
 ### What's changed most about San Diego in the past 10 years, or even the past 20? What parts of it never change, no matter what?
 
@@ -125,13 +127,13 @@ It's hard to put into words the parts of San Diego that will never change. It's 
 
 I think all the people who have grown close to me at one point or another in my life have changed me in ways I could never expect, even if we're no longer close. I met people from all over the country, all over the world, and they've had an impact on me, whether it's the food I learn to love, the lingo I use, my beliefs and values. 
 
-I think of my Somali friends in High School, my friend from Florida whose house I spent the night over every day for a week. <span class="tag-intimacy">I think of my childhood neighbor who taught me so much about sharing and kindness, or my friend across the street and how we used to ride bikes and check the street for pennies.</span> 
+I think of my Somali friends in High School, my friend from Florida whose house I spent the night over every day for a week. <a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">I think of my childhood neighbor who taught me so much about sharing and kindness, or my friend across the street and how we used to ride bikes and check the street for pennies.</span></a> 
 
 I think what makes the change unexpected to me is that they weren't lifelong friends, though at the time I would have assumed so. They were here to teach me something or change something in me at that time in my life, and move on.
 
 ### San Diego is a blend of border life and coastal life. How do you think that mix influences your view of boundaries—personal, artistic, or cultural?
 
-To me, <span class="tag-identity">boundaries don't exist (my therapist would have a problem with this), but it's true.</span> It doesn't feel like that's there and this is here anymore than the ocean tide can meet the rocks at night. The blend is effortless to true San Diegans. I think we know this isn't our land to own and dictate. <span class="tag-identity">The deep respect I have for other's culture is reflected in my own. I'm grateful and open to sharing and bringing in, like I've been brought in, but I always know my place.</span>
+To me, <a href="/Trunk/drivers/#identity"><span class="tag-identity">boundaries don't exist (my therapist would have a problem with this), but it's true.</span></a> It doesn't feel like that's there and this is here anymore than the ocean tide can meet the rocks at night. The blend is effortless to true San Diegans. I think we know this isn't our land to own and dictate. <a href="/Trunk/drivers/#identity"><span class="tag-identity">The deep respect I have for other's culture is reflected in my own. I'm grateful and open to sharing and bringing in, like I've been brought in, but I always know my place.</span></a>
 
 ### What's a sound unique to San Diego that instantly brings you back to a particular memory or feeling?
 
@@ -157,7 +159,7 @@ I'm constantly drawn to mouth, bend, need, desire, anything related to water, be
 
 I'll always want to push deeper into topics that aren't widely discussed or are avoided out of fear, shame, disgust, ignorance. I want what's under the surface. 
 
-One boundary I'll always keep is the one between the speaker of the poem and the poet. Poems can be extremely vulnerable, but <span class="tag-intimacy">I never want a reader to feel like they know me because they read my poems.</span> You may know some of my story, but I'd like to think there's more to me than words.
+One boundary I'll always keep is the one between the speaker of the poem and the poet. Poems can be extremely vulnerable, but <a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">I never want a reader to feel like they know me because they read my poems.</span></a> You may know some of my story, but I'd like to think there's more to me than words.
 
 ### Do you have any superstitions about the writing process that you absolutely stick to? 
 
@@ -177,11 +179,11 @@ Any topic or person that I sit down to write about and can only visualize a wall
 
 ### What question do you wish people asked you about your writing or your life that they rarely do?
 
-All of these questions were so good and ones I rarely get asked. I think I'd like to be asked why I choose the words I do. <span class="tag-creativity">I'd like to think I'm pretty intentional with my word choice.</span>
+All of these questions were so good and ones I rarely get asked. I think I'd like to be asked why I choose the words I do. <a href="/Trunk/drivers/#creativity"><span class="tag-creativity">I'd like to think I'm pretty intentional with my word choice.</span></a>
 
 ### What crafts and hobbies do you love and take part in? Is there a specific craft or hobby you are proud of that many people might not know about you? 
 
-<span class="tag-creativity">I love anything that has to do with creation;</span> crocheting, scrapbooking, photography, coloring. When I was younger, I was really into DIY. I would sew and glue and make anything I wanted. I was very proud of what new things I was able to make out of the old.
+<a href="/Trunk/drivers/#creativity"><span class="tag-creativity">I love anything that has to do with creation;</span></a> crocheting, scrapbooking, photography, coloring. When I was younger, I was really into DIY. I would sew and glue and make anything I wanted. I was very proud of what new things I was able to make out of the old.
 
 ### Is there a place in San Diego that's woven into your memory or writing in ways that surprise you? What's the story behind it?
 
@@ -191,13 +193,13 @@ I remember the dry heat and lizards, the purple honeysuckle bushes. I can still 
 
 ### If you could pick a single street, park, or hidden corner of San Diego to write an entire collection about, where would it be? Why?
 
-<span class="tag-place">Skyline & 61st. That's the corner of the church I was raised in.</span> Though I'm not religious anymore, I spent a lot of time on that street, I met a lot of my lifelong friends on that street. I experienced heartbreak, love, and formed a lot of my values and beliefs. It's a complicated relationship I have with that area. It's always going to have a place in my heart, but I've also experienced a lot of trauma there.
+<a href="/Trunk/drivers/#place"><span class="tag-place">Skyline & 61st. That's the corner of the church I was raised in.</span></a> Though I'm not religious anymore, I spent a lot of time on that street, I met a lot of my lifelong friends on that street. I experienced heartbreak, love, and formed a lot of my values and beliefs. It's a complicated relationship I have with that area. It's always going to have a place in my heart, but I've also experienced a lot of trauma there.
 
 ### What would you write in a letter to the San Diego of your childhood, and what would you write in a letter to the San Diego of the future?
 
 To the letter of my childhood San Diego, I say thank you. I wouldn't be who I am if I wasn't running in these streets as a kid, if I wasn't brought up in these churches and schools. Thank you for teaching my tongue to love hot cheetos, chamoy, and tajin. Thank you for bridging two worlds into one, for teaching me that there's no border that could keep this land from its people. 
 
-<span class="tag-future">San Diego of the future, my hope is that you still hold space for community, that you don't close yourself off.</span> I want third spaces and gardens. I want more BIPOC owned businesses, small and thriving. I want children playing hopscotch at MLK park, water balloons in the summer. I hope your beaches and taco shop are still the best in California. I hope your residents are still stereotyped as chill, as calm as the Pacific.
+<a href="/Trunk/drivers/#future"><span class="tag-future">San Diego of the future, my hope is that you still hold space for community, that you don't close yourself off.</span></a> I want third spaces and gardens. I want more BIPOC owned businesses, small and thriving. I want children playing hopscotch at MLK park, water balloons in the summer. I hope your beaches and taco shop are still the best in California. I hope your residents are still stereotyped as chill, as calm as the Pacific.
 
 <!-- DRIVER NAVIGATION -->
 <div class="driver-nav">

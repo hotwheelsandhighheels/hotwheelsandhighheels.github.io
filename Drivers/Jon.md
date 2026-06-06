@@ -12,7 +12,7 @@ image: assets/Images/Jon_Cover.jpg
      onclick="openLightbox()" 
      style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
-# Jon Tobias
+<h1 class="driver-name">Jon Tobias</h1>
 
 <!-- BIO CARD -->
 <div class="bio-card">
@@ -32,17 +32,19 @@ image: assets/Images/Jon_Cover.jpg
 
 ***
 
+# A Conversation
+
 ### Tell me about your favorite pair of shoes: 
 
 The first pair of shoes I remember were a blue and grey pair of light up shoes from Stride Rite that my grandmother bought me as a birthday gift. They were velcro too, so I didn't have to worry about tying my laces, which when you're a kid is a pretty stressful experience. I remember thinking I was so cool with those shoes. When I got a little older it was a black pair of airwalks. I swore they made me run faster.
 
 ### Tell me about your favorite car: 
 
-My favorite car was gifted to me by Kimberley's father. Kimberley is my wife. It was her old car when she was in high school. They kept it and used it to run errands. It was a little 04 red Chevy Cobalt named Carol. We were living in San Antonio at the time, and my 04 Nissan Maxima died on me. That was the worst car I ever owned. A total lemon. But, Carol, she got me back to Texas from Simi Valley where Kimberley’s parents live, and then back to San Diego in 2019 just before Covid hit. <span class="tag-web">If I type my current address into google and then street image the map, I can see Carol parked on the street in front of my apartment. There's probably a poem in there somewhere. Something about memory and google maps.</span>
+My favorite car was gifted to me by Kimberley's father. Kimberley is my wife. It was her old car when she was in high school. They kept it and used it to run errands. It was a little 04 red Chevy Cobalt named Carol. We were living in San Antonio at the time, and my 04 Nissan Maxima died on me. That was the worst car I ever owned. A total lemon. But, Carol, she got me back to Texas from Simi Valley where Kimberley's parents live, and then back to San Diego in 2019 just before Covid hit. <a href="/Trunk/drivers/#web"><span class="tag-web">If I type my current address into google and then street image the map, I can see Carol parked on the street in front of my apartment. There's probably a poem in there somewhere. Something about memory and google maps.</span></a>
 
 ### What parts of San Diego feel like they belong to you alone? Which places capture the essence of "true" San Diego for you, and which ones feel like they're just playing the part?
 
-I grew up in El Cajon. Spent most of my early teen years on Estes Street right across from Renette Park.<span class="tag-intimacy"> I made my best friend, Chris, there on that street when I was 12. We're still best friends. We'll never not be.</span> <span class="tag-place">For me, El Cajon is San Diego. I have way too many good memories tied to that city for it not to be my place. I would never tell anyone to vacation there.</span> Don't even worry about visiting. It's special for reasons that no one else can experience while there. If you want to visit, stay downtown. Go check out the Zoo and Sea World, and Balboa Park, and Old Town. Go to Mission or Ocean Beach.
+I grew up in El Cajon. Spent most of my early teen years on Estes Street right across from Renette Park.<a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy"> I made my best friend, Chris, there on that street when I was 12. We're still best friends. We'll never not be.</span></a> <a href="/Trunk/drivers/#place"><span class="tag-place">For me, El Cajon is San Diego. I have way too many good memories tied to that city for it not to be my place. I would never tell anyone to vacation there.</span></a> Don't even worry about visiting. It's special for reasons that no one else can experience while there. If you want to visit, stay downtown. Go check out the Zoo and Sea World, and Balboa Park, and Old Town. Go to Mission or Ocean Beach.
 
 ### What was it like growing up in San Diego? Was there ever a time you dreamt of leaving? If you could go anywhere, where would you go—and would you eventually find yourself back here?
 
@@ -92,11 +94,11 @@ The real reason? No. I think people say its because of the climate and generatio
 
 ### What memories do you carry with you from Horton Plaza? What does its absence mean for you?
 
-It's not someplace I went too often. For me, it was the architecture. I remember it being very aesthetically pleasing. <span class="tag-loss">Its absence is a reminder of how much money and only money matters to some people. I know it was a shopping mall, but it also felt like a landmark.</span>
+It's not someplace I went too often. For me, it was the architecture. I remember it being very aesthetically pleasing. <a href="/Trunk/drivers/#loss"><span class="tag-loss">Its absence is a reminder of how much money and only money matters to some people. I know it was a shopping mall, but it also felt like a landmark.</span></a>
 
 ### What's changed most about San Diego in the past 10 years, or even the past 20? What parts of it never change, no matter what?
 
-<span class="tag-place">El Cajon is still the same from when I was a kid. Maybe a few mom and pop shops have come and gone, but that's it.</span> I think what I see now is lots of new apartment buildings springing up everywhere. Oh and the bridge between North Park and Hillcrest finally got built. It felt like they were working on that little bridge for years. I'm not even sure how useful it is.
+<a href="/Trunk/drivers/#place"><span class="tag-place">El Cajon is still the same from when I was a kid. Maybe a few mom and pop shops have come and gone, but that's it.</span></a> I think what I see now is lots of new apartment buildings springing up everywhere. Oh and the bridge between North Park and Hillcrest finally got built. It felt like they were working on that little bridge for years. I'm not even sure how useful it is.
 
 ### San Diego has such a mix of people from different places. Who is a person you've met here who changed you unexpectedly? Tell us about them.
 
@@ -116,7 +118,7 @@ Right now would be when I do the same morning walks with my dog in my neighborho
 
 ### Tell me about that moment of transcendence that sealed your destiny as a writer:
 
-I was given my first book of poetry as a kid. It was a copy of Dragons Dragons by Eric Carle. It's a collection of poems about mythological characters across multiple cultures. I couldn't read yet, but people wouldn't know it because I pretty much had that book memorized. It's where I found my love for poetry. For the longest time because of that book <span class="tag-creativity">I thought poetry was what you went to when you wanted to talk about what you thought god was.</span> It wasn't until I found Russell Simmons Def Poetry Jam that I knew I was going to be a poet. It was the first time poetry felt like it was about my own lived experiences. Something clicked while watching it, and I knew it was what I was going to do for the rest of my life. I'll never not be a poet. I'll die if I try to be anything else.
+I was given my first book of poetry as a kid. It was a copy of Dragons Dragons by Eric Carle. It's a collection of poems about mythological characters across multiple cultures. I couldn't read yet, but people wouldn't know it because I pretty much had that book memorized. It's where I found my love for poetry. For the longest time because of that book <a href="/Trunk/drivers/#creativity"><span class="tag-creativity">I thought poetry was what you went to when you wanted to talk about what you thought god was.</span></a> It wasn't until I found Russell Simmons Def Poetry Jam that I knew I was going to be a poet. It was the first time poetry felt like it was about my own lived experiences. Something clicked while watching it, and I knew it was what I was going to do for the rest of my life. I'll never not be a poet. I'll die if I try to be anything else.
 
 ### Who are your inspirations?Name a few that are constant and a few that are new. 
 
@@ -132,11 +134,11 @@ I love pretty much all words. I don't know if I have any I hold close to my ches
 
 ### What kinds of themes do you subconsciously return to? 
 
-Tenderness. Self-reflection. I really like to uplift/poetize other people. Especially strangers. I especially like to use poetry to practice vulnerability. I find that no matter how deep I dig I am never alone with what I find. <span class="tag-intimacy">If you're vulnerable and practice it with care, there is always going to be someone who can relate. It gives people a chance to be seen.</span> You make someone feel not-alone and you'll realize there are few feelings that are better than that.
+Tenderness. Self-reflection. I really like to uplift/poetize other people. Especially strangers. I especially like to use poetry to practice vulnerability. I find that no matter how deep I dig I am never alone with what I find. <a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">If you're vulnerable and practice it with care, there is always going to be someone who can relate. It gives people a chance to be seen.</span></a> You make someone feel not-alone and you'll realize there are few feelings that are better than that.
 
 ### What's a boundary you feel you'll always need to push? What's one you're happy to keep?
 
-Writers should always push boundaries. I think <span class="tag-identity">poetry should always feel like punk rock.</span> Please, if you are any type of writer, always take risks. Always.
+Writers should always push boundaries. I think <a href="/Trunk/drivers/#identity"><span class="tag-identity">poetry should always feel like punk rock.</span></a> Please, if you are any type of writer, always take risks. Always.
 
 ### Do you have any superstitions about the writing process that you absolutely stick to? 
 
@@ -156,7 +158,7 @@ I'm coming back to this question, and I also have to say that it depends on what
 
 I don't think I know how not to be a poet. I'm pretty sure every space I enter I do it language first. Language, especially metaphor, is embodied. We need it to express ourselves and we hold on to it in ways that really defines us. Poetry informs my life because I do everything as Jon the poet. If I am trying to be something else, I am Jon the poet and this other thing. Writing is about observing and living life at the same time. Learn how to be present. Learn how to recognize a moment becoming a poem. That moment is water for your well. You have to do both and you have to do it at the same time. My advice is start by learning how to be present. Just exist as you are wherever you are. Be with the people you are with. Be in the place you are occupying. Then start journaling about what you noticed. What you remember that felt like a poem or a story. Eventually you'll start doing both at the same time. You'll be in the moment and have the poem. The most important thing though is to live. Live your life. 
 
- <span class="tag-creativity">Some of the best advice I read about writing came from William Saroyan who said, "Try to learn to breathe deeply, really to taste food when you eat, and when you sleep really to sleep.</span> Try as much as possible to be wholly alive with all your might, and when you laugh, laugh like hell. And when you get angry, get good and angry. Try to be alive."
+<a href="/Trunk/drivers/#creativity"><span class="tag-creativity">Some of the best advice I read about writing came from William Saroyan who said, "Try to learn to breathe deeply, really to taste food when you eat, and when you sleep really to sleep.</span></a> Try as much as possible to be wholly alive with all your might, and when you laugh, laugh like hell. And when you get angry, get good and angry. Try to be alive."
 
 ### What question do you wish people asked you about your writing or your life that they rarely do?
 
@@ -164,7 +166,7 @@ I don't know if I have any questions I wish I was asked. I like talking about cr
 
 ### What crafts and hobbies do you love and take part in? Is there a specific craft or hobby you are proud of that many people might not know about you? 
 
-I really like wood burning. I'll make coasters by tracing images from polaroids and then use transfer paper to copy the images to wooden disks. Then I'll trace the image with my wood burner. I like working with my hands. Any opportunity to create something I'll take. Kimberley is often coming up with new projects for us to do at home. Our apartment is full of art we've made.  <span class="tag-future">I'm trying to learn Python at the moment so I can start writing code poetry.</span>
+I really like wood burning. I'll make coasters by tracing images from polaroids and then use transfer paper to copy the images to wooden disks. Then I'll trace the image with my wood burner. I like working with my hands. Any opportunity to create something I'll take. Kimberley is often coming up with new projects for us to do at home. Our apartment is full of art we've made. <a href="/Trunk/drivers/#future"><span class="tag-future">I'm trying to learn Python at the moment so I can start writing code poetry.</span></a>
 
 ### Is there a place in San Diego that's woven into your memory or writing in ways that surprise you? What's the story behind it?
 
@@ -176,7 +178,7 @@ Probably the street/neighborhood I grew up in. Where I spent most of my unadult 
 
 ### What would you write in a letter to the San Diego of your childhood, and what would you write in a letter to the San Diego of the future?
 
-Dear baby San Diego. Do you remember the Drive-in? Do you remember Marshal Scotty's? The Wednesday afternoon muscle cars and lowriders? Do you remember when I was fascinated with ghosts and my mother would call me at home from places that were crowded and tell me she was alone? From the middle of the Santa Fe Station, she'd say, "Do you think this place is haunted? Can you hear all the people? It's weird because I am alone. It's just me and all the dead travelers waiting for their train." San Diego. How much of you is a ghost. <span class="tag-loss">How do you phantom limb a street? Do you still hold the memory of my first kiss in the dirt lot behind my old home that is now apartment housing? Is the ghost of my first kiss floating in someone's bedroom?</span> What part of you is grave? What part of you is phoenix? What patch of you do you want me to press my lips to before I pray?
+Dear baby San Diego. Do you remember the Drive-in? Do you remember Marshal Scotty's? The Wednesday afternoon muscle cars and lowriders? Do you remember when I was fascinated with ghosts and my mother would call me at home from places that were crowded and tell me she was alone? From the middle of the Santa Fe Station, she'd say, "Do you think this place is haunted? Can you hear all the people? It's weird because I am alone. It's just me and all the dead travelers waiting for their train." San Diego. How much of you is a ghost. <a href="/Trunk/drivers/#loss"><span class="tag-loss">How do you phantom limb a street? Do you still hold the memory of my first kiss in the dirt lot behind my old home that is now apartment housing? Is the ghost of my first kiss floating in someone's bedroom?</span></a> What part of you is grave? What part of you is phoenix? What patch of you do you want me to press my lips to before I pray?
 
 <!-- DRIVER NAVIGATION -->
 <div class="driver-nav">

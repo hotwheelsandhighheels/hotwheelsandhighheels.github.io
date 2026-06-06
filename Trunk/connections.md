@@ -6,11 +6,10 @@ permalink: /Trunk/connections/
 
 # Connections
 
-## How it all fits together.
+The Millennial Epoch across themes, categories, and concepts
 
-A visual map of themes, events, contributors, and artifacts. Drag nodes to explore. Click to visit.
+ *Drag to explore. Click to visit.*
 
-*This map is growing as the archive grows.*
 
 ---
 
@@ -674,4 +673,10 @@ A visual map of themes, events, contributors, and artifacts. Drag nodes to explo
   window.addEventListener('resize', drawLines);
 })();
 </script>
+</div>
+
+<!-- TRUNK NAVIGATION -->
+<div class="driver-nav">
+  <a href="/Trunk/notes/">← Dig thru the glove box</a>
+  <a href="/Trunk/">Back to Trunk →</a>
 </div>

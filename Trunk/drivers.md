@@ -6,9 +6,7 @@ permalink: /Trunk/drivers/
 
 # The Drivers
 
-Color-coded voices from my interviews.
-
-These excerpts are signals, not conclusions. Themes overlap. Categories are porous. Memory rarely fits neatly into a single box. 
+Seven themes, six interviews, one pattern: millennial memory is always about place, loss, the web, intimacy, identity, creativity, and the future — often all at once.
 
 <hr>
 
@@ -23,6 +21,8 @@ These excerpts are signals, not conclusions. Themes overlap. Categories are poro
 </div>
 
 ## Place
+
+*Places remembered, lost, transformed, or carried forward through memory.*
 
 <!--
 Contributor: Angela Mendoza
@@ -56,9 +56,26 @@ Location: San Diego trolley stations
 <span class="timeline-tag place">Place</span>
 <span class="timeline-tag web">Web</span>
 
+<!--
+Contributor: Alana Rodriguez
+Themes: Place
+Location: Chula Vista, San Diego
+-->
+<blockquote class="tag-quote tag-place"
+  id="quote-alana-003"
+  data-theme="place"
+  data-contributor="alana-rodriguez"
+  data-location="chula-vista">
+  "Third Ave Chula Vista. I have memories attached to every inch of that street, north and south."
+</blockquote>
+<p class="quote-attribution"><a href="/Drivers/Alana/">Alana Rodriguez</a></p>
+<span class="timeline-tag place">Place</span>
+
 ---
 
 ## Loss
+
+*Things that disappeared: buildings, people, routines, neighborhoods, versions of self.*
 
 <!--
 Contributor: Jon Tobias
@@ -92,9 +109,26 @@ Location: Roseland, Santa Rosa
 <span class="timeline-tag loss">Loss</span>
 <span class="timeline-tag intimacy">Intimacy</span>
 
+<!--
+Contributor: a.benét
+Themes: Loss
+Location: City Heights, San Diego
+-->
+<blockquote class="tag-quote tag-loss"
+  id="quote-abenet-003"
+  data-theme="loss"
+  data-contributor="a-benet"
+  data-location="city-heights">
+  "Not this is how I find out Horton Plaza doesn't exist anymore. Next you're gonna say Seaport Village isn't a thing anymore either."
+</blockquote>
+<p class="quote-attribution"><a href="/Drivers/abenet/">a.benét</a></p>
+<span class="timeline-tag loss">Loss</span>
+
 ---
 
 ## Web
+
+*Experiences mediated, preserved, distorted, or erased by digital life.*
 
 <!--
 Contributor: Jon Tobias
@@ -129,9 +163,26 @@ Location: Chula Vista, San Diego
 <span class="timeline-tag web">Web</span>
 <span class="timeline-tag loss">Loss</span>
 
+<!--
+Contributor: Sam Yaziji
+Themes: Web
+Location: Miami, FL
+-->
+<blockquote class="tag-quote tag-web"
+  id="quote-sam-003"
+  data-theme="web"
+  data-contributor="sam-yaziji"
+  data-location="miami">
+  "I've always been a lay archivist and enjoyer of cultural artifacts."
+</blockquote>
+<p class="quote-attribution"><a href="/Drivers/Sam/">Sam Yaziji</a></p>
+<span class="timeline-tag web">Web</span>
+
 ---
 
 ## Intimacy
+
+*Friendship, family, vulnerability, and the private spaces where identity forms.*
 
 <!--
 Contributor: Alana Rodriguez
@@ -143,7 +194,7 @@ Location: Chula Vista, San Diego
   data-theme="intimacy identity"
   data-contributor="alana-rodriguez"
   data-location="chula-vista">
-  "I stepped on Zac Efron and Vanessa Hudgens everyday until their faces became indiscernible. I loved those shoes so much."
+  "I stepped on Zac Efron and Vanessa Hudgens every day until their faces became indiscernible. I loved those shoes so much."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Alana/">Alana Rodriguez</a></p>
 <span class="timeline-tag intimacy">Intimacy</span>
@@ -165,9 +216,26 @@ Location: City Heights, San Diego
 <span class="timeline-tag intimacy">Intimacy</span>
 <span class="timeline-tag identity">Identity</span>
 
+<!--
+Contributor: Jon Tobias
+Themes: Intimacy
+Location: El Cajon, San Diego
+-->
+<blockquote class="tag-quote tag-intimacy"
+  id="quote-jon-004"
+  data-theme="intimacy"
+  data-contributor="jon-tobias"
+  data-location="el-cajon">
+  "If you're vulnerable and practice it with care, there is always going to be someone who can relate. It gives people a chance to be seen."
+</blockquote>
+<p class="quote-attribution"><a href="/Drivers/Jon/">Jon Tobias</a></p>
+<span class="timeline-tag intimacy">Intimacy</span>
+
 ---
 
 ## Identity
+
+*Race, gender, culture, faith, and the ongoing work of becoming oneself.*
 
 <!--
 Contributor: Sam Yaziji
@@ -201,9 +269,26 @@ Location: Roseland, Santa Rosa
 <span class="timeline-tag identity">Identity</span>
 <span class="timeline-tag place">Place</span>
 
+<!--
+Contributor: a.benét
+Themes: Identity
+Location: City Heights, San Diego
+-->
+<blockquote class="tag-quote tag-identity"
+  id="quote-abenet-004"
+  data-theme="identity"
+  data-contributor="a-benet"
+  data-location="city-heights">
+  "Boundaries don't exist (my therapist would have a problem with this), but it's true."
+</blockquote>
+<p class="quote-attribution"><a href="/Drivers/abenet/">a.benét</a></p>
+<span class="timeline-tag identity">Identity</span>
+
 ---
 
 ## Creativity
+
+*Art, poetry, music, and the drive to make meaning from experience.*
 
 <!--
 Contributor: Jon Tobias
@@ -237,9 +322,26 @@ Location: Miami, FL
 <span class="timeline-tag creativity">Creativity</span>
 <span class="timeline-tag intimacy">Intimacy</span>
 
+<!--
+Contributor: a.benét
+Themes: Creativity
+Location: City Heights, San Diego
+-->
+<blockquote class="tag-quote tag-creativity"
+  id="quote-abenet-005"
+  data-theme="creativity"
+  data-contributor="a-benet"
+  data-location="city-heights">
+  "I love anything that has to do with creation — crocheting, scrapbooking, photography, coloring. I was very proud of what new things I was able to make out of the old."
+</blockquote>
+<p class="quote-attribution"><a href="/Drivers/abenet/">a.benét</a></p>
+<span class="timeline-tag creativity">Creativity</span>
+
 ---
 
 ## Future
+
+*What comes next: transition, technology, hope, and the unknown.*
 
 <!--
 Contributor: Angela Mendoza
@@ -272,3 +374,24 @@ Location: City Heights, San Diego
 <p class="quote-attribution"><a href="/Drivers/abenet/">a.benét</a></p>
 <span class="timeline-tag future">Future</span>
 <span class="timeline-tag place">Place</span>
+
+<!--
+Contributor: Jack Hinzo
+Themes: Future
+Location: San Diego
+-->
+<blockquote class="tag-quote tag-future"
+  id="quote-jack-002"
+  data-theme="future"
+  data-contributor="jack-hinzo"
+  data-location="san-diego">
+  "The older I get the more I want to crawl out of my city, into other parts of the world. I'm not really sure where I'm gonna end up."
+</blockquote>
+<p class="quote-attribution"><a href="/Drivers/Jack/">Jack Hinzo</a></p>
+<span class="timeline-tag future">Future</span>
+
+<!-- TRUNK NAVIGATION -->
+<div class="driver-nav">
+  <a href="/Trunk/archive/">← View Artifacts</a>
+  <a href="/Trunk/notes/">Dig thru the glove box →</a>
+</div>

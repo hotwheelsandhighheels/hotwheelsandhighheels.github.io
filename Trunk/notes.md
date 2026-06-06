@@ -318,7 +318,7 @@ permalink: /Trunk/notes/
     </ul>
   </div>
 </div>
-
+<p id="bibliography"><a href="https://www.zotero.org/groups/6565887/millennial_epoch">Bibliography</a></p>
 <script>
 function toggleAccordion(header) {
   const content = header.nextElementSibling;
@@ -328,3 +328,9 @@ function toggleAccordion(header) {
   header.setAttribute('aria-expanded', expanded);
 }
 </script>
+
+<!-- TRUNK NAVIGATION -->
+<div class="driver-nav">
+  <a href="/Trunk/drivers/">← Flag down a driver</a>
+  <a href="/Trunk/connections/">Check the road map →</a>
+</div>

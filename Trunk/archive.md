@@ -263,3 +263,9 @@ function changeSlide(direction) {
 ---
 
 *More artifacts are being collected. If you have screenshots, posts, or digital materials from the millennial epoch — especially those accompanied by context — you're invited to contribute.*
+
+<!-- TRUNK NAVIGATION -->
+<div class="driver-nav">
+  <a href="/Trunk/epoch/">← Explore Timeline</a>
+  <a href="/Trunk/drivers/">Flag down a Driver →</a>
+</div>

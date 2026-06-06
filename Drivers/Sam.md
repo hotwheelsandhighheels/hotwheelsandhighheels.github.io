@@ -10,9 +10,9 @@ image: assets/Images/Sam_Cover.jpg
      src="/assets/Images/Sam_Cover.jpg" 
      alt="A blurry photo taken from a vehicle. The outline of the vehicle's window is visible in the frame. The view captures a coral sunset above a small shopping center. The location markers are blurred, the only text legible is DELI." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 8px;">
+     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
-# Sam Yaziji
+<h1 class="driver-name">Sam Yaziji</h1>
 
 <!-- BIO CARD -->
 <div class="bio-card">
@@ -29,6 +29,8 @@ image: assets/Images/Sam_Cover.jpg
 
 ---
 
+# A Conversation
+
 ### Tell me about your favorite pair of shoes: 
 
 I had a pair of orange shoes I played tennis in growing up. I couldn't even tell you the brand at this point, it's been so long, but I loved them and they lasted for ages. I won some good matches with those.
@@ -39,7 +41,7 @@ My parents had a 2001 Honda Odyssey when I was growing up. It's probably my favo
 
 ### Are there places in Miami that you feel capture your soul, places that feel like "you"? How do they show up in your poetry, if at all?
 
-<span class="tag-place">Sunset Place Mall, which I hear is going to get torn down or drastically remodeled soon. I've written some poems about that mall and I'll miss it when it's gone—it's a Vaporwave mecca.</span> Also, the neighborhood in Ft. Lauderdale where my grandparents' old house was. I wrote a poem about that place but I'll probably never share it with anyone. Also, the Old Florida Book Shop in Davie, which I discovered by accident one day. Coconut Grove also has a special place in my heart.
+<a href="/Trunk/drivers/#place"><span class="tag-place">Sunset Place Mall, which I hear is going to get torn down or drastically remodeled soon. I've written some poems about that mall and I'll miss it when it's gone—it's a Vaporwave mecca.</span></a> Also, the neighborhood in Ft. Lauderdale where my grandparents' old house was. I wrote a poem about that place but I'll probably never share it with anyone. Also, the Old Florida Book Shop in Davie, which I discovered by accident one day. Coconut Grove also has a special place in my heart.
 
 ### Tell me about your parents. What are the stories you hold about their connection to this city? Were they born here, or did life bring them here? What was the city like to them?
 
@@ -55,7 +57,7 @@ Mr. Shanoskie, Mrs. Arboleda, Mr. Cox
 
 ### Miami is known for its multicultural blend. How do you see your own identity within that mix, and does your poetry reflect the cultural layering that Miami embodies? How does it influence your view of boundaries—personal, artistic, or cultural? 
 
-I was blessed to grow up around my maternal grandparents, who came from Cuba in the 60s and lived most of their lives in South Florida. They never learned English, and their Cuban culture was overwhelming in the best possible way, though I struggled with it in certain moments. I miss them. There's a certain lack of boundaries in Cuban culture, a real Nietzschean spirit. In its best manifestation, people are radically authentic, brutally honest. Materialism comes with that, too, and in its extreme, so does a kind of repulsive, self-loving disposition. I've had to learn to temper myself because of this, and have tried to learn how to be quiet and a little less selfishly assertive, though I still often struggle with that. The aspects of Syrian culture I grew up with—a sense of sophistication and old-world mystique, as well as an awareness of international geopolitics—also balance out the more rugged Cuban elements. <span class="tag-identity">The superficiality people commonly associate with Miami comes from the culture of the more recent transplants, I think.</span>
+I was blessed to grow up around my maternal grandparents, who came from Cuba in the 60s and lived most of their lives in South Florida. They never learned English, and their Cuban culture was overwhelming in the best possible way, though I struggled with it in certain moments. I miss them. There's a certain lack of boundaries in Cuban culture, a real Nietzschean spirit. In its best manifestation, people are radically authentic, brutally honest. Materialism comes with that, too, and in its extreme, so does a kind of repulsive, self-loving disposition. I've had to learn to temper myself because of this, and have tried to learn how to be quiet and a little less selfishly assertive, though I still often struggle with that. The aspects of Syrian culture I grew up with—a sense of sophistication and old-world mystique, as well as an awareness of international geopolitics—also balance out the more rugged Cuban elements. <a href="/Trunk/drivers/#identity"><span class="tag-identity">The superficiality people commonly associate with Miami comes from the culture of the more recent transplants, I think.</span></a>
 
 ### Miami has changed rapidly over recent years. Do you feel a connection to its history, or does it feel like a city in constant transformation?
 
@@ -63,11 +65,11 @@ It's been transforming in certain exciting ways, and also in some really annoyin
 
 ### What's a sound unique to Miami that instantly brings you back to a particular memory or feeling?
 
-<span class="tag-loss">The sound of the train pulling into Dadeland North station. It brings me right back to the angst and ecstasy of life in high school,</span> since I took the train to and from school every day. While I was in (Zoom) college during COVID, my dad moved to an apartment right above that station, and those memories just repeated over and over again in my brain. That train ran late into the night and kept me awake, so I also remember a kind of sleepless haze when I hear it now.
+<a href="/Trunk/drivers/#loss"><span class="tag-loss">The sound of the train pulling into Dadeland North station. It brings me right back to the angst and ecstasy of life in high school,</span></a> since I took the train to and from school every day. While I was in (Zoom) college during COVID, my dad moved to an apartment right above that station, and those memories just repeated over and over again in my brain. That train ran late into the night and kept me awake, so I also remember a kind of sleepless haze when I hear it now.
 
 ### Tell me about that moment of transcendence that sealed your destiny as a writer:
 
-I have those moments of transcendence all the time. Listening to Michael Jackson when I was eight on my parents' computer. Reading St. Augustine's Confessions for the first time when I was losing my mind five years ago. Reading Jack Gilbert for the first time in college. Coming across scans of the magnificent Book of Kells for the first time. Seeing some Ugarit-inscribed clay tablets in Syria when I was a kid. Listening to Fairuz as a kid—I always loved old music and wanted to emulate that soulful, poetic performativity when I was first introduced to her music. <span class="tag-web">I've always been a lay archivist and enjoyer of cultural artifacts,</span> so even the discovery of an inspirational object, text, or artist can be transcendent for me.
+I have those moments of transcendence all the time. Listening to Michael Jackson when I was eight on my parents' computer. Reading St. Augustine's Confessions for the first time when I was losing my mind five years ago. Reading Jack Gilbert for the first time in college. Coming across scans of the magnificent Book of Kells for the first time. Seeing some Ugarit-inscribed clay tablets in Syria when I was a kid. Listening to Fairuz as a kid—I always loved old music and wanted to emulate that soulful, poetic performativity when I was first introduced to her music. <a href="/Trunk/drivers/#web"><span class="tag-web">I've always been a lay archivist and enjoyer of cultural artifacts,</span></a> so even the discovery of an inspirational object, text, or artist can be transcendent for me.
 
 ### Who are your inspirations? Name a few that are constant and a few that are new. 
 
@@ -103,7 +105,7 @@ I have to be careful not to get wrapped up too much in an aesthetic persona or t
 
 ### What question do you wish people asked you about your writing or your life that they rarely do?
 
-Generally, I prefer not to talk about my writing, so I'm happy when people don't ask about it. But my poems generally demand a little bit of effort from the reader, and I'm always happy to see when they research something after reading a poem of mine. I like allusions and conceits because writing about my boring life frankly doesn't make for good reading. <span class="tag-future">Also, I'm 23, so not much of note has happened yet.</span>
+Generally, I prefer not to talk about my writing, so I'm happy when people don't ask about it. But my poems generally demand a little bit of effort from the reader, and I'm always happy to see when they research something after reading a poem of mine. I like allusions and conceits because writing about my boring life frankly doesn't make for good reading. <a href="/Trunk/drivers/#future"><span class="tag-future">Also, I'm 23, so not much of note has happened yet.</span></a>
 
 ### What crafts and hobbies do you love and take part in? Is there a specific craft or hobby you are proud of that many people might not know about you? 
 
@@ -119,19 +121,19 @@ Regarding the first question, I actually don't. For me, writing is technical—i
 
 ### How do you feel your generation's perspective on faith differs from older generations? Do you feel a sense of responsibility to represent faith in a way that feels relevant to your peers?
 
-<span class="tag-future">I've noticed that a lot of people my age, regardless of their faith background, have been returning to some kind of religious observance. I actually think our recent ancestors (Boomers through Gen-X) were more secular than we are, in a sense.</span> I do feel a responsibility insofar as I am called to live life as a Christian, and that means to love everyone (especially my enemies), take up my cross, and live in quiet obedience to Christ. I don't feel the need to evangelize to my peers. St. Seraphim of Sarov says "acquire the Spirit of Peace and a thousand souls around you will be saved." Orthodoxy is ascetic in this way—I should represent my faith outwardly and silently in my actions, and I shouldn't nag people or proselytize. But I fall short of this every day.
+<a href="/Trunk/drivers/#future"><span class="tag-future">I've noticed that a lot of people my age, regardless of their faith background, have been returning to some kind of religious observance. I actually think our recent ancestors (Boomers through Gen-X) were more secular than we are, in a sense.</span></a> I do feel a responsibility insofar as I am called to live life as a Christian, and that means to love everyone (especially my enemies), take up my cross, and live in quiet obedience to Christ. I don't feel the need to evangelize to my peers. St. Seraphim of Sarov says "acquire the Spirit of Peace and a thousand souls around you will be saved." Orthodoxy is ascetic in this way—I should represent my faith outwardly and silently in my actions, and I shouldn't nag people or proselytize. But I fall short of this every day.
 
 ### Faith and doubt often coexist. Do you find yourself exploring this balance in your work? How do you handle moments of doubt, both in faith and in your writing?
 
-I doubt myself all the time as a writer. <span class="tag-intimacy">I am a continent of doubt.</span> When I doubt my writing, I set it aside for a while (sometimes months) and come back to it with a clearer head. This is probably why I only write 10-15 passable poems in a year. But when I have doubts in my faith, I respond by praying and then seeking guidance from someone who is more spiritually adept than I—my priest or an elder in the Church.
+I doubt myself all the time as a writer. <a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">I am a continent of doubt.</span></a> When I doubt my writing, I set it aside for a while (sometimes months) and come back to it with a clearer head. This is probably why I only write 10-15 passable poems in a year. But when I have doubts in my faith, I respond by praying and then seeking guidance from someone who is more spiritually adept than I—my priest or an elder in the Church.
 
 ### Do you have a "sacred space" for writing, whether physical or mental? How does creating this space help you connect to your faith and creativity?
 
-To me, writing is the crafting of that space. <span class="tag-creativity">I begin a poem in a moment of anger or sorrow, and by writing the poem, I try to create something beautiful out of my abjection.</span> I often emerge in a space of peace and contentment. I only ever want my writing to be a conduit for peace, but I fall short of this mission all the time.
+To me, writing is the crafting of that space. <a href="/Trunk/drivers/#creativity"><span class="tag-creativity">I begin a poem in a moment of anger or sorrow, and by writing the poem, I try to create something beautiful out of my abjection.</span></a> I often emerge in a space of peace and contentment. I only ever want my writing to be a conduit for peace, but I fall short of this mission all the time.
 
 ### Miami has so many spiritual energies and communities. How does your connection to Eastern Orthodoxy feel in that environment? Do you feel like it stands out, or does it blend in?
 
-I used to feel a sense of alienation, since Miami can often feel like a place which is so antithetical to the Orthodox "phronema." It's profane in many ways, and a real locus for spiritual confusion—but this is probably the case with every major city. After all, <span class="tag-web">in global postmodernity, every city is a mirror-image of every other city.</span> I'd hope that my faith doesn't stand out, unless it's when I do some good in the world. Nowadays, I try to see the image of God in everyone, and I thank God for everyone He has put into my life. Miami is beautiful—people are approachable and kind and real, in spite of the cultural profanity which exists in the city.
+I used to feel a sense of alienation, since Miami can often feel like a place which is so antithetical to the Orthodox "phronema." It's profane in many ways, and a real locus for spiritual confusion—but this is probably the case with every major city. After all, <a href="/Trunk/drivers/#web"><span class="tag-web">in global postmodernity, every city is a mirror-image of every other city.</span></a> I'd hope that my faith doesn't stand out, unless it's when I do some good in the world. Nowadays, I try to see the image of God in everyone, and I thank God for everyone He has put into my life. Miami is beautiful—people are approachable and kind and real, in spite of the cultural profanity which exists in the city.
 
 ### Being a Christian in today's world can be complex. What challenges or blessings do you experience living as a devoted Christian in a modern, fast-paced world?
 
@@ -139,12 +141,12 @@ I agree, but I think that the challenges and blessings are the same as they ever
 
 ### Do you see your poetry as a way to share your faith with others, or is it more of a personal exploration? How do you feel when readers connect with your spiritual themes?
 
-I see it more as a personal exploration, but I'm really delighted when readers connect with my (occasionally-overt) spiritual themes. St. Porphyrios says, <span class="tag-identity">"whoever wants to become a Christian must first become a poet."</span>
+I see it more as a personal exploration, but I'm really delighted when readers connect with my (occasionally-overt) spiritual themes. St. Porphyrios says, <a href="/Trunk/drivers/#identity"><span class="tag-identity">"whoever wants to become a Christian must first become a poet."</span></a>
 
 <!-- DRIVER NAVIGATION -->
 <div class="driver-nav">
   <a href="/Drivers/abenet/">← Previous Driver</a>
-  <a href="/revving-up">Next Driver →</a>
+  <a href="/revving-up/">Next Driver →</a>
 </div>
 
 <!-- LIGHTBOX -->
