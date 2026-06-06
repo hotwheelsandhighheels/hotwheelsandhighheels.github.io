@@ -150,7 +150,7 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 24pt;
+  font-size: 32pt;
   color: var(--pink);
   margin: 0 0 8px 0;
 }
@@ -180,7 +180,7 @@ h3 {
 /* --- PARAGRAPH --- */
 p {
   font-family: 'Lora', serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14pt;
   line-height: 1.75;
   margin-bottom: 12px;
@@ -343,7 +343,7 @@ nav ul li a:hover {
    Hero image on home page only. */
 .banner {
   width: 100%;
-  box-shadow: 0 4px 24px rgba(255, 0, 163, 0.2), 0 0 48px rgba(163, 0, 255, 0.1);
+  box-shadow: 0 4px 24px rgba(255, 0, 163, 0.4), 0 0 48px rgba(163, 0, 255, 0.3);
   display: block;
 }
 
@@ -396,10 +396,6 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-.back-to-top:hover {
-  opacity: 1;
-}
-
 body .theme-toggle {
   position: fixed;
   bottom: 24px;
@@ -418,10 +414,6 @@ body .theme-toggle {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-body .theme-toggle:hover {
-  opacity: 1;
 }
 
 /* --- CUSTOM CURSOR ---
@@ -1432,9 +1424,10 @@ audio:hover {
 
 .timeline-era h3 {
   display: inline-block;
+  background: var(--bg);
   font-family: 'Lora', serif;
-  font-weight: 500;
-  font-size: 10pt;
+  font-weight: 600;
+  font-size: 14pt;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--purple);
@@ -1470,8 +1463,8 @@ audio:hover {
   background: var(--bg);
   padding: 0 16px;
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 600;
-  font-size: 26pt;
+  font-weight: 500;
+  font-size: 20pt;
   color: var(--purple);
   margin: 0;
   position: relative;
