@@ -139,6 +139,16 @@ The Millennial Epoch across themes, categories, and concepts
   <h3>The Trunk</h3>
   <span class="node-type">Archive</span>
 </div>
+ <div class="connection-node theme-place" id="node-provenance" data-x="280" data-y="200">
+    <h3>Provenance</h3>
+    <span class="node-type">Concept</span>
+  </div>
+
+  <div class="connection-node theme-future" id="node-context" data-x="200" data-y="260">
+    <h3>Context</h3>
+    <span class="node-type">Concept</span>
+  </div>
+
 
   <!-- ============================================
        SOCIAL MEDIA CLUSTER
@@ -187,6 +197,15 @@ The Millennial Epoch across themes, categories, and concepts
   <h3>The Feed</h3>
   <span class="node-type">Concept</span>
 </div>
+  <div class="connection-node theme-loss" id="node-platform-death" data-x="300" data-y="320">
+    <h3>Platform Death</h3>
+    <span class="node-type">Concept</span>
+  </div>
+
+  <div class="connection-node theme-web" id="node-aesthetics" data-x="300" data-y="380">
+    <h3>Internet Aesthetics</h3>
+    <span class="node-type">Concept</span>
+  </div>
 
   <!-- ============================================
        PEOPLE / WITNESSES CLUSTER
@@ -223,6 +242,10 @@ The Millennial Epoch across themes, categories, and concepts
     <h3>Communities</h3>
     <span class="node-type">Concept</span>
   </div>
+    <div class="connection-node theme-identity" id="node-algorithmic-self" data-x="580" data-y="240">
+    <h3>Algorithmic Self</h3>
+    <span class="node-type">Concept</span>
+  </div>
 
   <!-- ============================================
        STORYTELLING CLUSTER
@@ -251,6 +274,10 @@ The Millennial Epoch across themes, categories, and concepts
     <h3>Witnessing</h3>
     <span class="node-type">Concept</span>
   </div>
+   <div class="connection-node theme-creativity" id="node-fandom" data-x="80" data-y="460">
+    <h3>Fandom</h3>
+    <span class="node-type">Concept</span>
+  </div>
 
   <!-- ============================================
        TECHNOLOGY CLUSTER
@@ -273,6 +300,20 @@ The Millennial Epoch across themes, categories, and concepts
   </div>
   <div class="connection-node theme-future" id="node-digital-sobriety" data-x="480" data-y="470">
     <h3>Digital Sobriety</h3>
+    <span class="node-type">Concept</span>
+  </div>
+    <div class="connection-node theme-web" id="node-smartphones" data-x="480" data-y="490">
+    <h3>Smartphones</h3>
+    <span class="node-type">Concept</span>
+  </div>
+
+  <div class="connection-node theme-future" id="node-cloud" data-x="560" data-y="470">
+    <h3>Cloud</h3>
+    <span class="node-type">Concept</span>
+  </div>
+
+  <div class="connection-node theme-future" id="node-datafication" data-x="520" data-y="510">
+    <h3>Datafication</h3>
     <span class="node-type">Concept</span>
   </div>
 
@@ -307,6 +348,14 @@ The Millennial Epoch across themes, categories, and concepts
   <h3>Place Memory</h3>
   <span class="node-type">Concept</span>
 </div>
+  <div class="connection-node theme-intimacy" id="node-millennials" data-x="660" data-y="460">
+    <h3>Millennials</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-intimacy" id="node-generational-memory" data-x="700" data-y="500">
+    <h3>Generational Memory</h3>
+    <span class="node-type">Concept</span>
+  </div>
 
   <!-- ============================================
        CULTURE CLUSTER
@@ -359,6 +408,7 @@ The Millennial Epoch across themes, categories, and concepts
     <h3>Vlassenroot</h3>
     <span class="node-type">Researcher</span>
   </div>
+
 
 <script>
 (function() {
@@ -575,6 +625,65 @@ The Millennial Epoch across themes, categories, and concepts
 { from: 'node-place-memory', to: 'node-storytelling' },
 { from: 'node-place-memory', to: 'node-nostalgia' },
 { from: 'node-place-memory', to: 'node-archive' },
+
+// Platform Death
+{ from: 'node-platform-death', to: 'node-myspace' },
+{ from: 'node-platform-death', to: 'node-loss-concept' },
+{ from: 'node-platform-death', to: 'node-forgetting' },
+{ from: 'node-platform-death', to: 'node-nostalgia' },
+
+// Context
+{ from: 'node-context', to: 'node-archive' },
+{ from: 'node-context', to: 'node-storytelling' },
+{ from: 'node-context', to: 'node-metadata' },
+
+// Provenance
+{ from: 'node-provenance', to: 'node-archive' },
+{ from: 'node-provenance', to: 'node-authority' },
+{ from: 'node-provenance', to: 'node-metadata' },
+
+// Fandom
+{ from: 'node-fandom', to: 'node-tumblr' },
+{ from: 'node-fandom', to: 'node-participation' },
+{ from: 'node-fandom', to: 'node-remix' },
+{ from: 'node-fandom', to: 'node-identity-concept' },
+
+// Internet Aesthetics
+{ from: 'node-aesthetics', to: 'node-tumblr' },
+{ from: 'node-aesthetics', to: 'node-instagram' },
+{ from: 'node-aesthetics', to: 'node-culture' },
+
+// Generational Memory
+{ from: 'node-generational-memory', to: 'node-collective-memory' },
+{ from: 'node-generational-memory', to: 'node-millennials' },
+{ from: 'node-generational-memory', to: 'node-people' },
+
+// Datafication
+{ from: 'node-datafication', to: 'node-surveillance' },
+{ from: 'node-datafication', to: 'node-algorithms' },
+{ from: 'node-datafication', to: 'node-corporations' },
+
+// Algorithmic Self
+{ from: 'node-algorithmic-self', to: 'node-identity-concept' },
+{ from: 'node-algorithmic-self', to: 'node-tiktok' },
+{ from: 'node-algorithmic-self', to: 'node-instagram' },
+{ from: 'node-algorithmic-self', to: 'node-attention' },
+
+// Smartphones
+{ from: 'node-smartphones', to: 'node-technology' },
+{ from: 'node-smartphones', to: 'node-social-media' },
+{ from: 'node-smartphones', to: 'node-surveillance' },
+
+// Cloud
+{ from: 'node-cloud', to: 'node-technology' },
+{ from: 'node-cloud', to: 'node-archive' },
+{ from: 'node-cloud', to: 'node-data-collection' },
+
+// Millennials
+{ from: 'node-millennials', to: 'node-epoch' },
+{ from: 'node-millennials', to: 'node-nostalgia' },
+{ from: 'node-millennials', to: 'node-social-media' },
+{ from: 'node-millennials', to: 'node-storytelling' },
   ];
 
   function positionNodes() {
@@ -617,11 +726,13 @@ The Millennial Epoch across themes, categories, and concepts
   let dragNode = null;
   let offsetX = 0;
   let offsetY = 0;
+  let hasMoved = false;
 
   container.addEventListener('mousedown', function(e) {
     const node = e.target.closest('.connection-node');
     if (!node) return;
     dragNode = node;
+    hasMoved = false;
     const rect = node.getBoundingClientRect();
     offsetX = e.clientX - rect.left;
     offsetY = e.clientY - rect.top;
@@ -630,6 +741,7 @@ The Millennial Epoch across themes, categories, and concepts
 
   document.addEventListener('mousemove', function(e) {
     if (!dragNode) return;
+    hasMoved = true;
     const containerRect = container.getBoundingClientRect();
     const x = e.clientX - containerRect.left - offsetX;
     const y = e.clientY - containerRect.top - offsetY;
@@ -646,6 +758,7 @@ The Millennial Epoch across themes, categories, and concepts
   });
 
   container.addEventListener('click', function(e) {
+    if (hasMoved) return;
     const node = e.target.closest('.connection-node');
     if (!node) return;
     const id = node.id;
