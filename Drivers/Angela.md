@@ -2,22 +2,22 @@
 layout: post
 title: Angela Mendoza
 description: An interview with Angela Mendoza, Fiction MFA graduate from San Diego State University and professor at U.C. San Diego. 
-image: assets/Images/Angela_Cover.JPG
+image: assets/drivers/Angela_Cover.JPG
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->
 <img class="banner" 
-     src="/assets/Images/Angela_Cover.JPG" 
+     src="/assets/drivers/Angela_Cover.JPG" 
      alt="A cropped photo of a blue Chevy lowrider with a woman leaning against it. You can see the lower, driver's side half of the front bumper, headlight, and front wheel. The woman poses with one leg bent as if to show off her heels. The heels are open-toed, strapped, and golden." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
 <h1 class="driver-name">Angela Mendoza</h1>
 
 <!-- BIO CARD -->
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/Angela_Profile.JPG" alt="Portrait of a Latina woman in white pants and a red top sitting down with a wine glass in hand. Palms cover the area behind her.">
+    <img src="/assets/drivers/Angela_Profile.JPG" alt="Portrait of a Latina woman in white pants and a red top sitting down with a wine glass in hand. Palms cover the area behind her.">
   </div>
   <div class="bio-text">
     <p>Angela Mendoza is a Chicana, Central American-American writer hailing from the Bay Area in Northern California. She recently graduated from the MFA program at San Diego State University, where she taught classes in literature and creative writing. She's presented at the <em>RE: Border</em> conference in San Diego as well as the <em>Latinx Literary Conference</em> in New York City. She is currently teaching at U.C. San Diego and working on her debut novel.</p>
@@ -172,7 +172,7 @@ I love in Spanish. I love like my mami. Filled with fire and rage and sadness an
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Angela_Cover.JPG" alt="A cropped photo of a blue Chevy lowrider with a woman leaning against it. You can see the lower, driver's side half of the front bumper, headlight, and front wheel. The woman poses with one leg bent as if to show off her heels. The heels are open-toed, strapped, and golden.">
+  <img src="/assets/drivers/Angela_Cover.JPG" alt="A cropped photo of a blue Chevy lowrider with a woman leaning against it. You can see the lower, driver's side half of the front bumper, headlight, and front wheel. The woman poses with one leg bent as if to show off her heels. The heels are open-toed, strapped, and golden.">
 </div>
 <script>
 function openLightbox() {

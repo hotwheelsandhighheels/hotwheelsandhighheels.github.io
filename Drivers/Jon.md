@@ -2,22 +2,22 @@
 layout: post
 title: Jon Tobias
 description: An interview with Jon Tobias, San Diego native, poetry MFA graduate from San Diego State University and author of the chapbook Talking to Ghosts, published by Quillkeepers Press.
-image: assets/Images/Jon_Cover.jpg
+image: assets/drivers/Jon_Cover.jpg
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->
 <img class="banner" 
-     src="/assets/Images/Jon_Cover.jpg" 
+     src="/assets/drivers/Jon_Cover.jpg" 
      alt="A recreated photo of Hot Wheels & High Heels' banner. A cropped view of Jon Tobias reading a book on the toilet with a mug on the ground in front of him. He is wearing blue briefs with bananas printed on them. He has colorful sneakers with pink laces. The book he is reading is by CA CONRAD." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
 <h1 class="driver-name">Jon Tobias</h1>
 
 <!-- BIO CARD -->
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/Jon_Profile.jpg" alt="Black and White photo of Jon in a hoodie and beanie against a tiled wall.">
+    <img src="/assets/drivers/Jon_Profile.jpg" alt="Black and White photo of Jon in a hoodie and beanie against a tiled wall.">
   </div>
 <div class="bio-text">
   <p> Jon Tobias is an MFA student at San Diego State University. He is the author of the chapbook, <strong>Talking to Ghosts</strong>, published by <em>Quillkeepers Press</em>. His poems have appeared in anthologies and online with <em>Quillkeepers Press</em>, <em>Zone 3</em>, <em>White Stag Publishing</em>, and <em>Kindabummed Magazine</em>. His short fiction has appeared online and in print by <em>A Word With You Press</em>.</p>
@@ -189,7 +189,7 @@ Dear baby San Diego. Do you remember the Drive-in? Do you remember Marshal Scott
 <!-- LIGHTBOX — hidden by default, opens when banner is clicked -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Jon_Cover.jpg" alt="A recreated photo of Hot Wheels & High Heels' banner. A cropped view of Jon Tobias reading a book on the toilet with a mug on the ground in front of him. He is wearing blue briefs with bananas printed on them. He has colorful sneakers with pink laces. The book he is reading is by CA CONRAD.">
+  <img src="/assets/drivers/Jon_Cover.jpg" alt="A recreated photo of Hot Wheels & High Heels' banner. A cropped view of Jon Tobias reading a book on the toilet with a mug on the ground in front of him. He is wearing blue briefs with bananas printed on them. He has colorful sneakers with pink laces. The book he is reading is by CA CONRAD.">
 </div>
 <script>
 function openLightbox() {

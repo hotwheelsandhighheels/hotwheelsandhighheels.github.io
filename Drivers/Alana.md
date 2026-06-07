@@ -2,22 +2,22 @@
 layout: post
 title: Alana Rodriguez
 description: An interview with Alana Rodriguez, Poetry MFA graduate from San Diego State University and Social Media & Marketing Coordinator for the San Diego Poetry Annual. 
-image: assets/Images/Alana_Cover.jpeg
+image: assets/drivers/Alana_Cover.jpeg
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->
 <img class="banner" 
-     src="/assets/Images/Alana_Cover.jpeg" 
+     src="/assets/drivers/Alana_Cover.jpeg" 
      alt="A recreated photo of Hot Wheels & High Heels' banner. Alana Rodriguez sits outside on a stoop. Visible in the frame are her hands holding a cell phone, her long hair, an iced latte, and her sneakers. On one shoe, the laces hold a City of Chula Vista pendant." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
 <h1 class="driver-name">Alana Rodriguez</h1>
 
 <!-- BIO CARD -->
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/Alana_Profile.jpeg" alt="Selfie of a Latina woman wearing a yellow top against a grey background">
+    <img src="/assets/drivers/Alana_Profile.jpeg" alt="Selfie of a Latina woman wearing a yellow top against a grey background">
   </div>
   <div class="bio-text">
     <p>Alana Rodriguez is an MFA Poetry student from Chula Vista, CA. She is the Social Media & Marketing Coordinator for the <em>San Diego Poetry Annual</em> and an intern for <em>Poetry International</em>. Find her work in <em>Boats Against the Current</em>, <em>Unfortunately</em>, <em>Lit Mag</em>, and forthcoming in <em>Zone 3</em>. Alana is passionate about encouraging young poets in both the Latinx and LGBTQ+ communities to pursue publication and share their work with the world.</p>
@@ -211,7 +211,7 @@ Alana
 <!-- LIGHTBOX — hidden by default, opens when banner is clicked -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Alana_Cover.jpeg" alt="A recreated photo of Hot Wheels & High Heels' banner. Alana Rodriguez sits outside on a stoop. Visible in the frame are her hands holding a cell phone, her long hair, an iced latte, and her sneakers. On one shoe, the laces hold a City of Chula Vista pendant.">
+  <img src="/assets/drivers/Alana_Cover.jpeg" alt="A recreated photo of Hot Wheels & High Heels' banner. Alana Rodriguez sits outside on a stoop. Visible in the frame are her hands holding a cell phone, her long hair, an iced latte, and her sneakers. On one shoe, the laces hold a City of Chula Vista pendant.">
 </div>
 <script>
 function openLightbox() {

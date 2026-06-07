@@ -2,22 +2,22 @@
 layout: post
 title: Jack Hinzo
 description: An interview with Jack Hinzo, San Diego native and photographer with interest in polaroid. 
-image: assets/Images/Jack_Cover.jpeg
+image: assets/drivers/Jack_Cover.jpeg
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->
 <img class="banner" 
-     src="/assets/Images/Jack_Cover.jpeg" 
+     src="/assets/drivers/Jack_Cover.jpeg" 
      alt="A photo of Jack sitting on a bathroom counter, one leg bent and the other extended under a closed faucet. There is a full wall mirror in front of the counter that Jack is leaning against. There is a wine bottle on the counter, a wine glass in his hand, and a book in the other. His face is only visible in the mirror." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
 <h1 class="driver-name">Jack Hinzo</h1>
 
 <!-- BIO CARD -->
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/Jack_Profile.jpeg" alt="Self-Portrait polaroid of Jack looking into the camera with his eyeglasses set on the counter in front of him.">
+    <img src="/assets/drivers/Jack_Profile.jpeg" alt="Self-Portrait polaroid of Jack looking into the camera with his eyeglasses set on the counter in front of him.">
   </div>
   <div class="bio-text">
     <p>Jack Hinzo is an English student at San Diego State University who writes and takes photos in his spare time. He enjoys cold mornings, hot coffee, and spending time with his cats.</p>
@@ -186,7 +186,7 @@ Take it easy on high school, it never was, and never will be that serious. I hop
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Jack_Cover.jpeg" alt="A photo of Jack sitting on a bathroom counter, one leg bent and the other extended under a closed faucet. There is a full wall mirror in front of the counter that Jack is leaning against. There is a wine bottle on the counter, a wine glass in his hand, and a book in the other. His face is only visible in the mirror.">
+  <img src="/assets/drivers/Jack_Cover.jpeg" alt="A photo of Jack sitting on a bathroom counter, one leg bent and the other extended under a closed faucet. There is a full wall mirror in front of the counter that Jack is leaning against. There is a wine bottle on the counter, a wine glass in his hand, and a book in the other. His face is only visible in the mirror.">
 </div>
 <script>
 function openLightbox() {

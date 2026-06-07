@@ -17,11 +17,11 @@ published: false
 # First Last
 
 <!-- BIO CARD — photo on left, biography on right (stacks vertically on mobile) -->
-<!-- profile images live in /assets/Images/ -->
+<!-- profile images live in /assets/drivers/ -->
 <div class="bio-card">
   <div class="bio-image">
     <!-- alt text should describe the photo for accessibility -->
-    <img src="/assets/Images/FIRSTNAME_Profile.jpg" alt="DESCRIBE THE PHOTO">
+    <img src="/assets/drivers/FIRSTNAME_Profile.jpg" alt="DESCRIBE THE PHOTO">
   </div>
   <div class="bio-text">
     <!-- biography goes inside <p> tags — use <strong> for bold, <em> for italic -->

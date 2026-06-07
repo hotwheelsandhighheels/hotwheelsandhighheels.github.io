@@ -2,22 +2,22 @@
 layout: post
 title: a.benét
 description: An interview with a.benét, San Diego native and poetry MFA candidate at San Diego State University. 
-image: assets/Images/A-benet_cover.jpg
+image: assets/drivers/A-benet_cover.jpg
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->
 <img class="banner" 
-     src="/assets/Images/A-benet_cover.jpg" 
+     src="/assets/drivers/A-benet_cover.jpg" 
      alt="A recreated photo of Hot Wheels & High Heels' banner. a.benét's hands holding a cell phone between her knees with both hands. The cell phone is in camera mode. There is a leopard-print bag on the ground next to a green mug with coffee in it. The bag is open and shows a pencil case and notebook. a.benét wears a jean jacket, gold jewelry, black pants and Nikes." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
 <h1 class="driver-name">a.benét</h1>
 
 <!-- BIO CARD -->
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/A-benet_Profile.JPG.png" alt="Profile of a Black woman wearing a cream-colored knitted top and a copper head wrap.">
+    <img src="/assets/drivers/A-benet_Profile.JPG.png" alt="Profile of a Black woman wearing a cream-colored knitted top and a copper head wrap.">
   </div>
   <div class="bio-text">
     <p>a. benét is a Black poet and creative. She is a San Diego, California native, where she is a first-year Master's student and <em>Prebys Creative Writing</em> scholar at San Diego State University studying poetry. Her poetry has appeared or is forthcoming in <em>LETTERS Journal</em>, <em>Foglifter Press</em>, <em>Honey Literary</em>, <em>Diode Poetry</em>, and others. She has been nominated for <em>Best of the Net</em>, and was the 1st place winner of the <em>2020 Grossmont College Slam Poetry Competition</em>.</p>
@@ -210,7 +210,7 @@ To the letter of my childhood San Diego, I say thank you. I wouldn't be who I am
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/A-benet_cover.jpg" alt="A recreated photo of Hot Wheels & High Heels' banner. a.benét's hands holding a cell phone between her knees with both hands. The cell phone is in camera mode. There is a leopard-print bag on the ground next to a green mug with coffee in it. The bag is open and shows a pencil case and notebook. a.benét wears a jean jacket, gold jewelry, black pants and Nikes.">
+  <img src="/assets/drivers/A-benet_cover.jpg" alt="A recreated photo of Hot Wheels & High Heels' banner. a.benét's hands holding a cell phone between her knees with both hands. The cell phone is in camera mode. There is a leopard-print bag on the ground next to a green mug with coffee in it. The bag is open and shows a pencil case and notebook. a.benét wears a jean jacket, gold jewelry, black pants and Nikes.">
 </div>
 <script>
 function openLightbox() {

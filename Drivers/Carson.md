@@ -10,7 +10,7 @@ published: false
      src="" 
      alt="DESCRIBE THE PHOTO" 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
 <h1 class="driver-name">Carson Sandell</h1>
 

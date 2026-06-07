@@ -48,7 +48,7 @@ This is a paragraph in Lora light. _This is italic._ **This is bold.** This is a
 
 ## Image Caption
 
-![example](/assets/Images/Banner.PNG)
+![example](/assets/site/Banner.PNG)
 <p class="caption">Photo by Kimberly Tobias — banner image</p>
 
 ---
@@ -159,7 +159,7 @@ This is a paragraph in Lora light. _This is italic._ **This is bold.** This is a
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Jon_Cover.jpg" alt="Jon Tobias cover photo">
+  <img src="/assets/drivers/Jon_Cover.jpg" alt="Jon Tobias cover photo">
 </div>
 
 <script>

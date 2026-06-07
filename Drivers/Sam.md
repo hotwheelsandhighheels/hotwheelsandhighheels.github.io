@@ -2,22 +2,22 @@
 layout: post
 title: Sam Yaziji
 description: An interview with Sam Yaziji, poet, musician, and researcher interested in Eastern Christian hymnography, post-phenomenology, and cybernetics.
-image: assets/Images/Sam_Cover.jpg
+image: assets/drivers/Sam_Cover.jpg
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->
 <img class="banner" 
-     src="/assets/Images/Sam_Cover.jpg" 
+     src="/assets/drivers/Sam_Cover.jpg" 
      alt="A blurry photo taken from a vehicle. The outline of the vehicle's window is visible in the frame. The view captures a coral sunset above a small shopping center. The location markers are blurred, the only text legible is DELI." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/Images/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
 
 <h1 class="driver-name">Sam Yaziji</h1>
 
 <!-- BIO CARD -->
 <div class="bio-card">
   <div class="bio-image">
-    <img src="/assets/Images/Sam_Profile.JPG" alt="Selfie of Sam wearing a green top, a backpack, against the background of SDSU's clock tower and palm trees.">
+    <img src="/assets/drivers/Sam_Profile.JPG" alt="Selfie of Sam wearing a green top, a backpack, against the background of SDSU's clock tower and palm trees.">
   </div>
   <div class="bio-text">
     <p>Sam Yaziji is a writer from Miami, Florida. He is an MFA student in poetry at San Diego State University, where he also works as the print production editor for <em>Poetry International</em>. His poems have been published or are forthcoming in <em>Zone 3 Press</em>, <em>Apocalypse Confidential</em>, and the <em>Bicoastal Review</em>. He has research forthcoming in <em>Pulse: The Journal of Science and Culture</em>. His research interests include Eastern Christian hymnography, post-phenomenology, and cybernetics.</p>
@@ -152,7 +152,7 @@ I see it more as a personal exploration, but I'm really delighted when readers c
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/Images/Sam_Cover.jpg" alt="A blurry photo taken from a vehicle. The outline of the vehicle's window is visible in the frame. The view captures a coral sunset above a small shopping center. The location markers are blurred, the only text legible is DELI.">
+  <img src="/assets/drivers/Sam_Cover.jpg" alt="A blurry photo taken from a vehicle. The outline of the vehicle's window is visible in the frame. The view captures a coral sunset above a small shopping center. The location markers are blurred, the only text legible is DELI.">
 </div>
 <script>
 function openLightbox() {
