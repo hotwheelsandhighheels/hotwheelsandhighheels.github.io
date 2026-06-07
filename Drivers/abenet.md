@@ -33,7 +33,7 @@ image: assets/Images/A-benet_cover.jpg
 
 ---
 
-# a poem by a. benét
+# A Poem
 
 ## **Somewhere in the Bay, a Girl Dreams of the Daygo**
 

@@ -29,7 +29,7 @@ image: assets/Images/Alana_Cover.jpeg
 
 ***
 
-# a poem by Alana Rodriguez
+# A Poem
 
 ## For that swirling pile of trash 
 
