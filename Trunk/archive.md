@@ -8,31 +8,37 @@ permalink: /Trunk/archive/
 
 The Social Archive collects what was made and shared online during the millennial epoch. Screenshots, posts, photographs, videos, comments, and digital debris — evidence of how people recorded their lives on the web.
 
-The web is not just where history is stored. It is where history happened.
-
 ---
 
-## Platform Histories
+## Platform Life
 
 *0 artifacts collected*
 
-*Screenshots, profiles, and interfaces from the platforms.*
+*How people actually used the tools — Siri answers, Snapchat screenshots, status updates, away messages, direct messages, search histories. The platform as lived experience.*
 
 ---
 
-## Memes & Viral Moments
+## Viral Language
 
 *0 artifacts collected*
 
-*Images, posts, and cultural fragments.*
+*Memes, reaction structures, phrase templates, intertextual humor. The linguistic DNA of the internet — mutable, remixable, shared.*
 
 ---
 
-## Personal Collections
+## Parasocial Reality
 
 *0 artifacts collected*
 
-*Photos, playlists, conversations, and journals.*
+*The collapse of distance between celebrity and fan. Instagram comments, Tumblr asks, quote tweets, fourth-wall breaks. The new relationship between the famous and the audience.*
+
+---
+
+## The Nostalgia Economy
+
+*0 artifacts collected*
+
+*Reboots, remakes, reunions, anniversary editions. The monetization of memory. When the past becomes product.*
 
 ---
 
@@ -40,7 +46,7 @@ The web is not just where history is stored. It is where history happened.
 
 *0 artifacts collected*
 
-*Defunct websites, dead platforms, error screens, and the remnants of an earlier internet.*
+*Defunct websites, dead platforms, error screens, broken links, forgotten logins. The remnants of an earlier internet that still haunt the present.*
 
 ---
 
@@ -48,7 +54,7 @@ The web is not just where history is stored. It is where history happened.
 
 *42 artifacts collected*
 
-*Statements from literary publications & others on AI-generated content.*
+*Statements from literary publications and others on AI-generated content. A case study in how the epoch responds to its own emerging technology.*
 
 <!-- ============================================
      INSERT EXISTING SLIDESHOW HTML HERE
