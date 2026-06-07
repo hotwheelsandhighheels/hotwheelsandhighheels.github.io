@@ -102,8 +102,6 @@ The archive is built on a single idea: that memory requires two selves.
 
 Every component of one self has a partner in the other. Neither controls the other. They are interdependent.
 
-This is not just a writing technique. It is the structure of the archive.
-
 ### Born-Digital Heritage
 
 * Memes
