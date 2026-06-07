@@ -319,6 +319,50 @@ Field Notes tracks the research behind the archive. Concepts, reading notes, wor
     </ul>
   </div>
 </div>
+
+<div class="accordion">
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-gornick">
+    Gornick <span class="accordion-icon">+</span>
+  </button>
+  <div class="accordion-content" id="accordion-gornick">
+    <ul>
+      <li>The Situation and the Story — context vs. emotional experience</li>
+      <li>The situation is the context or circumstance, sometimes the plot</li>
+      <li>The story is the insight, the wisdom, the thing one has come to say</li>
+      <li>Without detachment there can be no story</li>
+      <li>The narrator knows who is speaking and why she is speaking</li>
+      <li>Structure imposes order; order makes sentences more shapely</li>
+      <li>Memory as an organizing principle</li>
+      <li>Experience is only raw material</li>
+      <li>The twin struggle: to know not only why one is speaking but who is speaking</li>
+      <li>Balance of narration, commentary, and analysis</li>
+      <li>"The Situation and the Story" (2001)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="accordion">
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-lopate">
+    Lopate <span class="accordion-icon">+</span>
+  </button>
+  <div class="accordion-content" id="accordion-lopate">
+    <ul>
+      <li>To Show and To Tell — the craft of literary nonfiction</li>
+      <li>Characterization: establishing patterns of habits and introducing variations</li>
+      <li>Turning oneself into a character is release from narcissism, not self-absorption</li>
+      <li>The double perspective: allowing the reader to experience the past while benefiting from adult hindsight</li>
+      <li>Suspense in reflection — the thought process itself</li>
+      <li>Facts vs. truths — facts delimit, truths are what we make of them</li>
+      <li>Nonfiction thrives on daring, subjective flights of thought</li>
+      <li>Be curious about oneself — self-curiosity grows from detachment</li>
+      <li>The narrator can "peek ahead" whenever they want to</li>
+      <li>Move from resentment and self-hate to self-amusement</li>
+      <li>Follow your thoughts even if they lead to contradiction</li>
+      <li>"To Show and To Tell" (2013)</li>
+    </ul>
+  </div>
+</div>
+
 <p id="bibliography"><a href="https://www.zotero.org/groups/6565887/millennial_epoch">Bibliography</a></p>
 <script>
 function toggleAccordion(header) {
