@@ -50,32 +50,36 @@ The Social Archive collects what was made and shared online during the millennia
 
 ## Viral Language
 
-*1 artifact collected*
+*3 artifacts collected*
 
 *Memes, reaction structures, phrase templates, intertextual humor. The linguistic DNA of the internet — mutable, remixable, shared.*
 
-<div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="water-slideshow" data-current="1" data-total="1">
-      <div class="artifact-slide active">
+    <div class="artifact-slideshow" id="viral-language-slideshow" data-current="1" data-total="3">
+      <div class="artifact-slide active" data-title="All this water but you still thirsty" data-origin="hw-screenshot" data-date="04-01-2014" data-context="My sibling sent me a snap of three full 5-gallon water bottles. The text read, &quot;All this water but you still thirsty.&quot; I screenshotted it immediately — it was funny, but also exactly how the internet turned everyday objects into emotional statements." data-significance="Evidence of the &quot;All this ___ but you still ___&quot; meme template — tangible objects standing in for intangible feelings. Shows how viral language structures personal communication, even between siblings." data-tags="Viral Language,Intimacy,Web">
         <img src="/assets/archive/viral-language/hw-screenshot-stillthirsty.PNG" alt="Screenshot of a Snapchat message showing three full 5-gallon water bottles with text reading 'All this water but you still thirsty.'">
       </div>
-      <!-- Add more artifact-slide divs here for additional images -->
+      <div class="artifact-slide" data-title="Straight Outta Beyonce" data-origin="web-screenshot" data-date="08-09-2015" data-context="When Straight Outta Compton was released in 2015, the promotional frame became a meme template and a Snapchat filter. This version — Baby Blue Ivy holding cash with &quot;Straight Outta Beyonce&quot; — circulated widely." data-significance="Evidence of how promotional campaigns become participatory culture. The &quot;Straight Outta ___&quot; frame traveled from movie marketing to Snapchat filter to user-generated meme." data-tags="Viral Language,Web,Nostalgia Economy">
+        <img src="/assets/archive/viral-language/web-straight-outta-beyonce.PNG" alt="Baby Blue Ivy Carter holding wads of cash with a chest of cash behind her labeled TOYS. The frame reads Straight Outta Beyonce.">
+      </div>
+      <div class="artifact-slide" data-title="When ur hotline bling but it aint the person u wanted" data-origin="web-screenshot" data-date="10-25-2015" data-context="A still from Drake's Hotline Bling video became one of the most durable reaction meme formats of the 2010s. This version pairs the image with classic top-text/bottom-text structure." data-significance="Evidence of the reaction meme as a communication tool. The still image + text structure turns a music video frame into a reusable emotional shorthand." data-tags="Viral Language,Web">
+        <img src="/assets/archive/viral-language/web-meme-drake.JPG" alt="Drake reaction meme from Hotline Bling video. His expression signals yikes. Text reads 'When ur hotline bling but it aint the person u wanted.'">
+      </div>
     </div>
-    <!-- Controls only appear if more than one slide -->
-  </div>
-  <div class="artifact-context">
-    <h3>"All this water but you still thirsty"</h3>
-    <p class="artifact-description"><strong>Origin:</strong> hw-screenshot &nbsp;·&nbsp; <strong>Date:</strong> 04-01-2014</p>
-    <p class="artifact-description"><strong>Context:</strong> My sibling sent me a snap of three full 5-gallon water bottles. The text read, "All this water but you still thirsty." I screenshotted it immediately — it was funny, but also exactly how the internet turned everyday objects into emotional statements.</p>
-    <p class="artifact-significance"><strong>Significance:</strong> Evidence of the "All this ___ but you still ___" meme template — tangible objects standing in for intangible feelings. Shows how viral language structures personal communication, even between siblings.</p>
-    <div class="artifact-meta">
-      <span class="timeline-tag culture">Viral Language</span>
-      <span class="timeline-tag intimacy">Intimacy</span>
-      <span class="timeline-tag web">Web</span>
+    <div class="artifact-slideshow-controls" id="viral-language-controls">
+      <button class="slide-btn" onclick="changeArtifactSlide('viral-language-slideshow', -1)">&#8592;</button>
+      <span class="slide-count"><span id="viral-language-current">1</span> / <span id="viral-language-total">3</span></span>
+      <button class="slide-btn" onclick="changeArtifactSlide('viral-language-slideshow', 1)">&#8594;</button>
     </div>
   </div>
-</div>
+  
+  <div class="artifact-context" id="viral-language-context">
+    <h3 id="viral-language-title"></h3>
+    <p class="artifact-description"><strong>Origin:</strong> <span id="viral-language-origin"></span> &nbsp;·&nbsp; <strong>Date:</strong> <span id="viral-language-date"></span></p>
+    <p class="artifact-description"><strong>Context:</strong> <span id="viral-language-context-text"></span></p>
+    <p class="artifact-significance"><strong>Significance:</strong> <span id="viral-language-significance"></span></p>
+    <div class="artifact-meta" id="viral-language-tags"></div>
+  </div>
 
 ---
 
@@ -291,9 +295,6 @@ The Social Archive collects what was made and shared online during the millennia
   <span class="slide-count"><span id="current">1</span> / <span id="total"></span></span>
   <button class="slide-btn" onclick="changeSlide(1)">&#8594;</button>
 </div>
-
-</div>
-
 <script>
 const slideshow = document.getElementById('slideshow');
 const allSlides = Array.from(slideshow.querySelectorAll('.slide'));
@@ -319,6 +320,57 @@ function changeSlide(direction) {
   slideshow.setAttribute('data-current', current);
   document.getElementById('current').textContent = current;
 }
+</script>
+</div>
+
+<script>
+function updateViralLanguageMetadata() {
+  const slideshow = document.getElementById('viral-language-slideshow');
+  const activeSlide = slideshow.querySelector('.artifact-slide.active');
+  if (!activeSlide) return;
+  
+  document.getElementById('viral-language-title').textContent = activeSlide.getAttribute('data-title');
+  document.getElementById('viral-language-origin').textContent = activeSlide.getAttribute('data-origin');
+  document.getElementById('viral-language-date').textContent = activeSlide.getAttribute('data-date');
+  document.getElementById('viral-language-context-text').textContent = activeSlide.getAttribute('data-context');
+  document.getElementById('viral-language-significance').textContent = activeSlide.getAttribute('data-significance');
+  
+  const tags = activeSlide.getAttribute('data-tags').split(',');
+  const tagsContainer = document.getElementById('viral-language-tags');
+  tagsContainer.innerHTML = '';
+  tags.forEach(tag => {
+    const span = document.createElement('span');
+    span.className = 'timeline-tag culture';
+    span.textContent = tag.trim();
+    tagsContainer.appendChild(span);
+  });
+}
+
+function changeArtifactSlide(slideshowId, direction) {
+  const slideshow = document.getElementById(slideshowId);
+  const allSlides = slideshow.querySelectorAll('.artifact-slide');
+  let current = parseInt(slideshow.getAttribute('data-current'));
+  
+  allSlides[current - 1].classList.remove('active');
+  current = current + direction;
+  if (current < 1) current = allSlides.length;
+  if (current > allSlides.length) current = 1;
+  allSlides[current - 1].classList.add('active');
+  slideshow.setAttribute('data-current', current);
+  
+  const counterId = slideshowId.replace('-slideshow', '-current');
+  const counterEl = document.getElementById(counterId);
+  if (counterEl) counterEl.textContent = current;
+  
+  updateViralLanguageMetadata();
+}
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', function() {
+  const totalSlides = document.querySelectorAll('#viral-language-slideshow .artifact-slide').length;
+  document.getElementById('viral-language-total').textContent = totalSlides;
+  updateViralLanguageMetadata();
+});
 </script>
 
 ---
