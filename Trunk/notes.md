@@ -415,7 +415,7 @@ Every component of one self has a partner in the other. Neither controls the oth
       <li>To Show and To Tell — the craft of literary nonfiction</li>
       <li>Characterization: establishing patterns of habits and introducing variations</li>
       <li>Turning oneself into a character is release from narcissism, not self-absorption</li>
-      <li>The double perspective: allowing the reader to experience the past while benefiting from adult hindsight</li>
+      <li>Allowing the reader to experience the past while benefiting from adult hindsight</li>
       <li>Suspense in reflection — the thought process itself</li>
       <li>Facts vs. truths — facts delimit, truths are what we make of them</li>
       <li>Nonfiction thrives on daring, subjective flights of thought</li>
