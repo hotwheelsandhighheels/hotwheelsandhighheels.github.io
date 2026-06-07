@@ -10,19 +10,72 @@ The Social Archive collects what was made and shared online during the millennia
 
 ---
 
+<!-- ============================================
+     PLATFORM LIFE
+     ============================================ -->
+
 ## Platform Life
 
-*0 artifacts collected*
+*1 artifact collected*
 
 *How people actually used the tools — Siri answers, Snapchat screenshots, status updates, away messages, direct messages, search histories. The platform as lived experience.*
 
+<div class="artifact">
+  <div class="artifact-media">
+    <div class="artifact-slideshow" id="siri-slideshow" data-current="1" data-total="1">
+      <div class="artifact-slide active">
+        <img src="/assets/archive/platform-life/hw-screenshot-siri.png" alt="Screenshot of Siri responding to garbled input">
+      </div>
+      <!-- Add more artifact-slide divs here for additional images -->
+    </div>
+    <!-- Controls only appear if more than one slide -->
+  </div>
+  <div class="artifact-context">
+    <h3>Siri Tries to Parse the Unconscious</h3>
+    <p class="artifact-description"><strong>Origin:</strong> hw-screenshot &nbsp;·&nbsp; <strong>Date:</strong> 07-07-2014</p>
+    <p class="artifact-description"><strong>Context:</strong> My phone summoned Siri without me knowing — I wasn't looking at it or talking to it. What it heard was a string of half-words, fragments, something between language and noise. I screenshotted it because it was funny that Siri was summoned by accident, and funnier that this is what it thought I said.</p>
+    <p class="artifact-significance"><strong>Significance:</strong> Evidence of the accidental AI interaction — the machine listening when we don't know it's listening, trying to make sense of input that wasn't meant for it. The comedy of Siri saying "Sorry, Alejandra… can you try that again in fewer words?" to a pocketful of gibberish captures something about how we live with these assistants: always listening, often confused.</p>
+    <div class="artifact-meta">
+      <span class="timeline-tag tech">Platform Life</span>
+      <span class="timeline-tag web">Web</span>
+    </div>
+  </div>
+</div>
+
 ---
+
+<!-- ============================================
+     VIRAL LANGUAGE
+     ============================================ -->
 
 ## Viral Language
 
-*0 artifacts collected*
+*1 artifact collected*
 
 *Memes, reaction structures, phrase templates, intertextual humor. The linguistic DNA of the internet — mutable, remixable, shared.*
+
+<div class="artifact">
+  <div class="artifact-media">
+    <div class="artifact-slideshow" id="water-slideshow" data-current="1" data-total="1">
+      <div class="artifact-slide active">
+        <img src="/assets/archive/viral-language/hw-screenshot-stillthirsty.PNG" alt="Screenshot of a Snapchat message showing three full 5-gallon water bottles with text reading 'All this water but you still thirsty.'">
+      </div>
+      <!-- Add more artifact-slide divs here for additional images -->
+    </div>
+    <!-- Controls only appear if more than one slide -->
+  </div>
+  <div class="artifact-context">
+    <h3>"All this water but you still thirsty"</h3>
+    <p class="artifact-description"><strong>Origin:</strong> hw-screenshot &nbsp;·&nbsp; <strong>Date:</strong> 04-01-2014</p>
+    <p class="artifact-description"><strong>Context:</strong> My sibling sent me a snap of three full 5-gallon water bottles. The text read, "All this water but you still thirsty." I screenshotted it immediately — it was funny, but also exactly how the internet turned everyday objects into emotional statements.</p>
+    <p class="artifact-significance"><strong>Significance:</strong> Evidence of the "All this ___ but you still ___" meme template — tangible objects standing in for intangible feelings. Shows how viral language structures personal communication, even between siblings.</p>
+    <div class="artifact-meta">
+      <span class="timeline-tag culture">Viral Language</span>
+      <span class="timeline-tag intimacy">Intimacy</span>
+      <span class="timeline-tag web">Web</span>
+    </div>
+  </div>
+</div>
 
 ---
 
