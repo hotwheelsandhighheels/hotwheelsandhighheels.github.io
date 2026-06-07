@@ -817,7 +817,57 @@ audio:hover {
   color: var(--text);
   opacity: 0.5;
 }
+/* --- DOUBLE PERSPECTIVE TABLE --- */
+.double-perspective-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 24px 0;
+  font-family: 'Lora', serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  color: var(--text);
+}
 
+.double-perspective-table td {
+  padding: 6px 8px;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom: 0.5px solid rgba(163, 0, 255, 0.15);
+}
+
+.double-perspective-table td:first-child {
+  text-align: right;
+  width: 28%;
+}
+
+.double-perspective-table td:nth-child(2) {
+  width: 8%;
+  font-weight: 600;
+  color: var(--pink);
+}
+
+.double-perspective-table td:nth-child(3) {
+  text-align: left;
+  width: 28%;
+}
+
+.double-perspective-table td:nth-child(4) {
+  width: 8%;
+  font-weight: 600;
+  color: var(--pink);
+}
+
+.double-perspective-table td:last-child {
+  text-align: left;
+  width: 28%;
+  font-style: italic;
+  color: var(--purple);
+  opacity: 0.8;
+}
+
+.double-perspective-table tr:last-child td {
+  border-bottom: none;
+}
 
 /* ============================================
    9. EMAIL SIGNUP FORM
@@ -1813,6 +1863,14 @@ audio:hover {
 
   .timeline-entry p {
     font-size: 10pt;
+  }
+  /* --- double perspective --- */
+  .double-perspective-table {
+    font-size: 9pt;
+  }
+
+  .double-perspective-table td {
+    padding: 4px 4px;
   }
 }
 

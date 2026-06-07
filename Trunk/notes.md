@@ -41,15 +41,64 @@ Field Notes tracks the research behind the archive. Concepts, reading notes, wor
 
 The archive is built on a single idea: that memory requires two selves.
 
-| Experience Self | + | Narrator Self | = | Double Perspective |
-|-----------------|---|---------------|---|---------------------|
-| Past | + | Present | = | Time |
-| Reactive | + | Organized | = | Structure |
-| Blind spots | + | Self-awareness | = | Insight |
-| Objectivity | + | Subjectivity | = | Interpretation |
-| Veracity / literal truth | + | Authenticity / literary truth | = | The story |
-| Show | + | Tell | = | Narrative |
-| Situation / context | + | Story / insight | = | Meaning |
+<table class="double-perspective-table">
+  <tr>
+    <td>Past</td>
+    <td>+</td>
+    <td>Present</td>
+    <td>=</td>
+    <td>Time</td>
+  </tr>
+  <tr>
+    <td>Reactive</td>
+    <td>+</td>
+    <td>Organized</td>
+    <td>=</td>
+    <td>Structure</td>
+  </tr>
+  <tr>
+    <td>Blind spots</td>
+    <td>+</td>
+    <td>Self-awareness</td>
+    <td>=</td>
+    <td>Insight</td>
+  </tr>
+  <tr>
+    <td>Objectivity</td>
+    <td>+</td>
+    <td>Subjectivity</td>
+    <td>=</td>
+    <td>Interpretation</td>
+  </tr>
+  <tr>
+    <td>Veracity / literal truth</td>
+    <td>+</td>
+    <td>Authenticity / literary truth</td>
+    <td>=</td>
+    <td>The story</td>
+  </tr>
+  <tr>
+    <td>Show</td>
+    <td>+</td>
+    <td>Tell</td>
+    <td>=</td>
+    <td>Narrative</td>
+  </tr>
+  <tr>
+    <td>Situation / context</td>
+    <td>+</td>
+    <td>Story / insight</td>
+    <td>=</td>
+    <td>Meaning</td>
+  </tr>
+  <tr>
+    <td><strong>Experience Self</strong></td>
+    <td><strong>+</strong></td>
+    <td><strong>Narrator Self</strong></td>
+    <td><strong>=</strong></td>
+    <td><strong>Double Perspective</strong></td>
+  </tr>
+</table>
 
 Every component of one self has a partner in the other. Neither controls the other. They are interdependent.
 
