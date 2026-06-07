@@ -16,7 +16,7 @@ The web is not just where history is stored. It is where history happened.
 
 *0 artifacts collected*
 
-*Screenshots, profiles, and interfaces from the platforms that shaped millennial social life.*
+*Screenshots, profiles, and interfaces from the platforms.*
 
 ---
 
@@ -24,7 +24,7 @@ The web is not just where history is stored. It is where history happened.
 
 *0 artifacts collected*
 
-*Images, posts, and cultural fragments that spread across the web and became shared reference points for a generation.*
+*Images, posts, and cultural fragments.*
 
 ---
 
@@ -32,7 +32,7 @@ The web is not just where history is stored. It is where history happened.
 
 *0 artifacts collected*
 
-*Contributor-submitted materials — photos, playlists, conversations, journals — accompanied by the stories that give them meaning.*
+*Photos, playlists, conversations, and journals.*
 
 ---
 
@@ -48,7 +48,7 @@ The web is not just where history is stored. It is where history happened.
 
 *42 artifacts collected*
 
-*Statements from literary publications on AI-generated content. Collected for reference and research. A case study in how the epoch responds to its own emerging technology.*
+*Statements from literary publications & others on AI-generated content.*
 
 <!-- ============================================
      INSERT EXISTING SLIDESHOW HTML HERE
