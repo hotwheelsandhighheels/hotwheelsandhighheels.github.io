@@ -24,7 +24,7 @@ The Social Archive collects what was made and shared online during the millennia
   <div class="artifact-media">
     <div class="artifact-slideshow" id="siri-slideshow" data-current="1" data-total="1">
       <div class="artifact-slide active">
-        <img src="/assets/archive/platform-life/hw-screenshot-siri.png" alt="Screenshot of Siri responding to garbled input">
+        <img src="/assets/archive/platform-life/hw-screenshot-siri.PNG" alt="Screenshot of Siri responding to garbled input">
       </div>
       <!-- Add more artifact-slide divs here for additional images -->
     </div>
