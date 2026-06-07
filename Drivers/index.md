@@ -47,7 +47,7 @@ permalink: /Drivers/
 </div>
 
 <div class="poetry-links">
-  <h1>Poetry</h1>
+  <h2>Poetry</h2>
   <a href="/Drivers/abenet#a-poem-by-a-benét">"Somewhere in the Bay, a Girl Dreams of the Daygo" by a.benét</a>
   <a href="/Drivers/Alana#a-poem-by-alana-rodriguez">"For that swirling pile of trash" by Alana Rodriguez</a>
 </div>

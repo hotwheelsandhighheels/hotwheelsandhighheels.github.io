@@ -10,8 +10,7 @@
    1. FONTS & VARIABLES
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400,0,700,1,400&family=Cormorant+Garamond:ital,wght@0,400,0,600,1,400&family=Lora:ital,wght@0,400,0,600,1,400,1,600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 :root {
   --bg: #0a0608;
   --text: #f5f0f5;
