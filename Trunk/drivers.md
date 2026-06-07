@@ -6,7 +6,7 @@ permalink: /Trunk/drivers/
 
 # The Drivers
 
-Seven themes, six interviews, one pattern: millennial memory is always about place, loss, the web, intimacy, identity, creativity, and the future — often all at once.
+Seven themes, one pattern: millennial memory is always about place, loss, the web, intimacy, identity, creativity, and the future.
 
 <hr>
 
