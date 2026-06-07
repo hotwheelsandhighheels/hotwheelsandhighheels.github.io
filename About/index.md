@@ -42,9 +42,9 @@ I'm from San Diego and have no aspirations to leave; San Diego is too beautiful.
 
 My cousins are my best friends. Nothing matters without them. Without them there is no love, no poetry.   
 
-[Publications & Performances](/About/enginecheck)  
+[Engine Check →](/About/enginecheck)  
 
-[Email](mailto:alejandra@hotwheelsandhighheels.com)
+[Email me →](mailto:alejandra@hotwheelsandhighheels.com)
 
 ## Acknowledgements
 Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Support for the arts is slim, support for literature within arts funding is even less. Your contributions mean the world to me!  
