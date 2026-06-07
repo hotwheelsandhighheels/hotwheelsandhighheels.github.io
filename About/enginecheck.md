@@ -2,18 +2,6 @@
 layout: post
 title: Engine Check Light
 ---
-## Experience
-
-**Online Productions Editor**, *Poetry International* / SDSU — 2023–2026  
-**MFA Program Director's Assistant**, San Diego State University — 2022–2023  
-**Submissions Reader**, *Poetry International* — 2022–2025  
-**Report Writer**, SAGE — San Diego Urban Sustainability Coalition — Summer 2023  
-**Founder & Advisor**, Morse High School Poetry After-School Club — 2023–2025  
-
-## Education
-
-MFA, Creative Writing (Poetry), San Diego State University, 2026  
-BA, Creative Writing, University of California, Riverside, 2018  
 
 ## Selected Publications
 
