@@ -2,6 +2,7 @@
 layout: default
 title: Connections
 permalink: /Trunk/connections/
+title: Connections - Hot Wheels & High Heels
 ---
 
 # Connections

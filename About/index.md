@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /About/
+title: About - Hot Wheels & High Heels
 ---
 # About
 

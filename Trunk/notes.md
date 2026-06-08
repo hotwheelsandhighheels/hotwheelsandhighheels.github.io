@@ -2,6 +2,7 @@
 layout: default
 title: Field Notes
 permalink: /Trunk/notes/
+title: Field Notes - Hot Wheels & High Heels
 ---
 
 # Field Notes

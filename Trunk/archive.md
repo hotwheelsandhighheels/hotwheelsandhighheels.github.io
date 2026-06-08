@@ -2,6 +2,7 @@
 layout: default
 title: The Social Archive
 permalink: /Trunk/archive/
+title: The Social Archive - Hot Wheels & High Heels
 ---
 
 # The Social Archive
