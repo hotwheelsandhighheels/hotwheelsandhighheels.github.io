@@ -1300,6 +1300,8 @@ audio:hover {
   font-size: 9pt;
   color: var(--text);
   opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 /* --- ARTIFACT SLIDESHOW --- */
@@ -1308,7 +1310,6 @@ audio:hover {
   height: 500px;
   display: flex;
   flex-direction: column;
-  max-width: 600px;
   width: 100%;
 }
 
@@ -1877,9 +1878,13 @@ audio:hover {
     min-height: 400px;
   }
 
-  .connection-node {
-    padding: 8px 12px;
-  }
+.connection-node {
+  padding: 8px 12px;
+  max-width: 140px;        /* prevents overflow */
+  white-space: nowrap;     /* keeps text on one line */
+  overflow: hidden;
+  text-overflow: ellipsis; /* adds "..." when truncated */
+}
 
   .connection-node h3 {
     font-size: 11pt;
@@ -1908,12 +1913,7 @@ audio:hover {
   .timeline::before {
     left: 16px;
   }
-
-.timeline-year h2 {
-  font-size: 20pt;
-  padding: 0;
-}
-
+  
   .timeline-year h2 {
     font-size: 16pt;
     padding: 2px 14px;
