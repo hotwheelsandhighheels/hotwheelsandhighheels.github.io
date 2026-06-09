@@ -15,7 +15,7 @@ sitemap: false
   <!-- RAW ABOUT -->
   <div class="meaf-section">
     <h2>About me</h2>
-    <p>[your raw about text here]</p>
+    <p> </p>
   </div>
 
   <!-- NOW SECTION -->
