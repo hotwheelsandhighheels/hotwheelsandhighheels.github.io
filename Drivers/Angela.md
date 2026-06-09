@@ -23,11 +23,40 @@ image: assets/drivers/Angela_Cover.JPG
     <p>Angela Mendoza is a Chicana, Central American-American writer hailing from the Bay Area in Northern California. She recently graduated from the MFA program at San Diego State University, where she taught classes in literature and creative writing. She's presented at the <em>RE: Border</em> conference in San Diego as well as the <em>Latinx Literary Conference</em> in New York City. She is currently teaching at U.C. San Diego and working on her debut novel.</p>
     <p class="connect-links">
       <a href="https://www.instagram.com/angelasmendoza">Instagram</a>
+      <span class="interests-toggle" onclick="toggleInterests(this)">✦</span>
     </p>
+        <div class="myspace-interests">
+      <table class="interests-table">
+        <tr>
+          <td>general</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>music</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>movies</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>television</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>books</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>heroes</td>
+          <td> </td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
 
----
+<hr>
 
 # A Conversation
 

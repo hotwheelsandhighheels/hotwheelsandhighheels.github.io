@@ -39,6 +39,13 @@
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
+function toggleInterests(el) {
+  // Find the next myspace-interests div after the parent paragraph
+  var container = el.closest('.bio-text').querySelector('.myspace-interests');
+  if (container) {
+    container.classList.toggle('open');
+  }
+}
 </script>
   </body>
 </html>

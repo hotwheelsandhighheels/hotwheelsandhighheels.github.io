@@ -93,11 +93,39 @@ function toggleMenu() {
     <p>a. benét is a Black poet and creative. She is a San Diego, California native, where she is a first-year Master's student and <em>Prebys Creative Writing</em> scholar at San Diego State University studying poetry. Her poetry has appeared or is forthcoming in <em>LETTERS Journal</em>, <em>Foglifter Press</em>, <em>Honey Literary</em>, <em>Diode Poetry</em>, and others. She has been nominated for <em>Best of the Net</em>, and was the 1st place winner of the <em>2020 Grossmont College Slam Poetry Competition</em>.</p>
     <p class="connect-links">
       <a href="https://sites.google.com/view/benetthewriter/home">Website</a>
-      &nbsp;·&nbsp;
+      <span class="interests-toggle" onclick="toggleInterests(this)">✦</span>
       <a href="https://www.instagram.com/benetthewriter/">Instagram</a>
-      &nbsp;·&nbsp;
+      <span class="interest-separator">✦</span>
       <a href="https://bsky.app/profile/benetthewriter.bsky.social">Bluesky</a>
     </p>
+   <div class="myspace-interests">
+      <table class="interests-table">
+        <tr>
+          <td>general</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>music</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>movies</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>television</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>books</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>heroes</td>
+          <td> </td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
 
@@ -323,6 +351,13 @@ function closeLightbox() {
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
+function toggleInterests(el) {
+  // Find the next myspace-interests div after the parent paragraph
+  var container = el.closest('.bio-text').querySelector('.myspace-interests');
+  if (container) {
+    container.classList.toggle('open');
+  }
+}
 </script>
   </body>
 </html>

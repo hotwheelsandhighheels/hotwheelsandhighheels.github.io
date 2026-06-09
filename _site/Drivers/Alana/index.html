@@ -93,7 +93,36 @@ function toggleMenu() {
     <p>Alana Rodriguez is an MFA Poetry student from Chula Vista, CA. She is the Social Media &amp; Marketing Coordinator for the <em>San Diego Poetry Annual</em> and an intern for <em>Poetry International</em>. Find her work in <em>Boats Against the Current</em>, <em>Unfortunately</em>, <em>Lit Mag</em>, and forthcoming in <em>Zone 3</em>. Alana is passionate about encouraging young poets in both the Latinx and LGBTQ+ communities to pursue publication and share their work with the world.</p>
     <p class="connect-links">
       <a href="https://www.instagram.com/pressmynumber">Instagram</a>
+      <span class="interests-toggle" onclick="toggleInterests(this)">✦</span>
     </p>
+        <div class="myspace-interests">
+      <table class="interests-table">
+        <tr>
+          <td>general</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>music</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>movies</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>television</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>books</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>heroes</td>
+          <td> </td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
 
@@ -324,6 +353,13 @@ function closeLightbox() {
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
+function toggleInterests(el) {
+  // Find the next myspace-interests div after the parent paragraph
+  var container = el.closest('.bio-text').querySelector('.myspace-interests');
+  if (container) {
+    container.classList.toggle('open');
+  }
+}
 </script>
   </body>
 </html>

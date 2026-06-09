@@ -10,7 +10,7 @@ image: assets/drivers/Jon_Cover.jpg
      src="/assets/drivers/Jon_Cover.jpg" 
      alt="A recreated photo of Hot Wheels & High Heels' banner. A cropped view of Jon Tobias reading a book on the toilet with a mug on the ground in front of him. He is wearing blue briefs with bananas printed on them. He has colorful sneakers with pink laces. The book he is reading is by CA CONRAD." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom 24px;">
 
 <h1 class="driver-name">Jon Tobias</h1>
 
@@ -19,18 +19,45 @@ image: assets/drivers/Jon_Cover.jpg
   <div class="bio-image">
     <img src="/assets/drivers/Jon_Profile.jpg" alt="Black and White photo of Jon in a hoodie and beanie against a tiled wall.">
   </div>
-<div class="bio-text">
-  <p> Jon Tobias is an MFA student at San Diego State University. He is the author of the chapbook, <strong>Talking to Ghosts</strong>, published by <em>Quillkeepers Press</em>. His poems have appeared in anthologies and online with <em>Quillkeepers Press</em>, <em>Zone 3</em>, <em>White Stag Publishing</em>, and <em>Kindabummed Magazine</em>. His short fiction has appeared online and in print by <em>A Word With You Press</em>.</p>
-  
-  <p class="connect-links">
-    <a href="https://www.instagram.com/metaphors_be_with_you">Instagram</a>
-    &nbsp;·&nbsp;
-    <a href="https://www.amazon.com/dp/B0CXRZGD7P">Talking to Ghosts</a>
-  </p>
-</div>
+  <div class="bio-text">
+    <p>Jon Tobias is an MFA student at San Diego State University. He is the author of the chapbook, <strong>Talking to Ghosts</strong>, published by <em>Quillkeepers Press</em>. His poems have appeared in anthologies and online with <em>Quillkeepers Press</em>, <em>Zone 3</em>, <em>White Stag Publishing</em>, and <em>Kindabummed Magazine</em>. His short fiction has appeared online and in print by <em>A Word With You Press</em>.</p>
+    <p class="connect-links">
+      <a href="https://www.instagram.com/metaphors_be_with_you">Instagram</a>
+      <span class="interests-toggle" onclick="toggleInterests(this)">✦</span>
+      <a href="https://www.amazon.com/dp/B0CXRZGD7P">Talking to Ghosts</a>
+    </p>
+    <div class="myspace-interests">
+      <table class="interests-table">
+        <tr>
+          <td>general</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>music</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>movies</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>television</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>books</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>heroes</td>
+          <td> </td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </div>
 
-***
+<hr>
 
 # A Conversation
 

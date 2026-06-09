@@ -21,12 +21,45 @@ published: false
   </div>
   <div class="bio-text">
     <p>BIOGRAPHY GOES HERE.</p>
-    <p class="connect-links">
-      <a href="link">Website</a>
+ <p class="connect-links">
+      <a href="https://sites.google.com/view/benetthewriter/home">Website</a>
+      <span class="interests-toggle" onclick="toggleInterests(this)">✦</span>
+      <a href="https://www.instagram.com/benetthewriter/">Instagram</a>
+      <span class="interest-separator">✦</span>
+      <a href="https://bsky.app/profile/benetthewriter.bsky.social">Bluesky</a>
     </p>
+   <div class="myspace-interests">
+      <table class="interests-table">
+        <tr>
+          <td>general</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>music</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>movies</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>television</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>books</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>heroes</td>
+          <td> </td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
 
+<hr>
 ---
 
 # A Poem by Carson Sandell

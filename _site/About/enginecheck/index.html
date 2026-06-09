@@ -93,6 +93,8 @@ function toggleMenu() {
 2022 — Featured Reader, Poetry Underground Series, San Diego, CA<br />
 2022 — Featured Reader, Poetry Salons hosted by Luis Torres, San Diego, CA</p>
 
+<p><a href="/meAF/">✦</a></p>
+
     </main>
     </div>
     <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="Back to top">&#8593;</button>
@@ -124,6 +126,13 @@ function toggleMenu() {
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
+function toggleInterests(el) {
+  // Find the next myspace-interests div after the parent paragraph
+  var container = el.closest('.bio-text').querySelector('.myspace-interests');
+  if (container) {
+    container.classList.toggle('open');
+  }
+}
 </script>
   </body>
 </html>

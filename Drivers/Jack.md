@@ -23,11 +23,40 @@ image: assets/drivers/Jack_Cover.jpeg
     <p>Jack Hinzo is an English student at San Diego State University who writes and takes photos in his spare time. He enjoys cold mornings, hot coffee, and spending time with his cats.</p>
     <p class="connect-links">
       <a href="https://www.instagram.com/caatssoup/">Instagram</a>
+      <span class="interests-toggle" onclick="toggleInterests(this)">✦</span>
     </p>
+    <div class="myspace-interests">
+      <table class="interests-table">
+        <tr>
+          <td>general</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>music</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>movies</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>television</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>books</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>heroes</td>
+          <td> </td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
 
----
+<hr>
 
 # A Conversation
 
