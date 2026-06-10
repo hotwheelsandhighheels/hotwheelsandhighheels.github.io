@@ -1812,12 +1812,11 @@ audio:hover {
   a { font-size: 10pt; }
 
 
-/* --- ABOUT & TRUNK H1 — bigger on mobile --- */
-.about-page,
-.trunk-page {
-  font-size: 40pt;
-  text-align: center;
-}
+  /* --- ABOUT & TRUNK H1 — huge on mobile --- */
+  .about-page,
+  .trunk-page {
+    font-size: 40pt;
+  }
 
   /* --- SURVEY H1 — smaller on mobile --- */
   .survey-container h1 {
