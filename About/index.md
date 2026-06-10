@@ -4,7 +4,7 @@ title: About
 permalink: /About/
 title: About - Hot Wheels & High Heels
 ---
-# About
+<h1 class="about-page">About</h1>
 
 ## The Wheel 
 A toddler plays with toy cars in grandma's closet using shoes with heels as inclines.  

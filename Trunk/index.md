@@ -5,7 +5,7 @@ permalink: /Trunk/
 title: Trunk - Hot Wheels & High Heels
 ---
 
-  <h1>Trunk</h1>
+<h1 class="trunk-page">Trunk</h1>
 
 <div class="trunk-dashboard">
   <!-- INTRO — full width -->
