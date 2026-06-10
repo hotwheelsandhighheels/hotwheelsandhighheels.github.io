@@ -1760,7 +1760,6 @@ audio:hover {
   80% { transform: translateX(4px) rotate(0.5deg); }
 }
 
-
 /* ============================================
    18. MOBILE STYLES (MAX-WIDTH: 600px)
    ============================================ */
@@ -1812,15 +1811,16 @@ audio:hover {
   h2 { font-size: 18pt; }
   a { font-size: 10pt; }
 
-  /* --- ABOUT & TRUNK H1 — bigger on mobile --- */
-  .about-page h1,
-  .trunk-page h1 {
-    font-size: 28pt;
-  }
+
+/* --- ABOUT & TRUNK H1 — bigger on mobile --- */
+.about-page,
+.trunk-page {
+  font-size: 60pt;
+}
 
   /* --- SURVEY H1 — smaller on mobile --- */
   .survey-container h1 {
-    font-size: 24pt;
+    font-size: 28pt !important;
   }
 
   /* rest of your mobile styles... */
