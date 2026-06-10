@@ -12,7 +12,7 @@ sitemap: false
 
   <hr>
 
-  <div class="copy-area" id="survey-text">
+  <div class="copy-area" id="survey-text" onclick="selectAllText(this)">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
       MEMORY SURVEY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -52,5 +52,6 @@ how do you describe what you do?
   share: alejandra@hotwheelsandhighheels.com
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   </div>
+  <p style="text-align: center; font-size: 9pt; opacity: 0.5;">✦ click, copy, paste ✦</p>
 
 </div>

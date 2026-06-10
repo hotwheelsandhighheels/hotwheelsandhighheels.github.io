@@ -12,7 +12,7 @@ sitemap: false
 
   <hr>
 
-  <div class="copy-area" id="survey-text">
+  <div class="copy-area" id="survey-text" onclick="selectAllText(this)">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
       DRIVER QUESTIONNAIRE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -46,5 +46,6 @@ age or generational marker:
   send to: alejandra@hotwheelsandhighheels.com
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   </div>
+  <p style="text-align: center; font-size: 9pt; opacity: 0.5;">✦ click, copy, paste ✦</p>
 
 </div>

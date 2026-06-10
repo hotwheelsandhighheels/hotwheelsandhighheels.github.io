@@ -12,7 +12,7 @@ sitemap: false
 
   <hr>
 
-  <div class="copy-area" id="survey-text">
+  <div class="copy-area" id="survey-text" onclick="selectAllText(this)">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
       BULLETIN SURVEY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -60,6 +60,6 @@ age or generational marker:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   </div>
 
-  <p style="text-align: center; font-size: 9pt; opacity: 0.5;">✦ click the box, copy, paste ✦</p>
+  <p style="text-align: center; font-size: 9pt; opacity: 0.5;">✦ click, copy, paste ✦</p>
 
 </div>

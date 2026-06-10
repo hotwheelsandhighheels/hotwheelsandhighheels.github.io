@@ -2179,6 +2179,7 @@ audio:hover {
     font-family: 'Courier New', monospace;
     font-size: 10pt;
     color: var(--text);
+    cursor: url('/assets/svg/cursor.svg') 8 2, auto;
   }
 /* ============================================
    23. SECRET ✦ LINKS (SURVEYS, EASTER EGGS)
