@@ -1062,6 +1062,7 @@ audio:hover {
 .tag-quote.tag-creativity { border-color: var(--theme-creativity); color: var(--theme-creativity); }
 .tag-quote.tag-future { border-color: var(--theme-future); color: var(--theme-future); }
 
+
 .quote-attribution {
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -1107,7 +1108,8 @@ audio:hover {
 .timeline-tag.creativity,
 .timeline-tag.future, 
 .timeline-tag.tech,
-.timeline-tag.culture {
+.timeline-tag.culture,
+.timeline-tag.local {
   display: inline-block;
   font-family: 'Lora', serif;
   font-size: 7pt;
@@ -1127,6 +1129,7 @@ audio:hover {
 .timeline-tag.creativity { background: rgba(127, 255, 212, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(127, 255, 212, 0.25); }
 .timeline-tag.future { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
 .timeline-tag.culture { background: rgba(255, 143, 207, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(255, 143, 207, 0.25);}
+.timeline-tag.local { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
 
 /* ============================================
    12. WIKI PAGE (LEGACY)
@@ -1731,6 +1734,7 @@ audio:hover {
 .timeline-tag.culture { background: rgba(255, 143, 207, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(255, 143, 207, 0.25); }
 .timeline-tag.economics { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
 .timeline-tag.local { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
+
 
 .timeline-clear {
   clear: both;

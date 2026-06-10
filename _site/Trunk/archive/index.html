@@ -89,29 +89,41 @@ function toggleMenu() {
 
 <h2 id="platform-life">Platform Life</h2>
 
-<p><em>1 artifact collected</em></p>
+<p><em>5 artifacts collected</em></p>
 
 <p><em>How people actually used the tools — Siri answers, Snapchat screenshots, status updates, away messages, direct messages, search histories. The platform as lived experience.</em></p>
 
 <div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="siri-slideshow" data-current="1" data-total="1">
-      <div class="artifact-slide active">
+    <div class="artifact-slideshow" id="platform-life-slideshow" data-current="1" data-total="5">
+      <div class="artifact-slide active" data-title="Siri Tries to Parse the Unconscious" data-origin="hw-screenshot" data-date="07-07-2014" data-context="My phone summoned Siri without me knowing — I wasn't looking at it or talking to it. What it heard was a string of half-words, fragments, something between language and noise. I screenshotted it because it was funny that Siri was summoned by accident, and funnier that this is what it thought I said." data-significance="Evidence of the accidental AI interaction — the machine listening when we don't know it's listening, trying to make sense of input that wasn't meant for it. The comedy of Siri saying &quot;Sorry, Alejandra… can you try that again in fewer words?&quot; to a pocketful of gibberish captures something about how we live with these assistants: always listening, often confused." data-tags="Platform Life,Web">
         <img src="/assets/archive/platform-life/hw-screenshot-siri.PNG" alt="Screenshot of Siri responding to garbled input" />
       </div>
-      <!-- Add more artifact-slide divs here for additional images -->
+      <div class="artifact-slide" data-title="A Conversation Without Text" data-origin="hw-screenshot" data-date="03-03-2023" data-context="An entire conversation with my best friend, conducted exclusively through audio messages on iMessage. No text. Just voice notes, back and forth, like voicemail without the phone call." data-significance="Evidence of how platform features shape intimacy. Audio messages occupy a space between a phone call and a text — more presence than words, less pressure than a live conversation. The choice to communicate this way, for an entire exchange, shows how the medium becomes the relationship." data-tags="Platform Life,Intimacy">
+        <img src="/assets/archive/platform-life/hw-screenshot-audiomessages.PNG" alt="Screenshot of an iMessage conversation conducted entirely through audio messages between the contributor and their best friend" />
+      </div>
+      <div class="artifact-slide" data-title="The QR Code That Found Everyone" data-origin="hw-screenshot" data-date="05-17-2016" data-context="I don't remember why I saved this. It was one of those new features — instead of searching for someone, you could scan their code. I'm not sure who did it first, but now every app has one." data-significance="Evidence of invisible infrastructure. The QR code friend-find became so standard it's no longer notable — but someone had to save a screenshot of it once, when it was new. A record of the moment a platform feature stopped being a feature and started being assumed." data-tags="Platform Life,Web">
+        <img src="/assets/archive/platform-life/hw-screenshot-fbcode.PNG" alt="Screenshot of a Facebook QR code feature for finding friends" />
+      </div>
+      <div class="artifact-slide" data-title="Your High Score Is Content Now" data-origin="hw-screenshot" data-date="undated" data-context="A screenshot of the Angry Birds app showing a new high score. I'm not sure if it was mine or my kid's. There's a &quot;Connect to FB&quot; button to play with friends — the game wanted my social graph." data-significance="Evidence of the moment mobile games and social platforms fused. Your high score wasn't private achievement anymore — it was content for the feed. The incentive to connect your social media account turned gameplay into performance and solitary entertainment into networked identity." data-tags="Platform Life,Web">
+        <img src="/assets/archive/platform-life/hw-screenshot-angrybirds.PNG" alt="Screenshot of Angry Birds game showing a new high score and a Connect to Facebook button to play with friends" />
+      </div>
+      <div class="artifact-slide" data-title="The Bench That Exists to Be Photographed" data-origin="hw-screenshot" data-date="12-13-2024" data-context="I was in Mexico and came across a kissing bench — a bench with two potted plants and a sign reading &quot;bésame en esta esquina,&quot; kiss me on this corner. A couple younger than me sat on the bench and took a picture. They didn't kiss. I texted my best friend about it." data-significance="Evidence of how platforms shape behavior before the photo is even taken. The bench exists to be Instagrammed. The younger couple curated their image — sitting on the kissing bench, framing the shot — but skipped the kiss. The performance replaced the act. The platform was always the intended audience." data-tags="Platform Life,Identity">
+        <img src="/assets/archive/platform-life/hw-screenshot-kissingbench.jpeg" alt="Screenshot of a text message about a kissing bench in Mexico. The bench has two potted plants and a sign reading bésame en esta esquina. A younger couple sat on it and took photos but didn't kiss." />
+      </div>
     </div>
-    <!-- Controls only appear if more than one slide -->
+    <div class="artifact-slideshow-controls" id="platform-life-controls">
+      <button class="slide-btn" onclick="changeArtifactSlide('platform-life-slideshow', -1)">&#8592;</button>
+      <span class="slide-count"><span id="platform-life-current">1</span> / <span id="platform-life-total">5</span></span>
+      <button class="slide-btn" onclick="changeArtifactSlide('platform-life-slideshow', 1)">&#8594;</button>
+    </div>
   </div>
-  <div class="artifact-context">
-    <h3>Siri Tries to Parse the Unconscious</h3>
-    <p class="artifact-description"><strong>Origin:</strong> hw-screenshot &nbsp;·&nbsp; <strong>Date:</strong> 07-07-2014</p>
-    <p class="artifact-description"><strong>Context:</strong> My phone summoned Siri without me knowing — I wasn't looking at it or talking to it. What it heard was a string of half-words, fragments, something between language and noise. I screenshotted it because it was funny that Siri was summoned by accident, and funnier that this is what it thought I said.</p>
-    <p class="artifact-significance"><strong>Significance:</strong> Evidence of the accidental AI interaction — the machine listening when we don't know it's listening, trying to make sense of input that wasn't meant for it. The comedy of Siri saying "Sorry, Alejandra… can you try that again in fewer words?" to a pocketful of gibberish captures something about how we live with these assistants: always listening, often confused.</p>
-    <div class="artifact-meta">
-      <span class="timeline-tag tech">Platform Life</span>
-      <span class="timeline-tag web">Web</span>
-    </div>
+  <div class="artifact-context" id="platform-life-context">
+    <h3 id="platform-life-title"></h3>
+    <p class="artifact-description"><strong>Origin:</strong> <span id="platform-life-origin"></span> &nbsp;·&nbsp; <strong>Date:</strong> <span id="platform-life-date"></span></p>
+    <p class="artifact-description"><strong>Context:</strong> <span id="platform-life-context-text"></span></p>
+    <p class="artifact-significance"><strong>Significance:</strong> <span id="platform-life-significance"></span></p>
+    <div class="artifact-meta" id="platform-life-tags"></div>
   </div>
 </div>
 
@@ -123,12 +135,13 @@ function toggleMenu() {
 
 <h2 id="viral-language">Viral Language</h2>
 
-<p><em>3 artifacts collected</em></p>
+<p><em>6 artifacts collected</em></p>
 
 <p><em>Memes, reaction structures, phrase templates, intertextual humor. The linguistic DNA of the internet — mutable, remixable, shared.</em></p>
 
-<div class="artifact-media">
-    <div class="artifact-slideshow" id="viral-language-slideshow" data-current="1" data-total="3">
+<div class="artifact">
+  <div class="artifact-media">
+    <div class="artifact-slideshow" id="viral-language-slideshow" data-current="1" data-total="6">
       <div class="artifact-slide active" data-title="All this water but you still thirsty" data-origin="hw-screenshot" data-date="04-01-2014" data-context="My sibling sent me a snap of three full 5-gallon water bottles. The text read, &quot;All this water but you still thirsty.&quot; I screenshotted it immediately — it was funny, but also exactly how the internet turned everyday objects into emotional statements." data-significance="Evidence of the &quot;All this ___ but you still ___&quot; meme template — tangible objects standing in for intangible feelings. Shows how viral language structures personal communication, even between siblings." data-tags="Viral Language,Intimacy,Web">
         <img src="/assets/archive/viral-language/hw-screenshot-stillthirsty.PNG" alt="Screenshot of a Snapchat message showing three full 5-gallon water bottles with text reading 'All this water but you still thirsty.'" />
       </div>
@@ -138,21 +151,30 @@ function toggleMenu() {
       <div class="artifact-slide" data-title="When ur hotline bling but it aint the person u wanted" data-origin="web-screenshot" data-date="10-25-2015" data-context="A still from Drake's Hotline Bling video became one of the most durable reaction meme formats of the 2010s. This version pairs the image with classic top-text/bottom-text structure." data-significance="Evidence of the reaction meme as a communication tool. The still image + text structure turns a music video frame into a reusable emotional shorthand." data-tags="Viral Language,Web">
         <img src="/assets/archive/viral-language/web-meme-drake.JPG" alt="Drake reaction meme from Hotline Bling video. His expression signals yikes. Text reads 'When ur hotline bling but it aint the person u wanted.'" />
       </div>
+      <div class="artifact-slide" data-title="Millennials Be Like: Zillow Dreams" data-origin="hw-meme" data-date="07-26-2023" data-context="A meme I made in the &quot;___ be like ___&quot; format. The image is a still from the 1997 film Selena — she's on the roof, looking up at the moon. Her sister asks what she's doing and she replies, &quot;I'm looking up at the moon and I'm dreaming.&quot; In the meme, the text reads: &quot;Millennials be like: I'm looking up Zillow listings &amp; I'm dreaming…&quot;" data-significance="Evidence of meme intertextuality as economic commentary. The Selena scene is a wish-on-a-star moment about dreaming of the future. Repurposed for millennials, the dream isn't fame or love — it's homeownership. The absurdity of Zillow as fantasy material captures the economic precarity that defines the epoch." data-tags="Viral Language,Economics">
+        <img src="/assets/archive/viral-language/hw-selena-meme.jpeg" alt="Meme in the '___ be like ___' format. Text reads 'Millennials be like: I'm looking up Zillow listings &amp; I'm dreaming…' over a still from the 1997 film Selena showing Selena on a roof looking at the moon" />
+      </div>
+      <div class="artifact-slide" data-title="Intrusive Thoughts, Kardashian Reaction" data-origin="web-meme" data-date="10-05-2017" data-context="A meme in classic top-text/bottom-text structure. Three frames from Keeping Up with the Kardashians show Kim and Khloé staring blankly ahead. The text reads: &quot;when im having a good time and intrusive thoughts happen.&quot;" data-significance="Evidence of how memes were used to express mental health experiences through pop culture detachment. The Kardashians' blank stare becomes a stand-in for the dissociative moment when intrusive thoughts interrupt joy. Heavy feeling, absurd image, permissible expression." data-tags="Viral Language,Intimacy">
+        <img src="/assets/archive/viral-language/Web-meme-intrusivethoughts.jpeg" alt="Classic meme structure using three frames of Kim and Khloé Kardashian staring blankly. Text reads 'when im having a good time and intrusive thoughts happen'" />
+      </div>
+      <div class="artifact-slide" data-title="Well Now I Am Not Doing It" data-origin="web-meme" data-date="01-04-2019" data-context="A meme in classic structure. The setup text reads: &quot;me: ugh i want to kill myself, demons: kill yourself, me:&quot; and the image — Pingu the penguin sitting with arms crossed and a frown — reads: &quot;well now i am not doing it.&quot;" data-significance="Evidence of how memes transformed heavy mental health feelings into shareable dark humor. Pingu's petulant refusal becomes a survival mechanism — spite as life-preserving instinct. The format makes the unsayable sayable through absurdity." data-tags="Viral Language,Intimacy">
+        <img src="/assets/archive/viral-language/Web-meme-pingu.jpeg" alt="Meme of Pingu the penguin sitting with arms crossed and a frown. Text reads 'me: ugh i want to kill myself, demons: kill yourself, me:' and the image text reads 'well now i am not doing it'" />
+      </div>
     </div>
     <div class="artifact-slideshow-controls" id="viral-language-controls">
       <button class="slide-btn" onclick="changeArtifactSlide('viral-language-slideshow', -1)">&#8592;</button>
-      <span class="slide-count"><span id="viral-language-current">1</span> / <span id="viral-language-total">3</span></span>
+      <span class="slide-count"><span id="viral-language-current">1</span> / <span id="viral-language-total">6</span></span>
       <button class="slide-btn" onclick="changeArtifactSlide('viral-language-slideshow', 1)">&#8594;</button>
     </div>
   </div>
-
-<div class="artifact-context" id="viral-language-context">
+  <div class="artifact-context" id="viral-language-context">
     <h3 id="viral-language-title"></h3>
     <p class="artifact-description"><strong>Origin:</strong> <span id="viral-language-origin"></span> &nbsp;·&nbsp; <strong>Date:</strong> <span id="viral-language-date"></span></p>
     <p class="artifact-description"><strong>Context:</strong> <span id="viral-language-context-text"></span></p>
     <p class="artifact-significance"><strong>Significance:</strong> <span id="viral-language-significance"></span></p>
     <div class="artifact-meta" id="viral-language-tags"></div>
   </div>
+</div>
 
 <hr />
 
@@ -162,29 +184,32 @@ function toggleMenu() {
 
 <h2 id="parasocial-reality">Parasocial Reality</h2>
 
-<p><em>1 artifact collected</em></p>
+<p><em>2 artifacts collected</em></p>
 
 <p><em>The collapse of distance between celebrity and fan. Instagram announcements, Tumblr asks, quote tweets, fourth-wall breaks. The new relationship between the famous and the audience — closer than ever, further than ever.</em></p>
 
 <div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="parasocial-slideshow" data-current="1" data-total="1">
-      <div class="artifact-slide active">
+    <div class="artifact-slideshow" id="parasocial-slideshow" data-current="1" data-total="2">
+      <div class="artifact-slide active" data-title="Lauren Graham Announces the Gilmore Girls Reboot" data-origin="web-screenshot" data-date="2016" data-context="When Netflix revived Gilmore Girls, the announcement didn't come through traditional channels — Lauren Graham posted it directly to Instagram. For fans, it felt like being told personally by a friend. Gilmore Girls was already a defining millennial show; the reboot proved nostalgia had become an industry." data-significance="Evidence of the parasocial relationship between celebrities and fans in the platform era. The Instagram announcement collapses distance — it's direct, personal, and also completely public. The contradiction: celebrities feel closer and more valuable at the same time. The mode of announcement bypasses traditional media entirely; the celebrity is now their own press release." data-tags="Parasocial Reality,Nostalgia Economy">
         <img src="/assets/archive/parasocial/web-screenshot-laurengraham.png" alt="Screenshot of Lauren Graham's Instagram post announcing the Gilmore Girls reboot" />
       </div>
-      <!-- Add more artifact-slide divs here for additional images -->
+      <div class="artifact-slide" data-title="This Beyoncé Mug" data-origin="hw-screenshot" data-date="04-10-2018" data-context="A screenshot of my sibling's Instagram story. She found a large handmade ceramic mug at a thrift store shaped like a watermelon half — the inside painted pinkish-red with black seeds, the text reading &quot;I've been drinkin…&quot; — a reference to the Beyoncé song &quot;Drunk in Love.&quot; My sibling's caption reads: &quot;Ya'll! This beyonce mug.&quot;" data-significance="Evidence of the collapsed distance between global celebrity and local object. Beyoncé is in the thrift store. A handmade mug, probably one of a kind, accidentally referencing a song that millions know. The caption doesn't say &quot;a mug that references Beyoncé&quot; — it says &quot;this Beyoncé mug.&quot; The celebrity is the object now. The parasocial relationship is so complete it doesn't need explaining." data-tags="Parasocial Reality,Identity">
+        <img src="/assets/archive/parasocial/hw-screenshot-watermelonmug.PNG" alt="Screenshot of an Instagram story showing a handmade ceramic mug shaped like a watermelon half. The inside is painted pink with black seeds and reads 'I've been drinkin…' The caption reads 'Ya'll! This beyonce mug'" />
+      </div>
     </div>
-    <!-- Controls only appear if more than one slide -->
+    <div class="artifact-slideshow-controls" id="parasocial-controls">
+      <button class="slide-btn" onclick="changeArtifactSlide('parasocial-slideshow', -1)">&#8592;</button>
+      <span class="slide-count"><span id="parasocial-current">1</span> / <span id="parasocial-total">2</span></span>
+      <button class="slide-btn" onclick="changeArtifactSlide('parasocial-slideshow', 1)">&#8594;</button>
+    </div>
   </div>
-  <div class="artifact-context">
-    <h3>Lauren Graham Announces the Gilmore Girls Reboot</h3>
-    <p class="artifact-description"><strong>Origin:</strong> web-screenshot &nbsp;·&nbsp; <strong>Date:</strong> 2016</p>
-    <p class="artifact-description"><strong>Context:</strong> When Netflix revived Gilmore Girls, the announcement didn't come through traditional channels — Lauren Graham posted it directly to Instagram. For fans, it felt like being told personally by a friend. Gilmore Girls was already a defining millennial show; the reboot proved nostalgia had become an industry.</p>
-    <p class="artifact-significance"><strong>Significance:</strong> Evidence of the parasocial relationship between celebrities and fans in the platform era. The Instagram announcement collapses distance — it's direct, personal, and also completely public. The contradiction: celebrities feel closer and more valuable at the same time. The mode of announcement bypasses traditional media entirely; the celebrity is now their own press release.</p>
-    <div class="artifact-meta">
-      <span class="timeline-tag culture">Parasocial Reality</span>
-      <span class="timeline-tag future">Nostalgia Economy</span>
-    </div>
+  <div class="artifact-context" id="parasocial-context">
+    <h3 id="parasocial-title"></h3>
+    <p class="artifact-description"><strong>Origin:</strong> <span id="parasocial-origin"></span> &nbsp;·&nbsp; <strong>Date:</strong> <span id="parasocial-date"></span></p>
+    <p class="artifact-description"><strong>Context:</strong> <span id="parasocial-context-text"></span></p>
+    <p class="artifact-significance"><strong>Significance:</strong> <span id="parasocial-significance"></span></p>
+    <div class="artifact-meta" id="parasocial-tags"></div>
   </div>
 </div>
 
@@ -200,9 +225,26 @@ function toggleMenu() {
 
 <h2 id="digital-debris">Digital Debris</h2>
 
-<p><em>0 artifacts collected</em></p>
+<p><em>1 artifact collected</em></p>
 
 <p><em><a href="/survey-graveyard/" class="secret-link">✦</a> Defunct websites, dead platforms, error screens, broken links, forgotten logins. The remnants of an earlier internet that still haunt the present.</em></p>
+
+<div class="artifact">
+  <div class="artifact-media">
+    <div class="artifact-slideshow" id="digital-debris-slideshow" data-current="1" data-total="1">
+      <div class="artifact-slide active" data-title="Gentrys Tried to Talk to Me" data-origin="hw-screenshot" data-date="06-22-2017" data-context="A screenshot of my sibling's Instagram story, location-tagged Barrio Logan — the San Diego neighborhood we're from. The photo shows a latte in a to-go cup with the Cafe Moto label, sitting on top of what looks like a page from the San Diego City Beat or the San Diego Reader — free local magazines we used to pick up at shops. The City Beat has been out of print for a while. I'm not sure if the Reader is still around — I haven't seen it. I used to get one every Thursday. My sibling's caption reads: &quot;Gentrys tried to talk to me 🙅🏽‍♀️&quot;" data-significance="Evidence of layered loss. The free local magazines — physical internet before the internet ate everything — are gone or disappearing. Barrio Logan, our neighborhood, has become a tourist destination. One of the best cafes in San Diego now has lines out the door. The latte in the photo is from before it got popular. The caption is resistance phrased as a joke. But the magazines aren't coming back, and neither is the neighborhood that didn't have lines." data-tags="Digital Debris,Loss,Place">
+        <img src="/assets/archive/digital-debris/hw-screenshot-gentrys.PNG" alt="Screenshot of an Instagram story from Barrio Logan, San Diego. A latte in a to-go cup with a Cafe Moto label sits on top of what appears to be a San Diego City Beat or Reader page. The caption reads 'Gentrys tried to talk to me 🙅🏽‍♀️'" />
+      </div>
+    </div>
+  </div>
+  <div class="artifact-context" id="digital-debris-context">
+    <h3 id="digital-debris-title"></h3>
+    <p class="artifact-description"><strong>Origin:</strong> <span id="digital-debris-origin"></span> &nbsp;·&nbsp; <strong>Date:</strong> <span id="digital-debris-date"></span></p>
+    <p class="artifact-description"><strong>Context:</strong> <span id="digital-debris-context-text"></span></p>
+    <p class="artifact-significance"><strong>Significance:</strong> <span id="digital-debris-significance"></span></p>
+    <div class="artifact-meta" id="digital-debris-tags"></div>
+  </div>
+</div>
 
 <hr />
 
@@ -211,11 +253,6 @@ function toggleMenu() {
 <p><em>42 artifacts collected</em></p>
 
 <p><em>Statements from literary publications and others on AI-generated content. A case study in how the epoch responds to its own emerging technology.</em></p>
-
-<!-- ============================================
-     INSERT EXISTING SLIDESHOW HTML HERE
-     Keep all 42 slides + the JS exactly as-is
-     ============================================ -->
 
 <!-- SLIDESHOW -->
 <div class="slideshow" id="slideshow" data-current="1" data-total="42">
@@ -423,20 +460,13 @@ function changeSlide(direction) {
 </div>
 
 <script>
-function updateViralLanguageMetadata() {
-  const slideshow = document.getElementById('viral-language-slideshow');
-  const activeSlide = slideshow.querySelector('.artifact-slide.active');
-  if (!activeSlide) return;
-  
-  document.getElementById('viral-language-title').textContent = activeSlide.getAttribute('data-title');
-  document.getElementById('viral-language-origin').textContent = activeSlide.getAttribute('data-origin');
-  document.getElementById('viral-language-date').textContent = activeSlide.getAttribute('data-date');
-  document.getElementById('viral-language-context-text').textContent = activeSlide.getAttribute('data-context');
-  document.getElementById('viral-language-significance').textContent = activeSlide.getAttribute('data-significance');
-  
-const tags = activeSlide.getAttribute('data-tags').split(',');
-const tagsContainer = document.getElementById('viral-language-tags');
-tagsContainer.innerHTML = '';
+// ============================================
+// ARTIFACT SLIDESHOW — shared metadata updater
+// Works for: platform-life, viral-language, parasocial, digital-debris
+// Each slideshow needs a matching context section with IDs:
+//   [section]-title, [section]-origin, [section]-date,
+//   [section]-context-text, [section]-significance, [section]-tags
+// ============================================
 
 const tagMap = {
   'Place': 'place',
@@ -448,6 +478,8 @@ const tagMap = {
   'Future': 'future',
   'Viral Language': 'culture',
   'Platform Life': 'tech',
+  'Parasocial Reality': 'culture',
+  'Digital Debris': 'local',
   'Nostalgia Economy': 'future',
   'AI': 'tech',
   'Technology': 'tech',
@@ -456,18 +488,42 @@ const tagMap = {
   'Local Memory': 'local'
 };
 
-tags.forEach(tag => {
-  const span = document.createElement('span');
-  const trimmed = tag.trim();
-  const mappedClass = tagMap[trimmed] || 'culture';
-  span.className = `timeline-tag ${mappedClass}`;
-  span.textContent = trimmed;
-  tagsContainer.appendChild(span);
-});
+function updateArtifactMetadata(sectionId) {
+  const slideshow = document.getElementById(sectionId + '-slideshow');
+  if (!slideshow) return;
+  const activeSlide = slideshow.querySelector('.artifact-slide.active');
+  if (!activeSlide) return;
+  
+  const titleEl = document.getElementById(sectionId + '-title');
+  const originEl = document.getElementById(sectionId + '-origin');
+  const dateEl = document.getElementById(sectionId + '-date');
+  const contextEl = document.getElementById(sectionId + '-context-text');
+  const significanceEl = document.getElementById(sectionId + '-significance');
+  const tagsEl = document.getElementById(sectionId + '-tags');
+  
+  if (titleEl) titleEl.textContent = activeSlide.getAttribute('data-title');
+  if (originEl) originEl.textContent = activeSlide.getAttribute('data-origin');
+  if (dateEl) dateEl.textContent = activeSlide.getAttribute('data-date');
+  if (contextEl) contextEl.textContent = activeSlide.getAttribute('data-context');
+  if (significanceEl) significanceEl.textContent = activeSlide.getAttribute('data-significance');
+  
+  if (tagsEl) {
+    const tags = activeSlide.getAttribute('data-tags').split(',');
+    tagsEl.innerHTML = '';
+    tags.forEach(tag => {
+      const span = document.createElement('span');
+      const trimmed = tag.trim();
+      const mappedClass = tagMap[trimmed] || 'culture';
+      span.className = `timeline-tag ${mappedClass}`;
+      span.textContent = trimmed;
+      tagsEl.appendChild(span);
+    });
+  }
 }
 
 function changeArtifactSlide(slideshowId, direction) {
   const slideshow = document.getElementById(slideshowId);
+  if (!slideshow) return;
   const allSlides = slideshow.querySelectorAll('.artifact-slide');
   let current = parseInt(slideshow.getAttribute('data-current'));
   
@@ -482,14 +538,22 @@ function changeArtifactSlide(slideshowId, direction) {
   const counterEl = document.getElementById(counterId);
   if (counterEl) counterEl.textContent = current;
   
-  updateViralLanguageMetadata();
+  // Extract section ID from slideshow ID (e.g. "platform-life-slideshow" → "platform-life")
+  const sectionId = slideshowId.replace('-slideshow', '');
+  updateArtifactMetadata(sectionId);
 }
 
-// Initialize on page load
+// Initialize all artifact slideshows on page load
 document.addEventListener('DOMContentLoaded', function() {
-  const totalSlides = document.querySelectorAll('#viral-language-slideshow .artifact-slide').length;
-  document.getElementById('viral-language-total').textContent = totalSlides;
-  updateViralLanguageMetadata();
+  const sections = ['platform-life', 'viral-language', 'parasocial', 'digital-debris'];
+  sections.forEach(function(sectionId) {
+    const slideshow = document.getElementById(sectionId + '-slideshow');
+    if (!slideshow) return;
+    const totalSlides = slideshow.querySelectorAll('.artifact-slide').length;
+    const totalEl = document.getElementById(sectionId + '-total');
+    if (totalEl) totalEl.textContent = totalSlides;
+    updateArtifactMetadata(sectionId);
+  });
 });
 </script>
 
