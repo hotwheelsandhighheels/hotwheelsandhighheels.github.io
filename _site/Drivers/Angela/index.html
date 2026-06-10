@@ -273,15 +273,6 @@ function toggleMenu() {
   <span class="lightbox-close">close</span>
   <img src="/assets/drivers/Angela_Cover.JPG" alt="A cropped photo of a blue Chevy lowrider with a woman leaning against it. You can see the lower, driver's side half of the front bumper, headlight, and front wheel. The woman poses with one leg bent as if to show off her heels. The heels are open-toed, strapped, and golden." />
 </div>
-<script>
-function openLightbox() {
-  document.getElementById('lightbox').classList.add('open');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-}
-</script>
-
 
     </main>
     </div>
@@ -321,6 +312,16 @@ function toggleInterests(el) {
     container.classList.toggle('open');
   }
 }
+  // LIGHTBOX FUNCTIONS — now in layout instead of each page
+  function openLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) lightbox.classList.add('open');
+  }
+
+  function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) lightbox.classList.remove('open');
+  }
 </script>
   </body>
 </html>

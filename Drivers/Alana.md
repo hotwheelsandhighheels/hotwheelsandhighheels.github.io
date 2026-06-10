@@ -242,11 +242,3 @@ Alana
   <span class="lightbox-close">close</span>
   <img src="/assets/drivers/Alana_Cover.jpeg" alt="A recreated photo of Hot Wheels & High Heels' banner. Alana Rodriguez sits outside on a stoop. Visible in the frame are her hands holding a cell phone, her long hair, an iced latte, and her sneakers. On one shoe, the laces hold a City of Chula Vista pendant.">
 </div>
-<script>
-function openLightbox() {
-  document.getElementById('lightbox').classList.add('open');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-}
-</script>

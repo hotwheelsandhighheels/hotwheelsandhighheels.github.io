@@ -218,11 +218,4 @@ Dear baby San Diego. Do you remember the Drive-in? Do you remember Marshal Scott
   <span class="lightbox-close">close</span>
   <img src="/assets/drivers/Jon_Cover.jpg" alt="A recreated photo of Hot Wheels & High Heels' banner. A cropped view of Jon Tobias reading a book on the toilet with a mug on the ground in front of him. He is wearing blue briefs with bananas printed on them. He has colorful sneakers with pink laces. The book he is reading is by CA CONRAD.">
 </div>
-<script>
-function openLightbox() {
-  document.getElementById('lightbox').classList.add('open');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-}
-</script>
+

@@ -253,15 +253,6 @@ function toggleMenu() {
   <span class="lightbox-close">close</span>
   <img src="/assets/drivers/Sam_Cover.jpg" alt="A blurry photo taken from a vehicle. The outline of the vehicle's window is visible in the frame. The view captures a coral sunset above a small shopping center. The location markers are blurred, the only text legible is DELI." />
 </div>
-<script>
-function openLightbox() {
-  document.getElementById('lightbox').classList.add('open');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-}
-</script>
-
 
     </main>
     </div>
@@ -301,6 +292,16 @@ function toggleInterests(el) {
     container.classList.toggle('open');
   }
 }
+  // LIGHTBOX FUNCTIONS — now in layout instead of each page
+  function openLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) lightbox.classList.add('open');
+  }
+
+  function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) lightbox.classList.remove('open');
+  }
 </script>
   </body>
 </html>

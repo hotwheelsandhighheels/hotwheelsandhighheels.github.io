@@ -183,11 +183,3 @@ I see it more as a personal exploration, but I'm really delighted when readers c
   <span class="lightbox-close">close</span>
   <img src="/assets/drivers/Sam_Cover.jpg" alt="A blurry photo taken from a vehicle. The outline of the vehicle's window is visible in the frame. The view captures a coral sunset above a small shopping center. The location markers are blurred, the only text legible is DELI.">
 </div>
-<script>
-function openLightbox() {
-  document.getElementById('lightbox').classList.add('open');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-}
-</script>

@@ -163,11 +163,3 @@ Answer goes here.
   <span class="lightbox-close">close</span>
   <img src="" alt="cover photo">
 </div>
-<script>
-function openLightbox() {
-  document.getElementById('lightbox').classList.add('open');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-}
-</script>

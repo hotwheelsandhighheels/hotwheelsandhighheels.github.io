@@ -240,11 +240,3 @@ To the letter of my childhood San Diego, I say thank you. I wouldn't be who I am
   <span class="lightbox-close">close</span>
   <img src="/assets/drivers/A-benet_cover.jpg" alt="A recreated photo of Hot Wheels & High Heels' banner. a.benét's hands holding a cell phone between her knees with both hands. The cell phone is in camera mode. There is a leopard-print bag on the ground next to a green mug with coffee in it. The bag is open and shows a pencil case and notebook. a.benét wears a jean jacket, gold jewelry, black pants and Nikes.">
 </div>
-<script>
-function openLightbox() {
-  document.getElementById('lightbox').classList.add('open');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-}
-</script>

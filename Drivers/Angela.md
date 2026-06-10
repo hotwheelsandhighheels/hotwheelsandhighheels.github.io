@@ -203,11 +203,3 @@ I love in Spanish. I love like my mami. Filled with fire and rage and sadness an
   <span class="lightbox-close">close</span>
   <img src="/assets/drivers/Angela_Cover.JPG" alt="A cropped photo of a blue Chevy lowrider with a woman leaning against it. You can see the lower, driver's side half of the front bumper, headlight, and front wheel. The woman poses with one leg bent as if to show off her heels. The heels are open-toed, strapped, and golden.">
 </div>
-<script>
-function openLightbox() {
-  document.getElementById('lightbox').classList.add('open');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-}
-</script>

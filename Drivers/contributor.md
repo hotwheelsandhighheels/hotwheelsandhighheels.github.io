@@ -131,11 +131,3 @@ or a blank line between stanzas.
   <img src="/assets/drivers/FIRSTNAME_Cover.jpg" alt="DESCRIBE THE COVER PHOTO">
 </div>
 
-<script>
-function openLightbox() {
-  document.getElementById('lightbox').classList.add('open');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-}
-</script>
