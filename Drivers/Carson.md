@@ -60,7 +60,6 @@ published: false
 </div>
 
 <hr>
----
 
 # A Poem by Carson Sandell
 
