@@ -1812,6 +1812,19 @@ audio:hover {
   h2 { font-size: 18pt; }
   a { font-size: 10pt; }
 
+  /* --- ABOUT & TRUNK H1 — bigger on mobile --- */
+  .about-page h1,
+  .trunk-page h1 {
+    font-size: 28pt;
+  }
+
+  /* --- SURVEY H1 — smaller on mobile --- */
+  .survey-container h1 {
+    font-size: 24pt;
+  }
+
+  /* rest of your mobile styles... */
+
   .container ul:not(.a-list), .container ol, .wiki-page ul:not(.a-list), .wiki-page ol {
     font-size: 10pt;
   }
@@ -1878,13 +1891,13 @@ audio:hover {
     min-height: 400px;
   }
 
-.connection-node {
-  padding: 8px 12px;
-  max-width: 140px;        /* prevents overflow */
-  white-space: nowrap;     /* keeps text on one line */
-  overflow: hidden;
-  text-overflow: ellipsis; /* adds "..." when truncated */
-}
+  .connection-node {
+    padding: 8px 12px;
+    max-width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
   .connection-node h3 {
     font-size: 11pt;
@@ -1943,6 +1956,7 @@ audio:hover {
   .timeline-entry p {
     font-size: 10pt;
   }
+
   /* --- double perspective --- */
   .double-perspective-table {
     font-size: 9pt;
