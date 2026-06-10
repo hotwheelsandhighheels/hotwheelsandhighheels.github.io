@@ -1815,7 +1815,8 @@ audio:hover {
 /* --- ABOUT & TRUNK H1 — bigger on mobile --- */
 .about-page,
 .trunk-page {
-  font-size: 60pt;
+  font-size: 40pt;
+  text-align: center;
 }
 
   /* --- SURVEY H1 — smaller on mobile --- */
