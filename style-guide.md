@@ -151,6 +151,8 @@ This is a paragraph in Lora light. _This is italic._ **This is bold.** This is a
      Clickable link that opens cover photo full screen.
      Usage: copy this entire block to the bottom of a contributor post.
      Change the img src and alt for each contributor.
+     The lightbox functions (openLightbox, closeLightbox) are in _layouts/post.html
+     so you do NOT need to include a <script> block on each page.
      ============================================ -->
 
 ## Cover Photo Lightbox
@@ -161,15 +163,6 @@ This is a paragraph in Lora light. _This is italic._ **This is bold.** This is a
   <span class="lightbox-close">close</span>
   <img src="/assets/drivers/Jon_Cover.jpg" alt="Jon Tobias cover photo">
 </div>
-
-<script>
-function openLightbox() {
-  document.getElementById('lightbox').classList.add('open');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-}
-</script>
 
 ---
 
@@ -206,27 +199,24 @@ function closeLightbox() {
     </a>
   </p>
 </form>
+
+---
+
 <!-- ============================================
      ACCORDION
+     For expandable/collapsible content sections.
+     Usage: copy this block. Change the button text for the title.
+     Put your content inside the accordion-content div.
+     The toggleAccordion function is in default.html and post.html layouts.
      ============================================ -->
-
-***
 
 ## Accordion
 
 <div class="accordion">
-  <button class="accordion-header" onclick="toggleAccordion(this)">
+  <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-example">
     Section Title <span class="accordion-icon">+</span>
   </button>
-  <div class="accordion-content">
+  <div class="accordion-content" id="accordion-example">
     <p>Content goes here. Can be any HTML — paragraphs, lists, images, whatever.</p>
   </div>
 </div>
-<script>
-function toggleAccordion(header) {
-  const content = header.nextElementSibling;
-  const icon = header.querySelector('.accordion-icon');
-  content.classList.toggle('open');
-  icon.textContent = content.classList.contains('open') ? '−' : '+';
-}
-</script>

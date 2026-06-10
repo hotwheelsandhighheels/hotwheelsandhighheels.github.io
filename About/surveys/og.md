@@ -21,13 +21,13 @@ name / alias:
 location:
 age or generational marker:
 
-1. What are you listening to right now?
+1. What are you listening to?
 → 
 
 2. Last thing you googled?
 → 
 
-3. What's on your nightstand right now?
+3. What's on your nightstand?
 → 
 
 4. What's a smell that instantly takes you back to a specific moment?

@@ -336,15 +336,36 @@ function updateViralLanguageMetadata() {
   document.getElementById('viral-language-context-text').textContent = activeSlide.getAttribute('data-context');
   document.getElementById('viral-language-significance').textContent = activeSlide.getAttribute('data-significance');
   
-  const tags = activeSlide.getAttribute('data-tags').split(',');
-  const tagsContainer = document.getElementById('viral-language-tags');
-  tagsContainer.innerHTML = '';
-  tags.forEach(tag => {
-    const span = document.createElement('span');
-    span.className = 'timeline-tag culture';
-    span.textContent = tag.trim();
-    tagsContainer.appendChild(span);
-  });
+const tags = activeSlide.getAttribute('data-tags').split(',');
+const tagsContainer = document.getElementById('viral-language-tags');
+tagsContainer.innerHTML = '';
+
+const tagMap = {
+  'Place': 'place',
+  'Loss': 'loss',
+  'Intimacy': 'intimacy',
+  'Web': 'web',
+  'Identity': 'identity',
+  'Creativity': 'creativity',
+  'Future': 'future',
+  'Viral Language': 'culture',
+  'Platform Life': 'tech',
+  'Nostalgia Economy': 'future',
+  'AI': 'tech',
+  'Technology': 'tech',
+  'Politics': 'politics',
+  'Economics': 'economics',
+  'Local Memory': 'local'
+};
+
+tags.forEach(tag => {
+  const span = document.createElement('span');
+  const trimmed = tag.trim();
+  const mappedClass = tagMap[trimmed] || 'culture';
+  span.className = `timeline-tag ${mappedClass}`;
+  span.textContent = trimmed;
+  tagsContainer.appendChild(span);
+});
 }
 
 function changeArtifactSlide(slideshowId, direction) {
