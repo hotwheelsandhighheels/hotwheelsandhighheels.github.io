@@ -21,19 +21,19 @@ name / alias:
 location:
 age or generational marker:
 
-1. Tell me about your favorite pair of shoes — past or present. What makes them stick in your memory?
+1. Tell me about your favorite pair of shoes.
 → 
 
-2. Tell me about your favorite car — yours, a dream, or someone else's. What's the story?
+2. Tell me about your favorite car.
 → 
 
-3. What part of your hometown or current city feels like it belongs to you alone?
+3. What part of your hometown or city feels like it belongs to you alone?
 → 
 
 4. Where do you go when you need to feel free?
 → 
 
-5. Tell me about a memory that surprised you — something you forgot you remembered until it came back.
+5. Tell me about a memory that surprised you.
 → 
 
 6. What's a sound that instantly brings you back to a specific moment in your life?
