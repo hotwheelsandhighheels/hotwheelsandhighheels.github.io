@@ -2140,3 +2140,52 @@ audio:hover {
 .interests-table tr:last-child td {
   border-bottom: none;
 }
+/* ============================================
+   22. MYSPACE SURVEYS
+   ============================================ */
+  .survey-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .survey-container h1 {
+    font-size: 48pt;
+    letter-spacing: -2px;
+    text-align: center;
+  }
+  .survey-container hr {
+    margin: 32px 0;
+  }
+  .copy-area {
+    background: rgba(255, 0, 163, 0.05);
+    border: 0.5px solid rgba(163, 0, 255, 0.2);
+    padding: 20px;
+    margin: 32px 0;
+    white-space: pre-wrap;
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    color: var(--text);
+  }
+/* ============================================
+   23. SECRET ✦ LINKS (SURVEYS, EASTER EGGS)
+   ============================================ */
+
+a.secret-link,
+.secret-link {
+  display: inline-block;
+  color: var(--pink) !important;
+  font-size: 12pt;
+  opacity: 0.3;
+  transition: opacity 0.2s ease;
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+  text-decoration: none !important;
+  background: none;
+  border: none;
+}
+
+a.secret-link:hover,
+.secret-link:hover {
+  opacity: 1;
+  text-decoration: none !important;
+  color: var(--pink) !important;
+}
