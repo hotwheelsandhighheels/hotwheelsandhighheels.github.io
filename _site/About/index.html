@@ -164,6 +164,14 @@ Driving really fast on an empty highway with the windows down and the night sky 
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
+
+function selectAllText(element) {
+  var range = document.createRange();
+  var selection = window.getSelection();
+  range.selectNodeContents(element);
+  selection.removeAllRanges();
+  selection.addRange(range);
+}
 </script>
   </body>
 </html>

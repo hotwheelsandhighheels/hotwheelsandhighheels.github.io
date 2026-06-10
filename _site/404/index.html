@@ -81,6 +81,8 @@ function toggleMenu() {
 
 <p><em>Better luck next time foo!</em></p>
 
+<p><a href="/survey-3am/" class="secret-link">✦</a></p>
+
 <p><a href="/">Pop a U-turn</a></p>
 
   </main>
@@ -114,6 +116,14 @@ function toggleMenu() {
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
+
+function selectAllText(element) {
+  var range = document.createRange();
+  var selection = window.getSelection();
+  range.selectNodeContents(element);
+  selection.removeAllRanges();
+  selection.addRange(range);
+}
 </script>
   </body>
 </html>

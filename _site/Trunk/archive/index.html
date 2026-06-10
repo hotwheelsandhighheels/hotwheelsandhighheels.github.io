@@ -156,11 +156,37 @@ function toggleMenu() {
 
 <hr />
 
+<!-- ============================================
+     PARASOCIAL REALITY
+     ============================================ -->
+
 <h2 id="parasocial-reality">Parasocial Reality</h2>
 
-<p><em>0 artifacts collected</em></p>
+<p><em>1 artifact collected</em></p>
 
-<p><em>The collapse of distance between celebrity and fan. Instagram comments, Tumblr asks, quote tweets, fourth-wall breaks. The new relationship between the famous and the audience.</em></p>
+<p><em>The collapse of distance between celebrity and fan. Instagram announcements, Tumblr asks, quote tweets, fourth-wall breaks. The new relationship between the famous and the audience — closer than ever, further than ever.</em></p>
+
+<div class="artifact">
+  <div class="artifact-media">
+    <div class="artifact-slideshow" id="parasocial-slideshow" data-current="1" data-total="1">
+      <div class="artifact-slide active">
+        <img src="/assets/archive/parasocial/web-screenshot-laurengraham.png" alt="Screenshot of Lauren Graham's Instagram post announcing the Gilmore Girls reboot" />
+      </div>
+      <!-- Add more artifact-slide divs here for additional images -->
+    </div>
+    <!-- Controls only appear if more than one slide -->
+  </div>
+  <div class="artifact-context">
+    <h3>Lauren Graham Announces the Gilmore Girls Reboot</h3>
+    <p class="artifact-description"><strong>Origin:</strong> web-screenshot &nbsp;·&nbsp; <strong>Date:</strong> 2016</p>
+    <p class="artifact-description"><strong>Context:</strong> When Netflix revived Gilmore Girls, the announcement didn't come through traditional channels — Lauren Graham posted it directly to Instagram. For fans, it felt like being told personally by a friend. Gilmore Girls was already a defining millennial show; the reboot proved nostalgia had become an industry.</p>
+    <p class="artifact-significance"><strong>Significance:</strong> Evidence of the parasocial relationship between celebrities and fans in the platform era. The Instagram announcement collapses distance — it's direct, personal, and also completely public. The contradiction: celebrities feel closer and more valuable at the same time. The mode of announcement bypasses traditional media entirely; the celebrity is now their own press release.</p>
+    <div class="artifact-meta">
+      <span class="timeline-tag culture">Parasocial Reality</span>
+      <span class="timeline-tag future">Nostalgia Economy</span>
+    </div>
+  </div>
+</div>
 
 <hr />
 
@@ -176,7 +202,7 @@ function toggleMenu() {
 
 <p><em>0 artifacts collected</em></p>
 
-<p><em>Defunct websites, dead platforms, error screens, broken links, forgotten logins. The remnants of an earlier internet that still haunt the present.</em></p>
+<p><em><a href="/survey-graveyard/" class="secret-link">✦</a> Defunct websites, dead platforms, error screens, broken links, forgotten logins. The remnants of an earlier internet that still haunt the present.</em></p>
 
 <hr />
 
@@ -408,15 +434,36 @@ function updateViralLanguageMetadata() {
   document.getElementById('viral-language-context-text').textContent = activeSlide.getAttribute('data-context');
   document.getElementById('viral-language-significance').textContent = activeSlide.getAttribute('data-significance');
   
-  const tags = activeSlide.getAttribute('data-tags').split(',');
-  const tagsContainer = document.getElementById('viral-language-tags');
-  tagsContainer.innerHTML = '';
-  tags.forEach(tag => {
-    const span = document.createElement('span');
-    span.className = 'timeline-tag culture';
-    span.textContent = tag.trim();
-    tagsContainer.appendChild(span);
-  });
+const tags = activeSlide.getAttribute('data-tags').split(',');
+const tagsContainer = document.getElementById('viral-language-tags');
+tagsContainer.innerHTML = '';
+
+const tagMap = {
+  'Place': 'place',
+  'Loss': 'loss',
+  'Intimacy': 'intimacy',
+  'Web': 'web',
+  'Identity': 'identity',
+  'Creativity': 'creativity',
+  'Future': 'future',
+  'Viral Language': 'culture',
+  'Platform Life': 'tech',
+  'Nostalgia Economy': 'future',
+  'AI': 'tech',
+  'Technology': 'tech',
+  'Politics': 'politics',
+  'Economics': 'economics',
+  'Local Memory': 'local'
+};
+
+tags.forEach(tag => {
+  const span = document.createElement('span');
+  const trimmed = tag.trim();
+  const mappedClass = tagMap[trimmed] || 'culture';
+  span.className = `timeline-tag ${mappedClass}`;
+  span.textContent = trimmed;
+  tagsContainer.appendChild(span);
+});
 }
 
 function changeArtifactSlide(slideshowId, direction) {
@@ -448,7 +495,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <hr />
 
-<p><em>More artifacts are being collected. If you have screenshots, posts, or digital materials from the millennial epoch — especially those accompanied by context — you’re invited to contribute.</em></p>
+<p><em>More artifacts are being collected. <a href="/survey-cameraroll/" class="secret-link">✦</a> If you have screenshots, posts, or digital materials from the millennial epoch — especially those accompanied by context — you’re invited to contribute.</em></p>
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
@@ -487,6 +534,14 @@ document.addEventListener('DOMContentLoaded', function() {
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
+
+function selectAllText(element) {
+  var range = document.createRange();
+  var selection = window.getSelection();
+  range.selectNodeContents(element);
+  selection.removeAllRanges();
+  selection.addRange(range);
+}
 </script>
   </body>
 </html>

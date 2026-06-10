@@ -1427,6 +1427,14 @@ function closePreview() {
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
+
+function selectAllText(element) {
+  var range = document.createRange();
+  var selection = window.getSelection();
+  range.selectNodeContents(element);
+  selection.removeAllRanges();
+  selection.addRange(range);
+}
 </script>
   </body>
 </html>

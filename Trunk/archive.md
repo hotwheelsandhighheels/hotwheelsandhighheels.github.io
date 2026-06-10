@@ -84,11 +84,37 @@ The Social Archive collects what was made and shared online during the millennia
 
 ---
 
+<!-- ============================================
+     PARASOCIAL REALITY
+     ============================================ -->
+
 ## Parasocial Reality
 
-*0 artifacts collected*
+*1 artifact collected*
 
-*The collapse of distance between celebrity and fan. Instagram comments, Tumblr asks, quote tweets, fourth-wall breaks. The new relationship between the famous and the audience.*
+*The collapse of distance between celebrity and fan. Instagram announcements, Tumblr asks, quote tweets, fourth-wall breaks. The new relationship between the famous and the audience — closer than ever, further than ever.*
+
+<div class="artifact">
+  <div class="artifact-media">
+    <div class="artifact-slideshow" id="parasocial-slideshow" data-current="1" data-total="1">
+      <div class="artifact-slide active">
+        <img src="/assets/archive/parasocial/web-screenshot-laurengraham.png" alt="Screenshot of Lauren Graham's Instagram post announcing the Gilmore Girls reboot">
+      </div>
+      <!-- Add more artifact-slide divs here for additional images -->
+    </div>
+    <!-- Controls only appear if more than one slide -->
+  </div>
+  <div class="artifact-context">
+    <h3>Lauren Graham Announces the Gilmore Girls Reboot</h3>
+    <p class="artifact-description"><strong>Origin:</strong> web-screenshot &nbsp;·&nbsp; <strong>Date:</strong> 2016</p>
+    <p class="artifact-description"><strong>Context:</strong> When Netflix revived Gilmore Girls, the announcement didn't come through traditional channels — Lauren Graham posted it directly to Instagram. For fans, it felt like being told personally by a friend. Gilmore Girls was already a defining millennial show; the reboot proved nostalgia had become an industry.</p>
+    <p class="artifact-significance"><strong>Significance:</strong> Evidence of the parasocial relationship between celebrities and fans in the platform era. The Instagram announcement collapses distance — it's direct, personal, and also completely public. The contradiction: celebrities feel closer and more valuable at the same time. The mode of announcement bypasses traditional media entirely; the celebrity is now their own press release.</p>
+    <div class="artifact-meta">
+      <span class="timeline-tag culture">Parasocial Reality</span>
+      <span class="timeline-tag future">Nostalgia Economy</span>
+    </div>
+  </div>
+</div>
 
 ---
 

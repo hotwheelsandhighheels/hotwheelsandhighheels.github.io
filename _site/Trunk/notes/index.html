@@ -177,7 +177,7 @@ function toggleMenu() {
   </tr>
 </table>
 
-<p>Every component of one self has a partner in the other. Neither controls the other. They are interdependent <a href="/survey-memory/" class="secret-link">✦</a></p>
+<p>Every component of one self has a partner in the other. Neither controls the other. They are interdependent <a href="/survey-double/" class="secret-link">✦</a></p>
 
 <h3 id="born-digital-heritage">Born-Digital Heritage</h3>
 
@@ -570,6 +570,14 @@ function toggleAccordion(header) {
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
+
+function selectAllText(element) {
+  var range = document.createRange();
+  var selection = window.getSelection();
+  range.selectNodeContents(element);
+  selection.removeAllRanges();
+  selection.addRange(range);
+}
 </script>
   </body>
 </html>
