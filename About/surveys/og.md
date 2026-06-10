@@ -14,44 +14,71 @@ sitemap: false
 
   <div class="copy-area" id="survey-text" onclick="selectAllText(this)">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      BULLETIN SURVEY
+      OG BULLETIN SURVEY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 name / alias:
 location:
 age or generational marker:
 
-☼ what are you listening to right now?
+1. What are you listening to right now?
 → 
 
-☼ last thing you googled?
+2. Last thing you googled?
 → 
 
-☼ what's on your nightstand?
+3. What's on your nightstand right now?
 → 
 
-☼ current mood (one word):
+4. What's a smell that instantly takes you back to a specific moment?
 → 
 
-☼ favorite word right now:
+5. What's a platform you miss that no longer exists?
 → 
 
-☼ what's something you've changed your mind about lately?
+6. Fill in the blank: "The internet was better when ________"
 → 
 
-☼ what's a memory that feels like it belongs to someone else?
+7. What's something you saved (screenshot, photo, link) that you'll never delete?
 → 
 
-☼ if you could keep one screenshot forever, what would it be of?
+8. What's the last thing you spent money on?
 → 
 
-☼ what's a platform you miss?
+9. What time did you wake up today?
 → 
 
-☼ fill in the blank: "the internet was better when ________"
+10. What's something you've changed your mind about lately?
 → 
 
-☼ what's something you want to remember from this week?
+11. What's a sound that brings you back to childhood?
+→ 
+
+12. Do you still talk to your best friends from middle school?
+→ 
+
+13. What's your favorite thing about yourself?
+→ 
+
+14. What could you eat any day of the week and never get tired of?
+→ 
+
+15. Have you ever cried from being so mad?
+→ 
+
+16. Do you believe in true love?
+→ 
+
+17. What's something you want to remember from this week?
+→ 
+
+18. If you could have one wish right now, what would it be?
+→ 
+
+19. What's a question you wish people asked you more often?
+→ 
+
+20. What's a memory you've never written down but should?
 → 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━

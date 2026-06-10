@@ -101,7 +101,7 @@ The archive is built on a single idea: that memory requires two selves.
   </tr>
 </table>
 
-Every component of one self has a partner in the other. Neither controls the other. They are interdependent <a href="/survey-memory/" class="secret-link">✦</a>
+Every component of one self has a partner in the other. Neither controls the other. They are interdependent <a href="/survey-double/" class="secret-link">✦</a>
 
 ### Born-Digital Heritage
 

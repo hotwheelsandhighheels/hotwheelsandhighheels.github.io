@@ -61,7 +61,7 @@ title: Trunk - Hot Wheels & High Heels
   <a href="/About/" class="trunk-card trunk-card-full" style="text-decoration: none;">
     <h3>Collection 06</h3>
     <h2>Submissions</h2>
-    <p>Contact me with materials, context, and any relevant dates, locations, or background information.</p>
+    <p>Contact me with materials, context, and any relevant dates, locations, or background information <a href="/survey-memory/" class="secret-link">✦</a></p>
     <p><span style="color: var(--pink);">Vroom Vroom →</span></p>
   </a>
 </div>

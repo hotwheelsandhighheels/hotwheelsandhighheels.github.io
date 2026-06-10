@@ -21,31 +21,33 @@ name / alias:
 location:
 age or generational marker:
 
-☼ favorite pair of shoes (past or present)?
+1. Tell me about your favorite pair of shoes — past or present. What makes them stick in your memory?
 → 
 
-☼ favorite car (yours, a dream, or someone else's)?
+2. Tell me about your favorite car — yours, a dream, or someone else's. What's the story?
 → 
 
-☼ what part of your city feels like it belongs to you alone?
+3. What part of your hometown or current city feels like it belongs to you alone?
 → 
 
-☼ where do you go to feel free?
+4. Where do you go when you need to feel free?
 → 
 
-☼ tell me about a memory that surprised you
+5. Tell me about a memory that surprised you — something you forgot you remembered until it came back.
 → 
 
-☼ what's a sound that brings you back to a specific moment?
+6. What's a sound that instantly brings you back to a specific moment in your life?
 → 
 
-☼ what's something you want to remember from right now?
+7. What's something you want to remember from right now?
 → 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  send to: alejandra@hotwheelsandhighheels.com
+  copy, fill out, send if you want
+  alejandra@hotwheelsandhighheels.com
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   </div>
+
   <p style="text-align: center; font-size: 9pt; opacity: 0.5;">✦ click, copy, paste ✦</p>
 
 </div>

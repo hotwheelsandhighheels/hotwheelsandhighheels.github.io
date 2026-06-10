@@ -104,7 +104,7 @@ The Social Archive collects what was made and shared online during the millennia
 
 *0 artifacts collected*
 
-*Defunct websites, dead platforms, error screens, broken links, forgotten logins. The remnants of an earlier internet that still haunt the present.*
+*<a href="/survey-graveyard/" class="secret-link">✦</a> Defunct websites, dead platforms, error screens, broken links, forgotten logins. The remnants of an earlier internet that still haunt the present.*
 
 ---
 
@@ -376,7 +376,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ---
 
-*More artifacts are being collected. If you have screenshots, posts, or digital materials from the millennial epoch — especially those accompanied by context — you're invited to contribute.*
+*More artifacts are being collected. <a href="/survey-cameraroll/" class="secret-link">✦</a> If you have screenshots, posts, or digital materials from the millennial epoch — especially those accompanied by context — you're invited to contribute.*
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
