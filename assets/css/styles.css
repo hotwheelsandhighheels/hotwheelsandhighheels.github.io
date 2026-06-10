@@ -1812,9 +1812,9 @@ audio:hover {
   h2 { font-size: 18pt; }
   a { font-size: 10pt; }
 
-  /* --- ABOUT & TRUNK H1 — bigger on mobile --- */
-  .about-page h1,
-  .trunk-page h1 {
+ /* --- ABOUT & TRUNK H1 — bigger on mobile --- */
+  .about-page,
+  .trunk-page {
     font-size: 28pt;
   }
 
