@@ -1,6 +1,3 @@
-Here's the full corrected `archive.md`. I separated Context (what happened, the raw details from you) and Significance (why it matters, pulled directly from your "this shows..." / "evidence of..." / "I'm including it because..." statements). Nothing invented. File extensions match your actual files.
-
-```markdown
 ---
 layout: default
 title: The Social Archive
