@@ -503,4 +503,3 @@ document.addEventListener('DOMContentLoaded', function() {
   <a href="/Trunk/epoch/">← Explore Timeline</a>
   <a href="/Trunk/drivers/">Flag down a Driver →</a>
 </div>
-```
