@@ -7,14 +7,14 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>✦ memory worker survey ✦</h1>
+  <h1>✦ memory survey ✦</h1>
   <p>for anyone who records, preserves, or transmits memory.</p>
 
   <hr>
 
   <div class="copy-area" id="survey-text" onclick="selectAllText(this)">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-     MEMORY WORKER SURVEY
+     MEMORY SURVEY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 name / alias:
