@@ -15,7 +15,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *5 artifacts collected*
 
-*Screenshots of new features, updates, and the moments technology changed how we communicate.*
+*The updates we didn't ask for and the features that became second nature.*
 
 <div class="artifact">
   <div class="artifact-media">
@@ -61,7 +61,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *6 artifacts collected*
 
-*Memes, remixes, and the participatory culture of born-digital objects. Viral. Mutable. Intertextual.*
+*Memes, remixes, and the stuff we all passed around until it became part of how we talk.*
 
 <div class="artifact">
   <div class="artifact-media">
@@ -110,7 +110,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *2 artifacts collected*
 
-*Fourth-wall breaks: The new relationship between the famous and everyone else.*
+*When celebrities started feeling like friends and presidents started tweeting like exes.*
 
 <div class="artifact">
   <div class="artifact-media">
@@ -147,7 +147,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *0 artifacts collected*
 
-*Reboots, remakes, sequels. Everything just gets repeated.*
+*The sequels, the reboots, the comfort watches we return to like a favorite song.*
 
 ---
 
@@ -159,7 +159,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *2 artifacts collected*
 
-*Intimacy, local memory, stuff meant for your people.*
+*Conversations meant for one person. Local references. The stuff that wasn't supposed to be for everyone.*
 
 <div class="artifact">
   <div class="artifact-media">
@@ -192,7 +192,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *42 artifacts collected*
 
-*How the epoch responds to its own emerging tech.*
+*Watching the literary world figure out how it feels about artificial intelligence, one submission guideline at a time.*
 
 <!-- SLIDESHOW -->
 <div class="slideshow" id="slideshow" data-current="1" data-total="42">
