@@ -60,9 +60,9 @@ sitemap: false
 <p>I already said my cousins are my best friends, my first and life-long best friends. But just to give a shout out... my bestie of 10 years, Faith, and I met when we were working together at charlotte russe. She was cracking me up at the holiday party. Pretty soon we had a lil momentum going on while working. I seen a set of friendship necklaces said "Girl Gang" and that was the start of our best friendship.</p>
 <p>Estrella, my best friend of 23 years, is my favorite person in the whole wide world. And she gave birth to another one of my favorite people.</p>
 <p>My kid, Stella, is the reason there is seventeen years of social media posting to sift through, and why I am doing this project now. She is archived on Tumblr and Instragram and Youtube. She was on Vine and Tiktok and Facebook. I never posted her for the world to see. I kept what I could private and only visible to people I trusted. It is impossible to dearchive her, and myself, from the web completely. </p>
-<p>There is so much that goes into this passion project of mine & I hope it becomes clear as you read through the pages. I can't possibly articulate it all in a few short sentences. </p>
-<br>
+<p>There is so much that goes into this passion project of mine & I hope it becomes clear as you read through the pages. I can't possibly articulate it all in a few short sentences. I hope you like it :) </p>
 <p>Love, <br> Ale 💕</p>
+<p><i>p.s. sign my</i></p>
 
   <!-- GUESTBOOK -->
   <div class="meaf-section">

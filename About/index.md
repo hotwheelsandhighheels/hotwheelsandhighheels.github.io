@@ -30,7 +30,8 @@ Send me things like:
     <li>memes you made when Trump announced he was running for president</li>
 </ul>  
 
-*Context matters more than nostalgia.*
+*Context matters more than nostalgia.*<br>
+<span class="email-toggle" onclick="this.innerHTML = this.innerHTML === 'DROPBOX' ? 'alejandra@hotwheelsandhighheels.com' : 'DROPBOX'" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; color: var(--pink); font-family: 'Courier New', monospace; font-size: 10pt; text-transform: uppercase;">DROPBOX</span>
 
 
 # Alejandra Hernández
