@@ -97,6 +97,14 @@
    3. GLOBAL ELEMENTS
    ============================================ */
 
+.editor-name {
+  white-space: nowrap;
+  font-size: clamp(28pt, 8vw, 48pt);
+}
+body:not(.post) h1 {
+  white-space: nowrap;
+  font-size: clamp(28pt, 8vw, 48pt);
+}
 .container {
   margin: auto;
   max-width: 900px;
@@ -313,6 +321,7 @@ nav .active {
   width: 100%;
   box-shadow: 0 4px 24px rgba(255, 0, 163, 0.4), 0 0 48px rgba(163, 0, 255, 0.3);
   display: block;
+  margin-bottom: 48px;
 }
 
 .footer {
@@ -1815,6 +1824,9 @@ audio:hover {
   h2 { font-size: 18pt; }
   a { font-size: 10pt; }
 
+body:not(.post) h1 {
+  font-size: clamp(22pt, 8vw, 36pt);
+}
 
   /* --- ABOUT & TRUNK H1 — huge on mobile --- */
   .about-page,

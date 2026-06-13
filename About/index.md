@@ -34,7 +34,7 @@ Send me things like:
 <span class="email-toggle" onclick="this.innerHTML = this.innerHTML === 'DROPBOX' ? 'alejandra@hotwheelsandhighheels.com' : 'DROPBOX'" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; color: var(--pink); font-family: 'Courier New', monospace; font-size: 10pt; text-transform: uppercase;">DROPBOX</span>
 
 
-# Alejandra Hernández
+<h1 class="editor-name">Alejandra Hernández</h1>
 ## Editor,   
 
 _Woman first, mother second_ has been the driving force behind many of my decisions over the past sixteen years, including the decision to answer an elusive call through poetry.  
