@@ -217,7 +217,18 @@ hr {
   margin-bottom: 4px;
 }
 
-
+.ride-link {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 22pt;
+  color: var(--pink);
+  text-decoration: none;
+}
+.about-page,
+.trunk-page {
+  text-align: center;
+  font-size: clamp(32pt, 10vw, 52pt);
+}
 /* ============================================
    4. NAVIGATION
    ============================================ */
@@ -1827,7 +1838,9 @@ audio:hover {
 body:not(.post) h1 {
   font-size: clamp(22pt, 8vw, 36pt);
 }
-
+.ride-link {
+  font-size: 18pt;
+}
   /* --- ABOUT & TRUNK H1 — huge on mobile --- */
   .about-page,
   .trunk-page {
