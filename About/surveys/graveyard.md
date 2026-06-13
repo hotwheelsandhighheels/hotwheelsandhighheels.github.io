@@ -7,9 +7,9 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>✦ platform graveyard ✦</h1>
+  <h1>✦ graveyard survey ✦</h1>
   <p>for the digital ghosts we left behind.</p>
-
+  <p> hey! you found a secret survey! There are 7 through the site.</p>
   <hr>
 
   <div class="copy-area" id="survey-text" onclick="selectAllText(this)">

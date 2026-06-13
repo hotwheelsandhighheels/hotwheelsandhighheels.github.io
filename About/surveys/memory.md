@@ -8,7 +8,7 @@ sitemap: false
 <div class="survey-container">
 
   <h1>✦ memory survey ✦</h1>
-  <p>for anyone who records, preserves, or transmits memory.</p>
+  <p> hey! you found a secret survey! There are 7 through the site.</p>
 
   <hr>
 

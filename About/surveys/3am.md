@@ -8,7 +8,7 @@ sitemap: false
 <div class="survey-container">
 
   <h1>✦ 3am survey ✦</h1>
-  <p>for the thoughts that only come out when you should be sleeping.</p>
+  <p> hey! you found a secret survey! There are 7 through the site.</p>
 
   <hr>
 
