@@ -53,3 +53,9 @@ title: Drivers - Hot Wheels & High Heels
   <a href="/Drivers/Alana#a-poem-by-alana-rodriguez">"For that swirling pile of trash" by Alana Rodriguez</a>
   <p><a href="/survey-driver/" class="secret-link">✦</a></p>
 </div>
+
+<a href="/survey-memory/" class="secret-link">✦</a>
+<div class="driver-nav">
+  <a href="/About/">← About</a>
+  <a href="/Trunk/">Trunk →</a>
+</div>

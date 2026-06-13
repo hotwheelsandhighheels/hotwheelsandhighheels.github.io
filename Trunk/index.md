@@ -11,7 +11,7 @@ title: Trunk - Hot Wheels & High Heels
   <!-- INTRO — full width -->
   <div class="trunk-card trunk-card-full">
     <p class="wiki-intro">
- The Trunk asks what happens when personal memory, cultural history, and digital platforms become the same thing.
+What happens when personal memory, cultural history, and digital platforms become the same thing?
     </p>
   </div>
 
@@ -67,3 +67,7 @@ title: Trunk - Hot Wheels & High Heels
 </div>
 
 <a href="/survey-memory/" class="secret-link">✦</a>
+<div class="driver-nav">
+  <a href="/Drivers/">← Drivers</a>
+  <a href="/">Home →</a>
+</div>

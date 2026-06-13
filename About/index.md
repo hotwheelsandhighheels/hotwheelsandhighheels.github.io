@@ -44,8 +44,6 @@ My cousins are my best friends. Nothing matters without them. Without them there
 
 [Engine Check →](/About/enginecheck)  
 
-[Email me →](mailto:alejandra@hotwheelsandhighheels.com)
-
 ## Acknowledgements
 Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Support for the arts is slim, support for literature within arts funding is even less. Your contributions mean the world to me!  
 
@@ -59,3 +57,7 @@ Thank you to my early subscribers for making this project possible for the first
     <li>Emily Buchanan</li>
     <li>Grace Mathews</li>
 </ul>
+<div class="driver-nav">
+  <a href="/">← Home</a>
+  <a href="/Drivers/">Drivers →</a>
+</div>
