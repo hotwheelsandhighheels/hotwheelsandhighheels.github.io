@@ -876,6 +876,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
+<div class="timeline-entry right" data-category="politics culture" data-era="platform-life" data-concepts="power testimony social-media">
+  <h3>Christine Blasey Ford Testifies</h3>
+  <p>Christine Blasey Ford testified before the Senate Judiciary Committee that Supreme Court nominee Brett Kavanaugh had sexually assaulted her when they were teenagers. The hearing was watched live by millions. Her testimony became a national reckoning on sexual assault, credibility, and whose stories get believed.</p>
+  <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag culture">Culture</span>
+</div>
+
 <div class="timeline-entry left" data-category="economics" data-era="platform-life" data-concepts="precarity millennials">
   <h3>Student Debt Passes $1.5 Trillion</h3>
   <p>U.S. student loan debt exceeds $1.5 trillion. Educational debt becomes a defining economic issue for many millennials.</p>
@@ -982,6 +989,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <h3>Global Inflation Surges</h3>
   <p>Inflation rises across many countries. Cost of living becomes a significant concern for households worldwide.</p>
   <span class="timeline-tag economics">Economy</span>
+</div>
+
+<div class="timeline-entry left" data-category="politics" data-era="after-the-feed" data-concepts="power loss social-media">
+  <h3>Uvalde</h3>
+  <p>A gunman killed nineteen children and two teachers at Robb Elementary School in Uvalde, Texas. Police waited over an hour before entering the classroom. Parents outside were restrained while their children called 911 from inside. The failure of law enforcement and the testimony of surviving children sparked national outrage.</p>
+  <span class="timeline-tag politics">Politics</span>
 </div>
 
 <div class="timeline-entry left" data-category="economics politics" data-era="after-the-feed" data-platform="twitter" data-concepts="platforms corporations power censorship">
