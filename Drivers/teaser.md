@@ -35,7 +35,7 @@ permalink: /revving-up/
     </div>
   </div>
   <div class="teaser-subscribe">
-    <p class="teaser-subscribe-label">Subscribe to be first in the lane</p>
+    <p class="teaser-subscribe-label">I saved you a seat! :)</p>
     <form
       action="https://buttondown.com/api/emails/embed-subscribe/hotwheelsandhighheels"
       method="post"
@@ -43,7 +43,7 @@ permalink: /revving-up/
     >
       <label for="bd-email" class="sr-only">Enter your email</label>
       <input type="email" name="email" id="bd-email" />
-      <input type="submit" value="Subscribe" />
+      <input type="submit" value="I'm in!" />
       <p>
         <a href="https://buttondown.com/refer/hotwheelsandhighheels" target="_blank">
           Powered by Buttondown.
