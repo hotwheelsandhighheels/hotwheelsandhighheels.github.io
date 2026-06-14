@@ -150,7 +150,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics" data-era="before-the-web" data-concepts="power">
+<div class="timeline-entry right" data-category="politics" data-era="before-the-web" data-concepts="power">
   <h3>Nelson Mandela Freed</h3>
   <p>Nelson Mandela was released from prison after 27 years. His release and the end of apartheid in South Africa were watched globally. Mandela was elected president in 1994 in the country's first fully democratic election.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -191,6 +191,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 </div>
 <div class="timeline-clear"></div>
 
+<div class="timeline-year"><h2>1992</h2></div>
+<div class="timeline-entry left" data-category="politics" data-era="before-the-web" data-concepts="power loss">
+  <h3>Bosnian War Begins</h3>
+  <p>The collapse of Yugoslavia sparked a brutal ethnic conflict in Bosnia. The siege of Sarajevo lasted nearly four years. The Srebrenica massacre of 1995, where over 8,000 Bosniak men and boys were killed, became the worst atrocity on European soil since the Holocaust. The international community's failure to stop it haunted a generation's faith in global institutions.</p>
+  <span class="timeline-tag politics">Politics</span>
+</div>
+<div class="timeline-clear"></div>
+
 <div class="timeline-year"><h2>1993–1994</h2></div>
 
 <div class="timeline-entry right" data-category="tech" data-era="before-the-web" data-concepts="technology">
@@ -211,7 +219,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech" data-era="before-the-web" data-platform="amazon" data-concepts="corporations technology platforms">
+<div class="timeline-entry left" data-category="tech" data-era="before-the-web" data-platform="amazon" data-concepts="corporations technology platforms">
   <h3>Amazon Founded</h3>
   <p>Amazon begins as an online bookstore. The company later becomes a major force in digital commerce and infrastructure.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -331,10 +339,16 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture" data-era="logging-on" data-concepts="culture parasocial collective-memory">
+<div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="culture parasocial collective-memory">
   <h3>Princess Diana Dies</h3>
   <p>Princess Diana was killed in a car crash in Paris. Her funeral was watched by an estimated 2.5 billion people worldwide — one of the most-watched broadcasts in history. The public grief, the media blame, and the scale of the spectacle made it a turning point in the relationship between celebrity, media, and collective mourning.</p>
   <span class="timeline-tag culture">Culture</span>
+</div>
+
+<div class="timeline-entry left" data-category="politics" data-era="logging-on" data-concepts="power">
+  <h3>Hong Kong Returned to China</h3>
+  <p>After 156 years of British colonial rule, Hong Kong was returned to China under the principle of &quot;one country, two systems.&quot; The handover marked the end of the British Empire and the beginning of a new era of Chinese global influence.</p>
+  <span class="timeline-tag politics">Politics</span>
 </div>
 
 <div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="culture storytelling">
@@ -500,6 +514,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <h3>Web 2.0</h3>
   <p>The term "Web 2.0" gains popularity. User participation becomes a defining feature of the web.</p>
   <span class="timeline-tag tech">Tech</span>
+</div>
+
+<div class="timeline-entry left" data-category="politics economics" data-era="logging-on" data-concepts="power">
+  <h3>European Union Expands East</h3>
+  <p>Ten new countries joined the European Union, most of them former Soviet states. The expansion redrew the map of Europe, reunifying the continent for the first time since the Cold War and reshaping the lives of millions of millennials in Eastern Europe.</p>
+  <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag economics">Economy</span>
 </div>
 
 <div class="timeline-entry left" data-category="tech" data-era="logging-on" data-platform="flickr" data-concepts="social-media platforms archive">
@@ -826,6 +847,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <p>An online harassment campaign targeted women and critics in the video game industry with doxing, death threats, and coordinated abuse. The campaign became a precursor to later online radicalization movements and exposed how platforms failed to protect users from organized harassment.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
+<div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2015</h2></div>
 
@@ -841,10 +863,16 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture" data-era="platform-life" data-concepts="identity algorithmic-self social-media">
+<div class="timeline-entry left" data-category="culture" data-era="platform-life" data-concepts="identity algorithmic-self social-media">
   <h3>Identity Becomes Profile Data</h3>
   <p>Social platforms expand profile features related to identity and self-description. Personal information becomes a more visible part of online presence.</p>
   <span class="timeline-tag culture">Culture</span>
+</div>
+
+<div class="timeline-entry right" data-category="politics" data-era="platform-life" data-concepts="loss power social-media">
+  <h3>Syrian Refugee Crisis</h3>
+  <p>Millions of Syrians fled civil war. The image of Alan Kurdi, a drowned three-year-old boy washed up on a Turkish beach, circulated globally and became the defining photograph of the crisis. The refugee crisis tested European borders, global empathy, and the limits of humanitarian response.</p>
+  <span class="timeline-tag politics">Politics</span>
 </div>
 
 <div class="timeline-entry left" data-category="local economics" data-era="platform-life" data-concepts="place loss precarity">
@@ -999,7 +1027,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics" data-era="platform-life" data-concepts="power loss social-media">
+<div class="timeline-entry right" data-category="politics" data-era="platform-life" data-concepts="power loss social-media">
   <h3>Breonna Taylor and #SayHerName</h3>
   <p>Breonna Taylor, a 26-year-old Black woman, was shot and killed by police during a no-knock raid on her apartment. She was asleep in her bed. Her death, alongside George Floyd's, fueled a summer of global protests. The #SayHerName campaign, founded years earlier, became a rallying cry specifically for Black women victims of police violence whose stories often receive less attention.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -1056,6 +1084,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
+<div class="timeline-entry right" data-category="politics culture" data-era="after-the-feed" data-concepts="power social-media testimony">
+  <h3>Mahsa Amini and the Iran Protests</h3>
+  <p>Mahsa Amini, a 22-year-old woman, died in custody after being arrested by Iran's morality police for wearing her hijab &quot;improperly.&quot; Her death sparked months of protests led by young women across Iran, documented on social media under the slogan &quot;Woman, Life, Freedom.&quot;</p>
+  <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag culture">Culture</span>
+</div>
+
 <div class="timeline-entry right" data-category="economics" data-era="after-the-feed" data-concepts="precarity millennials">
   <h3>Global Inflation Surges</h3>
   <p>Inflation rises across many countries. Cost of living becomes a significant concern for households worldwide.</p>
@@ -1068,7 +1103,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
-<div class="timeline-entry left" data-category="economics politics" data-era="after-the-feed" data-platform="twitter" data-concepts="platforms corporations power censorship">
+<div class="timeline-entry right" data-category="economics politics" data-era="after-the-feed" data-platform="twitter" data-concepts="platforms corporations power censorship">
   <h3>Twitter Becomes X</h3>
   <p>Twitter is acquired and rebranded as X. The change reflects broader shifts in platform ownership and governance.</p>
   <span class="timeline-tag economics">Economy</span>
@@ -1124,6 +1159,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <p>More than 60 countries, representing nearly half the world's population, held national elections in 2024 — including the United States, India, Mexico, and Indonesia. Digital platforms played a central role in how candidates campaigned, how information spread, and how results were contested.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
+<div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2025</h2></div>
 
