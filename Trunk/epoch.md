@@ -753,7 +753,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="culture" data-era="platform-life" data-concepts="surveillance cloud privacy">
   <h3>Celebrity Photo Leak</h3>
-  <p>Private photographs of several public figures are leaked online. The incident raises questions about privacy, security, and consent.</p>
+  <p>Private nude photographs of several female celebrities were stolen from iCloud accounts and posted online without consent. The leak sparked public discussion about digital privacy, victim-blaming, and the legal system's failure to treat non-consensual image sharing as a serious crime.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
@@ -765,10 +765,9 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="culture" data-era="platform-life" data-concepts="culture power communities">
   <h3>Gamergate</h3>
-  <p>Online harassment campaigns target women and critics within gaming communities. The controversy becomes a reference point in discussions of online culture and platform governance.</p>
+  <p>An online harassment campaign targeted women and critics in the video game industry with doxing, death threats, and coordinated abuse. The campaign became a precursor to later online radicalization movements and exposed how platforms failed to protect users from organized harassment.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
-<div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2015</h2></div>
 
@@ -873,7 +872,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="politics" data-era="platform-life" data-concepts="power social-media">
   <h3>Parkland</h3>
-  <p>A school shooting at Marjory Stoneman Douglas High School occurs. Student-led activism gains national attention through digital platforms.</p>
+  <p>A gunman killed seventeen people at Marjory Stoneman Douglas High School in Parkland, Florida. Surviving students organized the March for Our Lives movement, using social media to coordinate a nationwide protest that became one of the largest youth-led demonstrations in U.S. history.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 
@@ -945,8 +944,8 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-year"><h2>2021</h2></div>
 
 <div class="timeline-entry left" data-category="politics" data-era="after-the-feed" data-concepts="power social-media">
-  <h3>January 6</h3>
-  <p>Supporters of President Trump breach the U.S. Capitol on January 6. The event is extensively documented across digital platforms.</p>
+  <h3>January 6 Insurrection</h3>
+  <p>Supporters of President Trump stormed the U.S. Capitol in an attempt to overturn the 2020 election results. The attack was planned, documented, and livestreamed across digital platforms by the participants themselves. Five people died. It was the first time the Capitol had been breached since 1814.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 
