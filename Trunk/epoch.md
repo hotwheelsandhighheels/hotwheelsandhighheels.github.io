@@ -333,7 +333,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="politics culture" data-era="logging-on" data-concepts="loss power">
   <h3>Columbine</h3>
-  <p>A school shooting occurs at Columbine High School. The event influences public discussions about safety, media, and youth culture.</p>
+  <p>Two students killed twelve classmates and a teacher at Columbine High School. The shooting sparked national debates about school safety, media sensationalism, and youth culture that continue decades later.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
@@ -888,7 +888,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="culture tech" data-era="platform-life" data-platform="tumblr" data-concepts="censorship platform-death communities loss">
   <h3>Tumblr Adult Content Ban</h3>
-  <p>Tumblr restricts adult content. Many users and communities migrate to other platforms.</p>
+  <p>Tumblr bans adult content, effective immediately. Queer communities, sex workers, and artists lose years of archived content, creative work, and community networks overnight. Many users migrate to other platforms; some communities never fully recover.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
@@ -1038,16 +1038,15 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="politics" data-era="after-the-feed" data-concepts="power">
   <h3>Global Election Year</h3>
-  <p>Major elections take place across multiple countries. Digital platforms play a significant role in political communication and information sharing.</p>
+  <p>More than 60 countries, representing nearly half the world's population, held national elections in 2024 — including the United States, India, Mexico, and Indonesia. Digital platforms played a central role in how candidates campaigned, how information spread, and how results were contested.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
-<div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2025</h2></div>
 
 <div class="timeline-entry left" data-category="politics tech" data-era="after-the-feed" data-platform="tiktok" data-concepts="power censorship platforms">
-  <h3>TikTok Service Interruption</h3>
-  <p>TikTok faces periods of uncertainty related to regulation and access. The situation highlights public dependence on major digital platforms.</p>
+  <h3>TikTok Ban Attempt</h3>
+  <p>The U.S. government moved to ban TikTok, citing national security concerns over its Chinese ownership. The app briefly went dark for 170 million American users before access was restored. It was the most aggressive government action against a social media platform in U.S. history.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
