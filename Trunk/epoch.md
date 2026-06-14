@@ -277,13 +277,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech" data-era="logging-on" data-concepts="technology">
+<div class="timeline-entry left" data-category="tech" data-era="logging-on" data-concepts="technology">
   <h3>Windows 95 Released</h3>
   <p>Microsoft releases Windows 95. Personal computing and internet access become more accessible to everyday users.</p>
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech" data-era="logging-on" data-concepts="technology">
+<div class="timeline-entry right" data-category="tech" data-era="logging-on" data-concepts="technology">
   <h3>Internet Explorer Launches</h3>
   <p>Microsoft enters the browser market. Competition accelerates the growth of the web.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -995,7 +995,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2020</h2></div>
 
-<div class="timeline-entry left" data-category="politics culture" data-era="platform-life" data-concepts="loss technology digital-sobriety">
+<div class="timeline-entry right" data-category="politics culture" data-era="platform-life" data-concepts="loss technology digital-sobriety">
   <h3>COVID-19 Pandemic</h3>
   <p>A global pandemic killed over seven million people and shut down much of the world. Work, school, and social life moved online almost overnight, accelerating the platformization of daily life by years.</p>
   <span class="timeline-tag politics">Politics</span>
