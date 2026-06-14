@@ -2353,3 +2353,47 @@ a.secret-link:hover,
   opacity: 0.8;
   box-shadow: 0 0 12px rgba(255, 0, 163, 0.2);
 }
+/* ============================================
+   25. MOBILE DESKTOP NUDGE
+   ============================================ */
+
+#desktop-nudge {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg);
+  border: 0.5px solid var(--pink);
+  padding: 16px 24px;
+  border-radius: 8px;
+  z-index: 999;
+  text-align: center;
+  box-shadow: 0 0 24px rgba(255, 0, 163, 0.15);
+}
+
+#desktop-nudge p {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 14pt;
+  color: var(--pink);
+  margin: 0 0 12px 0;
+}
+
+#desktop-nudge button {
+  background: transparent;
+  border: 0.5px solid var(--pink);
+  color: var(--pink);
+  font-family: 'Lora', serif;
+  font-size: 10pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 4px;
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+#desktop-nudge button:hover {
+  opacity: 1;
+}

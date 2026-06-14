@@ -19,4 +19,21 @@
   <link rel="apple-touch-icon" href="/assets/svg/favicon.svg">
     {% feed_meta %}
     {% seo %}
+
+  <script>
+  (function() {
+    if (window.innerWidth <= 600) {
+      var shown = sessionStorage.getItem('desktop-nudge-shown');
+      if (!shown) {
+        setTimeout(function() {
+          var nudge = document.createElement('div');
+          nudge.id = 'desktop-nudge';
+          nudge.innerHTML = '<p>This project is best explored on desktop</p><button onclick="document.getElementById(\'desktop-nudge\').remove(); sessionStorage.setItem(\'desktop-nudge-shown\', \'true\');">got it ✦</button>';
+          document.body.appendChild(nudge);
+          sessionStorage.setItem('desktop-nudge-shown', 'true');
+        }, 2000);
+      }
+    }
+  })();
+</script>
 </head>

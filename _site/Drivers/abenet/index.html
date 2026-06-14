@@ -39,6 +39,23 @@
 {"@context":"https://schema.org","@type":"WebPage","description":"An interview with a.benét, San Diego native and poetry MFA candidate at San Diego State University.","headline":"a.benét","image":"http://localhost:4000/assets/drivers/A-benet_cover.jpg","url":"http://localhost:4000/Drivers/abenet/"}</script>
 <!-- End Jekyll SEO tag -->
 
+
+  <script>
+  (function() {
+    if (window.innerWidth <= 600) {
+      var shown = sessionStorage.getItem('desktop-nudge-shown');
+      if (!shown) {
+        setTimeout(function() {
+          var nudge = document.createElement('div');
+          nudge.id = 'desktop-nudge';
+          nudge.innerHTML = '<p>This project is best explored on desktop</p><button onclick="document.getElementById(\'desktop-nudge\').remove(); sessionStorage.setItem(\'desktop-nudge-shown\', \'true\');">got it ✦</button>';
+          document.body.appendChild(nudge);
+          sessionStorage.setItem('desktop-nudge-shown', 'true');
+        }, 2000);
+      }
+    }
+  })();
+</script>
 </head>
 
   <body class="post"> <!-- this is the container for all visible content -->
