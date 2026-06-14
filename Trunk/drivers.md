@@ -55,7 +55,7 @@ Location: San Diego trolley stations
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Jack/">Jack Hinzo</a></p>
 <span class="timeline-tag place">Place</span>
-<span class="timeline-tag web">Web</span>
+<span class="timeline-tag intimacy">Intimacy</span>
 
 <!--
 Contributor: Alana Rodriguez
@@ -71,6 +71,8 @@ Location: Chula Vista, San Diego
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Alana/">Alana Rodriguez</a></p>
 <span class="timeline-tag place">Place</span>
+<span class="timeline-tag identity">Identity</span>
+
 
 ---
 
@@ -124,6 +126,7 @@ Location: City Heights, San Diego
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/abenet/">a.benét</a></p>
 <span class="timeline-tag loss">Loss</span>
+<span class="timeline-tag place">Place</span>
 
 ---
 
@@ -178,6 +181,7 @@ Location: Miami, FL
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Sam/">Sam Yaziji</a></p>
 <span class="timeline-tag web">Web</span>
+<span class="timeline-tag identity">Identity</span>
 
 ---
 
@@ -248,7 +252,7 @@ Location: Miami, FL
   data-theme="identity creativity"
   data-contributor="sam-yaziji"
   data-location="miami">
-  "Whoever wants to become a Christian must first become a poet."
+  "St. Porphyrios says, 'whoever wants to become a Christian must first become a poet.' "
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Sam/">Sam Yaziji</a></p>
 <span class="timeline-tag identity">Identity</span>
@@ -280,7 +284,7 @@ Location: City Heights, San Diego
   data-theme="identity"
   data-contributor="a-benet"
   data-location="city-heights">
-  "Boundaries don't exist (my therapist would have a problem with this), but it's true."
+  "Boundaries don't exist."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/abenet/">a.benét</a></p>
 <span class="timeline-tag identity">Identity</span>
