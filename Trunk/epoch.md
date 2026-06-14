@@ -150,6 +150,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
+<div class="timeline-entry left" data-category="politics" data-era="before-the-web" data-concepts="power">
+  <h3>Nelson Mandela Freed</h3>
+  <p>Nelson Mandela was released from prison after 27 years. His release and the end of apartheid in South Africa were watched globally. Mandela was elected president in 1994 in the country's first fully democratic election.</p>
+  <span class="timeline-tag politics">Politics</span>
+</div>
+
 <div class="timeline-entry right" data-category="culture" data-era="before-the-web" data-concepts="culture">
   <h3>Nintendo vs Sega</h3>
   <p>Competition between two major video game companies defines a period of home gaming. The rivalry becomes a shared cultural reference point for many millennials.</p>
@@ -163,6 +169,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <h3>Gulf War</h3>
   <p>Coalition forces respond to Iraq's invasion of Kuwait. The conflict is widely experienced through live television coverage.</p>
   <span class="timeline-tag politics">Politics</span>
+</div>
+
+<div class="timeline-entry right" data-category="politics culture" data-era="before-the-web" data-concepts="power testimony witnessing">
+  <h3>Rodney King Beating and the LA Uprising</h3>
+  <p>Four LAPD officers were videotaped beating Rodney King during a traffic stop. The footage, shot on a camcorder by a bystander, aired on news stations nationwide. When the officers were acquitted, Los Angeles erupted in six days of unrest. It was the first viral video of police brutality — the pattern set before social media existed.</p>
+  <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
 <div class="timeline-entry right" data-category="politics" data-era="before-the-web" data-concepts="power">
@@ -189,6 +202,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-entry left" data-category="politics" data-era="before-the-web" data-concepts="power">
   <h3>NAFTA Takes Effect</h3>
   <p>The North American Free Trade Agreement takes effect. Trade and economic relationships across North America are reshaped.</p>
+  <span class="timeline-tag politics">Politics</span>
+</div>
+
+<div class="timeline-entry right" data-category="politics" data-era="before-the-web" data-concepts="power loss">
+  <h3>Rwandan Genocide</h3>
+  <p>An estimated 800,000 Tutsi were killed in 100 days while the international community failed to intervene. The genocide became the defining &quot;never again&quot; failure of the post-Cold War era.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 
@@ -231,6 +250,18 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
+<div class="timeline-entry right" data-category="politics" data-era="logging-on" data-concepts="power loss">
+  <h3>Oklahoma City Bombing</h3>
+  <p>Timothy McVeigh detonated a truck bomb at the Alfred P. Murrah Federal Building, killing 168 people including 19 children. It was the deadliest act of domestic terrorism in U.S. history and exposed the growing anti-government militia movement.</p>
+  <span class="timeline-tag politics">Politics</span>
+</div>
+
+<div class="timeline-entry left" data-category="culture" data-era="logging-on" data-concepts="culture power">
+  <h3>The O.J. Simpson Trial</h3>
+  <p>The murder trial of O.J. Simpson became the first televised courtroom spectacle to consume the entire country. The verdict split public opinion along racial lines and set the template for true crime as mass entertainment.</p>
+  <span class="timeline-tag culture">Culture</span>
+</div>
+
 <div class="timeline-entry left" data-category="tech" data-era="logging-on" data-concepts="technology">
   <h3>Windows 95 Released</h3>
   <p>Microsoft releases Windows 95. Personal computing and internet access become more accessible to everyday users.</p>
@@ -256,6 +287,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="culture power">
   <h3>Fox News Launches</h3>
   <p>Fox News begins broadcasting. The network becomes a major force within the evolving media ecosystem.</p>
+  <span class="timeline-tag culture">Culture</span>
+</div>
+
+<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-concepts="technology">
+  <h3>Dolly the Sheep Cloned</h3>
+  <p>Scientists in Scotland successfully cloned a mammal from an adult cell for the first time. Dolly's birth raised bioethical questions that are still being debated and marked the moment the public realized science was outpacing our moral frameworks.</p>
+  <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
@@ -291,6 +329,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <h3>Deep Blue Defeats Kasparov</h3>
   <p>IBM's Deep Blue defeats world chess champion Garry Kasparov. The event becomes a landmark in computing history.</p>
   <span class="timeline-tag tech">Tech</span>
+</div>
+
+<div class="timeline-entry left" data-category="culture" data-era="logging-on" data-concepts="culture parasocial collective-memory">
+  <h3>Princess Diana Dies</h3>
+  <p>Princess Diana was killed in a car crash in Paris. Her funeral was watched by an estimated 2.5 billion people worldwide — one of the most-watched broadcasts in history. The public grief, the media blame, and the scale of the spectacle made it a turning point in the relationship between celebrity, media, and collective mourning.</p>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
 <div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="culture storytelling">
@@ -700,6 +744,20 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag economics">Economy</span>
 </div>
 
+<div class="timeline-entry right" data-category="politics culture" data-era="platform-life" data-concepts="power social-media hashtag">
+  <h3>Trayvon Martin and #BlackLivesMatter</h3>
+  <p>Trayvon Martin, a seventeen-year-old Black teenager, was shot and killed by George Zimmerman while walking home in Sanford, Florida. Zimmerman was acquitted. The hashtag #BlackLivesMatter was born from the outrage, becoming the defining social justice movement of the epoch and transforming how activism organizes online.</p>
+  <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag culture">Culture</span>
+</div>
+
+<div class="timeline-entry left" data-category="politics culture" data-era="platform-life" data-concepts="power testimony">
+  <h3>Malala Yousafzai Shot by the Taliban</h3>
+  <p>A fifteen-year-old Pakistani activist was shot in the head by the Taliban for advocating girls' education. She survived and became the youngest Nobel Peace Prize laureate in history. Her memoir <em>I Am Malala</em> and her ongoing activism made her a global symbol of the fight for girls' education.</p>
+  <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag culture">Culture</span>
+</div>
+
 <div class="timeline-entry right" data-category="culture" data-era="platform-life" data-platform="tumblr" data-concepts="identity intimacy social-media">
   <h3>Frank Ocean Comes Out on Tumblr</h3>
   <p>Frank Ocean publishes an open letter on Tumblr. The post becomes a widely discussed moment of online self-disclosure.</p>
@@ -938,6 +996,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-entry left" data-category="politics" data-era="platform-life" data-concepts="power social-media witnessing testimony">
   <h3>George Floyd Protests</h3>
   <p>The murder of George Floyd is recorded and shared online. Protests spread globally through both physical and digital networks.</p>
+  <span class="timeline-tag politics">Politics</span>
+</div>
+
+<div class="timeline-entry left" data-category="politics" data-era="platform-life" data-concepts="power loss social-media">
+  <h3>Breonna Taylor and #SayHerName</h3>
+  <p>Breonna Taylor, a 26-year-old Black woman, was shot and killed by police during a no-knock raid on her apartment. She was asleep in her bed. Her death, alongside George Floyd's, fueled a summer of global protests. The #SayHerName campaign, founded years earlier, became a rallying cry specifically for Black women victims of police violence whose stories often receive less attention.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 
