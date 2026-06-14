@@ -46,7 +46,7 @@ My cousins are my best friends. Nothing matters without them. Without them there
 <span class="email-toggle" onclick="this.innerHTML = this.innerHTML === 'DROPBOX' ? 'alejandra@hotwheelsandhighheels.com' : 'DROPBOX'" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; color: var(--pink); font-family: 'Courier New', monospace; font-size: 10pt; text-transform: uppercase;">DROPBOX</span>
 
 ## Acknowledgements
-Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Support for the arts is slim, support for literature within arts funding is even less. Your contributions mean the world to me!  
+Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Your support means the world to me!  
 
 <ul>
     <li>Julian & Mercedes Hernández</li>
