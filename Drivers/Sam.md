@@ -170,7 +170,7 @@ I agree, but I think that the challenges and blessings are the same as they ever
 
 ### Do you see your poetry as a way to share your faith with others, or is it more of a personal exploration? How do you feel when readers connect with your spiritual themes?
 
-I see it more as a personal exploration, but I'm really delighted when readers connect with my (occasionally-overt) spiritual themes. St. Porphyrios says, <a href="/Trunk/drivers/#identity"><span class="tag-identity">"whoever wants to become a Christian must first become a poet."</span></a>
+I see it more as a personal exploration, but I'm really delighted when readers connect with my (occasionally-overt) spiritual themes. <a href="/Trunk/drivers/#identity"><span class="tag-identity">St. Porphyrios says, "whoever wants to become a Christian must first become a poet."</span></a>
 
 <!-- DRIVER NAVIGATION -->
 <div class="driver-nav">
