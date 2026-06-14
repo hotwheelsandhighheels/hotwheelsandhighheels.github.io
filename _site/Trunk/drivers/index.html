@@ -136,7 +136,7 @@ Location: San Diego trolley stations
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Jack/">Jack Hinzo</a></p>
 <p><span class="timeline-tag place">Place</span>
-<span class="timeline-tag web">Web</span></p>
+<span class="timeline-tag intimacy">Intimacy</span></p>
 
 <!--
 Contributor: Alana Rodriguez
@@ -147,7 +147,8 @@ Location: Chula Vista, San Diego
   "Third Ave Chula Vista. I have memories attached to every inch of that street, north and south."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Alana/">Alana Rodriguez</a></p>
-<p><span class="timeline-tag place">Place</span></p>
+<p><span class="timeline-tag place">Place</span>
+<span class="timeline-tag identity">Identity</span></p>
 
 <hr />
 
@@ -188,7 +189,8 @@ Location: City Heights, San Diego
   "Not this is how I find out Horton Plaza doesn't exist anymore. Next you're gonna say Seaport Village isn't a thing anymore either."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/abenet/">a.benét</a></p>
-<p><span class="timeline-tag loss">Loss</span></p>
+<p><span class="timeline-tag loss">Loss</span>
+<span class="timeline-tag place">Place</span></p>
 
 <hr />
 
@@ -230,7 +232,8 @@ Location: Miami, FL
   "I've always been a lay archivist and enjoyer of cultural artifacts."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Sam/">Sam Yaziji</a></p>
-<p><span class="timeline-tag web">Web</span></p>
+<p><span class="timeline-tag web">Web</span>
+<span class="timeline-tag identity">Identity</span></p>
 
 <hr />
 
@@ -285,7 +288,7 @@ Themes: Identity, Creativity
 Location: Miami, FL
 -->
 <blockquote class="tag-quote tag-identity" id="quote-sam-001" data-theme="identity creativity" data-contributor="sam-yaziji" data-location="miami">
-  "Whoever wants to become a Christian must first become a poet."
+  "St. Porphyrios says, 'whoever wants to become a Christian must first become a poet.' "
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Sam/">Sam Yaziji</a></p>
 <p><span class="timeline-tag identity">Identity</span>
@@ -309,7 +312,7 @@ Themes: Identity
 Location: City Heights, San Diego
 -->
 <blockquote class="tag-quote tag-identity" id="quote-abenet-004" data-theme="identity" data-contributor="a-benet" data-location="city-heights">
-  "Boundaries don't exist (my therapist would have a problem with this), but it's true."
+  "Boundaries don't exist."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/abenet/">a.benét</a></p>
 <p><span class="timeline-tag identity">Identity</span></p>
@@ -440,6 +443,14 @@ function selectAllText(element) {
   range.selectNodeContents(element);
   selection.removeAllRanges();
   selection.addRange(range);
+}
+function openBlessingLightbox(src) {
+  document.getElementById('blessing-lightbox-img').src = src;
+  document.getElementById('blessing-lightbox').classList.add('open');
+}
+
+function closeBlessingLightbox() {
+  document.getElementById('blessing-lightbox').classList.remove('open');
 }
 </script>
   </body>

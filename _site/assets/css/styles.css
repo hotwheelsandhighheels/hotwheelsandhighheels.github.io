@@ -2401,3 +2401,78 @@ a.secret-link:hover,
 #desktop-nudge button:hover {
   opacity: 1;
 }
+
+/* ============================================
+   26. BLESSINGS PAGE
+   ============================================ */
+
+.blessing-card {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding-bottom: 32px;
+  border-bottom: 0.5px solid rgba(163, 0, 255, 0.15);
+}
+
+.blessing-card:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.blessing-image {
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.blessing-image img {
+  width: 100%;
+  border: 0.5px solid rgba(255, 0, 163, 0.2);
+  border-radius: 4px;
+}
+
+.blessing-text h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 20pt;
+  color: var(--purple);
+  margin: 0 0 4px 0;
+}
+
+.blessing-project {
+  margin-bottom: 8px !important;
+}
+
+.blessing-project a {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 14pt;
+  color: var(--pink);
+  text-decoration: none;
+}
+
+.blessing-project a:hover {
+  text-decoration: underline;
+}
+
+.blessing-text p {
+  font-size: 12pt;
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+
+.blessing-note {
+  font-style: italic;
+  opacity: 0.6;
+  font-size: 11pt !important;
+}
+
+@media (max-width: 600px) {
+  .blessing-card {
+    flex-direction: column;
+  }
+  
+  .blessing-image {
+    width: 100%;
+  }
+}

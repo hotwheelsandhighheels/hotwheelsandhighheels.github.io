@@ -1452,6 +1452,14 @@ function selectAllText(element) {
   selection.removeAllRanges();
   selection.addRange(range);
 }
+function openBlessingLightbox(src) {
+  document.getElementById('blessing-lightbox-img').src = src;
+  document.getElementById('blessing-lightbox').classList.add('open');
+}
+
+function closeBlessingLightbox() {
+  document.getElementById('blessing-lightbox').classList.remove('open');
+}
 </script>
   </body>
 </html>

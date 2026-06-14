@@ -139,23 +139,30 @@ What happens when personal memory, cultural history, and digital platforms becom
   </a>
 
   <!-- 5. CONNECTIONS -->
-  <a href="/Trunk/connections/" class="trunk-card trunk-card-full" style="text-decoration: none;">
+  <a href="/Trunk/connections/" class="trunk-card" style="text-decoration: none;">
     <h3>Collection 05</h3>
     <h2>Connections</h2>
     <p>A visual map of themes, events, contributors, and artifacts.</p>
     <p><span style="color: var(--pink);">Check the road map →</span></p>
   </a>
 
-  <!-- 6. SUBMISSIONS -->
-  <a href="/About/" class="trunk-card trunk-card-full" style="text-decoration: none;">
+  <!-- 6. SUBMISSIONS — fills the gap next to Connections -->
+  <a href="/submit/" class="trunk-card" style="text-decoration: none;">
     <h3>Collection 06</h3>
     <h2>Send Me Something</h2>
-    <p>Click here for more information. To go straight to the form, click the purple link below.</p>
-    <p><span style="color: var(--pink);">Vroom Vroom →</span></p>
+    <p>Screenshots, artifacts, memories, digital debris — anything from the millennial epoch.</p>
+    <p><span style="color: var(--pink);">Fill my gas tank →</span></p>
+  </a>
+
+  <!-- 7. BLESSINGS — full width anchor at the bottom -->
+  <a href="/blessings/" class="trunk-card trunk-card-full" style="text-decoration: none;">
+    <h3>Collection 07</h3>
+    <h2>Blessings</h2>
+    <p>A memorial and a reminder of the people whose work left an impression on me.</p>
+    <p><span style="color: var(--pink);">Look what we made →</span></p>
   </a>
 </div>
 <center>
-<a href="/submit/" style="color: var(--purple);">Fill my gas tank →</a><br /><br />
 <a href="/survey-memory/" class="secret-link">✦</a>
 </center>
 <div class="driver-nav">
@@ -201,6 +208,14 @@ function selectAllText(element) {
   range.selectNodeContents(element);
   selection.removeAllRanges();
   selection.addRange(range);
+}
+function openBlessingLightbox(src) {
+  document.getElementById('blessing-lightbox-img').src = src;
+  document.getElementById('blessing-lightbox').classList.add('open');
+}
+
+function closeBlessingLightbox() {
+  document.getElementById('blessing-lightbox').classList.remove('open');
 }
 </script>
   </body>
