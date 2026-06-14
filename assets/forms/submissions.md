@@ -7,7 +7,7 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>✦ Send Me Something ✦</h1>
+  <h1>Send Me Something</h1>
   <p>anything from the millennial epoch.</p>
 
   <hr>
