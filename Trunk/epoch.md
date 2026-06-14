@@ -1014,9 +1014,9 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics tech" data-era="after-the-feed" data-concepts="power social-media censorship">
-  <h3>Israel–Palestine Information War</h3>
-  <p>Social media becomes a major venue for sharing information, images, and competing narratives about the conflict. Questions of verification and visibility become central.</p>
+<div class="timeline-entry left" data-category="politics tech" data-era="after-the-feed" data-concepts="power social-media witnessing">
+  <h3>The War on Gaza</h3>
+  <p>Israel's military campaign in Gaza following the October 7 attacks was documented extensively on social media by Palestinians on the ground. The footage made it the first mass casualty event of its scale witnessed globally in real time.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
