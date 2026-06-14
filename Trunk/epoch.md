@@ -876,6 +876,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
+<div class="timeline-entry left" data-category="politics culture" data-era="platform-life" data-concepts="power social-media youth">
+  <h3>Fridays for Future Begins</h3>
+  <p>Fifteen-year-old Greta Thunberg skipped school to sit outside the Swedish parliament with a handmade sign reading &quot;Skolstrejk för klimatet&quot; — school strike for climate. Within a year, millions of students worldwide joined the Fridays for Future movement. Thunberg went from a solo protest to addressing the United Nations, becoming the face of youth climate activism for a generation.</p>
+  <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag culture">Culture</span>
+</div>
+
 <div class="timeline-entry right" data-category="politics culture" data-era="platform-life" data-concepts="power testimony social-media">
   <h3>Christine Blasey Ford Testifies</h3>
   <p>Christine Blasey Ford testified before the Senate Judiciary Committee that Supreme Court nominee Brett Kavanaugh had sexually assaulted her when they were teenagers. The hearing was watched live by millions. Her testimony became a national reckoning on sexual assault, credibility, and whose stories get believed.</p>
