@@ -7,6 +7,12 @@ title: The Social Archive - Hot Wheels & High Heels
 
 # The Social Archive
 
+On this page, I am collecting content that reflects anything I felt was epoch-forming. Each container has a one-line explanation of what it is. Each artifact includes where I got it, when I got it, why I got it, and why it matters. 
+
+*If you want to add something, PLEASE DO! Do not hesitate to overuse my submission form.*
+
+---
+
 <!-- ============================================
      UPGRADE YOU
      ============================================ -->
@@ -15,7 +21,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *5 artifacts collected*
 
-*The updates we didn't ask for and the features that became second nature.*
+*These are the updates and upgrades that got pushed on us whether we asked for them or not. They mostly never implemented the changes we asked for.*
 
 <div class="artifact">
   <div class="artifact-media">
@@ -61,7 +67,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *6 artifacts collected*
 
-*Memes, remixes, and the stuff we all passed around until it became part of how we talk.*
+*This is meme culture. I focused on three things when including things here: Virality, mutability, and intertextuality.*
 
 <div class="artifact">
   <div class="artifact-media">
@@ -110,7 +116,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *2 artifacts collected*
 
-*When celebrities started feeling like friends and presidents started tweeting like exes.*
+*This section is for that weird, parasocial relationship we tend to have with celebrities and influencers, and even politicians sometimes.*
 
 <div class="artifact">
   <div class="artifact-media">
@@ -147,7 +153,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *0 artifacts collected*
 
-*The sequels, the reboots, the comfort watches we return to like a favorite song.*
+*This is where all the remakes and reboots and remixes; the nostalgia fueled economy of entertainment.*
 
 ---
 
@@ -159,7 +165,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *2 artifacts collected*
 
-*Conversations meant for one person. Local references. The stuff that wasn't supposed to be for everyone.*
+*These are intimate moments that are universally felt.*
 
 <div class="artifact">
   <div class="artifact-media">
@@ -192,7 +198,7 @@ title: The Social Archive - Hot Wheels & High Heels
 
 *42 artifacts collected*
 
-*Watching the literary world figure out how it feels about artificial intelligence, one submission guideline at a time.*
+*This is all the stuff I see online about generative AI and LLM's. It's mostly submission guidelines from literary establishments.*
 
 <!-- SLIDESHOW -->
 <div class="slideshow" id="slideshow" data-current="1" data-total="42">
