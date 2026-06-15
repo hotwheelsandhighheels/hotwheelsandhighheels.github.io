@@ -1129,7 +1129,9 @@ audio:hover {
 .timeline-tag.future, 
 .timeline-tag.tech,
 .timeline-tag.culture,
-.timeline-tag.local {
+.timeline-tag.local,
+.timeline-tag.environment,
+.timeline-tag.documentation {
   display: inline-block;
   font-family: 'Lora', serif;
   font-size: 7pt;
@@ -1150,7 +1152,7 @@ audio:hover {
 .timeline-tag.future { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
 .timeline-tag.culture { background: rgba(255, 143, 207, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(255, 143, 207, 0.25);}
 .timeline-tag.local { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
-
+.timeline-tag.environment { background: rgba(255, 179, 255, 0.12); color: var(--theme-identity); border: 0.5px solid rgba(255, 179, 255, 0.25); }
 /* ============================================
    12. WIKI PAGE (LEGACY)
    ============================================ */
@@ -1619,6 +1621,16 @@ audio:hover {
 .timeline-legend .legend-all:focus,
 .timeline-legend .legend-all:active { color: var(--text) !important; }
 
+.timeline-legend .legend-environment,
+.timeline-legend .legend-environment:hover,
+.timeline-legend .legend-environment:focus,
+.timeline-legend .legend-environment:active { color: var(--theme-identity) !important; }
+
+.timeline-legend .legend-documentation,
+.timeline-legend .legend-documentation:hover,
+.timeline-legend .legend-documentation:focus,
+.timeline-legend .legend-documentation:active { color: var(--theme-intimacy) !important; }
+
 .timeline-legend button:hover {
   opacity: 1;
 }
@@ -1754,7 +1766,8 @@ audio:hover {
 .timeline-tag.culture { background: rgba(255, 143, 207, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(255, 143, 207, 0.25); }
 .timeline-tag.economics { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
 .timeline-tag.local { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
-
+.timeline-tag.environment { background: rgba(255, 179, 255, 0.12); color: var(--theme-identity); border: 0.5px solid rgba(255, 179, 255, 0.25); }
+.timeline-tag.documentation { background: rgba(255, 224, 102, 0.12); color: var(--theme-intimacy); border: 0.5px solid rgba(255, 224, 102, 0.25); }
 
 .timeline-clear {
   clear: both;

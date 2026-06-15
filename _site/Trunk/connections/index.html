@@ -98,7 +98,7 @@ function toggleMenu() {
 
 <p>Connections maps the relationships between concepts, contributors, platforms, and events across the archive. Each node represents an idea. Each line represents a link.</p>
 
-<p><em>Drag to explore. Click to visit.</em></p>
+<p><em>Drag to explore. Click for details.</em></p>
 
 <hr />
 
@@ -124,334 +124,237 @@ function toggleMenu() {
   </div>
 
   <!-- ============================================
-       FIRST RING — SIX CORE NODES
+       ARCHIVE SECTIONS — pink, site structure
        ============================================ -->
-  <div class="connection-node theme-place" id="node-archive" data-x="200" data-y="80">
-    <h3>Archive</h3>
-    <span class="node-type">Concept</span>
+  <div class="connection-node theme-future" id="node-social-archive" data-x="420" data-y="130">
+    <h3>Social Archive</h3>
+    <span class="node-type">Collection</span>
   </div>
-  <div class="connection-node theme-web" id="node-social-media" data-x="420" data-y="50">
-    <h3>Social Media</h3>
-    <span class="node-type">Concept</span>
+  <div class="connection-node theme-future" id="node-upgrade-you" data-x="280" data-y="80">
+    <h3>Upgrade You</h3>
+    <span class="node-type">Archive Section</span>
   </div>
-  <div class="connection-node theme-identity" id="node-people" data-x="640" data-y="80">
-    <h3>People</h3>
-    <span class="node-type">Concept</span>
+  <div class="connection-node theme-future" id="node-going-viral" data-x="420" data-y="50">
+    <h3>Going Viral</h3>
+    <span class="node-type">Archive Section</span>
   </div>
-  <div class="connection-node theme-creativity" id="node-storytelling" data-x="200" data-y="480">
-    <h3>Storytelling</h3>
-    <span class="node-type">Concept</span>
+  <div class="connection-node theme-future" id="node-the-parasocial" data-x="560" data-y="80">
+    <h3>The Parasocial</h3>
+    <span class="node-type">Archive Section</span>
   </div>
-  <div class="connection-node theme-future" id="node-technology" data-x="420" data-y="510">
+  <div class="connection-node theme-future" id="node-broken-record" data-x="280" data-y="180">
+    <h3>Broken Record</h3>
+    <span class="node-type">Archive Section</span>
+  </div>
+  <div class="connection-node theme-future" id="node-between-you-and-i" data-x="560" data-y="180">
+    <h3>Between You &amp; I</h3>
+    <span class="node-type">Archive Section</span>
+  </div>
+  <div class="connection-node theme-future" id="node-ai-reception" data-x="420" data-y="200">
+    <h3>AI Reception</h3>
+    <span class="node-type">Archive Section</span>
+  </div>
+
+  <!-- ============================================
+       TIMELINE CATEGORIES — cyan/coral/mint/silver/chartreuse
+       ============================================ -->
+  <div class="connection-node theme-web" id="node-tech-category" data-x="200" data-y="50">
     <h3>Technology</h3>
-    <span class="node-type">Concept</span>
+    <span class="node-type">Timeline Category</span>
   </div>
-  <div class="connection-node theme-intimacy" id="node-history" data-x="640" data-y="480">
-    <h3>History</h3>
-    <span class="node-type">Concept</span>
+  <div class="connection-node theme-loss" id="node-politics-category" data-x="640" data-y="50">
+    <h3>Politics</h3>
+    <span class="node-type">Timeline Category</span>
   </div>
-  <div class="connection-node theme-loss" id="node-culture" data-x="100" data-y="280">
+  <div class="connection-node theme-creativity" id="node-culture-category" data-x="200" data-y="140">
     <h3>Culture</h3>
-    <span class="node-type">Concept</span>
+    <span class="node-type">Timeline Category</span>
   </div>
-  <div class="connection-node theme-loss" id="node-power" data-x="740" data-y="280">
-    <h3>Power</h3>
-    <span class="node-type">Concept</span>
+  <div class="connection-node theme-future" id="node-economics-category" data-x="640" data-y="140">
+    <h3>Economics</h3>
+    <span class="node-type">Timeline Category</span>
   </div>
-  <div class="connection-node theme-place" id="node-place-concept" data-x="200" data-y="140">
-  <h3>Place</h3>
-  <span class="node-type">Concept</span>
-</div>
-<div class="connection-node theme-loss" id="node-loss-concept" data-x="640" data-y="140">
-  <h3>Loss</h3>
-  <span class="node-type">Concept</span>
-</div>
-<div class="connection-node theme-identity" id="node-identity-concept" data-x="100" data-y="340">
-  <h3>Identity</h3>
-  <span class="node-type">Concept</span>
-</div>
-<div class="connection-node theme-future" id="node-attention" data-x="740" data-y="340">
-  <h3>Attention</h3>
-  <span class="node-type">Concept</span>
-</div>
-<div class="connection-node theme-web" id="node-platforms-concept" data-x="420" data-y="110">
-  <h3>Platforms</h3>
-  <span class="node-type">Concept</span>
-</div>
-
-  <!-- ============================================
-       ARCHIVE CLUSTER
-       ============================================ -->
-  <div class="connection-node theme-place" id="node-derrida" data-x="60" data-y="140">
-    <h3>Derrida</h3>
-    <span class="node-type">Researcher</span>
+  <div class="connection-node theme-place" id="node-local-category" data-x="280" data-y="110">
+    <h3>Local Memory</h3>
+    <span class="node-type">Timeline Category</span>
   </div>
-  <div class="connection-node theme-place" id="node-archive-fever" data-x="140" data-y="160">
-    <h3>Archive Fever</h3>
-    <span class="node-type">Text</span>
-  </div>
-  <div class="connection-node theme-place" id="node-archons" data-x="60" data-y="200">
-    <h3>Archons</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-place" id="node-authority" data-x="60" data-y="260">
-    <h3>Authority</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-place" id="node-preservation" data-x="200" data-y="140">
-    <h3>Preservation</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-place" id="node-digital-heritage" data-x="260" data-y="120">
-    <h3>Digital Heritage</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-place" id="node-born-digital" data-x="280" data-y="160">
-    <h3>Born-Digital</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-place" id="node-metadata" data-x="200" data-y="200">
-    <h3>Metadata</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-place" id="node-web-archives" data-x="140" data-y="240">
-    <h3>Web Archives</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-place" id="node-manoff" data-x="140" data-y="300">
-    <h3>Manoff</h3>
-    <span class="node-type">Researcher</span>
-  </div>
-  <div class="connection-node theme-place" id="node-the-trunk" data-x="260" data-y="240">
-  <h3>The Trunk</h3>
-  <span class="node-type">Archive</span>
-</div>
- <div class="connection-node theme-place" id="node-provenance" data-x="280" data-y="200">
-    <h3>Provenance</h3>
-    <span class="node-type">Concept</span>
-  </div>
-
-  <div class="connection-node theme-future" id="node-context" data-x="200" data-y="260">
-    <h3>Context</h3>
-    <span class="node-type">Concept</span>
-  </div>
-
-
-  <!-- ============================================
-       SOCIAL MEDIA CLUSTER
-       ============================================ -->
-  <div class="connection-node theme-web" id="node-myspace" data-x="300" data-y="100">
-    <h3>MySpace</h3>
-    <span class="node-type">Platform</span>
-  </div>
-  <div class="connection-node theme-web" id="node-facebook" data-x="420" data-y="110">
-    <h3>Facebook</h3>
-    <span class="node-type">Platform</span>
-  </div>
-  <div class="connection-node theme-web" id="node-twitter" data-x="540" data-y="100">
-    <h3>Twitter / X</h3>
-    <span class="node-type">Platform</span>
-  </div>
-  <div class="connection-node theme-web" id="node-tumblr" data-x="340" data-y="150">
-    <h3>Tumblr</h3>
-    <span class="node-type">Platform</span>
-  </div>
-  <div class="connection-node theme-web" id="node-instagram" data-x="440" data-y="150">
-    <h3>Instagram</h3>
-    <span class="node-type">Platform</span>
-  </div>
-  <div class="connection-node theme-web" id="node-tiktok" data-x="500" data-y="140">
-    <h3>TikTok</h3>
-    <span class="node-type">Platform</span>
-  </div>
-  <div class="connection-node theme-web" id="node-youtube" data-x="360" data-y="190">
-    <h3>YouTube</h3>
-    <span class="node-type">Platform</span>
-  </div>
-  <div class="connection-node theme-web" id="node-forums" data-x="380" data-y="220">
-    <h3>Forums</h3>
-    <span class="node-type">Platform</span>
-  </div>
-  <div class="connection-node theme-web" id="node-email" data-x="460" data-y="210">
-    <h3>Email</h3>
-    <span class="node-type">Platform</span>
-  </div>
-  <div class="connection-node theme-web" id="node-google-groups" data-x="500" data-y="190">
-    <h3>Google Groups</h3>
-    <span class="node-type">Platform</span>
-  </div>
-  <div class="connection-node theme-web" id="node-feed" data-x="380" data-y="250">
-  <h3>The Feed</h3>
-  <span class="node-type">Concept</span>
-</div>
-  <div class="connection-node theme-loss" id="node-platform-death" data-x="300" data-y="320">
-    <h3>Platform Death</h3>
-    <span class="node-type">Concept</span>
-  </div>
-
-  <div class="connection-node theme-web" id="node-aesthetics" data-x="300" data-y="380">
-    <h3>Internet Aesthetics</h3>
-    <span class="node-type">Concept</span>
+  <div class="connection-node theme-place" id="node-environment-category" data-x="560" data-y="110">
+    <h3>Environment</h3>
+    <span class="node-type">Timeline Category</span>
   </div>
 
   <!-- ============================================
-       PEOPLE / WITNESSES CLUSTER
+       QUOTE THEMES — chartreuse/coral/gold/cyan/orchid/mint/silver
        ============================================ -->
-  <div class="connection-node theme-identity" id="node-memory-workers" data-x="640" data-y="130">
-    <h3>Memory Workers</h3>
-    <span class="node-type">Concept</span>
+  <div class="connection-node theme-place" id="node-place-theme" data-x="100" data-y="240">
+    <h3>Place</h3>
+    <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-identity" id="node-angela" data-x="720" data-y="100">
-    <h3>Angela Mendoza</h3>
-    <span class="node-type">Contributor</span>
+  <div class="connection-node theme-loss" id="node-loss-theme" data-x="740" data-y="240">
+    <h3>Loss</h3>
+    <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-identity" id="node-jon" data-x="720" data-y="160">
-    <h3>Jon Tobias</h3>
-    <span class="node-type">Contributor</span>
+  <div class="connection-node theme-intimacy" id="node-intimacy-theme" data-x="100" data-y="320">
+    <h3>Intimacy</h3>
+    <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-identity" id="node-alana" data-x="720" data-y="220">
-    <h3>Alana Rodriguez</h3>
-    <span class="node-type">Contributor</span>
+  <div class="connection-node theme-web" id="node-web-theme" data-x="740" data-y="320">
+    <h3>Web</h3>
+    <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-identity" id="node-abenet" data-x="640" data-y="180">
-    <h3>a.benét</h3>
-    <span class="node-type">Contributor</span>
+  <div class="connection-node theme-identity" id="node-identity-theme" data-x="100" data-y="400">
+    <h3>Identity</h3>
+    <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-identity" id="node-sam" data-x="640" data-y="240">
-    <h3>Sam Yaziji</h3>
-    <span class="node-type">Contributor</span>
+  <div class="connection-node theme-creativity" id="node-creativity-theme" data-x="740" data-y="400">
+    <h3>Creativity</h3>
+    <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-identity" id="node-jack" data-x="640" data-y="300">
-    <h3>Jack Hinzo</h3>
-    <span class="node-type">Contributor</span>
-  </div>
-  <div class="connection-node theme-identity" id="node-communities" data-x="580" data-y="160">
-    <h3>Communities</h3>
-    <span class="node-type">Concept</span>
-  </div>
-    <div class="connection-node theme-identity" id="node-algorithmic-self" data-x="580" data-y="240">
-    <h3>Algorithmic Self</h3>
-    <span class="node-type">Concept</span>
+  <div class="connection-node theme-future" id="node-future-theme" data-x="420" data-y="440">
+    <h3>Future</h3>
+    <span class="node-type">Quote Theme</span>
   </div>
 
   <!-- ============================================
-       STORYTELLING CLUSTER
+       KEY CONCEPTS — purple
        ============================================ -->
-  <div class="connection-node theme-creativity" id="node-poetry" data-x="80" data-y="380">
-    <h3>Poetry</h3>
-    <span class="node-type">Form</span>
-  </div>
-  <div class="connection-node theme-creativity" id="node-memoir" data-x="160" data-y="400">
-    <h3>Memoir</h3>
-    <span class="node-type">Form</span>
-  </div>
-  <div class="connection-node theme-creativity" id="node-oral-history" data-x="240" data-y="420">
-    <h3>Oral History</h3>
-    <span class="node-type">Form</span>
-  </div>
-  <div class="connection-node theme-creativity" id="node-testimony" data-x="140" data-y="440">
-    <h3>Testimony</h3>
-    <span class="node-type">Form</span>
-  </div>
-  <div class="connection-node theme-creativity" id="node-double-perspective" data-x="200" data-y="360">
+  <div class="connection-node theme-identity" id="node-double-perspective" data-x="200" data-y="360">
     <h3>Double Perspective</h3>
-    <span class="node-type">Theory</span>
-  </div>
-  <div class="connection-node theme-creativity" id="node-witnessing" data-x="280" data-y="380">
-    <h3>Witnessing</h3>
-    <span class="node-type">Concept</span>
-  </div>
-   <div class="connection-node theme-creativity" id="node-fandom" data-x="80" data-y="460">
-    <h3>Fandom</h3>
-    <span class="node-type">Concept</span>
-  </div>
-
-  <!-- ============================================
-       TECHNOLOGY CLUSTER
-       ============================================ -->
-  <div class="connection-node theme-future" id="node-ai" data-x="360" data-y="440">
-    <h3>AI</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-future" id="node-surveillance" data-x="440" data-y="440">
-    <h3>Surveillance</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-future" id="node-algorithms" data-x="520" data-y="430">
-    <h3>Algorithms</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-future" id="node-berners-lee" data-x="400" data-y="490">
-    <h3>Berners-Lee</h3>
-    <span class="node-type">Researcher</span>
-  </div>
-  <div class="connection-node theme-future" id="node-digital-sobriety" data-x="480" data-y="470">
-    <h3>Digital Sobriety</h3>
-    <span class="node-type">Concept</span>
-  </div>
-    <div class="connection-node theme-web" id="node-smartphones" data-x="480" data-y="490">
-    <h3>Smartphones</h3>
-    <span class="node-type">Concept</span>
-  </div>
-
-  <div class="connection-node theme-future" id="node-cloud" data-x="560" data-y="470">
-    <h3>Cloud</h3>
-    <span class="node-type">Concept</span>
-  </div>
-
-  <div class="connection-node theme-future" id="node-datafication" data-x="520" data-y="510">
-    <h3>Datafication</h3>
-    <span class="node-type">Concept</span>
-  </div>
-
-  <!-- ============================================
-       HISTORY CLUSTER
-       ============================================ -->
-  <div class="connection-node theme-intimacy" id="node-epoch" data-x="620" data-y="380">
-    <h3>Millennial Epoch</h3>
-    <span class="node-type">Era</span>
-  </div>
-  <div class="connection-node theme-intimacy" id="node-collective-memory" data-x="700" data-y="360">
-    <h3>Collective Memory</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-intimacy" id="node-personal-memory" data-x="660" data-y="420">
-    <h3>Personal Memory</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-intimacy" id="node-familial-memory" data-x="720" data-y="400">
-    <h3>Familial Memory</h3>
-    <span class="node-type">Concept</span>
+    <span class="node-type">Framework</span>
   </div>
   <div class="connection-node theme-intimacy" id="node-nostalgia" data-x="620" data-y="440">
     <h3>Nostalgia</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-intimacy" id="node-forgetting" data-x="700" data-y="440">
+  <div class="connection-node theme-intimacy" id="node-forgetting" data-x="700" data-y="460">
     <h3>Forgetting</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-place" id="node-place-memory" data-x="160" data-y="500">
-  <h3>Place Memory</h3>
-  <span class="node-type">Concept</span>
-</div>
-  <div class="connection-node theme-intimacy" id="node-millennials" data-x="660" data-y="460">
-    <h3>Millennials</h3>
+  <div class="connection-node theme-intimacy" id="node-collective-memory" data-x="620" data-y="380">
+    <h3>Collective Memory</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-intimacy" id="node-generational-memory" data-x="700" data-y="500">
-    <h3>Generational Memory</h3>
+  <div class="connection-node theme-intimacy" id="node-personal-memory" data-x="700" data-y="380">
+    <h3>Personal Memory</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-intimacy" id="node-epoch" data-x="660" data-y="340">
+    <h3>Millennial Epoch</h3>
+    <span class="node-type">Era</span>
+  </div>
+  <div class="connection-node theme-intimacy" id="node-millennials" data-x="700" data-y="320">
+    <h3>Millennials</h3>
     <span class="node-type">Concept</span>
   </div>
 
   <!-- ============================================
-       CULTURE CLUSTER
+       RESEARCHERS — chartreuse
+       ============================================ -->
+  <div class="connection-node theme-place" id="node-derrida" data-x="60" data-y="180">
+    <h3>Derrida</h3>
+    <span class="node-type">Researcher</span>
+  </div>
+  <div class="connection-node theme-place" id="node-berners-lee" data-x="60" data-y="260">
+    <h3>Berners-Lee</h3>
+    <span class="node-type">Researcher</span>
+  </div>
+  <div class="connection-node theme-place" id="node-manoff" data-x="140" data-y="300">
+    <h3>Manoff</h3>
+    <span class="node-type">Researcher</span>
+  </div>
+  <div class="connection-node theme-place" id="node-tosic" data-x="100" data-y="460">
+    <h3>Tošić</h3>
+    <span class="node-type">Researcher</span>
+  </div>
+  <div class="connection-node theme-place" id="node-ismail" data-x="40" data-y="420">
+    <h3>Ismail</h3>
+    <span class="node-type">Researcher</span>
+  </div>
+  <div class="connection-node theme-place" id="node-vlassenroot" data-x="160" data-y="480">
+    <h3>Vlassenroot</h3>
+    <span class="node-type">Researcher</span>
+  </div>
+
+  <!-- ============================================
+       CONTRIBUTORS — orchid
+       ============================================ -->
+  <div class="connection-node theme-identity" id="node-memory-workers" data-x="640" data-y="220">
+    <h3>Memory Workers</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-identity" id="node-angela" data-x="720" data-y="60">
+    <h3>Angela Mendoza</h3>
+    <span class="node-type">Contributor</span>
+  </div>
+  <div class="connection-node theme-identity" id="node-jon" data-x="760" data-y="120">
+    <h3>Jon Tobias</h3>
+    <span class="node-type">Contributor</span>
+  </div>
+  <div class="connection-node theme-identity" id="node-alana" data-x="760" data-y="180">
+    <h3>Alana Rodriguez</h3>
+    <span class="node-type">Contributor</span>
+  </div>
+  <div class="connection-node theme-identity" id="node-abenet" data-x="720" data-y="240">
+    <h3>a.benét</h3>
+    <span class="node-type">Contributor</span>
+  </div>
+  <div class="connection-node theme-identity" id="node-sam" data-x="760" data-y="300">
+    <h3>Sam Yaziji</h3>
+    <span class="node-type">Contributor</span>
+  </div>
+  <div class="connection-node theme-identity" id="node-jack" data-x="720" data-y="360">
+    <h3>Jack Hinzo</h3>
+    <span class="node-type">Contributor</span>
+  </div>
+
+  <!-- ============================================
+       PLATFORMS — cyan
+       ============================================ -->
+  <div class="connection-node theme-web" id="node-platforms" data-x="300" data-y="280">
+    <h3>Platforms</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-web" id="node-myspace" data-x="220" data-y="320">
+    <h3>MySpace</h3>
+    <span class="node-type">Platform</span>
+  </div>
+  <div class="connection-node theme-web" id="node-facebook" data-x="300" data-y="360">
+    <h3>Facebook</h3>
+    <span class="node-type">Platform</span>
+  </div>
+  <div class="connection-node theme-web" id="node-twitter" data-x="380" data-y="340">
+    <h3>Twitter / X</h3>
+    <span class="node-type">Platform</span>
+  </div>
+  <div class="connection-node theme-web" id="node-tumblr" data-x="260" data-y="400">
+    <h3>Tumblr</h3>
+    <span class="node-type">Platform</span>
+  </div>
+  <div class="connection-node theme-web" id="node-instagram" data-x="340" data-y="420">
+    <h3>Instagram</h3>
+    <span class="node-type">Platform</span>
+  </div>
+  <div class="connection-node theme-web" id="node-tiktok" data-x="420" data-y="400">
+    <h3>TikTok</h3>
+    <span class="node-type">Platform</span>
+  </div>
+  <div class="connection-node theme-web" id="node-youtube" data-x="380" data-y="460">
+    <h3>YouTube</h3>
+    <span class="node-type">Platform</span>
+  </div>
+  <div class="connection-node theme-web" id="node-email" data-x="300" data-y="480">
+    <h3>Email</h3>
+    <span class="node-type">Platform</span>
+  </div>
+
+  <!-- ============================================
+       CONCEPTS — various
        ============================================ -->
   <div class="connection-node theme-loss" id="node-memes" data-x="40" data-y="340">
     <h3>Memes</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-loss" id="node-virality" data-x="100" data-y="320">
+  <div class="connection-node theme-loss" id="node-virality" data-x="100" data-y="300">
     <h3>Virality</h3>
     <span class="node-type">Concept</span>
   </div>
@@ -463,39 +366,78 @@ function toggleMenu() {
     <h3>Remix Culture</h3>
     <span class="node-type">Concept</span>
   </div>
-
-  <!-- ============================================
-       POWER CLUSTER
-       ============================================ -->
-  <div class="connection-node theme-future" id="node-corporations" data-x="740" data-y="320">
+  <div class="connection-node theme-future" id="node-surveillance" data-x="500" data-y="420">
+    <h3>Surveillance</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-future" id="node-algorithms" data-x="560" data-y="400">
+    <h3>Algorithms</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-future" id="node-corporations" data-x="600" data-y="440">
     <h3>Corporations</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-future" id="node-censorship" data-x="780" data-y="360">
+  <div class="connection-node theme-future" id="node-censorship" data-x="660" data-y="420">
     <h3>Censorship</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-future" id="node-data-collection" data-x="700" data-y="340">
-    <h3>Data Collection</h3>
+  <div class="connection-node theme-future" id="node-digital-sobriety" data-x="560" data-y="480">
+    <h3>Digital Sobriety</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-web" id="node-smartphones" data-x="480" data-y="460">
+    <h3>Smartphones</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-loss" id="node-platform-death" data-x="220" data-y="440">
+    <h3>Platform Death</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-creativity" id="node-fandom" data-x="80" data-y="480">
+    <h3>Fandom</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-web" id="node-aesthetics" data-x="160" data-y="420">
+    <h3>Internet Aesthetics</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-identity" id="node-algorithmic-self" data-x="580" data-y="340">
+    <h3>Algorithmic Self</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-place" id="node-place-memory" data-x="160" data-y="520">
+    <h3>Place Memory</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-future" id="node-datafication" data-x="520" data-y="520">
+    <h3>Datafication</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-web" id="node-cloud" data-x="600" data-y="500">
+    <h3>Cloud</h3>
+    <span class="node-type">Concept</span>
+  </div>
+  <div class="connection-node theme-future" id="node-ai" data-x="460" data-y="520">
+    <h3>AI</h3>
     <span class="node-type">Concept</span>
   </div>
 
   <!-- ============================================
-       RESEARCHERS
+       SITE PAGES — pink
        ============================================ -->
-  <div class="connection-node theme-place" id="node-tosic" data-x="100" data-y="440">
-    <h3>Tošić</h3>
-    <span class="node-type">Researcher</span>
+  <div class="connection-node theme-future" id="node-the-trunk" data-x="420" data-y="380">
+    <h3>The Trunk</h3>
+    <span class="node-type">Archive</span>
   </div>
-  <div class="connection-node theme-place" id="node-ismail" data-x="40" data-y="420">
-    <h3>Ismail</h3>
-    <span class="node-type">Researcher</span>
+  <div class="connection-node theme-future" id="node-blessings" data-x="340" data-y="240">
+    <h3>Blessings</h3>
+    <span class="node-type">Page</span>
   </div>
-  <div class="connection-node theme-place" id="node-vlassenroot" data-x="160" data-y="460">
-    <h3>Vlassenroot</h3>
-    <span class="node-type">Researcher</span>
+  <div class="connection-node theme-future" id="node-index" data-x="500" data-y="240">
+    <h3>Index</h3>
+    <span class="node-type">Collection</span>
   </div>
-
 
 <script>
 (function() {
@@ -504,273 +446,194 @@ function toggleMenu() {
   const nodes = container.querySelectorAll('.connection-node');
 
   const connections = [
-    // Center to first ring
-    { from: 'node-memory', to: 'node-archive' },
-    { from: 'node-memory', to: 'node-social-media' },
-    { from: 'node-memory', to: 'node-people' },
-    { from: 'node-memory', to: 'node-storytelling' },
-    { from: 'node-memory', to: 'node-technology' },
-    { from: 'node-memory', to: 'node-history' },
-    { from: 'node-memory', to: 'node-culture' },
-    { from: 'node-memory', to: 'node-power' },
-    { from: 'node-memory', to: 'node-place-concept' },
-    { from: 'node-memory', to: 'node-loss-concept' },
-    { from: 'node-memory', to: 'node-identity-concept' },
-    { from: 'node-memory', to: 'node-attention' },
-    { from: 'node-memory', to: 'node-platforms-concept' },
+    // Center to everything
+    { from: 'node-memory', to: 'node-social-archive' },
+    { from: 'node-memory', to: 'node-the-trunk' },
+    { from: 'node-memory', to: 'node-double-perspective' },
+    { from: 'node-memory', to: 'node-personal-memory' },
+    { from: 'node-memory', to: 'node-collective-memory' },
+    { from: 'node-memory', to: 'node-epoch' },
+    { from: 'node-memory', to: 'node-millennials' },
+    { from: 'node-memory', to: 'node-forgetting' },
+    { from: 'node-memory', to: 'node-nostalgia' },
+    { from: 'node-memory', to: 'node-place-memory' },
+    { from: 'node-memory', to: 'node-memory-workers' },
 
-    // First ring cross-connections
-    { from: 'node-archive', to: 'node-history' },
-    { from: 'node-archive', to: 'node-technology' },
-    { from: 'node-archive', to: 'node-power' },
-    { from: 'node-social-media', to: 'node-technology' },
-    { from: 'node-social-media', to: 'node-culture' },
-    { from: 'node-social-media', to: 'node-power' },
-    { from: 'node-people', to: 'node-storytelling' },
-    { from: 'node-people', to: 'node-culture' },
+    // Archive sections to timeline categories
+    { from: 'node-upgrade-you', to: 'node-tech-category' },
+    { from: 'node-going-viral', to: 'node-culture-category' },
+    { from: 'node-going-viral', to: 'node-tech-category' },
+    { from: 'node-the-parasocial', to: 'node-culture-category' },
+    { from: 'node-the-parasocial', to: 'node-politics-category' },
+    { from: 'node-broken-record', to: 'node-culture-category' },
+    { from: 'node-broken-record', to: 'node-economics-category' },
+    { from: 'node-between-you-and-i', to: 'node-local-category' },
+    { from: 'node-between-you-and-i', to: 'node-culture-category' },
+    { from: 'node-ai-reception', to: 'node-tech-category' },
+    { from: 'node-ai-reception', to: 'node-culture-category' },
 
-    // Archive cluster
-    { from: 'node-archive', to: 'node-derrida' },
-    { from: 'node-archive', to: 'node-archive-fever' },
-    { from: 'node-archive', to: 'node-archons' },
-    { from: 'node-archive', to: 'node-authority' },
-    { from: 'node-archive', to: 'node-preservation' },
-    { from: 'node-archive', to: 'node-digital-heritage' },
-    { from: 'node-archive', to: 'node-born-digital' },
-    { from: 'node-archive', to: 'node-metadata' },
-    { from: 'node-archive', to: 'node-web-archives' },
-    { from: 'node-archive', to: 'node-manoff' },
-    { from: 'node-archive', to: 'node-loss-concept' },
-    { from: 'node-derrida', to: 'node-archive-fever' },
-    { from: 'node-derrida', to: 'node-archons' },
-    { from: 'node-derrida', to: 'node-authority' },
-    { from: 'node-derrida', to: 'node-nostalgia' },
-    { from: 'node-derrida', to: 'node-forgetting' },
-    { from: 'node-born-digital', to: 'node-social-media' },
-    { from: 'node-preservation', to: 'node-digital-heritage' },
-    { from: 'node-manoff', to: 'node-power' },
-    { from: 'node-manoff', to: 'node-authority' },
+    // Archive sections to quote themes
+    { from: 'node-upgrade-you', to: 'node-web-theme' },
+    { from: 'node-upgrade-you', to: 'node-identity-theme' },
+    { from: 'node-going-viral', to: 'node-web-theme' },
+    { from: 'node-going-viral', to: 'node-creativity-theme' },
+    { from: 'node-going-viral', to: 'node-intimacy-theme' },
+    { from: 'node-the-parasocial', to: 'node-identity-theme' },
+    { from: 'node-the-parasocial', to: 'node-intimacy-theme' },
+    { from: 'node-broken-record', to: 'node-future-theme' },
+    { from: 'node-broken-record', to: 'node-loss-theme' },
+    { from: 'node-between-you-and-i', to: 'node-place-theme' },
+    { from: 'node-between-you-and-i', to: 'node-loss-theme' },
+    { from: 'node-between-you-and-i', to: 'node-intimacy-theme' },
+    { from: 'node-ai-reception', to: 'node-future-theme' },
+    { from: 'node-ai-reception', to: 'node-creativity-theme' },
 
-    // Social Media cluster
-    { from: 'node-social-media', to: 'node-myspace' },
-    { from: 'node-social-media', to: 'node-facebook' },
-    { from: 'node-social-media', to: 'node-twitter' },
-    { from: 'node-social-media', to: 'node-tumblr' },
-    { from: 'node-social-media', to: 'node-instagram' },
-    { from: 'node-social-media', to: 'node-tiktok' },
-    { from: 'node-social-media', to: 'node-youtube' },
-    { from: 'node-social-media', to: 'node-forums' },
-    { from: 'node-social-media', to: 'node-email' },
-    { from: 'node-social-media', to: 'node-google-groups' },
+    // Archive sections to concepts
+    { from: 'node-upgrade-you', to: 'node-smartphones' },
+    { from: 'node-upgrade-you', to: 'node-platforms' },
+    { from: 'node-going-viral', to: 'node-memes' },
+    { from: 'node-going-viral', to: 'node-virality' },
+    { from: 'node-going-viral', to: 'node-participation' },
+    { from: 'node-going-viral', to: 'node-remix' },
+    { from: 'node-the-parasocial', to: 'node-platforms' },
+    { from: 'node-the-parasocial', to: 'node-instagram' },
+    { from: 'node-broken-record', to: 'node-nostalgia' },
+    { from: 'node-between-you-and-i', to: 'node-place-memory' },
+    { from: 'node-between-you-and-i', to: 'node-local-category' },
+    { from: 'node-ai-reception', to: 'node-ai' },
+    { from: 'node-ai-reception', to: 'node-censorship' },
+
+    // Social Archive to its sections
+    { from: 'node-social-archive', to: 'node-upgrade-you' },
+    { from: 'node-social-archive', to: 'node-going-viral' },
+    { from: 'node-social-archive', to: 'node-the-parasocial' },
+    { from: 'node-social-archive', to: 'node-broken-record' },
+    { from: 'node-social-archive', to: 'node-between-you-and-i' },
+    { from: 'node-social-archive', to: 'node-ai-reception' },
+
+    // The Trunk to its collections
+    { from: 'node-the-trunk', to: 'node-social-archive' },
+    { from: 'node-the-trunk', to: 'node-epoch' },
+    { from: 'node-the-trunk', to: 'node-blessings' },
+    { from: 'node-the-trunk', to: 'node-index' },
+    { from: 'node-the-trunk', to: 'node-memory-workers' },
+
+    // Platforms to each other and concepts
+    { from: 'node-platforms', to: 'node-myspace' },
+    { from: 'node-platforms', to: 'node-facebook' },
+    { from: 'node-platforms', to: 'node-twitter' },
+    { from: 'node-platforms', to: 'node-tumblr' },
+    { from: 'node-platforms', to: 'node-instagram' },
+    { from: 'node-platforms', to: 'node-tiktok' },
+    { from: 'node-platforms', to: 'node-youtube' },
+    { from: 'node-platforms', to: 'node-email' },
+    { from: 'node-platforms', to: 'node-corporations' },
+    { from: 'node-platforms', to: 'node-algorithms' },
     { from: 'node-myspace', to: 'node-nostalgia' },
-    { from: 'node-facebook', to: 'node-power' },
+    { from: 'node-myspace', to: 'node-platform-death' },
+    { from: 'node-tumblr', to: 'node-fandom' },
+    { from: 'node-tumblr', to: 'node-aesthetics' },
+    { from: 'node-tumblr', to: 'node-platform-death' },
+    { from: 'node-instagram', to: 'node-aesthetics' },
+    { from: 'node-instagram', to: 'node-algorithmic-self' },
     { from: 'node-tiktok', to: 'node-algorithms' },
-    { from: 'node-tumblr', to: 'node-communities' },
-    { from: 'node-forums', to: 'node-communities' },
-    { from: 'node-feed', to: 'node-algorithms' },
-{ from: 'node-feed', to: 'node-attention' },
-{ from: 'node-feed', to: 'node-social-media' },
-{ from: 'node-feed', to: 'node-virality' },
-{ from: 'node-feed', to: 'node-identity-concept' },
+    { from: 'node-tiktok', to: 'node-algorithmic-self' },
+    { from: 'node-facebook', to: 'node-corporations' },
+    { from: 'node-twitter', to: 'node-censorship' },
 
-    // People / Witnesses cluster
-    { from: 'node-people', to: 'node-memory-workers' },
-    { from: 'node-people', to: 'node-angela' },
-    { from: 'node-people', to: 'node-jon' },
-    { from: 'node-people', to: 'node-alana' },
-    { from: 'node-people', to: 'node-abenet' },
-    { from: 'node-people', to: 'node-sam' },
-    { from: 'node-people', to: 'node-jack' },
-    { from: 'node-people', to: 'node-communities' },
-    { from: 'node-memory-workers', to: 'node-archive' },
-    { from: 'node-memory-workers', to: 'node-storytelling' },
-    { from: 'node-angela', to: 'node-jon' },
-    { from: 'node-alana', to: 'node-abenet' },
-    { from: 'node-sam', to: 'node-jon' },
-    { from: 'node-communities', to: 'node-culture' },
+    // Contributors
+    { from: 'node-memory-workers', to: 'node-angela' },
+    { from: 'node-memory-workers', to: 'node-jon' },
+    { from: 'node-memory-workers', to: 'node-alana' },
+    { from: 'node-memory-workers', to: 'node-abenet' },
+    { from: 'node-memory-workers', to: 'node-sam' },
+    { from: 'node-memory-workers', to: 'node-jack' },
+    { from: 'node-angela', to: 'node-place-theme' },
+    { from: 'node-angela', to: 'node-identity-theme' },
+    { from: 'node-angela', to: 'node-loss-theme' },
+    { from: 'node-jon', to: 'node-place-theme' },
+    { from: 'node-jon', to: 'node-loss-theme' },
+    { from: 'node-jon', to: 'node-creativity-theme' },
+    { from: 'node-jon', to: 'node-web-theme' },
+    { from: 'node-alana', to: 'node-place-theme' },
+    { from: 'node-alana', to: 'node-web-theme' },
+    { from: 'node-alana', to: 'node-intimacy-theme' },
+    { from: 'node-abenet', to: 'node-place-theme' },
+    { from: 'node-abenet', to: 'node-identity-theme' },
+    { from: 'node-abenet', to: 'node-loss-theme' },
+    { from: 'node-sam', to: 'node-identity-theme' },
+    { from: 'node-sam', to: 'node-creativity-theme' },
+    { from: 'node-sam', to: 'node-web-theme' },
+    { from: 'node-jack', to: 'node-place-theme' },
+    { from: 'node-jack', to: 'node-web-theme' },
 
-    // Storytelling cluster
-    { from: 'node-storytelling', to: 'node-poetry' },
-    { from: 'node-storytelling', to: 'node-memoir' },
-    { from: 'node-storytelling', to: 'node-oral-history' },
-    { from: 'node-storytelling', to: 'node-testimony' },
-    { from: 'node-storytelling', to: 'node-double-perspective' },
-    { from: 'node-storytelling', to: 'node-witnessing' },
-    { from: 'node-poetry', to: 'node-people' },
-    { from: 'node-double-perspective', to: 'node-memory' },
-    { from: 'node-witnessing', to: 'node-people' },
-    { from: 'node-testimony', to: 'node-history' },
-
-    // Technology cluster
-    { from: 'node-technology', to: 'node-ai' },
-    { from: 'node-technology', to: 'node-surveillance' },
-    { from: 'node-technology', to: 'node-algorithms' },
-    { from: 'node-technology', to: 'node-berners-lee' },
-    { from: 'node-technology', to: 'node-digital-sobriety' },
-    { from: 'node-ai', to: 'node-social-media' },
-    { from: 'node-ai', to: 'node-power' },
-    { from: 'node-surveillance', to: 'node-power' },
-    { from: 'node-algorithms', to: 'node-social-media' },
-    { from: 'node-berners-lee', to: 'node-archive' },
-    { from: 'node-berners-lee', to: 'node-social-media' },
-    { from: 'node-digital-sobriety', to: 'node-surveillance' },
-
-    // History cluster
-    { from: 'node-history', to: 'node-epoch' },
-    { from: 'node-history', to: 'node-collective-memory' },
-    { from: 'node-history', to: 'node-personal-memory' },
-    { from: 'node-history', to: 'node-familial-memory' },
-    { from: 'node-history', to: 'node-nostalgia' },
-    { from: 'node-history', to: 'node-forgetting' },
-    { from: 'node-epoch', to: 'node-social-media' },
-    { from: 'node-collective-memory', to: 'node-memes' },
-    { from: 'node-personal-memory', to: 'node-storytelling' },
-    { from: 'node-familial-memory', to: 'node-people' },
-    { from: 'node-nostalgia', to: 'node-culture' },
-    { from: 'node-forgetting', to: 'node-archive' },
-
-    // Culture cluster
-    { from: 'node-culture', to: 'node-memes' },
-    { from: 'node-culture', to: 'node-virality' },
-    { from: 'node-culture', to: 'node-participation' },
-    { from: 'node-culture', to: 'node-remix' },
-    { from: 'node-memes', to: 'node-social-media' },
+    // Concepts to each other
+    { from: 'node-memes', to: 'node-virality' },
+    { from: 'node-memes', to: 'node-participation' },
+    { from: 'node-memes', to: 'node-remix' },
     { from: 'node-memes', to: 'node-collective-memory' },
-    { from: 'node-virality', to: 'node-social-media' },
-    { from: 'node-participation', to: 'node-people' },
-    { from: 'node-remix', to: 'node-storytelling' },
-
-    // Power cluster
-    { from: 'node-power', to: 'node-corporations' },
-    { from: 'node-power', to: 'node-censorship' },
-    { from: 'node-power', to: 'node-data-collection' },
-    { from: 'node-corporations', to: 'node-social-media' },
-    { from: 'node-censorship', to: 'node-archive' },
-    { from: 'node-data-collection', to: 'node-surveillance' },
+    { from: 'node-virality', to: 'node-platforms' },
+    { from: 'node-participation', to: 'node-memory-workers' },
+    { from: 'node-remix', to: 'node-creativity-theme' },
+    { from: 'node-surveillance', to: 'node-corporations' },
+    { from: 'node-surveillance', to: 'node-datafication' },
+    { from: 'node-surveillance', to: 'node-politics-category' },
+    { from: 'node-algorithms', to: 'node-platforms' },
+    { from: 'node-algorithms', to: 'node-attention' },
+    { from: 'node-corporations', to: 'node-platforms' },
+    { from: 'node-corporations', to: 'node-economics-category' },
+    { from: 'node-censorship', to: 'node-politics-category' },
+    { from: 'node-platform-death', to: 'node-loss-theme' },
+    { from: 'node-platform-death', to: 'node-forgetting' },
+    { from: 'node-digital-sobriety', to: 'node-surveillance' },
+    { from: 'node-digital-sobriety', to: 'node-datafication' },
+    { from: 'node-datafication', to: 'node-cloud' },
+    { from: 'node-datafication', to: 'node-algorithms' },
+    { from: 'node-cloud', to: 'node-smartphones' },
+    { from: 'node-ai', to: 'node-platforms' },
+    { from: 'node-ai', to: 'node-censorship' },
+    { from: 'node-ai', to: 'node-creativity-theme' },
+    { from: 'node-ai', to: 'node-future-theme' },
+    { from: 'node-nostalgia', to: 'node-culture-category' },
+    { from: 'node-nostalgia', to: 'node-forgetting' },
+    { from: 'node-forgetting', to: 'node-loss-theme' },
+    { from: 'node-collective-memory', to: 'node-epoch' },
+    { from: 'node-collective-memory', to: 'node-millennials' },
+    { from: 'node-personal-memory', to: 'node-double-perspective' },
+    { from: 'node-double-perspective', to: 'node-memory' },
+    { from: 'node-epoch', to: 'node-millennials' },
+    { from: 'node-millennials', to: 'node-nostalgia' },
+    { from: 'node-place-memory', to: 'node-place-theme' },
+    { from: 'node-place-memory', to: 'node-local-category' },
+    { from: 'node-fandom', to: 'node-participation' },
+    { from: 'node-fandom', to: 'node-identity-theme' },
+    { from: 'node-aesthetics', to: 'node-culture-category' },
+    { from: 'node-algorithmic-self', to: 'node-identity-theme' },
 
     // Researchers
-    { from: 'node-tosic', to: 'node-archive' },
-    { from: 'node-tosic', to: 'node-social-media' },
+    { from: 'node-derrida', to: 'node-forgetting' },
+    { from: 'node-derrida', to: 'node-nostalgia' },
+    { from: 'node-berners-lee', to: 'node-platforms' },
+    { from: 'node-berners-lee', to: 'node-web-theme' },
+    { from: 'node-manoff', to: 'node-censorship' },
+    { from: 'node-tosic', to: 'node-social-archive' },
+    { from: 'node-tosic', to: 'node-memory-workers' },
     { from: 'node-ismail', to: 'node-memes' },
-    { from: 'node-ismail', to: 'node-born-digital' },
-    { from: 'node-vlassenroot', to: 'node-social-media' },
-    { from: 'node-vlassenroot', to: 'node-web-archives' },
+    { from: 'node-ismail', to: 'node-participation' },
+    { from: 'node-vlassenroot', to: 'node-platforms' },
 
-// Place connections
-{ from: 'node-place-concept', to: 'node-nostalgia' },
-{ from: 'node-place-concept', to: 'node-history' },
-{ from: 'node-place-concept', to: 'node-communities' },
-{ from: 'node-place-concept', to: 'node-storytelling' },
-{ from: 'node-place-concept', to: 'node-culture' },
-{ from: 'node-place-concept', to: 'node-archive' },
+    // Environment connections
+    { from: 'node-environment-category', to: 'node-local-category' },
+    { from: 'node-environment-category', to: 'node-politics-category' },
+    { from: 'node-environment-category', to: 'node-future-theme' },
 
-// Loss connections
-{ from: 'node-loss-concept', to: 'node-archive' },
-{ from: 'node-loss-concept', to: 'node-forgetting' },
-{ from: 'node-loss-concept', to: 'node-nostalgia' },
-{ from: 'node-loss-concept', to: 'node-social-media' },
-{ from: 'node-loss-concept', to: 'node-culture' },
+    // Blessings
+    { from: 'node-blessings', to: 'node-memory-workers' },
+    { from: 'node-blessings', to: 'node-intimacy-theme' },
+    { from: 'node-blessings', to: 'node-identity-theme' },
 
-// Identity connections
-{ from: 'node-identity-concept', to: 'node-people' },
-{ from: 'node-identity-concept', to: 'node-storytelling' },
-{ from: 'node-identity-concept', to: 'node-social-media' },
-{ from: 'node-identity-concept', to: 'node-communities' },
-{ from: 'node-identity-concept', to: 'node-nostalgia' },
-{ from: 'node-identity-concept', to: 'node-memory' },
-
-// Attention connections
-{ from: 'node-attention', to: 'node-algorithms' },
-{ from: 'node-attention', to: 'node-social-media' },
-{ from: 'node-attention', to: 'node-virality' },
-{ from: 'node-attention', to: 'node-corporations' },
-{ from: 'node-attention', to: 'node-ai' },
-{ from: 'node-attention', to: 'node-surveillance' },
-{ from: 'node-attention', to: 'node-power' },
-
-// Platforms connections
-{ from: 'node-platforms-concept', to: 'node-corporations' },
-{ from: 'node-platforms-concept', to: 'node-social-media' },
-{ from: 'node-platforms-concept', to: 'node-algorithms' },
-{ from: 'node-platforms-concept', to: 'node-censorship' },
-{ from: 'node-platforms-concept', to: 'node-data-collection' },
-{ from: 'node-platforms-concept', to: 'node-power' },
-
-// Critical cross-connections ChatGPT flagged
-{ from: 'node-nostalgia', to: 'node-social-media' },
-{ from: 'node-algorithms', to: 'node-identity-concept' },
-{ from: 'node-ai', to: 'node-archive' },
-{ from: 'node-ai', to: 'node-storytelling' },
-{ from: 'node-ai', to: 'node-memory' },
-{ from: 'node-loss-concept', to: 'node-memory' },
-{ from: 'node-memory-workers', to: 'node-storytelling' },
-{ from: 'node-the-trunk', to: 'node-archive' },
-{ from: 'node-the-trunk', to: 'node-social-media' },
-{ from: 'node-the-trunk', to: 'node-people' },
-{ from: 'node-place-memory', to: 'node-place-concept' },
-{ from: 'node-place-memory', to: 'node-history' },
-{ from: 'node-place-memory', to: 'node-storytelling' },
-{ from: 'node-place-memory', to: 'node-nostalgia' },
-{ from: 'node-place-memory', to: 'node-archive' },
-
-// Platform Death
-{ from: 'node-platform-death', to: 'node-myspace' },
-{ from: 'node-platform-death', to: 'node-loss-concept' },
-{ from: 'node-platform-death', to: 'node-forgetting' },
-{ from: 'node-platform-death', to: 'node-nostalgia' },
-
-// Context
-{ from: 'node-context', to: 'node-archive' },
-{ from: 'node-context', to: 'node-storytelling' },
-{ from: 'node-context', to: 'node-metadata' },
-
-// Provenance
-{ from: 'node-provenance', to: 'node-archive' },
-{ from: 'node-provenance', to: 'node-authority' },
-{ from: 'node-provenance', to: 'node-metadata' },
-
-// Fandom
-{ from: 'node-fandom', to: 'node-tumblr' },
-{ from: 'node-fandom', to: 'node-participation' },
-{ from: 'node-fandom', to: 'node-remix' },
-{ from: 'node-fandom', to: 'node-identity-concept' },
-
-// Internet Aesthetics
-{ from: 'node-aesthetics', to: 'node-tumblr' },
-{ from: 'node-aesthetics', to: 'node-instagram' },
-{ from: 'node-aesthetics', to: 'node-culture' },
-
-// Generational Memory
-{ from: 'node-generational-memory', to: 'node-collective-memory' },
-{ from: 'node-generational-memory', to: 'node-millennials' },
-{ from: 'node-generational-memory', to: 'node-people' },
-
-// Datafication
-{ from: 'node-datafication', to: 'node-surveillance' },
-{ from: 'node-datafication', to: 'node-algorithms' },
-{ from: 'node-datafication', to: 'node-corporations' },
-
-// Algorithmic Self
-{ from: 'node-algorithmic-self', to: 'node-identity-concept' },
-{ from: 'node-algorithmic-self', to: 'node-tiktok' },
-{ from: 'node-algorithmic-self', to: 'node-instagram' },
-{ from: 'node-algorithmic-self', to: 'node-attention' },
-
-// Smartphones
-{ from: 'node-smartphones', to: 'node-technology' },
-{ from: 'node-smartphones', to: 'node-social-media' },
-{ from: 'node-smartphones', to: 'node-surveillance' },
-
-// Cloud
-{ from: 'node-cloud', to: 'node-technology' },
-{ from: 'node-cloud', to: 'node-archive' },
-{ from: 'node-cloud', to: 'node-data-collection' },
-
-// Millennials
-{ from: 'node-millennials', to: 'node-epoch' },
-{ from: 'node-millennials', to: 'node-nostalgia' },
-{ from: 'node-millennials', to: 'node-social-media' },
-{ from: 'node-millennials', to: 'node-storytelling' },
+    // Index
+    { from: 'node-index', to: 'node-the-trunk' },
   ];
 
   function positionNodes() {
@@ -849,91 +712,225 @@ const previewData = {
   'node-memory': {
     title: 'Memory',
     type: 'Center',
-    description: 'The central concept of the archive. Everything in the Trunk orbits around how memory is created, preserved, distorted, and transmitted across generations.',
+    description: 'The central concept of the archive. Everything orbits around how memory is created, preserved, distorted, and transmitted.',
     link: null
   },
 
-  // First Ring Concepts
-  'node-archive': {
-    title: 'Archive',
-    type: 'Concept',
-    description: 'A collection of evidence from the millennial epoch. The Archive asks what survives, who decides, and what power shapes the record.',
+  // Archive Sections
+  'node-social-archive': {
+    title: 'The Social Archive',
+    type: 'Collection',
+    description: 'Screenshots, posts, photographs, and digital debris — evidence of how people recorded their lives online during the millennial epoch.',
     link: '/Trunk/archive/'
   },
-  'node-social-media': {
-    title: 'Social Media',
-    type: 'Concept',
-    description: 'The platforms where millennial memory was made. Social media transformed ordinary users into archivists and witnesses of their own lives.',
+  'node-upgrade-you': {
+    title: 'Upgrade You',
+    type: 'Archive Section',
+    description: 'Screenshots of new features, updates, and the moments technology changed how we communicate without asking first.',
     link: '/Trunk/archive/'
   },
-  'node-people': {
-    title: 'People',
-    type: 'Concept',
-    description: 'The witnesses. Contributors, memory workers, communities — the people whose experiences form the archive.',
-    link: '/Trunk/drivers/'
+  'node-going-viral': {
+    title: 'Going Viral',
+    type: 'Archive Section',
+    description: 'Memes, remixes, and the stuff we all passed around until it became part of how we talk.',
+    link: '/Trunk/archive/'
   },
-  'node-storytelling': {
-    title: 'Storytelling',
-    type: 'Concept',
-    description: 'How memory becomes narrative. Poetry, memoir, oral history, testimony — the forms memory takes when it\'s shared.',
-    link: '/Trunk/drivers/'
+  'node-the-parasocial': {
+    title: 'The Parasocial',
+    type: 'Archive Section',
+    description: 'When celebrities started feeling like friends and presidents started tweeting like exes.',
+    link: '/Trunk/archive/'
   },
-  'node-technology': {
+  'node-broken-record': {
+    title: 'Broken Record',
+    type: 'Archive Section',
+    description: 'The sequels, the reboots, the comfort watches we return to like a favorite song.',
+    link: '/Trunk/archive/'
+  },
+  'node-between-you-and-i': {
+    title: 'Between You & I',
+    type: 'Archive Section',
+    description: 'Conversations meant for one person. Local references. The stuff that wasn\'t supposed to be for everyone.',
+    link: '/Trunk/archive/'
+  },
+  'node-ai-reception': {
+    title: 'AI Reception',
+    type: 'Archive Section',
+    description: 'Watching the literary world figure out how it feels about artificial intelligence, one submission guideline at a time.',
+    link: '/Trunk/archive/'
+  },
+
+  // Timeline Categories
+  'node-tech-category': {
     title: 'Technology',
-    type: 'Concept',
-    description: 'The tools that shape memory. From smartphones to AI, technology doesn\'t just record experience — it changes what we remember and how.',
-    link: '/Trunk/archive/'
-  },
-  'node-history': {
-    title: 'History',
-    type: 'Concept',
-    description: 'The timeline of the millennial epoch. Events, platforms, and cultural shifts that shaped a generation from 1982 to the present.',
+    type: 'Timeline Category',
+    description: 'The tools that shaped the epoch — from the Commodore 64 to ChatGPT. Technology doesn\'t just record experience, it changes what we remember and how.',
     link: '/Trunk/epoch/'
   },
-  'node-culture': {
+  'node-politics-category': {
+    title: 'Politics',
+    type: 'Timeline Category',
+    description: 'The laws, elections, conflicts, and policies that shaped the conditions millennials came of age under.',
+    link: '/Trunk/epoch/'
+  },
+  'node-culture-category': {
     title: 'Culture',
-    type: 'Concept',
-    description: 'The shared meanings that connect people across time. Culture provides the symbols, stories, and practices through which memory is expressed.',
-    link: null
+    type: 'Timeline Category',
+    description: 'The shared symbols, stories, and moments that connect people across the epoch.',
+    link: '/Trunk/epoch/'
   },
-  'node-power': {
-    title: 'Power',
-    type: 'Concept',
-    description: 'The forces that shape what is remembered and what is forgotten. Power influences archives, institutions, platforms, and access to history.',
-    link: null
+  'node-economics-category': {
+    title: 'Economics',
+    type: 'Timeline Category',
+    description: 'The crashes, the debt, the gig economy — economic precarity as a defining generational condition.',
+    link: '/Trunk/epoch/'
   },
-  'node-place-concept': {
+  'node-local-category': {
+    title: 'Local Memory',
+    type: 'Timeline Category',
+    description: 'The neighborhoods, landmarks, and communities that hold memory at the street level.',
+    link: '/Trunk/epoch/'
+  },
+  'node-environment-category': {
+    title: 'Environment',
+    type: 'Timeline Category',
+    description: 'Climate strikes, disasters, data centers, extinction — the physical world reacting to the epoch.',
+    link: '/Trunk/epoch/'
+  },
+
+  // Quote Themes
+  'node-place-theme': {
     title: 'Place',
-    type: 'Concept',
-    description: 'The locations where memory takes root. Places connect people to community, identity, and lived experience.',
-    link: null
+    type: 'Quote Theme',
+    description: '"You can\'t google my hood." The locations where memory takes root.',
+    link: '/Trunk/drivers/#place'
   },
-  'node-loss-concept': {
+  'node-loss-theme': {
     title: 'Loss',
-    type: 'Concept',
-    description: 'The experience of disappearance and change. Loss gives memory its urgency and often motivates preservation.',
-    link: null
+    type: 'Quote Theme',
+    description: '"How do you phantom limb a street?" Things that disappeared — buildings, people, neighborhoods, versions of self.',
+    link: '/Trunk/drivers/#loss'
   },
-  'node-identity-concept': {
+  'node-intimacy-theme': {
+    title: 'Intimacy',
+    type: 'Quote Theme',
+    description: '"I stepped on Zac Efron and Vanessa Hudgens every day until their faces became indiscernible." Friendship, family, vulnerability.',
+    link: '/Trunk/drivers/#intimacy'
+  },
+  'node-web-theme': {
+    title: 'Web',
+    type: 'Quote Theme',
+    description: '"I can\'t even find a picture of them on Google to prove they were real." Experiences mediated, preserved, distorted, or erased by digital life.',
+    link: '/Trunk/drivers/#web'
+  },
+  'node-identity-theme': {
     title: 'Identity',
+    type: 'Quote Theme',
+    description: '"I grew up to love ghetto." Race, gender, culture, faith, and the ongoing work of becoming oneself.',
+    link: '/Trunk/drivers/#identity'
+  },
+  'node-creativity-theme': {
+    title: 'Creativity',
+    type: 'Quote Theme',
+    description: '"I thought poetry was what you went to when you wanted to talk about what you thought god was." Art, poetry, music, and the drive to make meaning.',
+    link: '/Trunk/drivers/#creativity'
+  },
+  'node-future-theme': {
+    title: 'Future',
+    type: 'Quote Theme',
+    description: '"San Diego of the future, my hope is that you still hold space for community." What comes next — transition, technology, hope, and the unknown.',
+    link: '/Trunk/drivers/#future'
+  },
+
+  // Key Concepts
+  'node-double-perspective': {
+    title: 'Double Perspective',
+    type: 'Framework',
+    description: 'The experience self and the narrator self. Memory requires both — the one who lived it and the one who looks back. Neither controls the other.',
+    link: '/Trunk/notes/'
+  },
+  'node-nostalgia': {
+    title: 'Nostalgia',
     type: 'Concept',
-    description: 'How individuals and communities understand themselves. Identity is formed through memory, relationships, culture, and place.',
+    description: 'A longing for the past that shapes how people remember, interpret, and preserve experience. Monetized, weaponized, and genuinely felt.',
     link: null
   },
-  'node-attention': {
-    title: 'Attention',
+  'node-forgetting': {
+    title: 'Forgetting',
     type: 'Concept',
-    description: 'The mechanism that determines what becomes visible. Attention shapes what information is amplified, preserved, and remembered.',
+    description: 'Derrida called it the death drive — the violence of forgetting that haunts every archive. Forgetting is as important to memory as remembering.',
     link: null
   },
-  'node-platforms-concept': {
-    title: 'Platforms',
+  'node-collective-memory': {
+    title: 'Collective Memory',
     type: 'Concept',
-    description: 'The digital spaces where contemporary memory is created and shared. Platforms organize participation, communication, and preservation online.',
+    description: 'The shared memory of a group, community, or generation. What we remember together shapes cultural identity.',
+    link: null
+  },
+  'node-personal-memory': {
+    title: 'Personal Memory',
+    type: 'Concept',
+    description: 'The recollection of individual experience. The raw material that storytelling, testimony, and memoir are built from.',
+    link: null
+  },
+  'node-epoch': {
+    title: 'Millennial Epoch',
+    type: 'Era',
+    description: 'The period from 1982 to the present — the events, technologies, and conditions that shaped millennials and those following.',
+    link: '/Trunk/epoch/'
+  },
+  'node-millennials': {
+    title: 'Millennials',
+    type: 'Concept',
+    description: 'The generation born during the transition from analog to digital life. Named after the turn of the millennium.',
+    link: null
+  },
+
+  // Researchers
+  'node-derrida': {
+    title: 'Derrida',
+    type: 'Researcher',
+    description: 'Wrote Archive Fever, a Russian doll of a thesis about memory, authority, and the death drive. Reading his book exhaustively is the only way to truly consume it.',
+    link: null
+  },
+  'node-berners-lee': {
+    title: 'Berners-Lee',
+    type: 'Researcher',
+    description: 'Proposed the World Wide Web at CERN in 1989. His vision was a universal linked information system — an archive for everyone.',
+    link: null
+  },
+  'node-manoff': {
+    title: 'Manoff',
+    type: 'Researcher',
+    description: 'Wrote about archives and democracy — no political power without control of the archive. Archives are not neutral.',
+    link: null
+  },
+  'node-tosic': {
+    title: 'Tošić',
+    type: 'Researcher',
+    description: 'Introduced parallel truths — the idea that subjective archiving can lead to objective research results. Social media users as curators of history.',
+    link: null
+  },
+  'node-ismail': {
+    title: 'Ismail',
+    type: 'Researcher',
+    description: 'Studied born-digital memes as archival discourse. Memes are cultural units of transmission — dynamic, interactive, participatory.',
+    link: null
+  },
+  'node-vlassenroot': {
+    title: 'Vlassenroot',
+    type: 'Researcher',
+    description: 'Researched web archiving and social media — what counts as born-digital heritage and how we preserve it.',
     link: null
   },
 
   // Contributors
+  'node-memory-workers': {
+    title: 'Memory Workers',
+    type: 'Concept',
+    description: 'Anyone who records, preserves, interprets, or transmits memory. Not just archivists — social media users, writers, family members.',
+    link: '/Trunk/drivers/'
+  },
   'node-angela': {
     title: 'Angela Mendoza',
     type: 'Contributor',
@@ -970,405 +967,195 @@ const previewData = {
     description: 'Photographer from San Diego. "You can\'t redo a Polaroid." His work captures the melancholy underneath the sunshine.',
     link: '/Drivers/Jack/'
   },
-  'node-epoch': {
-    title: 'Millennial Epoch',
-    type: 'Era',
-    description: 'The period from 1982 to the present that shaped millennials and those following — defined by technological, political, and economic transformation.',
-    link: '/Trunk/epoch/'
-  },
 
-  // Archive Cluster
-  'node-derrida': {
-    title: 'Derrida',
-    type: 'Researcher',
-    description: 'Philosopher whose work examined the relationship between archives, memory, and technology. His ideas continue to shape archival theory and practice.',
-    link: null
-  },
-  'node-archive-fever': {
-    title: 'Archive Fever',
-    type: 'Text',
-    description: 'Derrida\'s 1995 study of the archive. The text explores preservation, authority, forgetting, and responsibility to the future.',
-    link: null
-  },
-  'node-archons': {
-    title: 'Archons',
+  // Platforms
+  'node-platforms': {
+    title: 'Platforms',
     type: 'Concept',
-    description: 'The guardians of the archive in Derrida\'s account. Archons possess the authority to preserve, organize, and interpret records.',
+    description: 'The digital spaces where contemporary memory is created, shared, and sometimes lost. Platforms organize participation — and ownership.',
     link: null
   },
-  'node-authority': {
-    title: 'Authority',
-    type: 'Concept',
-    description: 'The power to determine what belongs in the archive and how it is understood. Authority shapes both preservation and interpretation.',
-    link: null
-  },
-  'node-preservation': {
-    title: 'Preservation',
-    type: 'Concept',
-    description: 'The process of protecting records, artifacts, and memories from loss. Preservation extends the life of information across time.',
-    link: null
-  },
-  'node-digital-heritage': {
-    title: 'Digital Heritage',
-    type: 'Concept',
-    description: 'Cultural materials created and preserved in digital form. Digital heritage documents how people live, communicate, and create online.',
-    link: null
-  },
-  'node-born-digital': {
-    title: 'Born-Digital',
-    type: 'Concept',
-    description: 'Materials that originate in digital form rather than being digitized later. These records are native to the internet and digital technologies.',
-    link: null
-  },
-  'node-metadata': {
-    title: 'Metadata',
-    type: 'Concept',
-    description: 'Information about information. Metadata provides details that help identify, organize, and interpret records.',
-    link: null
-  },
-  'node-web-archives': {
-    title: 'Web Archives',
-    type: 'Concept',
-    description: 'Collections that preserve websites and online content over time. They help document parts of the internet that might otherwise disappear.',
-    link: null
-  },
-  'node-manoff': {
-    title: 'Manoff',
-    type: 'Researcher',
-    description: 'Scholar of archival studies whose work examines archives as cultural, political, and technological systems. Her research emphasizes the relationship between archives and power.',
-    link: null
-  },
-  'node-the-trunk': {
-    title: 'The Trunk',
-    type: 'Archive',
-    description: 'The project\'s central archive. The Trunk gathers interviews, artifacts, research, and connections related to memory in the millennial epoch.',
-    link: '/Trunk/'
-  },
-  'node-provenance': {
-    title: 'Provenance',
-    type: 'Concept',
-    description: 'The documented origin and history of a record or artifact. Provenance helps establish authenticity and context.',
-    link: null
-  },
-  'node-context': {
-    title: 'Context',
-    type: 'Concept',
-    description: 'The circumstances surrounding the creation and use of a record. Context helps explain how information acquires meaning.',
-    link: null
-  },
-
-  // Social Media Cluster
   'node-myspace': {
     title: 'MySpace',
     type: 'Platform',
-    description: 'One of the earliest major social networking platforms. MySpace helped establish online identity, customization, and public self-documentation.',
+    description: 'The first social network to reach global usership among millennials. Customizable, chaotic, intimate — like inviting a friend into your bedroom.',
     link: null
   },
   'node-facebook': {
     title: 'Facebook',
     type: 'Platform',
-    description: 'A social networking platform built around personal profiles and social connections. Facebook became a major archive of everyday life.',
+    description: 'Built around personal profiles and social connections. Became a major archive of everyday life — and one of the largest corporations on earth.',
     link: null
   },
   'node-twitter': {
     title: 'Twitter / X',
     type: 'Platform',
-    description: 'A platform centered on short public messages and real-time conversation. It functions as a record of reactions, events, and public discourse.',
+    description: 'Short-form public communication. A record of reactions, events, and public discourse — and a case study in what happens when one person buys the archive.',
     link: null
   },
   'node-tumblr': {
     title: 'Tumblr',
     type: 'Platform',
-    description: 'A blogging and social networking platform known for creative communities and fandom culture. Tumblr shaped new forms of online expression and identity.',
+    description: 'The engine of internet aesthetics, fandom, and GIF culture. The adult content ban destroyed community archives overnight.',
     link: null
   },
   'node-instagram': {
     title: 'Instagram',
     type: 'Platform',
-    description: 'A platform centered on images and visual storytelling. Instagram transformed photography into a primary form of social communication.',
+    description: 'Photo sharing as social communication. The platform that turned everyday life into curated performance.',
     link: null
   },
   'node-tiktok': {
     title: 'TikTok',
     type: 'Platform',
-    description: 'A short-form video platform driven by algorithmic discovery. TikTok accelerates the creation and circulation of cultural trends.',
+    description: 'Short-form video driven by algorithmic discovery. The first platform the U.S. government tried to ban outright.',
     link: null
   },
   'node-youtube': {
     title: 'YouTube',
     type: 'Platform',
-    description: 'A video-sharing platform that serves as both entertainment network and public archive. It preserves personal expression alongside cultural history.',
-    link: null
-  },
-  'node-forums': {
-    title: 'Forums',
-    type: 'Platform',
-    description: 'Discussion-based communities organized around shared interests. Forums helped establish many of the internet\'s earliest forms of collective memory.',
+    description: 'A video-sharing platform that serves as both entertainment network and public archive. Gangnam Style, the first billion-view video.',
     link: null
   },
   'node-email': {
     title: 'Email',
     type: 'Platform',
-    description: 'A digital communication system that preserves conversations across time. Email remains one of the most durable forms of personal recordkeeping.',
-    link: null
-  },
-  'node-google-groups': {
-    title: 'Google Groups',
-    type: 'Platform',
-    description: 'A discussion platform built around mailing lists and online communities. It preserves conversations that document everyday social life.',
-    link: null
-  },
-  'node-feed': {
-    title: 'The Feed',
-    type: 'Concept',
-    description: 'The continuously updated stream of content presented by digital platforms. The feed shapes visibility, attention, and memory.',
-    link: null
-  },
-  'node-platform-death': {
-    title: 'Platform Death',
-    type: 'Concept',
-    description: 'The decline, closure, or transformation of digital platforms. Platform death raises questions about preservation and cultural loss.',
-    link: null
-  },
-  'node-aesthetics': {
-    title: 'Internet Aesthetics',
-    type: 'Concept',
-    description: 'The visual styles and creative conventions that emerge online. Internet aesthetics help define distinct periods of digital culture.',
+    description: 'One of the most durable forms of personal recordkeeping. Family threads, birth announcements, the archive we don\'t think of as an archive.',
     link: null
   },
 
-  // People / Witnesses Cluster
-  'node-memory-workers': {
-    title: 'Memory Workers',
-    type: 'Concept',
-    description: 'People who record, preserve, interpret, or transmit memory. Archivists, writers, historians, and ordinary users can all function as memory workers.',
-    link: null
-  },
-  'node-communities': {
-    title: 'Communities',
-    type: 'Concept',
-    description: 'Groups connected through shared experience, identity, or place. Communities create and sustain collective memory.',
-    link: null
-  },
-  'node-algorithmic-self': {
-    title: 'Algorithmic Self',
-    type: 'Concept',
-    description: 'The version of a person represented through data, profiles, and platform activity. The algorithmic self is shaped by both user behavior and technological systems.',
-    link: null
-  },
-
-  // Storytelling Cluster
-  'node-poetry': {
-    title: 'Poetry',
-    type: 'Form',
-    description: 'A literary form that uses language, rhythm, and imagery to express experience. Poetry can preserve emotional and personal dimensions of memory.',
-    link: null
-  },
-  'node-memoir': {
-    title: 'Memoir',
-    type: 'Form',
-    description: 'A narrative account based on lived experience. Memoir transforms personal memory into a shared story.',
-    link: null
-  },
-  'node-oral-history': {
-    title: 'Oral History',
-    type: 'Form',
-    description: 'The recording of personal testimony through spoken accounts. Oral history preserves experiences that may not exist in written records.',
-    link: null
-  },
-  'node-testimony': {
-    title: 'Testimony',
-    type: 'Form',
-    description: 'A firsthand account of lived experience. Testimony serves as both evidence and memory.',
-    link: null
-  },
-  'node-double-perspective': {
-    title: 'Double Perspective',
-    type: 'Theory',
-    description: 'The ability to experience an event while simultaneously reflecting upon it. This perspective links lived experience to memory work.',
-    link: null
-  },
-  'node-witnessing': {
-    title: 'Witnessing',
-    type: 'Concept',
-    description: 'The act of observing, remembering, and recounting events. Witnessing transforms experience into historical record.',
-    link: null
-  },
-  'node-fandom': {
-    title: 'Fandom',
-    type: 'Concept',
-    description: 'Communities formed around shared cultural interests. Fandoms generate archives, traditions, and collective memory of their own.',
-    link: null
-  },
-
-  // Technology Cluster
-  'node-ai': {
-    title: 'AI',
-    type: 'Concept',
-    description: 'Systems designed to generate, analyze, or respond to information. AI raises new questions about authorship, memory, and cultural preservation.',
-    link: null
-  },
-  'node-surveillance': {
-    title: 'Surveillance',
-    type: 'Concept',
-    description: 'The collection and monitoring of information about people and their activities. Surveillance produces records that can shape memory and behavior.',
-    link: null
-  },
-  'node-algorithms': {
-    title: 'Algorithms',
-    type: 'Concept',
-    description: 'Sets of rules used to sort, recommend, and prioritize information. Algorithms influence what becomes visible online.',
-    link: null
-  },
-  'node-berners-lee': {
-    title: 'Berners-Lee',
-    type: 'Researcher',
-    description: 'Computer scientist who proposed the World Wide Web. His vision of universal access helped establish the infrastructure of digital memory.',
-    link: null
-  },
-  'node-digital-sobriety': {
-    title: 'Digital Sobriety',
-    type: 'Concept',
-    description: 'A practice of using digital technologies with greater intention and awareness. Digital sobriety responds to concerns about attention, data, and information overload.',
-    link: null
-  },
-  'node-smartphones': {
-    title: 'Smartphones',
-    type: 'Concept',
-    description: 'Portable devices that combine communication, media creation, and internet access. Smartphones turned everyday life into a continuously documented experience.',
-    link: null
-  },
-  'node-cloud': {
-    title: 'Cloud',
-    type: 'Concept',
-    description: 'Remote systems used to store and access digital information. The cloud allows memory to persist beyond individual devices.',
-    link: null
-  },
-  'node-datafication': {
-    title: 'Datafication',
-    type: 'Concept',
-    description: 'The process of converting human activity into measurable data. Datafication transforms experience into information that can be stored, analyzed, and monetized.',
-    link: null
-  },
-
-  // History Cluster
-  'node-collective-memory': {
-    title: 'Collective Memory',
-    type: 'Concept',
-    description: 'The shared memory of a group, community, or society. Collective memory helps shape cultural identity and historical understanding.',
-    link: null
-  },
-  'node-personal-memory': {
-    title: 'Personal Memory',
-    type: 'Concept',
-    description: 'The recollection of individual experiences. Personal memory forms the foundation of identity and storytelling.',
-    link: null
-  },
-  'node-familial-memory': {
-    title: 'Familial Memory',
-    type: 'Concept',
-    description: 'Memories shared across families and generations. Familial memory connects personal experience to larger histories.',
-    link: null
-  },
-  'node-nostalgia': {
-    title: 'Nostalgia',
-    type: 'Concept',
-    description: 'A longing for or reflection upon the past. Nostalgia influences how people remember, interpret, and preserve experience.',
-    link: null
-  },
-  'node-forgetting': {
-    title: 'Forgetting',
-    type: 'Concept',
-    description: 'The loss, absence, or fading of memory. Forgetting is as important to history as remembering.',
-    link: null
-  },
-  'node-place-memory': {
-    title: 'Place Memory',
-    type: 'Concept',
-    description: 'Memory connected to specific locations. Places often preserve experiences long after events have passed.',
-    link: null
-  },
-  'node-millennials': {
-    title: 'Millennials',
-    type: 'Concept',
-    description: 'The generation born during the transition from analog to digital life. Millennials occupy a unique position between pre-internet and internet eras.',
-    link: null
-  },
-  'node-generational-memory': {
-    title: 'Generational Memory',
-    type: 'Concept',
-    description: 'Memories shared by people shaped by similar historical conditions. Generational memory connects personal experience to larger social change.',
-    link: null
-  },
-
-  // Culture Cluster
+  // Concepts
   'node-memes': {
     title: 'Memes',
     type: 'Concept',
-    description: 'Images, phrases, or cultural references that spread through imitation and adaptation. Memes function as units of collective cultural memory.',
+    description: 'Images, phrases, and cultural references that spread through imitation and adaptation. Ismail calls them units of collective cultural memory.',
     link: null
   },
   'node-virality': {
     title: 'Virality',
     type: 'Concept',
-    description: 'The rapid circulation of content through networks and communities. Virality determines which moments become widely shared cultural reference points.',
+    description: 'The rapid spread of content through networks. Speed and reach increase archival value — the more people see it, the more it matters.',
     link: null
   },
   'node-participation': {
     title: 'Participation',
     type: 'Concept',
-    description: 'The act of contributing to shared cultural or digital spaces. Participation transforms audiences into creators, curators, and archivists.',
+    description: 'The act of contributing to shared cultural spaces. Audiences become creators, curators, and archivists.',
     link: null
   },
   'node-remix': {
     title: 'Remix Culture',
     type: 'Concept',
-    description: 'The practice of adapting, combining, and reusing existing cultural materials. Remix culture treats creativity as an ongoing conversation.',
+    description: 'The practice of adapting, combining, and reusing cultural materials. Creativity as an ongoing conversation rather than a singular act.',
     link: null
   },
-
-  // Power Cluster
+  'node-surveillance': {
+    title: 'Surveillance',
+    type: 'Concept',
+    description: 'The collection and monitoring of personal data. Snowden revealed the scale. Our phones confirmed it. The archive is also a surveillance state.',
+    link: null
+  },
+  'node-algorithms': {
+    title: 'Algorithms',
+    type: 'Concept',
+    description: 'The rules that sort, recommend, and prioritize what we see. Algorithms shape visibility, attention, and ultimately memory.',
+    link: null
+  },
   'node-corporations': {
     title: 'Corporations',
     type: 'Concept',
-    description: 'Organizations that own and operate many of the platforms where digital memory is stored. Corporate decisions shape access, visibility, and preservation.',
+    description: 'The companies that own the platforms where digital memory is stored. Their decisions shape access, visibility, and preservation.',
     link: null
   },
   'node-censorship': {
     title: 'Censorship',
     type: 'Concept',
-    description: 'The restriction, removal, or suppression of information. Censorship influences what can be remembered and shared.',
+    description: 'The restriction, removal, or suppression of information. What gets deleted from the archive and why.',
     link: null
   },
-  'node-data-collection': {
-    title: 'Data Collection',
+  'node-digital-sobriety': {
+    title: 'Digital Sobriety',
     type: 'Concept',
-    description: 'The gathering of information about people, behaviors, and interactions. Data collection creates records that shape both memory and power.',
+    description: 'A renewed contemplation on how to develop digital productions — using technology with more intention and less extraction.',
+    link: null
+  },
+  'node-smartphones': {
+    title: 'Smartphones',
+    type: 'Concept',
+    description: 'A computer in your hand. Turned everyday life into a continuously documented experience.',
+    link: null
+  },
+  'node-platform-death': {
+    title: 'Platform Death',
+    type: 'Concept',
+    description: 'What happens when a platform shuts down. MySpace, Vine, Tumblr\'s communities — years of culture and memory gone.',
+    link: null
+  },
+  'node-fandom': {
+    title: 'Fandom',
+    type: 'Concept',
+    description: 'Communities formed around shared cultural obsessions. Fandoms generate their own archives, traditions, and collective memory.',
+    link: null
+  },
+  'node-aesthetics': {
+    title: 'Internet Aesthetics',
+    type: 'Concept',
+    description: 'The visual styles and creative conventions that emerge online. Each era of the internet has its own look.',
+    link: null
+  },
+  'node-algorithmic-self': {
+    title: 'Algorithmic Self',
+    type: 'Concept',
+    description: 'The version of a person represented through data, profiles, and platform activity. Shaped by both user behavior and the systems that track it.',
+    link: null
+  },
+  'node-place-memory': {
+    title: 'Place Memory',
+    type: 'Concept',
+    description: 'Memory connected to specific locations. Places hold experiences long after the events that created them have passed.',
+    link: null
+  },
+  'node-datafication': {
+    title: 'Datafication',
+    type: 'Concept',
+    description: 'The process of converting human activity into measurable data. Experience becomes information that can be stored, analyzed, and sold.',
+    link: null
+  },
+  'node-cloud': {
+    title: 'Cloud',
+    type: 'Concept',
+    description: 'Remote storage that allows memory to persist beyond individual devices. Convenient, invisible, owned by corporations.',
+    link: null
+  },
+  'node-ai': {
+    title: 'AI',
+    type: 'Concept',
+    description: 'Artificial intelligence — the latest technology reshaping authorship, labor, and what it means to create. The epoch\'s newest turning point.',
     link: null
   },
 
-  // Researchers
-  'node-tosic': {
-    title: 'Tošić',
-    type: 'Researcher',
-    description: 'Researcher whose work examines memory, archives, and the coexistence of multiple perspectives. The concept of parallel truths informs the social archive.',
-    link: null
+  // Site Pages
+  'node-the-trunk': {
+    title: 'The Trunk',
+    type: 'Archive',
+    description: 'The research core of the project. Timeline, Social Archive, Field Notes, Connections — the question of what happens when memory, history, and platforms converge.',
+    link: '/Trunk/'
   },
-  'node-ismail': {
-    title: 'Ismail',
-    type: 'Researcher',
-    description: 'Researcher whose work contributes to discussions of stewardship, digital preservation, and responsibility toward future users.',
-    link: null
+  'node-blessings': {
+    title: 'Blessings',
+    type: 'Page',
+    description: 'A memorial and a reminder of the people whose work left an impression. Look what we made.',
+    link: '/blessings/'
   },
-  'node-vlassenroot': {
-    title: 'Vlassenroot',
-    type: 'Researcher',
-    description: 'Researcher whose work examines digital heritage, memory practices, and the preservation of born-digital culture.',
+  'node-index': {
+    title: 'Index',
+    type: 'Collection',
+    description: 'Key terms, researchers, and concepts from across the archive. A quick reference for the ideas that shape the Trunk.',
     link: null
   }
 };
 
-// Show preview on click
+// Show preview near the clicked node
 container.addEventListener('click', function(e) {
   if (hasMoved) return;
   const node = e.target.closest('.connection-node');
@@ -1393,6 +1180,27 @@ container.addEventListener('click', function(e) {
     link.style.display = 'none';
   }
 
+  // Position popup near the clicked node
+  const nodeRect = node.getBoundingClientRect();
+  const containerRect = container.getBoundingClientRect();
+  const previewWidth = 300;
+  const previewHeight = 200;
+
+  let left = nodeRect.left - containerRect.left + nodeRect.width + 16;
+  let top = nodeRect.top - containerRect.top;
+
+  // Keep popup within container bounds
+  if (left + previewWidth > containerRect.width) {
+    left = nodeRect.left - containerRect.left - previewWidth - 16;
+  }
+  if (top + previewHeight > containerRect.height) {
+    top = containerRect.height - previewHeight - 16;
+  }
+  if (top < 0) top = 16;
+
+  preview.style.left = left + 'px';
+  preview.style.top = top + 'px';
+  preview.style.transform = 'none';
   preview.style.display = 'block';
 });
 
