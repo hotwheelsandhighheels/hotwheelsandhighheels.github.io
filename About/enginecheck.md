@@ -15,8 +15,7 @@ title: Engine Check Light
 
 2024 — Featured Reader, The Template, San Diego, CA  
 2024 — Featured Reader, San Diego Writers Ink, San Diego, CA  
-2022 — Featured Reader, The Hamlet, San Diego, CA  
-2022 — Featured Reader, Poetry Underground Series, San Diego, CA  
+2022 — Featured Reader, The Hamlet, San Diego, CA    
 2022 — Featured Reader, Poetry Salons hosted by Luis Torres, San Diego, CA  
 
-[✦](/meAF/)
+<a href="/meAF/" class="secret-link">✦</a> 
