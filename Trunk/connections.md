@@ -7,10 +7,9 @@ title: Connections - Hot Wheels & High Heels
 
 # Connections
 
-Connections maps the relationships between concepts, contributors, platforms, and events across the archive. Each node represents an idea. Each line represents a link.
+This is a visualization of all the ideas being mapped in the archive. It's a lot messier than I intended it to be but like all pages in the Trunk, it is a work in progress and will be changing as I do more research and add to the archive. You can drag the boxes around, click on them to get a little summary, and if included, a link lets you visit a related page on the site. 
 
- *Drag to explore. Click for details.*
-
+*Move boxes around to explore and click to learn more.*
 
 ---
 
