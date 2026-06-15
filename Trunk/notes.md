@@ -7,7 +7,9 @@ title: Field Notes - Hot Wheels & High Heels
 
 # Field Notes
 
-Field Notes tracks the research behind the archive — concepts, reading notes, working definitions, and questions.
+Here you will find some of the foundational ideas and research that went into creating this archive. The bullet list presentation is intentional. You'll find questions, concepts, working definitions, my double perspective framework, and reading notes. At the bottom of the page is a link to my Zotero bibliography where you can find more exact source information and notes. 
+
+
 
 ---
 
