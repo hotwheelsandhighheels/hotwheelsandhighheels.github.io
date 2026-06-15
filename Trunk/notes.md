@@ -9,8 +9,6 @@ title: Field Notes - Hot Wheels & High Heels
 
 Here you will find some of the foundational ideas and research that went into creating this archive. The bullet list presentation is intentional. You'll find questions, concepts, working definitions, my double perspective framework, and reading notes. At the bottom of the page is a link to my Zotero bibliography where you can find more exact source information and notes. 
 
-
-
 ---
 
 ## Foundations 
@@ -175,7 +173,6 @@ The archive is built on a single idea: that memory requires two selves. The self
 * Everyday documentation — informal archives
 * "Who keeps the archive?"
 
----
 
 ## Reading Notes
 
