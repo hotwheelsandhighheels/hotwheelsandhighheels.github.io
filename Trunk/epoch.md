@@ -114,10 +114,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech" data-era="before-the-web" data-concepts="technology culture">
+<div class="timeline-entry left" data-category="tech culture" data-era="before-the-web" data-concepts="technology culture">
   <h3>Nintendo Entertainment System</h3>
   <p>The NES launches in North America. Home video gaming becomes a major part of childhood culture.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -182,10 +183,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics" data-era="before-the-web" data-concepts="power">
+<div class="timeline-entry left" data-category="politics economics" data-era="before-the-web" data-concepts="power">
   <h3>The Soviet Union Collapses</h3>
   <p>The Soviet Union formally dissolved, ending the Cold War and leaving the United States as the world's sole superpower. Fifteen new countries emerged from the collapse.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag economics">Economy</span>
 </div>
 
 <div class="timeline-entry right" data-category="tech" data-era="before-the-web" data-concepts="berners-lee technology">
@@ -224,10 +226,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics" data-era="before-the-web" data-concepts="power loss">
+<div class="timeline-entry left" data-category="politics documentation" data-era="before-the-web" data-concepts="power loss">
   <h3>Rwandan Genocide</h3>
   <p>An estimated 800,000 Tutsi were killed in 100 days while the international community failed to intervene. The genocide became the defining &quot;never again&quot; failure of the post-Cold War era.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
 <div class="timeline-entry right" data-category="tech" data-era="before-the-web" data-platform="amazon" data-concepts="corporations technology platforms">
@@ -309,10 +312,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture" data-era="logging-on" data-concepts="culture power">
+<div class="timeline-entry left" data-category="culture politics" data-era="logging-on" data-concepts="culture power">
   <h3>Fox News Launches</h3>
   <p>Fox News begins broadcasting. The network becomes a major force within the evolving media ecosystem.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag politics">Politics</span>
 </div>
 
 <div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-concepts="technology">
@@ -427,20 +431,22 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="culture technology">
+<div class="timeline-entry right" data-category="culture tech" data-era="logging-on" data-concepts="culture technology">
   <h3>The Matrix</h3>
   <p><em>The Matrix</em> premieres. Its themes influence discussions of technology, identity, and reality.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2000</h2></div>
 
 
-<div class="timeline-entry right" data-category="economics" data-era="logging-on" data-concepts="precarity technology">
+<div class="timeline-entry right" data-category="economics tech" data-era="logging-on" data-concepts="precarity technology">
   <h3>Dot-Com Bubble Peaks</h3>
   <p>Technology investment reaches historic highs. The subsequent crash reshapes the internet economy.</p>
   <span class="timeline-tag economics">Economy</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry left" data-category="politics" data-era="logging-on" data-concepts="power">
@@ -452,28 +458,33 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2001</h2></div>
 
-<div class="timeline-entry right" data-category="politics" data-era="logging-on" data-concepts="power loss collective-memory">
+<div class="timeline-entry right" data-category="politics documentation culture" data-era="logging-on" data-concepts="power loss collective-memory">
   <h3>September 11 Attacks</h3>
   <p>Al-Qaeda operatives hijacked four planes, killing nearly 3,000 people in New York, Washington, D.C., and Pennsylvania. The attacks reshaped global politics, launched the War on Terror, and redefined security and surveillance for a generation.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag documentation">Documentation</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics" data-era="logging-on" data-concepts="surveillance power">
+<div class="timeline-entry left" data-category="politics tech" data-era="logging-on" data-concepts="surveillance power">
   <h3>Patriot Act Passes</h3>
   <p>The USA PATRIOT Act expands government surveillance and investigative powers. Privacy and security become central public concerns.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech" data-era="logging-on" data-platform="wikipedia" data-concepts="participation technology archive">
+<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-platform="wikipedia" data-concepts="participation technology archive">
   <h3>Wikipedia Launches</h3>
   <p>Wikipedia begins as a collaborative encyclopedia. It becomes one of the largest examples of participatory knowledge creation.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech" data-era="logging-on" data-concepts="technology">
+<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-concepts="technology">
   <h3>iPod Launches</h3>
   <p>Apple releases the iPod. Portable digital music becomes mainstream.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -485,10 +496,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech" data-era="logging-on" data-platform="friendster" data-concepts="social-media platforms identity">
+<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-platform="friendster" data-concepts="social-media platforms identity">
   <h3>Friendster Launches</h3>
   <p>Friendster launches. Social networking profiles and online connections become increasingly common.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -501,16 +513,18 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics" data-era="logging-on" data-concepts="power">
+<div class="timeline-entry right" data-category="politics documentation" data-era="logging-on" data-concepts="power">
   <h3>Iraq War Begins</h3>
   <p>The United States invades Iraq. The conflict becomes a defining geopolitical event of the decade.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech" data-era="logging-on" data-concepts="social-media technology communities">
+<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-concepts="social-media technology communities">
   <h3>Skype, LinkedIn, 4chan Launch</h3>
   <p>Several influential platforms launch. The internet expands into distinct social, professional, and anonymous communities.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -522,16 +536,18 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech" data-era="logging-on" data-platform="facebook" data-concepts="social-media platforms identity">
+<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="facebook" data-concepts="social-media platforms identity">
   <h3>Facebook Launches</h3>
   <p>Facebook launches. The platform becomes one of the largest repositories of social activity online.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech" data-era="logging-on" data-concepts="technology participation">
+<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-concepts="technology participation">
   <h3>Web 2.0</h3>
   <p>The term "Web 2.0" gains popularity. User participation becomes a defining feature of the web.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
 <div class="timeline-entry left" data-category="politics economics" data-era="logging-on" data-concepts="power">
@@ -541,10 +557,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech" data-era="logging-on" data-platform="flickr" data-concepts="social-media platforms archive">
+<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-platform="flickr" data-concepts="social-media platforms archive">
   <h3>Flickr Launches</h3>
   <p>Flickr launches. Digital photography and online sharing become increasingly connected.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
 <div class="timeline-entry left" data-category="tech" data-era="logging-on" data-concepts="technology cloud">
@@ -562,10 +579,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2005</h2></div>
 
-<div class="timeline-entry left" data-category="culture" data-era="always-online" data-platform="myspace" data-concepts="intimacy identity social-media nostalgia">
+<div class="timeline-entry left" data-category="culture tech" data-era="always-online" data-platform="myspace" data-concepts="intimacy identity social-media nostalgia">
   <h3>MySpace Top 8</h3>
   <p>MySpace introduces public friend rankings. Social relationships become visible parts of online profiles.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry right" data-category="tech culture" data-era="always-online" data-platform="youtube" data-concepts="social-media platforms participation culture">
@@ -575,10 +593,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech" data-era="always-online" data-platform="reddit" data-concepts="social-media platforms communities participation">
+<div class="timeline-entry left" data-category="tech culture" data-era="always-online" data-platform="reddit" data-concepts="social-media platforms communities participation">
   <h3>Reddit Launches</h3>
   <p>Reddit launches. User-curated communities become an influential part of internet culture.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
 <div class="timeline-entry right" data-category="tech" data-era="always-online" data-concepts="technology place">
@@ -587,10 +606,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics" data-era="always-online" data-concepts="loss power collective-memory">
+<div class="timeline-entry left" data-category="politics environment documentation" data-era="always-online" data-concepts="loss power collective-memory">
   <h3>Hurricane Katrina</h3>
   <p>Hurricane Katrina devastated New Orleans, killing over 1,300 people and displacing hundreds of thousands. The government's slow and inadequate response was documented and condemned by residents and viewers online.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag environment">Environment</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
 <div class="timeline-entry right" data-category="tech culture" data-era="always-online" data-platform="facebook" data-concepts="social-media archive memory">
@@ -603,16 +624,18 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2006</h2></div>
 
-<div class="timeline-entry left" data-category="tech" data-era="always-online" data-platform="twitter" data-concepts="social-media platforms attention">
+<div class="timeline-entry left" data-category="tech culture" data-era="always-online" data-platform="twitter" data-concepts="social-media platforms attention">
   <h3>Twitter Launches</h3>
   <p>Twitter launches. Short-form public communication becomes a major feature of online life.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech" data-era="always-online" data-platform="facebook" data-concepts="algorithms attention feed social-media">
+<div class="timeline-entry right" data-category="tech culture" data-era="always-online" data-platform="facebook" data-concepts="algorithms attention feed social-media">
   <h3>Facebook News Feed Arrives</h3>
   <p>Facebook introduces the News Feed. Algorithmic curation becomes central to how people encounter information online.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -625,16 +648,18 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech" data-era="always-online" data-concepts="smartphones technology">
+<div class="timeline-entry right" data-category="tech culture" data-era="always-online" data-concepts="smartphones technology">
   <h3>The iPhone</h3>
   <p>Apple releases the iPhone. Internet access, photography, and communication become increasingly mobile.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech" data-era="always-online" data-concepts="technology culture">
+<div class="timeline-entry left" data-category="tech culture" data-era="always-online" data-concepts="technology culture">
   <h3>Netflix Begins Streaming</h3>
   <p>Netflix expands into streaming video. Digital distribution begins replacing physical media consumption.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -646,10 +671,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech" data-era="always-online" data-concepts="technology">
+<div class="timeline-entry left" data-category="tech economics" data-era="always-online" data-concepts="technology">
   <h3>Bitcoin Whitepaper Published</h3>
   <p>Bitcoin is proposed through a published whitepaper. New ideas about digital currency and decentralized systems emerge.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag economics">Economy</span>
 </div>
 
 <div class="timeline-entry right" data-category="tech" data-era="always-online" data-concepts="smartphones platforms technology">
@@ -673,10 +699,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech" data-era="always-online" data-platform="whatsapp" data-concepts="social-media smartphones technology">
+<div class="timeline-entry left" data-category="tech culture" data-era="always-online" data-platform="whatsapp" data-concepts="social-media smartphones technology">
   <h3>WhatsApp and Pinterest Launch</h3>
   <p>Both platforms launch. Messaging and visual curation become major forms of online activity.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
 <div class="timeline-entry right" data-category="tech culture" data-era="always-online" data-platform="facebook" data-concepts="social-media attention algorithms datafication">
@@ -686,10 +713,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="economics" data-era="always-online" data-concepts="precarity platforms">
+<div class="timeline-entry left" data-category="economics tech culture" data-era="always-online" data-concepts="precarity platforms">
   <h3>The Gig Economy Expands</h3>
   <p>Uber is founded. Freelance, contract, and app-based labor begin replacing stable employment for millions.</p>
   <span class="timeline-tag economics">Economy</span>
+  <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -702,11 +731,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics documentation" data-era="always-online" data-concepts="power social-media">
+<div class="timeline-entry right" data-category="politics documentation tech" data-era="always-online" data-concepts="power social-media">
   <h3>Arab Spring</h3>
   <p>Protest movements swept across North Africa and the Middle East, organized and amplified through social media. Governments in Tunisia, Egypt, Libya, and Yemen fell — though the outcomes varied widely.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag documentation">Documentation</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry left" data-category="politics" data-era="always-online" data-concepts="power">
@@ -730,10 +760,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2011</h2></div>
 
-<div class="timeline-entry right" data-category="tech" data-era="platform-life" data-platform="snapchat" data-concepts="social-media platforms intimacy">
+<div class="timeline-entry right" data-category="tech culture" data-era="platform-life" data-platform="snapchat" data-concepts="social-media platforms intimacy">
   <h3>Snapchat Launches</h3>
   <p>Snapchat launches. Ephemeral messaging introduces new approaches to communication and digital memory.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
 <div class="timeline-entry left" data-category="tech culture" data-era="platform-life" data-platform="twitch" data-concepts="social-media platforms communities participation">
@@ -743,26 +774,29 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics" data-era="platform-life" data-concepts="power social-media">
+<div class="timeline-entry right" data-category="politics documentation" data-era="platform-life" data-concepts="power social-media">
   <h3>Osama bin Laden Killed</h3>
   <p>Osama bin Laden is killed. News of the event spreads rapidly across both traditional and social media.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics economics" data-era="platform-life" data-concepts="power precarity">
+<div class="timeline-entry left" data-category="politics economics documentation" data-era="platform-life" data-concepts="power precarity">
   <h3>Occupy Wall Street</h3>
   <p>Protesters occupied Zuccotti Park in New York City to challenge corporate power and economic inequality under the slogan &quot;We are the 99%.&quot; The movement popularized the language of inequality that would define progressive politics for the next decade.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag economics">Economy</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2012</h2></div>
 
-<div class="timeline-entry left" data-category="economics" data-era="platform-life" data-platform="instagram" data-concepts="corporations platforms power">
+<div class="timeline-entry left" data-category="economics tech" data-era="platform-life" data-platform="instagram" data-concepts="corporations platforms power">
   <h3>Facebook Acquires Instagram</h3>
   <p>Facebook acquires Instagram for $1 billion. Platform ownership becomes increasingly concentrated among a small number of companies.</p>
   <span class="timeline-tag economics">Economy</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry right" data-category="politics culture" data-era="platform-life" data-concepts="power social-media hashtag">
@@ -791,10 +825,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture" data-era="platform-life" data-concepts="virality culture social-media">
+<div class="timeline-entry right" data-category="culture tech" data-era="platform-life" data-concepts="virality culture social-media">
   <h3>Gangnam Style</h3>
   <p>Psy's "Gangnam Style" becomes the first YouTube video to reach one billion views. The milestone demonstrates the platform's global reach.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -807,16 +842,19 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="economics" data-era="platform-life" data-platform="tumblr" data-concepts="corporations platforms power">
+<div class="timeline-entry left" data-category="economics tech" data-era="platform-life" data-platform="tumblr" data-concepts="corporations platforms power">
   <h3>Tumblr Acquired by Yahoo</h3>
   <p>Yahoo acquires Tumblr for $1.1 billion. The purchase reflects growing corporate interest in online communities.</p>
   <span class="timeline-tag economics">Economy</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics" data-era="platform-life" data-concepts="surveillance power">
+<div class="timeline-entry right" data-category="politics tech documentation" data-era="platform-life" data-concepts="surveillance power">
   <h3>Edward Snowden Revelations</h3>
   <p>Documents released by Edward Snowden reveal extensive government surveillance programs. Public debate about privacy and digital infrastructure intensifies.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -830,10 +868,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture" data-era="platform-life" data-concepts="surveillance cloud privacy">
+<div class="timeline-entry left" data-category="culture tech" data-era="platform-life" data-concepts="surveillance cloud privacy">
   <h3>Celebrity Photo Leak</h3>
   <p>Private nude photographs of several female celebrities were stolen from iCloud accounts and posted online without consent. The leak sparked public discussion about digital privacy and victim-blaming.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry right" data-category="culture" data-era="platform-life" data-concepts="virality participation culture">
@@ -842,19 +881,21 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture" data-era="platform-life" data-concepts="culture power communities">
+<div class="timeline-entry left" data-category="culture tech" data-era="platform-life" data-concepts="culture power communities">
   <h3>Gamergate</h3>
   <p>An online harassment campaign targeted women in the video game industry with doxing, death threats, and coordinated abuse. It became a precursor to later online radicalization movements.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2015</h2></div>
 
-<div class="timeline-entry right" data-category="tech" data-era="platform-life" data-platform="discord" data-concepts="social-media platforms communities">
+<div class="timeline-entry right" data-category="tech culture" data-era="platform-life" data-platform="discord" data-concepts="social-media platforms communities">
   <h3>Discord Launches</h3>
   <p>Discord launches. Community-based communication expands beyond traditional social networks.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
 <div class="timeline-entry left" data-category="culture" data-era="platform-life" data-concepts="virality memes collective-memory culture">
@@ -863,10 +904,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics" data-era="platform-life" data-concepts="loss power social-media">
+<div class="timeline-entry right" data-category="politics documentation" data-era="platform-life" data-concepts="loss power social-media">
   <h3>Syrian Refugee Crisis</h3>
   <p>Millions of Syrians fled civil war. The image of Alan Kurdi, a drowned three-year-old boy washed up on a Turkish beach, became the defining photograph of the crisis.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag documentation">Documentation</span>
+
 </div>
 
 <div class="timeline-entry left" data-category="local economics environment" data-era="platform-life" data-concepts="place loss precarity">
@@ -886,16 +929,18 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2016</h2></div>
 
-<div class="timeline-entry left" data-category="tech" data-era="platform-life" data-platform="tiktok" data-concepts="social-media platforms algorithms attention feed">
+<div class="timeline-entry left" data-category="tech culture" data-era="platform-life" data-platform="tiktok" data-concepts="social-media platforms algorithms attention feed">
   <h3>TikTok Launches</h3>
   <p>TikTok launches internationally. Short-form video and algorithmic discovery become dominant features of social media culture.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics" data-era="platform-life" data-concepts="power">
+<div class="timeline-entry right" data-category="politics economics" data-era="platform-life" data-concepts="power">
   <h3>Brexit</h3>
   <p>The United Kingdom votes to leave the European Union. The decision becomes a major political and cultural event.</p>
   <span class="timeline-tag politics">Politics</span>
+   <span class="timeline-tag economics">Economy</span>
 </div>
 
 <div class="timeline-entry left" data-category="politics" data-era="platform-life" data-concepts="power social-media">
@@ -904,27 +949,30 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture economics" data-era="platform-life" data-platform="vine" data-concepts="platform-death loss creativity">
+<div class="timeline-entry right" data-category="culture economics tech" data-era="platform-life" data-platform="vine" data-concepts="platform-death loss creativity">
   <h3>Vine Shuts Down</h3>
   <p>Vine ceases operation. Its closure becomes an early example of platform loss and digital ephemerality.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag economics">Economy</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture" data-era="platform-life" data-concepts="culture technology nostalgia">
+<div class="timeline-entry left" data-category="culture tech" data-era="platform-life" data-concepts="culture technology nostalgia">
   <h3>Pokémon GO</h3>
   <p>Pokémon GO launches. The game combines augmented reality, location data, and popular culture.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2017</h2></div>
 
-<div class="timeline-entry right" data-category="politics culture" data-era="platform-life" data-concepts="power social-media testimony witnessing">
+<div class="timeline-entry right" data-category="politics culture documentation" data-era="platform-life" data-concepts="power social-media testimony witnessing">
   <h3>#MeToo</h3>
   <p>Founded by Tarana Burke years earlier, the hashtag #MeToo went viral as millions of survivors shared their experiences of sexual assault and harassment. Social media became a platform for collective testimony and public accountability on a global scale.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
 <div class="timeline-entry left" data-category="tech culture" data-era="platform-life" data-platform="aim" data-concepts="platform-death loss nostalgia intimacy">
@@ -951,10 +999,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics" data-era="platform-life" data-concepts="power social-media">
+<div class="timeline-entry right" data-category="politics documentation" data-era="platform-life" data-concepts="power social-media">
   <h3>Parkland</h3>
   <p>A gunman killed seventeen people at Marjory Stoneman Douglas High School. Surviving students organized March for Our Lives, one of the largest youth-led demonstrations in U.S. history.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
 <div class="timeline-entry left" data-category="politics culture environment" data-era="platform-life" data-concepts="power social-media youth">
@@ -965,11 +1014,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag environment">Environment</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics culture" data-era="platform-life" data-concepts="power testimony social-media">
+<div class="timeline-entry right" data-category="politics culture documentation" data-era="platform-life" data-concepts="power testimony social-media">
   <h3>Christine Blasey Ford Testifies</h3>
   <p>Christine Blasey Ford testified before the Senate that Supreme Court nominee Brett Kavanaugh had sexually assaulted her when they were teenagers. The hearing, watched live by millions, became a national reckoning on sexual assault and whose stories get believed.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
 <div class="timeline-entry left" data-category="economics" data-era="platform-life" data-concepts="precarity millennials">
@@ -1004,11 +1054,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2020</h2></div>
 
-<div class="timeline-entry right" data-category="politics culture" data-era="platform-life" data-concepts="loss technology digital-sobriety">
+<div class="timeline-entry right" data-category="politics culture economics" data-era="platform-life" data-concepts="loss technology digital-sobriety">
   <h3>COVID-19 Pandemic</h3>
   <p>A global pandemic killed over seven million people and shut down much of the world. Work, school, and social life moved online almost overnight, accelerating the platformization of daily life by years.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag economics">Economy</span>
 </div>
 
 <div class="timeline-entry left" data-category="politics documentation" data-era="platform-life" data-concepts="power social-media witnessing testimony">
@@ -1040,17 +1091,19 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2021</h2></div>
 
-<div class="timeline-entry left" data-category="politics" data-era="after-the-feed" data-concepts="power social-media">
+<div class="timeline-entry left" data-category="politics documentation" data-era="after-the-feed" data-concepts="power social-media">
   <h3>January 6 Insurrection</h3>
   <p>Supporters of President Trump stormed the U.S. Capitol in an attempt to overturn the 2020 election results. The attack was livestreamed by the participants themselves. Five people died. It was the first breach of the Capitol since 1814.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture economics" data-era="after-the-feed" data-concepts="technology culture">
+<div class="timeline-entry right" data-category="culture economics tech" data-era="after-the-feed" data-concepts="technology culture">
   <h3>NFT Boom</h3>
   <p>Interest in non-fungible tokens expands rapidly. Debates about ownership, authenticity, and digital objects become more visible.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag economics">Economy</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry left" data-category="economics" data-era="after-the-feed" data-concepts="precarity millennials">
@@ -1076,11 +1129,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics culture" data-era="after-the-feed" data-concepts="power social-media testimony">
+<div class="timeline-entry right" data-category="politics culture documentation" data-era="after-the-feed" data-concepts="power social-media testimony">
   <h3>Mahsa Amini and the Iran Protests</h3>
   <p>Mahsa Amini, a 22-year-old woman, died in custody after being arrested by Iran's morality police for wearing her hijab &quot;improperly.&quot; Her death sparked months of protests led by young women across Iran under the slogan &quot;Woman, Life, Freedom.&quot;</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
 <div class="timeline-entry left" data-category="economics" data-era="after-the-feed" data-concepts="precarity millennials">
@@ -1089,17 +1143,19 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics" data-era="after-the-feed" data-concepts="power loss social-media">
+<div class="timeline-entry right" data-category="politics documentation" data-era="after-the-feed" data-concepts="power loss social-media">
   <h3>Uvalde</h3>
 <p>A gunman killed nineteen children and two teachers at Robb Elementary School in Uvalde, Texas. Police waited over an hour before entering the classroom while children inside called 911. The failure of law enforcement and the testimony of surviving children sparked national outrage.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="economics politics" data-era="after-the-feed" data-platform="twitter" data-concepts="platforms corporations power censorship">
+<div class="timeline-entry left" data-category="economics politics tech" data-era="after-the-feed" data-platform="twitter" data-concepts="platforms corporations power censorship">
   <h3>Twitter Becomes X</h3>
   <p>Twitter is acquired and rebranded as X. The change reflects broader shifts in platform ownership and governance.</p>
   <span class="timeline-tag economics">Economy</span>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -1118,10 +1174,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture" data-era="after-the-feed" data-concepts="ai creativity labor">
+<div class="timeline-entry right" data-category="culture economics tech" data-era="after-the-feed" data-concepts="ai creativity labor">
   <h3>Hollywood Strikes</h3>
   <p>Writers and actors strike. The role of streaming platforms and artificial intelligence becomes a major issue.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag economics">Economy</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry left" data-category="politics tech documentation" data-era="after-the-feed" data-concepts="power social-media witnessing">
@@ -1132,25 +1190,28 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech" data-era="after-the-feed" data-concepts="platforms communities participation power">
+<div class="timeline-entry right" data-category="tech culture" data-era="after-the-feed" data-concepts="platforms communities participation power">
   <h3>Reddit API Revolt</h3>
   <p>Reddit communities protest changes to platform access policies. The event highlights tensions between users, moderators, and platform ownership.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2024</h2></div>
 
-<div class="timeline-entry left" data-category="politics" data-era="after-the-feed" data-concepts="power social-media">
+<div class="timeline-entry left" data-category="politics documentation" data-era="after-the-feed" data-concepts="power social-media">
   <h3>Trump Assassination Attempt</h3>
   <p>An assassination attempt against Donald Trump occurs during the presidential campaign. Images and video spread rapidly across digital platforms.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics" data-era="after-the-feed" data-concepts="power">
+<div class="timeline-entry right" data-category="politics tech" data-era="after-the-feed" data-concepts="power">
   <h3>Global Election Year</h3>
   <p>More than 60 countries, representing nearly half the world's population, held national elections in 2024 — including the United States, India, Mexico, and Indonesia. Digital platforms played a central role in how candidates campaigned, how information spread, and how results were contested.</p>
   <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -1163,10 +1224,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech" data-era="after-the-feed" data-concepts="ai technology">
+<div class="timeline-entry right" data-category="tech economics" data-era="after-the-feed" data-concepts="ai technology">
   <h3>AI Becomes Infrastructure</h3>
   <p>Artificial intelligence becomes integrated into search, productivity software, education, and creative tools. AI systems become part of everyday digital life.</p>
   <span class="timeline-tag tech">Tech</span>
+  <span class="timeline-tag economics">Economy</span>
 </div>
 
 <div class="timeline-entry left" data-category="politics environment" data-era="after-the-feed" data-concepts="power ai">
