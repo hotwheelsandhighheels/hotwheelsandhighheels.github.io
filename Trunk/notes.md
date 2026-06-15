@@ -7,7 +7,7 @@ title: Field Notes - Hot Wheels & High Heels
 
 # Field Notes
 
-Field Notes tracks the research behind the archive. Concepts, reading notes, working definitions, and questions — the ideas that shape how the Trunk understands memory.
+Field Notes tracks the research behind the archive — concepts, reading notes, working definitions, and questions.
 
 ---
 
@@ -21,26 +21,20 @@ Field Notes tracks the research behind the archive. Concepts, reading notes, wor
 * Derrida's obligation to the future
 * Ismail's "developer steward"
 * Creative writers as memory workers
-* Difference between preserving facts and preserving experience
 * The double perspective as memory work
-* Memory worker vs content creator
 
 ### What Is a Social Archive?
 
 * Archive created collectively rather than institutionally
-* Participatory archive
-* Social media users as contributors and curators
+* Participatory — social media users as contributors and curators
 * Dynamic rather than static
-* Continuously rewritten
+* Tošić's "parallel truths" — multiple perspectives existing simultaneously
 * Comments as archival layers
 * Likes, reposts, and engagement as forms of archival labor
-* Tošić's "parallel truths"
-* Multiple perspectives existing simultaneously
-* Memory becomes networked
 
 ### The Double Perspective
 
-The archive is built on a single idea: that memory requires two selves.
+The archive is built on a single idea: that memory requires two selves. The self who lived the experience and the self who looks back on it. Neither controls the other. They are interdependent. <a href="/survey-double/" class="secret-link">✦</a>
 
 <table class="double-perspective-table">
   <tr>
@@ -101,21 +95,15 @@ The archive is built on a single idea: that memory requires two selves.
   </tr>
 </table>
 
-Every component of one self has a partner in the other. Neither controls the other. They are interdependent <a href="/survey-double/" class="secret-link">✦</a>
-
 ### Born-Digital Heritage
 
-* Memes
-* Posts
-* Comments
-* Screenshots
-* Metadata
-* Livestreams
-* Digital ephemera
+* Memes, posts, comments, screenshots, metadata, livestreams
 * Heritage created digitally rather than digitized later
-* Virality, mutability, & intertextuality of objects
+* Virality — rapid spread across platforms
+* Mutability — objects altered and adapted by users
+* Intertextuality — references and remixes other cultural texts
 * Cultural value of internet artifacts
-* Future historians studying memes
+* Ismail: memes as archival discourse
 
 ---
 
@@ -124,70 +112,38 @@ Every component of one self has a partner in the other. Neither controls the oth
 ### Why Social Media Is a Historical Record
 
 * Records events as they happen
-* First-person accounts
-* Disaster communication
-* Protest documentation
-* Viral cultural moments
-* Historical record of public reaction
+* First-person accounts — disaster communication, protest documentation
 * Social media as evidence of cultural mood
-* Users documenting their own lives
 * "You are the documentary"
 
 ### The Problem of Digital Memory
 
-* Nothing survives vs everything survives
-* Deletion
-* Platform collapse
-* Link rot
-* Data abundance
-* Searchability
-* Algorithmic visibility
-* Information overload
-* Surveillance capitalism
-* Archival anxiety
-* Fear of losing memory
-* Fear of permanent memory
+* Nothing survives — deletion, platform collapse, link rot
+* Everything survives — data abundance, searchability, algorithmic visibility
+* Derrida: the structure of the archive codetermines memory
+* Archival anxiety — fear of losing memory and fear of permanent memory at the same time
 
 ### The Death of Forgetting
 
-* Derrida's death drive
-* Screenshots
-* Receipts
-* Cancel culture
-* Context collapse
+* Derrida's death drive — the violence of forgetting
+* Screenshots, receipts, cancel culture
 * Archives without expiration dates
-* Social pressure of permanent records
-* Public memory vs personal growth
-* "People are allowed to change"
-* Digital permanence
+* "People are allowed to change" — public memory vs personal growth
 
 ### The Internet Was Never Finished
 
-* Berners-Lee's proposal
-* Hypertext
-* Hypermedia
-* Extensibility
-* Future-proof systems
-* Continuous revision
-* Beta culture
-* The web as process
-* Open-ended design
-* Incompleteness as a feature
-* Tošić's transformability
+* Berners-Lee's proposal — hypertext, hypermedia, extensibility
+* Future-proof systems — continuous revision
+* The web as process — open-ended design
+* Tošić's transformability — archives that are continuously reshaped
 
 ### The Web as an Archival Dream
 
-* Universal access
-* Universal authorship
-* Global memory project
-* Archive for everyone
+* Berners-Lee's universal linked information system
+* Universal access and universal authorship
 * Hyperlinks as connective tissue
-* Preservation through connection
-* Collective intelligence
-* Democratic archive
-* Utopian dimensions of the web
-* Dream vs reality
 * Archival fever in Berners-Lee's language
+* Democratic archive — dream vs reality
 
 ---
 
@@ -195,49 +151,26 @@ Every component of one self has a partner in the other. Neither controls the oth
 
 ### Who Owns Memory?
 
-* Derrida's archons
-* Authority over interpretation
-* Corporate ownership
-* Terms of service
+* Derrida's archons — guardians with the power to interpret the archives
+* Corporate ownership — terms of service, data collection
 * Public vs private memory
-* Personal archives
-* Platform archives
-* Intellectual property
-* Data ownership
-* Can memory be owned?
 * Publishing as transfer of authority
 * Family memory keepers
+* Can memory be owned?
 
 ### Platform Death and Culture Loss
 
-* Myspace
-* Vine
-* Tumblr
-* GeoCities
-* Flash websites
-* Dead links
-* Deleted posts
-* Digital decay
-* Preservation efforts
-* Internet Archive
-* Wayback Machine
+* Myspace, Vine, Tumblr, GeoCities, Flash websites
+* Digital decay — dead links, deleted posts
+* Preservation efforts — Internet Archive, Wayback Machine
 * What disappears when platforms die?
-* What survives?
 
 ### The Archive of Everyday Life
 
-* Family email threads
-* Google Groups
-* Group chats
-* Photo dumps
-* Wedding announcements
-* Relationship status changes
-* Birth announcements
-* Everyday documentation
-* Informal archives
-* Domestic memory
-* Community memory
-* Social media as family history
+* Family email threads, Google Groups, group chats
+* Photo dumps, wedding announcements, birth announcements
+* Relationship status changes — "Married" at the same time
+* Everyday documentation — informal archives
 * "Who keeps the archive?"
 
 ---
@@ -253,7 +186,7 @@ Every component of one self has a partner in the other. Neither controls the oth
       <li>Arkheion — the residence of the archons, place of authority</li>
       <li>Archons — guardians with the power to interpret the archives</li>
       <li>Arca — the chest, the Ark of the Covenant</li>
-      <li>Death drive — the violence of forgetting, urge to repeat in pure origin</li>
+      <li>Death drive — the violence of forgetting</li>
       <li>Pleasure principle — external place of consignation promising repetition</li>
       <li>Technology as prosthesis — the archive structure codetermines memory</li>
       <li>Archive opens toward the future — integrity, openness, hope</li>
@@ -276,12 +209,10 @@ Every component of one self has a partner in the other. Neither controls the oth
       <li>Future-proofing — portable, extendible to new data formats</li>
       <li>Information loss as motivating problem</li>
       <li>The web as memory infrastructure</li>
-      <li>The web as unfinished system — continuous revision</li>
       <li>"Information Management: A Proposal" (1989/1990)</li>
     </ul>
   </div>
 </div>
-
 
 <div class="accordion">
   <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-manoff">
@@ -289,7 +220,7 @@ Every component of one self has a partner in the other. Neither controls the oth
   </button>
 <div class="accordion-content" id="accordion-manoff">
     <ul>
-      <li>Archives and democracy — no political power without control of the archive</li>
+      <li>No political power without control of the archive</li>
       <li>Archives are not neutral — even inclusive archives reflect prevailing prejudice</li>
       <li>Politics of preservation — who decides what survives</li>
       <li>Politics of deletion — publishers may deprive future researchers of access</li>
@@ -326,7 +257,7 @@ Every component of one self has a partner in the other. Neither controls the oth
       <li>Memes as archival discourse — cultural units of transmission</li>
       <li>Virality — rapid spread across platforms, speed increases archival value</li>
       <li>Mutability — objects can be altered and adapted by users</li>
-      <li>Intertextuality — references and remixes other cultural texts, creating layers of meaning</li>
+      <li>Intertextuality — references and remixes other cultural texts</li>
       <li>Participatory culture — dynamic and interactive, not static</li>
       <li>Polarization — memes as propaganda tools and vehicles for creative criticism</li>
       <li>Emotional presence — crucial element of social media news sharing</li>
@@ -356,7 +287,7 @@ Every component of one self has a partner in the other. Neither controls the oth
 
 <div class="accordion">
   <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-roultson">
-    Roulston & deMarrais<span class="accordion-icon">+</span>
+    Roulston & deMarrais <span class="accordion-icon">+</span>
   </button>
 <div class="accordion-content" id="accordion-roulston">
     <ul>
@@ -372,7 +303,7 @@ Every component of one self has a partner in the other. Neither controls the oth
 
 <div class="accordion">
   <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false" aria-controls="accordion-gebeil">
-    Gebeil & Peyssard<span class="accordion-icon">+</span>
+    Gebeil & Peyssard <span class="accordion-icon">+</span>
   </button>
 <div class="accordion-content" id="accordion-gebeil">
     <ul>
@@ -401,7 +332,6 @@ Every component of one self has a partner in the other. Neither controls the oth
       <li>Memory as an organizing principle</li>
       <li>Experience is only raw material</li>
       <li>The twin struggle: to know not only why one is speaking but who is speaking</li>
-      <li>Balance of narration, commentary, and analysis</li>
       <li>"The Situation and the Story" (2001)</li>
     </ul>
   </div>
@@ -414,7 +344,6 @@ Every component of one self has a partner in the other. Neither controls the oth
   <div class="accordion-content" id="accordion-lopate">
     <ul>
       <li>To Show and To Tell — the craft of literary nonfiction</li>
-      <li>Characterization: establishing patterns of habits and introducing variations</li>
       <li>Turning oneself into a character is release from narcissism, not self-absorption</li>
       <li>Allowing the reader to experience the past while benefiting from adult hindsight</li>
       <li>Suspense in reflection — the thought process itself</li>
