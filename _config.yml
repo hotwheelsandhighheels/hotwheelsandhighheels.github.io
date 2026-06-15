@@ -9,6 +9,9 @@ plugins:
 - jekyll-sitemap
 - jekyll-seo-tag
 
+include:
+  - .htaccess
+
 exclude:
   - README.md
   - Gemfile
