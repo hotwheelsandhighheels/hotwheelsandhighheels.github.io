@@ -1131,6 +1131,7 @@ audio:hover {
 .timeline-tag.culture,
 .timeline-tag.local,
 .timeline-tag.environment,
+.timeline-tag.economics,
 .timeline-tag.documentation {
   display: inline-block;
   font-family: 'Lora', serif;
@@ -1324,7 +1325,7 @@ audio:hover {
   font-family: 'Lora', serif;
   font-size: 9pt;
   color: var(--text);
-  opacity: 0.5;
+  opacity: 1;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
