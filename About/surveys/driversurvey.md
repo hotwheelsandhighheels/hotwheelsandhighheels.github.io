@@ -38,7 +38,7 @@ age or generational marker:
 5. Tell me about your craft. What's your favorite part?
 → 
 
-6. What's a sound or scent that instantly brings ?
+6. What's a sound or scent that instantly pulls you into the past?
 → 
 
 7. What's something you want to remember if you forget everything else?
