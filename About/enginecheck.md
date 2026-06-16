@@ -18,4 +18,8 @@ title: Engine Check Light
 2022 — Featured Reader, The Hamlet, San Diego, CA    
 2022 — Featured Reader, Poetry Salons hosted by Luis Torres, San Diego, CA  
 
-<a href="/meAF/" class="secret-link">✦</a> 
+<center><a href="/meAF/" class="secret-link">✦</a> </center>
+<div class="driver-nav">
+  <a href="/About/">← About</a>
+  <a href="/Trunk/epoch/">The Epoch →</a>
+</div>

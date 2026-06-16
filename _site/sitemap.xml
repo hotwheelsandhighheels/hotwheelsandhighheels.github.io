@@ -51,4 +51,10 @@
 <url>
 <loc>http://localhost:4000/revving-up/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/appendix/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/brief/</loc>
+</url>
 </urlset>
