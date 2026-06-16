@@ -374,7 +374,6 @@ On this page, I am collecting content that reflects anything I felt was epoch-fo
     <img src="/assets/archive/ai/45parallel.png" alt="AI submission guidelines screenshot from 45 Parallel">
     <p class="caption">45 Parallel</p>
   </div>
-  </div>
   <div class="slide">
     <img src="/assets/archive/ai/sweet lit.png" alt="AI submission guidelines screenshot from Sweet Lit">
     <p class="caption">Sweet Lit</p>
