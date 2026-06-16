@@ -370,7 +370,7 @@ On this page, I am collecting content that reflects anything I felt was epoch-fo
     <img src="/assets/archive/ai/rhinopoetry.png" alt="AI submission guidelines screenshot from RHINO">
     <p class="caption">RHINO</p>
   </div>
-    <div class="slide">
+  <div class="slide">
     <img src="/assets/archive/ai/45parallel.png" alt="AI submission guidelines screenshot from 45 Parallel">
     <p class="caption">45 Parallel</p>
   </div>
@@ -386,12 +386,12 @@ On this page, I am collecting content that reflects anything I felt was epoch-fo
     <img src="/assets/archive/ai/SHENANDOAH.png" alt="AI submission guidelines screenshot from SHENANDOAH">
     <p class="caption">SHENANDOAH</p>
   </div>
-
 <div class="slideshow-controls">
   <button class="slide-btn" onclick="changeSlide(-1)">&#8592;</button>
   <span class="slide-count"><span id="current">1</span> / <span id="total"></span></span>
   <button class="slide-btn" onclick="changeSlide(1)">&#8594;</button>
 </div>
+
 <script>
 const slideshow = document.getElementById('slideshow');
 const allSlides = Array.from(slideshow.querySelectorAll('.slide'));
