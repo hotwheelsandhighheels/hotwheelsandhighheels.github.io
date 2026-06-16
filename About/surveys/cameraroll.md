@@ -9,7 +9,7 @@ sitemap: false
 
   <h1>✦ camera roll dump ✦</h1>
   <p>open your phone. answer honestly.</p>
-    <p> hey! you found a secret survey! There are 7 through the site.</p>
+    <p> hey! you found a secret survey! There are 7 throughout the site.</p>
 
   <hr>
 
