@@ -395,6 +395,7 @@ Location: San Diego
 <p class="quote-attribution"><a href="/Drivers/Jack/">Jack Hinzo</a></p>
 <span class="timeline-tag future">Future</span>
 
+<center><a href="/survey-driver/" class="secret-link">✦</a></center>
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
   <a href="/Trunk/archive/">← View Artifacts</a>
