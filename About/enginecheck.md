@@ -5,6 +5,7 @@ title: Engine Check Light
 
 ## Selected Publications
 
+"Diphenhydramine IV, Migraine Cocktail" and "I, too, would kiss the ground" — forthcoming in *Watershed Review*  
 "There's gold on the other side of this mountain, we just have to cross this bridge first" — *Raleigh Review*  
 "The day I realized we were gods —" — *Jet Fuel Review*  
 "From way down here" — *Zone 3*  
