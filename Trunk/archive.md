@@ -143,16 +143,17 @@ On this page, I am collecting content that reflects anything I felt was epoch-fo
   </div>
 </div>
 
+---
 <!-- ============================================
      BROKEN RECORD
-
+============================================ -->
 
 ## Broken Record
 
 *0 artifacts collected*
 
-*This is where all the remakes and reboots and remixes; the nostalgia fueled economy of entertainment.*
-============================================ -->
+*This is where all the remakes and reboots and remixes are gonna go; the nostalgia fueled economy of entertainment.*
+
 ---
 
 <!-- ============================================
