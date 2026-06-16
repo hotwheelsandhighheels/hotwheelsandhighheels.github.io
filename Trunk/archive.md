@@ -504,7 +504,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<a href="/survey-cameraroll/" class="secret-link">✦</a>
+<center><a href="/survey-cameraroll/" class="secret-link">✦</a></center>
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
