@@ -244,12 +244,6 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <p>Sony enters the console market with the PlayStation. Gaming expands into a larger global entertainment industry.</p>
   <span class="timeline-tag tech">Tech</span>
 </div>
-
-<div class="timeline-entry right" data-category="culture" data-era="before-the-web" data-concepts="culture">
-  <h3>Pulp Fiction</h3>
-  <p>Quentin Tarantino's film premieres. Its style and storytelling become influential within 1990s popular culture.</p>
-  <span class="timeline-tag culture">Culture</span>
-</div>
 <div class="timeline-clear"></div>
 
 <!-- ============================================
@@ -695,7 +689,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="culture" data-era="always-online" data-concepts="culture virality memes">
   <h3>Kanye Interrupts Taylor Swift</h3>
-  <p>A moment from the MTV Video Music Awards spreads widely online. Internet culture increasingly shapes celebrity discourse.</p>
+  <p>A moment from the MTV Video Music Awards spreads widely online. The president comments on it.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
