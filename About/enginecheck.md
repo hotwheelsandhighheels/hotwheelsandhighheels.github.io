@@ -9,7 +9,7 @@ title: Engine Check Light
 "There's gold on the other side of this mountain, we just have to cross this bridge first" — *Raleigh Review*  
 "The day I realized we were gods —" — *Jet Fuel Review*  
 "From way down here" — *Zone 3*  
-"Those Them Series," "Mexican-American," "Quinceañera" — *Azahares Literary Magazine*  
+"Those Them Series" "Mexican-American" and "Quinceañera" — *Azahares Literary Magazine*  
 "Blue Dream" — *Mantis Literary Journal*  
 
 ## Selected Performances
