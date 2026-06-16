@@ -196,12 +196,12 @@ On this page, I am collecting content that reflects anything I felt was epoch-fo
 
 ## AI Reception
 
-*42 artifacts collected*
+*46 artifacts collected*
 
 *This is all the stuff I see online about generative AI and LLM's. It's mostly submission guidelines from literary establishments.*
 
 <!-- SLIDESHOW -->
-<div class="slideshow" id="slideshow" data-current="1" data-total="47">
+<div class="slideshow" id="slideshow" data-current="1" data-total="46">
 
   <div class="slide">
     <img src="/assets/archive/ai/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
@@ -383,6 +383,10 @@ On this page, I am collecting content that reflects anything I felt was epoch-fo
   <div class="slide">
     <img src="/assets/archive/ai/tampareview.png" alt="AI submission guidelines screenshot from Tampa Review">
     <p class="caption">Tampa Review</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/archive/ai/SHENANDOAH.png" alt="AI submission guidelines screenshot from SHENANDOAH">
+    <p class="caption">SHENANDOAH</p>
   </div>
 
 <div class="slideshow-controls">
