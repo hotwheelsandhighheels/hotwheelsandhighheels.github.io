@@ -1034,7 +1034,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="local" data-era="platform-life" data-concepts="loss place place-memory">
   <h3>Horton Plaza Closes</h3>
-  <p>San Diego's Horton Plaza shopping center closes. A familiar civic and cultural landmark becomes part of local memory.</p>
+  <p>San Diego's Horton Plaza shopping center closes. A familiar civic and cultural landmark becomes part of local memory. Every city in America seems to have a historic mall that has since been demolished.</p>
   <span class="timeline-tag local">Local Memory</span>
 </div>
 
