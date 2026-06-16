@@ -386,6 +386,7 @@ On this page, I am collecting content that reflects anything I felt was epoch-fo
     <img src="/assets/archive/ai/SHENANDOAH.png" alt="AI submission guidelines screenshot from SHENANDOAH">
     <p class="caption">SHENANDOAH</p>
   </div>
+  
 <div class="slideshow-controls">
   <button class="slide-btn" onclick="changeSlide(-1)">&#8592;</button>
   <span class="slide-count"><span id="current">1</span> / <span id="total"></span></span>
