@@ -16,11 +16,9 @@ Amanda Felix, a PhD student under the supervision of Dr. Tatiana Glebova, PhD, a
 # Creative Content
 
 Mindy Honey -- City Beat Beyonce Spread
-https://www.instagram.com/fedellalizeth/ 
+[]https://www.instagram.com/fedellalizeth/ 
 
-RYAN SHEA AND HIS WIFE HANNA SHEA CO-EDIT AN ONLINE PUBLICATION CALLED COVER. 
-
-arr.shea@gmail.com
+RYAN SHEA AND HIS WIFE HANNA SHEA CO-EDIT AN ONLINE PUBLICATION CALLED COVER. arr.shea@gmail.com
 
 # Poetry Related
 

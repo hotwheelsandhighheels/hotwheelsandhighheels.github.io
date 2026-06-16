@@ -201,7 +201,7 @@ On this page, I am collecting content that reflects anything I felt was epoch-fo
 *This is all the stuff I see online about generative AI and LLM's. It's mostly submission guidelines from literary establishments.*
 
 <!-- SLIDESHOW -->
-<div class="slideshow" id="slideshow" data-current="1" data-total="42">
+<div class="slideshow" id="slideshow" data-current="1" data-total="47">
 
   <div class="slide">
     <img src="/assets/archive/ai/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
@@ -370,6 +370,19 @@ On this page, I am collecting content that reflects anything I felt was epoch-fo
   <div class="slide">
     <img src="/assets/archive/ai/rhinopoetry.png" alt="AI submission guidelines screenshot from RHINO">
     <p class="caption">RHINO</p>
+  </div>
+    <div class="slide">
+    <img src="/assets/archive/ai/45parallel.png" alt="AI submission guidelines screenshot from 45 Parallel">
+    <p class="caption">45 Parallel</p>
+  </div>
+  </div>
+  <div class="slide">
+    <img src="/assets/archive/ai/sweet lit.png" alt="AI submission guidelines screenshot from Sweet Lit">
+    <p class="caption">Sweet Lit</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/archive/ai/tampareview.png" alt="AI submission guidelines screenshot from Tampa Review">
+    <p class="caption">Tampa Review</p>
   </div>
 
 <div class="slideshow-controls">
