@@ -34,7 +34,7 @@ Here you will find some of the foundational ideas and research that went into cr
 
 ### The Double Perspective
 
-The archive is built on a single idea: that memory requires two selves. The self who lived the experience and the self who looks back on it. Neither controls the other. They are interdependent. <a href="/survey-double/" class="secret-link">✦</a>
+Memory requires two selves. The self who lived the experience and the self who looks back on it. Neither controls the other. They are interdependent. <a href="/survey-double/" class="secret-link">✦</a>
 
 <table class="double-perspective-table">
   <tr>
