@@ -537,6 +537,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
+<div class="timeline-entry right" data-category="politics documentation" data-era="logging-on" data-concepts="power testimony">
+  <h3>Abu Ghraib Photographs Leaked</h3>
+  <p>Photographs of U.S. soldiers torturing and humiliating Iraqi prisoners at Abu Ghraib prison were leaked and circulated globally. Evidence of war crimes were distributed through digital photography and the internet.</p>
+  <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag documentation">Documentation</span>
+</div>
+
 <div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-concepts="technology participation">
   <h3>Web 2.0</h3>
   <p>The term "Web 2.0" gains popularity. User participation becomes a defining feature of the web.</p>
