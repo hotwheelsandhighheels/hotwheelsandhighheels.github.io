@@ -106,7 +106,7 @@ Location: Roseland, Santa Rosa
   data-theme="loss intimacy"
   data-contributor="angela-mendoza"
   data-location="roseland">
-  "I once came across one of my father's many notebooks and found a journal entry about me. I was a baby, and he described watching me sleep. I taped it on the back of my door. I've never been able to find it again."
+  "I once came across one of my father's many notebooks and found a journal entry about me. I was a baby, and he described watching me sleep ... [It was] the first proof I had of his heart. I was 12 and I taped it on the back of my door. I've never been able to find it again."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Angela/">Angela Mendoza</a></p>
 <span class="timeline-tag loss">Loss</span>
@@ -284,7 +284,7 @@ Location: City Heights, San Diego
   data-theme="identity"
   data-contributor="a-benet"
   data-location="city-heights">
-  "Boundaries don't exist."
+  "Boundaries don't exist ... "
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/abenet/">a.benét</a></p>
 <span class="timeline-tag identity">Identity</span>
