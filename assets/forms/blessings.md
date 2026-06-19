@@ -12,6 +12,36 @@ sitemap: false
 
   <hr>
 
+  <h2>Blessings</h2>
+  <p>If you know someone whose creative work is <em>epoch-making</em>, tell me about them. These are your teachers, cousins, peers & friends, someone who posted online, a community voice or a neighbor. (Find my entry below as a sample while I work on this page.)</p>
+
+  <form action="https://formspree.io/f/xpqeggbv" method="POST" class="submit-form">
+
+    <label for="nominee-name">Who do you want to include? <span class="form-required">*</span></label>
+    <input type="text" id="nominee-name" name="nominee-name" required>
+
+    <label for="epoch">What about them or their work is epoch-making? <span class="form-required">*</span></label>
+    <p class="form-hint">What did they make, build, write, or create that captures something true about life in this millennium? This could be a specific project or their entire body of work.</p>
+    <textarea id="epoch" name="epoch" rows="5" required></textarea>
+
+    <label for="connection">How can I connect with them and/or their work? <span class="form-required">*</span></label>
+    <p class="form-hint">Website, social media, portfolio, article, or any other way to find them and what they've made.</p>
+    <textarea id="connection" name="connection" rows="3" required></textarea>
+
+    <label class="form-checkbox">
+      <input type="checkbox" name="driver-consideration" value="yes">
+      I think this person should also be considered for a Driver feature (full interview).
+    </label>
+
+    <input type="text" name="_gotcha" style="display:none">
+
+    <button type="submit" class="submit-btn">Submit ♡</button>
+
+  </form>
+
+  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">entries go directly to alejandra@hotwheelsandhighheels.com</p>
+
+  <hr>
   <!-- ============================================
        ALE — EXAMPLE ENTRY
        ============================================ -->
@@ -47,41 +77,13 @@ sitemap: false
   </div>
   -->
 
-  <hr>
-
-  <h2>Blessings</h2>
-  <p>If you know someone whose creative work is <em>epoch-making</em>, nominate them here. Consider your teachers, cousins, peers & friends, someone who posted online, a community voice or a neighbor. (Find my entry above as a sample while I work on this page.)</p>
-
-  <form action="https://formspree.io/f/xpqeggbv" method="POST" class="submit-form">
-
-    <label for="nominee-name">Who do you want to include? <span class="form-required">*</span></label>
-    <input type="text" id="nominee-name" name="nominee-name" required>
-
-    <label for="epoch">What about them or their work is epoch-making? <span class="form-required">*</span></label>
-    <p class="form-hint">What did they make, build, write, or create that captures something true about life in this millennium? This could be a specific project or their entire body of work.</p>
-    <textarea id="epoch" name="epoch" rows="5" required></textarea>
-
-    <label for="connection">How can I connect with them and/or their work? <span class="form-required">*</span></label>
-    <p class="form-hint">Website, social media, portfolio, article, or any other way to find them and what they've made.</p>
-    <textarea id="connection" name="connection" rows="3" required></textarea>
-
-    <label class="form-checkbox">
-      <input type="checkbox" name="driver-consideration" value="yes">
-      I think this person should also be considered for a Driver feature (full interview).
-    </label>
-
-    <input type="text" name="_gotcha" style="display:none">
-
-    <button type="submit" class="submit-btn">Submit ♡</button>
-
-  </form>
-
-  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">nominations go directly to alejandra@hotwheelsandhighheels.com</p>
-
-</div>
-
 <!-- LIGHTBOX -->
 <div class="lightbox" id="blessing-lightbox" onclick="closeBlessingLightbox()">
   <span class="lightbox-close">close</span>
   <img src="" alt="Site preview" id="blessing-lightbox-img">
+</div>
+
+<div class="driver-nav">
+  <a href="/Trunk/">← Back to Trunk</a>
+  <a href="/submit/">Other submissions →</a>
 </div>
