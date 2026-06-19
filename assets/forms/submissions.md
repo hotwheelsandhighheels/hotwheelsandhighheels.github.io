@@ -30,10 +30,10 @@ sitemap: false
       <option value="AI Reception">AI Reception</option>
       <option value="Not sure">Not sure</option>
     </select>
-    <label for="context">Context <span class="form-required">*</span></label><br>
+    <label for="context">Context <span class="form-required">*</span></label>
     <p class="form-hint">What is this? Where did it come from? Why did you save it?</p>
     <textarea id="context" name="context" rows="5" required></textarea>
-    <label for="significance">Why it matters:</label><br>
+    <label for="significance">Why it matters:</label>
     <p class="form-hint">What does this show about life in the millennial epoch? (Skip if you're not sure.)</p>
     <textarea id="significance" name="significance" rows="3"></textarea>
     <fieldset class="form-fieldset">
@@ -54,7 +54,7 @@ sitemap: false
     <label for="date">Date <span class="form-optional">(when this is from, or when you saved it)</span></label>
     <input type="text" id="date" name="date" placeholder="e.g. 03-15-2014 or circa 2012">
     <input type="text" name="_gotcha" style="display:none">
-    <button type="submit" class="submit-btn">Send it ✦</button>
+    <button type="submit" class="submit-btn">Send ♡</button>
   </form>
 
   <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">everything goes directly to alejandra@hotwheelsandhighheels.com</p>
