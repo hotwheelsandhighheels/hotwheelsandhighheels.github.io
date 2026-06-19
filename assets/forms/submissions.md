@@ -60,3 +60,9 @@ sitemap: false
   <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">everything goes directly to alejandra@hotwheelsandhighheels.com</p>
 
 </div>
+
+<!-- TRUNK NAVIGATION -->
+<div class="driver-nav">
+  <a href="/Trunk/connections/">← Check the road map</a>
+  <a href="/blessings/">Epochal Showcase →</a>
+</div>

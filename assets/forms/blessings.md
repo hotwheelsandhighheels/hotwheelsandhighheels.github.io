@@ -84,6 +84,6 @@ sitemap: false
 </div>
 
 <div class="driver-nav">
-  <a href="/Trunk/">← Back to Trunk</a>
-  <a href="/submit/">Other submissions →</a>
+  <a href="/submit/">← Send me something!</a>
+  <a href="/Trunk/">Back 2 Trunk →</a>
 </div>

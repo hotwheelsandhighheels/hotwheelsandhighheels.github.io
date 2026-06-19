@@ -9,7 +9,7 @@ title: The Millennial Epoch - Hot Wheels & High Heels
 
 Separate from the millennial age cohort, and much like the volta in poetry, an epoch references a turn in history characterized by dramatic change in perspective. The lives of millennials and those succeeding them have been shaped by overlapping technological, political, economic, environmental, and cultural transformations.
 
-*Patience: This timeline is not yet complete.*
+*Patience; This timeline is not yet complete.*
 
 ---
 
@@ -1277,7 +1277,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
-  <a href="/Trunk/">← Back to Trunk</a>
+  <a href="/Trunk/">← Back 2 Trunk</a>
   <a href="/Trunk/archive/">View Artifacts →</a>
 </div>
 
