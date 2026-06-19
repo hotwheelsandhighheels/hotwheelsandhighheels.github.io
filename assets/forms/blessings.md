@@ -50,7 +50,7 @@ sitemap: false
   <hr>
 
   <h2>Nominate a Blessing</h2>
-  <p>If you know someone whose creative work is <em>epoch-making</em>, nominate them here. Consider your teachers, cousins, peers & friends, a random person who posted online, a neighbor. (Find my entry above as a sample while I work on this page.)</p>
+  <p>If you know someone whose creative work is <em>epoch-making</em>, nominate them here. Consider your teachers, cousins, peers & friends, someone who posted online, a community voice or a neighbor. (Find my entry above as a sample while I work on this page.)</p>
 
   <form action="https://formspree.io/f/xpqeggbv" method="POST" class="submit-form">
 
