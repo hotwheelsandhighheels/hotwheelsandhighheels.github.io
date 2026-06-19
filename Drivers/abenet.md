@@ -63,7 +63,7 @@ image: assets/drivers/A-benet_cover.jpg
 
 # A Poem
 
-## **Somewhere in the Bay, a Girl Dreams of the Daygo**
+## **Somewhere in the Bay, a Girl Dreams of Daygo**
 
 If change be god, August be holy. Our  
 skin, darkened by July, settles into  
