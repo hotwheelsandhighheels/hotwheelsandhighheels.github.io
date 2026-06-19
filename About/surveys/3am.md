@@ -7,7 +7,7 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>✦ 3am survey ✦</h1>
+  <h1>3am survey</h1>
   <p> hey! you found a secret survey! There are 7 throughout the site.</p>
 
   <hr>

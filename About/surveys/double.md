@@ -7,7 +7,7 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>✦ double perspective ✦</h1>
+  <h1>double perspective</h1>
   <p>then vs now. the self that lived it and the self that remembers.</p>
     <p> hey! you found a secret survey! There are 7 throughout the site.</p>
 
