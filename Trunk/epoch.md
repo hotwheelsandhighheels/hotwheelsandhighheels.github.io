@@ -36,7 +36,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="politics economics" data-era="before-the-web" data-concepts="power precarity">
   <h3>Reagan Inaugurated</h3>
-  <p>Ronald Reagan became the 40th president and launched an era of tax cuts, deregulation, and expanded military spending. His policies widened economic inequality, weakened unions, and set the terms of American politics for decades.</p>
+  <p>Ronald Reagan becomes the 40th president of the United States. His administration launched an era of tax cuts, deregulation, and expanded military spending. His policies widened economic inequality, weakened unions, and set the terms of American politics.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag economics">Economy</span>
 </div>
@@ -51,14 +51,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 </div>
 
 <div class="timeline-entry right" data-category="politics" data-era="before-the-web" data-concepts="power">
-  <h3>War on Drugs Escalates</h3>
-  <p>Drug enforcement policies expand throughout the 1980s. Mass incarceration and sentencing disparities reshape communities for a generation.</p>
+  <h3>War on Drugs</h3>
+  <p>Drug enforcement policies expand throughout the 1980s. Mass incarceration and sentencing disparities reshape communities.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 
 <div class="timeline-entry left" data-category="economics" data-era="before-the-web" data-concepts="precarity">
   <h3>Unemployment Peaks at 10.8%</h3>
-  <p>U.S. unemployment reaches its highest level since the Great Depression. Economic precarity defines the early childhood of the first millennials.</p>
+  <p>U.S. unemployment reaches its highest level since the Great Depression.</p>
   <span class="timeline-tag economics">Economy</span>
 </div>
 
@@ -70,7 +70,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="culture" data-era="before-the-web" data-concepts="culture">
   <h3>Thriller</h3>
-  <p>Michael Jackson releases <em>Thriller</em>. The album and its music videos become defining artifacts of global popular culture.</p>
+  <p>Michael Jackson releases <em>Thriller</em>.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
@@ -125,7 +125,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-year"><h2>1987</h2></div>
 <div class="timeline-entry left" data-category="culture" data-era="before-the-web" data-concepts="millennials generational-memory">
   <h3>"Millennials" Coined</h3>
-  <p>William Strauss and Neil Howe coined the term "millennials" for the generation that would come of age around the turn of the millennium. Their book <em>Millennials Rising</em> followed in 2000, defining the cohort that would become the subject of decades of social commentary.</p>
+  <p>William Strauss and Neil Howe coin the term "millennials" for the generation that would come of age around the turn of the millennium.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-entry right" data-category="economics" data-era="before-the-web" data-concepts="precarity">
@@ -154,19 +154,19 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="tech" data-era="before-the-web" data-concepts="berners-lee technology">
   <h3>The World Wide Web Is Proposed</h3>
-  <p>Tim Berners-Lee proposes a universal linked information system at CERN. The proposal lays the groundwork for the modern web.</p>
+  <p>Tim Berners-Lee proposes a universally linked information system at CERN. The proposal lays the groundwork for the modern web.</p>
   <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry right" data-category="politics" data-era="before-the-web" data-concepts="power">
   <h3>Nelson Mandela Freed</h3>
-  <p>Nelson Mandela was released from prison after 27 years. His release and the end of apartheid in South Africa were watched globally. Mandela was elected president in 1994 in the country's first fully democratic election.</p>
+  <p>Nelson Mandela is released from prison after 27 years. His release and the end of apartheid in South Africa were watched globally. Mandela was elected president in 1994 in the country's first fully democratic election.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 
 <div class="timeline-entry left" data-category="culture" data-era="before-the-web" data-concepts="culture">
   <h3>Nintendo vs Sega</h3>
-  <p>Competition between two major video game companies defines a period of home gaming. The rivalry becomes a shared cultural reference point for many millennials.</p>
+  <p>Competition between two major video game companies defines a period of home gaming.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
@@ -181,7 +181,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="politics culture documentation" data-era="before-the-web" data-concepts="power testimony witnessing">
   <h3>Rodney King Beating and the LA Uprising</h3>
-  <p>Four LAPD officers were videotaped beating Rodney King during a traffic stop. When they were acquitted, Los Angeles erupted in six days of unrest — the first viral video of police brutality, before social media existed.</p>
+  <p>Four LAPD officers were videotaped beating Rodney King during a traffic stop; the first viral video of police brutality, before social media existed. When they were acquitted, Los Angeles erupted in six days of unrest.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag documentation">Documentation</span>
@@ -189,7 +189,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="politics economics" data-era="before-the-web" data-concepts="power">
   <h3>The Soviet Union Collapses</h3>
-  <p>The Soviet Union formally dissolved, ending the Cold War and leaving the United States as the world's sole superpower. Fifteen new countries emerged from the collapse.</p>
+  <p>The Soviet Union formally dissolves, ending the Cold War. Fifteen new countries emerged from the collapse.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag economics">Economy</span>
 </div>
