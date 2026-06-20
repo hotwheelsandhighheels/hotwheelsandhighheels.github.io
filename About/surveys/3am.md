@@ -57,6 +57,4 @@ current time:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   </div>
 
-  <p style="text-align: center; font-size: 9pt; opacity: 0.5;">✦ click, copy, paste ✦</p>
-
 </div>

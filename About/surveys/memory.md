@@ -42,10 +42,10 @@ how do you describe what you do?
 7. Who is a memory worker you admire?
 → 
 
-8. What does "archive" mean to you in one sentence?
+8. What does "archive" mean to you?
 → 
 
-9. What's something you want future historians to know about right now?
+9. What's something you want future historians to know about the present?
 → 
 
 10. Have you ever lost access to an account or platform that held your memories?
@@ -86,7 +86,5 @@ how do you describe what you do?
   alejandra@hotwheelsandhighheels.com
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   </div>
-
-  <p style="text-align: center; font-size: 9pt; opacity: 0.5;">✦ click, copy, paste ✦</p>
 
 </div>

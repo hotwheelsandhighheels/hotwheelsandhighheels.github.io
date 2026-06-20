@@ -51,7 +51,4 @@ age now vs age then:
   alejandra@hotwheelsandhighheels.com
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   </div>
-
-  <p style="text-align: center; font-size: 9pt; opacity: 0.5;">✦ click, copy, paste ✦</p>
-
 </div>
