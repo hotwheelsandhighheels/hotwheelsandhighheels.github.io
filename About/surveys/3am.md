@@ -21,31 +21,31 @@ name / alias (optional):
 location:
 current time:
 
-1. What's keeping you awake right now?
+1. What time is it?
 → 
 
-2. What's something you regret not saying to someone?
+2. What are you lagging on doing?
 → 
 
 3. What's a memory that only comes back to you at 3am?
 → 
 
-4. If you could send one text to anyone right now, what would it say?
+4. If you could send one text to anyone, living or dead, what would it say?
 → 
 
-5. What's something you've never told anyone?
+5. What's something you want the whole world to know?
 → 
 
-6. Do you believe in ghosts?
+6. What kind of things haunt you?
 → 
 
-7. What's a decision you made that still confuses you?
+7. What kind of things make you feel like god?
 → 
 
-8. Who do you miss right now?
+8. Who do you wanna hang out with soon?
 → 
 
-9. What's something you're scared of that you'd never admit in daylight?
+9. Who is the person you trust the most?
 → 
 
 10. What do you want to forgive yourself for?

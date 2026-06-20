@@ -64,22 +64,7 @@ age or generational marker:
 14. What could you eat any day of the week and never get tired of?
 → 
 
-15. Have you ever cried from being so mad?
-→ 
-
-16. Do you believe in true love?
-→ 
-
-17. What's something you want to remember from this week?
-→ 
-
-18. If you could have one wish right now, what would it be?
-→ 
-
-19. What's a question you wish people asked you more often?
-→ 
-
-20. What's a memory you've never written down but should?
+15. If you bumped your head and forgot who you were, who could you count on to help you remember yourself?
 → 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
