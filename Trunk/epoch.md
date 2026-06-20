@@ -63,8 +63,8 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 </div>
 
 <div class="timeline-entry right" data-category="tech" data-era="before-the-web" data-concepts="technology">
-  <h3>Commodore 64 Launches</h3>
-  <p>The Commodore 64 enters the consumer market. Home computing becomes accessible to millions of households for the first time.</p>
+  <h3>The Commodore 64 enters the consumer market. </h3>
+  <p>Home computing is accessible to millions of households for the first time.</p>
   <span class="timeline-tag tech">Tech</span>
 </div>
 
@@ -344,7 +344,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="aim" data-concepts="social-media platforms intimacy communities">
   <h3>AOL Instant Messenger</h3>
-  <p>AIM launches. Instant messaging becomes a central form of online social interaction.</p>
+  <p>Instant messaging is a central form of online social interaction.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
@@ -357,13 +357,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="tech" data-era="logging-on" data-concepts="ai technology">
   <h3>Deep Blue Defeats Kasparov</h3>
-  <p>IBM's Deep Blue defeats world chess champion Garry Kasparov. The event becomes a landmark in computing history.</p>
+  <p>IBM's Deep Blue defeats world chess champion Garry Kasparov. A landmark in computing history.</p>
   <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="culture parasocial collective-memory">
   <h3>Princess Diana Dies</h3>
-  <p>Princess Diana was killed in a car crash in Paris. Her funeral was watched by an estimated 2.5 billion people worldwide — one of the most-watched broadcasts in history.</p>
+  <p>Killed in a car crash in Paris, her funeral is one of the most-watched broadcasted in history viewed by an estimated 2.5 billion people worldwide.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
@@ -375,7 +375,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="culture storytelling">
   <h3>Harry Potter Published</h3>
-  <p>The first Harry Potter novel is published. The series becomes one of the defining literary phenomena of the era.</p>
+  <p>The first Harry Potter novel is published. It is one of the defining literary phenomena of the era.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
@@ -383,8 +383,8 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-year"><h2>1998</h2></div>
 
 <div class="timeline-entry left" data-category="tech" data-era="logging-on" data-platform="google" data-concepts="technology platforms">
-  <h3>Google Founded</h3>
-  <p>Google is founded. Search becomes a primary way of navigating digital information.</p>
+  <h3>Google is Founded</h3>
+  <p>Search as a primary way of navigating digital information.</p>
   <span class="timeline-tag tech">Tech</span>
 </div>
 <div class="timeline-clear"></div>
@@ -393,14 +393,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="livejournal" data-concepts="social-media platforms identity intimacy">
   <h3>LiveJournal Launches</h3>
-  <p>LiveJournal launches. Personal publishing and online journaling become more widespread.</p>
+  <p>Personal publishing and online journaling.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
 <div class="timeline-entry right" data-category="politics culture" data-era="logging-on" data-concepts="loss power">
   <h3>Columbine</h3>
-  <p>Two students killed twelve classmates and a teacher at Columbine High School. The shooting was the first to unfold in real time on television news, and the national debate over school safety, gun access, and youth culture never ended.</p>
+  <p>Two students kill twelve classmates and a teacher at Columbine High School. The shooting is the first to unfold in real time on television news. The national debate over school safety, gun access, and youth culture never goes away.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
@@ -414,16 +414,9 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-platform="napster" data-concepts="technology culture participation remix">
   <h3>Napster Launches</h3>
-  <p>Napster introduces large-scale peer-to-peer file sharing. The platform transforms how digital media circulates online.</p>
+  <p>Large-scale peer-to-peer file sharing, the platform transforms how digital media circulates online.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
-</div>
-
-<div class="timeline-entry left" data-category="culture tech" data-era="logging-on" data-concepts="culture technology">
-  <h3>The Matrix</h3>
-  <p><em>The Matrix</em> premieres. Its themes influence discussions of technology, identity, and reality.</p>
-  <span class="timeline-tag culture">Culture</span>
-  <span class="timeline-tag tech">Tech</span>
 </div>
 <div class="timeline-clear"></div>
 
