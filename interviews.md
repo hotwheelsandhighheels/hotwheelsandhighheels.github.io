@@ -24,6 +24,9 @@ RYAN SHEA AND HIS WIFE HANNA SHEA CO-EDIT AN ONLINE PUBLICATION CALLED COVER. ar
 
 YOU DA ONE - Jenniffer tamayo
 
+https://www.andrewcollard.com Andrew Collard
+
+https://www.kimberlywolfpoet.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio Kimmy Wolf
 
 # AI Related 
 
