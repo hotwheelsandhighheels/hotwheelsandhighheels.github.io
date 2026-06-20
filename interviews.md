@@ -16,7 +16,8 @@ Amanda Felix, a PhD student under the supervision of Dr. Tatiana Glebova, PhD, a
 # Creative Content
 
 Mindy Honey -- City Beat Beyonce Spread [website](https://mindahoney.com)
-Fidella Lizeth [instagram](https://www.instagram.com/fedellalizeth/) 
+
+Fidella Lizeth [website](https://fedellalizeth.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio) 
 
 RYAN SHEA AND HIS WIFE HANNA SHEA CO-EDIT AN ONLINE PUBLICATION CALLED COVER. arr.shea@gmail.com
 
@@ -31,7 +32,10 @@ Kimmy Wolf [website](https://www.kimberlywolfpoet.com/?utm_source=ig&utm_medium=
 # AI Related 
 
 [Erin Brockvich Data Centers](https://www.brockovichdatacenter.com/#concerns)
+
 Casey Fiesler [website](https://casey.prof)
+
 Vanessa Chang [website](https://vanessachang.com/links?utm_source=tiktok&utm_medium=bio)
+
 Ariana the Techie [website](https://www.arianathetechie.com/arianas-story) very impressive CV. I found her on tiktok talking about AI in classrooms. Her story mentions she's the youngest member of the board of trustees of the Museum of Contemporary Art of North Miami. 
 
