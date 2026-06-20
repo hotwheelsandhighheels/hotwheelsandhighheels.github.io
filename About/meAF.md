@@ -68,7 +68,7 @@ sitemap: false
   <div class="meaf-section">
     <h2>guestbook</h2>
     <div class="meaf-guestbook">
-      <p>✧ send me a message ✧</p>
+      <p>send me a message:</p>
       <p><a href="mailto:alejandra@hotwheelsandhighheels.com">alejandra@hotwheelsandhighheels.com</a></p>
     </div>
   </div>
