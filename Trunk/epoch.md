@@ -116,7 +116,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="tech culture" data-era="before-the-web" data-concepts="technology culture">
   <h3>Nintendo Entertainment System</h3>
-  <p>The NES launches in North America. Home video gaming becomes a major part of childhood culture.</p>
+  <p>The NES launches in North America. Home video gaming is a major part of childhood culture.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
@@ -130,7 +130,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 </div>
 <div class="timeline-entry right" data-category="economics" data-era="before-the-web" data-concepts="precarity">
   <h3>Black Monday</h3>
-  <p>Global stock markets fall sharply on October 19. The crash becomes one of the largest single-day market declines in history.</p>
+  <p>Global stock markets fall sharply on October 19, one of the largest single-day market declines in history.</p>
   <span class="timeline-tag economics">Economy</span>
 </div>
 <div class="timeline-clear"></div>
@@ -139,13 +139,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="politics" data-era="before-the-web" data-concepts="power">
   <h3>The Berlin Wall Falls</h3>
-  <p>The barrier dividing East and West Berlin opens. The event becomes a symbol of the Cold War's end.</p>
+  <p>The barrier dividing East and West Berlin opens, a symbol of the Cold War's end.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 
 <div class="timeline-entry right" data-category="culture" data-era="before-the-web" data-concepts="culture">
   <h3>The Simpsons Debuts</h3>
-  <p>The animated sitcom premieres. Its characters, references, and humor become part of shared millennial culture.</p>
+  <p>The animated sitcom premieres. Its characters, references, and humor are part of shared millennial culture.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
