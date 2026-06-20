@@ -23,25 +23,19 @@ name / alias:
 location:
 age or generational marker:
 
-1. Tell me about your favorite pair of shoes.
+1. What city did you grow up in? 
 → 
 
-2. Tell me about your favorite car.
+2. What kind of stuff do you create? 
 → 
 
-3. What was it like growing up where you're from? 
+3. Which social media platforms do you frequent? 
 → 
 
-4. What was it like growing up when you did?
+4. What generation do you most identify with? 
 → 
 
-5. Tell me about your craft. What's your favorite part?
-→ 
-
-6. What's a sound or scent that instantly pulls you into the past?
-→ 
-
-7. What's something you want to remember if you forget everything else?
+5. If you were a flower, where would you grow? 
 → 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
