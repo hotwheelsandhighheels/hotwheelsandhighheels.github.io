@@ -11,7 +11,7 @@ A toddler plays with toy cars in grandma's closet using shoes with heels as incl
 I am interested in memory work and interviewing memory workers. If you fit the vibe, _crash into me_
 
 ## The Vibe  
-Millennial, as in epoch-forming <a href="/survey-og/" class="secret-link">✦</a>  
+Millennial, as in epoch-making <a href="/survey-og/" class="secret-link">✦</a>  
 21st century, in the symbiotic sense  
 Archival, in the form of parallel truths   
 Californian: Sunny, ocean waves, sandy beaches  
@@ -20,7 +20,7 @@ Driving really fast on an empty highway with the windows down and the night sky 
 ## Registration
 Humans are beautiful. Look what we made...  
 
-HW&Hh collects: memories, artifacts, interviews, creative work, and digital traces from the millennial epoch.  
+I'm collecting memories, do you have any to spare?   
 
 Send me things like:  
 <ul>
