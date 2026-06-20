@@ -344,7 +344,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="aim" data-concepts="social-media platforms intimacy communities">
   <h3>AOL Instant Messenger</h3>
-  <p>AIM launches. Instant messaging becomes a central form of online social interaction for a generation.</p>
+  <p>AIM launches. Instant messaging becomes a central form of online social interaction.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
@@ -448,7 +448,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="politics documentation culture" data-era="logging-on" data-concepts="power loss collective-memory">
   <h3>September 11 Attacks</h3>
-  <p>Al-Qaeda operatives hijacked four planes, killing nearly 3,000 people in New York, Washington, D.C., and Pennsylvania. The attacks reshaped global politics, launched the War on Terror, and redefined security and surveillance for a generation.</p>
+  <p>Al-Qaeda operatives hijacked four planes, killing nearly 3,000 people in New York, Washington, D.C., and Pennsylvania. The attacks reshaped global politics, launched the War on Terror, and redefined security and surveillance.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag culture">Culture</span>
@@ -485,7 +485,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="politics" data-era="logging-on" data-concepts="power">
   <h3>No Child Left Behind Signed</h3>
-  <p>The No Child Left Behind Act tied federal education funding to standardized test scores. It reshaped public schooling for a generation of millennial students, expanding testing and narrowing curricula nationwide.</p>
+  <p>The No Child Left Behind Act tied federal education funding to standardized test scores. It reshaped public schooling, expanding testing and narrowing curricula nationwide.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 
@@ -826,13 +826,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="culture" data-era="platform-life" data-platform="tumblr" data-concepts="identity intimacy social-media">
   <h3>Frank Ocean Comes Out on Tumblr</h3>
-  <p>Frank Ocean publishes an open letter on Tumblr. The post becomes a widely discussed moment of online self-disclosure.</p>
+  <p>Frank Ocean publishes an open letter on Tumblr. The post is just one example of celebrity online self-disclosure.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
 <div class="timeline-entry right" data-category="culture tech" data-era="platform-life" data-concepts="virality culture social-media">
   <h3>Gangnam Style</h3>
-  <p>Psy's "Gangnam Style" becomes the first YouTube video to reach one billion views. The milestone demonstrates the platform's global reach.</p>
+  <p>Psy's "Gangnam Style" is the first YouTube video to reach one billion views. A milestone for the platform's global reach.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
@@ -848,7 +848,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="tech culture" data-era="platform-life" data-platform="vine" data-concepts="social-media platforms creativity virality platform-death">
   <h3>Vine Launches</h3>
-  <p>Vine launches. Short-form video becomes a distinctive form of internet creativity.</p>
+  <p>Short-form video as a distinctive form of internet creativity.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
@@ -940,20 +940,20 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="politics economics" data-era="platform-life" data-concepts="power">
   <h3>Brexit</h3>
-  <p>The United Kingdom votes to leave the European Union. The decision becomes a major political and cultural event.</p>
+  <p>The United Kingdom votes to leave the European Union.</p>
   <span class="timeline-tag politics">Politics</span>
    <span class="timeline-tag economics">Economy</span>
 </div>
 
 <div class="timeline-entry left" data-category="politics" data-era="platform-life" data-concepts="power social-media">
   <h3>Trump Elected</h3>
-  <p>Donald Trump is elected president of the United States. Social media becomes a central focus of political communication and debate.</p>
+  <p>Donald Trump is elected president of the United States. Social media is a central focus of political communication and debate.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 
 <div class="timeline-entry right" data-category="culture economics tech" data-era="platform-life" data-platform="vine" data-concepts="platform-death loss creativity">
   <h3>Vine Shuts Down</h3>
-  <p>Vine ceases operation. Its closure becomes an early example of platform loss and digital ephemerality.</p>
+  <p>Vine ceases operation. Its closure is an early example of platform loss and digital ephemerality.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag economics">Economy</span>
   <span class="timeline-tag tech">Tech</span>
@@ -1026,7 +1026,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="economics" data-era="platform-life" data-concepts="precarity millennials">
   <h3>Student Debt Passes $1.5 Trillion</h3>
-  <p>U.S. student loan debt exceeds $1.5 trillion. Educational debt becomes a defining economic issue for many millennials.</p>
+  <p>U.S. student loan debt exceeds $1.5 trillion.</p>
   <span class="timeline-tag economics">Economy</span>
 </div>
 <div class="timeline-clear"></div>
@@ -1052,7 +1052,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="local" data-era="platform-life" data-concepts="loss place place-memory">
   <h3>Horton Plaza Closes</h3>
-  <p>San Diego's Horton Plaza shopping center closes. A familiar civic and cultural landmark becomes part of local memory. Every city in America seems to have a historic mall that has since been demolished.</p>
+  <p>San Diego's Horton Plaza shopping center closes. A historic landmark is now just a memory. Every city in America seems to have a beloved mall that has since been demolished.</p>
   <span class="timeline-tag local">Local Memory</span>
 </div>
 
@@ -1085,13 +1085,6 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <h3>Breonna Taylor and #SayHerName</h3>
   <p>Breonna Taylor, a 26-year-old Black woman, was shot and killed by police during a no-knock raid on her apartment. She was asleep in her bed. The #SayHerName campaign became a rallying cry for Black women victims of police violence.</p>
   <span class="timeline-tag politics">Politics</span>
-</div>
-
-<div class="timeline-entry left" data-category="culture tech" data-era="platform-life" data-concepts="archive preservation loss platform-death">
-  <h3>Archive Anxiety</h3>
-  <p>Concerns grow about the permanence of digital platforms and records. Preservation becomes a more visible cultural concern.</p>
-  <span class="timeline-tag culture">Culture</span>
-  <span class="timeline-tag tech">Tech</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -1151,7 +1144,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="economics" data-era="after-the-feed" data-concepts="precarity millennials">
   <h3>Global Inflation Surges</h3>
-  <p>Inflation rises across many countries. Cost of living becomes a significant concern for households worldwide.</p>
+  <p>Inflation rises across many countries. Cost of living is a significant concern for households worldwide.</p>
   <span class="timeline-tag economics">Economy</span>
 </div>
 
@@ -1163,7 +1156,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 </div>
 
 <div class="timeline-entry left" data-category="economics politics tech" data-era="after-the-feed" data-platform="twitter" data-concepts="platforms corporations power censorship">
-  <h3>Twitter Becomes X</h3>
+  <h3>Elon buys Twitter</h3>
   <p>Twitter is acquired and rebranded as X. The change reflects broader shifts in platform ownership and governance.</p>
   <span class="timeline-tag economics">Economy</span>
   <span class="timeline-tag politics">Politics</span>
@@ -1188,7 +1181,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="culture economics tech" data-era="after-the-feed" data-concepts="ai creativity labor">
   <h3>Hollywood Strikes</h3>
-  <p>Writers and actors strike. The role of streaming platforms and artificial intelligence becomes a major issue.</p>
+  <p>Writers and actors strike as the role of streaming platforms and artificial intelligence becomes a major issue.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag economics">Economy</span>
   <span class="timeline-tag tech">Tech</span>
@@ -1196,7 +1189,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="politics tech documentation" data-era="after-the-feed" data-concepts="power social-media witnessing">
   <h3>The War on Gaza</h3>
-  <p>Israel's military campaign in Gaza following the October 7 attacks was documented extensively on social media by Palestinians on the ground. The footage made it the first mass casualty event of its scale witnessed globally in real time.</p>
+  <p>Israel's military campaign in Gaza following the October 7 attacks are documented extensively on social media by Palestinians on the ground. The footage makes it the first mass casualty event of its scale witnessed globally in real time.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag documentation">Documentation</span>
@@ -1214,14 +1207,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="politics documentation" data-era="after-the-feed" data-concepts="power social-media">
   <h3>Trump Assassination Attempt</h3>
-  <p>An assassination attempt against Donald Trump occurs during the presidential campaign. Images and video spread rapidly across digital platforms.</p>
+  <p>An "assassination attempt" against Donald Trump occurs during the presidential campaign. Images and video spread rapidly across digital platforms. People celebrate.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
 <div class="timeline-entry right" data-category="politics tech" data-era="after-the-feed" data-concepts="power">
   <h3>Global Election Year</h3>
-  <p>More than 60 countries, representing nearly half the world's population, held national elections in 2024 — including the United States, India, Mexico, and Indonesia. Digital platforms played a central role in how candidates campaigned, how information spread, and how results were contested.</p>
+  <p>More than 60 countries, nearly half the world's population, hold national elections, including the United States, India, Mexico, and Indonesia. Digital platforms play a central role in how candidates campaign, how information spreads, and how results are contested.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
@@ -1230,26 +1223,20 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-year"><h2>2025</h2></div>
 
 <div class="timeline-entry left" data-category="politics tech" data-era="after-the-feed" data-platform="tiktok" data-concepts="power censorship platforms">
-  <h3>TikTok Ban Attempt</h3>
-  <p>The U.S. government moved to ban TikTok, citing national security concerns over its Chinese ownership. The app briefly went dark for 170 million American users before access was restored. It was the most aggressive government action against a social media platform in U.S. history.</p>
+  <h3>TikTok Ban</h3>
+  <p>The U.S. government moves to ban TikTok, citing national security concerns over its Chinese ownership. The app briefly goes dark for 170 million American users before access is restored. It is the most aggressive government action against a social media platform in U.S. history.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech economics" data-era="after-the-feed" data-concepts="ai technology">
-  <h3>AI Becomes Infrastructure</h3>
-  <p>Artificial intelligence becomes integrated into search, productivity software, education, and creative tools. AI systems become part of everyday digital life.</p>
+<div class="timeline-entry right" data-category="tech economics politics environment" data-era="after-the-feed" data-concepts="ai technology">
+  <h3>AI Infrastructure & Regulation</h3>
+  <p>Artificial intelligence gets integrated into search, productivity software, education, and creative tools. Governments and institutions develop frameworks for AI governance. New questions emerge around safety, transparency, and accountability.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag economics">Economy</span>
-</div>
-
-<div class="timeline-entry left" data-category="politics environment" data-era="after-the-feed" data-concepts="power ai">
-  <h3>AI Regulation Efforts Begin</h3>
-  <p>Governments and institutions develop frameworks for AI governance. New questions emerge around safety, transparency, and accountability.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag environment">Environment</span>
 </div>
-
 <div class="timeline-clear"></div>
 <div class="timeline-year"><h2>2026</h2></div>
 
@@ -1262,14 +1249,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="culture tech" data-era="after-the-feed" data-concepts="ai religion">
   <h3>Pope Leo XIV's AI Encyclical</h3>
-  <p>Pope Leo XIV published the encyclical MAGNIFICA HUMANITAS on safeguarding the human person in the time of artificial intelligence. A landmark statement at the intersection of faith, technology, and ethics.</p>
+  <p>Pope Leo XIV publishes the encyclical MAGNIFICA HUMANITAS on safeguarding the human person in the time of artificial intelligence. A landmark statement at the intersection of faith, technology, and ethics.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry left" data-category="culture" data-era="after-the-feed" data-concepts="millennials generational-memory nostalgia">
-  <h3>"Millennial Optimism" Goes Viral</h3>
-  <p>A TikTok trend reclaimed 2010s millennial youth culture, flipping &quot;millennial cringe&quot; into &quot;millennial optimism.&quot; Gen Z users drove nostalgia for an era of sincere self-expression, hope, and the belief that things could get better.</p>
+  <h3>"Millennial Optimism"</h3>
+  <p>Reclaimed 2010s millennial youth culture, flips &quot;millennial cringe&quot; into &quot;millennial optimism.&quot; Gen Z users are nostalgic for an era of sincere self-expression, hope, and the belief that things could get better.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 <div class="timeline-clear"></div>
