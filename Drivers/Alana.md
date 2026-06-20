@@ -111,17 +111,17 @@ how it beats like a heart.
 
 ### Tell me about your favorite pair of shoes: 
 
-In third grade, my elementary school took me and a group of students to a local Payless to pick out a free pair of shoes with some players from the San Diego Chargers. I had no idea why I was chosen or what it meant, but I was excited. Instead of choosing practical every day sneakers, I chose a High School Musical sneaker/flat hybrid. They were as atrocious as you could imagine. <a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">I stepped on Zac Efron and Vanessa Hudgens every day until their faces became indiscernible. I loved those shoes so much,</span></a> but <a href="/Trunk/drivers/#web"><span class="tag-web">I can't even find a picture of them on Google to prove they were real.</span></a> It wasn't until I was older did I realize I got the free shoes because I was a "child in need."
+In third grade, my elementary school took me and a group of students to a local Payless to pick out a free pair of shoes with some players from the San Diego Chargers. I had no idea why I was chosen or what it meant, but I was excited. Instead of choosing practical every day sneakers, I chose a High School Musical sneaker/flat hybrid. They were as atrocious as you could imagine. <a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">I stepped on Zac Efron and Vanessa Hudgens every day until their faces became indiscernible. I loved those shoes so much,</span></a> but <a href="/Trunk/drivers/#web"><span class="tag-web">I can't even find a picture of them on Google to prove they were real.</span></a> <a href="/Trunk/drivers/#threshold"><span class="tag-threshold">It wasn't until I was older did I realize I got the free shoes because I was a "child in need."</span></a>
 
 ### Tell me about your favorite car: 
 
-Growing up, my mom would sell her cars then buy a different used one every couple years. It's for that reason I don't have one single childhood car to be attached to. Instead, I have memories of car auctions and Craigslist shopping. 
+<a href="/Trunk/drivers/#loss"><span class="tag-loss">Growing up, my mom would sell her cars then buy a different used one every couple years. It's for that reason I don't have one single childhood car to be attached to. Instead, I have memories of car auctions and Craigslist shopping.</span></a> 
 
 When I was 19, I bought my first car—used from OfferUp, of course—a 2014 Chevy Sonic. Short and stubby just like me. The backseat is full of Squishmallows and tote bags. It's cute, but fussy. I drop 100s on it every few months for whatever new issue pops up. It's been five years and my mom urges me to just sell it and look for another used. <a href="/Trunk/drivers/#loss"><span class="tag-loss">I love my car too much and I hate how everything is replaceable.</span></a>
 
 ### What parts of San Diego feel like they belong to you alone? Which places capture the essence of "true" San Diego for you, and which ones feel like they're just playing the part?
 
-<a href="/Trunk/drivers/#place"><span class="tag-place">West Chula Vista. I swear I know each street like the back of my hand. It feels personal anytime I hear a negative comment.</span></a> I feel like gatekeeping everything we have. <a href="/Trunk/drivers/#identity"><span class="tag-identity">I can tell when someone isn't from here.</span></a> <a href="/Trunk/drivers/#future"><span class="tag-future">Next year, there's a billion dollar hotel opening and I'm afraid it's going to change the atmosphere of the place I've known my entire life.</span></a> 
+<a href="/Trunk/drivers/#place"><span class="tag-place">West Chula Vista. I swear I know each street like the back of my hand. It feels personal anytime I hear a negative comment.</span></a> <a href="/Trunk/drivers/#identity"><span class="tag-identity">I feel like gatekeeping everything we have. I can tell when someone isn't from here.</span></a> <a href="/Trunk/drivers/#future"><span class="tag-future">Next year, there's a billion dollar hotel opening and I'm afraid it's going to change the atmosphere of the place I've known my entire life.</span></a> 
 
 East Chula Vista on the other hand is so manicured and manufactured. The neighborhoods have no personality and I swear I've gotten lost because every house looks the same. It's like stepping into a different world because the tax brackets are higher and everyone has an HOA. It's weird. But I will admit, I'm jealous they get a Trader Joe's.
 
@@ -133,9 +133,9 @@ I've always imagined living in New York City, but then I think, "Where would I g
 
 ### Tell me about your parents. What are the stories you hold about their connection to this city? Were they born here, or did life bring them here? What was San Diego to them?
 
-My mom is a San Diego native. She spent her early childhood in Old Town in a house that no longer exists. She went to Crawford High, painted at Chicano Park, and eventually moved to LA. She had another life up there, but all roads lead to San Diego. She came back down, raised my brother, then had me some time later. 
+<a href="/Trunk/drivers/#loss"><span class="tag-loss">My mom is a San Diego native. She spent her early childhood in Old Town in a house that no longer exists.</span></a> She went to Crawford High, painted at Chicano Park, and eventually moved to LA. She had another life up there, but all roads lead to San Diego. She came back down, raised my brother, then had me some time later. 
 
-My dad is from TJ. He crossed as a young man and was raised in this half-and-half world, learning English from oldies, classic television, and the people around him. I think he claims San Diego more than TJ these days. He loves the Padres but loves the Chargers even more. (Yes, even after they moved). He even has the bolt logo tattooed on his forearm.
+<a href="/Trunk/drivers/#threshold"><span class="tag-threshold">My dad is from TJ. He crossed as a young man and was raised in this half-and-half world, learning English from oldies, classic television, and the people around him.</span></a> I think he claims San Diego more than TJ these days. He loves the Padres but loves the Chargers even more. (Yes, even after they moved). He even has the bolt logo tattooed on his forearm.
 
 ### Where do you go when you crave romance? What place draws you back to friendship, to childhood? Where do you go to feel free, to unleash anger, to find unfiltered joy?
 
@@ -195,7 +195,7 @@ I need to be under some kind of pressure or it won't be a good piece.
 
 ### What does a writing process even look like to you? 
 
-I wish I had a process. <a href="/Trunk/drivers/#creativity"><span class="tag-creativity">A random voice gives me a word or a phrase and I jot it down in my notes. I come back to it a few times until I realize it's not good enough.</span></a> Then something like a prompt or an incident makes me want to sit down at my laptop and an entire piece just comes from nowhere.
+I wish I had a process. A random voice gives me a word or a phrase and I jot it down in my notes. I come back to it a few times until I realize it's not good enough. Then something like a prompt or an incident makes me want to sit down at my laptop and an entire piece just comes from nowhere.
 
 ### How does life inform your poetry? How does your poetry inform life? Do you think writing is more about observing life or living it? Where do you draw the line?
 

@@ -74,7 +74,7 @@ My parents had a 2001 Honda Odyssey when I was growing up. It's probably my favo
 
 ### Tell me about your parents. What are the stories you hold about their connection to this city? Were they born here, or did life bring them here? What was the city like to them?
 
-My dad is from Syria and came to the US in the 90s. My mom was born in Cuba but came to the US with her parents when she was very young. My mom grew up in South Florida and has spent most of her life there since, so I enjoy hearing her stories, especially from being part of the disco scene and experiencing the craziness of partying in Miami in the 80s. She's always been super cool. She's an artist, so a lot of her work borrows from local traditions—for instance, Havana tiles and the culture of the Tequesta peoples. She's taught me a lot about the city and its heritage.
+<a href="/Trunk/drivers/#threshold"><span class="tag-threshold">My dad is from Syria and came to the US in the 90s. My mom was born in Cuba but came to the US with her parents when she was very young.</span></a> My mom grew up in South Florida and has spent most of her life there since, so I enjoy hearing her stories, especially from being part of the disco scene and experiencing the craziness of partying in Miami in the 80s. She's always been super cool. She's an artist, so a lot of her work borrows from local traditions—for instance, Havana tiles and the culture of the Tequesta peoples. She's taught me a lot about the city and its heritage.
 
 ### What was it like growing up in Miami? If you could go anywhere, where would you go—and would you eventually find yourself back?
 
@@ -94,7 +94,7 @@ It's been transforming in certain exciting ways, and also in some really annoyin
 
 ### What's a sound unique to Miami that instantly brings you back to a particular memory or feeling?
 
-<a href="/Trunk/drivers/#loss"><span class="tag-loss">The sound of the train pulling into Dadeland North station. It brings me right back to the angst and ecstasy of life in high school,</span></a> since I took the train to and from school every day. While I was in (Zoom) college during COVID, my dad moved to an apartment right above that station, and those memories just repeated over and over again in my brain. That train ran late into the night and kept me awake, so I also remember a kind of sleepless haze when I hear it now.
+<a href="/Trunk/drivers/#loss"><span class="tag-loss">The sound of the train pulling into Dadeland North station. It brings me right back to the angst and ecstasy of life in high school, since I took the train to and from school every day. While I was in (Zoom) college during COVID, my dad moved to an apartment right above that station, and those memories just repeated over and over again in my brain. That train ran late into the night and kept me awake, so I also remember a kind of sleepless haze when I hear it now.</span></a>
 
 ### Tell me about that moment of transcendence that sealed your destiny as a writer:
 
@@ -154,15 +154,15 @@ Regarding the first question, I actually don't. For me, writing is technical—i
 
 ### Faith and doubt often coexist. Do you find yourself exploring this balance in your work? How do you handle moments of doubt, both in faith and in your writing?
 
-I doubt myself all the time as a writer. <a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">I am a continent of doubt.</span></a> When I doubt my writing, I set it aside for a while (sometimes months) and come back to it with a clearer head. This is probably why I only write 10-15 passable poems in a year. But when I have doubts in my faith, I respond by praying and then seeking guidance from someone who is more spiritually adept than I—my priest or an elder in the Church.
+<a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">I doubt myself all the time as a writer. I am a continent of doubt.</span></a> When I doubt my writing, I set it aside for a while (sometimes months) and come back to it with a clearer head. This is probably why I only write 10-15 passable poems in a year. But when I have doubts in my faith, I respond by praying and then seeking guidance from someone who is more spiritually adept than I—my priest or an elder in the Church.
 
 ### Do you have a "sacred space" for writing, whether physical or mental? How does creating this space help you connect to your faith and creativity?
 
-To me, writing is the crafting of that space. <a href="/Trunk/drivers/#creativity"><span class="tag-creativity">I begin a poem in a moment of anger or sorrow, and by writing the poem, I try to create something beautiful out of my abjection.</span></a> I often emerge in a space of peace and contentment. I only ever want my writing to be a conduit for peace, but I fall short of this mission all the time.
+<a href="/Trunk/drivers/#expression"><span class="tag-expression">To me, writing is the crafting of that space. I begin a poem in a moment of anger or sorrow, and by writing the poem, I try to create something beautiful out of my abjection. I often emerge in a space of peace and contentment. I only ever want my writing to be a conduit for peace, but I fall short of this mission all the time.</span></a>
 
 ### Miami has so many spiritual energies and communities. How does your connection to Eastern Orthodoxy feel in that environment? Do you feel like it stands out, or does it blend in?
 
-I used to feel a sense of alienation, since Miami can often feel like a place which is so antithetical to the Orthodox "phronema." It's profane in many ways, and a real locus for spiritual confusion—but this is probably the case with every major city. After all, <a href="/Trunk/drivers/#web"><span class="tag-web">in global postmodernity, every city is a mirror-image of every other city.</span></a> I'd hope that my faith doesn't stand out, unless it's when I do some good in the world. Nowadays, I try to see the image of God in everyone, and I thank God for everyone He has put into my life. Miami is beautiful—people are approachable and kind and real, in spite of the cultural profanity which exists in the city.
+I used to feel a sense of alienation, since Miami can often feel like a place which is so antithetical to the Orthodox "phronema." It's profane in many ways, and a real locus for spiritual confusion—but this is probably the case with every major city. <a href="/Trunk/drivers/#web"><span class="tag-web">After all, in global postmodernity, every city is a mirror-image of every other city.</span></a> I'd hope that my faith doesn't stand out, unless it's when I do some good in the world. Nowadays, I try to see the image of God in everyone, and I thank God for everyone He has put into my life. Miami is beautiful—people are approachable and kind and real, in spite of the cultural profanity which exists in the city.
 
 ### Being a Christian in today's world can be complex. What challenges or blessings do you experience living as a devoted Christian in a modern, fast-paced world?
 
@@ -175,7 +175,7 @@ I see it more as a personal exploration, but I'm really delighted when readers c
 <!-- DRIVER NAVIGATION -->
 <div class="driver-nav">
   <a href="/Drivers/abenet/">← Previous Driver</a>
-  <a href="/revving-up/">Next Driver →</a>
+  <a href="/revving-up">Next Driver →</a>
 </div>
 
 <!-- LIGHTBOX -->
