@@ -165,16 +165,46 @@ function toggleMenu() {
       <td><code class="language-plaintext highlighter-rouge">--theme-identity</code></td>
     </tr>
     <tr>
-      <td>Creativity (mint)</td>
+      <td>Expression (mint)</td>
       <td><code class="language-plaintext highlighter-rouge">#7fffd4</code></td>
       <td><code class="language-plaintext highlighter-rouge">#2ca88f</code></td>
-      <td><code class="language-plaintext highlighter-rouge">--theme-creativity</code></td>
+      <td><code class="language-plaintext highlighter-rouge">--theme-expression</code></td>
     </tr>
     <tr>
       <td>Future (silver)</td>
       <td><code class="language-plaintext highlighter-rouge">#e6e6e6</code></td>
       <td><code class="language-plaintext highlighter-rouge">#666666</code></td>
       <td><code class="language-plaintext highlighter-rouge">--theme-future</code></td>
+    </tr>
+    <tr>
+      <td>Care (cherry blossom)</td>
+      <td><code class="language-plaintext highlighter-rouge">#ffb7c5</code></td>
+      <td><code class="language-plaintext highlighter-rouge">#c96f84</code></td>
+      <td><code class="language-plaintext highlighter-rouge">--theme-care</code></td>
+    </tr>
+    <tr>
+      <td>Witness (lavender)</td>
+      <td><code class="language-plaintext highlighter-rouge">#c7b6ff</code></td>
+      <td><code class="language-plaintext highlighter-rouge">#7a6bc2</code></td>
+      <td><code class="language-plaintext highlighter-rouge">--theme-witness</code></td>
+    </tr>
+    <tr>
+      <td>Surveillance (blue)</td>
+      <td><code class="language-plaintext highlighter-rouge">#8fa8ff</code></td>
+      <td><code class="language-plaintext highlighter-rouge">#4f6fd6</code></td>
+      <td><code class="language-plaintext highlighter-rouge">--theme-surveillance</code></td>
+    </tr>
+    <tr>
+      <td>Emergence (emerald)</td>
+      <td><code class="language-plaintext highlighter-rouge">#9dff9a</code></td>
+      <td><code class="language-plaintext highlighter-rouge">#3aa33a</code></td>
+      <td><code class="language-plaintext highlighter-rouge">--theme-emergence</code></td>
+    </tr>
+    <tr>
+      <td>Threshold (pale violet)</td>
+      <td><code class="language-plaintext highlighter-rouge">#d6d0ff</code></td>
+      <td><code class="language-plaintext highlighter-rouge">#6f68b8</code></td>
+      <td><code class="language-plaintext highlighter-rouge">--theme-threshold</code></td>
     </tr>
   </tbody>
 </table>
@@ -186,7 +216,7 @@ function toggleMenu() {
 <table>
   <thead>
     <tr>
-      <th>Theme (Quotes)</th>
+      <th>Theme</th>
       <th>Timeline Category</th>
       <th>Color</th>
     </tr>
@@ -218,14 +248,39 @@ function toggleMenu() {
       <td>Orchid</td>
     </tr>
     <tr>
-      <td>Creativity</td>
+      <td>Expression</td>
       <td>Culture</td>
       <td>Mint</td>
     </tr>
     <tr>
       <td>Future</td>
-      <td>Economics</td>
+      <td>Economy</td>
       <td>Silver</td>
+    </tr>
+    <tr>
+      <td>Care</td>
+      <td>Care</td>
+      <td>Cherry Blossom</td>
+    </tr>
+    <tr>
+      <td>Witness</td>
+      <td>Law &amp; Justice</td>
+      <td>Lavender</td>
+    </tr>
+    <tr>
+      <td>Surveillance</td>
+      <td>Conflict &amp; Security</td>
+      <td>Blue</td>
+    </tr>
+    <tr>
+      <td>Emergence</td>
+      <td>Science &amp; Health</td>
+      <td>Emerald</td>
+    </tr>
+    <tr>
+      <td>Threshold</td>
+      <td>Infrastructure &amp; Exploration</td>
+      <td>Pale Violet</td>
     </tr>
   </tbody>
 </table>
@@ -234,28 +289,44 @@ function toggleMenu() {
 
 <h2 id="tagmap-archivemd-javascript">tagMap (archive.md JavaScript)</h2>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">tagMap</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="dl">'</span><span class="s1">Place</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">place</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Loss</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">loss</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Intimacy</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">intimacy</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Web</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">web</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Identity</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">identity</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Creativity</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">creativity</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Future</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">future</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Upgrade You</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">place</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Going Viral</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">identity</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">The Parasocial</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">culture</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Broken Record</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">loss</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Between You &amp; I</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">intimacy</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">AI</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">tech</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Technology</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">tech</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Politics</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">politics</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Economics</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">economics</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Local Memory</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">local</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Environment</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">environment</span><span class="dl">'</span><span class="p">,</span>
-  <span class="dl">'</span><span class="s1">Documentation</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">documentation</span><span class="dl">'</span>
-<span class="p">};</span>
-</code></pre></div></div>
+<p>```js
+const tagMap = {
+  // Quote Themes (12)
+  ‘Place’: ‘place’,
+  ‘Loss’: ‘loss’,
+  ‘Intimacy’: ‘intimacy’,
+  ‘Web’: ‘web’,
+  ‘Identity’: ‘identity’,
+  ‘Expression’: ‘expression’,
+  ‘Future’: ‘future’,
+  ‘Care’: ‘care’,
+  ‘Witness’: ‘witness’,
+  ‘Surveillance’: ‘surveillance’,
+  ‘Emergence’: ‘emergence’,
+  ‘Threshold’: ‘threshold’,</p>
+
+<p>// Archive Sections (6)
+  ‘Upgrade You’: ‘place’,
+  ‘Going Viral’: ‘identity’,
+  ‘The Parasocial’: ‘expression’,
+  ‘Broken Record’: ‘loss’,
+  ‘Between You &amp; I’: ‘intimacy’,
+  ‘AI’: ‘tech’,</p>
+
+<p>// Timeline Categories (13)
+  ‘Technology’: ‘tech’,
+  ‘Politics’: ‘politics’,
+  ‘Culture’: ‘expression’,
+  ‘Economy’: ‘economics’,
+  ‘Environment’: ‘environment’,
+  ‘Local Memory’: ‘local’,
+  ‘Documentation’: ‘documentation’,
+  ‘Science &amp; Health’: ‘science’,
+  ‘Law &amp; Justice’: ‘justice’,
+  ‘Conflict &amp; Security’: ‘security’,
+  ‘Infrastructure &amp; Exploration’: ‘infrastructure’,
+  ‘Care’: ‘care’
+};</p>
 
 <hr />
 

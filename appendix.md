@@ -15,22 +15,32 @@
 | Intimacy (gold) | `#ffe066` | `#b8860b` | `--theme-intimacy` |
 | Web (cyan) | `#4df0ff` | `#008fb3` | `--theme-web` |
 | Identity (orchid) | `#ffb3ff` | `#9b5ca9` | `--theme-identity` |
-| Creativity (mint) | `#7fffd4` | `#2ca88f` | `--theme-creativity` |
+| Expression (mint) | `#7fffd4` | `#2ca88f` | `--theme-expression` |
 | Future (silver) | `#e6e6e6` | `#666666` | `--theme-future` |
+| Care (cherry blossom) | `#ffb7c5` | `#c96f84` | `--theme-care` |
+| Witness (lavender) | `#c7b6ff` | `#7a6bc2` | `--theme-witness` |
+| Surveillance (blue) | `#8fa8ff` | `#4f6fd6` | `--theme-surveillance` |
+| Emergence (emerald) | `#9dff9a` | `#3aa33a` | `--theme-emergence` |
+| Threshold (pale violet) | `#d6d0ff` | `#6f68b8` | `--theme-threshold` |
 
 ---
 
 ## System Pairings
 
-| Theme (Quotes) | Timeline Category | Color |
-|----------------|-------------------|-------|
+| Theme | Timeline Category | Color |
+|-------|-------------------|-------|
 | Place | Local Memory | Chartreuse |
 | Loss | Environment | Coral |
 | Intimacy | Documentation | Gold |
 | Web | Technology | Cyan |
 | Identity | Politics | Orchid |
-| Creativity | Culture | Mint |
-| Future | Economics | Silver |
+| Expression | Culture | Mint |
+| Future | Economy | Silver |
+| Care | Care | Cherry Blossom |
+| Witness | Law & Justice | Lavender |
+| Surveillance | Conflict & Security | Blue |
+| Emergence | Science & Health | Emerald |
+| Threshold | Infrastructure & Exploration | Pale Violet |
 
 ---
 
@@ -38,27 +48,42 @@
 
 ```js
 const tagMap = {
+  // Quote Themes (12)
   'Place': 'place',
   'Loss': 'loss',
   'Intimacy': 'intimacy',
   'Web': 'web',
   'Identity': 'identity',
-  'Creativity': 'creativity',
+  'Expression': 'expression',
   'Future': 'future',
+  'Care': 'care',
+  'Witness': 'witness',
+  'Surveillance': 'surveillance',
+  'Emergence': 'emergence',
+  'Threshold': 'threshold',
+
+  // Archive Sections (6)
   'Upgrade You': 'place',
   'Going Viral': 'identity',
-  'The Parasocial': 'culture',
+  'The Parasocial': 'expression',
   'Broken Record': 'loss',
   'Between You & I': 'intimacy',
   'AI': 'tech',
+
+  // Timeline Categories (13)
   'Technology': 'tech',
   'Politics': 'politics',
-  'Economics': 'economics',
-  'Local Memory': 'local',
+  'Culture': 'expression',
+  'Economy': 'economics',
   'Environment': 'environment',
-  'Documentation': 'documentation'
+  'Local Memory': 'local',
+  'Documentation': 'documentation',
+  'Science & Health': 'science',
+  'Law & Justice': 'justice',
+  'Conflict & Security': 'security',
+  'Infrastructure & Exploration': 'infrastructure',
+  'Care': 'care'
 };
-```
 
 ---
 

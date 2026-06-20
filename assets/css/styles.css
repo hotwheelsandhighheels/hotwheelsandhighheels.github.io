@@ -22,8 +22,13 @@
   --theme-intimacy: #ffe066;
   --theme-web: #4df0ff;
   --theme-identity: #ffb3ff;
-  --theme-creativity: #7fffd4;
+  --theme-expression: #7fffd4;
   --theme-future: #e6e6e6;
+  --theme-care: #ffb7c5;
+  --theme-witness: #c7b6ff;
+  --theme-surveillance: #8fa8ff;
+  --theme-emergence: #9dff9a;
+  --theme-threshold: #d6d0ff;
 }
 
 [data-theme="light"] {
@@ -34,8 +39,13 @@
   --theme-intimacy: #b8860b;
   --theme-web: #008fb3;
   --theme-identity: #9b5ca9;
-  --theme-creativity: #2ca88f;
+  --theme-expression: #2ca88f;
   --theme-future: #666666;
+  --theme-care: #c96f84;
+  --theme-witness: #7a6bc2;
+  --theme-surveillance: #4f6fd6;
+  --theme-emergence: #3aa33a;
+  --theme-threshold: #6f68b8;
 }
 
 
@@ -1050,7 +1060,6 @@ audio:hover {
   margin-bottom: 16px;
 }
 
-
 /* ============================================
    11. COLOR-CODED QUOTE SYSTEM
    ============================================ */
@@ -1060,8 +1069,13 @@ audio:hover {
 .tag-intimacy { color: var(--theme-intimacy); }
 .tag-web { color: var(--theme-web); }
 .tag-identity { color: var(--theme-identity); }
-.tag-creativity { color: var(--theme-creativity); }
+.tag-expression { color: var(--theme-expression); }
 .tag-future { color: var(--theme-future); }
+.tag-care { color: var(--theme-care); }
+.tag-witness { color: var(--theme-witness); }
+.tag-surveillance { color: var(--theme-surveillance); }
+.tag-emergence { color: var(--theme-emergence); }
+.tag-threshold { color: var(--theme-threshold); }
 
 .tag-quote {
   font-family: 'Cormorant Garamond', serif;
@@ -1079,9 +1093,13 @@ audio:hover {
 .tag-quote.tag-intimacy { border-color: var(--theme-intimacy); color: var(--theme-intimacy); }
 .tag-quote.tag-web { border-color: var(--theme-web); color: var(--theme-web); }
 .tag-quote.tag-identity { border-color: var(--theme-identity); color: var(--theme-identity); }
-.tag-quote.tag-creativity { border-color: var(--theme-creativity); color: var(--theme-creativity); }
+.tag-quote.tag-expression { border-color: var(--theme-expression); color: var(--theme-expression); }
 .tag-quote.tag-future { border-color: var(--theme-future); color: var(--theme-future); }
-
+.tag-quote.tag-care { border-color: var(--theme-care); color: var(--theme-care); }
+.tag-quote.tag-witness { border-color: var(--theme-witness); color: var(--theme-witness); }
+.tag-quote.tag-surveillance { border-color: var(--theme-surveillance); color: var(--theme-surveillance); }
+.tag-quote.tag-emergence { border-color: var(--theme-emergence); color: var(--theme-emergence); }
+.tag-quote.tag-threshold { border-color: var(--theme-threshold); color: var(--theme-threshold); }
 
 .quote-attribution {
   font-family: 'Playfair Display', serif;
@@ -1125,15 +1143,25 @@ audio:hover {
 .timeline-tag.intimacy,
 .timeline-tag.web,
 .timeline-tag.identity,
-.timeline-tag.creativity,
-.timeline-tag.future, 
+.timeline-tag.expression,
+.timeline-tag.future,
+.timeline-tag.care,
+.timeline-tag.witness,
+.timeline-tag.surveillance,
+.timeline-tag.emergence,
+.timeline-tag.threshold,
 .timeline-tag.tech,
 .timeline-tag.culture,
 .timeline-tag.local,
 .timeline-tag.environment,
 .timeline-tag.economics,
 .timeline-tag.politics,
-.timeline-tag.documentation {
+.timeline-tag.documentation,
+.timeline-tag.science,
+.timeline-tag.justice,
+.timeline-tag.security,
+.timeline-tag.infrastructure,
+.timeline-tag.continuity {
   display: inline-block;
   font-family: 'Lora', serif;
   font-size: 7pt;
@@ -1150,13 +1178,25 @@ audio:hover {
 .timeline-tag.intimacy { background: rgba(255, 224, 102, 0.12); color: var(--theme-intimacy); border: 0.5px solid rgba(255, 224, 102, 0.25); }
 .timeline-tag.web { background: rgba(77, 240, 255, 0.12); color: var(--theme-web); border: 0.5px solid rgba(77, 240, 255, 0.25); }
 .timeline-tag.identity { background: rgba(255, 179, 255, 0.12); color: var(--theme-identity); border: 0.5px solid rgba(255, 179, 255, 0.25); }
-.timeline-tag.creativity { background: rgba(127, 255, 212, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(127, 255, 212, 0.25); }
+.timeline-tag.expression { background: rgba(127, 255, 212, 0.12); color: var(--theme-expression); border: 0.5px solid rgba(127, 255, 212, 0.25); }
 .timeline-tag.future { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
-.timeline-tag.culture { background: rgba(255, 143, 207, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(255, 143, 207, 0.25);}
+.timeline-tag.care { background: rgba(255, 183, 197, 0.12); color: var(--theme-care); border: 0.5px solid rgba(255, 183, 197, 0.25); }
+.timeline-tag.witness { background: rgba(199, 182, 255, 0.12); color: var(--theme-witness); border: 0.5px solid rgba(199, 182, 255, 0.25); }
+.timeline-tag.surveillance { background: rgba(143, 168, 255, 0.12); color: var(--theme-surveillance); border: 0.5px solid rgba(143, 168, 255, 0.25); }
+.timeline-tag.emergence { background: rgba(157, 255, 154, 0.12); color: var(--theme-emergence); border: 0.5px solid rgba(157, 255, 154, 0.25); }
+.timeline-tag.threshold { background: rgba(214, 208, 255, 0.12); color: var(--theme-threshold); border: 0.5px solid rgba(214, 208, 255, 0.25); }
+.timeline-tag.tech { background: rgba(77, 240, 255, 0.12); color: var(--theme-web); border: 0.5px solid rgba(77, 240, 255, 0.25); }
+.timeline-tag.culture { background: rgba(127, 255, 212, 0.12); color: var(--theme-expression); border: 0.5px solid rgba(127, 255, 212, 0.25); }
 .timeline-tag.local { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
 .timeline-tag.politics { background: rgba(255, 179, 255, 0.12); color: var(--theme-identity); border: 0.5px solid rgba(255, 179, 255, 0.25); }
 .timeline-tag.environment { background: rgba(255, 140, 105, 0.12); color: var(--theme-loss); border: 0.5px solid rgba(255, 140, 105, 0.25); }
-/* ============================================
+.timeline-tag.economics { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
+.timeline-tag.documentation { background: rgba(255, 224, 102, 0.12); color: var(--theme-intimacy); border: 0.5px solid rgba(255, 224, 102, 0.25); }
+.timeline-tag.science { background: rgba(157, 255, 154, 0.12); color: var(--theme-emergence); border: 0.5px solid rgba(157, 255, 154, 0.25); }
+.timeline-tag.justice { background: rgba(199, 182, 255, 0.12); color: var(--theme-witness); border: 0.5px solid rgba(199, 182, 255, 0.25); }
+.timeline-tag.security { background: rgba(143, 168, 255, 0.12); color: var(--theme-surveillance); border: 0.5px solid rgba(143, 168, 255, 0.25); }
+.timeline-tag.infrastructure { background: rgba(214, 208, 255, 0.12); color: var(--theme-threshold); border: 0.5px solid rgba(214, 208, 255, 0.25); }
+.timeline-tag.continuity { background: rgba(255, 183, 197, 0.12); color: var(--theme-care); border: 0.5px solid rgba(255, 183, 197, 0.25); }/* ============================================
    12. WIKI PAGE (LEGACY)
    ============================================ */
 
@@ -1479,9 +1519,13 @@ audio:hover {
 .connection-node.theme-intimacy { border-color: var(--theme-intimacy); color: var(--theme-intimacy); }
 .connection-node.theme-web { border-color: var(--theme-web); color: var(--theme-web); }
 .connection-node.theme-identity { border-color: var(--theme-identity); color: var(--theme-identity); }
-.connection-node.theme-creativity { border-color: var(--theme-creativity); color: var(--theme-creativity); }
+.connection-node.theme-expression { border-color: var(--theme-expression); color: var(--theme-expression); }
 .connection-node.theme-future { border-color: var(--theme-future); color: var(--theme-future); }
-
+.connection-node.theme-care { border-color: var(--theme-care); color: var(--theme-care); }
+.connection-node.theme-witness { border-color: var(--theme-witness); color: var(--theme-witness); }
+.connection-node.theme-surveillance { border-color: var(--theme-surveillance); color: var(--theme-surveillance); }
+.connection-node.theme-emergence { border-color: var(--theme-emergence); color: var(--theme-emergence); }
+.connection-node.theme-threshold { border-color: var(--theme-threshold); color: var(--theme-threshold); }
 .connection-node.center-node {
   border-color: var(--pink);
   background: rgba(255, 0, 163, 0.06);
@@ -1558,7 +1602,6 @@ audio:hover {
   opacity: 1;
 }
 
-
 /* ============================================
    16. EPOCH TIMELINE
    ============================================ */
@@ -1612,7 +1655,7 @@ audio:hover {
 .timeline-legend .legend-culture,
 .timeline-legend .legend-culture:hover,
 .timeline-legend .legend-culture:focus,
-.timeline-legend .legend-culture:active { color: var(--theme-creativity) !important; }
+.timeline-legend .legend-culture:active { color: var(--theme-expression) !important; }
 
 .timeline-legend .legend-economics,
 .timeline-legend .legend-economics:hover,
@@ -1633,6 +1676,31 @@ audio:hover {
 .timeline-legend .legend-documentation:hover,
 .timeline-legend .legend-documentation:focus,
 .timeline-legend .legend-documentation:active { color: var(--theme-intimacy) !important; }
+
+.timeline-legend .legend-science,
+.timeline-legend .legend-science:hover,
+.timeline-legend .legend-science:focus,
+.timeline-legend .legend-science:active { color: var(--theme-emergence) !important; }
+
+.timeline-legend .legend-justice,
+.timeline-legend .legend-justice:hover,
+.timeline-legend .legend-justice:focus,
+.timeline-legend .legend-justice:active { color: var(--theme-witness) !important; }
+
+.timeline-legend .legend-security,
+.timeline-legend .legend-security:hover,
+.timeline-legend .legend-security:focus,
+.timeline-legend .legend-security:active { color: var(--theme-surveillance) !important; }
+
+.timeline-legend .legend-infrastructure,
+.timeline-legend .legend-infrastructure:hover,
+.timeline-legend .legend-infrastructure:focus,
+.timeline-legend .legend-infrastructure:active { color: var(--theme-threshold) !important; }
+
+.timeline-legend .legend-care,
+.timeline-legend .legend-care:hover,
+.timeline-legend .legend-care:focus,
+.timeline-legend .legend-care:active { color: var(--theme-care) !important; }
 
 .timeline-legend button:hover {
   opacity: 1;
@@ -1764,18 +1832,23 @@ audio:hover {
   margin-top: 4px;
 }
 
-.timeline-tag.tech { background: rgba(82, 229, 255, 0.12); color: var(--theme-web); border: 0.5px solid rgba(82, 229, 255, 0.25); }
-.timeline-tag.culture { background: rgba(255, 143, 207, 0.12); color: var(--theme-creativity); border: 0.5px solid rgba(255, 143, 207, 0.25); }
+.timeline-tag.tech { background: rgba(77, 240, 255, 0.12); color: var(--theme-web); border: 0.5px solid rgba(77, 240, 255, 0.25); }
+.timeline-tag.culture { background: rgba(127, 255, 212, 0.12); color: var(--theme-expression); border: 0.5px solid rgba(127, 255, 212, 0.25); }
 .timeline-tag.economics { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
 .timeline-tag.local { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
 .timeline-tag.documentation { background: rgba(255, 224, 102, 0.12); color: var(--theme-intimacy); border: 0.5px solid rgba(255, 224, 102, 0.25); }
 .timeline-tag.politics { background: rgba(255, 179, 255, 0.12); color: var(--theme-identity); border: 0.5px solid rgba(255, 179, 255, 0.25); }
 .timeline-tag.environment { background: rgba(255, 140, 105, 0.12); color: var(--theme-loss); border: 0.5px solid rgba(255, 140, 105, 0.25); }
+.timeline-tag.science { background: rgba(157, 255, 154, 0.12); color: var(--theme-emergence); border: 0.5px solid rgba(157, 255, 154, 0.25); }
+.timeline-tag.justice { background: rgba(199, 182, 255, 0.12); color: var(--theme-witness); border: 0.5px solid rgba(199, 182, 255, 0.25); }
+.timeline-tag.security { background: rgba(143, 168, 255, 0.12); color: var(--theme-surveillance); border: 0.5px solid rgba(143, 168, 255, 0.25); }
+.timeline-tag.infrastructure { background: rgba(214, 208, 255, 0.12); color: var(--theme-threshold); border: 0.5px solid rgba(214, 208, 255, 0.25); }
+.timeline-tag.care { background: rgba(255, 183, 197, 0.12); color: var(--theme-care); border: 0.5px solid rgba(255, 183, 197, 0.25); }
+.timeline-tag.continuity { background: rgba(255, 183, 197, 0.12); color: var(--theme-care); border: 0.5px solid rgba(255, 183, 197, 0.25); }
+
 .timeline-clear {
   clear: both;
 }
-
-
 /* ============================================
    17. KEYFRAMES
    ============================================ */

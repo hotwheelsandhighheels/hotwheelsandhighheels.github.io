@@ -69,285 +69,325 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
   </div>
 
   <!-- ============================================
-       TIMELINE CATEGORIES — cyan/coral/mint/silver/chartreuse
+       TIMELINE CATEGORIES
        ============================================ -->
-  <div class="connection-node theme-web" id="node-tech-category" data-x="200" data-y="50">
+  <div class="connection-node theme-web" id="node-tech-category" data-x="160" data-y="30">
     <h3>Technology</h3>
     <span class="node-type">Timeline Category</span>
   </div>
-  <div class="connection-node theme-loss" id="node-politics-category" data-x="640" data-y="50">
+  <div class="connection-node theme-identity" id="node-politics-category" data-x="400" data-y="20">
     <h3>Politics</h3>
     <span class="node-type">Timeline Category</span>
   </div>
-  <div class="connection-node theme-creativity" id="node-culture-category" data-x="200" data-y="140">
+  <div class="connection-node theme-expression" id="node-culture-category" data-x="620" data-y="30">
     <h3>Culture</h3>
     <span class="node-type">Timeline Category</span>
   </div>
-  <div class="connection-node theme-future" id="node-economics-category" data-x="640" data-y="140">
-    <h3>Economics</h3>
+  <div class="connection-node theme-future" id="node-economics-category" data-x="100" data-y="130">
+    <h3>Economy</h3>
     <span class="node-type">Timeline Category</span>
   </div>
-  <div class="connection-node theme-place" id="node-local-category" data-x="280" data-y="110">
+  <div class="connection-node theme-place" id="node-local-category" data-x="280" data-y="120">
     <h3>Local Memory</h3>
     <span class="node-type">Timeline Category</span>
   </div>
-  <div class="connection-node theme-place" id="node-environment-category" data-x="560" data-y="110">
+  <div class="connection-node theme-loss" id="node-environment-category" data-x="500" data-y="120">
     <h3>Environment</h3>
+    <span class="node-type">Timeline Category</span>
+  </div>
+  <div class="connection-node theme-intimacy" id="node-documentation-category" data-x="700" data-y="120">
+    <h3>Documentation</h3>
+    <span class="node-type">Timeline Category</span>
+  </div>
+  <div class="connection-node theme-emergence" id="node-science-category" data-x="740" data-y="30">
+    <h3>Science &amp; Health</h3>
+    <span class="node-type">Timeline Category</span>
+  </div>
+  <div class="connection-node theme-witness" id="node-justice-category" data-x="60" data-y="220">
+    <h3>Law &amp; Justice</h3>
+    <span class="node-type">Timeline Category</span>
+  </div>
+  <div class="connection-node theme-surveillance" id="node-security-category" data-x="220" data-y="200">
+    <h3>Conflict &amp; Security</h3>
+    <span class="node-type">Timeline Category</span>
+  </div>
+  <div class="connection-node theme-threshold" id="node-infrastructure-category" data-x="420" data-y="200">
+    <h3>Infrastructure &amp; Exploration</h3>
+    <span class="node-type">Timeline Category</span>
+  </div>
+  <div class="connection-node theme-care" id="node-care-category" data-x="620" data-y="200">
+    <h3>Care</h3>
     <span class="node-type">Timeline Category</span>
   </div>
 
   <!-- ============================================
-       QUOTE THEMES — chartreuse/coral/gold/cyan/orchid/mint/silver
+       QUOTE THEMES
        ============================================ -->
-  <div class="connection-node theme-place" id="node-place-theme" data-x="100" data-y="240">
+  <div class="connection-node theme-place" id="node-place-theme" data-x="60" data-y="320">
     <h3>Place</h3>
     <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-loss" id="node-loss-theme" data-x="740" data-y="240">
+  <div class="connection-node theme-loss" id="node-loss-theme" data-x="200" data-y="320">
     <h3>Loss</h3>
     <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-intimacy" id="node-intimacy-theme" data-x="100" data-y="320">
+  <div class="connection-node theme-intimacy" id="node-intimacy-theme" data-x="340" data-y="320">
     <h3>Intimacy</h3>
     <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-web" id="node-web-theme" data-x="740" data-y="320">
+  <div class="connection-node theme-web" id="node-web-theme" data-x="480" data-y="320">
     <h3>Web</h3>
     <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-identity" id="node-identity-theme" data-x="100" data-y="400">
+  <div class="connection-node theme-identity" id="node-identity-theme" data-x="620" data-y="320">
     <h3>Identity</h3>
     <span class="node-type">Quote Theme</span>
   </div>
-  <div class="connection-node theme-creativity" id="node-creativity-theme" data-x="740" data-y="400">
-    <h3>Creativity</h3>
+  <div class="connection-node theme-expression" id="node-expression-theme" data-x="760" data-y="320">
+    <h3>Expression</h3>
     <span class="node-type">Quote Theme</span>
   </div>
   <div class="connection-node theme-future" id="node-future-theme" data-x="420" data-y="440">
     <h3>Future</h3>
     <span class="node-type">Quote Theme</span>
   </div>
+  <div class="connection-node theme-care" id="node-care-theme" data-x="60" data-y="420">
+    <h3>Care</h3>
+    <span class="node-type">Quote Theme</span>
+  </div>
+  <div class="connection-node theme-witness" id="node-witness-theme" data-x="200" data-y="420">
+    <h3>Witness</h3>
+    <span class="node-type">Quote Theme</span>
+  </div>
+  <div class="connection-node theme-surveillance" id="node-surveillance-theme" data-x="340" data-y="420">
+    <h3>Surveillance</h3>
+    <span class="node-type">Quote Theme</span>
+  </div>
+  <div class="connection-node theme-emergence" id="node-emergence-theme" data-x="620" data-y="420">
+    <h3>Emergence</h3>
+    <span class="node-type">Quote Theme</span>
+  </div>
+  <div class="connection-node theme-threshold" id="node-threshold-theme" data-x="760" data-y="420">
+    <h3>Threshold</h3>
+    <span class="node-type">Quote Theme</span>
+  </div>
 
   <!-- ============================================
-       KEY CONCEPTS — purple
+       KEY CONCEPTS
        ============================================ -->
-  <div class="connection-node theme-identity" id="node-double-perspective" data-x="200" data-y="360">
+  <div class="connection-node theme-identity" id="node-double-perspective" data-x="200" data-y="500">
     <h3>Double Perspective</h3>
     <span class="node-type">Framework</span>
   </div>
-  <div class="connection-node theme-intimacy" id="node-nostalgia" data-x="620" data-y="440">
+  <div class="connection-node theme-intimacy" id="node-nostalgia" data-x="700" data-y="520">
     <h3>Nostalgia</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-intimacy" id="node-forgetting" data-x="700" data-y="460">
+  <div class="connection-node theme-loss" id="node-forgetting" data-x="700" data-y="580">
     <h3>Forgetting</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-intimacy" id="node-collective-memory" data-x="620" data-y="380">
+  <div class="connection-node theme-intimacy" id="node-collective-memory" data-x="580" data-y="520">
     <h3>Collective Memory</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-intimacy" id="node-personal-memory" data-x="700" data-y="380">
+  <div class="connection-node theme-intimacy" id="node-personal-memory" data-x="580" data-y="580">
     <h3>Personal Memory</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-intimacy" id="node-epoch" data-x="660" data-y="340">
+  <div class="connection-node theme-intimacy" id="node-epoch" data-x="640" data-y="480">
     <h3>Millennial Epoch</h3>
     <span class="node-type">Era</span>
   </div>
-  <div class="connection-node theme-intimacy" id="node-millennials" data-x="700" data-y="320">
+  <div class="connection-node theme-intimacy" id="node-millennials" data-x="720" data-y="460">
     <h3>Millennials</h3>
     <span class="node-type">Concept</span>
   </div>
 
   <!-- ============================================
-       RESEARCHERS — chartreuse
+       RESEARCHERS
        ============================================ -->
-  <div class="connection-node theme-place" id="node-derrida" data-x="60" data-y="180">
+  <div class="connection-node theme-place" id="node-derrida" data-x="60" data-y="500">
     <h3>Derrida</h3>
     <span class="node-type">Researcher</span>
   </div>
-  <div class="connection-node theme-place" id="node-berners-lee" data-x="60" data-y="260">
+  <div class="connection-node theme-place" id="node-berners-lee" data-x="100" data-y="560">
     <h3>Berners-Lee</h3>
     <span class="node-type">Researcher</span>
   </div>
-  <div class="connection-node theme-place" id="node-manoff" data-x="140" data-y="300">
+  <div class="connection-node theme-place" id="node-manoff" data-x="60" data-y="620">
     <h3>Manoff</h3>
     <span class="node-type">Researcher</span>
   </div>
-  <div class="connection-node theme-place" id="node-tosic" data-x="100" data-y="460">
+  <div class="connection-node theme-place" id="node-tosic" data-x="200" data-y="620">
     <h3>Tošić</h3>
     <span class="node-type">Researcher</span>
   </div>
-  <div class="connection-node theme-place" id="node-ismail" data-x="40" data-y="420">
+  <div class="connection-node theme-place" id="node-ismail" data-x="140" data-y="680">
     <h3>Ismail</h3>
     <span class="node-type">Researcher</span>
   </div>
-  <div class="connection-node theme-place" id="node-vlassenroot" data-x="160" data-y="480">
+  <div class="connection-node theme-place" id="node-vlassenroot" data-x="60" data-y="680">
     <h3>Vlassenroot</h3>
     <span class="node-type">Researcher</span>
   </div>
 
   <!-- ============================================
-       CONTRIBUTORS — orchid
+       CONTRIBUTORS
        ============================================ -->
-  <div class="connection-node theme-identity" id="node-memory-workers" data-x="640" data-y="220">
+  <div class="connection-node theme-identity" id="node-memory-workers" data-x="380" data-y="500">
     <h3>Memory Workers</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-identity" id="node-angela" data-x="720" data-y="60">
+  <div class="connection-node theme-identity" id="node-angela" data-x="760" data-y="60">
     <h3>Angela Mendoza</h3>
     <span class="node-type">Contributor</span>
   </div>
-  <div class="connection-node theme-identity" id="node-jon" data-x="760" data-y="120">
+  <div class="connection-node theme-identity" id="node-jon" data-x="820" data-y="120">
     <h3>Jon Tobias</h3>
     <span class="node-type">Contributor</span>
   </div>
-  <div class="connection-node theme-identity" id="node-alana" data-x="760" data-y="180">
+  <div class="connection-node theme-identity" id="node-alana" data-x="820" data-y="180">
     <h3>Alana Rodriguez</h3>
     <span class="node-type">Contributor</span>
   </div>
-  <div class="connection-node theme-identity" id="node-abenet" data-x="720" data-y="240">
+  <div class="connection-node theme-identity" id="node-abenet" data-x="780" data-y="240">
     <h3>a.benét</h3>
     <span class="node-type">Contributor</span>
   </div>
-  <div class="connection-node theme-identity" id="node-sam" data-x="760" data-y="300">
+  <div class="connection-node theme-identity" id="node-sam" data-x="820" data-y="300">
     <h3>Sam Yaziji</h3>
     <span class="node-type">Contributor</span>
   </div>
-  <div class="connection-node theme-identity" id="node-jack" data-x="720" data-y="360">
+  <div class="connection-node theme-identity" id="node-jack" data-x="780" data-y="360">
     <h3>Jack Hinzo</h3>
     <span class="node-type">Contributor</span>
   </div>
 
   <!-- ============================================
-       PLATFORMS — cyan
+       PLATFORMS
        ============================================ -->
-  <div class="connection-node theme-web" id="node-platforms" data-x="300" data-y="280">
+  <div class="connection-node theme-web" id="node-platforms" data-x="420" data-y="640">
     <h3>Platforms</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-web" id="node-myspace" data-x="220" data-y="320">
+  <div class="connection-node theme-web" id="node-myspace" data-x="320" data-y="600">
     <h3>MySpace</h3>
     <span class="node-type">Platform</span>
   </div>
-  <div class="connection-node theme-web" id="node-facebook" data-x="300" data-y="360">
+  <div class="connection-node theme-web" id="node-facebook" data-x="380" data-y="680">
     <h3>Facebook</h3>
     <span class="node-type">Platform</span>
   </div>
-  <div class="connection-node theme-web" id="node-twitter" data-x="380" data-y="340">
+  <div class="connection-node theme-web" id="node-twitter" data-x="480" data-y="600">
     <h3>Twitter / X</h3>
     <span class="node-type">Platform</span>
   </div>
-  <div class="connection-node theme-web" id="node-tumblr" data-x="260" data-y="400">
+  <div class="connection-node theme-web" id="node-tumblr" data-x="320" data-y="680">
     <h3>Tumblr</h3>
     <span class="node-type">Platform</span>
   </div>
-  <div class="connection-node theme-web" id="node-instagram" data-x="340" data-y="420">
+  <div class="connection-node theme-web" id="node-instagram" data-x="520" data-y="680">
     <h3>Instagram</h3>
     <span class="node-type">Platform</span>
   </div>
-  <div class="connection-node theme-web" id="node-tiktok" data-x="420" data-y="400">
+  <div class="connection-node theme-web" id="node-tiktok" data-x="580" data-y="640">
     <h3>TikTok</h3>
     <span class="node-type">Platform</span>
   </div>
-  <div class="connection-node theme-web" id="node-youtube" data-x="380" data-y="460">
+  <div class="connection-node theme-web" id="node-youtube" data-x="520" data-y="720">
     <h3>YouTube</h3>
     <span class="node-type">Platform</span>
   </div>
-  <div class="connection-node theme-web" id="node-email" data-x="300" data-y="480">
+  <div class="connection-node theme-web" id="node-email" data-x="440" data-y="760">
     <h3>Email</h3>
     <span class="node-type">Platform</span>
   </div>
 
   <!-- ============================================
-       CONCEPTS — various
+       CONCEPTS
        ============================================ -->
-  <div class="connection-node theme-loss" id="node-memes" data-x="40" data-y="340">
+  <div class="connection-node theme-loss" id="node-memes" data-x="60" data-y="760">
     <h3>Memes</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-loss" id="node-virality" data-x="100" data-y="300">
+  <div class="connection-node theme-loss" id="node-virality" data-x="160" data-y="760">
     <h3>Virality</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-loss" id="node-participation" data-x="40" data-y="380">
+  <div class="connection-node theme-loss" id="node-participation" data-x="260" data-y="760">
     <h3>Participation</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-loss" id="node-remix" data-x="120" data-y="360">
+  <div class="connection-node theme-loss" id="node-remix" data-x="60" data-y="820">
     <h3>Remix Culture</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-future" id="node-surveillance" data-x="500" data-y="420">
-    <h3>Surveillance</h3>
-    <span class="node-type">Concept</span>
-  </div>
-  <div class="connection-node theme-future" id="node-algorithms" data-x="560" data-y="400">
+  <div class="connection-node theme-future" id="node-algorithms" data-x="620" data-y="600">
     <h3>Algorithms</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-future" id="node-corporations" data-x="600" data-y="440">
+  <div class="connection-node theme-future" id="node-corporations" data-x="680" data-y="640">
     <h3>Corporations</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-future" id="node-censorship" data-x="660" data-y="420">
+  <div class="connection-node theme-future" id="node-censorship" data-x="720" data-y="680">
     <h3>Censorship</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-future" id="node-digital-sobriety" data-x="560" data-y="480">
+  <div class="connection-node theme-future" id="node-digital-sobriety" data-x="640" data-y="720">
     <h3>Digital Sobriety</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-web" id="node-smartphones" data-x="480" data-y="460">
+  <div class="connection-node theme-web" id="node-smartphones" data-x="700" data-y="760">
     <h3>Smartphones</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-loss" id="node-platform-death" data-x="220" data-y="440">
+  <div class="connection-node theme-loss" id="node-platform-death" data-x="160" data-y="820">
     <h3>Platform Death</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-creativity" id="node-fandom" data-x="80" data-y="480">
+  <div class="connection-node theme-expression" id="node-fandom" data-x="260" data-y="820">
     <h3>Fandom</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-web" id="node-aesthetics" data-x="160" data-y="420">
+  <div class="connection-node theme-web" id="node-aesthetics" data-x="360" data-y="820">
     <h3>Internet Aesthetics</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-identity" id="node-algorithmic-self" data-x="580" data-y="340">
+  <div class="connection-node theme-identity" id="node-algorithmic-self" data-x="740" data-y="500">
     <h3>Algorithmic Self</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-place" id="node-place-memory" data-x="160" data-y="520">
+  <div class="connection-node theme-place" id="node-place-memory" data-x="360" data-y="880">
     <h3>Place Memory</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-future" id="node-datafication" data-x="520" data-y="520">
+  <div class="connection-node theme-future" id="node-datafication" data-x="460" data-y="880">
     <h3>Datafication</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-web" id="node-cloud" data-x="600" data-y="500">
+  <div class="connection-node theme-web" id="node-cloud" data-x="560" data-y="880">
     <h3>Cloud</h3>
     <span class="node-type">Concept</span>
   </div>
-  <div class="connection-node theme-future" id="node-ai" data-x="460" data-y="520">
+  <div class="connection-node theme-future" id="node-ai" data-x="660" data-y="880">
     <h3>AI</h3>
     <span class="node-type">Concept</span>
   </div>
 
   <!-- ============================================
-       SITE PAGES — pink
+       SITE PAGES
        ============================================ -->
-  <div class="connection-node theme-future" id="node-the-trunk" data-x="420" data-y="380">
+  <div class="connection-node theme-future" id="node-the-trunk" data-x="420" data-y="520">
     <h3>The Trunk</h3>
     <span class="node-type">Archive</span>
   </div>
-  <div class="connection-node theme-future" id="node-blessings" data-x="340" data-y="240">
+  <div class="connection-node theme-future" id="node-blessings" data-x="340" data-y="380">
     <h3>Blessings</h3>
     <span class="node-type">Page</span>
   </div>
-  <div class="connection-node theme-future" id="node-index" data-x="500" data-y="240">
+  <div class="connection-node theme-future" id="node-index" data-x="500" data-y="380">
     <h3>Index</h3>
     <span class="node-type">Collection</span>
   </div>
@@ -389,7 +429,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     { from: 'node-upgrade-you', to: 'node-web-theme' },
     { from: 'node-upgrade-you', to: 'node-identity-theme' },
     { from: 'node-going-viral', to: 'node-web-theme' },
-    { from: 'node-going-viral', to: 'node-creativity-theme' },
+    { from: 'node-going-viral', to: 'node-expression-theme' },
     { from: 'node-going-viral', to: 'node-intimacy-theme' },
     { from: 'node-the-parasocial', to: 'node-identity-theme' },
     { from: 'node-the-parasocial', to: 'node-intimacy-theme' },
@@ -399,7 +439,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     { from: 'node-between-you-and-i', to: 'node-loss-theme' },
     { from: 'node-between-you-and-i', to: 'node-intimacy-theme' },
     { from: 'node-ai-reception', to: 'node-future-theme' },
-    { from: 'node-ai-reception', to: 'node-creativity-theme' },
+    { from: 'node-ai-reception', to: 'node-expression-theme' },
 
     // Archive sections to concepts
     { from: 'node-upgrade-you', to: 'node-smartphones' },
@@ -466,7 +506,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     { from: 'node-angela', to: 'node-loss-theme' },
     { from: 'node-jon', to: 'node-place-theme' },
     { from: 'node-jon', to: 'node-loss-theme' },
-    { from: 'node-jon', to: 'node-creativity-theme' },
+    { from: 'node-jon', to: 'node-expression-theme' },
     { from: 'node-jon', to: 'node-web-theme' },
     { from: 'node-alana', to: 'node-place-theme' },
     { from: 'node-alana', to: 'node-web-theme' },
@@ -475,10 +515,38 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     { from: 'node-abenet', to: 'node-identity-theme' },
     { from: 'node-abenet', to: 'node-loss-theme' },
     { from: 'node-sam', to: 'node-identity-theme' },
-    { from: 'node-sam', to: 'node-creativity-theme' },
+    { from: 'node-sam', to: 'node-expression-theme' },
     { from: 'node-sam', to: 'node-web-theme' },
     { from: 'node-jack', to: 'node-place-theme' },
     { from: 'node-jack', to: 'node-web-theme' },
+
+    // New category connections
+    { from: 'node-science-category', to: 'node-tech-category' },
+    { from: 'node-science-category', to: 'node-emergence-theme' },
+    { from: 'node-justice-category', to: 'node-politics-category' },
+    { from: 'node-justice-category', to: 'node-witness-theme' },
+    { from: 'node-security-category', to: 'node-politics-category' },
+    { from: 'node-security-category', to: 'node-surveillance-theme' },
+    { from: 'node-infrastructure-category', to: 'node-tech-category' },
+    { from: 'node-infrastructure-category', to: 'node-threshold-theme' },
+    { from: 'node-care-category', to: 'node-care-theme' },
+    { from: 'node-care-category', to: 'node-intimacy-theme' },
+    { from: 'node-documentation-category', to: 'node-witness-theme' },
+    { from: 'node-documentation-category', to: 'node-intimacy-theme' },
+
+    // New theme connections
+    { from: 'node-care-theme', to: 'node-intimacy-theme' },
+    { from: 'node-care-theme', to: 'node-loss-theme' },
+    { from: 'node-witness-theme', to: 'node-documentation-category' },
+    { from: 'node-witness-theme', to: 'node-identity-theme' },
+    { from: 'node-surveillance-theme', to: 'node-web-theme' },
+    { from: 'node-surveillance-theme', to: 'node-corporations' },
+    { from: 'node-surveillance-theme', to: 'node-censorship' },
+    { from: 'node-emergence-theme', to: 'node-future-theme' },
+    { from: 'node-emergence-theme', to: 'node-ai' },
+    { from: 'node-emergence-theme', to: 'node-expression-theme' },
+    { from: 'node-threshold-theme', to: 'node-future-theme' },
+    { from: 'node-threshold-theme', to: 'node-place-theme' },
 
     // Concepts to each other
     { from: 'node-memes', to: 'node-virality' },
@@ -487,25 +555,20 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     { from: 'node-memes', to: 'node-collective-memory' },
     { from: 'node-virality', to: 'node-platforms' },
     { from: 'node-participation', to: 'node-memory-workers' },
-    { from: 'node-remix', to: 'node-creativity-theme' },
-    { from: 'node-surveillance', to: 'node-corporations' },
-    { from: 'node-surveillance', to: 'node-datafication' },
-    { from: 'node-surveillance', to: 'node-politics-category' },
+    { from: 'node-remix', to: 'node-expression-theme' },
     { from: 'node-algorithms', to: 'node-platforms' },
-    { from: 'node-algorithms', to: 'node-attention' },
     { from: 'node-corporations', to: 'node-platforms' },
     { from: 'node-corporations', to: 'node-economics-category' },
     { from: 'node-censorship', to: 'node-politics-category' },
     { from: 'node-platform-death', to: 'node-loss-theme' },
     { from: 'node-platform-death', to: 'node-forgetting' },
-    { from: 'node-digital-sobriety', to: 'node-surveillance' },
     { from: 'node-digital-sobriety', to: 'node-datafication' },
     { from: 'node-datafication', to: 'node-cloud' },
     { from: 'node-datafication', to: 'node-algorithms' },
     { from: 'node-cloud', to: 'node-smartphones' },
     { from: 'node-ai', to: 'node-platforms' },
     { from: 'node-ai', to: 'node-censorship' },
-    { from: 'node-ai', to: 'node-creativity-theme' },
+    { from: 'node-ai', to: 'node-expression-theme' },
     { from: 'node-ai', to: 'node-future-theme' },
     { from: 'node-nostalgia', to: 'node-culture-category' },
     { from: 'node-nostalgia', to: 'node-forgetting' },
@@ -710,6 +773,42 @@ const previewData = {
     description: 'Climate strikes, disasters, data centers, extinction — the physical world reacting to the epoch.',
     link: '/Trunk/epoch/'
   },
+  'node-documentation-category': {
+    title: 'Documentation',
+    type: 'Timeline Category',
+    description: 'Witnessing, recording, testimony — the evidence we leave behind and who gets to interpret it.',
+    link: '/Trunk/epoch/'
+  },
+  'node-science-category': {
+    title: 'Science & Health',
+    type: 'Timeline Category',
+    description: 'From Dolly the sheep to mRNA vaccines — the breakthroughs, crises, and discoveries that reshaped how we live and die.',
+    link: '/Trunk/epoch/'
+  },
+  'node-justice-category': {
+    title: 'Law & Justice',
+    type: 'Timeline Category',
+    description: 'The courts, the rulings, the movements — how law shapes the boundaries of what\'s possible and who is protected.',
+    link: '/Trunk/epoch/'
+  },
+  'node-security-category': {
+    title: 'Conflict & Security',
+    type: 'Timeline Category',
+    description: 'Wars, insurrections, surveillance states — the violence and counter-violence that defined the epoch.',
+    link: '/Trunk/epoch/'
+  },
+  'node-infrastructure-category': {
+    title: 'Infrastructure & Exploration',
+    type: 'Timeline Category',
+    description: 'The systems we built, the networks that hold us, and the frontiers we keep pushing toward.',
+    link: '/Trunk/epoch/'
+  },
+  'node-care-category': {
+    title: 'Care',
+    type: 'Timeline Category',
+    description: 'The mutual aid, the support networks, the ways communities held each other up when institutions failed.',
+    link: '/Trunk/epoch/'
+  },
 
   // Quote Themes
   'node-place-theme': {
@@ -742,17 +841,47 @@ const previewData = {
     description: '"I grew up to love ghetto." Race, gender, culture, faith, and the ongoing work of becoming oneself.',
     link: '/Trunk/drivers/#identity'
   },
-  'node-creativity-theme': {
-    title: 'Creativity',
+  'node-expression-theme': {
+    title: 'Expression',
     type: 'Quote Theme',
     description: '"I thought poetry was what you went to when you wanted to talk about what you thought god was." Art, poetry, music, and the drive to make meaning.',
-    link: '/Trunk/drivers/#creativity'
+    link: '/Trunk/drivers/#expression'
   },
   'node-future-theme': {
     title: 'Future',
     type: 'Quote Theme',
     description: '"San Diego of the future, my hope is that you still hold space for community." What comes next — transition, technology, hope, and the unknown.',
     link: '/Trunk/drivers/#future'
+  },
+  'node-care-theme': {
+    title: 'Care',
+    type: 'Quote Theme',
+    description: 'How we supported one another through everything the epoch demanded — mutual aid, community care, the networks that held.',
+    link: '/Trunk/drivers/#care'
+  },
+  'node-witness-theme': {
+    title: 'Witness',
+    type: 'Quote Theme',
+    description: 'Who saw it, recorded it, and remembered it — the testimony that becomes evidence, the bystander with a phone.',
+    link: '/Trunk/drivers/#witness'
+  },
+  'node-surveillance-theme': {
+    title: 'Surveillance',
+    type: 'Quote Theme',
+    description: 'Who was watching, and what did visibility cost — the state, the platform, the public eye.',
+    link: '/Trunk/drivers/#surveillance'
+  },
+  'node-emergence-theme': {
+    title: 'Emergence',
+    type: 'Quote Theme',
+    description: 'What new forms of life, culture, and technology were taking shape — AI, new social structures, unforeseen futures.',
+    link: '/Trunk/drivers/#emergence'
+  },
+  'node-threshold-theme': {
+    title: 'Threshold',
+    type: 'Quote Theme',
+    description: 'What worlds we were standing between — the analog and the digital, the past and the unknown, one version of self and the next.',
+    link: '/Trunk/drivers/#threshold'
   },
 
   // Key Concepts
@@ -960,12 +1089,6 @@ const previewData = {
     title: 'Remix Culture',
     type: 'Concept',
     description: 'The practice of adapting, combining, and reusing cultural materials. Creativity as an ongoing conversation rather than a singular act.',
-    link: null
-  },
-  'node-surveillance': {
-    title: 'Surveillance',
-    type: 'Concept',
-    description: 'The collection and monitoring of personal data. Snowden revealed the scale. Our phones confirmed it. The archive is also a surveillance state.',
     link: null
   },
   'node-algorithms': {

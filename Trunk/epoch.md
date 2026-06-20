@@ -12,15 +12,19 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 *Patience; This timeline is not yet complete.*
 
 ---
-
 <div class="timeline-legend" id="timeline-legend">
   <button class="legend-btn legend-tech active" data-filter="tech">● Technology</button>
   <button class="legend-btn legend-politics active" data-filter="politics">● Politics</button>
   <button class="legend-btn legend-culture active" data-filter="culture">● Culture</button>
   <button class="legend-btn legend-economics active" data-filter="economics">● Economy</button>
-    <button class="legend-btn legend-environment active" data-filter="environment">● Environment</button>
-    <button class="legend-btn legend-local active" data-filter="local">● Local Memory</button>
+  <button class="legend-btn legend-environment active" data-filter="environment">● Environment</button>
+  <button class="legend-btn legend-science active" data-filter="science">● Science &amp; Health</button>
+  <button class="legend-btn legend-justice active" data-filter="justice">● Law &amp; Justice</button>
+  <button class="legend-btn legend-security active" data-filter="security">● Conflict &amp; Security</button>
+  <button class="legend-btn legend-infrastructure active" data-filter="infrastructure">● Infrastructure &amp; Exploration</button>
+  <button class="legend-btn legend-care active" data-filter="care">● Care</button>
   <button class="legend-btn legend-documentation active" data-filter="documentation">● Documentation</button>
+  <button class="legend-btn legend-local active" data-filter="local">● Local Memory</button>
   <button class="legend-btn legend-all active" data-filter="all">Show All</button>
 </div>
 

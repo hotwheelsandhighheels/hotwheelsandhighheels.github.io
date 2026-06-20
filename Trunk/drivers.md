@@ -7,7 +7,7 @@ title: The Drivers - Hot Wheels & High Heels
 
 # The Drivers
 
-Seven themes, one pattern: millennial memory is always about place, loss, the web, intimacy, identity, creativity, and the future.
+Twelve themes, one pattern: millennial memory is always about place, loss, intimacy, the web, identity, expression, the future, care, witness, surveillance, emergence, and threshold.
 
 <hr>
 
@@ -17,8 +17,13 @@ Seven themes, one pattern: millennial memory is always about place, loss, the we
   <span class="tag-intimacy">● Intimacy</span>
   <span class="tag-web">● Web</span>
   <span class="tag-identity">● Identity</span>
-  <span class="tag-creativity">● Creativity</span>
+  <span class="tag-expression">● Expression</span>
   <span class="tag-future">● Future</span>
+  <span class="tag-care">● Care</span>
+  <span class="tag-witness">● Witness</span>
+  <span class="tag-surveillance">● Surveillance</span>
+  <span class="tag-emergence">● Emergence</span>
+  <span class="tag-threshold">● Threshold</span>
 </div>
 
 ## Place
@@ -244,19 +249,19 @@ Location: El Cajon, San Diego
 
 <!--
 Contributor: Sam Yaziji
-Themes: Identity, Creativity
+Themes: Identity, Expression
 Location: Miami, FL
 -->
 <blockquote class="tag-quote tag-identity"
   id="quote-sam-001"
-  data-theme="identity creativity"
+  data-theme="identity expression"
   data-contributor="sam-yaziji"
   data-location="miami">
   "St. Porphyrios says, 'whoever wants to become a Christian must first become a poet.' "
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Sam/">Sam Yaziji</a></p>
 <span class="timeline-tag identity">Identity</span>
-<span class="timeline-tag creativity">Creativity</span>
+<span class="timeline-tag expression">Expression</span>
 
 <!--
 Contributor: Angela Mendoza
@@ -291,56 +296,56 @@ Location: City Heights, San Diego
 
 ---
 
-## Creativity
+## Expression
 
 *Art, poetry, music, and the drive to make meaning from experience.*
 
 <!--
 Contributor: Jon Tobias
-Themes: Creativity, Identity
+Themes: Expression, Identity
 Location: El Cajon, San Diego
 -->
-<blockquote class="tag-quote tag-creativity"
+<blockquote class="tag-quote tag-expression"
   id="quote-jon-003"
-  data-theme="creativity identity"
+  data-theme="expression identity"
   data-contributor="jon-tobias"
   data-location="el-cajon">
   "I thought poetry was what you went to when you wanted to talk about what you thought god was."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Jon/">Jon Tobias</a></p>
-<span class="timeline-tag creativity">Creativity</span>
+<span class="timeline-tag expression">Expression</span>
 <span class="timeline-tag identity">Identity</span>
 
 <!--
 Contributor: Sam Yaziji
-Themes: Creativity, Intimacy
+Themes: Expression, Intimacy
 Location: Miami, FL
 -->
-<blockquote class="tag-quote tag-creativity"
+<blockquote class="tag-quote tag-expression"
   id="quote-sam-002"
-  data-theme="creativity intimacy"
+  data-theme="expression intimacy"
   data-contributor="sam-yaziji"
   data-location="miami">
   "I begin a poem in a moment of anger or sorrow, and by writing the poem, I try to create something beautiful out of my abjection."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Sam/">Sam Yaziji</a></p>
-<span class="timeline-tag creativity">Creativity</span>
+<span class="timeline-tag expression">Expression</span>
 <span class="timeline-tag intimacy">Intimacy</span>
 
 <!--
 Contributor: a.benét
-Themes: Creativity
+Themes: Expression
 Location: City Heights, San Diego
 -->
-<blockquote class="tag-quote tag-creativity"
+<blockquote class="tag-quote tag-expression"
   id="quote-abenet-005"
-  data-theme="creativity"
+  data-theme="expression"
   data-contributor="a-benet"
   data-location="city-heights">
   "I love anything that has to do with creation — crocheting, scrapbooking, photography, coloring. I was very proud of what new things I was able to make out of the old."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/abenet/">a.benét</a></p>
-<span class="timeline-tag creativity">Creativity</span>
+<span class="timeline-tag expression">Expression</span>
 
 ---
 
@@ -395,7 +400,48 @@ Location: San Diego
 <p class="quote-attribution"><a href="/Drivers/Jack/">Jack Hinzo</a></p>
 <span class="timeline-tag future">Future</span>
 
+---
+
+## Care
+
+*How we supported one another through everything the epoch demanded.*
+
+<!-- Future quotes will go here -->
+
+---
+
+## Witness
+
+*Who saw it, recorded it, and remembered it.*
+
+<!-- Future quotes will go here -->
+
+---
+
+## Surveillance
+
+*Who was watching, and what did visibility cost.*
+
+<!-- Future quotes will go here -->
+
+---
+
+## Emergence
+
+*What new forms of life, culture, and technology were taking shape.*
+
+<!-- Future quotes will go here -->
+
+---
+
+## Threshold
+
+*What worlds we were standing between.*
+
+<!-- Future quotes will go here -->
+
 <center><a href="/survey-driver/" class="secret-link">✦</a></center>
+
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
   <a href="/Trunk/archive/">← View Artifacts</a>
