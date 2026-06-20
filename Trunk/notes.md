@@ -370,6 +370,6 @@ function toggleAccordion(header) {
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
-  <a href="/Trunk/drivers/">← Flag down a driver</a>
+  <a href="/Trunk/ai-reception/">← View Artifacts</a>
   <a href="/Trunk/connections/">Check the road map →</a>
 </div>

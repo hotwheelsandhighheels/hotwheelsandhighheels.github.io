@@ -7,431 +7,118 @@ title: The Social Archive - Hot Wheels & High Heels
 
 # The Social Archive
 
-On this page, I am collecting content that reflects anything I felt was epoch-forming. Each container has a one-line explanation of what it is. Each artifact includes where I got it, when I got it, why I got it, and why it matters. 
+On this page, I am collecting content that reflects anything I felt was epoch-forming. Each artifact includes where I got it, when I got it, why I got it, and why it matters. All tagged by theme and timeline category.
 
 *If you want to add something, PLEASE DO! Do not hesitate to overuse my submission form.*
 
 ---
 
-<!-- ============================================
-     UPGRADE YOU
-     ============================================ -->
-
-## Upgrade You
-
-*5 artifacts collected*
-
-*These are the updates and upgrades that got pushed on us whether we asked for them or not. They mostly never implemented the changes we asked for.*
-
 <div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="upgrade-slideshow" data-current="1" data-total="5">
-      <div class="artifact-slide active" data-title="Siri Tries to Parse the Unconscious" data-origin="hw-screenshot" data-date="07-07-2014" data-context="I think I had my phone in my hand or pocket, not looking at it or talking to Siri at all, but Siri responded. The text reads: &quot;Cannot find my I cannot find my dog and my friend my help I'll Malmac mag mag all my on my mind all morning wall wall wall wall wall wall memorial boreal&quot; tap to edit — Sorry, Alejandra… can you try that again in fewer words?" data-significance="I screenshot this because I thought it was funny that Siri was summoned and even funnier that that's what it thought I had said." data-tags="Upgrade You,Technology,Web">
+    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="15">
+      
+      <!-- 1. Siri Tries to Parse the Unconscious -->
+      <div class="artifact-slide active" data-title="Siri Tries to Parse the Unconscious" data-origin="hw-screenshot" data-date="07-07-2014" data-context="I think I had my phone in my hand or pocket, not looking at it or talking to Siri at all, but Siri responded. The text reads: &quot;Cannot find my I cannot find my dog and my friend my help I'll Malmac mag mag all my on my mind all morning wall wall wall wall wall wall memorial boreal&quot; tap to edit — Sorry, Alejandra… can you try that again in fewer words?" data-significance="I screenshot this because I thought it was funny that Siri was summoned and even funnier that that's what it thought I had said." data-tags="Upgrade You,Technology,Web,Expression">
         <img src="/assets/archive/upgrade/hw-screenshot-siri.PNG" alt="Screenshot of Siri responding to garbled input">
       </div>
-      <div class="artifact-slide" data-title="A Conversation Without Text" data-origin="hw-screenshot" data-date="03-03-2023" data-context="This is a conversation happening between me and my best friend completely through audio messages on iMessage." data-significance="Audio messages sit somewhere between a phone call and a text — more presence than words, less pressure than a live conversation." data-tags="Upgrade You,Technology,Intimacy">
+      
+      <!-- 2. A Conversation Without Text -->
+      <div class="artifact-slide" data-title="A Conversation Without Text" data-origin="hw-screenshot" data-date="03-03-2023" data-context="This is a conversation happening between me and my best friend completely through audio messages on iMessage." data-significance="Audio messages sit somewhere between a phone call and a text — more presence than words, less pressure than a live conversation." data-tags="Upgrade You,Technology,Intimacy,Web">
         <img src="/assets/archive/upgrade/hw-screenshot-audiomessages.PNG" alt="Screenshot of an iMessage conversation conducted entirely through audio messages">
       </div>
-      <div class="artifact-slide" data-title="The QR Code That Found Everyone" data-origin="hw-screenshot" data-date="05-17-2016" data-context="I have no idea why I saved it. But I am including it because when I was looking through my screenshots it popped up. This was like one of the new things you could do instead of having to search for someone, they could show you the QR code. I'm not sure who did it first, but all the apps do it now." data-significance="I'm including it because it was one of those new features that became standard. Someone had to save a screenshot of it once, when it was new." data-tags="Upgrade You,Technology,Web">
+      
+      <!-- 3. The QR Code That Found Everyone -->
+      <div class="artifact-slide" data-title="The QR Code That Found Everyone" data-origin="hw-screenshot" data-date="05-17-2016" data-context="I have no idea why I saved it. But I am including it because when I was looking through my screenshots it popped up. This was like one of the new things you could do instead of having to search for someone, they could show you the QR code. I'm not sure who did it first, but all the apps do it now." data-significance="I'm including it because it was one of those new features that became standard. Someone had to save a screenshot of it once, when it was new." data-tags="Upgrade You,Technology,Web,Infrastructure & Exploration">
         <img src="/assets/archive/upgrade/hw-screenshot-fbcode.PNG" alt="Screenshot of a Facebook QR code feature for finding friends">
       </div>
-      <div class="artifact-slide" data-title="Your High Score Is Content Now" data-origin="hw-screenshot" data-date="undated" data-context="A screenshot of the Angry Birds game app on my phone. It shows that there is a new high score. I'm not sure if this was my high score or my kid's. There is a Connect to FB link to play with friends." data-significance="Shows the incentive of connecting social media apps to popular mobile games." data-tags="Upgrade You,Technology,Web">
+      
+      <!-- 4. Your High Score Is Content Now -->
+      <div class="artifact-slide" data-title="Your High Score Is Content Now" data-origin="hw-screenshot" data-date="undated" data-context="A screenshot of the Angry Birds game app on my phone. It shows that there is a new high score. I'm not sure if this was my high score or my kid's. There is a Connect to FB link to play with friends." data-significance="Shows the incentive of connecting social media apps to popular mobile games." data-tags="Upgrade You,Technology,Web,Economics">
         <img src="/assets/archive/upgrade/hw-screenshot-angrybirds.PNG" alt="Screenshot of Angry Birds game showing a new high score and a Connect to Facebook button">
       </div>
-      <div class="artifact-slide" data-title="The Bench That Exists to Be Photographed" data-origin="hw-screenshot" data-date="12-13-2024" data-context="I was in Mexico and came across a kissing corner/bench. It was a bench with two potted plants for decoration and a sign that reads &quot;bésame en esta esquina&quot; — kiss me on this corner. A couple younger than me sat on the bench and took a picture but they didn't kiss, which is what the text is about." data-significance="I'm including it because it shows how we curate our lives for the gram with Instagrammable set ups like this." data-tags="Upgrade You,Culture,Identity">
+      
+      <!-- 5. The Bench That Exists to Be Photographed -->
+      <div class="artifact-slide" data-title="The Bench That Exists to Be Photographed" data-origin="hw-screenshot" data-date="12-13-2024" data-context="I was in Mexico and came across a kissing corner/bench. It was a bench with two potted plants for decoration and a sign that reads &quot;bésame en esta esquina&quot; — kiss me on this corner. A couple younger than me sat on the bench and took a picture but they didn't kiss, which is what the text is about." data-significance="I'm including it because it shows how we curate our lives for the gram with Instagrammable set ups like this." data-tags="Upgrade You,Culture,Identity,Place,Web">
         <img src="/assets/archive/upgrade/hw-screenshot-kissingbench.jpeg" alt="Screenshot of a text message about a kissing bench in Mexico">
       </div>
-    </div>
-    <div class="artifact-slideshow-controls" id="upgrade-controls">
-      <button class="slide-btn" onclick="changeArtifactSlide('upgrade-slideshow', -1)">&#8592;</button>
-      <span class="slide-count"><span id="upgrade-current">1</span> / <span id="upgrade-total">5</span></span>
-      <button class="slide-btn" onclick="changeArtifactSlide('upgrade-slideshow', 1)">&#8594;</button>
-    </div>
-  </div>
-  <div class="artifact-context" id="upgrade-context">
-    <h3 id="upgrade-title"></h3>
-    <p class="artifact-description"><strong>Origin:</strong> <span id="upgrade-origin"></span> &nbsp;·&nbsp; <strong>Date:</strong> <span id="upgrade-date"></span></p>
-    <p class="artifact-description"><strong>Context:</strong> <span id="upgrade-context-text"></span></p>
-    <p class="artifact-significance"><strong>Significance:</strong> <span id="upgrade-significance"></span></p>
-    <div class="artifact-meta" id="upgrade-tags"></div>
-  </div>
-</div>
-
----
-
-<!-- ============================================
-     GOING VIRAL
-     ============================================ -->
-
-## Going Viral
-
-*6 artifacts collected*
-
-*This is meme culture. I focused on three things when including things here: Virality, mutability, and intertextuality.*
-
-<div class="artifact">
-  <div class="artifact-media">
-    <div class="artifact-slideshow" id="viral-slideshow" data-current="1" data-total="6">
-      <div class="artifact-slide active" data-title="All this water but you still thirsty" data-origin="hw-screenshot" data-date="04-01-2014" data-context="This is a screenshot I took of a snap that my sibling sent me. In the picture there are three full 5-gallon bottles of water. The text reads, &quot;All this water but you still thirsty.&quot;" data-significance="This is evidence of the viral meme phrase: All this ____ but you still _____. In which tangible objects represented a feeling." data-tags="Going Viral,Culture,Intimacy,Web">
+      
+      <!-- 6. All this water but you still thirsty -->
+      <div class="artifact-slide" data-title="All this water but you still thirsty" data-origin="hw-screenshot" data-date="04-01-2014" data-context="This is a screenshot I took of a snap that my sibling sent me. In the picture there are three full 5-gallon bottles of water. The text reads, &quot;All this water but you still thirsty.&quot;" data-significance="This is evidence of the viral meme phrase: All this ____ but you still _____. In which tangible objects represented a feeling." data-tags="Going Viral,Culture,Intimacy,Web,Expression">
         <img src="/assets/archive/viral/hw-screenshot-stillthirsty.PNG" alt="Screenshot of a Snapchat message showing three full 5-gallon water bottles with text reading 'All this water but you still thirsty.'">
       </div>
-      <div class="artifact-slide" data-title="Straight Outta Beyonce" data-origin="web-screenshot" data-date="08-09-2015" data-context="This is a frame that was being used in 2015 when the movie Straight Outta Compton came out. It is a picture of Baby Blue Ivy Carter holding wads of cash, with a chest of cash behind her labeled TOYS. The frame reads Straight Outta Beyonce. There was also a Snapchat filter where you could place the Straight Outta Compton frame over your own photo. I have one of my kid, 5 at the time." data-significance="This shows the intertextuality of meme culture." data-tags="Going Viral,Culture,Web,Broken Record,Economics">
+      
+      <!-- 7. Straight Outta Beyonce -->
+      <div class="artifact-slide" data-title="Straight Outta Beyonce" data-origin="web-screenshot" data-date="08-09-2015" data-context="This is a frame that was being used in 2015 when the movie Straight Outta Compton came out. It is a picture of Baby Blue Ivy Carter holding wads of cash, with a chest of cash behind her labeled TOYS. The frame reads Straight Outta Beyonce. There was also a Snapchat filter where you could place the Straight Outta Compton frame over your own photo. I have one of my kid, 5 at the time." data-significance="This shows the intertextuality of meme culture." data-tags="Going Viral,Culture,Web,Broken Record,Economics,Identity">
         <img src="/assets/archive/viral/web-straight-outta-beyonce.PNG" alt="Baby Blue Ivy Carter holding wads of cash with a chest of cash behind her labeled TOYS. The frame reads Straight Outta Beyonce.">
       </div>
-      <div class="artifact-slide" data-title="When ur hotline bling but it aint the person u wanted" data-origin="web-screenshot" data-date="10-25-2015" data-context="This is one of many Drake reaction memes. It's a still from his Hotline Bling music video where his expression appears to be signaling yikes. His hand is raised to his head with pinky and thumb hand phone. The reaction is in classic meme text followed by meme image structure. The text reads &quot;When ur hotline bling but it aint the person u wanted.&quot;" data-significance="The reaction meme as a communication tool — a music video frame becomes reusable emotional shorthand." data-tags="Going Viral,Culture,Web">
+      
+      <!-- 8. When ur hotline bling but it aint the person u wanted -->
+      <div class="artifact-slide" data-title="When ur hotline bling but it aint the person u wanted" data-origin="web-screenshot" data-date="10-25-2015" data-context="This is one of many Drake reaction memes. It's a still from his Hotline Bling music video where his expression appears to be signaling yikes. His hand is raised to his head with pinky and thumb hand phone. The reaction is in classic meme text followed by meme image structure. The text reads &quot;When ur hotline bling but it aint the person u wanted.&quot;" data-significance="The reaction meme as a communication tool — a music video frame becomes reusable emotional shorthand." data-tags="Going Viral,Culture,Web,Expression">
         <img src="/assets/archive/viral/web-meme-drake.JPG" alt="Drake reaction meme from Hotline Bling video. Text reads 'When ur hotline bling but it aint the person u wanted.'">
       </div>
-      <div class="artifact-slide" data-title="Millennials Be Like: Zillow Dreams" data-origin="hw-meme" data-date="07-26-2023" data-context="This is actually a meme I made, in the ___ be like ___ meme style. The text reads &quot;Millennials be like: I'm looking up Zillow listings &amp; I'm dreaming…&quot; over a picture of a still from the 1997 movie Selena. In the scene, Selena is up on the roof and her sister climbs up to sit next to her. The sister says &quot;Selena what are you doing&quot; and Selena replies &quot;I'm looking up at the moon and I'm dreaming.&quot; It's a whole wish on a star moment, which is like millennials with owning houses." data-significance="This shows meme intertextuality. And the economic downsides of being a millennial." data-tags="Going Viral,Culture,Economics">
+      
+      <!-- 9. Millennials Be Like: Zillow Dreams -->
+      <div class="artifact-slide" data-title="Millennials Be Like: Zillow Dreams" data-origin="hw-meme" data-date="07-26-2023" data-context="This is actually a meme I made, in the ___ be like ___ meme style. The text reads &quot;Millennials be like: I'm looking up Zillow listings &amp; I'm dreaming…&quot; over a picture of a still from the 1997 movie Selena. In the scene, Selena is up on the roof and her sister climbs up to sit next to her. The sister says &quot;Selena what are you doing&quot; and Selena replies &quot;I'm looking up at the moon and I'm dreaming.&quot; It's a whole wish on a star moment, which is like millennials with owning houses." data-significance="This shows meme intertextuality. And the economic downsides of being a millennial." data-tags="Going Viral,Culture,Economics,Expression,Future">
         <img src="/assets/archive/viral/hw-selena-meme.jpeg" alt="Meme in the '___ be like ___' format over a still from the 1997 film Selena">
       </div>
-      <div class="artifact-slide" data-title="Intrusive Thoughts, Kardashian Reaction" data-origin="web-meme" data-date="10-05-2017" data-context="Another meme in classic meme structure. The image is three frames from Keeping Up with the Kardashians where Kim and Khloé are staring blankly ahead. The text above reads &quot;when im having a good time and intrusive thoughts happen.&quot;" data-significance="Shows how we often used memes to lighten heavier mental health feelings." data-tags="Going Viral,Culture,Intimacy">
+      
+      <!-- 10. Intrusive Thoughts, Kardashian Reaction -->
+      <div class="artifact-slide" data-title="Intrusive Thoughts, Kardashian Reaction" data-origin="web-meme" data-date="10-05-2017" data-context="Another meme in classic meme structure. The image is three frames from Keeping Up with the Kardashians where Kim and Khloé are staring blankly ahead. The text above reads &quot;when im having a good time and intrusive thoughts happen.&quot;" data-significance="Shows how we often used memes to lighten heavier mental health feelings." data-tags="Going Viral,Culture,Intimacy,Care">
         <img src="/assets/archive/viral/web-meme-intrusivethoughts.jpeg" alt="Classic meme structure using three frames of Kim and Khloé Kardashian staring blankly">
       </div>
-      <div class="artifact-slide" data-title="Well Now I Am Not Doing It" data-origin="web-meme" data-date="01-04-2019" data-context="Another classic meme structure. Text reads: me: ugh i want to kill myself, demons: kill yourself, me: The image is of Pingu sitting on a chair with his arms crossed and a frown and the image text reads &quot;well now i am not doing it.&quot;" data-significance="Shows how we often used memes to lighten heavier mental health feelings." data-tags="Going Viral,Culture,Intimacy">
+      
+      <!-- 11. Well Now I Am Not Doing It -->
+      <div class="artifact-slide" data-title="Well Now I Am Not Doing It" data-origin="web-meme" data-date="01-04-2019" data-context="Another classic meme structure. Text reads: me: ugh i want to kill myself, demons: kill yourself, me: The image is of Pingu sitting on a chair with his arms crossed and a frown and the image text reads &quot;well now i am not doing it.&quot;" data-significance="Shows how we often used memes to lighten heavier mental health feelings." data-tags="Going Viral,Culture,Intimacy,Care">
         <img src="/assets/archive/viral/web-meme-pingu.jpeg" alt="Meme of Pingu the penguin sitting with arms crossed and a frown">
       </div>
-    </div>
-    <div class="artifact-slideshow-controls" id="viral-controls">
-      <button class="slide-btn" onclick="changeArtifactSlide('viral-slideshow', -1)">&#8592;</button>
-      <span class="slide-count"><span id="viral-current">1</span> / <span id="viral-total">6</span></span>
-      <button class="slide-btn" onclick="changeArtifactSlide('viral-slideshow', 1)">&#8594;</button>
-    </div>
-  </div>
-  <div class="artifact-context" id="viral-context">
-    <h3 id="viral-title"></h3>
-    <p class="artifact-description"><strong>Origin:</strong> <span id="viral-origin"></span> &nbsp;·&nbsp; <strong>Date:</strong> <span id="viral-date"></span></p>
-    <p class="artifact-description"><strong>Context:</strong> <span id="viral-context-text"></span></p>
-    <p class="artifact-significance"><strong>Significance:</strong> <span id="viral-significance"></span></p>
-    <div class="artifact-meta" id="viral-tags"></div>
-  </div>
-</div>
-
----
-
-<!-- ============================================
-     THE PARASOCIAL
-     ============================================ -->
-
-## The Parasocial
-
-*2 artifacts collected*
-
-*This section is for that weird, parasocial relationship we tend to have with celebrities and influencers, and even politicians sometimes.*
-
-<div class="artifact">
-  <div class="artifact-media">
-    <div class="artifact-slideshow" id="parasocial-slideshow" data-current="1" data-total="2">
-      <div class="artifact-slide active" data-title="Lauren Graham Announces the Gilmore Girls Reboot" data-origin="web-screenshot" data-date="2016" data-context="When Netflix revived Gilmore Girls, the announcement came through Lauren Graham posting it directly to Instagram instead of through traditional channels. Gilmore Girls was already a defining millennial show; the reboot proved nostalgia had become an industry." data-significance="The fourth wall between celebrity and audience getting thinner. Fans would've most likely been following her Instagram and not the studio's. The celebrity is their own press release now." data-tags="The Parasocial,Culture,Broken Record,Economics">
+      
+      <!-- 12. Lauren Graham Announces the Gilmore Girls Reboot -->
+      <div class="artifact-slide" data-title="Lauren Graham Announces the Gilmore Girls Reboot" data-origin="web-screenshot" data-date="2016" data-context="When Netflix revived Gilmore Girls, the announcement came through Lauren Graham posting it directly to Instagram instead of through traditional channels. Gilmore Girls was already a defining millennial show; the reboot proved nostalgia had become an industry." data-significance="The fourth wall between celebrity and audience getting thinner. Fans would've most likely been following her Instagram and not the studio's. The celebrity is their own press release now." data-tags="The Parasocial,Culture,Broken Record,Economics,Web">
         <img src="/assets/archive/parasocial/web-screenshot-laurengraham.PNG" alt="Screenshot of Lauren Graham's Instagram post announcing the Gilmore Girls reboot">
       </div>
-      <div class="artifact-slide" data-title="This Beyoncé Mug" data-origin="hw-screenshot" data-date="04-10-2018" data-context="This is a screenshot of my sibling's IG story. It is a picture of a large bowl mug she found at a thrift store. It appears to be hand made, it looks like a watermelon half, the inside is painted a pinkish-red with black spots as seeds and the painted text reads &quot;I've been drinkin…&quot; — a reference to the Beyoncé song Drunk in Love where she sings I be drinkin watermelon. My sibling's caption reads &quot;Ya'll! This beyonce mug.&quot;" data-significance="The caption doesn't say &quot;a mug that references Beyoncé&quot; — it says &quot;this Beyoncé mug.&quot; The celebrity is the object now." data-tags="The Parasocial,Culture,Identity">
+      
+      <!-- 13. This Beyoncé Mug -->
+      <div class="artifact-slide" data-title="This Beyoncé Mug" data-origin="hw-screenshot" data-date="04-10-2018" data-context="This is a screenshot of my sibling's IG story. It is a picture of a large bowl mug she found at a thrift store. It appears to be hand made, it looks like a watermelon half, the inside is painted a pinkish-red with black spots as seeds and the painted text reads &quot;I've been drinkin…&quot; — a reference to the Beyoncé song Drunk in Love where she sings I be drinkin watermelon. My sibling's caption reads &quot;Ya'll! This beyonce mug.&quot;" data-significance="The caption doesn't say &quot;a mug that references Beyoncé&quot; — it says &quot;this Beyoncé mug.&quot; The celebrity is the object now." data-tags="The Parasocial,Culture,Identity,Expression">
         <img src="/assets/archive/parasocial/hw-screenshot-watermelonmug.PNG" alt="Screenshot of an Instagram story showing a handmade ceramic mug shaped like a watermelon half">
       </div>
-    </div>
-    <div class="artifact-slideshow-controls" id="parasocial-controls">
-      <button class="slide-btn" onclick="changeArtifactSlide('parasocial-slideshow', -1)">&#8592;</button>
-      <span class="slide-count"><span id="parasocial-current">1</span> / <span id="parasocial-total">2</span></span>
-      <button class="slide-btn" onclick="changeArtifactSlide('parasocial-slideshow', 1)">&#8594;</button>
-    </div>
-  </div>
-  <div class="artifact-context" id="parasocial-context">
-    <h3 id="parasocial-title"></h3>
-    <p class="artifact-description"><strong>Origin:</strong> <span id="parasocial-origin"></span> &nbsp;·&nbsp; <strong>Date:</strong> <span id="parasocial-date"></span></p>
-    <p class="artifact-description"><strong>Context:</strong> <span id="parasocial-context-text"></span></p>
-    <p class="artifact-significance"><strong>Significance:</strong> <span id="parasocial-significance"></span></p>
-    <div class="artifact-meta" id="parasocial-tags"></div>
-  </div>
-</div>
-
----
-<!-- ============================================
-     BROKEN RECORD
-============================================ -->
-
-## Broken Record
-
-*0 artifacts collected*
-
-*This is where all the remakes and reboots and remixes are gonna go; the nostalgia fueled economy of entertainment.*
-
----
-
-<!-- ============================================
-     BETWEEN YOU & I
-     ============================================ -->
-
-## Between You & I
-
-*2 artifacts collected*
-
-*These are intimate moments that are universally felt.*
-
-<div class="artifact">
-  <div class="artifact-media">
-    <div class="artifact-slideshow" id="uni-slideshow" data-current="1" data-total="2">
-      <div class="artifact-slide active" data-title="Gentrys Tried to Talk to Me" data-origin="hw-screenshot" data-date="06-22-2017" data-context="This is a screenshot of a story my sibling posted on IG. The location tag says Barrio Logan, San Diego, which is the neighborhood we are from. Over our life we have seen it turn into a tourist destination — gentrification. One of the best cafes in San Diego is sitting in Barrio Logan. We used to go there a lot before it got popular and the lines started going out the door. The picture shows a latte in a to-go cup with the Cafe Moto label printed on the side, on top of a page of what looks like either the San Diego City Beat or the San Diego Reader. We would pick those free magazines up at local shops. I'm not sure if the Reader is still being printed, I haven't seen it in a while. I would get one every Thursday. The City Beat has been out of print for a while now though. They were both pretty big local magazines. The caption text reads &quot;Gentrys tried to talk to me 🙅🏽‍♀️&quot; — implying we don't like the gentrification of our hood." data-significance="The free local magazines are gone or disappearing. The neighborhood we're from has become a tourist destination. The caption is a joke but also resistance." data-tags="Between You & I,Local Memory,Environment,Place,Loss">
+      
+      <!-- 14. Gentrys Tried to Talk to Me -->
+      <div class="artifact-slide" data-title="Gentrys Tried to Talk to Me" data-origin="hw-screenshot" data-date="06-22-2017" data-context="This is a screenshot of a story my sibling posted on IG. The location tag says Barrio Logan, San Diego, which is the neighborhood we are from. Over our life we have seen it turn into a tourist destination — gentrification. One of the best cafes in San Diego is sitting in Barrio Logan. We used to go there a lot before it got popular and the lines started going out the door. The picture shows a latte in a to-go cup with the Cafe Moto label printed on the side, on top of a page of what looks like either the San Diego City Beat or the San Diego Reader. We would pick those free magazines up at local shops. I'm not sure if the Reader is still being printed, I haven't seen it in a while. I would get one every Thursday. The City Beat has been out of print for a while now though. They were both pretty big local magazines. The caption text reads &quot;Gentrys tried to talk to me 🙅🏽‍♀️&quot; — implying we don't like the gentrification of our hood." data-significance="The free local magazines are gone or disappearing. The neighborhood we're from has become a tourist destination. The caption is a joke but also resistance." data-tags="Between You & I,Local Memory,Environment,Place,Loss,Identity">
         <img src="/assets/archive/uni/hw-screenshot-gentrys.PNG" alt="Screenshot of an Instagram story from Barrio Logan, San Diego">
       </div>
-      <div class="artifact-slide" data-title="If I Write About You Are You Gonna Sue Me" data-origin="hw-screenshot" data-date="undated" data-context="This is a screenshot of a text between me and my sibling. I texted &quot;if I write about you are you gonna sue me?&quot; They replied &quot;yes.&quot;" data-significance="I wanted to include this one because it's an argument on who owns memory. A lot of times in writing, writers are cautious to be as factual as possible and it sometimes fucks the authenticity of the writing, as we see in the double perspective. This is true on the internet as well where it's a participatory culture of collective memories — who owns memory." data-tags="Between You & I,Documentation,Identity,Intimacy">
+      
+      <!-- 15. If I Write About You Are You Gonna Sue Me -->
+      <div class="artifact-slide" data-title="If I Write About You Are You Gonna Sue Me" data-origin="hw-screenshot" data-date="undated" data-context="This is a screenshot of a text between me and my sibling. I texted &quot;if I write about you are you gonna sue me?&quot; They replied &quot;yes.&quot;" data-significance="I wanted to include this one because it's an argument on who owns memory. A lot of times in writing, writers are cautious to be as factual as possible and it sometimes fucks the authenticity of the writing, as we see in the double perspective. This is true on the internet as well where it's a participatory culture of collective memories — who owns memory." data-tags="Between You & I,Documentation,Identity,Intimacy,Witness">
         <img src="/assets/archive/uni/hw-screenshot-sued.PNG" alt="Screenshot of a text conversation about whether the contributor can write about their sibling">
       </div>
+      
     </div>
-    <div class="artifact-slideshow-controls" id="uni-controls">
-      <button class="slide-btn" onclick="changeArtifactSlide('uni-slideshow', -1)">&#8592;</button>
-      <span class="slide-count"><span id="uni-current">1</span> / <span id="uni-total">2</span></span>
-      <button class="slide-btn" onclick="changeArtifactSlide('uni-slideshow', 1)">&#8594;</button>
+    <div class="artifact-slideshow-controls" id="archive-controls">
+      <button class="slide-btn" onclick="changeArtifactSlide('archive-slideshow', -1)">&#8592;</button>
+      <span class="slide-count"><span id="archive-current">1</span> / <span id="archive-total">15</span></span>
+      <button class="slide-btn" onclick="changeArtifactSlide('archive-slideshow', 1)">&#8594;</button>
     </div>
   </div>
-  <div class="artifact-context" id="uni-context">
-    <h3 id="uni-title"></h3>
-    <p class="artifact-description"><strong>Origin:</strong> <span id="uni-origin"></span> &nbsp;·&nbsp; <strong>Date:</strong> <span id="uni-date"></span></p>
-    <p class="artifact-description"><strong>Context:</strong> <span id="uni-context-text"></span></p>
-    <p class="artifact-significance"><strong>Significance:</strong> <span id="uni-significance"></span></p>
-    <div class="artifact-meta" id="uni-tags"></div>
+  <div class="artifact-context" id="archive-context">
+    <h3 id="archive-title"></h3>
+    <p class="artifact-description"><strong>Origin:</strong> <span id="archive-origin"></span> &nbsp;·&nbsp; <strong>Date:</strong> <span id="archive-date"></span></p>
+    <p class="artifact-description"><strong>Context:</strong> <span id="archive-context-text"></span></p>
+    <p class="artifact-significance"><strong>Significance:</strong> <span id="archive-significance"></span></p>
+    <div class="artifact-meta" id="archive-tags"></div>
   </div>
 </div>
 
----
 
-## AI Reception
+<center><a href="/survey-cameraroll/" class="secret-link">✦</a></center>
 
-*46 artifacts collected*
-
-*This is all the stuff I see online about generative AI and LLM's. It's mostly submission guidelines from literary establishments.*
-
-<!-- SLIDESHOW -->
-<div class="slideshow" id="slideshow" data-current="1" data-total="46">
-
-  <div class="slide">
-    <img src="/assets/archive/ai/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
-    <p class="caption">HuffPost<br>The website's search feature is powered by OpenAI and contains a warning about possible inaccuracies.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/chestnutreview.png" alt="AI submission guidelines screenshot from Chestnut Review">
-    <p class="caption">Chestnut Review<br>Promises to permanently ban any author whose work is discovered or identified as AI-generated.<br>Also promises that they do not use AI tools. </p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/bluehorsepress.png" alt="AI submission guidelines screenshot from Bluehorse Press">
-    <p class="caption">Bluehorse Press<br>With an emphasis, AI-generated content lacks integrity.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/cleavermagazine.png" alt="AI submission guidelines screenshot from Cleaver Magazine">
-    <p class="caption">Cleaver Magazine<br>Diversity does not include AI "voices"</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/indianapolisreview.png" alt="AI submission guidelines screenshot from Indianapolis Review">
-    <p class="caption">Indianapolis Review<br>NOT interested, unless something like a collage or a cento.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/raleighreview.png" alt="AI submission guidelines screenshot from Raleigh Review">
-    <p class="caption">Raleigh Review<br>YOU be your own judge & be upfront.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/B. Christian.png" alt="Cited in the recent publication Large language models pass a standard three-party Turing Test by C.R. Jones & B.K. Bergen: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass.">
-    <p class="caption">Cited in the recent publication, "Large language models pass a standard three-party Turing Test" C.R. Jones & B.K. Bergen 2026: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass. <br><br>B. Christian, The Most Human Human: What Talking with Computers Teaches Us about What It Means to Be Alive (Anchor, 2011).</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/Afterdinnerconversation.png" alt="AI submission guidelines screenshot from After Dinner Conversation">
-    <p class="caption">After Dinner Conversation<br>Tried it, didn't like it.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/AlternativeMilkMagazine.png" alt="AI submission guidelines screenshot from Alternative Milk Magazine">
-    <p class="caption">Alternative Milk Magazine</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/BaltimoreReview.png" alt="AI submission guidelines screenshot from Baltimore Review">
-    <p class="caption">Baltimore Review<br>AI is mad annoying bro</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/BrevityMagazine.png" alt="AI submission guidelines screenshot from Brevity Magazine">
-    <p class="caption">Brevity Magazine</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/EpistemicLit.png" alt="AI submission guidelines screenshot from Epistemic Lit">
-    <p class="caption">Epistemic Lit<br><b>Strictly</b> forbidden</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/EtSequiturMagazine.png" alt="AI submission guidelines screenshot from Et Sequitur Magazine">
-    <p class="caption">Et Sequitur Magazine<br>In whole, in part, or in any way.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/GlassJournalofPoetry.png" alt="AI submission guidelines screenshot from Glass: A Journal of Poetry">
-    <p class="caption">Glass: A Journal of Poetry<br>Only human, with the typos</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/HexLiterary.png" alt="AI submission guidelines screenshot from Hex Literary">
-    <p class="caption">Hex Literary</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/HippocampusMagazine.png" alt="AI submission guidelines screenshot from Hippocampus Magazine">
-    <p class="caption">Hippocampus Magazine<br>YOU are the visuals baby!</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/JosephineQuarterly.png" alt="AI submission guidelines screenshot from Josephine Quarterly">
-    <p class="caption">Josephine Quarterly</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/MUSELiteraryJournal.png" alt="AI submission guidelines screenshot from MUSE Literary Journal">
-    <p class="caption">MUSE Literary Journal</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/OkayDonkeyMagazine.png" alt="AI submission guidelines screenshot from Okay Donkey Magazine">
-    <p class="caption">Okay Donkey Magazine<br>They are <b>trusting</b> you!</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/OneArtPoetry.png" alt="AI submission guidelines screenshot from One Art Poetry">
-    <p class="caption">One Art Poetry<br>About as welcome as your cat's or dog's artistic creations.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/PalettePoetry.png" alt="AI submission guidelines screenshot from Palette Poetry">
-    <p class="caption">Palette Poetry<br>Immediately no.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/PhoebeJournal.png" alt="AI submission guidelines screenshot from Phoebe Journal">
-    <p class="caption">Phoebe Journal<br>Ethical reasons, a plethora of them.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/RadonJournal.png" alt="AI submission guidelines screenshot from Radon Journal">
-    <p class="caption">Radon Journal<br>HARD pass</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/Rattle.png" alt="AI submission guidelines screenshot from Rattle">
-    <p class="caption">Rattle<br>Please explain why you would possibly need AI to assist your writing process.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/Seasidegothic.png" alt="AI submission guidelines screenshot from Seaside Gothic">
-    <p class="caption">Seaside Gothic<br>Specific af, will ban for life.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/TheFoolsWorld.png" alt="AI submission guidelines screenshot from The Fool's World">
-    <p class="caption">The Fool's World<br>Strictly banned.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/thewildumbrella.png" alt="AI submission guidelines screenshot from The Wild Umbrella">
-    <p class="caption">The Wild Umbrella<br>In. Any. Part.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/trampset.png" alt="AI submission guidelines screenshot from Trampset">
-    <p class="caption">Trampset<br>Tramps, yes! AI, no...</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/VariantLiterature.png" alt="AI submission guidelines screenshot from Variant Literature">
-    <p class="caption">Variant Literature</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/Foglifter Journal.png" alt="AI submission guidelines screenshot from Foglifter Journal">
-    <p class="caption">Foglifter Journal<br>AI isn't a medium, it cannot talk to ghosts.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/Ploughshares.png" alt="AI submission guidelines screenshot from Ploughshares">
-    <p class="caption">Ploughshares<br>Oof, are the robots writing manuscripts?!</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/TheSouthernReview.png" alt="AI submission guidelines screenshot from The Southern Review">
-    <p class="caption">The Southern Review<br>Allowed? Must disclose.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/TorchMagazine.png" alt="AI submission guidelines screenshot from Torch Magazine">
-    <p class="caption">Torch Magazine</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/Blackbird.png" alt="AI submission guidelines screenshot from Blackbird">
-    <p class="caption">Blackbird</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/wikipedia.png" alt="AI guidelines from Wikipedia">
-    <p class="caption">Wikipedia<br>In a nutshell, LLMs should not introduce content of its own.</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/popeleoxiv.PNG" alt="Voyant Cirrus Word Cloud of Pope Leo XIV's Encyclical Letter MAGNIFICA HUMANITAS">
-    <p class="caption">Using Voyant Tools, a word cloud visualization of Pope Leo XIV's Encyclical Letter MAGNIFICA HUMANITAS on safeguarding the human person in the time of artificial intelligence. <br><br>Most frequent words in the corpus: human (237); social (186); good (120).</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/Brockovich Data Centers.png" alt="Screenshot from Erin Brockovich's AI Data Center Initiative">
-    <p class="caption">An initiative by Erin Brockovich, environmental advocate, looking at the spread and effects of AI Data Centers. </p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/fourteenhills.png" alt="AI submission guidelines screenshot from Fourteen Hills">
-    <p class="caption">Fourteen Hills</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/geist.png" alt="AI submission guidelines screenshot from Geist">
-    <p class="caption">Geist</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/oxfordamerican.png" alt="AI submission guidelines screenshot from Oxford American">
-    <p class="caption">Oxford American</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/The Sun Magazine.png" alt="AI submission guidelines screenshot from The Sun Magazine">
-    <p class="caption">The Sun Magazine</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/rhinopoetry.png" alt="AI submission guidelines screenshot from RHINO">
-    <p class="caption">RHINO</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/45parallel.png" alt="AI submission guidelines screenshot from 45 Parallel">
-    <p class="caption">45 Parallel</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/sweet lit.png" alt="AI submission guidelines screenshot from Sweet Lit">
-    <p class="caption">Sweet Lit</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/tampareview.png" alt="AI submission guidelines screenshot from Tampa Review">
-    <p class="caption">Tampa Review</p>
-  </div>
-  <div class="slide">
-    <img src="/assets/archive/ai/SHENANDOAH.png" alt="AI submission guidelines screenshot from SHENANDOAH">
-    <p class="caption">SHENANDOAH</p>
-  </div>
-  
-<div class="slideshow-controls">
-  <button class="slide-btn" onclick="changeSlide(-1)">&#8592;</button>
-  <span class="slide-count"><span id="current">1</span> / <span id="total"></span></span>
-  <button class="slide-btn" onclick="changeSlide(1)">&#8594;</button>
+<!-- TRUNK NAVIGATION -->
+<div class="driver-nav">
+  <a href="/Trunk/drivers/">← Flag down a driver</a>
+  <a href="/Trunk/ai-reception/">New artifacts →</a>
 </div>
 
 <script>
-const slideshow = document.getElementById('slideshow');
-const allSlides = Array.from(slideshow.querySelectorAll('.slide'));
-
-for (let i = allSlides.length - 1; i > 0; i--) {
-  const j = Math.floor(Math.random() * (i + 1));
-  slideshow.insertBefore(allSlides[j], allSlides[i]);
-}
-
-const slides = slideshow.querySelectorAll('.slide');
-slides[0].classList.add('active');
-slideshow.setAttribute('data-current', '1');
-document.getElementById('total').textContent = slides.length;
-
-function changeSlide(direction) {
-  const allSl = slideshow.querySelectorAll('.slide');
-  let current = parseInt(slideshow.getAttribute('data-current'));
-  allSl[current - 1].classList.remove('active');
-  current = current + direction;
-  if (current < 1) current = allSl.length;
-  if (current > allSl.length) current = 1;
-  allSl[current - 1].classList.add('active');
-  slideshow.setAttribute('data-current', current);
-  document.getElementById('current').textContent = current;
-}
-</script>
-</div>
-
-<script>
-// ============================================
-// ARTIFACT SLIDESHOW — shared metadata updater
-// Works for: upgrade, viral, parasocial, uni
-// Each slideshow needs a matching context section with IDs:
-//   [section]-title, [section]-origin, [section]-date,
-//   [section]-context-text, [section]-significance, [section]-tags
-// ============================================
-
 const tagMap = {
-  // Quote Themes (12)
   'Place': 'place',
   'Loss': 'loss',
   'Intimacy': 'intimacy',
@@ -444,16 +131,11 @@ const tagMap = {
   'Surveillance': 'surveillance',
   'Emergence': 'emergence',
   'Threshold': 'threshold',
-
-  // Archive Sections (6)
-  'Upgrade You': 'place',
+  'Upgrade You': 'expression',
   'Going Viral': 'identity',
   'The Parasocial': 'expression',
   'Broken Record': 'loss',
   'Between You & I': 'intimacy',
-  'AI': 'tech',
-
-  // Timeline Categories (13)
   'Technology': 'tech',
   'Politics': 'politics',
   'Culture': 'expression',
@@ -467,7 +149,19 @@ const tagMap = {
   'Infrastructure & Exploration': 'infrastructure',
   'Care': 'care'
 };
+// Randomize artifact slides on load
+const archiveSlideshow = document.getElementById('archive-slideshow');
+const allArtifactSlides = Array.from(archiveSlideshow.querySelectorAll('.artifact-slide'));
 
+for (let i = allArtifactSlides.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  archiveSlideshow.insertBefore(allArtifactSlides[j], allArtifactSlides[i]);
+}
+
+// Activate the first slide after shuffle
+const shuffledSlides = archiveSlideshow.querySelectorAll('.artifact-slide');
+shuffledSlides[0].classList.add('active');
+archiveSlideshow.setAttribute('data-current', '1');
 function updateArtifactMetadata(sectionId) {
   const slideshow = document.getElementById(sectionId + '-slideshow');
   if (!slideshow) return;
@@ -522,24 +216,24 @@ function changeArtifactSlide(slideshowId, direction) {
   updateArtifactMetadata(sectionId);
 }
 
-// Initialize all artifact slideshows on page load
 document.addEventListener('DOMContentLoaded', function() {
-  const sections = ['upgrade', 'viral', 'parasocial', 'uni'];
-  sections.forEach(function(sectionId) {
-    const slideshow = document.getElementById(sectionId + '-slideshow');
-    if (!slideshow) return;
-    const totalSlides = slideshow.querySelectorAll('.artifact-slide').length;
-    const totalEl = document.getElementById(sectionId + '-total');
-    if (totalEl) totalEl.textContent = totalSlides;
-    updateArtifactMetadata(sectionId);
-  });
+  const slideshow = document.getElementById('archive-slideshow');
+  if (!slideshow) return;
+  
+  // Randomize
+  const allSlides = Array.from(slideshow.querySelectorAll('.artifact-slide'));
+  for (let i = allSlides.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    slideshow.insertBefore(allSlides[j], allSlides[i]);
+  }
+  
+  // Set first slide active
+  const shuffled = slideshow.querySelectorAll('.artifact-slide');
+  shuffled.forEach(s => s.classList.remove('active'));
+  shuffled[0].classList.add('active');
+  slideshow.setAttribute('data-current', '1');
+  
+  document.getElementById('archive-total').textContent = shuffled.length;
+  updateArtifactMetadata('archive');
 });
 </script>
-
-<center><a href="/survey-cameraroll/" class="secret-link">✦</a></center>
-
-<!-- TRUNK NAVIGATION -->
-<div class="driver-nav">
-  <a href="/Trunk/epoch/">← Explore Timeline</a>
-  <a href="/Trunk/drivers/">Flag down a Driver →</a>
-</div>

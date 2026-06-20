@@ -1254,5 +1254,5 @@ function closePreview() {
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
   <a href="/Trunk/notes/">← Dig thru the glove box</a>
-  <a href="/submit/">Send me something →</a>
+  <a href="/submit/">Send me something! →</a>
 </div>

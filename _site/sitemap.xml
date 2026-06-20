@@ -22,6 +22,9 @@
 <loc>http://localhost:4000/Drivers/abenet/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Trunk/ai-reception/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Trunk/archive/</loc>
 </url>
 <url>
@@ -40,10 +43,10 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Drivers/</loc>
+<loc>http://localhost:4000/About/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/About/</loc>
+<loc>http://localhost:4000/Drivers/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Trunk/</loc>
