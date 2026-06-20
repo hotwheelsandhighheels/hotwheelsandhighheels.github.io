@@ -205,7 +205,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="politics" data-era="before-the-web" data-concepts="power loss">
   <h3>Bosnian War Begins</h3>
-  <p>The collapse of Yugoslavia sparked a brutal ethnic conflict in Bosnia. The Srebrenica massacre of 1995, where over 8,000 Bosniak men and boys were killed, became the worst atrocity on European soil since the Holocaust.</p>
+  <p>The collapse of Yugoslavia sparks a brutal ethnic conflict in Bosnia. The Srebrenica massacre of 1995, where over 8,000 Bosniak men and boys were killed, became the worst atrocity on European soil since the Holocaust.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 <div class="timeline-clear"></div>
@@ -226,7 +226,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="politics" data-era="before-the-web" data-concepts="power identity">
   <h3>Don't Ask, Don't Tell</h3>
-  <p>The U.S. military adopted a policy allowing gay and lesbian people to serve only if they remained closeted. It shaped the lives of LGBTQ+ service members for nearly two decades until its repeal in 2011.</p>
+  <p>The U.S. military adopts a policy allowing gay and lesbian people to serve only if they remained closeted. It shaped the lives of LGBTQ+ service members for nearly two decades until its repeal in 2011.</p>
   <span class="timeline-tag politics">Politics</span>
 </div>
 <div class="timeline-clear"></div>
@@ -262,8 +262,8 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-year"><h2>1995</h2></div>
 
 <div class="timeline-entry left" data-category="culture" data-era="logging-on" data-concepts="archive derrida archive-fever">
-  <h3>Archive Fever Published</h3>
-  <p>Jacques Derrida publishes <em>Archive Fever</em>. The book becomes a major influence on contemporary thinking about archives and memory.</p>
+  <h3>Archive Fever</h3>
+  <p>Jacques Derrida's <em>Archive Fever</em> enters the conversation. The book becomes a major influence on contemporary thinking about archives and memory.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
@@ -281,7 +281,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="culture power">
   <h3>The O.J. Simpson Trial</h3>
-  <p>The murder trial of O.J. Simpson became the first televised courtroom spectacle to consume the entire country. The verdict split public opinion along racial lines and set the template for true crime as mass entertainment.</p>
+  <p>O.J. Simpson, on trial for murder, consumes the country in the first televised courtroom spectacle. The verdict split public opinion along racial lines and set the template for true crime as mass entertainment.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
