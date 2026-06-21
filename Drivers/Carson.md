@@ -2,7 +2,7 @@
 layout: post
 title: Carson Sandell
 description: An interview with Carson Sandell, queer and transgender poet from San Jose, CA, MFA from San Diego State University, and poetry reader for Split Lip Magazine.
-published: true
+image: assets/drivers/Carson_Cover.JPG
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->
