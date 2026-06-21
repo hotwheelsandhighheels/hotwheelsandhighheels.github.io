@@ -6,8 +6,11 @@ title: Drivers - Hot Wheels & High Heels
 ---
 
 <div class="gallery">
-  <a href="/revving-up" class="gallery-card feature-card" aria-label="Coming soon — Revving Up">
-    <span class="sr-only">Coming soon — Revving Up</span>
+    <a href="/Drivers/Carson" class="gallery-card">
+    <img src="/assets/drivers/Carson_Cover.JPG" alt="A recreated photo of Hot Wheels & High Heels' banner. A person sits open-legged on a toilet in a dark room, hands brought together at center. Below the hands, a Jason Voorhees mask from Friday the 13th glows green. To the right, a figurine from the Saw franchise. To the left, a character with flower-shaped glasses, grinning with all teeth, wearing what looks like a swimming cap. In the hands rests a Hellraiser puzzle cube, with a small character silhouette balanced on top. The scene is lit by green glow against the dark.">
+    <div class="gallery-overlay">
+      <p>Carson Sandell</p>
+    </div>
   </a>
   <a href="/Drivers/Sam" class="gallery-card">
     <img src="/assets/drivers/Sam_Cover.jpg" alt="A blurry photo taken from a vehicle. The outline of the vehicle's window is visible in the frame. The view captures a coral sunset above a small shopping center. The location markers are blurred, the only text legible is DELI.">
@@ -53,6 +56,24 @@ title: Drivers - Hot Wheels & High Heels
   <a href="/Drivers/Alana#a-poem">"For that swirling pile of trash" by Alana Rodriguez</a>
   <p><a href="/survey-driver/" class="secret-link">✦</a></p>
 </div>
+
+<div class="teaser-subscribe">
+    <p class="teaser-subscribe-label">I saved you a seat! :)</p>
+    <form
+      action="https://buttondown.com/api/emails/embed-subscribe/hotwheelsandhighheels"
+      method="post"
+      class="embeddable-buttondown-form"
+    >
+      <label for="bd-email" class="sr-only">Enter your email</label>
+      <input type="email" name="email" id="bd-email" />
+      <input type="submit" value="I'm in!" />
+      <p>
+        <a href="https://buttondown.com/refer/hotwheelsandhighheels" target="_blank">
+          Powered by Buttondown.
+        </a>
+      </p>
+    </form>
+  </div>
 
 <div class="driver-nav">
   <a href="/About/">← About</a>
