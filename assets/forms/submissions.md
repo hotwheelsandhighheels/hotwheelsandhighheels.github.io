@@ -8,7 +8,7 @@ sitemap: false
 <div class="survey-container">
 
   <h1>Send Me Something</h1>
-  <p>I am building an archive of the Millennial epoch. I can't do it alone. The nature of the web is that it is participatory and collaborative. Here I open my archive to you:</p>
+  <p>The nature of the web is that it is participatory and collaborative. Here I open my archive to you:</p>
 
   <hr>
 
