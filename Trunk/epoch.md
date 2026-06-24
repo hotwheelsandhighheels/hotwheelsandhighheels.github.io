@@ -577,28 +577,28 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-concepts="technology participation">
+<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-concepts="technology participation">
   <h3>Web 2.0</h3>
   <p>User participation becomes a defining feature of the web. Static pages give way to interactive platforms.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics economics" data-era="logging-on" data-concepts="power">
+<div class="timeline-entry left" data-category="politics economics" data-era="logging-on" data-concepts="power">
   <h3>European Union Expands East</h3>
   <p>Ten new countries join, most of them former Soviet states.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="flickr" data-concepts="social-media platforms archive">
+<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-platform="flickr" data-concepts="social-media platforms archive">
   <h3>Flickr Launches</h3>
   <p>Digital photography and online sharing connect. Flickr becomes one of the first major platforms for storing and sharing personal images, turning everyday life into a searchable archive.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech infrastructure" data-era="logging-on" data-concepts="technology cloud">
+<div class="timeline-entry left" data-category="tech infrastructure" data-era="logging-on" data-concepts="technology cloud">
   <h3>Google Introduces Gmail</h3>
   <p>Large-scale email storage changes expectations around digital communication and retention. People stop deleting emails, and the inbox becomes a personal archive by default.</p>
   <span class="timeline-tag tech">Tech</span>
