@@ -29,27 +29,27 @@ image: assets/drivers/Alana_Cover.jpeg
       <table class="interests-table">
         <tr>
           <td>general</td>
-          <td> </td>
+          <td>bean and cheese burritos</td>
         </tr>
         <tr>
           <td>music</td>
-          <td> </td>
+          <td>bloodless by samia</td>
         </tr>
         <tr>
           <td>movies</td>
-          <td> </td>
+          <td>submarine</td>
         </tr>
         <tr>
           <td>television</td>
-          <td> </td>
+          <td>glee</td>
         </tr>
         <tr>
           <td>books</td>
-          <td> </td>
+          <td>marie howe's new and collected</td>
         </tr>
         <tr>
           <td>heroes</td>
-          <td> </td>
+          <td>alex turner and lana del rey</td>
         </tr>
       </table>
     </div>
