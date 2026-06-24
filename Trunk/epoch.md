@@ -553,7 +553,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2004</h2></div>
-<div class="timeline-entry left" data-category="environment documentation care" data-era="logging-on" data-concepts="loss witnessing collective-memory">
+<div class="timeline-entry right" data-category="environment documentation care" data-era="logging-on" data-concepts="loss witnessing collective-memory">
   <h3>Indian Ocean Tsunami</h3>
   <p>An undersea earthquake triggers the deadliest tsunami in recorded history, killing over 230,000 people across fourteen countries. Amateur footage and cellphone images become the primary documentation of the disaster, marking an early moment when global tragedy is witnessed through civilian cameras rather than professional news crews.</p>
   <span class="timeline-tag environment">Environment</span>
