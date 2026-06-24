@@ -38,9 +38,9 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1981</h2></div>
 
-<div class="timeline-entry right" data-category="politics economics justice" data-era="before-the-web" data-concepts="power precarity">
+<div class="timeline-entry right" data-category="politics economics justice" data-era="before-the-web" data-concepts="power neoliberalism conservatism">
   <h3>Reagan Inaugurated</h3>
-  <p>Ronald Reagan becomes the 40th president of the United States. His administration launches tax cuts, deregulation, and expanded military spending. Federal judicial appointments shift the courts rightward.</p>
+  <p>Ronald Reagan becomes the 40th president of the United States. Tax cuts, deregulation, and judicial appointments reshape political and economic institutions, establishing conditions that continue to structure debates over inequality, government responsibility, and public life.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag economics">Economy</span>
   <span class="timeline-tag justice">Law &amp; Justice</span>
@@ -73,7 +73,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 </div>
 
 <div class="timeline-entry right" data-category="tech culture" data-era="before-the-web" data-concepts="technology">
-  <h3>Commodore 64 Realeased</h3>
+  <h3>Commodore 64 Released</h3>
   <p>Home computing becomes accessible to millions of households for the first time. Children grow up with a computer in the house before they have internet access.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
@@ -221,7 +221,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech infrastructure" data-era="before-the-web" data-concepts="berners-lee technology">
+<div class="timeline-entry right" data-category="tech infrastructure" data-era="before-the-web" data-concepts="CERN technology">
   <h3>The Web Goes Public</h3>
   <p>The first public website becomes available. Early users begin building the web's first communities and resources, though the audience remains small and technical.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -430,11 +430,10 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture economics" data-era="logging-on" data-concepts="culture storytelling">
+<div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="culture storytelling">
   <h3>Harry Potter Published</h3>
   <p>The first Harry Potter novel is published. The series turns a generation of children into readers and launches a global franchise that grows up alongside its audience.</p>
   <span class="timeline-tag culture">Culture</span>
-  <span class="timeline-tag economics">Economy</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -529,10 +528,9 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag infrastructure">Infrastructure &amp; Exploration</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-concepts="technology millennials">
+<div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="technology millennials">
   <h3>"Digital Natives" Coined</h3>
   <p>Marc Prensky introduces the term "digital natives" to describe the first generation to grow up with computers and the internet. The phrase flattens real differences in access and literacy.</p>
-  <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
@@ -868,7 +866,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="politics security documentation" data-era="platform-life" data-concepts="power social-media">
   <h3>Osama bin Laden Killed</h3>
-  <p>Osama bin Laden is killed by U.S. special forces in Pakistan. News of the event spreads rapidly across both traditional and social media, and the decade-long manhunt reaches its symbolic end.</p>
+  <p>Osama bin Laden is killed by U.S. special forces in Pakistan. News of the event spreads rapidly across both traditional and social media, and the decade-long manhunt reaches its end.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag security">Conflict &amp; Security</span>
   <span class="timeline-tag documentation">Documentation</span>
