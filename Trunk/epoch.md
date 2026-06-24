@@ -1358,7 +1358,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="politics tech culture" data-era="after-the-feed" data-concepts="power">
   <h3>Global Election Year</h3>
-  <p>More than 60 countries, nearly half the world's population, hold national elections, including the United States, India, Mexico, and Indonesia. Digital platforms play a central role in how candidates campaign, how information spreads, and how results are contested — or accepted.</p>
+  <p>More than 60 countries, nearly half the world's population, hold national elections, including the United States, India, Mexico, and Indonesia. Digital platforms play a central role in how candidates campaign, how information spreads, and how results are contested or accepted.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
