@@ -31,6 +31,9 @@
 <loc>http://localhost:4000/Trunk/connections/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Trunk/dp/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Trunk/drivers/</loc>
 </url>
 <url>
@@ -43,10 +46,10 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/About/</loc>
+<loc>http://localhost:4000/Drivers/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Drivers/</loc>
+<loc>http://localhost:4000/About/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Trunk/</loc>
