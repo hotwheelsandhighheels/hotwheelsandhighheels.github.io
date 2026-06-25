@@ -5,11 +5,14 @@ permalink: /Trunk/dp/
 title: Double Perspective - Hot Wheels & High Heels
 ---
 
-# Double Perspective
+# The Double Perspective
 
-This is a framework I built from combined notes on Vivian Gornick's *The Situation and the Story* and Phillip Lopate's *To Show and To Tell*. The theory doesn't have a name, but it's been written about — I just gave it a name and visualized it into a table.
 
-The idea is simple: memory requires two selves. The one who lived it and the one who looks back. Neither controls the other. They're partners. The meaning lives in the space between them.
+This is a framework I built using Vivian Gornick's *The Situation and the Story* and Phillip Lopate's *To Show and To Tell*. It is the theory that memory requires two selves: the self that experiences the event and the self that looks back on the event. 
+
+I began studying creative non-fiction, more specifically the personal narrative, in undergrad. Between undergrad and grad school, I spent three years developing this formula by annotating through anthologies of personal narratives to really see how each piece of the partnership worked. 
+
+When I moved on to study poetry at the graduate level, I stumbled upon archival theory, upon the idea of memory work and being a memory worker. What I found is that The Double Perspective is applicable to all forms of memory work. I am applying it now to this archive, my Drivers apply it to their memories -- it's not a mere matter of collecting, but creating meaning from that recollection. 
 
 *Click each row to see what the partnership produces.*
 
@@ -75,31 +78,7 @@ The idea is simple: memory requires two selves. The one who lived it and the one
 
 </div>
 
-<p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">Built from Gornick and Lopate. Named and visualized by Ale.</p>
-
----
-
-## Where It Comes From
-
-### Gornick — *The Situation and the Story*
-
-The situation is the context or circumstance, sometimes the plot. The story is the insight, the wisdom, the thing one has come to say. Without detachment there can be no story. The narrator knows who is speaking and why she is speaking. Structure imposes order; order makes sentences more shapely. Memory is an organizing principle. Experience is only raw material.
-
-### Lopate — *To Show and To Tell*
-
-Turning oneself into a character is release from narcissism, not self-absorption. Allowing the reader to experience the past while benefiting from adult hindsight. Suspense in reflection — the thought process itself. Facts vs. truths: facts delimit, truths are what we make of them. Nonfiction thrives on daring, subjective flights of thought. Be curious about oneself. Self-curiosity grows from detachment. Follow your thoughts even if they lead to contradiction.
-
----
-
-## How It Works in the Archive
-
-The Drivers are the experience self — living it, reacting, no hindsight. They're the ones who were there.
-
-The Trunk is the narrator self — organizing, interpreting, creating meaning from distance. It looks back at what the Drivers said and finds the patterns.
-
-The timeline is the distance between them. The years that passed between living and telling.
-
-Every artifact in the Social Archive was captured by an experience self and is being interpreted by a narrator self. The double perspective is happening on every page.
+<p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">Built from Gornick and Lopate. Named and visualized by HW&Hh.</p>
 
 ---
 
