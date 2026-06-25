@@ -80,7 +80,7 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
 <div class="connection-node theme-loss" id="node-archive-fever" data-x="940" data-y="170" data-depth="2" data-parent="the-archive"><h3>Archive Fever</h3></div>
 
 <!-- ============================================
-     BRANCH 4: THE 12 DRIVERS
+     BRANCH 4: THE DRIVERS
      ============================================ -->
 <div class="connection-node theme-identity" id="node-the-drivers" data-x="150" data-y="400" data-depth="1" data-parent="millennial-epoch" data-children="node-driver-place,node-driver-loss,node-driver-intimacy,node-driver-web,node-driver-identity,node-driver-expression,node-driver-future,node-driver-care,node-driver-witness,node-driver-surveillance,node-driver-emergence,node-driver-threshold">
   <h3>The Drivers</h3>
@@ -244,7 +244,7 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
     { from: 'node-the-archive', to: 'node-social-archive-concept' },
     { from: 'node-the-archive', to: 'node-archive-fever' },
     
-    // The 12 Drivers internal
+    // The Drivers internal
     { from: 'node-the-drivers', to: 'node-driver-place' },
     { from: 'node-the-drivers', to: 'node-driver-loss' },
     { from: 'node-the-drivers', to: 'node-driver-intimacy' },
@@ -490,7 +490,7 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
     'node-digital-archive': { title: 'Digital Archive', type: 'Concept', description: 'Dynamic, networked, participatory, global. What happens when the archive leaves the building and lives on servers.', link: null },
     'node-social-archive-concept': { title: 'Social Archive', type: 'Concept', description: 'User-generated memory. Metadata as artifact. Platform traces as historical record. Everyday people creating the archive without knowing it.', link: '/Trunk/archive/' },
     'node-archive-fever': { title: 'Archive Fever', type: 'Concept', description: 'Derrida\'s concept. The compulsive need to record, preserve, return to the origin. The death drive versus the pleasure principle.', link: null },
-    'node-the-drivers': { title: 'The 12 Drivers', type: 'Collection', description: 'Experience that covers themes such as place, loss, intimacy, web, identity, expression, future, care, witness, surveillance, emergence, threshold.', link: '/Trunk/drivers/' },
+    'node-the-drivers': { title: 'The Drivers', type: 'Collection', description: 'My interviews reveal experiences that cover themes such as place, loss, intimacy, web, identity, expression, future, care, witness, surveillance, emergence, threshold.', link: '/Trunk/drivers/' },
     'node-driver-place': { title: 'Place', type: 'Theme', description: 'Neighborhoods, local identity, belonging, gentrification. "You can\'t google my hood."', link: '/Trunk/drivers/#place' },
     'node-driver-loss': { title: 'Loss', type: 'Theme', description: 'Demolished places, lost records, disappearing communities, vanished internet traces. "How do you phantom limb a street?"', link: '/Trunk/drivers/#loss' },
     'node-driver-intimacy': { title: 'Intimacy', type: 'Theme', description: 'Family, friendship, vulnerability, private memory. The spaces where identity forms.', link: '/Trunk/drivers/#intimacy' },
