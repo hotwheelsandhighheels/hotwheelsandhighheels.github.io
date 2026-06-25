@@ -124,10 +124,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>1987</h2></div>
-<div class="timeline-entry left" data-category="culture" data-era="before-the-web" data-concepts="millennials generational-identity">
+<div class="timeline-entry left" data-category="culture politics" data-era="before-the-web" data-concepts="millennials generational-identity">
   <h3>"Millennials" Coined</h3>
   <p>William Strauss and Neil Howe coin the term "millennials" for the generation that comes of age around the turn of the millennium. The generation is named before most of its members can read.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag politics">Politics</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -478,10 +479,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag infrastructure">Infrastructure &amp; Exploration</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="millennials generational-identity">
+<div class="timeline-entry right" data-category="culture tech" data-era="logging-on" data-concepts="millennials generational-identity">
   <h3>"Digital Natives" Coined</h3>
   <p>Marc Prensky introduces the term "digital natives" to describe the first generation to grow up with computers and the internet. The phrase flattens real differences in access and literacy.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry left" data-category="tech culture economics" data-era="logging-on" data-concepts="music internet">
@@ -995,18 +997,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2015</h2></div>
 
-<div class="timeline-entry right" data-category="tech culture" data-era="platform-life" data-platform="discord" data-concepts="social-media gaming communities">
+<div class="timeline-entry left" data-category="tech culture" data-era="platform-life" data-platform="discord" data-concepts="social-media gaming communities">
   <h3>Discord Launches</h3>
   <p>Community-based communication expands beyond traditional social networks. Voice channels, servers, and real-time chat create digital third places. Gaming communities and later study groups, political organizing, and fandoms build homes on the platform.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
-</div>
-
-<div class="timeline-entry left" data-category="culture tech" data-era="platform-life" data-concepts="virality memes collective-memory internet">
-  <h3>"The Dress"</h3>
-  <p>A photograph of a dress prompts widespread disagreement about whether it is blue and black or white and gold. The debate consumes the internet, a single image uniting global attention and dividing perception.</p>
-  <span class="timeline-tag culture">Culture</span>
-  <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry right" data-category="politics security documentation" data-era="platform-life" data-concepts="loss witnessing national-identity media">
@@ -1148,16 +1143,20 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2019</h2></div>
 
-<div class="timeline-entry left" data-category="culture" data-era="platform-life" data-concepts="millennials generational-identity">
+<div class="timeline-entry left" data-category="culture politics economics" data-era="platform-life" data-concepts="millennials generational-identity">
   <h3>Millennials Become Largest Generation</h3>
   <p>Millennials surpass baby boomers as the largest living adult generation in the United States, numbering 72.1 million compared to 71.6 million boomers.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture" data-era="platform-life" data-concepts="millennials generational-identity virality social-media">
+<div class="timeline-entry right" data-category="culture politics tech" data-era="platform-life" data-concepts="millennials generational-identity virality social-media">
   <h3>"OK Boomer" Goes Viral</h3>
   <p>The phrase "OK Boomer" becomes a viral retort from millennials and Gen Z to dismiss out-of-touch attitudes from older generations. A New Zealand lawmaker uses it in parliament. It becomes shorthand for generational tension over climate, housing, and economic opportunity.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag politics">Politics</span>
+  <span class="timeline-tag tech">Tech</span>
 </div>
 
 <div class="timeline-entry left" data-category="culture tech care" data-era="platform-life" data-platform="tumblr" data-concepts="censorship platform-death communities gender-identity">
@@ -1439,12 +1438,6 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture tech" data-era="after-the-feed" data-concepts="millennials generational-identity nostalgia social-media">
-  <h3>"Millennial Optimism"</h3>
-  <p>Younger social-media users express nostalgia for an era of sincere self-expression and hope by flipping "millennial cringe" into "millennial optimism."</p>
-  <span class="timeline-tag culture">Culture</span>
-  <span class="timeline-tag tech">Tech</span>
-</div>
 <div class="timeline-clear"></div>
 </div>
 
