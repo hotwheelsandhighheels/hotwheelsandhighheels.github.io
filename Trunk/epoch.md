@@ -49,15 +49,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1982</h2></div>
 
-<div class="timeline-entry left" data-category="culture politics economics" data-era="before-the-web" data-concepts="millennials generational-memory">
+<div class="timeline-entry left" data-category="culture" data-era="before-the-web" data-concepts="millennials">
   <h3>The First Millennials Are Born</h3>
   <p>The oldest members of the generational age cohort are born into an analog world and will come of age in a digital one.</p>
   <span class="timeline-tag culture">Culture</span>
-  <span class="timeline-tag politics">Politics</span>
-  <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics justice security" data-era="before-the-web" data-concepts="power">
+<div class="timeline-entry right" data-category="politics justice security" data-era="before-the-web" data-concepts="mass-incarceration racial-disparity policing">
   <h3>War on Drugs</h3>
   <p>Drug enforcement policies expand throughout the 1980s. Mandatory minimum sentences and sentencing disparities fuel mass incarceration, disproportionately affecting Black and Latino communities.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -72,14 +70,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech culture" data-era="before-the-web" data-concepts="technology">
+<div class="timeline-entry right" data-category="tech culture" data-era="before-the-web" data-concepts="home-computing accessibility">
   <h3>Commodore 64 Released</h3>
   <p>Home computing becomes accessible. Millions of households get a computer before they get internet access.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture tech" data-era="before-the-web" data-concepts="culture">
+<div class="timeline-entry left" data-category="culture tech" data-era="before-the-web" data-concepts="globalization music-video pop-culture">
   <h3>Thriller</h3>
   <p>Michael Jackson releases <em>Thriller</em>. The album and its music videos redefine the scale of pop culture, crossing racial and national boundaries on a newly global MTV.</p>
   <span class="timeline-tag culture">Culture</span>
@@ -89,14 +87,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1983</h2></div>
 
-<div class="timeline-entry right" data-category="tech infrastructure" data-era="before-the-web" data-concepts="technology">
+<div class="timeline-entry right" data-category="tech infrastructure" data-era="before-the-web" data-concepts="protocol network military-origin">
   <h3>The Internet Is Born</h3>
   <p>ARPANET adopts TCP/IP. The protocol that still underpins the modern internet remains limited to research institutions and the military.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag infrastructure">Infrastructure &amp; Exploration</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech infrastructure" data-era="before-the-web" data-concepts="technology">
+<div class="timeline-entry left" data-category="tech infrastructure" data-era="before-the-web" data-concepts="mobility cost-barrier">
   <h3>First Mobile Phone</h3>
   <p>Motorola introduces the DynaTAC 8000X. Mobile communication begins moving beyond fixed locations. The device costs nearly $4,000.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -106,7 +104,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1984</h2></div>
 
-<div class="timeline-entry right" data-category="tech culture" data-era="before-the-web" data-concepts="technology">
+<div class="timeline-entry right" data-category="tech culture" data-era="before-the-web" data-concepts="GUI accessibility user-interface">
   <h3>Apple Macintosh Released</h3>
   <p>Apple releases the Macintosh. The graphical user interface brings computing beyond the command line, making it accessible to people who don't code.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -116,7 +114,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1986</h2></div>
 
-<div class="timeline-entry left" data-category="politics environment science" data-era="before-the-web" data-concepts="power">
+<div class="timeline-entry left" data-category="politics environment science" data-era="before-the-web" data-concepts="secrecy nuclear-risk state-transparency">
   <h3>Chernobyl Disaster</h3>
   <p>A reactor explosion at the Chernobyl Nuclear Power Plant spreads radioactive contamination across Europe. The disaster erodes public trust in Soviet institutions; the full scale of contamination and concealment emerges only gradually.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -124,7 +122,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag science">Science &amp; Health</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture science documentation" data-era="before-the-web" data-concepts="collective-memory culture">
+<div class="timeline-entry right" data-category="culture science documentation" data-era="before-the-web" data-concepts="collective-memory">
   <h3>Space Shuttle Challenger</h3>
   <p>Challenger breaks apart shortly after launch, killing all seven crew members including teacher Christa McAuliffe. The disaster is watched live by schoolchildren across the country, the first shared national trauma broadcast directly into classrooms.</p>
   <span class="timeline-tag culture">Culture</span>
@@ -132,7 +130,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech culture" data-era="before-the-web" data-concepts="technology culture">
+<div class="timeline-entry left" data-category="tech culture" data-era="before-the-web" data-concepts="home-gaming living-room-tech">
   <h3>Nintendo Entertainment System</h3>
   <p>The NES launches in North America and revitalizes the home video game market after the 1983 crash. Gaming enters the living room.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -141,7 +139,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>1987</h2></div>
-<div class="timeline-entry left" data-category="culture" data-era="before-the-web" data-concepts="millennials generational-memory">
+<div class="timeline-entry left" data-category="culture" data-era="before-the-web" data-concepts="millennials">
   <h3>"Millennials" Coined</h3>
   <p>William Strauss and Neil Howe coin the term "millennials" for the generation that comes of age around the turn of the millennium. The generation is named before most of its members can read.</p>
   <span class="timeline-tag culture">Culture</span>
@@ -151,14 +149,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1989</h2></div>
 
-<div class="timeline-entry left" data-category="politics culture" data-era="before-the-web" data-concepts="power">
+<div class="timeline-entry left" data-category="politics culture" data-era="before-the-web" data-concepts="cold-war symbolic-end geopolitical-shift">
   <h3>The Berlin Wall Falls</h3>
   <p>The barrier dividing East and West Berlin opens after 28 years. The moment is broadcast globally.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture" data-era="before-the-web" data-concepts="culture">
+<div class="timeline-entry right" data-category="culture" data-era="before-the-web" data-concepts="satire share-language long-running">
   <h3>The Simpsons Debuts</h3>
   <p>The animated sitcom premieres on Fox. Its characters, references, and humor satirize American family life and thread through millennial culture across decades.</p>
   <span class="timeline-tag culture">Culture</span>
@@ -167,14 +165,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1990</h2></div>
 
-<div class="timeline-entry left" data-category="tech infrastructure" data-era="before-the-web" data-concepts="berners-lee technology">
+<div class="timeline-entry left" data-category="tech infrastructure" data-era="before-the-web" data-concepts="hypertext information-system berners-lee">
   <h3>The World Wide Web Is Proposed</h3>
   <p>Tim Berners-Lee proposes a universally linked information system at CERN. The proposal lays the groundwork for the web, though no one outside the research community notices yet.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag infrastructure">Infrastructure &amp; Exploration</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture tech" data-era="before-the-web" data-concepts="culture">
+<div class="timeline-entry right" data-category="culture tech" data-era="before-the-web" data-concepts="console-wars brand-identity social-marker">
   <h3>Nintendo vs Sega</h3>
   <p>Competition between Nintendo and Sega defines a period of home gaming. Console loyalty becomes a social marker.</p>
   <span class="timeline-tag culture">Culture</span>
@@ -184,7 +182,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1991</h2></div>
 
-<div class="timeline-entry left" data-category="politics security tech" data-era="before-the-web" data-concepts="power">
+<div class="timeline-entry left" data-category="politics security tech" data-era="before-the-web" data-concepts="live-war media-spectacle 24-hour-news">
   <h3>Gulf War</h3>
   <p>Coalition forces respond to Iraq's invasion of Kuwait. The conflict is widely experienced through live television coverage, introducing the 24-hour war as spectacle.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -192,7 +190,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics justice culture documentation" data-era="before-the-web" data-concepts="power testimony witnessing">
+<div class="timeline-entry right" data-category="politics justice culture documentation" data-era="before-the-web" data-concepts="police-violence citizen-documentation testimony witnessing">
   <h3>Rodney King Beating and the LA Uprising</h3>
   <p>Four LAPD officers are videotaped beating Rodney King during a traffic stop; the first viral video of police brutality, before social media exists. When the officers are acquitted in 1992, Los Angeles erupts in six days of unrest. The tape changes how Americans understand police violence and who gets to document it.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -201,7 +199,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics economics culture" data-era="before-the-web" data-concepts="power">
+<div class="timeline-entry left" data-category="politics economics culture" data-era="before-the-web" data-concepts="cold-war-end unipolar-moment new-world-order">
   <h3>The Soviet Union Collapses</h3>
   <p>The Soviet Union formally dissolves, ending the Cold War. Fifteen new countries emerge; the United States is left as the sole superpower, for now.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -209,7 +207,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech infrastructure" data-era="before-the-web" data-concepts="CERN technology">
+<div class="timeline-entry right" data-category="tech infrastructure" data-era="before-the-web" data-concepts="public-access early-web">
   <h3>The Web Goes Public</h3>
   <p>The first public website becomes available, though the audience remains small and technical.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -218,7 +216,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>1992</h2></div>
-<div class="timeline-entry left" data-category="politics security justice" data-era="before-the-web" data-concepts="power loss testimony">
+<div class="timeline-entry left" data-category="politics security justice" data-era="before-the-web" data-concepts="genocide broadcast-war loss testimony">
   <h3>Bosnian War</h3>
   <p>The collapse of Yugoslavia sparks a brutal ethnic conflict in Bosnia. The Srebrenica massacre of 1995 kills over 8,000 Bosniak men and boys; the violence is broadcast on television news as it unfolds, and the international community debates whether to intervene.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -229,7 +227,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1993</h2></div>
 
-<div class="timeline-entry right" data-category="tech infrastructure culture" data-era="before-the-web" data-concepts="technology">
+<div class="timeline-entry right" data-category="tech infrastructure culture" data-era="before-the-web" data-concepts="browsers public-web dial-up">
   <h3>The Web Becomes Usable</h3>
   <p>Browsers such as Mosaic expand access to the internet, Netscape and others soon follow. The web shifts from a research tool to a public space, though most households still connect through dial-up.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -237,14 +235,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics economics" data-era="before-the-web" data-concepts="power">
+<div class="timeline-entry left" data-category="politics economics" data-era="before-the-web" data-concepts="deindustrialization free-trade labor-loss">
   <h3>NAFTA Takes Effect</h3>
   <p>The North American Free Trade Agreement reshapes trade and manufacturing across the continent. Working-class communities in the U.S. are hollowed out.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics justice culture" data-era="before-the-web" data-concepts="power identity">
+<div class="timeline-entry right" data-category="politics justice culture" data-era="before-the-web" data-concepts="closeting institutional-homophobia identity">
   <h3>Don't Ask, Don't Tell</h3>
   <p>The U.S. military adopts a policy allowing gay and lesbian people to serve only if they remain closeted. LGBTQ+ service members must hide their identities to serve their country.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -255,7 +253,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1994</h2></div>
 
-<div class="timeline-entry left" data-category="politics security documentation justice" data-era="before-the-web" data-concepts="power loss">
+<div class="timeline-entry left" data-category="politics security documentation justice" data-era="before-the-web" data-concepts="broadcast-war international-failure loss">
   <h3>Rwandan Genocide</h3>
   <p>An estimated 800,000 Tutsi are killed in 100 days while the international community fails to intervene. The violence is broadcast on television news while governments debate whether to act.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -264,7 +262,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag justice">Law &amp; Justice</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech economics infrastructure" data-era="before-the-web" data-platform="amazon" data-concepts="corporations technology platforms">
+<div class="timeline-entry right" data-category="tech economics infrastructure" data-era="before-the-web" data-platform="amazon" data-concepts="corporations platforms e-commerce cloud">
   <h3>Amazon Founded</h3>
   <p>Amazon begins as an online bookstore. The company expands into digital commerce and cloud infrastructure, eventually controlling how goods are bought and how much of the internet is hosted.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -272,7 +270,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag infrastructure">Infrastructure &amp; Exploration</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech culture" data-era="before-the-web" data-concepts="technology culture">
+<div class="timeline-entry left" data-category="tech culture" data-era="before-the-web" data-concepts="console-gaming living-room-tech">
   <h3>PlayStation Launches</h3>
   <p>Sony enters the console market with the PlayStation. Gaming expands into a global entertainment industry and the console becomes a fixture in millennial living rooms.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -288,14 +286,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1995</h2></div>
 
-<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-platform="classmates" data-concepts="social-media platforms">
+<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-platform="classmates" data-concepts="reconnection early-social platforms">
   <h3>Classmates.com Launches</h3>
   <p>One of the earliest social networking sites launches. Reconnecting with past relationships becomes a digital activity.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics security justice" data-era="logging-on" data-concepts="power loss">
+<div class="timeline-entry left" data-category="politics security justice" data-era="logging-on" data-concepts="domestic-terrorism extremism loss">
   <h3>Oklahoma City Bombing</h3>
   <p>Timothy McVeigh detonates a truck bomb at the Alfred P. Murrah Federal Building, killing 168 people including 19 children in a daycare center. It is the deadliest act of domestic terrorism in U.S. history.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -303,7 +301,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag justice">Law &amp; Justice</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture justice politics" data-era="logging-on" data-concepts="culture power">
+<div class="timeline-entry right" data-category="culture justice politics" data-era="logging-on" data-concepts="true-crime courtroom-spectacle racial-divide">
   <h3>The O.J. Simpson Trial</h3>
   <p>O.J. Simpson, on trial for murder, consumes the country in the first televised courtroom spectacle. The verdict splits public opinion along racial lines and sets the template for true crime as mass entertainment.</p>
   <span class="timeline-tag culture">Culture</span>
@@ -311,14 +309,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag politics">Politics</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-concepts="technology">
+<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-concepts="operating-system mainstream-computing GUI">
   <h3>Windows 95 Released</h3>
   <p>Microsoft releases Windows 95. Personal computing and internet access become mainstream. The Start menu becomes the first interface with the digital world for millions of new users.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech economics" data-era="logging-on" data-concepts="technology">
+<div class="timeline-entry right" data-category="tech economics" data-era="logging-on" data-concepts="browser-wars bundling market-control">
   <h3>Internet Explorer Launches</h3>
   <p>Microsoft enters the browser market, bundling Internet Explorer with Windows. The browser wars begin, shaping how millions of people first experience the web.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -328,7 +326,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1996</h2></div>
 
-<div class="timeline-entry left" data-category="politics tech economics" data-era="logging-on" data-concepts="power technology">
+<div class="timeline-entry left" data-category="politics tech economics" data-era="logging-on" data-concepts="media-consolidation deregulation ownership">
   <h3>Telecommunications Act</h3>
   <p>The Telecommunications Act restructures media and communications regulation in the United States. It opens the door to massive consolidation of media ownership..</p>
   <span class="timeline-tag politics">Politics</span>
@@ -336,7 +334,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics justice culture" data-era="logging-on" data-concepts="power identity">
+<div class="timeline-entry right" data-category="politics justice culture" data-era="logging-on" data-concepts="marriage-law lgbtq-rights">
   <h3>Defense of Marriage Act Signed</h3>
   <p>DOMA defines marriage as between a man and a woman at the federal level, denying same-sex couples federal benefits and recognition.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -344,14 +342,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture politics" data-era="logging-on" data-concepts="culture power">
+<div class="timeline-entry left" data-category="culture politics" data-era="logging-on" data-concepts="partisan-media cable-news information-silo">
   <h3>Fox News Launches</h3>
   <p>Fox News begins broadcasting. The network pioneers a model of partisan cable news.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag politics">Politics</span>
-</div>
+</div>  
 
-<div class="timeline-entry right" data-category="science culture tech" data-era="logging-on" data-concepts="technology">
+<div class="timeline-entry right" data-category="science culture tech" data-era="logging-on" data-concepts="cloning bioethics genetic-engineering">
   <h3>Dolly the Sheep Cloned</h3>
   <p>Scientists in Scotland successfully clone a mammal from an adult cell for the first time. the possibility of copying life enters public consciousness.</p>
   <span class="timeline-tag science">Science &amp; Health</span>
@@ -359,9 +357,9 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture tech" data-era="logging-on" data-concepts="culture">
+<div class="timeline-entry right" data-category="culture tech" data-era="logging-on" data-concepts="transmedia childrens-culture global-franchise">
   <h3>Pokémon Arrives</h3>
-  <p>Pokémon launches in Japan and spreads globally. The franchise spans games, cards, television, and film.</p>
+  <p>Pokémon launches in Japan and spreads globally. The franchise spans games, cards, television, and film; the first cross-platform children's media empire.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
@@ -369,46 +367,47 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1997</h2></div>
 
-<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="aim" data-concepts="social-media platforms intimacy communities">
+<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="aim" data-concepts="away-message screen-name presence intimacy communities">
   <h3>AOL Instant Messenger</h3>
   <p>Instant messaging becomes a central form of online social interaction for teenagers. AIM introduces away messages, screen names, and the experience of an always-available social presence.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech science" data-era="logging-on" data-concepts="ai technology">
+<div class="timeline-entry right" data-category="tech science" data-era="logging-on" data-concepts="ai human-vs-machine strategic-computing">
   <h3>Deep Blue Defeats Kasparov</h3>
   <p>IBM's Deep Blue defeats world chess champion Garry Kasparov. A computer beats a human at the highest level of strategic thinking for the first time.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag science">Science &amp; Health</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture documentation" data-era="logging-on" data-concepts="culture parasocial collective-memory">
+<div class="timeline-entry left" data-category="culture documentation" data-era="logging-on" data-concepts="global-grief parasocial collective-memory">
   <h3>Princess Diana Dies</h3>
   <p>Killed in a car crash in Paris, Princess Diana's funeral is watched by an estimated 2.5 billion people worldwide. The public mourning becomes a global media event and an early demonstration of parasocial grief at scale.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics economics" data-era="logging-on" data-concepts="power">
+<div class="timeline-entry right" data-category="politics economics" data-era="logging-on" data-concepts="decolonization chinese-expansion one-country-two-systems">
   <h3>Hong Kong Returned to China</h3>
   <p>After 156 years of British colonial rule, Hong Kong is returned to China under the principle of "one country, two systems." The handover ends 156 years of British colonial rule.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture" data-era="logging-on" data-concepts="culture storytelling">
+<div class="timeline-entry left" data-category="culture economy" data-era="logging-on" data-concepts="publishing-phenomenon cross-generational fandom">
   <h3>Harry Potter Published</h3>
   <p>The first Harry Potter novel is published. The series launches a global franchise that grows up alongside its audience.</p>
   <span class="timeline-tag culture">Culture</span>
+  <span class="timeline-tag economics">Economy</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>1998</h2></div>
 
-<div class="timeline-entry left" data-category="tech economics culture" data-era="logging-on" data-platform="google" data-concepts="technology platforms">
+<div class="timeline-entry left" data-category="tech economics culture" data-era="logging-on" data-platform="google" data-concepts="search information-access algorithm platforms">
   <h3>Google is Founded</h3>
-  <p>Search becomes a primary way of navigating digital information. Google's algorithm changes how people find, access, and trust information.</p>
+  <p>Search becomes a primary way of navigating and gatekeeping digital information. Google's algorithm changes how people find, access, and trust information.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag economics">Economy</span>
   <span class="timeline-tag culture">Culture</span>
@@ -417,14 +416,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1999</h2></div>
 
-<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="livejournal" data-concepts="social-media platforms identity intimacy">
+<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="livejournal" data-concepts="blogging diary-culture self-disclosure identity intimacy">
   <h3>LiveJournal Launches</h3>
   <p>Personal publishing and online journaling bring diary culture to the web.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics culture security justice" data-era="logging-on" data-concepts="loss power">
+<div class="timeline-entry right" data-category="politics culture security justice" data-era="logging-on" data-concepts="loss school-shootings lockdown-drills fear-normalization">
   <h3>Columbine</h3>
   <p>Two students kill twelve classmates and a teacher at Columbine High School. The shooting is the first to unfold in real time on television news. Active shooter drills become routine in American schools.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -433,7 +432,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag justice">Law &amp; Justice</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech culture infrastructure" data-era="logging-on" data-concepts="technology culture">
+<div class="timeline-entry left" data-category="tech culture infrastructure" data-era="logging-on" data-concepts="digital-dependence system-failure millennial-moment">
   <h3>Y2K Anxiety Peaks</h3>
   <p>Concerns grow over potential computer failures at the turn of the millennium. The anxiety highlights society's deepening reliance on digital systems and the fear that those systems might fail at scale.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -441,7 +440,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag infrastructure">Infrastructure &amp; Exploration</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech culture economics" data-era="logging-on" data-platform="napster" data-concepts="technology culture participation remix">
+<div class="timeline-entry right" data-category="tech culture economics" data-era="logging-on" data-platform="napster" data-concepts="file-sharing music-industry free-media participation remix">
   <h3>Napster Launches</h3>
   <p>Large-scale peer-to-peer file sharing transforms how digital media circulates. Media becomes free and instantly accessible; the music industry is unprepared.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -452,14 +451,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2000</h2></div>
 
-<div class="timeline-entry right" data-category="economics tech" data-era="logging-on" data-concepts="precarity technology">
+<div class="timeline-entry right" data-category="economics tech" data-era="logging-on" data-concepts="precarity tech-crash utopian-loss speculation">
   <h3>Dot-Com Bubble Peaks</h3>
   <p>Technology investment reaches historic highs before the crash. The subsequent collapse wipes out trillions in market value and forecloses the early web's more utopian possibilities.</p>
   <span class="timeline-tag economics">Economy</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics justice" data-era="logging-on" data-concepts="power">
+<div class="timeline-entry left" data-category="politics justice" data-era="logging-on" data-concepts="electoral-crisis hanging-chads judicial-intervention">
   <h3>Contested Election</h3>
   <p>The U.S. presidential election ends in a disputed vote count and Supreme Court decision. The resolution by the courts rather than the ballot box exposes the fragility of democratic processes.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -469,7 +468,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2001</h2></div>
 
-<div class="timeline-entry left" data-category="politics security documentation culture" data-era="logging-on" data-concepts="power loss collective-memory">
+<div class="timeline-entry left" data-category="politics security documentation culture" data-era="logging-on" data-concepts="war-on-terror surveillance-state loss collective-memory">
   <h3>September 11 Attacks</h3>
   <p>Al-Qaeda operatives hijack four planes, killing nearly 3,000 people in New York, Washington, D.C., and Pennsylvania. The attacks usher in the War on Terror and redefine national security and surveillance.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -478,7 +477,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics justice security tech" data-era="logging-on" data-concepts="surveillance power">
+<div class="timeline-entry right" data-category="politics justice security tech" data-era="logging-on" data-concepts="surveillance civil-liberties data-collection security-state">
   <h3>Patriot Act Passes</h3>
   <p>The USA PATRIOT Act expands government surveillance and investigative powers. Mass data collection becomes normalized, and the tension between security and civil liberties intensifies.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -487,7 +486,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech culture infrastructure" data-era="logging-on" data-platform="wikipedia" data-concepts="participation technology archive">
+<div class="timeline-entry left" data-category="tech culture infrastructure" data-era="logging-on" data-platform="wikipedia" data-concepts="participation archive open-knowledge crowdsourcing">
   <h3>Wikipedia Launches</h3>
   <p>One of the largest examples of participatory knowledge creation, Wikipedia begins as a collaborative encyclopedia. The model of open, anonymous contribution is tested at scale.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -495,13 +494,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag infrastructure">Infrastructure &amp; Exploration</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="technology millennials">
+<div class="timeline-entry right" data-category="culture" data-era="logging-on" data-concepts="millennials digital-divide generational-labeling">
   <h3>"Digital Natives" Coined</h3>
   <p>Marc Prensky introduces the term "digital natives" to describe the first generation to grow up with computers and the internet. The phrase flattens real differences in access and literacy.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech culture economics" data-era="logging-on" data-concepts="technology">
+<div class="timeline-entry left" data-category="tech culture economics" data-era="logging-on" data-concepts="portable-music personal-library digital-music">
   <h3>Apple Releases the iPod</h3>
   <p>Portable digital music goes mainstream. The iPod puts a thousand songs in a pocket; music becomes portable and personal in a new way.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -512,14 +511,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2002</h2></div>
 
-<div class="timeline-entry left" data-category="politics justice" data-era="logging-on" data-concepts="power">
+<div class="timeline-entry left" data-category="politics justice" data-era="logging-on" data-concepts="standardized-testing education-reform teaching-to-the-test">
   <h3>No Child Left Behind Signed</h3>
   <p>The No Child Left Behind Act ties federal education funding to standardized test scores. Testing expands and curricula narrow nationwide.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag justice">Law &amp; Justice</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-platform="friendster" data-concepts="social-media platforms identity">
+<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-platform="friendster" data-concepts="public-profile early-social identity">
   <h3>Friendster Launches</h3>
   <p>Social networking profiles and online connections become increasingly common. Friendster popularizes the public-facing profile.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -529,14 +528,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2003</h2></div>
 
-<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="myspace" data-concepts="social-media platforms identity intimacy nostalgia">
+<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-platform="myspace" data-concepts="customization top8 social-ranking identity intimacy nostalgia">
   <h3>MySpace Launches</h3>
   <p>MySpace launches as a social networking platform. Users create profiles, share media, and document everyday life online. Customizable layouts and Top 8 friends make social relationships visible and ranked.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics security documentation" data-era="logging-on" data-concepts="power">
+<div class="timeline-entry right" data-category="politics security documentation" data-era="logging-on" data-concepts="false-pretense regime-change institutional-distrust">
   <h3>The United States Invades Iraq</h3>
   <p>The U.S. invades Iraq based on claims of weapons of mass destruction that prove false. The war lasts nearly a decade and kills hundreds of thousands.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -544,7 +543,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-concepts="social-media technology communities">
+<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-concepts="communities fragmentation anonymity professional-networking">
   <h3>Skype, LinkedIn, 4chan Launch</h3>
   <p>The internet expands into distinct social, professional, and anonymous communities. Video calling, professional networking, and anonymous imageboards each carve out corners of the web.</p>
   <span class="timeline-tag tech">Tech</span>
