@@ -63,25 +63,17 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag security">Conflict &amp; Security</span>
 </div>
 
-<div class="timeline-entry left" data-category="economics politics" data-era="before-the-web" data-concepts="precarity">
-  <h3>Unemployment Peaks at 10.8%</h3>
-  <p>U.S. unemployment reaches its highest level since the Great Depression.</p>
-  <span class="timeline-tag economics">Economy</span>
-  <span class="timeline-tag politics">Politics</span>
-</div>
-
-<div class="timeline-entry right" data-category="tech culture" data-era="before-the-web" data-concepts="home-computing accessibility">
+<div class="timeline-entry left" data-category="tech culture" data-era="before-the-web" data-concepts="home-computing accessibility">
   <h3>Commodore 64 Released</h3>
   <p>Home computing becomes accessible. Millions of households get a computer before they get internet access.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="culture tech" data-era="before-the-web" data-concepts="globalization music-video pop-culture">
+<div class="timeline-entry right" data-category="culture" data-era="before-the-web" data-concepts="globalization music-video pop-culture">
   <h3>Thriller</h3>
   <p>Michael Jackson releases <em>Thriller</em>. The album and its music videos redefine the scale of pop culture, crossing racial and national boundaries on a newly global MTV.</p>
   <span class="timeline-tag culture">Culture</span>
-  <span class="timeline-tag tech">Tech</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -129,13 +121,6 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag science">Science &amp; Health</span>
   <span class="timeline-tag documentation">Documentation</span>
 </div>
-
-<div class="timeline-entry left" data-category="tech culture" data-era="before-the-web" data-concepts="home-gaming living-room-tech">
-  <h3>Nintendo Entertainment System</h3>
-  <p>The NES launches in North America and revitalizes the home video game market after the 1983 crash. Gaming enters the living room.</p>
-  <span class="timeline-tag tech">Tech</span>
-  <span class="timeline-tag culture">Culture</span>
-</div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>1987</h2></div>
@@ -144,7 +129,6 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <p>William Strauss and Neil Howe coin the term "millennials" for the generation that comes of age around the turn of the millennium. The generation is named before most of its members can read.</p>
   <span class="timeline-tag culture">Culture</span>
 </div>
-
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>1989</h2></div>
@@ -552,7 +536,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2004</h2></div>
-<div class="timeline-entry right" data-category="environment documentation care" data-era="logging-on" data-concepts="loss witnessing collective-memory">
+<div class="timeline-entry left" data-category="environment documentation care" data-era="logging-on" data-concepts="loss witnessing collective-memory">
   <h3>Indian Ocean Tsunami</h3>
   <p>An undersea earthquake triggers the deadliest tsunami in recorded history, killing over 230,000 people across fourteen countries. Amateur footage and cellphone images become the primary documentation of the disaster, marking an early moment when global tragedy is witnessed through civilian cameras rather than professional news crews.</p>
   <span class="timeline-tag environment">Environment</span>
@@ -568,7 +552,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag economics">Economy</span>
 </div>
 
-<div class="timeline-entry left" data-category="politics security documentation" data-era="logging-on" data-concepts="power testimony">
+<div class="timeline-entry right" data-category="politics security documentation" data-era="logging-on" data-concepts="power testimony">
   <h3>Abu Ghraib Photographs Leaked</h3>
   <p>Photographs documenting torture and abuse by U.S. soldiers at Abu Ghraib prison in Iraq are leaked and published worldwide. Digital photography exposes state violence and shifts public opinion about the war.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -576,7 +560,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech culture" data-era="logging-on" data-concepts="technology participation">
+<div class="timeline-entry left" data-category="tech culture" data-era="logging-on" data-concepts="technology participation">
   <h3>Web 2.0</h3>
   <p>User participation becomes a defining feature of the web. Static pages give way to interactive platforms.</p>
   <span class="timeline-tag tech">Tech</span>
@@ -1093,7 +1077,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2017</h2></div>
 
-<div class="timeline-entry right" data-category="politics culture documentation justice" data-era="platform-life" data-concepts="power social-media testimony witnessing">
+<div class="timeline-entry left" data-category="politics culture documentation justice" data-era="platform-life" data-concepts="power social-media testimony witnessing">
   <h3>#MeToo</h3>
   <p>Founded by Tarana Burke years earlier, the hashtag #MeToo goes viral as millions of survivors share their experiences of sexual assault and harassment. Social media becomes a platform for collective testimony and public accountability, bringing down powerful men and changing workplace norms.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -1102,14 +1086,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag justice">Law &amp; Justice</span>
 </div>
 
-<div class="timeline-entry left" data-category="tech culture" data-era="platform-life" data-platform="aim" data-concepts="platform-death loss nostalgia intimacy">
+<div class="timeline-entry right" data-category="tech culture" data-era="platform-life" data-platform="aim" data-concepts="platform-death loss nostalgia intimacy">
   <h3>AIM Discontinued</h3>
   <p>AOL Instant Messenger shuts down. One of the defining communication platforms of the early web comes to an end, and with it, an archive of away messages, screen names, and first online conversations.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="politics tech security" data-era="platform-life" data-platform="facebook" data-concepts="power social-media algorithms">
+<div class="timeline-entry left" data-category="politics tech security" data-era="platform-life" data-platform="facebook" data-concepts="power social-media algorithms">
   <h3>Russian Election Interference</h3>
   <p>Investigations reveal efforts to influence the U.S. election through social media campaigns, hacked documents, and targeted disinformation. Concerns about information integrity and foreign manipulation of digital platforms enter electoral politics.</p>
   <span class="timeline-tag politics">Politics</span>
@@ -1337,7 +1321,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry right" data-category="justice politics culture" data-era="after-the-feed" data-concepts="power identity body">
+<div class="timeline-entry left" data-category="justice politics culture" data-era="after-the-feed" data-concepts="power identity body">
   <h3>Roe v. Wade Overturned</h3>
   <p>The U.S. Supreme Court eliminates the constitutional right to abortion, ending nearly fifty years of federal protection. The decision fractures the country into competing legal regimes and makes bodily autonomy a matter of geography, class, and race.</p>
   <span class="timeline-tag justice">Law &amp; Justice</span>
@@ -1348,20 +1332,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2023</h2></div>
 
-<div class="timeline-entry right" data-category="tech culture" data-era="after-the-feed" data-concepts="social-media platforms technology">
+<div class="timeline-entry left" data-category="tech culture" data-era="after-the-feed" data-concepts="social-media platforms technology">
   <h3>Bluesky and Threads Launch</h3>
-  <p>New social platforms emerge as users seek alternatives to established networks. The fragmentation of social media accelerates, and the era of a single global town square gives way to a scattered landscape of competing platforms.</p>
+  <p>New social platforms emerge as users seek alternatives to established networks. The fragmentation of social media accelerates.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
-</div>
-
-<div class="timeline-entry left" data-category="tech culture economics science" data-era="after-the-feed" data-concepts="ai technology creativity">
-  <h3>Generative AI Goes Mainstream</h3>
-  <p>AI tools for text, images, audio, and video become widely available. Questions of authorship, labor, and authenticity gain urgency as the technology enters classrooms, newsrooms, and creative industries.</p>
-  <span class="timeline-tag tech">Tech</span>
-  <span class="timeline-tag culture">Culture</span>
-  <span class="timeline-tag economics">Economy</span>
-  <span class="timeline-tag science">Science &amp; Health</span>
 </div>
 
 <div class="timeline-entry right" data-category="culture economics tech justice" data-era="after-the-feed" data-concepts="ai creativity labor">
@@ -1414,6 +1389,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
+
 <div class="timeline-entry left" data-category="tech economics politics" data-era="after-the-feed" data-concepts="ai power platforms">
   <h3>DeepSeek Disrupts AI Markets</h3>
   <p>Chinese AI lab DeepSeek releases a large language model competitive with Western systems at a fraction of the cost, triggering a trillion-dollar selloff in U.S. tech stocks. The release challenges the assumption that AI dominance requires massive capital expenditure and raises the stakes of technological competition between the U.S. and China.</p>
@@ -1427,7 +1403,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="politics tech security culture" data-era="after-the-feed" data-platform="tiktok" data-concepts="power censorship platforms">
   <h3>TikTok Ban</h3>
-  <p>The U.S. government moves to ban TikTok, citing national security concerns over its Chinese ownership. The app briefly goes dark for 170 million American users before access is restored. It is the most aggressive government action against a social media platform in U.S. history, and users document the shutdown on rival platforms in real time.</p>
+  <p>The U.S. government moves to ban TikTok, citing national security concerns over its Chinese ownership. The app briefly goes dark for 170 million American users. It is the most aggressive government action against a social media platform in U.S. history.</p>
   <span class="timeline-tag politics">Politics</span>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag security">Conflict &amp; Security</span>
@@ -1436,7 +1412,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="tech economics politics environment science infrastructure" data-era="after-the-feed" data-concepts="ai technology">
   <h3>AI Infrastructure & Regulation</h3>
-  <p>Artificial intelligence gets integrated into search, productivity software, education, and creative tools. Governments and institutions develop frameworks for AI governance as the technology enters classrooms, newsrooms, and creative industries.</p>
+  <p>Artificial intelligence gets integrated into search, productivity software, education, and creative tools. Governments and institutions develop frameworks for AI governance.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag economics">Economy</span>
   <span class="timeline-tag politics">Politics</span>
@@ -1449,24 +1425,23 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-year"><h2>2026</h2></div>
 
 <div class="timeline-entry left" data-category="tech science culture" data-era="after-the-feed" data-concepts="ai technology">
-  <h3>First LLM Passes Turing Test</h3>
-  <p>A large language model passes a standard three-party Turing Test for the first time. The milestone intensifies debates about machine intelligence, consciousness, and what it means when a computer convincingly imitates a human.</p>
+  <h3>LLM Passes Turing Test</h3>
+  <p>A large language model passes a standard three-party Turing Test for the first time. The milestone reheats debates about machine intelligence, consciousness, and what it means when a computer convincingly imitates a human.</p>
   <span class="timeline-tag tech">Tech</span>
   <span class="timeline-tag science">Science &amp; Health</span>
   <span class="timeline-tag culture">Culture</span>
 </div>
 
-<div class="timeline-entry right" data-category="culture tech science" data-era="after-the-feed" data-concepts="ai religion">
+<div class="timeline-entry right" data-category="culture tech" data-era="after-the-feed" data-concepts="ai religion">
   <h3>Pope Leo XIV's AI Encyclical</h3>
-  <p>Pope Leo XIV publishes the encyclical MAGNIFICA HUMANITAS on safeguarding the human person in the time of artificial intelligence. A statement at the intersection of faith, technology, and ethics.</p>
+  <p>Pope Leo XIV publishes the encyclical MAGNIFICA HUMANITAS on safeguarding the human person in the time of artificial intelligence; a statement at the intersection of faith, technology, and ethics.</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag tech">Tech</span>
-  <span class="timeline-tag science">Science &amp; Health</span>
 </div>
 
 <div class="timeline-entry left" data-category="culture tech" data-era="after-the-feed" data-concepts="millennials generational-memory nostalgia">
   <h3>"Millennial Optimism"</h3>
-  <p>Reclaimed 2010s millennial youth culture flips "millennial cringe" into "millennial optimism." Gen Z users express nostalgia for an era of sincere self-expression, hope, and the belief that things could get better — a feeling their generation never had.</p>
+  <p>Younger social-media users express nostalgia for an era of sincere self-expression and hope by flipping "millennial cringe" into "millennial optimism."</p>
   <span class="timeline-tag culture">Culture</span>
   <span class="timeline-tag tech">Tech</span>
 </div>
