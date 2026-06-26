@@ -68,7 +68,7 @@ published: false
       <!-- <a href="https://bsky.app/profile/HANDLE">Bluesky</a> -->
     </p>
 
-    <!-- MYSPACE INTERESTS TABLE — hidden behind the last ✦ -->
+    <!-- MYSPACE INTERESTS TABLE — hidden behind the first ✦ -->
     <div class="myspace-interests">
       <table class="interests-table">
         <tr>

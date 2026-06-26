@@ -726,6 +726,8 @@ Answer text goes here.
 <!-- ============================================
      MYSPACE INTERESTS TABLE
      Hidden table behind the ✦ toggle on contributor pages.
+     The ✦ always comes after the FIRST link.
+     Additional links follow with ✦ separators between them.
      Usage: place inside bio-text div, after connect-links.
      The toggleInterests() function is in post.html layout.
      ============================================ -->
@@ -737,6 +739,7 @@ Answer text goes here.
   <span class="interests-toggle" onclick="toggleInterests(this)" tabindex="0" role="button" aria-label="Toggle interests">✦</span>
   <a href="#">instagram</a>
   <span class="interest-separator">✦</span>
+  <a href="#">bluesky</a>
 </p>
 
 <div class="myspace-interests">
