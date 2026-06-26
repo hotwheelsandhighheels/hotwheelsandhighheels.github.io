@@ -72,7 +72,7 @@ Location: San Jose, CA
   data-theme="place"
   data-contributor="carson-sandell"
   data-location="san-jose">
-  "When I was a teenager, I used to take the 81 bus to the end of the line, which was Vallco Mall. It was mostly abandoned except for a lone Sears and a bowling alley. There was a tranquility in wandering around a place that was practically empty. It was a place free from the chaos of my home life. I could be myself in those brief and fleeting afternoons."
+  "It was a place free from the chaos of my home life. I could be myself in those brief and fleeting afternoons."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Carson/">Carson Sandell</a></p>
 <span class="timeline-tag place">Place</span>
@@ -93,7 +93,7 @@ Location: El Cajon, San Diego
   data-theme="loss place threshold"
   data-contributor="jon-tobias"
   data-location="el-cajon">
-  "How do you phantom limb a street? Do you still hold the memory of my first kiss in the dirt lot behind my old home that is now apartment housing? Is the ghost of my first kiss floating in someone's bedroom?"
+  "How do you phantom limb a street?"
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Jon/">Jon Tobias</a></p>
 <span class="timeline-tag loss">Loss</span>
@@ -126,7 +126,7 @@ Location: San Jose, CA
   data-theme="loss web surveillance"
   data-contributor="carson-sandell"
   data-location="san-jose">
-  "So much has changed. Every time I come back home, I find out one of my favorite spots has closed. I know so many friends and families who were forced out of their homes by tech-industry gentrification. Silicon Valley is now a hub for generative AI. Data centers are being approved every single week by local legislature despite community pushback."
+  "I know so many friends and families who were forced out of their homes by tech-industry gentrification. Silicon Valley is now a hub for generative AI. Data centers are being approved every single week by local legislature despite community pushback."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Carson/">Carson Sandell</a></p>
 <span class="timeline-tag loss">Loss</span>
@@ -236,7 +236,7 @@ Location: San Jose, CA
   data-theme="intimacy loss identity"
   data-contributor="carson-sandell"
   data-location="san-jose">
-  "I love her more than I can recognize most days. We spent so many weekends in San Jose, Monterey, Modesto, Turlock, and San Juan Bautista. There were times she endangered our lives for drugs. On a few occasions, we were almost killed. Yet with all of this, she loved her children more than anything in the world. We truly were her beacon."
+  "I love her more than I can recognize most days. We spent so many weekends in San Jose, Monterey, Modesto, Turlock, and San Juan Bautista... she loved her children more than anything in the world. We truly were her beacon."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Carson/">Carson Sandell</a></p>
 <span class="timeline-tag intimacy">Intimacy</span>
@@ -291,7 +291,7 @@ Location: San Jose, CA
   data-theme="identity"
   data-contributor="carson-sandell"
   data-location="san-jose">
-  "I worshipped these shoes. It was my first venture into expressing / presenting myself the way I desired. I was a gay kid in the 2010s. During that time, you practically had to own a pair of Converse. It was a queer rite of passage."
+  "I worshipped these shoes... It was a queer rite of passage."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Carson/">Carson Sandell</a></p>
 <span class="timeline-tag identity">Identity</span>
@@ -343,7 +343,7 @@ Location: San Jose, CA
   data-theme="expression emergence"
   data-contributor="carson-sandell"
   data-location="san-jose">
-  "The transcendence is in the line breaks, the language crafting, the imagery, the sound and rhythms, the statements, the voice, in the reprimand, in the tender, in the anger, in the despair, in the grief, and in the joy. It is a high. The transcendence is talking to other writers, being in community with them. Destiny is passive. This isn't destiny. This is an active choice to follow through on my art."
+  "The transcendence is in the line breaks, the language crafting, the imagery, the sound and rhythms, the statements, the voice, in the reprimand, in the tender, in the anger, in the despair, in the grief, and in the joy."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Carson/">Carson Sandell</a></p>
 <span class="timeline-tag expression">Expression</span>
@@ -397,7 +397,7 @@ Location: San Jose, CA
   data-theme="future"
   data-contributor="carson-sandell"
   data-location="san-jose">
-  "The thing that never changes is community members' devotion to this city, this land, and resistance. We love this place. We cherish this place. We care for the land. We care for the health and safety of our most vulnerable, which is in direct opposition to the contemporary moment and tech futurity."
+  "We love this place. We cherish this place. We care for the land. We care for the health and safety of our most vulnerable, which is in direct opposition to the contemporary moment and tech futurity."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Carson/">Carson Sandell</a></p>
 <span class="timeline-tag future">Future</span>
@@ -503,7 +503,7 @@ Location: San Diego
   data-theme="witness expression"
   data-contributor="jack-hinzo"
   data-location="san-diego">
-  "When I took a Polaroid of myself with a group of people a few years ago, it was the first time I realized how sad I was. It was a combo of where I was in the photo, the way the light reflected off my glasses, and most notably, how vacant my expression was."
+  "When I took a Polaroid of myself with a group of people a few years ago, it was the first time I realized how sad I was."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Jack/">Jack Hinzo</a></p>
 <span class="timeline-tag witness">Witness</span>
@@ -618,7 +618,7 @@ Location: San Diego
   data-theme="threshold"
   data-contributor="jack-hinzo"
   data-location="san-diego">
-  "I have these cowboy boots that I probably have worn more than any other piece of clothing for the last 3 years. They were my dad's from the 80s. When I was a kid, they sat on a shelf in my room, looming over me. They never fit me as a kid. A couple years ago, I tried them on, they fit. I've worn them at least 3 days a week since then. I've bought 3 other pairs of boots that I've worn right through. Dad's boots are the only ones that seem to last."
+  "They were my dad's from the 80s. When I was a kid, they sat on a shelf in my room, looming over me. They never fit me as a kid. A couple years ago, I tried them on, they fit. I've worn them at least 3 days a week since then."
 </blockquote>
 <p class="quote-attribution"><a href="/Drivers/Jack/">Jack Hinzo</a></p>
 <span class="timeline-tag threshold">Threshold</span>
