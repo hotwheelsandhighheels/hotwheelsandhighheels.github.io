@@ -12,7 +12,9 @@ This is a framework I built using Vivian Gornick's *The Situation and the Story*
 
 I began studying creative non-fiction, more specifically the personal narrative, in undergrad. Between undergrad and grad school, I spent three years developing this formula by annotating through anthologies of personal narratives to really see how each piece of the partnership worked. 
 
-When I moved on to study poetry at the graduate level, I stumbled upon archival theory, upon the concept of memory work and being a memory worker. What I found is that The Double Perspective is applicable to all forms of memory work. I am applying it now to this archive, my Drivers apply it to their memories -- it's not a mere matter of collecting, but creating meaning from that recollection. 
+When I moved on to study poetry at the graduate level, I stumbled upon archival theory, upon the concept of memory work and being a memory worker. What I found is that The Double Perspective is applicable to all forms of memory work. 
+
+I am applying it now to this archive, my Drivers apply it to their memories, you can apply it to your own memory work. 
 
 *Click each row to see what the partnership produces.*
 
