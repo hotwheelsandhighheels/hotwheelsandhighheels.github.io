@@ -208,6 +208,7 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
   const container = document.getElementById('connections-map');
   const svg = document.getElementById('connections-svg');
   const allNodes = container.querySelectorAll('.connection-node');
+  const nodeClicks = {};
 
   const connections = [
     // Center to all branches
@@ -337,7 +338,6 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
     { from: 'node-digital-sobriety', to: 'node-memory-technologies' },
     { from: 'node-everyday-users', to: 'node-social-archive-concept' },
     { from: 'node-families', to: 'node-familial-memory' },
-    { from: 'node-platform-governance', to: 'node-platforms' },
     { from: 'node-going-viral', to: 'node-memes' },
     { from: 'node-between-you-and-i', to: 'node-personal-memory' },
     { from: 'node-witness-memory', to: 'node-driver-witness' },
@@ -373,10 +373,36 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
     });
   }
 
+  function hideChildren(parentId) {
+    const parent = document.getElementById(parentId);
+    if (!parent) return;
+    const childrenIds = parent.getAttribute('data-children');
+    if (!childrenIds) return;
+    childrenIds.split(',').forEach(id => {
+      const child = document.getElementById(id.trim());
+      if (child) {
+        child.style.display = 'none';
+        // Also hide grandchildren
+        const grandKids = child.getAttribute('data-children');
+        if (grandKids) {
+          grandKids.split(',').forEach(gid => {
+            const gchild = document.getElementById(gid.trim());
+            if (gchild) gchild.style.display = 'none';
+          });
+        }
+        // Reset click counter for hidden nodes
+        nodeClicks[id.trim()] = 0;
+      }
+    });
+    drawLines();
+  }
+
   function revealAll() {
     allNodes.forEach(node => {
       node.style.display = 'block';
+      nodeClicks[node.id] = 0;
     });
+    closePreview();
     drawLines();
   }
 
@@ -385,6 +411,7 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
       if (node.id !== 'node-millennial-epoch') {
         node.style.display = 'none';
       }
+      nodeClicks[node.id] = 0;
     });
     closePreview();
     drawLines();
@@ -462,7 +489,99 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
     }
   });
 
-  const previewData = {
+  function showPreview(node) {
+    const id = node.id;
+    const data = previewData[id];
+    if (!data) return;
+
+    const preview = document.getElementById('node-preview');
+    document.getElementById('preview-title').textContent = data.title;
+    document.getElementById('preview-type').textContent = data.type;
+    document.getElementById('preview-description').textContent = data.description;
+
+    const link = document.getElementById('preview-link');
+    if (data.link) {
+      link.href = data.link;
+      link.style.display = 'inline';
+    } else {
+      link.style.display = 'none';
+    }
+
+    const nodeRect = node.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
+    const previewWidth = 320;
+    const previewHeight = 220;
+
+    let left = nodeRect.left - containerRect.left + nodeRect.width + 16;
+    let top = nodeRect.top - containerRect.top;
+
+    if (left + previewWidth > containerRect.width) {
+      left = nodeRect.left - containerRect.left - previewWidth - 16;
+    }
+    if (top + previewHeight > containerRect.height) {
+      top = containerRect.height - previewHeight - 16;
+    }
+    if (top < 0) top = 16;
+
+    preview.style.left = left + 'px';
+    preview.style.top = top + 'px';
+    preview.style.transform = 'none';
+    preview.style.display = 'block';
+  }
+
+  function closePreview() {
+    document.getElementById('node-preview').style.display = 'none';
+  }
+
+  container.addEventListener('click', function(e) {
+    if (hasMoved) return;
+    const node = e.target.closest('.connection-node');
+    if (!node) {
+      closePreview();
+      return;
+    }
+    
+    const id = node.id;
+    if (!nodeClicks[id]) nodeClicks[id] = 0;
+    
+    nodeClicks[id]++;
+    
+    const step = nodeClicks[id];
+    const hasChildren = node.getAttribute('data-children');
+    
+    // Step 1: Unfold children
+    if (step === 1 && hasChildren) {
+      showChildren(id);
+    }
+    
+    // Step 2: Show preview
+    if (step === 2) {
+      showPreview(node);
+    }
+    
+    // Step 3: Close preview
+    if (step === 3) {
+      closePreview();
+    }
+    
+    // Step 4: Fold children back, reset counter
+    if (step === 4 && hasChildren) {
+      hideChildren(id);
+      nodeClicks[id] = 0;
+    }
+    
+    // If no children, just toggle preview on clicks 1 and 2, reset on 3
+    if (!hasChildren) {
+      if (step === 1) {
+        showPreview(node);
+      } else if (step === 2) {
+        closePreview();
+        nodeClicks[id] = 0;
+      }
+    }
+  });
+
+    const previewData = {
     'node-millennial-epoch': {
       title: 'The Millennial Epoch',
       type: 'Center',
@@ -490,7 +609,7 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
     'node-digital-archive': { title: 'Digital Archive', type: 'Concept', description: 'Dynamic, networked, participatory, global. What happens when the archive leaves the building and lives on servers.', link: null },
     'node-social-archive-concept': { title: 'Social Archive', type: 'Concept', description: 'User-generated memory. Metadata as artifact. Platform traces as historical record. Everyday people creating the archive without knowing it.', link: '/Trunk/archive/' },
     'node-archive-fever': { title: 'Archive Fever', type: 'Concept', description: 'Derrida\'s concept. The compulsive need to record, preserve, return to the origin. The death drive versus the pleasure principle.', link: null },
-    'node-the-drivers': { title: 'The Drivers', type: 'Collection', description: 'My interviews reveal experiences that cover themes such as place, loss, intimacy, web, identity, expression, future, care, witness, surveillance, emergence, threshold.', link: '/Trunk/drivers/' },
+    'node-the-drivers': { title: 'The Drivers', type: 'Collection', description: 'Seven memory workers, twelve themes. Millennial experience in their own words — place, loss, intimacy, web, identity, expression, future, care, witness, surveillance, emergence, threshold.', link: '/Trunk/drivers/' },
     'node-driver-place': { title: 'Place', type: 'Theme', description: 'Neighborhoods, local identity, belonging, gentrification. "You can\'t google my hood."', link: '/Trunk/drivers/#place' },
     'node-driver-loss': { title: 'Loss', type: 'Theme', description: 'Demolished places, lost records, disappearing communities, vanished internet traces. "How do you phantom limb a street?"', link: '/Trunk/drivers/#loss' },
     'node-driver-intimacy': { title: 'Intimacy', type: 'Theme', description: 'Family, friendship, vulnerability, private memory. The spaces where identity forms.', link: '/Trunk/drivers/#intimacy' },
@@ -555,58 +674,6 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
     'node-major-tensions': { title: 'Major Tensions', type: 'Branch', description: 'The oppositions that structure the epoch. Memory vs documentation. Human vs platform. Local vs global. Public vs private. Preservation vs disappearance. Community vs extraction. Authenticity vs performance. Witness vs surveillance. Nostalgia vs futurity.', link: null },
     'node-central-thesis': { title: 'Central Thesis', type: 'Branch', description: 'Millennials experienced a unique transition from analog memory systems to digital ones. Everyday artifacts reveal epoch-scale cultural transformation. Platforms became memory infrastructure. Personal archives are historical archives.', link: null }
   };
-
-  container.addEventListener('click', function(e) {
-    if (hasMoved) return;
-    const node = e.target.closest('.connection-node');
-    if (!node) {
-      closePreview();
-      return;
-    }
-    const id = node.id;
-    showChildren(id);
-    
-    const data = previewData[id];
-    if (!data) return;
-
-    const preview = document.getElementById('node-preview');
-    document.getElementById('preview-title').textContent = data.title;
-    document.getElementById('preview-type').textContent = data.type;
-    document.getElementById('preview-description').textContent = data.description;
-
-    const link = document.getElementById('preview-link');
-    if (data.link) {
-      link.href = data.link;
-      link.style.display = 'inline';
-    } else {
-      link.style.display = 'none';
-    }
-
-    const nodeRect = node.getBoundingClientRect();
-    const containerRect = container.getBoundingClientRect();
-    const previewWidth = 320;
-    const previewHeight = 220;
-
-    let left = nodeRect.left - containerRect.left + nodeRect.width + 16;
-    let top = nodeRect.top - containerRect.top;
-
-    if (left + previewWidth > containerRect.width) {
-      left = nodeRect.left - containerRect.left - previewWidth - 16;
-    }
-    if (top + previewHeight > containerRect.height) {
-      top = containerRect.height - previewHeight - 16;
-    }
-    if (top < 0) top = 16;
-
-    preview.style.left = left + 'px';
-    preview.style.top = top + 'px';
-    preview.style.transform = 'none';
-    preview.style.display = 'block';
-  });
-
-  function closePreview() {
-    document.getElementById('node-preview').style.display = 'none';
-  }
 
   positionNodes();
   window.addEventListener('resize', drawLines);
