@@ -1,11 +1,12 @@
 ---
 layout: default
 title: AI Reception
-permalink: /Trunk/ai-reception/
+permalink: /Trunk/new-developments/
 title: AI Reception - Hot Wheels & High Heels
 ---
+# New Developments
 
-# AI Reception
+## AI Reception
 
 *46 artifacts collected*
 
@@ -237,5 +238,5 @@ function changeSlide(direction) {
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
   <a href="/Trunk/archive/">← the Social Archive</a>
-  <a href="/Trunk/notes/">Dig thru the glove box →</a>
+  <a href="/Trunk/connections/">Check the road map →</a>
 </div>

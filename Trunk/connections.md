@@ -617,7 +617,7 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
-  <a href="/Trunk/ai-reception/">← New developments</a>
+  <a href="/Trunk/new-developments/">← View artifacts</a>
   <a href="/Trunk/notes/">Dig thru the glove box →</a>
 </div>
 

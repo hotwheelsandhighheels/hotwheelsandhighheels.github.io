@@ -7,9 +7,9 @@ title: The Social Archive - Hot Wheels & High Heels
 
 # The Social Archive
 
-On this page, I am collecting content that reflects anything I felt was epoch-forming. Each artifact includes where I got it, when I got it, why I got it, and why it matters. All tagged by theme and timeline category.
+On this page, I am collecting born-digital content. Each artifact includes where I got it, when I got it, why I got it, and why it matters. All tagged by theme and timeline category.
 
-*If you want to add something, PLEASE DO! Do not hesitate to overuse my submission form.*
+*If you want to add something, PLEASE DO! Do not hesitate to overuse my [submission form](/submit/).*
 
 ---
 
@@ -114,7 +114,7 @@ On this page, I am collecting content that reflects anything I felt was epoch-fo
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
   <a href="/Trunk/drivers/">← Flag down a driver</a>
-  <a href="/Trunk/ai-reception/">New artifacts →</a>
+  <a href="/Trunk/new-developments/">New artifacts →</a>
 </div>
 
 <script>
