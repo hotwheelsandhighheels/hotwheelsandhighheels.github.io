@@ -109,6 +109,17 @@ I built this framework using Vivian Gornick's *The Situation and the Story* and 
 * Social media as evidence of cultural mood
 * "You are the documentary"
 
+### Born-Digital Heritage
+
+* Memes, posts, comments, screenshots, metadata, livestreams
+* Heritage created digitally rather than digitized later
+* Virality — rapid spread across platforms
+* Mutability — objects altered and adapted by users
+* Intertextuality — references and remixes other cultural texts
+* Cultural value of internet artifacts
+* Ismail: memes as archival discourse
+* <a href="/Trunk/archive/">View the Social Archive →</a>
+
 ### The Problem of Digital Memory
 
 * Nothing survives — deletion, platform collapse, link rot
@@ -138,17 +149,6 @@ I built this framework using Vivian Gornick's *The Situation and the Story* and 
 * Archival fever in Berners-Lee's language
 * Democratic archive — dream vs reality
 * <a href="/Trunk/epoch/">See the timeline →</a>
-
-### Born-Digital Heritage
-
-* Memes, posts, comments, screenshots, metadata, livestreams
-* Heritage created digitally rather than digitized later
-* Virality — rapid spread across platforms
-* Mutability — objects altered and adapted by users
-* Intertextuality — references and remixes other cultural texts
-* Cultural value of internet artifacts
-* Ismail: memes as archival discourse
-* <a href="/Trunk/archive/">View the Social Archive →</a>
 
 ---
 
@@ -185,7 +185,6 @@ I built this framework using Vivian Gornick's *The Situation and the Story* and 
 * Relationship status changes — "Married" at the same time
 * Everyday documentation — informal archives
 * "Who keeps the archive?"
-* <a href="/submit/">Contribute to the archive →</a>
 
 ---
 
