@@ -29,8 +29,8 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
 <svg class="connections-svg" id="connections-svg"></svg>
 
 <div style="position: absolute; top: 10px; right: 10px; z-index: 30; display: flex; gap: 8px;">
-  <button onclick="revealAll()" style="background: transparent; border: 0.5px solid var(--pink); color: var(--pink); font-family: 'Lora', serif; font-size: 9pt; padding: 4px 10px; cursor: url('/assets/svg/cursor.svg') 8 2, auto; opacity: 0.7;">Reveal All</button>
-  <button onclick="resetMap()" style="background: transparent; border: 0.5px solid var(--purple); color: var(--purple); font-family: 'Lora', serif; font-size: 9pt; padding: 4px 10px; cursor: url('/assets/svg/cursor.svg') 8 2, auto; opacity: 0.7;">Reset</button>
+  <button id="reveal-all-btn" style="background: transparent; border: 0.5px solid var(--pink); color: var(--pink); font-family: 'Lora', serif; font-size: 9pt; padding: 4px 10px; cursor: url('/assets/svg/cursor.svg') 8 2, auto; opacity: 0.7;">Reveal All</button>
+  <button id="reset-map-btn" style="background: transparent; border: 0.5px solid var(--purple); color: var(--purple); font-family: 'Lora', serif; font-size: 9pt; padding: 4px 10px; cursor: url('/assets/svg/cursor.svg') 8 2, auto; opacity: 0.7;">Reset</button>
 </div>
 
 <!-- ============================================
@@ -416,7 +416,9 @@ This is a visualization of all the ideas being mapped in the archive. It’s a l
     closePreview();
     drawLines();
   }
-
+  document.getElementById('reveal-all-btn').addEventListener('click', revealAll);
+  document.getElementById('reset-map-btn').addEventListener('click', resetMap);
+  
   function positionNodes() {
     allNodes.forEach(node => {
       const x = node.getAttribute('data-x');
