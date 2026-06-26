@@ -189,7 +189,7 @@ I built this framework using Vivian Gornick's *The Situation and the Story* and 
 
 ---
 
-<p id="bibliography"><a href="https://www.zotero.org/groups/6565887/millennial_epoch">Bibliography</a></p>
+<p id="bibliography"><a href="https://www.zotero.org/groups/6565887/millennial_epoch/library" target="_blank">Bibliography</a></p>
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
