@@ -29,9 +29,9 @@ permalink: /revving-up/
       <div class="static-line"></div>
     </div>
     <div class="teaser-content">
-      <p class="teaser-label">Next Feature</p>
+      <p class="teaser-label">Next Collection</p>
       <h1 class="teaser-title">Revving Up</h1>
-      <p class="teaser-sub">something's coming</p>
+      <p class="teaser-sub">wont be too long</p>
     </div>
   </div>
   <div class="teaser-subscribe">

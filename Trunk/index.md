@@ -24,7 +24,7 @@ What happens when personal memory, cultural history, and digital platforms becom
   </a>
 
   <!-- 2. THE DRIVERS -->
-  <a href="/Trunk/drivers/" class="trunk-card" style="text-decoration: none;">
+  <a href="/revving-up/" class="trunk-card" style="text-decoration: none;">
     <h3>Collection 02</h3>
     <h2>The Drivers</h2>
     <p>Quotes from people I've interviewed</p>
