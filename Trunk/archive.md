@@ -73,7 +73,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
       </div>
       
       <!-- 12. Lauren Graham Announces the Gilmore Girls Reboot -->
-      <div class="artifact-slide" data-title="Lauren Graham Announces the Gilmore Girls Reboot" data-origin="web-screenshot" data-date="2016" data-context="When Netflix revived Gilmore Girls, the announcement came through Lauren Graham posting it directly to Instagram instead of through traditional channels. Gilmore Girls was already a defining millennial show; the reboot proved nostalgia had become an industry." data-significance="The fourth wall between celebrity and audience getting thinner. Fans would've most likely been following her Instagram and not the studio's. The celebrity is their own press release now." data-tags="The Parasocial,Culture,Broken Record,Economics,Web">
+      <div class="artifact-slide" data-title="Lauren Graham Announces the Gilmore Girls Reboot" data-origin="web-screenshot" data-date="2016" data-context="When Netflix revived Gilmore Girls, the announcement came through Lauren Graham posting it directly to Instagram instead of through traditional channels. Gilmore Girls was already a defining millennial show; the reboot proved nostalgia had become an industry." data-significance="Breaking the fourth wall between celebrity and audience. Fans would've most likely been following her Instagram and not the studio's." data-tags="The Parasocial,Culture,Broken Record,Economics,Web">
         <img src="/assets/archive/parasocial/web-screenshot-laurengraham.PNG" alt="Screenshot of Lauren Graham's Instagram post announcing the Gilmore Girls reboot">
       </div>
       
