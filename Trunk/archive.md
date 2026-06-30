@@ -23,7 +23,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
       </div>
       
       <!-- 2. A Conversation Without Text -->
-      <div class="artifact-slide" data-title="A Conversation Without Text" data-origin="hw-screenshot" data-date="03-03-2023" data-context="This is a conversation happening between me and my best friend completely through audio messages on iMessage." data-significance="Audio messages sit somewhere between a phone call and a text — more presence than words, less pressure than a live conversation." data-tags="Upgrade You,Technology,Intimacy,Web">
+      <div class="artifact-slide" data-title="A Conversation Without Text" data-origin="hw-screenshot" data-date="03-03-2023" data-context="This is a conversation happening between me and my best friend completely through audio messages on iMessage." data-significance="This shows the evolution of communications technology, how we kind of just went back to walkie talkies." data-tags="Upgrade You,Technology,Intimacy,Web">
         <img src="/assets/archive/upgrade/hw-screenshot-audiomessages.PNG" alt="Screenshot of an iMessage conversation conducted entirely through audio messages">
       </div>
       
@@ -53,7 +53,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
       </div>
       
       <!-- 8. When ur hotline bling but it aint the person u wanted -->
-      <div class="artifact-slide" data-title="When ur hotline bling but it aint the person u wanted" data-origin="web-screenshot" data-date="10-25-2015" data-context="This is one of many Drake reaction memes. It's a still from his Hotline Bling music video where his expression appears to be signaling yikes. His hand is raised to his head with pinky and thumb hand phone. The reaction is in classic meme text followed by meme image structure. The text reads &quot;When ur hotline bling but it aint the person u wanted.&quot;" data-significance="The reaction meme as a communication tool — a music video frame becomes reusable emotional shorthand." data-tags="Going Viral,Culture,Web,Expression">
+      <div class="artifact-slide" data-title="When ur hotline bling but it aint the person u wanted" data-origin="web-screenshot" data-date="10-25-2015" data-context="This is one of many Drake reaction memes. It's a still from his Hotline Bling music video where his expression appears to be signaling yikes. His hand is raised to his head with pinky and thumb hand phone. The reaction is in classic meme text followed by meme image structure. The text reads &quot;When ur hotline bling but it aint the person u wanted.&quot;" data-significance="This shows the way we use memes to express feelings we might not otherwise be able to articulate." data-tags="Going Viral,Culture,Web,Expression">
         <img src="/assets/archive/viral/web-meme-drake.JPG" alt="Drake reaction meme from Hotline Bling video. Text reads 'When ur hotline bling but it aint the person u wanted.'">
       </div>
       
