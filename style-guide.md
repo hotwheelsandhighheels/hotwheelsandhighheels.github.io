@@ -50,7 +50,7 @@ This is a paragraph in Lora light. _This is italic._ **This is bold.** This is a
 ## Image Caption
 
 ![example](/assets/site/Banner.PNG)
-<p class="caption">Photo by Kimberly Tobias — banner image</p>
+<p class="caption">Photo by  — banner image</p>
 
 ---
 
