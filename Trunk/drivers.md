@@ -7,8 +7,6 @@ title: The Drivers - Hot Wheels & High Heels
 
 # The Drivers
 
-Twelve themes, one pattern: millennial memory is always about place, loss, intimacy, the web, identity, expression, the future, care, witness, surveillance, emergence, and threshold.
-
 <hr>
 
 <div class="theme-legend">
@@ -27,8 +25,6 @@ Twelve themes, one pattern: millennial memory is always about place, loss, intim
 </div>
 
 ## Place
-
-*Places remembered, lost, transformed, or carried forward through memory.*
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -51,7 +47,6 @@ Location:
 
 ## Loss
 
-*Things that disappeared: buildings, people, routines, neighborhoods, versions of self.*
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -74,8 +69,6 @@ Location:
 
 ## Web
 
-*Experiences mediated, preserved, distorted, or erased by digital life.*
-
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
 Contributor:
@@ -96,8 +89,6 @@ Location:
 ---
 
 ## Intimacy
-
-*Friendship, family, vulnerability, and the private spaces where identity forms.*
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -120,8 +111,6 @@ Location:
 
 ## Identity
 
-*Race, gender, culture, faith, and the ongoing work of becoming oneself.*
-
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
 Contributor:
@@ -142,8 +131,6 @@ Location:
 ---
 
 ## Expression
-
-*Art, poetry, music, and the drive to make meaning from experience.*
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -166,8 +153,6 @@ Location:
 
 ## Future
 
-*What comes next: transition, technology, hope, and the unknown.*
-
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
 Contributor:
@@ -188,8 +173,6 @@ Location:
 ---
 
 ## Care
-
-*How we supported one another through everything the epoch demanded.*
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -212,8 +195,6 @@ Location:
 
 ## Witness
 
-*Who saw it, recorded it, and remembered it.*
-
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
 Contributor:
@@ -234,8 +215,6 @@ Location:
 ---
 
 ## Surveillance
-
-*Who was watching, and what did visibility cost.*
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -258,8 +237,6 @@ Location:
 
 ## Emergence
 
-*What new forms of life, culture, and technology were taking shape.*
-
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
 Contributor:
@@ -280,8 +257,6 @@ Location:
 ---
 
 ## Threshold
-
-*What worlds we were standing between.*
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
