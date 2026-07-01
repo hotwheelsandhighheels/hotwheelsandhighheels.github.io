@@ -1438,7 +1438,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag tech">Tech</span>
 </div>
 
-<div class="timeline-entry right" data-category="tech culture" data-era="after-the-feed" data-concepts="ai religion">
+<div class="timeline-entry left" data-category="tech culture" data-era="after-the-feed" data-concepts="ai religion">
   <h3>Google decommissions Tenor API</h3>
   <p>(pending)</p>
   <span class="timeline-tag tech">Tech</span>
