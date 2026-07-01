@@ -8,7 +8,7 @@ title: AI Reception - Hot Wheels & High Heels
 
 ## AI Reception
 
-*54 artifacts collected*
+*52 artifacts collected*
 
 *This is all the stuff I see online about generative AI and LLM's. It's mostly submission guidelines from literary establishments.*
 
