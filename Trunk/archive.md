@@ -15,30 +15,30 @@ On this page, I am collecting born-digital content. Each artifact includes where
 
 <div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="15">
+    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="18">
 
-      <!-- 1. Siri Tries to Parse the Unconscious -->
-      <div class="artifact-slide active" data-title="Siri Tries to Parse the Unconscious" data-origin="hw-screenshot" data-date="07-07-2014" data-context="I think I had my phone in my hand or pocket, not looking at it or talking to Siri at all, but Siri responded. The text reads: &quot;Cannot find my I cannot find my dog and my friend my help I'll Malmac mag mag all my on my mind all morning wall wall wall wall wall wall memorial boreal&quot; tap to edit — Sorry, Alejandra… can you try that again in fewer words?" data-significance="I screenshot this because I thought it was funny that Siri was summoned and even funnier that that's what it thought I had said." data-tags="Upgrade You,Technology,Web,Expression">
+      <!-- 1. No one summonded you, Siri -->
+      <div class="artifact-slide active" data-title="No one summonded you, Siri" data-origin="hw-screenshot" data-date="07-07-2014" data-context="I think I had my phone in my hand or pocket, not looking at it or talking to Siri at all, but Siri responded. The text reads: &quot;Cannot find my I cannot find my dog and my friend my help I'll Malmac mag mag all my on my mind all morning wall wall wall wall wall wall memorial boreal&quot; tap to edit — Sorry, Alejandra… can you try that again in fewer words?" data-significance="I screenshot this because I thought it was funny that Siri was summoned and even funnier that that's what it thought I had said." data-tags="Upgrade U,Technology,Web,Expression">
         <img src="/assets/archive/upgrade/hw-screenshot-siri.PNG" alt="Screenshot of Siri responding to garbled input">
       </div>
       
       <!-- 2. A Conversation Without Text -->
-      <div class="artifact-slide" data-title="A Conversation Without Text" data-origin="hw-screenshot" data-date="03-03-2023" data-context="This is a conversation happening between me and my best friend completely through audio messages on iMessage." data-significance="This shows the evolution of communications technology, how we kind of just went back to walkie talkies." data-tags="Upgrade You,Technology,Intimacy,Web">
+      <div class="artifact-slide" data-title="A Conversation Without Text" data-origin="hw-screenshot" data-date="03-03-2023" data-context="This is a conversation happening between me and my best friend completely through audio messages on iMessage." data-significance="This shows the evolution of communications technology, how we kind of just went back to walkie talkies." data-tags="Upgrade U,Technology,Intimacy,Web">
         <img src="/assets/archive/upgrade/hw-screenshot-audiomessages.PNG" alt="Screenshot of an iMessage conversation conducted entirely through audio messages">
       </div>
       
-      <!-- 3. The QR Code That Found Everyone -->
-      <div class="artifact-slide" data-title="The QR Code That Found Everyone" data-origin="hw-screenshot" data-date="05-17-2016" data-context="I have no idea why I saved it. But I am including it because when I was looking through my screenshots it popped up. This was like one of the new things you could do instead of having to search for someone, they could show you the QR code. I'm not sure who did it first, but all the apps do it now." data-significance="I'm including it because it was one of those new features that became standard. Someone had to save a screenshot of it once, when it was new." data-tags="Upgrade You,Technology,Web,Infrastructure & Exploration">
+      <!-- 3. Personal QR Codes -->
+      <div class="artifact-slide" data-title="Personal QR Codes" data-origin="hw-screenshot" data-date="05-17-2016" data-context="I have no idea why I saved it. But I am including it because when I was looking through my screenshots it popped up. This was like one of the new things you could do instead of having to search for someone, they could show you the QR code. I'm not sure who did it first, but all the apps do it now." data-significance="I'm including it because it was one of those new features that became standard. Someone had to save a screenshot of it once, when it was new." data-tags="Upgrade U,Technology,Web,Infrastructure & Exploration">
         <img src="/assets/archive/upgrade/hw-screenshot-fbcode.PNG" alt="Screenshot of a Facebook QR code feature for finding friends">
       </div>
       
-      <!-- 4. Your High Score Is Content Now -->
-      <div class="artifact-slide" data-title="Your High Score Is Content Now" data-origin="hw-screenshot" data-date="undated" data-context="A screenshot of the Angry Birds game app on my phone. It shows that there is a new high score. I'm not sure if this was my high score or my kid's. There is a Connect to FB link to play with friends." data-significance="Shows the incentive of connecting social media apps to popular mobile games." data-tags="Upgrade You,Technology,Web,Economics">
+      <!-- 4. High Scores as Content -->
+      <div class="artifact-slide" data-title="High Scores as Content" data-origin="hw-screenshot" data-date="undated" data-context="A screenshot of the Angry Birds game app on my phone. It shows that there is a new high score. I'm not sure if this was my high score or my kid's. There is a Connect to FB link to play with friends." data-significance="Shows the incentive of connecting social media apps to popular mobile games." data-tags="Upgrade U,Technology,Web,Economics">
         <img src="/assets/archive/upgrade/hw-screenshot-angrybirds.PNG" alt="Screenshot of Angry Birds game showing a new high score and a Connect to Facebook button">
       </div>
       
-      <!-- 5. The Bench That Exists to Be Photographed -->
-      <div class="artifact-slide" data-title="The Bench That Exists to Be Photographed" data-origin="hw-screenshot" data-date="12-13-2024" data-context="I was in Mexico and came across a kissing corner/bench. It was a bench with two potted plants for decoration and a sign that reads &quot;bésame en esta esquina&quot; — kiss me on this corner. A couple younger than me sat on the bench and took a picture but they didn't kiss, which is what the text is about." data-significance="I'm including it because it shows how we curate our lives for the gram with Instagrammable set ups like this." data-tags="Upgrade You,Culture,Identity,Place,Web">
+      <!-- 5. Bésame en esta esquina... -->
+      <div class="artifact-slide" data-title="Bésame en esta esquina..." data-origin="hw-screenshot" data-date="12-13-2024" data-context="I was in Mexico and came across a kissing corner/bench. It was a bench with two potted plants for decoration and a sign that reads &quot;bésame en esta esquina&quot; — kiss me on this corner. A couple younger than me sat on the bench and took a picture but they didn't kiss, which is what the text is about." data-significance="I'm including it because it shows how we curate our lives for the gram with Instagrammable set ups like this." data-tags="Upgrade U,Culture,Identity,Place,Web">
         <img src="/assets/archive/upgrade/hw-screenshot-kissingbench.jpeg" alt="Screenshot of a text message about a kissing bench in Mexico">
       </div>
       
@@ -57,8 +57,8 @@ On this page, I am collecting born-digital content. Each artifact includes where
         <img src="/assets/archive/viral/web-meme-drake.JPG" alt="Drake reaction meme from Hotline Bling video. Text reads 'When ur hotline bling but it aint the person u wanted.'">
       </div>
       
-      <!-- 9. Millennials Be Like: Zillow Dreams -->
-      <div class="artifact-slide" data-title="Millennials Be Like: Zillow Dreams" data-origin="hw-meme" data-date="07-26-2023" data-context="This is actually a meme I made, in the ___ be like ___ meme style. The text reads &quot;Millennials be like: I'm looking up Zillow listings &amp; I'm dreaming…&quot; over a picture of a still from the 1997 movie Selena. In the scene, Selena is up on the roof and her sister climbs up to sit next to her. The sister says &quot;Selena what are you doing&quot; and Selena replies &quot;I'm looking up at the moon and I'm dreaming.&quot; It's a whole wish on a star moment, which is like millennials with owning houses." data-significance="This shows meme intertextuality. And the economic downsides of being a millennial." data-tags="Going Viral,Culture,Economics,Expression,Future">
+      <!-- 9. Millennials Be Like: -->
+      <div class="artifact-slide" data-title="Millennials Be Like:" data-origin="hw-meme" data-date="07-26-2023" data-context="This is actually a meme I made, in the ___ be like ___ meme style. The text reads &quot;Millennials be like: I'm looking up Zillow listings &amp; I'm dreaming…&quot; over a picture of a still from the 1997 movie Selena. In the scene, Selena is up on the roof and her sister climbs up to sit next to her. The sister says &quot;Selena what are you doing&quot; and Selena replies &quot;I'm looking up at the moon and I'm dreaming.&quot; It's a whole wish on a star moment, which is like millennials with owning houses." data-significance="This shows meme intertextuality. And the economic downsides of being a millennial." data-tags="Going Viral,Culture,Economics,Expression,Future">
         <img src="/assets/archive/viral/hw-selena-meme.jpeg" alt="Meme in the '___ be like ___' format over a still from the 1997 film Selena">
       </div>
       
@@ -97,7 +97,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         <img src="/assets/archive/viral/hw-screenshot-froyo.JPG" alt="Screenshot of Yogurtland flyer announcing new Horchata flavor">
       </div>
 
-        <!-- #. No Inventes-->
+        <!-- 17. No Inventes-->
     <div class="artifact-slide" 
      data-title="No Inventes" 
      data-origin="hw-screenshot" 
@@ -109,15 +109,15 @@ On this page, I am collecting born-digital content. Each artifact includes where
     </div>
      
 
- <!-- #. Mr. President, sign my iPad?-->
+ <!-- 18. Mr. President, sign my iPad?-->
     <div class="artifact-slide" 
      data-title="Mr. President, sign my iPad?" 
      data-origin="web-tumblr" 
      data-date="10-22-2010" 
      data-context="This was posted to tumblr by “thedailywhat,” the original photo credit goes to “Tech Crunch,” who doesn’t have it on their website anymore. In the photo, a black man dressed in a grey t-shirt with the silloute of obama from his “HOPE” poster on it, is amonsts a crowd of people gretting President Obama. People look excited and pushing on top of each other to get closer to Obama. The man holds up an ipad in which he has drawn the text “Mr. President, sign my iPad x__________” In the companion photo, we see the screen of the ipad with Obama’s signature. " 
      data-significance="Obama was the first president to sign an iPad for a fan. iPads came out during his presidency. This photo also shows the celebrity of Obama. The first black president and all his photos are filed with diversity in the crowds. " 
-     data-tags="The Parasocial,Upgrade You,culture,politics,tech,">
-    <img src="/assets/archive/parasocial/web-tumblr-obamaipad.jpg" alt="DESCRIBE THE IMAGE">
+     data-tags="The Parasocial,Upgrade U,Witness,Documentation,Infrastructure & Exploration">
+    <img src="/assets/archive/parasocial/web-tumblr-obamaipad.jpg" alt="A photo of a man asking Obama to sign his iPad">
     </div>
 
     </div>
@@ -159,7 +159,7 @@ const tagMap = {
   'Surveillance': 'surveillance',
   'Emergence': 'emergence',
   'Threshold': 'threshold',
-  'Upgrade You': 'expression',
+  'Upgrade U': 'expression',
   'Going Viral': 'identity',
   'The Parasocial': 'expression',
   'Broken Record': 'loss',
