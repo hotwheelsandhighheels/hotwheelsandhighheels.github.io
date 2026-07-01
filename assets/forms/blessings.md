@@ -13,33 +13,73 @@ sitemap: false
   <hr>
 
   <h2>Blessings</h2>
-  <p>If you know someone whose creative work is <em>epoch-making</em>, tell me about them. These are your teachers, cousins, peers & friends, someone who posted online, a community voice or a neighbor. (Find my entry below as a sample while I work on this page.)</p>
+  <p>If you know someone whose creative work is <em>epoch-making</em>, tell me about them. These are your teachers, cousins, peers & friends, someone who posted online, a community voice or a neighbor. (Find my entry below as a sample while I work on this page.)</p>  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">Before you nominate someone:</strong> this form is for suggestions only. Submitting someone’s name does not mean they will be published, featured, contacted, or added to the archive automatically. I review nominations first, and anyone considered for a larger feature will be asked for their own consent separately.</p>
+<form action="https://formspree.io/f/xpqeggbv" method="POST" class="submit-form">
 
-  <form action="https://formspree.io/f/xpqeggbv" method="POST" class="submit-form">
+  <input type="hidden" name="_subject" value="New HW&Hh Blessings nomination">
 
-    <label for="nominee-name">Who do you want to include? <span class="form-required">*</span></label>
-    <input type="text" id="nominee-name" name="nominee-name" required>
+<label for="nominee-name">Who do you want to include? <span class="form-required">*</span></label> <input type="text" id="nominee-name" name="nominee-name" required>
 
-    <label for="epoch">What about them or their work is epoch-making? <span class="form-required">*</span></label>
-    <p class="form-hint">What did they make, build, write, or create that captures something true about life in this millennium? This could be a specific project or their entire body of work.</p>
-    <textarea id="epoch" name="epoch" rows="5" required></textarea>
+<label for="epoch">What about them or their work is epoch-making? <span class="form-required">*</span></label>
 
-    <label for="connection">How can I connect with them and/or their work? <span class="form-required">*</span></label>
-    <p class="form-hint">Website, social media, portfolio, article, or any other way to find them and what they've made.</p>
-    <textarea id="connection" name="connection" rows="3" required></textarea>
+  <p class="form-hint">What did they make, build, write, post, teach, organize, or create that captures something true about life in this millennium? This could be a specific project, a body of work, or a form of care/community memory.</p>
+  <textarea id="epoch" name="epoch" rows="5" required></textarea>
 
-    <label class="form-checkbox">
-      <input type="checkbox" name="driver-consideration" value="yes">
-      I think this person should also be considered for a Driver feature (full interview).
-    </label>
+<label for="connection">How can I find them and/or their work? <span class="form-required">*</span></label>
 
-    <input type="text" name="_gotcha" style="display:none">
+  <p class="form-hint">Website, social media, portfolio, article, public project page, or another public way to find their work. Please do not submit private contact information unless you have permission.</p>
+  <textarea id="connection" name="connection" rows="3" required></textarea>
 
-    <button type="submit" class="submit-btn">Submit ♡</button>
+<label for="relationship">How do you know them or their work? <span class="form-optional">(optional)</span></label>
 
-  </form>
+  <p class="form-hint">Friend, teacher, cousin, peer, neighbor, mutual, fan, community member, online follower, etc.</p>
+  <input type="text" id="relationship" name="relationship">
 
-  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">entries go directly to alejandra@hotwheelsandhighheels.com</p>
+<label for="sensitivity">Anything I should handle carefully? <span class="form-optional">(optional)</span></label>
+
+  <p class="form-hint">For example: name changes, privacy concerns, minors, family/community sensitivity, grief, location details, or work that should be approached gently.</p>
+  <textarea id="sensitivity" name="sensitivity" rows="3"></textarea>
+
+  <label class="form-checkbox">
+    <input type="checkbox" name="driver-consideration" value="yes">
+    I think this person should also be considered for a Driver feature, with their separate consent.
+  </label>
+
+  <fieldset class="form-fieldset">
+    <legend>Submission agreement <span class="form-required">*</span></legend>
+
+```
+<label class="form-checkbox">
+  <input type="checkbox" name="agreement_review" value="yes" required>
+  I understand this is a nomination/suggestion only and does not guarantee publication.
+</label>
+
+<label class="form-checkbox">
+  <input type="checkbox" name="agreement_public_info" value="yes" required>
+  I have provided public-facing information where possible and have not submitted private contact information without permission.
+</label>
+
+<label class="form-checkbox">
+  <input type="checkbox" name="agreement_consent" value="yes" required>
+  I understand that anyone considered for a Driver feature or larger archive entry will be asked for their own consent separately.
+</label>
+```
+
+  </fieldset>
+
+<label for="submitter-name">Your name / alias <span class="form-optional">(optional)</span></label> <input type="text" id="submitter-name" name="submitter-name">
+
+<label for="submitter-email">Your email <span class="form-optional">(optional — only if you want me to be able to follow up)</span></label> <input type="email" id="submitter-email" name="submitter-email">
+
+  <input type="text" name="_gotcha" style="display:none">
+
+<button type="submit" class="submit-btn">Submit ♡</button>
+
+</form>
+
+  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">
+  nominations are processed through Formspree and sent to alejandra@hotwheelsandhighheels.com
+</p>
 
   <hr>
   <!-- ============================================
@@ -56,7 +96,7 @@ sitemap: false
       <p>Memory worker. Poet. Building an archive of the millennial epoch from what started out as love poems to a generation.</p>
       <p class="blessing-note">If I can archive myself, I can ask others to let me archive them too.</p>
     </div>
-  </div>
+    </div>
 
   <!-- ============================================
        ADD MORE BLESSING CARDS BELOW
