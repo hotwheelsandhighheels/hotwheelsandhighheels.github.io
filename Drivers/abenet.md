@@ -99,11 +99,11 @@ Ten years ago I would have said a Jeep Wrangler, but now that I'm closer to my 3
 
 ### What parts of San Diego feel like they belong to you alone? Which places capture the essence of "true" San Diego for you, and which ones feel like they're just playing the part?
 
-<a href="/Trunk/drivers/#place"><span class="tag-place">The parts of San Diego that feel like mine alone are the streets and alleys that had something to do with molding me into who I am today. It's not one city that belongs to me, but the side street in City Heights that bleeds schools into neighborhoods, the views at the summit of Emerald Hills, Skyline and 61st, always.</span></a> 
+The parts of San Diego that feel like mine alone are the streets and alleys that had something to do with molding me into who I am today. It's not one city that belongs to me, but the side street in City Heights that bleeds schools into neighborhoods, the views at the summit of Emerald Hills, Skyline and 61st, always. 
 
 These places capture the essence of San Diego because it is where real people are and by real I mean this isn't for tourist's eyes. These are places where the everyday monotony becomes a reason to cling to life. 
 
-<a href="/Trunk/drivers/#threshold"><span class="tag-threshold">The places built for tourists to swoon and spend money are the masks. La Jolla and Coronado will never be real places to me.</span></a>
+The places built for tourists to swoon and spend money are the masks. La Jolla and Coronado will never be real places to me.
 
 ### What was it like growing up in San Diego? Was there ever a time you dreamt of leaving? If you could go anywhere, where would you go—and would you eventually find yourself back here?
 
@@ -141,11 +141,11 @@ No, but I'd like to think they grew tired of borders and followed the ocean to w
 
 ### What memories do you carry with you from Horton Plaza? What does its absence mean for you?
 
-<a href="/Trunk/drivers/#loss"><span class="tag-loss">Not this is how I find out Horton Plaza doesn't exist anymore. Next you're gonna say Seaport Village isn't a thing anymore either. Its absence, like so many other absences in San Diego now, mean gentrification and tourism, meaning we're losing more than my memories, or yours, but what made San Diego the best place to grow up.</span></a>
+Not this is how I find out Horton Plaza doesn't exist anymore. Next you're gonna say Seaport Village isn't a thing anymore either. Its absence, like so many other absences in San Diego now, mean gentrification and tourism, meaning we're losing more than my memories, or yours, but what made San Diego the best place to grow up.
 
 ### What's changed most about San Diego in the past 10 years, or even the past 20? What parts of it never change, no matter what?
 
-<a href="/Trunk/drivers/#loss"><span class="tag-loss">Personally, what's changed about San Diego in 10 years is the lack of community and third places. It doesn't feel like there's anywhere to meet up with friends and family outside for free. That could also be an effect of growing older and feeling your circle grow smaller and smaller.</span></a> 
+Personally, what's changed about San Diego in 10 years is the lack of community and third places. It doesn't feel like there's anywhere to meet up with friends and family outside for free. That could also be an effect of growing older and feeling your circle grow smaller and smaller. 
 
 It's hard to put into words the parts of San Diego that will never change. It's the vibe down here. It's both chill and entertaining. There's always something to do, but there's also stillness.
 
@@ -155,11 +155,11 @@ I think all the people who have grown close to me at one point or another in my 
 
 I think of my Somali friends in High School, my friend from Florida whose house I spent the night over every day for a week. I think of my childhood neighbor who taught me so much about sharing and kindness, or my friend across the street and how we used to ride bikes and check the street for pennies. 
 
-<a href="/Trunk/drivers/#threshold"><span class="tag-threshold">I think what makes the change unexpected to me is that they weren't lifelong friends, though at the time I would have assumed so. They were here to teach me something or change something in me at that time in my life, and move on.</span></a>
+I think what makes the change unexpected to me is that they weren't lifelong friends, though at the time I would have assumed so. They were here to teach me something or change something in me at that time in my life, and move on.
 
 ### San Diego is a blend of border life and coastal life. How do you think that mix influences your view of boundaries—personal, artistic, or cultural?
 
-<a href="/Trunk/drivers/#identity"><span class="tag-identity">To me, boundaries don't exist (my therapist would have a problem with this), but it's true. It doesn't feel like that's there and this is here anymore than the ocean tide can meet the rocks at night. The blend is effortless to true San Diegans. I think we know this isn't our land to own and dictate. The deep respect I have for other's culture is reflected in my own. I'm grateful and open to sharing and bringing in, like I've been brought in, but I always know my place.</span></a>
+To me, boundaries don't exist (my therapist would have a problem with this), but it's true. It doesn't feel like that's there and this is here anymore than the ocean tide can meet the rocks at night. The blend is effortless to true San Diegans. I think we know this isn't our land to own and dictate. The deep respect I have for other's culture is reflected in my own. I'm grateful and open to sharing and bringing in, like I've been brought in, but I always know my place.
 
 ### What's a sound unique to San Diego that instantly brings you back to a particular memory or feeling?
 
@@ -185,7 +185,7 @@ I'm constantly drawn to mouth, bend, need, desire, anything related to water, be
 
 I'll always want to push deeper into topics that aren't widely discussed or are avoided out of fear, shame, disgust, ignorance. I want what's under the surface. 
 
-<a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">One boundary I'll always keep is the one between the speaker of the poem and the poet. Poems can be extremely vulnerable, but I never want a reader to feel like they know me because they read my poems. You may know some of my story, but I'd like to think there's more to me than words.</span></a>
+One boundary I'll always keep is the one between the speaker of the poem and the poet. Poems can be extremely vulnerable, but I never want a reader to feel like they know me because they read my poems. You may know some of my story, but I'd like to think there's more to me than words.
 
 ### Do you have any superstitions about the writing process that you absolutely stick to? 
 
@@ -209,7 +209,7 @@ All of these questions were so good and ones I rarely get asked. I think I'd lik
 
 ### What crafts and hobbies do you love and take part in? Is there a specific craft or hobby you are proud of that many people might not know about you? 
 
-<a href="/Trunk/drivers/#expression"><span class="tag-expression">I love anything that has to do with creation; crocheting, scrapbooking, photography, coloring. When I was younger, I was really into DIY. I would sew and glue and make anything I wanted. I was very proud of what new things I was able to make out of the old.</span></a>
+I love anything that has to do with creation; crocheting, scrapbooking, photography, coloring. When I was younger, I was really into DIY. I would sew and glue and make anything I wanted. I was very proud of what new things I was able to make out of the old.
 
 ### Is there a place in San Diego that's woven into your memory or writing in ways that surprise you? What's the story behind it?
 
@@ -219,13 +219,13 @@ I remember the dry heat and lizards, the purple honeysuckle bushes. I can still 
 
 ### If you could pick a single street, park, or hidden corner of San Diego to write an entire collection about, where would it be? Why?
 
-<a href="/Trunk/drivers/#place"><span class="tag-place">Skyline & 61st. That's the corner of the church I was raised in. Though I'm not religious anymore, I spent a lot of time on that street, I met a lot of my lifelong friends on that street. I experienced heartbreak, love, and formed a lot of my values and beliefs. It's a complicated relationship I have with that area. It's always going to have a place in my heart, but I've also experienced a lot of trauma there.</span></a>
+Skyline & 61st. That's the corner of the church I was raised in. Though I'm not religious anymore, I spent a lot of time on that street, I met a lot of my lifelong friends on that street. I experienced heartbreak, love, and formed a lot of my values and beliefs. It's a complicated relationship I have with that area. It's always going to have a place in my heart, but I've also experienced a lot of trauma there.
 
 ### What would you write in a letter to the San Diego of your childhood, and what would you write in a letter to the San Diego of the future?
 
 To the letter of my childhood San Diego, I say thank you. I wouldn't be who I am if I wasn't running in these streets as a kid, if I wasn't brought up in these churches and schools. Thank you for teaching my tongue to love hot cheetos, chamoy, and tajin. Thank you for bridging two worlds into one, for teaching me that there's no border that could keep this land from its people. 
 
-<a href="/Trunk/drivers/#future"><span class="tag-future">San Diego of the future, my hope is that you still hold space for community, that you don't close yourself off. I want third spaces and gardens. I want more BIPOC owned businesses, small and thriving. I want children playing hopscotch at MLK park, water balloons in the summer. I hope your beaches and taco shop are still the best in California. I hope your residents are still stereotyped as chill, as calm as the Pacific.</span></a>
+San Diego of the future, my hope is that you still hold space for community, that you don't close yourself off. I want third spaces and gardens. I want more BIPOC owned businesses, small and thriving. I want children playing hopscotch at MLK park, water balloons in the summer. I hope your beaches and taco shop are still the best in California. I hope your residents are still stereotyped as chill, as calm as the Pacific.
 
 <!-- DRIVER NAVIGATION -->
 <div class="driver-nav">

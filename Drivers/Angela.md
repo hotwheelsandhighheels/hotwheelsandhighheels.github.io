@@ -62,7 +62,7 @@ image: assets/drivers/Angela_Cover.JPG
 
 ### Tell me about your favorite pair of shoes:
 
-<a href="/Trunk/drivers/#loss"><span class="tag-loss">I don't have a favorite pair of shoes but I do have a pair of shoes I often think about. My mother received her first pair of shoes as a gift from her father for her 8th birthday. She lived in Costa Rica, and played in the sugar cane fields with her sisters. Sugarcane is burned on the night before harvest in order to make the harvesting process easier. My mother went out to play one evening, took her shoes off—she wasn't used to playing in shoes so they were uncomfortable—and forgot them. The next morning she ran back for them but it was too late. They melted down.</span></a> <a href="/Trunk/drivers/#threshold"><span class="tag-threshold">Sometimes these shoes pain me, and sometimes they make me feel joy, but I think about them a lot.</span></a>
+I don't have a favorite pair of shoes but I do have a pair of shoes I often think about. My mother received her first pair of shoes as a gift from her father for her 8th birthday. She lived in Costa Rica, and played in the sugar cane fields with her sisters. Sugarcane is burned on the night before harvest in order to make the harvesting process easier. My mother went out to play one evening, took her shoes off—she wasn't used to playing in shoes so they were uncomfortable—and forgot them. The next morning she ran back for them but it was too late. They melted down. Sometimes these shoes pain me, and sometimes they make me feel joy, but I think about them a lot.
 
 ### Tell me about your favorite car: 
 
@@ -70,15 +70,15 @@ My favorite car ever is a 1970's Cadillac Eldorado Coupe. It's smooth. It's sexy
 
 ### What parts of Roseland feel like they belong to you alone? Which places capture the essence of "true" Roseland for you, and which ones feel like they're just playing the part?
 
-<a href="/Trunk/drivers/#place"><span class="tag-place">I don't think any part of Roseland belonged only to me. That's what I loved—and still love—about it so much. It was always ours; everybody's. I felt small there because there were always so many of us. My grandparents' house was full of family by sundown. My dad's check cashing joint was full of migrants sending money home to loved ones. On Sundays the streets were full of people cruising in and out of the hair salon, the joyeria, Sam's Cafe. We were all always there.</span></a>
+I don't think any part of Roseland belonged only to me. That's what I loved—and still love—about it so much. It was always ours; everybody's. I felt small there because there were always so many of us. My grandparents' house was full of family by sundown. My dad's check cashing joint was full of migrants sending money home to loved ones. On Sundays the streets were full of people cruising in and out of the hair salon, the joyeria, Sam's Cafe. We were all always there.
 
 ### What was it like growing up in Roseland? Was there ever a time you dreamt of leaving? If you could go anywhere, where would you go—and would you eventually find yourself back?
 
-<a href="/Trunk/drivers/#identity"><span class="tag-identity">Growing up in Roseland was very humbling. It wasn't a "nice" place if we're abiding by the American suburb definition. My parents sent me to school in the next town over, and the white kids there saw Roseland as ghetto. It made me see Roseland as ghetto too. I grew up to love ghetto.</span></a>
+Growing up in Roseland was very humbling. It wasn't a "nice" place if we're abiding by the American suburb definition. My parents sent me to school in the next town over, and the white kids there saw Roseland as ghetto. It made me see Roseland as ghetto too. I grew up to love ghetto.
 
 ### Tell me about your parents. What are the stories you hold about their connection to this city? Were they born here, or did life bring them here? What was Santa Rosa to them?
 
-<a href="/Trunk/drivers/#threshold"><span class="tag-threshold">My mami was born in Costa Rica and migrated on visa to the United States when she was 25, my current age. My father was born in Mexico and crossed the border without papers in the back of a white lady's van.</span></a> They met in Santa Rosa through my dad's cousin, whose wife was from my mami's hometown in Costa Rica. When my mami's visa was up, my dad asked her to marry him so she could stay. They hadn't been together for more than 6 months.
+My mami was born in Costa Rica and migrated on visa to the United States when she was 25, my current age. My father was born in Mexico and crossed the border without papers in the back of a white lady's van. They met in Santa Rosa through my dad's cousin, whose wife was from my mami's hometown in Costa Rica. When my mami's visa was up, my dad asked her to marry him so she could stay. They hadn't been together for more than 6 months.
 
 ### Which parent do you see most when you look at yourself? And what pieces of the other parent show up in ways you can't deny?
 
@@ -94,15 +94,15 @@ A physical location in Roseland that inspires my creativity is my grandparents' 
 
 ### Are there people, traditions, or stories from Roseland that you feel connected to or inspired by? Tell me about them.
 
-<a href="/Trunk/drivers/#place"><span class="tag-place">Roseland was my first example of the beauty and closeness of immigrant communities. I'm lucky to have experienced it and be a product of it. A lot of latino/a folks in the United States don't get to experience a neighborhood like that. They become removed from the cultura.</span></a> Traditions included the taco truck, western union money transfers, the intersection of Sebastopol Rd and West Ave, cowboy boots, tending rose bushes, little two door pick-up trucks, the Dollar Tree, chelas on summer nights for the adults and fresh oranges in the morning for the babies. Oh, and Foster's Freeze. I'll never stop reppin Roseland.
+Roseland was my first example of the beauty and closeness of immigrant communities. I'm lucky to have experienced it and be a product of it. A lot of latino/a folks in the United States don't get to experience a neighborhood like that. They become removed from the cultura. Traditions included the taco truck, western union money transfers, the intersection of Sebastopol Rd and West Ave, cowboy boots, tending rose bushes, little two door pick-up trucks, the Dollar Tree, chelas on summer nights for the adults and fresh oranges in the morning for the babies. Oh, and Foster's Freeze. I'll never stop reppin Roseland.
 
 There are certain places we hold sacred. For Roseland, some example, I pulled place from a google search like Roseland Creek Park or Creek Tunnels. Do any of these places resonate with you? 
 
-<a href="/Trunk/drivers/#place"><span class="tag-place">None of these places resonate with me. A lot of them are outside Roseland. This is a perfect example of one of those times where you just had to be there. You really had to be in it—</span></a><a href="/Trunk/drivers/#web"><span class="tag-web">you can't google my hood.</span></a>
+None of these places resonate with me. A lot of them are outside Roseland. This is a perfect example of one of those times where you just had to be there. You really had to be in it—you can't google my hood.
 
 ### What's changed most about Santa Rosa in the past 10 years, or even the past 20? What parts of it never change, no matter what?
 
-<a href="/Trunk/drivers/#loss"><span class="tag-loss">How much space do I have? Roseland is almost unrecognizable to me now. My grandparents' house is run down, with junk in the yard and the rose bushes have disappeared. My dad's check cashing joint of 30 years on Sebastopol Rd is a barber shop now. The dollar tree went out of business. They put in an outdoor event space that made it on the news for its food trucks and live music, but gave all the credit to the umbrella area of ritzy "Sonoma County," without even mentioning the name Roseland or people who made the hood what it is. Like my tia, whose responsible for lots of the community's gardens.</span></a>
+How much space do I have? Roseland is almost unrecognizable to me now. My grandparents' house is run down, with junk in the yard and the rose bushes have disappeared. My dad's check cashing joint of 30 years on Sebastopol Rd is a barber shop now. The dollar tree went out of business. They put in an outdoor event space that made it on the news for its food trucks and live music, but gave all the credit to the umbrella area of ritzy "Sonoma County," without even mentioning the name Roseland or people who made the hood what it is. Like my tia, whose responsible for lots of the community's gardens.
 
 ### What's a sound unique to Roseland that instantly brings you back to a particular memory or feeling?
 
@@ -110,15 +110,15 @@ The women at the taco truck calling out order numbers in Spanish. I hope they're
 
 ### Where do you go in Santa Rosa to find quiet, and how does that silence speak to you?
 
-<a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">My nana's living room floor. It's always warm and quiet there. I take naps on the carpet and there's always food to eat when I wake up.</span></a>
+My nana's living room floor. It's always warm and quiet there. I take naps on the carpet and there's always food to eat when I wake up.
 
 ### How has growing up in Santa Rosa influenced how you see yourself, especially as a Chicana?
 
-<a href="/Trunk/drivers/#identity"><span class="tag-identity">Roseland gave me my Chicana roots. We had so much Mexican culture around and so much assimilation at the same time. Growing up I watched my family become more and more Americanized while trying to hold space for our Mexican hearts. I can't talk about my Chicanidad and not mention Roseland.</span></a>
+Roseland gave me my Chicana roots. We had so much Mexican culture around and so much assimilation at the same time. Growing up I watched my family become more and more Americanized while trying to hold space for our Mexican hearts. I can't talk about my Chicanidad and not mention Roseland.
 
 ### Tell me about that moment of transcendence that sealed your destiny as a writer.
 
-<a href="/Trunk/drivers/#loss"><span class="tag-loss">I once came across one of my father's many notebooks and found a journal entry about me. I was a baby, and he described watching me sleep. He wrote about my little belly moving up and down softly with my breath.</span></a> <a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">My father wasn't—still isn't—the type to show emotion. It was the first proof I had of his heart.</span></a> <a href="/Trunk/drivers/#loss"><span class="tag-loss">I was 12 and I taped it on the back of my door. I've tried to find it over the years, but I've never been able to find it again.</span></a>
+I once came across one of my father's many notebooks and found a journal entry about me. I was a baby, and he described watching me sleep. He wrote about my little belly moving up and down softly with my breath. My father wasn't—still isn't—the type to show emotion. It was the first proof I had of his heart. I was 12 and I taped it on the back of my door. I've tried to find it over the years, but I've never been able to find it again.
 
 ### Who are your inspirations? 
 
@@ -146,7 +146,7 @@ A writing process to me is a series of adjustments. What worked for me one day m
 
 ### How does life inform your writing? How does your writing inform life? Do you think writing is more about observing life or living it? Where do you draw the line?
 
-<a href="/Trunk/drivers/#expression"><span class="tag-expression">Writing is more about living life than observing it. We live so that we have good things to write.</span></a> Observations fall flat and dull, but experiences can be made immortal through writing. Writing is also liberation, but liberation must be practiced in order to combat years of oppression, therefore we must keep writing to truly employ liberation.
+Writing is more about living life than observing it. We live so that we have good things to write. Observations fall flat and dull, but experiences can be made immortal through writing. Writing is also liberation, but liberation must be practiced in order to combat years of oppression, therefore we must keep writing to truly employ liberation.
 
 ### What question do you wish people asked you about your writing or your life that they rarely do?
 
@@ -166,11 +166,11 @@ I would really like to write a collection of short stories that take place on Se
 
 ### What would you write in a letter to the Roseland of your childhood, and what would you write in a letter to the Roseland of the future?
 
-<a href="/Trunk/drivers/#intimacy"><span class="tag-intimacy">This makes me want to tear up. To the Roseland of my childhood: I'm sorry. I love you.</span></a> <a href="/Trunk/drivers/#future"><span class="tag-future">To the Roseland of the future: We'll always remember you the way you truly were.</span></a>
+This makes me want to tear up. To the Roseland of my childhood: I'm sorry. I love you. To the Roseland of the future: We'll always remember you the way you truly were.
 
 ### What does being Chicana mean to you personally? Are there aspects of your identity that you find yourself discovering or redefining over time?
 
-<a href="/Trunk/drivers/#identity"><span class="tag-identity">Being Chicana is everything to me. It's what I'm most proud of. I'm wearing the gold bamboo hoops with my name across the middle in my predominantly white workplace because I'm Chicana down.</span></a> To me, being Chicana enacts preserving and progressing at the same time. I preserve what my Mexican culture has morphed into in this new region, especially throughout the 90s. At the same time, I progress the Mexican identity and culture into something more representative of the Mexican-American experience. My Chicanidad has created a pathway for my most authentic self to transpire, which is a complex, nuanced, mix of the cultures I was born into, as well as the cultures I've grown up around or been introduced to by loved ones.
+Being Chicana is everything to me. It's what I'm most proud of. I'm wearing the gold bamboo hoops with my name across the middle in my predominantly white workplace because I'm Chicana down. To me, being Chicana enacts preserving and progressing at the same time. I preserve what my Mexican culture has morphed into in this new region, especially throughout the 90s. At the same time, I progress the Mexican identity and culture into something more representative of the Mexican-American experience. My Chicanidad has created a pathway for my most authentic self to transpire, which is a complex, nuanced, mix of the cultures I was born into, as well as the cultures I've grown up around or been introduced to by loved ones.
 
 ### Do you feel a responsibility to represent Chicana voices in your work, or is it something that naturally finds its way in? How do you balance personal storytelling with broader cultural representation?
 
@@ -190,7 +190,7 @@ I love in Spanish. I love like my mami. Filled with fire and rage and sadness an
 
 ### What are your hopes for Chicana representation in literature? How do you want your own work to contribute to that vision?
 
-<a href="/Trunk/drivers/#identity"><span class="tag-identity">I want us to demand space. I want us to familiarize the world with our experience. I want them to see us even when they want to hide us or remove us. I hope my work demands attention in ways my person doesn't.</span></a>
+I want us to demand space. I want us to familiarize the world with our experience. I want them to see us even when they want to hide us or remove us. I hope my work demands attention in ways my person doesn't.
 
 <!-- DRIVER NAVIGATION -->
 <div class="driver-nav">

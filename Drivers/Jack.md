@@ -62,21 +62,21 @@ image: assets/drivers/Jack_Cover.jpeg
 
 ### Tell me about your favorite pair of shoes: 
 
-<a href="/Trunk/drivers/#threshold"><span class="tag-threshold">I have these cowboy boots that I probably have worn more than any other piece of clothing for the last 3 years. They were my dad's from the 80s. When I was a kid, they sat on a shelf in my room, looming over me. They never fit me as a kid, so they stayed on the shelf. A couple years ago, I was doing some spring cleaning, and there the boots were. I tried them on, they fit, and that was pretty much the end of it. I've worn them at least 3 days a week since then. There's near holes in the soles, scuffs on the points, and tears at the tops where you pull. I've bought 3 other pairs of boots that I've worn right through since then. Soles have come completely off. Parts of the leather rip and tear exposing my socks. Dad's boots are the only ones that seem to last.</span></a>
+I have these cowboy boots that I probably have worn more than any other piece of clothing for the last 3 years. They were my dad's from the 80s. When I was a kid, they sat on a shelf in my room, looming over me. They never fit me as a kid, so they stayed on the shelf. A couple years ago, I was doing some spring cleaning, and there the boots were. I tried them on, they fit, and that was pretty much the end of it. I've worn them at least 3 days a week since then. There's near holes in the soles, scuffs on the points, and tears at the tops where you pull. I've bought 3 other pairs of boots that I've worn right through since then. Soles have come completely off. Parts of the leather rip and tear exposing my socks. Dad's boots are the only ones that seem to last.
 
 ### Tell me about your favorite car: 
 
 I used to drive a 1990 Lexus es250. It was my grandfather's car, and probably the most valuable thing ever given to me. Not to say the car was particularly nice. Panels were falling off, the passenger's side door didn't open from the outside, and it perpetually smelled of old man cologne. I remember one January, it was so cold the condensation actually started to freeze on the wheel. 
 
-<a href="/Trunk/drivers/#loss"><span class="tag-loss">Its coolant pipe blew up on the I-8 two years ago, and that was the end of it. The car was so old they stopped making replacement parts for it. I drive a 2023 Kia forte now, but I still miss driving that Lexus, feeling every pebble on the road, listening to radio stations, messing with the cigarette lighter. Waiting for the windows to defrost.</span></a>
+Its coolant pipe blew up on the I-8 two years ago, and that was the end of it. The car was so old they stopped making replacement parts for it. I drive a 2023 Kia forte now, but I still miss driving that Lexus, feeling every pebble on the road, listening to radio stations, messing with the cigarette lighter. Waiting for the windows to defrost.
 
 ### What parts of San Diego feel like they belong to you alone? Which places capture the essence of "true" San Diego for you, and which ones feel like they're just playing the part?
 
-<a href="/Trunk/drivers/#place"><span class="tag-place">I think the last remnants of real San Diego reside at the trolley stations.</span></a> The San Diego I grew up in was so much more diverse and mixed. My neighborhood had all types of people, now it's mostly rich whites or the navy. When I'm riding the trolley, I see everyone on there. Working class people getting to work, sports fans, businessmen hopping in and off to different parts of the city. It's chaotic but it's nice I think. Definitely not boring.
+I think the last remnants of real San Diego reside at the trolley stations. The San Diego I grew up in was so much more diverse and mixed. My neighborhood had all types of people, now it's mostly rich whites or the navy. When I'm riding the trolley, I see everyone on there. Working class people getting to work, sports fans, businessmen hopping in and off to different parts of the city. It's chaotic but it's nice I think. Definitely not boring.
 
 ### What was it like growing up in San Diego? Was there ever a time you dreamt of leaving? If you could go anywhere, where would you go—and would you eventually find yourself back here?
 
-For a long time I didn't want to leave San Diego. Everything felt so dense and big— It would take me decades to explore every nook and cranny. Now, I'm not so sure I desire to delve into every city corner and street. <a href="/Trunk/drivers/#future"><span class="tag-future">The older I get the more I want to crawl out of my city, into other parts of the world. With all that said, however, I'm not really sure where I'm gonna end up.</span></a> I could see myself coming back after a while, I could see myself living in another part of the country, in the other part of the world.
+For a long time I didn't want to leave San Diego. Everything felt so dense and big— It would take me decades to explore every nook and cranny. Now, I'm not so sure I desire to delve into every city corner and street. The older I get the more I want to crawl out of my city, into other parts of the world. With all that said, however, I'm not really sure where I'm gonna end up. I could see myself coming back after a while, I could see myself living in another part of the country, in the other part of the world.
 
 ### Tell me about your parents. What are the stories you hold about their connection to this city? Were they born here, or did life bring them here? What was San Diego to them?
 
@@ -128,13 +128,13 @@ I think about my high school teacher Mike Crawford a lot. I wonder if I would ha
 
 ### Tell me about that moment of transcendence that made you fall in love with your medium.
 
-<a href="/Trunk/drivers/#expression"><span class="tag-expression">When I took a Polaroid of myself with a group of people a few years ago, it was the first time I realized how sad I was. It was a combo of where I was in the photo, the way the light reflected off my glasses, and most notably, how vacant my expression was. I think then I realized photography can show emotion unlike any other medium. It reproduced a vacancy and sadness almost exactly.</span></a>
+When I took a Polaroid of myself with a group of people a few years ago, it was the first time I realized how sad I was. It was a combo of where I was in the photo, the way the light reflected off my glasses, and most notably, how vacant my expression was. I think then I realized photography can show emotion unlike any other medium. It reproduced a vacancy and sadness almost exactly.
 
 ### What's a moment in your life when photography helped you understand something you couldn't put into words?
 
 When I look at photos of old friends, with me next to them, I can look into my own eyes and see, remember how I felt in that moment, whether it be sad, happy, longing. I took a self portrait 2 years ago and looking back at it, looking at how my eye bags fell and how the corners of my mouth stretched, I saw a profound sadness. 
 
-<a href="/Trunk/drivers/#threshold"><span class="tag-threshold">I think photography is a lot like looking in a mirror and seeing an old, or sometimes just different, reflection than what you're used to.</span></a>
+I think photography is a lot like looking in a mirror and seeing an old, or sometimes just different, reflection than what you're used to.
 
 ### How does San Diego's landscape, light, and culture influence your photography?
 
@@ -150,7 +150,7 @@ I know people are 'good' at Polaroid and can get consistent results, but there i
 
 ### What about the instant nature of Polaroids inspires you as an artist, especially in a time dominated by digital photography?
 
-<a href="/Trunk/drivers/#web"><span class="tag-web">You can't redo a Polaroid.</span></a> <a href="/Trunk/drivers/#threshold"><span class="tag-threshold">That's thrilling for me. What it prints out is what you get.</span></a>
+You can't redo a Polaroid. That's thrilling for me. What it prints out is what you get.
 
 ### Do you consider the imperfections in Polaroid photography—like light leaks or unexpected chemical reactions—part of the art? Can you share a favorite "happy accident" from your work?
 
@@ -190,7 +190,7 @@ Look at all of these little corners of the world, all in this one city.
 
 ### If you could pick a single street, park, or hidden corner of San Diego to shoot an entire collection about, where would it be? Why?
 
-<a href="/Trunk/drivers/#place"><span class="tag-place">I would shoot at the 12th and imperial trolley station. It's where every corner of San Diego convenes. A lot of stuff goes on right there between people.</span></a>
+I would shoot at the 12th and imperial trolley station. It's where every corner of San Diego convenes. A lot of stuff goes on right there between people.
 
 ### What made you want to teach high school, and why do you think teenagers are such important subjects—not for a camera, but for life?
 
