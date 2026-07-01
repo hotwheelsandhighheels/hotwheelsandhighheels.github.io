@@ -8,14 +8,14 @@ title: AI Reception - Hot Wheels & High Heels
 
 ## AI Reception
 
-*46 artifacts collected*
+*54 artifacts collected*
 
 *This is all the stuff I see online about generative AI and LLM's. It's mostly submission guidelines from literary establishments.*
 
 ---
 
 <!-- SLIDESHOW -->
-<div class="slideshow" id="slideshow" data-current="1" data-total="46">
+<div class="slideshow" id="slideshow" data-current="1" data-total="52">
 
   <div class="slide">
     <img src="/assets/archive/ai/huffpost.png" alt="AI submission guidelines screenshot from HuffPost">
@@ -200,6 +200,30 @@ title: AI Reception - Hot Wheels & High Heels
   <div class="slide">
     <img src="/assets/archive/ai/SHENANDOAH.png" alt="AI submission guidelines screenshot from SHENANDOAH">
     <p class="caption">SHENANDOAH</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/archive/ai/tupeloquarterly.png" alt="AI submission guidelines screenshot from Tupelo Quarterly">
+    <p class="caption">Tupelo Quarterly</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/archive/ai/orionmagazine.png" alt="AI submission guidelines screenshot from Orion Magazine">
+    <p class="caption">Orion</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/archive/ai/rustandmoth.png" alt="AI submission guidelines screenshot from Rust & Moth">
+    <p class="caption">Rust & Moth</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/archive/ai/reedmagazine.png" alt="AI submission guidelines screenshot from Reed Magazine">
+    <p class="caption">Reed Magazine</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/archive/ai/New River Journal.png" alt="AI submission guidelines screenshot from New River Journal">
+    <p class="caption">New River Journal</p>
+  </div>
+  <div class="slide">
+    <img src="/assets/archive/ai/rustandmoth.png" alt="AI submission guidelines screenshot from Rust & Moth">
+    <p class="caption">Rust & Moth</p>
   </div>
   
 <div class="slideshow-controls">
