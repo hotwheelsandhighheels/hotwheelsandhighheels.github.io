@@ -13,7 +13,7 @@ sitemap: false
   <hr>
 
   <h2>Blessings</h2>
-  <p>If you know someone whose creative work is <em>epoch-making</em>, tell me about them. These are your teachers, cousins, peers & friends, someone who posted online, a community voice or a neighbor. (Find my entry below as a sample while I work on this page.)</p>  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">Before you nominate someone:</strong> this form is for suggestions only. Submitting someone’s name does not mean they will be published, featured, contacted, or added to the archive automatically. I review nominations first, and anyone considered for a larger feature will be asked for their own consent separately.</p>
+  <p>If you know someone whose creative work is <em>epoch-making</em>, tell me about them. These are your teachers, cousins, peers & friends, someone who posted online, a community voice or a neighbor. (Find my entry below as a sample while I work on this page.)</p>  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;"><strong>Before you nominate someone:</strong> this form is for suggestions only. Submitting someone’s name does not mean they will be published, featured, contacted, or added to the archive automatically. I review nominations first, and anyone considered for a larger feature will be asked for their own consent separately.</p>
 <form action="https://formspree.io/f/xpqeggbv" method="POST" class="submit-form">
 
   <input type="hidden" name="_subject" value="New HW&Hh Blessings nomination">
