@@ -280,5 +280,5 @@ Location:
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
   <a href="/Trunk/epoch/">← Explore Timeline</a>
-  <a href="/Trunk/archive/">View Artifacts →</a>
+  <a href="/Trunk/archive/">Scroll the feed →</a>
 </div>

@@ -1,24 +1,11 @@
 ---
-layout: default
+layout: post
 title: Double Perspective
 permalink: /Trunk/dp/
 title: Double Perspective - Hot Wheels & High Heels
 ---
 
 # The Double Perspective
-
-
-This is a framework I built using Vivian Gornick's *The Situation and the Story* and Phillip Lopate's *To Show and To Tell*. It is the theory that memory requires two selves: the self that experiences the event and the self that looks back on the event. 
-
-I began studying creative non-fiction, more specifically the personal narrative, in undergrad. Between undergrad and grad school, I spent three years developing this formula by annotating through anthologies of personal narratives to really see how each piece of the partnership worked. 
-
-When I moved on to study poetry at the graduate level, I stumbled upon archival theory, upon the concept of memory work and being a memory worker. What I found is that The Double Perspective is applicable to all forms of memory work. 
-
-I am applying it now to this archive, my Drivers apply it to their memories, you can apply it to your own memory work. 
-
-*Click each row to see what the partnership produces.*
-
----
 
 <div class="double-perspective-interactive">
 
@@ -80,13 +67,12 @@ I am applying it now to this archive, my Drivers apply it to their memories, you
 
 </div>
 
-<p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">Built from Gornick and Lopate. Named and visualized by HW&Hh.</p>
+<p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">Built from Vivian Gornick's *The Situation and the Story* and Phillip Lopate's *To Show and To Tell*.<br>Click to expand</p>
 
----
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
-  <a href="/Trunk/notes/">← Dig thru the glove box</a>
+  <a href="/Trunk/scratch-paper">← Dig thru the glove box</a>
   <a href="/Trunk/connections/">Check the road map →</a>
 </div>
 

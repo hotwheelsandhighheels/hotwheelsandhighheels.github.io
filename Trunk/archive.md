@@ -7,9 +7,10 @@ title: The Social Archive - Hot Wheels & High Heels
 
 # The Social Archive
 
-On this page, I am collecting born-digital content. Each artifact includes where I got it, when I got it, why I got it, and why it matters. All tagged by theme and timeline category.
+On this page, I am collecting born-digital content. Each artifact includes where I got it, when I got it, why I got it, and why it matters. 
 
-*If you want to add something, PLEASE DO! Do not hesitate to overuse my [submission form](/submit/).*
+*I'm low on gas, fill me up <3*  
+<a href="/submit/" style="color: var(--pink); font-family: 'Lora', serif; font-size: 12pt; text-decoration: none;">Pump →</a>
 
 ---
 
@@ -309,7 +310,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
   <a href="/Trunk/drivers/">← Flag down a driver</a>
-  <a href="/Trunk/new-developments/">New artifacts →</a>
+  <a href="/Trunk/auto-chopped/">Chopped & Screwed →</a>
 </div>
 
 <script>

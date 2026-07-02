@@ -213,6 +213,6 @@ sitemap: false
 <!-- TRUNK NAVIGATION -->
 
 <div class="driver-nav">
-  <a href="/Trunk/notes/">← Dig thru the glove box</a>
+  <a href="/Trunk/scratch-paper">← Dig thru the glove box</a>
   <a href="/blessings/">Epochal Showcase →</a>
 </div>

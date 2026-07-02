@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html><!-- defines document type -->
 <html lang="en-US">
 <head><!-- the head includes all meta data -->
     <meta charset="UTF-8">
@@ -56,10 +56,10 @@
 </script>
 </head>
 
-  <body>
+  <body class="post"> <!-- this is the container for all visible content -->
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="container">
-    <nav>
+      <nav>
   <a href="/" class="nav-logo">Hot Wheels & High Heels</a>
   <button class="nav-toggle" 
           aria-label="Open menu" 
@@ -93,20 +93,8 @@ function toggleMenu() {
   btn.setAttribute('aria-label', expanded ? 'Close menu' : 'Open menu');
 }
 </script>
-  <main id="main" tabindex="-1">
-    <h1 id="the-double-perspective">The Double Perspective</h1>
-
-<p>This is a framework I built using Vivian Gornick’s <em>The Situation and the Story</em> and Phillip Lopate’s <em>To Show and To Tell</em>. It is the theory that memory requires two selves: the self that experiences the event and the self that looks back on the event.</p>
-
-<p>I began studying creative non-fiction, more specifically the personal narrative, in undergrad. Between undergrad and grad school, I spent three years developing this formula by annotating through anthologies of personal narratives to really see how each piece of the partnership worked.</p>
-
-<p>When I moved on to study poetry at the graduate level, I stumbled upon archival theory, upon the concept of memory work and being a memory worker. What I found is that The Double Perspective is applicable to all forms of memory work.</p>
-
-<p>I am applying it now to this archive, my Drivers apply it to their memories, you can apply it to your own memory work.</p>
-
-<p><em>Click each row to see what the partnership produces.</em></p>
-
-<hr />
+    <main id="main" tabindex="-1">
+      <h1 id="the-double-perspective">The Double Perspective</h1>
 
 <div class="double-perspective-interactive">
 
@@ -168,13 +156,11 @@ function toggleMenu() {
 
 </div>
 
-<p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">Built from Gornick and Lopate. Named and visualized by HW&amp;Hh.</p>
-
-<hr />
+<p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">Built from Vivian Gornick's *The Situation and the Story* and Phillip Lopate's *To Show and To Tell*.<br />Click to expand</p>
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
-  <a href="/Trunk/notes/">← Dig thru the glove box</a>
+  <a href="/Trunk/scratch-paper">← Dig thru the glove box</a>
   <a href="/Trunk/connections/">Check the road map →</a>
 </div>
 
@@ -313,10 +299,10 @@ function revealResult(row) {
 </style>
 
 
-  </main>
+    </main>
     </div>
-    <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="back-to-top">&#8593;</button>
-    <!-- light/dark mode toggle — bottom left corner, mirrors back-to-top button on right -->
+    <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="Back to top">&#8593;</button>
+      <!-- light/dark mode toggle — bottom left corner, mirrors back-to-top button on right -->
     <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">☼</button>
 <script>
   // toggleTheme() flips between dark (default) and light mode.
@@ -344,22 +330,23 @@ function revealResult(row) {
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
+function toggleInterests(el) {
+  // Find the next myspace-interests div after the parent paragraph
+  var container = el.closest('.bio-text').querySelector('.myspace-interests');
+  if (container) {
+    container.classList.toggle('open');
+  }
+}
+  // LIGHTBOX FUNCTIONS — now in layout instead of each page
+  function openLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) lightbox.classList.add('open');
+  }
 
-function selectAllText(element) {
-  var range = document.createRange();
-  var selection = window.getSelection();
-  range.selectNodeContents(element);
-  selection.removeAllRanges();
-  selection.addRange(range);
-}
-function openBlessingLightbox(src) {
-  document.getElementById('blessing-lightbox-img').src = src;
-  document.getElementById('blessing-lightbox').classList.add('open');
-}
-
-function closeBlessingLightbox() {
-  document.getElementById('blessing-lightbox').classList.remove('open');
-}
+  function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) lightbox.classList.remove('open');
+  }
 </script>
   </body>
 </html>

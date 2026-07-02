@@ -25,7 +25,10 @@
 <loc>http://localhost:4000/Trunk/archive/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Trunk/connections/</loc>
+<loc>http://localhost:4000/Trunk/auto-chopped/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Trunk/back-roads/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Trunk/dp/</loc>
@@ -52,10 +55,7 @@
 <loc>http://localhost:4000/Drivers/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Trunk/new-developments/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/Trunk/notes/</loc>
+<loc>http://localhost:4000/Trunk/scratch-paper/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/revving-up/</loc>

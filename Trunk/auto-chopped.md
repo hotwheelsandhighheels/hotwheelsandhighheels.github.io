@@ -1,10 +1,10 @@
 ---
 layout: default
-title: AI Reception
-permalink: /Trunk/new-developments/
-title: AI Reception - Hot Wheels & High Heels
+title: Auto Chopped
+permalink: /Trunk/auto-chopped/
+title: Auto Chopped - Hot Wheels & High Heels
 ---
-# New Developments
+# Auto Chopped
 
 ## AI Reception
 
@@ -729,5 +729,5 @@ function changeSlide(direction) {
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
   <a href="/Trunk/archive/">← the Social Archive</a>
-  <a href="/Trunk/connections/">Check the road map →</a>
+  <a href="/Trunk/back-roads/">Check the road map →</a>
 </div>
