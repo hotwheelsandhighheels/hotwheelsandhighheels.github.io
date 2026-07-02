@@ -40,46 +40,46 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
      id="CN-0001"
      data-x="600" data-y="400"
      data-depth="0"
-     data-children="CN-0002,CN-0003,CN-0004"
+     data-children="CN-0002,CN-0003,CN-0004,CN-0049"
      data-visible="true">
   <h3>Humans</h3>
 </div>
 
 <!-- ============================================
-     BRANCH 1: MEMORY (left, children cascade inward/down)
+     BRANCH 1: MEMORY (theme-surveillance)
      ============================================ -->
-<div class="connection-node theme-witness" 
+<div class="connection-node theme-surveillance" 
      id="CN-0002" 
-     data-x="380" data-y="300" 
+     data-x="300" data-y="280" 
      data-depth="1" 
      data-parent="CN-0001" 
      data-children="CN-0005,CN-0006">
   <h3>Memory</h3>
 </div>
 
-<!-- CHILDREN of Memory — step inward toward center -->
-<div class="connection-node theme-witness" 
+<!-- CHILDREN of Memory -->
+<div class="connection-node theme-surveillance" 
      id="CN-0005" 
-     data-x="300" data-y="220" 
+     data-x="220" data-y="200" 
      data-depth="2" 
      data-parent="CN-0002" 
      data-children="CN-0010,CN-0011,CN-0012,CN-0013">
   <h3>Memory Worker</h3>
 </div>
 
-<div class="connection-node theme-witness" 
+<div class="connection-node theme-surveillance" 
      id="CN-0006" 
-     data-x="300" data-y="420" 
+     data-x="220" data-y="400" 
      data-depth="2" 
      data-parent="CN-0002" 
      data-children="CN-0014,CN-0015">
   <h3>Memory Aids</h3>
 </div>
 
-<!-- CHILDREN of Memory Workers — step inward -->
+<!-- CHILDREN of Memory Workers -->
 <div class="connection-node theme-threshold" 
      id="CN-0010" 
-     data-x="220" data-y="120" 
+     data-x="140" data-y="100" 
      data-depth="3" 
      data-parent="CN-0005" 
      data-children="">
@@ -87,7 +87,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-threshold" 
      id="CN-0011" 
-     data-x="220" data-y="170" 
+     data-x="140" data-y="150" 
      data-depth="3" 
      data-parent="CN-0005" 
      data-children="">
@@ -95,7 +95,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-expression" 
      id="CN-0012" 
-     data-x="220" data-y="220" 
+     data-x="140" data-y="200" 
      data-depth="3" 
      data-parent="CN-0005" 
      data-children="CN-0023,CN-0024,CN-0025">
@@ -103,7 +103,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-threshold" 
      id="CN-0013" 
-     data-x="220" data-y="270" 
+     data-x="140" data-y="250" 
      data-depth="3" 
      data-parent="CN-0005" 
      data-children="">
@@ -113,7 +113,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 <!-- CHILDREN of Creatives — cascade downward -->
 <div class="connection-node theme-expression" 
      id="CN-0023" 
-     data-x="160" data-y="340" 
+     data-x="80" data-y="320" 
      data-depth="4" 
      data-parent="CN-0012" 
      data-children="CN-0027,CN-0028,CN-0029,CN-0030">
@@ -121,7 +121,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-expression" 
      id="CN-0024" 
-     data-x="300" data-y="340" 
+     data-x="220" data-y="320" 
      data-depth="4" 
      data-parent="CN-0012" 
      data-children="CN-0031,CN-0032">
@@ -129,17 +129,17 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-expression" 
      id="CN-0025" 
-     data-x="440" data-y="340" 
+     data-x="360" data-y="320" 
      data-depth="4" 
      data-parent="CN-0012" 
      data-children="CN-0033,CN-0034,CN-0035">
   <h3>Performing Artists</h3>
 </div>
 
-<!-- CHILDREN of Literary Artists — cascade down -->
+<!-- CHILDREN of Literary Artists -->
 <div class="connection-node theme-expression" 
      id="CN-0027" 
-     data-x="100" data-y="440" 
+     data-x="20" data-y="420" 
      data-depth="5" 
      data-parent="CN-0023" 
      data-children="">
@@ -147,7 +147,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-expression" 
      id="CN-0028" 
-     data-x="100" data-y="480" 
+     data-x="20" data-y="460" 
      data-depth="5" 
      data-parent="CN-0023" 
      data-children="">
@@ -155,7 +155,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-expression" 
      id="CN-0029" 
-     data-x="100" data-y="520" 
+     data-x="20" data-y="500" 
      data-depth="5" 
      data-parent="CN-0023" 
      data-children="">
@@ -163,17 +163,17 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-expression" 
      id="CN-0030" 
-     data-x="100" data-y="560" 
+     data-x="20" data-y="540" 
      data-depth="5" 
      data-parent="CN-0023" 
      data-children="">
   <h3>Nonfiction</h3>
 </div>
 
-<!-- CHILDREN of Visual Artists — cascade down -->
+<!-- CHILDREN of Visual Artists -->
 <div class="connection-node theme-expression" 
      id="CN-0031" 
-     data-x="260" data-y="440" 
+     data-x="180" data-y="420" 
      data-depth="5" 
      data-parent="CN-0024" 
      data-children="">
@@ -181,17 +181,17 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-expression" 
      id="CN-0032" 
-     data-x="340" data-y="440" 
+     data-x="260" data-y="420" 
      data-depth="5" 
      data-parent="CN-0024" 
      data-children="">
   <h3>Filmmakers</h3>
 </div>
 
-<!-- CHILDREN of Performing Artists — cascade down -->
+<!-- CHILDREN of Performing Artists -->
 <div class="connection-node theme-expression" 
      id="CN-0033" 
-     data-x="420" data-y="440" 
+     data-x="340" data-y="420" 
      data-depth="5" 
      data-parent="CN-0025" 
      data-children="">
@@ -199,7 +199,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-expression" 
      id="CN-0034" 
-     data-x="500" data-y="440" 
+     data-x="420" data-y="420" 
      data-depth="5" 
      data-parent="CN-0025" 
      data-children="">
@@ -207,17 +207,17 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-expression" 
      id="CN-0035" 
-     data-x="580" data-y="440" 
+     data-x="500" data-y="420" 
      data-depth="5" 
      data-parent="CN-0025" 
      data-children="">
   <h3>Actors</h3>
 </div>
 
-<!-- CHILDREN of Memory Aids — step inward then cascade down -->
+<!-- CHILDREN of Memory Aids -->
 <div class="connection-node theme-threshold" 
      id="CN-0014" 
-     data-x="220" data-y="500" 
+     data-x="140" data-y="480" 
      data-depth="3" 
      data-parent="CN-0006" 
      data-children="CN-0036,CN-0037,CN-0038">
@@ -225,7 +225,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-web" 
      id="CN-0015" 
-     data-x="220" data-y="580" 
+     data-x="140" data-y="560" 
      data-depth="3" 
      data-parent="CN-0006" 
      data-children="CN-0039,CN-0040,CN-0041,CN-0026">
@@ -235,7 +235,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 <!-- CHILDREN of Physical Media -->
 <div class="connection-node theme-threshold" 
      id="CN-0036" 
-     data-x="140" data-y="540" 
+     data-x="60" data-y="520" 
      data-depth="4" 
      data-parent="CN-0014" 
      data-children="">
@@ -243,7 +243,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-threshold" 
      id="CN-0037" 
-     data-x="220" data-y="540" 
+     data-x="140" data-y="520" 
      data-depth="4" 
      data-parent="CN-0014" 
      data-children="">
@@ -251,7 +251,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-threshold" 
      id="CN-0038" 
-     data-x="300" data-y="540" 
+     data-x="220" data-y="520" 
      data-depth="4" 
      data-parent="CN-0014" 
      data-children="">
@@ -261,7 +261,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 <!-- CHILDREN of Digital Media -->
 <div class="connection-node theme-web" 
      id="CN-0039" 
-     data-x="100" data-y="640" 
+     data-x="20" data-y="620" 
      data-depth="4" 
      data-parent="CN-0015" 
      data-children="">
@@ -269,7 +269,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-web" 
      id="CN-0040" 
-     data-x="200" data-y="640" 
+     data-x="120" data-y="620" 
      data-depth="4" 
      data-parent="CN-0015" 
      data-children="">
@@ -277,7 +277,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-web" 
      id="CN-0041" 
-     data-x="300" data-y="640" 
+     data-x="220" data-y="620" 
      data-depth="4" 
      data-parent="CN-0015" 
      data-children="">
@@ -285,7 +285,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-web" 
      id="CN-0026" 
-     data-x="400" data-y="640" 
+     data-x="320" data-y="620" 
      data-depth="4" 
      data-parent="CN-0015" 
      data-children="">
@@ -293,7 +293,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 
 <!-- ============================================
-     BRANCH 2: TIME (top, children step inward/down)
+     BRANCH 2: TIME
      ============================================ -->
 <div class="connection-node theme-future" 
      id="CN-0003" 
@@ -304,7 +304,6 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
   <h3>Time</h3>
 </div>
 
-<!-- CHILDREN of Time -->
 <div class="connection-node theme-future" 
      id="CN-0007" 
      data-x="600" data-y="170" 
@@ -314,7 +313,6 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
   <h3>The Epoch</h3>
 </div>
 
-<!-- CHILDREN of The Epoch -->
 <div class="connection-node theme-identity" 
      id="CN-0016" 
      data-x="600" data-y="90" 
@@ -324,7 +322,6 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
   <h3>Generations</h3>
 </div>
 
-<!-- CHILDREN of Generations -->
 <div class="connection-node theme-threshold" 
      id="CN-0017" 
      data-x="420" data-y="30" 
@@ -375,21 +372,20 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 
 <!-- ============================================
-     BRANCH 3: SPACE (right, children cascade inward/down)
+     BRANCH 3: RELATIONSHIPS (theme-witness)
      ============================================ -->
-<div class="connection-node theme-place" 
+<div class="connection-node theme-witness" 
      id="CN-0004" 
-     data-x="820" data-y="300" 
+     data-x="820" data-y="280" 
      data-depth="1" 
      data-parent="CN-0001" 
      data-children="CN-0008,CN-0009">
-  <h3>Space</h3>
+  <h3>Relationships</h3>
 </div>
 
-<!-- CHILDREN of Space — step inward -->
 <div class="connection-node theme-intimacy" 
      id="CN-0008" 
-     data-x="880" data-y="220" 
+     data-x="880" data-y="200" 
      data-depth="2" 
      data-parent="CN-0004" 
      data-children="CN-0042,CN-0043,CN-0044,CN-0045">
@@ -398,17 +394,17 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 
 <div class="connection-node theme-care" 
      id="CN-0009" 
-     data-x="880" data-y="420" 
+     data-x="880" data-y="400" 
      data-depth="2" 
      data-parent="CN-0004" 
      data-children="CN-0046,CN-0047,CN-0048">
   <h3>Lost in a Crowd</h3>
 </div>
 
-<!-- CHILDREN of Between You & I — cascade down -->
+<!-- CHILDREN of Between You & I -->
 <div class="connection-node theme-intimacy" 
      id="CN-0042" 
-     data-x="860" data-y="300" 
+     data-x="860" data-y="280" 
      data-depth="3" 
      data-parent="CN-0008" 
      data-children="">
@@ -416,7 +412,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-intimacy" 
      id="CN-0043" 
-     data-x="940" data-y="300" 
+     data-x="940" data-y="280" 
      data-depth="3" 
      data-parent="CN-0008" 
      data-children="">
@@ -424,7 +420,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-intimacy" 
      id="CN-0044" 
-     data-x="860" data-y="350" 
+     data-x="860" data-y="330" 
      data-depth="3" 
      data-parent="CN-0008" 
      data-children="">
@@ -432,17 +428,17 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-intimacy" 
      id="CN-0045" 
-     data-x="940" data-y="350" 
+     data-x="940" data-y="330" 
      data-depth="3" 
      data-parent="CN-0008" 
      data-children="">
   <h3>Self</h3>
 </div>
 
-<!-- CHILDREN of Lost in a Crowd — cascade down -->
+<!-- CHILDREN of Lost in a Crowd -->
 <div class="connection-node theme-care" 
      id="CN-0046" 
-     data-x="860" data-y="500" 
+     data-x="860" data-y="480" 
      data-depth="3" 
      data-parent="CN-0009" 
      data-children="">
@@ -450,7 +446,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-care" 
      id="CN-0047" 
-     data-x="940" data-y="500" 
+     data-x="940" data-y="480" 
      data-depth="3" 
      data-parent="CN-0009" 
      data-children="">
@@ -458,11 +454,41 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 </div>
 <div class="connection-node theme-care" 
      id="CN-0048" 
-     data-x="900" data-y="560" 
+     data-x="900" data-y="540" 
      data-depth="3" 
      data-parent="CN-0009" 
      data-children="">
   <h3>Larger Communities</h3>
+</div>
+
+<!-- ============================================
+     BRANCH 4: SPACES (theme-place)
+     ============================================ -->
+<div class="connection-node theme-place" 
+     id="CN-0049" 
+     data-x="900" data-y="500" 
+     data-depth="1" 
+     data-parent="CN-0001" 
+     data-children="CN-0050,CN-0051">
+  <h3>Spaces</h3>
+</div>
+
+<div class="connection-node theme-expression" 
+     id="CN-0050" 
+     data-x="880" data-y="580" 
+     data-depth="2" 
+     data-parent="CN-0049" 
+     data-children="">
+  <h3>Unplugged</h3>
+</div>
+
+<div class="connection-node theme-web" 
+     id="CN-0051" 
+     data-x="960" data-y="580" 
+     data-depth="2" 
+     data-parent="CN-0049" 
+     data-children="">
+  <h3>Online</h3>
 </div>
 
 <script>
@@ -477,6 +503,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     { id: 'CE-0001', from: 'CN-0001', to: 'CN-0002' },
     { id: 'CE-0002', from: 'CN-0001', to: 'CN-0003' },
     { id: 'CE-0003', from: 'CN-0001', to: 'CN-0004' },
+    { id: 'CE-0051', from: 'CN-0001', to: 'CN-0049' },
     
     // Memory → Children
     { id: 'CE-0004', from: 'CN-0002', to: 'CN-0005' },
@@ -523,7 +550,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     { id: 'CE-0042', from: 'CN-0015', to: 'CN-0041' },
     { id: 'CE-0043', from: 'CN-0015', to: 'CN-0026' },
     
-    // CROSS-CONNECTIONS: The Web also connects to The Epoch and Space
+    // CROSS-CONNECTIONS: The Web also connects to The Epoch and Relationships
     { id: 'CE-0026', from: 'CN-0007', to: 'CN-0026' },
     { id: 'CE-0027', from: 'CN-0004', to: 'CN-0026' },
     
@@ -541,7 +568,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     { id: 'CE-0018', from: 'CN-0016', to: 'CN-0021' },
     { id: 'CE-0019', from: 'CN-0016', to: 'CN-0022' },
     
-    // Space → Children
+    // Relationships → Children
     { id: 'CE-0020', from: 'CN-0004', to: 'CN-0008' },
     { id: 'CE-0021', from: 'CN-0004', to: 'CN-0009' },
     
@@ -555,6 +582,10 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     { id: 'CE-0048', from: 'CN-0009', to: 'CN-0046' },
     { id: 'CE-0049', from: 'CN-0009', to: 'CN-0047' },
     { id: 'CE-0050', from: 'CN-0009', to: 'CN-0048' },
+    
+    // Spaces → Children
+    { id: 'CE-0052', from: 'CN-0049', to: 'CN-0050' },
+    { id: 'CE-0053', from: 'CN-0049', to: 'CN-0051' },
   ];
 
   allNodes.forEach(node => {
@@ -796,7 +827,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     'CN-0001': { title: 'Humans', type: '', description: '', link: null },
     'CN-0002': { title: 'Memory', type: '', description: '', link: null },
     'CN-0003': { title: 'Time', type: '', description: '', link: null },
-    'CN-0004': { title: 'Space', type: '', description: '', link: null },
+    'CN-0004': { title: 'Relationships', type: '', description: '', link: null },
     'CN-0005': { title: 'Memory Worker', type: '', description: '', link: null },
     'CN-0006': { title: 'Memory Aids', type: '', description: '', link: null },
     'CN-0007': { title: 'The Epoch', type: '', description: '', link: null },
@@ -841,6 +872,9 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     'CN-0046': { title: 'Acquaintances', type: '', description: '', link: null },
     'CN-0047': { title: 'Networks', type: '', description: '', link: null },
     'CN-0048': { title: 'Larger Communities', type: '', description: '', link: null },
+    'CN-0049': { title: 'Spaces', type: '', description: '', link: null },
+    'CN-0050': { title: 'Unplugged', type: '', description: '', link: null },
+    'CN-0051': { title: 'Online', type: '', description: '', link: null },
   };
 
   positionNodes();
