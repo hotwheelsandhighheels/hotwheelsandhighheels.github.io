@@ -295,7 +295,6 @@ function toggleMenu() {
   const nodeClicks = {};
 
   const connections = [
-    // Center to all branches
     { from: 'node-millennial-epoch', to: 'node-double-perspective' },
     { from: 'node-millennial-epoch', to: 'node-memory' },
     { from: 'node-millennial-epoch', to: 'node-the-archive' },
@@ -309,27 +308,19 @@ function toggleMenu() {
     { from: 'node-millennial-epoch', to: 'node-cultural-systems' },
     { from: 'node-millennial-epoch', to: 'node-major-tensions' },
     { from: 'node-millennial-epoch', to: 'node-central-thesis' },
-    
-    // Double Perspective internal
     { from: 'node-double-perspective', to: 'node-experience-self' },
     { from: 'node-double-perspective', to: 'node-narrator-self' },
     { from: 'node-double-perspective', to: 'node-tension' },
     { from: 'node-double-perspective', to: 'node-archive-codetermination' },
-    
-    // Memory internal
     { from: 'node-memory', to: 'node-personal-memory' },
     { from: 'node-memory', to: 'node-collective-memory' },
     { from: 'node-memory', to: 'node-distorted-memory' },
     { from: 'node-memory', to: 'node-familial-memory' },
     { from: 'node-memory', to: 'node-witness-memory' },
-    
-    // The Archive internal
     { from: 'node-the-archive', to: 'node-traditional-archive' },
     { from: 'node-the-archive', to: 'node-digital-archive' },
     { from: 'node-the-archive', to: 'node-social-archive-concept' },
     { from: 'node-the-archive', to: 'node-archive-fever' },
-    
-    // The Drivers internal
     { from: 'node-the-drivers', to: 'node-driver-place' },
     { from: 'node-the-drivers', to: 'node-driver-loss' },
     { from: 'node-the-drivers', to: 'node-driver-intimacy' },
@@ -342,8 +333,6 @@ function toggleMenu() {
     { from: 'node-the-drivers', to: 'node-driver-surveillance' },
     { from: 'node-the-drivers', to: 'node-driver-emergence' },
     { from: 'node-the-drivers', to: 'node-driver-threshold' },
-    
-    // Memory Technologies internal
     { from: 'node-memory-technologies', to: 'node-email' },
     { from: 'node-memory-technologies', to: 'node-forums' },
     { from: 'node-memory-technologies', to: 'node-myspace' },
@@ -354,29 +343,21 @@ function toggleMenu() {
     { from: 'node-memory-technologies', to: 'node-smartphones' },
     { from: 'node-memory-technologies', to: 'node-search-engines' },
     { from: 'node-memory-technologies', to: 'node-ai' },
-    
-    // Berners-Lee's Web internal
     { from: 'node-berners-lee-web', to: 'node-hypertext' },
     { from: 'node-berners-lee-web', to: 'node-hypermedia' },
     { from: 'node-berners-lee-web', to: 'node-universal-access' },
     { from: 'node-berners-lee-web', to: 'node-future-proofing' },
     { from: 'node-berners-lee-web', to: 'node-global-authorship' },
-    
-    // Digital Archival Theory internal
     { from: 'node-digital-archival-theory', to: 'node-derrida' },
     { from: 'node-digital-archival-theory', to: 'node-manoff' },
     { from: 'node-digital-archival-theory', to: 'node-ismail' },
     { from: 'node-digital-archival-theory', to: 'node-contemporary-archive-studies' },
-    
-    // Surveillance internal
     { from: 'node-surveillance', to: 'node-snowden' },
     { from: 'node-surveillance', to: 'node-data-extraction' },
     { from: 'node-surveillance', to: 'node-algorithmic-profiling' },
     { from: 'node-surveillance', to: 'node-platform-governance' },
     { from: 'node-surveillance', to: 'node-tracking' },
     { from: 'node-surveillance', to: 'node-digital-sobriety' },
-    
-    // Born-Digital Objects internal
     { from: 'node-born-digital-objects', to: 'node-memes' },
     { from: 'node-born-digital-objects', to: 'node-screenshots' },
     { from: 'node-born-digital-objects', to: 'node-status-updates' },
@@ -384,22 +365,16 @@ function toggleMenu() {
     { from: 'node-born-digital-objects', to: 'node-videos' },
     { from: 'node-born-digital-objects', to: 'node-photo-dumps' },
     { from: 'node-born-digital-objects', to: 'node-comments' },
-    
-    // Memory Workers internal
     { from: 'node-memory-workers', to: 'node-archivists' },
     { from: 'node-memory-workers', to: 'node-researchers' },
     { from: 'node-memory-workers', to: 'node-writers' },
     { from: 'node-memory-workers', to: 'node-poets' },
     { from: 'node-memory-workers', to: 'node-families' },
     { from: 'node-memory-workers', to: 'node-everyday-users' },
-    
-    // Cultural Systems internal
     { from: 'node-cultural-systems', to: 'node-going-viral' },
     { from: 'node-cultural-systems', to: 'node-parasocial' },
     { from: 'node-cultural-systems', to: 'node-upgrade-you' },
     { from: 'node-cultural-systems', to: 'node-between-you-and-i' },
-    
-    // CROSS-CONNECTIONS
     { from: 'node-double-perspective', to: 'node-memory' },
     { from: 'node-double-perspective', to: 'node-the-archive' },
     { from: 'node-double-perspective', to: 'node-the-drivers' },
@@ -432,7 +407,6 @@ function toggleMenu() {
     { from: 'node-major-tensions', to: 'node-surveillance' },
   ];
 
-  // Hide all nodes except center on load
   allNodes.forEach(node => {
     if (node.id !== 'node-millennial-epoch') {
       node.style.display = 'none';
@@ -466,7 +440,6 @@ function toggleMenu() {
       const child = document.getElementById(id.trim());
       if (child) {
         child.style.display = 'none';
-        // Also hide grandchildren
         const grandKids = child.getAttribute('data-children');
         if (grandKids) {
           grandKids.split(',').forEach(gid => {
@@ -474,7 +447,6 @@ function toggleMenu() {
             if (gchild) gchild.style.display = 'none';
           });
         }
-        // Reset click counter for hidden nodes
         nodeClicks[id.trim()] = 0;
       }
     });
@@ -635,28 +607,23 @@ function toggleMenu() {
     const step = nodeClicks[id];
     const hasChildren = node.getAttribute('data-children');
     
-    // Step 1: Unfold children
     if (step === 1 && hasChildren) {
       showChildren(id);
     }
     
-    // Step 2: Show preview
     if (step === 2) {
       showPreview(node);
     }
     
-    // Step 3: Close preview
     if (step === 3) {
       closePreview();
     }
     
-    // Step 4: Fold children back, reset counter
     if (step === 4 && hasChildren) {
       hideChildren(id);
       nodeClicks[id] = 0;
     }
     
-    // If no children, just toggle preview on clicks 1 and 2, reset on 3
     if (!hasChildren) {
       if (step === 1) {
         showPreview(node);
@@ -667,98 +634,88 @@ function toggleMenu() {
     }
   });
 
-    const previewData = {
-    'node-millennial-epoch': {
-      title: 'The Millennial Epoch',
-      type: 'Center',
-      description: 'A series of overlapping transformations in technology, politics, economics, and culture that changed the conditions of life for millennials and everyone after.',
-      link: '/Trunk/epoch/'
-    },
-    'node-double-perspective': {
-      title: 'Double Perspective',
-      type: 'Framework',
-      description: 'A framework for memory. Experience Self + Narrator Self = Double Perspective. Built from Gornick and Lopate.',
-      link: '/Trunk/dp/'
-    },
-    'node-experience-self': { title: 'Experience Self', type: 'Concept', description: 'Lives in the past. Reacts in present time. Has blind spots. Performs objectivity — as close to the facts as you experienced them.', link: null },
-    'node-narrator-self': { title: 'Narrator Self', type: 'Concept', description: 'Lives in the present. Organizes chaos. Is self-aware. Performs subjectivity — interprets through a lens. Owes authenticity, not factual evidence.', link: null },
-    'node-tension': { title: 'Tension', type: 'Concept', description: 'What happened vs what was recorded. What I remember vs what the archive preserves. Personal meaning vs collective meaning.', link: null },
-    'node-archive-codetermination': { title: 'Archive Codetermination', type: 'Concept', description: 'The archive influences memory. Retrieval changes recollection. Search engines privilege certain traces. Platforms determine visibility. Documentation becomes memory.', link: null },
-    'node-memory': { title: 'Memory', type: 'Branch', description: 'The raw material of the archive. Personal, collective, distorted, familial. Memory is never singular, never stable, never finished.', link: null },
-    'node-personal-memory': { title: 'Personal Memory', type: 'Concept', description: 'What you remember without looking anything up. Camera rolls, screenshots, text messages, voice notes — the unaided recollection of your own life.', link: null },
-    'node-collective-memory': { title: 'Collective Memory', type: 'Concept', description: 'The shared memory of a generation. Memes, viral culture, shared internet experiences. What we remember together — or think we do.', link: null },
-    'node-distorted-memory': { title: 'Distorted Memory', type: 'Concept', description: 'What happens when the archive codetermines what you remember. False recollection. Search engines shaping recall. The internet telling you what happened.', link: null },
-    'node-familial-memory': { title: 'Familial Memory', type: 'Concept', description: 'Email threads, Google Groups, family photos, intergenerational preservation. Who keeps the family archive? Who gets to tell the family story?', link: null },
-    'node-witness-memory': { title: 'Witness', type: 'Concept', description: 'Being seen. Recording. Archiving. Testimony. Memory as evidence that something happened.', link: null },
-    'node-the-archive': { title: 'The Archive', type: 'Branch', description: 'The institution, the theory, the practice. From the arkheion to the cloud — who stores memory, who interprets it, who decides what survives.', link: '/Trunk/archive/' },
-    'node-traditional-archive': { title: 'Traditional Archive', type: 'Concept', description: 'Fixed in time and space. Unique, authentic, secured. The arkheion — residence of the archons, house of authority.', link: null },
-    'node-digital-archive': { title: 'Digital Archive', type: 'Concept', description: 'Dynamic, networked, participatory, global. What happens when the archive leaves the building and lives on servers.', link: null },
-    'node-social-archive-concept': { title: 'Social Archive', type: 'Concept', description: 'User-generated memory. Metadata as artifact. Platform traces as historical record. Everyday people creating the archive without knowing it.', link: '/Trunk/archive/' },
-    'node-archive-fever': { title: 'Archive Fever', type: 'Concept', description: 'Derrida\'s concept. The compulsive need to record, preserve, return to the origin.', link: null },
-    'node-the-drivers': { title: 'The Drivers', type: 'Collection', description: 'Millennial experience is place, loss, intimacy, web, identity, expression, future, care, witness, surveillance, emergence, threshold.', link: '/Trunk/drivers/' },
-    'node-driver-place': { title: 'Place', type: 'Theme', description: 'Neighborhoods, local identity, belonging, gentrification. "You can\'t google my hood."', link: '/Trunk/drivers/#place' },
-    'node-driver-loss': { title: 'Loss', type: 'Theme', description: 'Demolished places, lost records, disappearing communities, vanished internet traces.', link: '/Trunk/drivers/#loss' },
-    'node-driver-intimacy': { title: 'Intimacy', type: 'Theme', description: 'Family, friendship, vulnerability, private memory.', link: '/Trunk/drivers/#intimacy' },
-    'node-driver-web': { title: 'Web', type: 'Theme', description: 'Platforms, searchability, digital mediation, algorithmic memory.', link: '/Trunk/drivers/#web' },
-    'node-driver-identity': { title: 'Identity', type: 'Theme', description: 'Culture, race, gender, class, self-construction.', link: '/Trunk/drivers/#identity' },
-    'node-driver-expression': { title: 'Expression', type: 'Theme', description: 'Poetry, art, memes, creative meaning-making.', link: '/Trunk/drivers/#expression' },
-    'node-driver-future': { title: 'Future', type: 'Theme', description: 'Hope, preservation, community futures, technological futures.', link: '/Trunk/drivers/#future' },
-    'node-driver-care': { title: 'Care', type: 'Theme', description: 'Mutual support, community, love, responsibility.', link: '/Trunk/drivers/#care' },
-    'node-driver-witness': { title: 'Witness', type: 'Theme', description: 'Observation, documentation, memorialization, testimony.', link: '/Trunk/drivers/#witness' },
-    'node-driver-surveillance': { title: 'Surveillance', type: 'Theme', description: 'Platforms, data collection, visibility, tech power.', link: '/Trunk/drivers/#surveillance' },
-    'node-driver-emergence': { title: 'Emergence', type: 'Theme', description: 'New cultural forms, new technologies, new communities, new identities taking shape.', link: '/Trunk/drivers/#emergence' },
-    'node-driver-threshold': { title: 'Threshold', type: 'Theme', description: 'Migration, generational transition, analog to digital, past to future.', link: '/Trunk/drivers/#threshold' },
-    'node-memory-technologies': { title: 'Memory Technologies', type: 'Branch', description: 'The tools that shape how we remember. Each technology codetermines our memory.', link: null },
-    'node-email': { title: 'Email', type: 'Technology', description: 'The archive we don\'t think of as an archive. Family threads, birth announcements, durable personal recordkeeping.', link: null },
-    'node-forums': { title: 'Forums', type: 'Technology', description: 'Bulletin boards, Reddit, Discord.', link: null },
-    'node-myspace': { title: 'MySpace', type: 'Platform', description: 'The first social network for millennials. Customizable, chaotic, intimate. Like inviting a friend into your bedroom.', link: null },
-    'node-facebook': { title: 'Facebook', type: 'Platform', description: 'A global archive of everyday life and one of the largest corporations on earth.', link: null },
-    'node-twitter': { title: 'Twitter / X', type: 'Platform', description: 'Short-form public discourse. A case study in what happens when one person buys the archive.', link: null },
-    'node-instagram': { title: 'Instagram', type: 'Platform', description: 'Photo sharing as curated performance. Everyday life as searchable visual archive.', link: null },
-    'node-tiktok': { title: 'TikTok', type: 'Platform', description: 'Algorithmic discovery. The first platform the U.S. government tried to ban.', link: null },
-    'node-smartphones': { title: 'Smartphones', type: 'Technology', description: 'A computer, camera, microphone, GPS tracker in your hand. Everyday life is documented experience.', link: null },
-    'node-search-engines': { title: 'Search Engines', type: 'Technology', description: 'The gatekeepers of digital memory. Google\'s algorithm shapes what we find, trust, and forget.', link: null },
-    'node-ai': { title: 'AI', type: 'Technology', description: 'Artificial intelligence reshaping authorship, labor, and what it means to create.', link: null },
-    'node-berners-lee-web': { title: 'Berners-Lee\'s Web', type: 'Branch', description: 'The vision: a universally linked information system. Hypertext, universal access, free to everyone.', link: null },
-    'node-hypertext': { title: 'Hypertext', type: 'Concept', description: 'Human-readable information linked in an unconstrained way.', link: null },
-    'node-hypermedia': { title: 'Hypermedia', type: 'Concept', description: 'The expansion of hypertext to graphics, sound, video.', link: null },
-    'node-universal-access': { title: 'Universal Access', type: 'Concept', description: 'Everyone should be able to read the web.', link: null },
-    'node-future-proofing': { title: 'Future-Proofing', type: 'Concept', description: 'Information should outlast the systems that created it.', link: null },
-    'node-global-authorship': { title: 'Global Authorship', type: 'Concept', description: 'Everyone should be able to write to the web.', link: null },
-    'node-digital-archival-theory': { title: 'Digital Archival Theory', type: 'Branch', description: 'The scholars studying what happens when archives go online.', link: '/Trunk/notes/' },
-    'node-derrida': { title: 'Derrida', type: 'Researcher', description: 'Wrote Archive Fever. The archive begins as a house of authority. The death drive haunts every act of preservation.', link: null },
-    'node-manoff': { title: 'Manoff', type: 'Researcher', description: 'Archives are not neutral. There is no political power without control of the archive, if not memory.', link: null },
-    'node-ismail': { title: 'Ismail', type: 'Researcher', description: 'Born-digital memes as archival discourse. Virality, mutability, intertextuality.', link: null },
-    'node-contemporary-archive-studies': { title: 'Contemporary Studies', type: 'Concept', description: 'Metadata standards, FAIR principles, preservation ethics, ownership disputes, sustainability.', link: null },
-    'node-surveillance': { title: 'Surveillance', type: 'Branch', description: 'The other side of the archive. Who\'s watching, what they\'re collecting, what visibility costs.', link: null },
-    'node-snowden': { title: 'Snowden', type: 'Event', description: 'Revealed extensive government surveillance. Changed the conversation about privacy and the state.', link: null },
-    'node-data-extraction': { title: 'Data Extraction', type: 'Concept', description: 'The business model of the internet. Every click, scroll, pause is harvested, packaged, sold.', link: null },
-    'node-algorithmic-profiling': { title: 'Algorithmic Profiling', type: 'Concept', description: 'The version of you built from data.', link: null },
-    'node-platform-governance': { title: 'Platform Governance', type: 'Concept', description: 'Content moderation, bans, API access.', link: null },
-    'node-tracking': { title: 'Tracking', type: 'Concept', description: 'Cookies, pixels, fingerprints. Invisible infrastructure that follows you across the web.', link: null },
-    'node-digital-sobriety': { title: 'Digital Sobriety', type: 'Concept', description: 'Using technology with more intention, less extraction. The archived web only survived about 30 years.', link: null },
-    'node-born-digital-objects': { title: 'Born-Digital Objects', type: 'Branch', description: 'Content created in digital form that was never physical. The raw material of the social archive.', link: null },
-    'node-memes': { title: 'Memes', type: 'Object', description: 'Cultural units of transmission. Virality, mutability, intertextuality. Collective memory in image form.', link: null },
-    'node-screenshots': { title: 'Screenshots', type: 'Object', description: 'Capturing a moment before it disappears. The primary tool of the lay archivist.', link: null },
-    'node-status-updates': { title: 'Status Updates', type: 'Object', description: 'The original social media artifact. Away messages, Facebook statuses, tweets. Broadcasting the self.', link: null },
-    'node-stories': { title: 'Stories', type: 'Object', description: 'Ephemeral content that disappears in 24 hours. Memory with an expiration date.', link: null },
-    'node-videos': { title: 'Videos', type: 'Object', description: 'YouTube, TikTok, Reels. Video as documentation, entertainment, evidence.', link: null },
-    'node-photo-dumps': { title: 'Photo Dumps', type: 'Object', description: 'The anti-curated post. The mess of real life presented as aesthetic.', link: null },
-    'node-comments': { title: 'Comments', type: 'Object', description: 'The layer beneath the content. Conversation, argument, community. The archive\'s footnotes.', link: null },
-    'node-memory-workers': { title: 'Memory Workers', type: 'Branch', description: 'Anyone who records, preserves, interprets, or transmits memory. The people doing the work of the archive.', link: '/Trunk/drivers/' },
-    'node-archivists': { title: 'Archivists', type: 'Role', description: 'The professionals. Trained in preservation, organization, access.', link: null },
-    'node-researchers': { title: 'Researchers', type: 'Role', description: 'Academics studying memory, archives, digital culture. Building the theory.', link: null },
-    'node-writers': { title: 'Writers', type: 'Role', description: 'Memory workers who use language as their medium. Turning experience into art.', link: '/Drivers/' },
-    'node-poets': { title: 'Poets', type: 'Role', description: 'Language at its most compressed and precise. "I thought poetry was what you went to when you wanted to talk about what you thought god was."', link: '/Drivers/' },
-    'node-families': { title: 'Families', type: 'Role', description: 'The original memory workers. Who keeps the photos? Who tells the stories?', link: null },
-    'node-everyday-users': { title: 'Everyday Users', type: 'Role', description: 'Anyone who posts, shares, screenshots, saves. Creating the archive without knowing it.', link: null },
-    'node-cultural-systems': { title: 'Cultural Systems', type: 'Branch', description: 'The patterns that organize how culture moves through the epoch. Virality, parasocial relationships, technological adoption, intimate exchange.', link: null },
-    'node-going-viral': { title: 'Going Viral', type: 'System', description: 'Memes, remix culture, intertextuality, emotional shorthand. How culture spreads through networks.', link: '/Trunk/archive/' },
-    'node-parasocial': { title: 'Parasocial', type: 'System', description: 'Celebrity intimacy, influencers, personal brands, audience relationships. When strangers feel like friends.', link: '/Trunk/archive/' },
-    'node-upgrade-you': { title: 'Upgrade You', type: 'System', description: 'Mobile technology, apps, platform adoption, digital infrastructure. The updates pushed on us whether we asked or not.', link: '/Trunk/archive/' },
-    'node-between-you-and-i': { title: 'Between You & I', type: 'System', description: 'Local memory, personal history, family stories, ownership of memory. The intimate moments meant for specific people.', link: '/Trunk/archive/' },
-    'node-major-tensions': { title: 'Major Tensions', type: 'Branch', description: 'The oppositions that structure the epoch. Memory vs documentation. Human vs platform. Local vs global. Public vs private. Preservation vs disappearance. Community vs extraction. Authenticity vs performance. Witness vs surveillance. Nostalgia vs futurity.', link: null },
-    'node-central-thesis': { title: 'Central Thesis', type: 'Branch', description: 'Millennials experienced a unique transition from analog memory systems to digital ones. Everyday artifacts reveal epoch-scale cultural transformation. Platforms became memory infrastructure. Personal archives are historical archives.', link: null }
+  const previewData = {
+    'node-millennial-epoch': { title: 'The Millennial Epoch', type: '', description: '', link: '/Trunk/epoch/' },
+    'node-double-perspective': { title: 'Double Perspective', type: '', description: '', link: '/Trunk/dp/' },
+    'node-experience-self': { title: 'Experience Self', type: '', description: '', link: null },
+    'node-narrator-self': { title: 'Narrator Self', type: '', description: '', link: null },
+    'node-tension': { title: 'Tension', type: '', description: '', link: null },
+    'node-archive-codetermination': { title: 'Archive Codetermination', type: '', description: '', link: null },
+    'node-memory': { title: 'Memory', type: '', description: '', link: null },
+    'node-personal-memory': { title: 'Personal Memory', type: '', description: '', link: null },
+    'node-collective-memory': { title: 'Collective Memory', type: '', description: '', link: null },
+    'node-distorted-memory': { title: 'Distorted Memory', type: '', description: '', link: null },
+    'node-familial-memory': { title: 'Familial Memory', type: '', description: '', link: null },
+    'node-witness-memory': { title: 'Witness', type: '', description: '', link: null },
+    'node-the-archive': { title: 'The Archive', type: '', description: '', link: '/Trunk/archive/' },
+    'node-traditional-archive': { title: 'Traditional Archive', type: '', description: '', link: null },
+    'node-digital-archive': { title: 'Digital Archive', type: '', description: '', link: null },
+    'node-social-archive-concept': { title: 'Social Archive', type: '', description: '', link: '/Trunk/archive/' },
+    'node-archive-fever': { title: 'Archive Fever', type: '', description: '', link: null },
+    'node-the-drivers': { title: 'The Drivers', type: '', description: '', link: '/Trunk/drivers/' },
+    'node-driver-place': { title: 'Place', type: '', description: '', link: '/Trunk/drivers/#place' },
+    'node-driver-loss': { title: 'Loss', type: '', description: '', link: '/Trunk/drivers/#loss' },
+    'node-driver-intimacy': { title: 'Intimacy', type: '', description: '', link: '/Trunk/drivers/#intimacy' },
+    'node-driver-web': { title: 'Web', type: '', description: '', link: '/Trunk/drivers/#web' },
+    'node-driver-identity': { title: 'Identity', type: '', description: '', link: '/Trunk/drivers/#identity' },
+    'node-driver-expression': { title: 'Expression', type: '', description: '', link: '/Trunk/drivers/#expression' },
+    'node-driver-future': { title: 'Future', type: '', description: '', link: '/Trunk/drivers/#future' },
+    'node-driver-care': { title: 'Care', type: '', description: '', link: '/Trunk/drivers/#care' },
+    'node-driver-witness': { title: 'Witness', type: '', description: '', link: '/Trunk/drivers/#witness' },
+    'node-driver-surveillance': { title: 'Surveillance', type: '', description: '', link: '/Trunk/drivers/#surveillance' },
+    'node-driver-emergence': { title: 'Emergence', type: '', description: '', link: '/Trunk/drivers/#emergence' },
+    'node-driver-threshold': { title: 'Threshold', type: '', description: '', link: '/Trunk/drivers/#threshold' },
+    'node-memory-technologies': { title: 'Memory Technologies', type: '', description: '', link: null },
+    'node-email': { title: 'Email', type: '', description: '', link: null },
+    'node-forums': { title: 'Forums', type: '', description: '', link: null },
+    'node-myspace': { title: 'MySpace', type: '', description: '', link: null },
+    'node-facebook': { title: 'Facebook', type: '', description: '', link: null },
+    'node-twitter': { title: 'Twitter / X', type: '', description: '', link: null },
+    'node-instagram': { title: 'Instagram', type: '', description: '', link: null },
+    'node-tiktok': { title: 'TikTok', type: '', description: '', link: null },
+    'node-smartphones': { title: 'Smartphones', type: '', description: '', link: null },
+    'node-search-engines': { title: 'Search Engines', type: '', description: '', link: null },
+    'node-ai': { title: 'AI', type: '', description: '', link: null },
+    'node-berners-lee-web': { title: "Berners-Lee's Web", type: '', description: '', link: null },
+    'node-hypertext': { title: 'Hypertext', type: '', description: '', link: null },
+    'node-hypermedia': { title: 'Hypermedia', type: '', description: '', link: null },
+    'node-universal-access': { title: 'Universal Access', type: '', description: '', link: null },
+    'node-future-proofing': { title: 'Future-Proofing', type: '', description: '', link: null },
+    'node-global-authorship': { title: 'Global Authorship', type: '', description: '', link: null },
+    'node-digital-archival-theory': { title: 'Digital Archival Theory', type: '', description: '', link: '/Trunk/notes/' },
+    'node-derrida': { title: 'Derrida', type: '', description: '', link: null },
+    'node-manoff': { title: 'Manoff', type: '', description: '', link: null },
+    'node-ismail': { title: 'Ismail', type: '', description: '', link: null },
+    'node-contemporary-archive-studies': { title: 'Contemporary Studies', type: '', description: '', link: null },
+    'node-surveillance': { title: 'Surveillance', type: '', description: '', link: null },
+    'node-snowden': { title: 'Snowden', type: '', description: '', link: null },
+    'node-data-extraction': { title: 'Data Extraction', type: '', description: '', link: null },
+    'node-algorithmic-profiling': { title: 'Algorithmic Profiling', type: '', description: '', link: null },
+    'node-platform-governance': { title: 'Platform Governance', type: '', description: '', link: null },
+    'node-tracking': { title: 'Tracking', type: '', description: '', link: null },
+    'node-digital-sobriety': { title: 'Digital Sobriety', type: '', description: '', link: null },
+    'node-born-digital-objects': { title: 'Born-Digital Objects', type: '', description: '', link: null },
+    'node-memes': { title: 'Memes', type: '', description: '', link: null },
+    'node-screenshots': { title: 'Screenshots', type: '', description: '', link: null },
+    'node-status-updates': { title: 'Status Updates', type: '', description: '', link: null },
+    'node-stories': { title: 'Stories', type: '', description: '', link: null },
+    'node-videos': { title: 'Videos', type: '', description: '', link: null },
+    'node-photo-dumps': { title: 'Photo Dumps', type: '', description: '', link: null },
+    'node-comments': { title: 'Comments', type: '', description: '', link: null },
+    'node-memory-workers': { title: 'Memory Workers', type: '', description: '', link: '/Trunk/drivers/' },
+    'node-archivists': { title: 'Archivists', type: '', description: '', link: null },
+    'node-researchers': { title: 'Researchers', type: '', description: '', link: null },
+    'node-writers': { title: 'Writers', type: '', description: '', link: '/Drivers/' },
+    'node-poets': { title: 'Poets', type: '', description: '', link: '/Drivers/' },
+    'node-families': { title: 'Families', type: '', description: '', link: null },
+    'node-everyday-users': { title: 'Everyday Users', type: '', description: '', link: null },
+    'node-cultural-systems': { title: 'Cultural Systems', type: '', description: '', link: null },
+    'node-going-viral': { title: 'Going Viral', type: '', description: '', link: '/Trunk/archive/' },
+    'node-parasocial': { title: 'Parasocial', type: '', description: '', link: '/Trunk/archive/' },
+    'node-upgrade-you': { title: 'Upgrade You', type: '', description: '', link: '/Trunk/archive/' },
+    'node-between-you-and-i': { title: 'Between You & I', type: '', description: '', link: '/Trunk/archive/' },
+    'node-major-tensions': { title: 'Major Tensions', type: '', description: '', link: null },
+    'node-central-thesis': { title: 'Central Thesis', type: '', description: '', link: null }
   };
 
   positionNodes();

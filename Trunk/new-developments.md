@@ -25,9 +25,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="AI disclosure / search feature notice"
-    data-policy-topic="AI search, OpenAI, accuracy warning"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="AI search, OpenAI, accuracy warning">
     <img src="/assets/archive/ai/huffpost.png" alt="AI submission guidelines screenshot from HuffPost" loading="lazy">
     <p class="caption">HuffPost<br>The website's search feature is powered by OpenAI and contains a warning about possible inaccuracies.</p>
   </div>
@@ -40,9 +38,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="AI-generated content ban, permanent ban, no AI tools"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="AI-generated content ban, permanent ban, no AI tools">
     <img src="/assets/archive/ai/chestnutreview.png" alt="AI submission guidelines screenshot from Chestnut Review" loading="lazy">
     <p class="caption">Chestnut Review<br>Promises to permanently ban any author whose work is discovered or identified as AI-generated.<br>Also promises that they do not use AI tools.</p>
   </div>
@@ -55,9 +51,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="AI-generated content lacks integrity"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="AI-generated content lacks integrity">
     <img src="/assets/archive/ai/bluehorsepress.png" alt="AI submission guidelines screenshot from Bluehorse Press" loading="lazy">
     <p class="caption">Bluehorse Press<br>With an emphasis, AI-generated content lacks integrity.</p>
   </div>
@@ -70,9 +64,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="AI voices, diversity, no AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="AI voices, diversity, no AI">
     <img src="/assets/archive/ai/cleavermagazine.png" alt="AI submission guidelines screenshot from Cleaver Magazine" loading="lazy">
     <p class="caption">Cleaver Magazine<br>Diversity does not include AI "voices"</p>
   </div>
@@ -85,9 +77,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="AI not interested, collage, cento"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="AI not interested, collage, cento">
     <img src="/assets/archive/ai/indianapolisreview.png" alt="AI submission guidelines screenshot from Indianapolis Review" loading="lazy">
     <p class="caption">Indianapolis Review<br>NOT interested, unless something like a collage or a cento.</p>
   </div>
@@ -100,9 +90,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Be your own judge, disclosure"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Be your own judge, disclosure">
     <img src="/assets/archive/ai/raleighreview.png" alt="AI submission guidelines screenshot from Raleigh Review" loading="lazy">
     <p class="caption">Raleigh Review<br>YOU be your own judge & be upfront.</p>
   </div>
@@ -115,9 +103,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published="2026"
     data-document-type="Academic citation / book reference"
-    data-policy-topic="Turing test, human witness, machine intelligence"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Turing test, human witness, machine intelligence">
     <img src="/assets/archive/ai/B. Christian.png" alt="Cited in the recent publication Large language models pass a standard three-party Turing Test by C.R. Jones & B.K. Bergen: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass." loading="lazy">
     <p class="caption">Cited in the recent publication, "Large language models pass a standard three-party Turing Test" C.R. Jones & B.K. Bergen 2026: In an account of his experience as a human witness for a Turing test competition, Brian Christian considered what it would mean for a machine to pass.<br><br>B. Christian, The Most Human Human: What Talking with Computers Teaches Us about What It Means to Be Alive (Anchor, 2011).</p>
   </div>
@@ -130,9 +116,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Tried AI, didn't like it"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Tried AI, didn't like it">
     <img src="/assets/archive/ai/Afterdinnerconversation.png" alt="AI submission guidelines screenshot from After Dinner Conversation" loading="lazy">
     <p class="caption">After Dinner Conversation<br>Tried it, didn't like it.</p>
   </div>
@@ -145,9 +129,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/AlternativeMilkMagazine.png" alt="AI submission guidelines screenshot from Alternative Milk Magazine" loading="lazy">
     <p class="caption">Alternative Milk Magazine</p>
   </div>
@@ -160,9 +142,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="AI is mad annoying"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="AI is mad annoying">
     <img src="/assets/archive/ai/BaltimoreReview.png" alt="AI submission guidelines screenshot from Baltimore Review" loading="lazy">
     <p class="caption">Baltimore Review<br>AI is mad annoying bro</p>
   </div>
@@ -175,9 +155,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/BrevityMagazine.png" alt="AI submission guidelines screenshot from Brevity Magazine" loading="lazy">
     <p class="caption">Brevity Magazine</p>
   </div>
@@ -190,9 +168,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Strictly forbidden"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Strictly forbidden">
     <img src="/assets/archive/ai/EpistemicLit.png" alt="AI submission guidelines screenshot from Epistemic Lit" loading="lazy">
     <p class="caption">Epistemic Lit<br><b>Strictly</b> forbidden</p>
   </div>
@@ -205,9 +181,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="In whole, in part, or in any way"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="In whole, in part, or in any way">
     <img src="/assets/archive/ai/EtSequiturMagazine.png" alt="AI submission guidelines screenshot from Et Sequitur Magazine" loading="lazy">
     <p class="caption">Et Sequitur Magazine<br>In whole, in part, or in any way.</p>
   </div>
@@ -220,9 +194,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Only human, with the typos"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Only human, with the typos">
     <img src="/assets/archive/ai/GlassJournalofPoetry.png" alt="AI submission guidelines screenshot from Glass: A Journal of Poetry" loading="lazy">
     <p class="caption">Glass: A Journal of Poetry<br>Only human, with the typos</p>
   </div>
@@ -235,9 +207,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/HexLiterary.png" alt="AI submission guidelines screenshot from Hex Literary" loading="lazy">
     <p class="caption">Hex Literary</p>
   </div>
@@ -250,9 +220,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="YOU are the visuals"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="YOU are the visuals">
     <img src="/assets/archive/ai/HippocampusMagazine.png" alt="AI submission guidelines screenshot from Hippocampus Magazine" loading="lazy">
     <p class="caption">Hippocampus Magazine<br>YOU are the visuals baby!</p>
   </div>
@@ -265,9 +233,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/JosephineQuarterly.png" alt="AI submission guidelines screenshot from Josephine Quarterly" loading="lazy">
     <p class="caption">Josephine Quarterly</p>
   </div>
@@ -280,9 +246,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/MUSELiteraryJournal.png" alt="AI submission guidelines screenshot from MUSE Literary Journal" loading="lazy">
     <p class="caption">MUSE Literary Journal</p>
   </div>
@@ -295,9 +259,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Trusting you, no AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Trusting you, no AI">
     <img src="/assets/archive/ai/OkayDonkeyMagazine.png" alt="AI submission guidelines screenshot from Okay Donkey Magazine" loading="lazy">
     <p class="caption">Okay Donkey Magazine<br>They are <b>trusting</b> you!</p>
   </div>
@@ -310,9 +272,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="AI as welcome as pet creations"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="AI as welcome as pet creations">
     <img src="/assets/archive/ai/OneArtPoetry.png" alt="AI submission guidelines screenshot from One Art Poetry" loading="lazy">
     <p class="caption">One Art Poetry<br>About as welcome as your cat's or dog's artistic creations.</p>
   </div>
@@ -325,9 +285,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Immediately no"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Immediately no">
     <img src="/assets/archive/ai/PalettePoetry.png" alt="AI submission guidelines screenshot from Palette Poetry" loading="lazy">
     <p class="caption">Palette Poetry<br>Immediately no.</p>
   </div>
@@ -340,9 +298,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Ethical reasons, a plethora"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Ethical reasons, a plethora">
     <img src="/assets/archive/ai/PhoebeJournal.png" alt="AI submission guidelines screenshot from Phoebe Journal" loading="lazy">
     <p class="caption">Phoebe Journal<br>Ethical reasons, a plethora of them.</p>
   </div>
@@ -355,9 +311,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="HARD pass"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="HARD pass">
     <img src="/assets/archive/ai/RadonJournal.png" alt="AI submission guidelines screenshot from Radon Journal" loading="lazy">
     <p class="caption">Radon Journal<br>HARD pass</p>
   </div>
@@ -370,9 +324,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Explain why you need AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Explain why you need AI">
     <img src="/assets/archive/ai/Rattle.png" alt="AI submission guidelines screenshot from Rattle" loading="lazy">
     <p class="caption">Rattle<br>Please explain why you would possibly need AI to assist your writing process.</p>
   </div>
@@ -385,9 +337,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Specific af, ban for life"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Specific af, ban for life">
     <img src="/assets/archive/ai/Seasidegothic.png" alt="AI submission guidelines screenshot from Seaside Gothic" loading="lazy">
     <p class="caption">Seaside Gothic<br>Specific af, will ban for life.</p>
   </div>
@@ -400,9 +350,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Strictly banned"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Strictly banned">
     <img src="/assets/archive/ai/TheFoolsWorld.png" alt="AI submission guidelines screenshot from The Fool's World" loading="lazy">
     <p class="caption">The Fool's World<br>Strictly banned.</p>
   </div>
@@ -415,9 +363,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="In. Any. Part."
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="In. Any. Part.">
     <img src="/assets/archive/ai/thewildumbrella.png" alt="AI submission guidelines screenshot from The Wild Umbrella" loading="lazy">
     <p class="caption">The Wild Umbrella<br>In. Any. Part.</p>
   </div>
@@ -430,9 +376,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Tramps yes, AI no"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Tramps yes, AI no">
     <img src="/assets/archive/ai/trampset.png" alt="AI submission guidelines screenshot from Trampset" loading="lazy">
     <p class="caption">Trampset<br>Tramps, yes! AI, no...</p>
   </div>
@@ -445,9 +389,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/VariantLiterature.png" alt="AI submission guidelines screenshot from Variant Literature" loading="lazy">
     <p class="caption">Variant Literature</p>
   </div>
@@ -460,9 +402,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="AI isn't a medium, cannot talk to ghosts"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="AI isn't a medium, cannot talk to ghosts">
     <img src="/assets/archive/ai/Foglifter Journal.png" alt="AI submission guidelines screenshot from Foglifter Journal" loading="lazy">
     <p class="caption">Foglifter Journal<br>AI isn't a medium, it cannot talk to ghosts.</p>
   </div>
@@ -475,9 +415,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Are robots writing manuscripts?"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Are robots writing manuscripts?">
     <img src="/assets/archive/ai/Ploughshares.png" alt="AI submission guidelines screenshot from Ploughshares" loading="lazy">
     <p class="caption">Ploughshares<br>Oof, are the robots writing manuscripts?!</p>
   </div>
@@ -490,9 +428,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="Allowed, must disclose"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="Allowed, must disclose">
     <img src="/assets/archive/ai/TheSouthernReview.png" alt="AI submission guidelines screenshot from The Southern Review" loading="lazy">
     <p class="caption">The Southern Review<br>Allowed? Must disclose.</p>
   </div>
@@ -505,9 +441,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/TorchMagazine.png" alt="AI submission guidelines screenshot from Torch Magazine" loading="lazy">
     <p class="caption">Torch Magazine</p>
   </div>
@@ -520,9 +454,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/Blackbird.png" alt="AI submission guidelines screenshot from Blackbird" loading="lazy">
     <p class="caption">Blackbird</p>
   </div>
@@ -535,9 +467,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Policy / guidelines"
-    data-policy-topic="LLMs should not introduce content"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="LLMs should not introduce content">
     <img src="/assets/archive/ai/wikipedia.png" alt="AI guidelines from Wikipedia" loading="lazy">
     <p class="caption">Wikipedia<br>In a nutshell, LLMs should not introduce content of its own.</p>
   </div>
@@ -550,9 +480,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Word cloud / encyclical visualization"
-    data-policy-topic="MAGNIFICA HUMANITAS, safeguarding the human person, AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="MAGNIFICA HUMANITAS, safeguarding the human person, AI">
     <img src="/assets/archive/ai/popeleoxiv.PNG" alt="Voyant Cirrus Word Cloud of Pope Leo XIV's Encyclical Letter MAGNIFICA HUMANITAS" loading="lazy">
     <p class="caption">Using Voyant Tools, a word cloud visualization of Pope Leo XIV's Encyclical Letter MAGNIFICA HUMANITAS on safeguarding the human person in the time of artificial intelligence.<br><br>Most frequent words in the corpus: human (237); social (186); good (120).</p>
   </div>
@@ -565,9 +493,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Environmental initiative"
-    data-policy-topic="AI Data Centers, environmental impact"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="AI Data Centers, environmental impact">
     <img src="/assets/archive/ai/Brockovich Data Centers.png" alt="Screenshot from Erin Brockovich's AI Data Center Initiative" loading="lazy">
     <p class="caption">An initiative by Erin Brockovich, environmental advocate, looking at the spread and effects of AI Data Centers.</p>
   </div>
@@ -580,9 +506,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/fourteenhills.png" alt="AI submission guidelines screenshot from Fourteen Hills" loading="lazy">
     <p class="caption">Fourteen Hills</p>
   </div>
@@ -595,9 +519,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/geist.png" alt="AI submission guidelines screenshot from Geist" loading="lazy">
     <p class="caption">Geist</p>
   </div>
@@ -610,9 +532,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/oxfordamerican.png" alt="AI submission guidelines screenshot from Oxford American" loading="lazy">
     <p class="caption">Oxford American</p>
   </div>
@@ -625,9 +545,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/The Sun Magazine.png" alt="AI submission guidelines screenshot from The Sun Magazine" loading="lazy">
     <p class="caption">The Sun Magazine</p>
   </div>
@@ -640,9 +558,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/rhinopoetry.png" alt="AI submission guidelines screenshot from RHINO" loading="lazy">
     <p class="caption">RHINO</p>
   </div>
@@ -655,9 +571,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/45parallel.png" alt="AI submission guidelines screenshot from 45 Parallel" loading="lazy">
     <p class="caption">45 Parallel</p>
   </div>
@@ -670,9 +584,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/sweet lit.png" alt="AI submission guidelines screenshot from Sweet Lit" loading="lazy">
     <p class="caption">Sweet Lit</p>
   </div>
@@ -685,9 +597,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/tampareview.png" alt="AI submission guidelines screenshot from Tampa Review" loading="lazy">
     <p class="caption">Tampa Review</p>
   </div>
@@ -700,9 +610,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/SHENANDOAH.png" alt="AI submission guidelines screenshot from SHENANDOAH" loading="lazy">
     <p class="caption">SHENANDOAH</p>
   </div>
@@ -715,9 +623,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/tupeloquarterly.png" alt="AI submission guidelines screenshot from Tupelo Quarterly" loading="lazy">
     <p class="caption">Tupelo Quarterly</p>
   </div>
@@ -730,9 +636,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/orionmagazine.png" alt="AI submission guidelines screenshot from Orion Magazine" loading="lazy">
     <p class="caption">Orion</p>
   </div>
@@ -745,9 +649,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/rustandmoth.png" alt="AI submission guidelines screenshot from Rust & Moth" loading="lazy">
     <p class="caption">Rust & Moth</p>
   </div>
@@ -760,9 +662,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/reedmagazine.png" alt="AI submission guidelines screenshot from Reed Magazine" loading="lazy">
     <p class="caption">Reed Magazine</p>
   </div>
@@ -775,9 +675,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/New River Journal.png" alt="AI submission guidelines screenshot from New River Journal" loading="lazy">
     <p class="caption">New River Journal</p>
   </div>
@@ -790,9 +688,7 @@ title: AI Reception - Hot Wheels & High Heels
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
-    data-policy-topic="No AI"
-    data-human-review-status=""
-    data-publication-status="Draft">
+    data-policy-topic="No AI">
     <img src="/assets/archive/ai/Twisted Tongue.png" alt="AI submission guidelines screenshot from Twisted Tongue" loading="lazy">
     <p class="caption">Twisted Tongue</p>
   </div>
