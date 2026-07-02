@@ -782,19 +782,19 @@ title: AI Reception - Hot Wheels & High Heels
     <p class="caption">New River Journal</p>
   </div>
 
-  <!-- 52. Rust & Moth (duplicate noted — slide 49 is same source) -->
+  <!-- 52. Twisted Tongue -->
   <div class="slide"
-    data-source-name="Rust & Moth"
+    data-source-name="Twisted Tongue"
     data-source-url=""
-    data-platform="Rust & Moth"
+    data-platform="Twisted Tongue"
     data-date-captured=""
     data-date-published=""
     data-document-type="Submission guidelines"
     data-policy-topic="No AI"
     data-human-review-status=""
     data-publication-status="Draft">
-    <img src="/assets/archive/ai/rustandmoth.png" alt="AI submission guidelines screenshot from Rust & Moth" loading="lazy">
-    <p class="caption">Rust & Moth</p>
+    <img src="/assets/archive/ai/Twisted Tongue.png" alt="AI submission guidelines screenshot from Twisted Tongue" loading="lazy">
+    <p class="caption">Twisted Tongue</p>
   </div>
   
 <div class="slideshow-controls">
