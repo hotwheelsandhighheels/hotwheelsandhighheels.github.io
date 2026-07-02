@@ -18,7 +18,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 <!-- NODE PREVIEW POPUP -->
 <div class="node-preview" id="node-preview" style="display: none;">
   <div class="node-preview-content">
-    <span class="node-preview-close" onclick="closePreview()">close</span>
+    <span class="node-preview-close" onclick="closePreview()"></span>
     <h3 id="preview-title"></h3>
     <p id="preview-type"></p>
     <p id="preview-description"></p>
@@ -40,9 +40,205 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
      id="CN-0001"
      data-x="600" data-y="400"
      data-depth="0"
-     data-children=""
+     data-children="CN-0002,CN-0003,CN-0004"
      data-visible="true">
   <h3>Humans</h3>
+</div>
+
+<!-- ============================================
+     BRANCH 1: MEMORY
+     ============================================ -->
+<div class="connection-node theme-witness" 
+     id="CN-0002" 
+     data-x="250" data-y="250" 
+     data-depth="1" 
+     data-parent="CN-0001" 
+     data-children="CN-0005,CN-0006">
+  <h3>Memory</h3>
+</div>
+
+<!-- CHILDREN of Memory -->
+<div class="connection-node theme-witness" 
+     id="CN-0005" 
+     data-x="100" data-y="150" 
+     data-depth="2" 
+     data-parent="CN-0002" 
+     data-children="CN-0010,CN-0011,CN-0012,CN-0013">
+  <h3>Memory Worker</h3>
+</div>
+
+<div class="connection-node theme-witness" 
+     id="CN-0006" 
+     data-x="100" data-y="350" 
+     data-depth="2" 
+     data-parent="CN-0002" 
+     data-children="CN-0014,CN-0015">
+  <h3>Memory Aids</h3>
+</div>
+
+<!-- CHILDREN of Memory Workers -->
+<div class="connection-node theme-threshold" 
+     id="CN-0010" 
+     data-x="-50" data-y="60" 
+     data-depth="3" 
+     data-parent="CN-0005" 
+     data-children="">
+  <h3>Librarians</h3>
+</div>
+<div class="connection-node theme-threshold" 
+     id="CN-0011" 
+     data-x="-50" data-y="120" 
+     data-depth="3" 
+     data-parent="CN-0005" 
+     data-children="">
+  <h3>Historians</h3>
+</div>
+<div class="connection-node theme-expression" 
+     id="CN-0012" 
+     data-x="-50" data-y="180" 
+     data-depth="3" 
+     data-parent="CN-0005" 
+     data-children="">
+  <h3>Creatives</h3>
+</div>
+<div class="connection-node theme-threshold" 
+     id="CN-0013" 
+     data-x="-50" data-y="240" 
+     data-depth="3" 
+     data-parent="CN-0005" 
+     data-children="">
+  <h3>Archivist</h3>
+</div>
+
+<!-- CHILDREN of Memory Aids -->
+<div class="connection-node theme-loss" 
+     id="CN-0014" 
+     data-x="-50" data-y="310" 
+     data-depth="3" 
+     data-parent="CN-0006" 
+     data-children="">
+  <h3>Physical</h3>
+</div>
+<div class="connection-node theme-web" 
+     id="CN-0015" 
+     data-x="-50" data-y="370" 
+     data-depth="3" 
+     data-parent="CN-0006" 
+     data-children="">
+  <h3>Digital</h3>
+</div>
+
+<!-- ============================================
+     BRANCH 2: TIME
+     ============================================ -->
+<div class="connection-node theme-future" 
+     id="CN-0003" 
+     data-x="600" data-y="120" 
+     data-depth="1" 
+     data-parent="CN-0001" 
+     data-children="CN-0007">
+  <h3>Time</h3>
+</div>
+
+<!-- CHILDREN of Time -->
+<div class="connection-node theme-future" 
+     id="CN-0007" 
+     data-x="600" data-y="40" 
+     data-depth="2" 
+     data-parent="CN-0003" 
+     data-children="CN-0016">
+  <h3>The Epoch</h3>
+</div>
+
+<!-- CHILDREN of The Epoch -->
+<div class="connection-node theme-identity" 
+     id="CN-0016" 
+     data-x="600" data-y="-40" 
+     data-depth="3" 
+     data-parent="CN-0007" 
+     data-children="CN-0017,CN-0018,CN-0019,CN-0020,CN-0021,CN-0022">
+  <h3>Generations</h3>
+</div>
+
+<!-- CHILDREN of Generations -->
+<div class="connection-node theme-loss" 
+     id="CN-0017" 
+     data-x="360" data-y="-120" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Boomers</h3>
+</div>
+<div class="connection-node theme-threshold" 
+     id="CN-0018" 
+     data-x="460" data-y="-120" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Gen X</h3>
+</div>
+<div class="connection-node theme-identity" 
+     id="CN-0019" 
+     data-x="560" data-y="-120" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Gen Y</h3>
+</div>
+<div class="connection-node theme-identity" 
+     id="CN-0020" 
+     data-x="660" data-y="-120" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Gen Z</h3>
+</div>
+<div class="connection-node theme-emergence" 
+     id="CN-0021" 
+     data-x="760" data-y="-120" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Gen Alpha</h3>
+</div>
+<div class="connection-node theme-emergence" 
+     id="CN-0022" 
+     data-x="860" data-y="-120" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Beta??</h3>
+</div>
+
+<!-- ============================================
+     BRANCH 3: SPACE
+     ============================================ -->
+<div class="connection-node theme-place" 
+     id="CN-0004" 
+     data-x="950" data-y="250" 
+     data-depth="1" 
+     data-parent="CN-0001" 
+     data-children="CN-0008,CN-0009">
+  <h3>Space</h3>
+</div>
+
+<!-- CHILDREN of Space -->
+<div class="connection-node theme-intimacy" 
+     id="CN-0008" 
+     data-x="1100" data-y="180" 
+     data-depth="2" 
+     data-parent="CN-0004" 
+     data-children="">
+  <h3>Between You & I</h3>
+</div>
+
+<div class="connection-node theme-care" 
+     id="CN-0009" 
+     data-x="1100" data-y="320" 
+     data-depth="2" 
+     data-parent="CN-0004" 
+     data-children="">
+  <h3>Lost in a Crowd</h3>
 </div>
 
 <!-- ============================================
@@ -83,19 +279,43 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
   const allNodes = container.querySelectorAll('.connection-node');
   const nodeClicks = {};
 
-  /*
-     EDGE TEMPLATE — add connections between nodes:
-     { id: 'CE-XXXX', from: 'CN-XXXX', to: 'CN-XXXX' },
-  */
   const connections = [
-    // Center → Branch connections go here
-    // { id: 'CE-0001', from: 'CN-0001', to: 'CN-0002' },
+    // Center → Branches
+    { id: 'CE-0001', from: 'CN-0001', to: 'CN-0002' },
+    { id: 'CE-0002', from: 'CN-0001', to: 'CN-0003' },
+    { id: 'CE-0003', from: 'CN-0001', to: 'CN-0004' },
     
-    // Branch → Child connections go here
-    // { id: 'CE-XXXX', from: 'CN-XXXX', to: 'CN-XXXX' },
+    // Memory → Children
+    { id: 'CE-0004', from: 'CN-0002', to: 'CN-0005' },
+    { id: 'CE-0005', from: 'CN-0002', to: 'CN-0006' },
     
-    // Cross-connections go here
-    // { id: 'CE-XXXX', from: 'CN-XXXX', to: 'CN-XXXX' },
+    // Memory Worker → Children
+    { id: 'CE-0006', from: 'CN-0005', to: 'CN-0010' },
+    { id: 'CE-0007', from: 'CN-0005', to: 'CN-0011' },
+    { id: 'CE-0008', from: 'CN-0005', to: 'CN-0012' },
+    { id: 'CE-0009', from: 'CN-0005', to: 'CN-0013' },
+    
+    // Memory Aids → Children
+    { id: 'CE-0010', from: 'CN-0006', to: 'CN-0014' },
+    { id: 'CE-0011', from: 'CN-0006', to: 'CN-0015' },
+    
+    // Time → Children
+    { id: 'CE-0012', from: 'CN-0003', to: 'CN-0007' },
+    
+    // The Epoch → Generations
+    { id: 'CE-0013', from: 'CN-0007', to: 'CN-0016' },
+    
+    // Generations → Children
+    { id: 'CE-0014', from: 'CN-0016', to: 'CN-0017' },
+    { id: 'CE-0015', from: 'CN-0016', to: 'CN-0018' },
+    { id: 'CE-0016', from: 'CN-0016', to: 'CN-0019' },
+    { id: 'CE-0017', from: 'CN-0016', to: 'CN-0020' },
+    { id: 'CE-0018', from: 'CN-0016', to: 'CN-0021' },
+    { id: 'CE-0019', from: 'CN-0016', to: 'CN-0022' },
+    
+    // Space → Children
+    { id: 'CE-0020', from: 'CN-0004', to: 'CN-0008' },
+    { id: 'CE-0021', from: 'CN-0004', to: 'CN-0009' },
   ];
 
   allNodes.forEach(node => {
@@ -325,12 +545,29 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     }
   });
 
-  /*
-     PREVIEW DATA TEMPLATE — add one entry per node:
-     'CN-XXXX': { title: 'Label', type: '', description: '', link: null },
-  */
   const previewData = {
     'CN-0001': { title: 'Humans', type: '', description: '', link: null },
+    'CN-0002': { title: 'Memory', type: '', description: '', link: null },
+    'CN-0003': { title: 'Time', type: '', description: '', link: null },
+    'CN-0004': { title: 'Space', type: '', description: '', link: null },
+    'CN-0005': { title: 'Memory Worker', type: '', description: '', link: null },
+    'CN-0006': { title: 'Memory Aids', type: '', description: '', link: null },
+    'CN-0007': { title: 'The Epoch', type: '', description: '', link: null },
+    'CN-0008': { title: 'Between You & I', type: '', description: '', link: null },
+    'CN-0009': { title: 'Lost in a Crowd', type: '', description: '', link: null },
+    'CN-0010': { title: 'Librarians', type: '', description: '', link: null },
+    'CN-0011': { title: 'Historians', type: '', description: '', link: null },
+    'CN-0012': { title: 'Creatives', type: '', description: '', link: null },
+    'CN-0013': { title: 'Archivist', type: '', description: '', link: null },
+    'CN-0014': { title: 'Physical', type: '', description: '', link: null },
+    'CN-0015': { title: 'Digital', type: '', description: '', link: null },
+    'CN-0016': { title: 'Generations', type: '', description: '', link: null },
+    'CN-0017': { title: 'Boomers', type: 'Generation', description: 'Our parents/grandparents', link: null },
+    'CN-0018': { title: 'Gen X', type: 'Generation', description: 'Children of the silent generation', link: null },
+    'CN-0019': { title: 'Gen Y', type: 'Generation', description: 'Me', link: null },
+    'CN-0020': { title: 'Gen Z', type: 'Generation', description: 'Between Us', link: null },
+    'CN-0021': { title: 'Gen Alpha', type: 'Generation', description: 'You', link: null },
+    'CN-0022': { title: 'Beta??', type: 'Generations', description: 'These are them post-covid babies.', link: null },
   };
 
   positionNodes();
