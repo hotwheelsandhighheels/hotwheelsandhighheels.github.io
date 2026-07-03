@@ -7,7 +7,7 @@ title: Scratch Paper - Hot Wheels & High Heels
 
 # Scratch Paper
 
-<p style="text-align: center; opacity: 0.6; font-style: italic; margin-bottom: 32px;">Working ideas pinned to the board. Drag to rearrange. Stack related thoughts.</p>
+<p style="text-align: center; opacity: 0.6; font-style: italic; margin-bottom: 32px;"> </p>
 
 ---
 
@@ -29,6 +29,17 @@ title: Scratch Paper - Hot Wheels & High Heels
        Cards with the same stack value will overlap slightly.
   -->
 
+<div class="post-it pink" style="left: 60px; top: 40px; transform: rotate(Zdeg);" draggable="true">
+  <p>Whenever there is a memory being remembered we are performing the double perspective. An archive (any archive) performs the double perspective <i>because</i> it is an archive. It is a memory aid; it does memory work.</p>
+</div>
+
+<div class="post-it purple" style="left: 360px; top: 60px; transform: rotate(1deg);" draggable="true" data-stack="accidentalarchivist">
+  <p>You will never find me. You will always find me.</p>
+</div>
+
+<div class="post-it pink" style="left: 375px; top: 75px; transform: rotate(-1deg);" draggable="true" data-stack="accidentalarchivist">
+  <p>You are the documentary.</p>
+</div>
 
 
 </div>
