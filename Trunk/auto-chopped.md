@@ -8,14 +8,14 @@ title: Auto Chopped - Hot Wheels & High Heels
 
 ## AI Reception
 
-*52 artifacts collected*
+*53 artifacts collected*
 
 *This is all the stuff I see online about generative AI and LLM's. It's mostly submission guidelines from literary establishments.*
 
 ---
 
 <!-- SLIDESHOW -->
-<div class="slideshow" id="slideshow" data-current="1" data-total="52">
+<div class="slideshow" id="slideshow" data-current="1" data-total="53">
 
   <!-- 1. HuffPost -->
   <div class="slide"
@@ -703,7 +703,7 @@ title: Auto Chopped - Hot Wheels & High Heels
     data-document-type="Submission guidelines"
     data-policy-topic="No AI">
     <img src="/assets/archive/ai/Ao3 Letter.png" alt="a open letter from a member of AO3's Heated Rivalry community" loading="lazy">
-    <p class="caption">Fandom has a Hidden Generative AI Problem.pdf<br>Published to google docs, this document outlines how many creatives feel about AI-generated content: it is regrettably not human.</p>
+    <p class="caption">Fandom has a Hidden Generative AI Problem.pdf<br>Published to google docs, this document outlines what many creatives feel about AI-generated content:<br> it is regrettably not human.</p>
   </div>
   
 <div class="slideshow-controls">
