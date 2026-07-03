@@ -886,7 +886,7 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
-  <a href="/Trunk/auto-chopped/">Chopped & Screwed →</a>
+  <a href="/Trunk/auto-chopped/">← Chopped & Screwed</a>
   <a href="/Trunk/scratch-paper/">Dig thru the glove box →</a>
 </div>
 
