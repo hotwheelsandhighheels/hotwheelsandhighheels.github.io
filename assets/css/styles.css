@@ -1446,9 +1446,10 @@ audio:hover {
 .connections-container {
   position: relative;
   width: 100%;
-  min-height: 1000px;
-  margin: 32px 0;
-  overflow: visible;
+  min-height: 720px;
+  height: 72vh;
+  overflow: hidden;
+  margin: 0;
 }
 
 .container .connections-container {

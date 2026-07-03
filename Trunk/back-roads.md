@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Back Roads
-permalink: /Trunk/back-roads/
 title: Back Roads - Hot Wheels & High Heels
+permalink: /Trunk/back-roads/
 ---
 
 # Back Roads
@@ -644,30 +643,30 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
   document.getElementById('reveal-all-btn').addEventListener('click', revealAll);
   document.getElementById('reset-map-btn').addEventListener('click', resetMap);
   
-  function positionNodes() {
-    const centerNode = document.getElementById('CN-0001');
-    if (!centerNode) return;
+function positionNodes() {
+  const centerNode = document.getElementById('CN-0001');
+  if (!centerNode) return;
 
-    const cx = Math.floor(container.offsetWidth / 2);
-    const cy = 400;
+  const originX = 950;
+  const originY = 400;
 
-    const originX = 950;
-    const originY = 400;
+  const cx = Math.floor(container.clientWidth / 2);
+  const cy = Math.floor(container.clientHeight / 2);
 
-    allNodes.forEach(node => {
-      const rawX = parseInt(node.getAttribute('data-x'));
-      const rawY = parseInt(node.getAttribute('data-y'));
-      if (isNaN(rawX) || isNaN(rawY)) return;
+  allNodes.forEach(node => {
+    const rawX = parseInt(node.getAttribute('data-x'));
+    const rawY = parseInt(node.getAttribute('data-y'));
+    if (isNaN(rawX) || isNaN(rawY)) return;
 
-      const offsetX = rawX - originX;
-      const offsetY = rawY - originY;
+    const offsetX = rawX - originX;
+    const offsetY = rawY - originY;
 
-      node.style.left = (cx + offsetX) + 'px';
-      node.style.top = (cy + offsetY) + 'px';
-    });
+    node.style.left = (cx + offsetX - node.offsetWidth / 2) + 'px';
+    node.style.top = (cy + offsetY - node.offsetHeight / 2) + 'px';
+  });
 
-    drawLines();
-  }
+  drawLines();
+}
 
   function drawLines(highlightId) {
     svg.innerHTML = '';
@@ -881,8 +880,10 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
     'CN-0054': { title: 'Remembering', type: 'Identity', description: 'the self that is telling the story', link: null },
   };
 
-  positionNodes();
-  window.addEventListener('resize', drawLines);
+positionNodes();
+window.addEventListener('load', positionNodes);
+window.addEventListener('resize', positionNodes);
+requestAnimationFrame(positionNodes);
 })();
 </script>
 </div>
