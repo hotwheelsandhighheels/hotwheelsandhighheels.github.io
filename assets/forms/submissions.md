@@ -7,9 +7,9 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>Send Me Something</h1>
+  <h1>Gas Pump</h1>
 
-  <p>The nature of the web is that it is participatory and collaborative. I am building an archive of millennial memory. I can't do it alone. Here I open my archive to you.</p>
+  <p>Drop something in!</p>
   <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">
     <strong>Before you send something:</strong> submissions are reviewed before anything is published. Please do not submit private messages, images of minors, medical/legal information, addresses, or sensitive personal information unless it is your own material and you are comfortable with me reviewing it. If you are not sure, tell me in the context box.
   </p>
