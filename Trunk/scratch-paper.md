@@ -6,7 +6,7 @@ permalink: /Trunk/scratch-paper/
 
 # Scratch Paper
 
-<p style="text-align: center; opacity: 0.6; font-style: italic; margin-bottom: 32px;">Working ideas pinned to the board. Drag to rearrange. Stack related thoughts.</p>
+<p style="text-align: center; opacity: 0.6; font-style: italic; margin-bottom: 32px;"> </p>
 
 ---
 
