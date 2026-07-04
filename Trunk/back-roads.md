@@ -5,9 +5,7 @@ permalink: /Trunk/back-roads/
 ---
 
 # Back Roads
-This is a visualization of all the ideas being mapped in the archive. It's a lot messier than I intended it to be but like all pages in the Trunk, it is a work in progress and will be changing as I do more research and add to the archive. You can drag the boxes around, click on them to get a little summary, and if included, a link lets you visit a related page on the site.
-
-*Click to explore. Drag to rearrange. Reset to start over.*
+This is a visualization of all the ideas being mapped in the archive. It's a lot messier than I intended it to be but like all pages in the Trunk, it is a work in progress and will be changing as I do more research and add to the archive. You can drag the boxes around and click on them to get a little summary.
 
 ---
 
@@ -834,7 +832,7 @@ function positionNodes() {
     'CN-0008': { title: 'Between You & I', type: 'Relationship', description: 'the relationships we hold sacred', link: null },
     'CN-0009': { title: 'Lost in a Crowd', type: 'Relationships', description: 'the relationships we must forge', link: null },
     'CN-0010': { title: 'Librarians', type: 'Driver', description: 'the keeper of the records', link: null },
-    'CN-0011': { title: 'Historians', type: 'Driver', description: 'the interpretor of the records', link: null },
+    'CN-0011': { title: 'Historians', type: 'Driver', description: 'the interpreter of the records', link: null },
     'CN-0012': { title: 'Creatives', type: 'Driver', description: 'curators of memory', link: null },
     'CN-0013': { title: 'Archivists', type: 'Driver', description: 'the curators of the records', link: null },
     'CN-0014': { title: 'Physical Media', type: 'Media', description: 'what you can touch with your bare hands', link: null },
@@ -891,7 +889,7 @@ requestAnimationFrame(positionNodes);
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
-  <a href="/Trunk/auto-chopped/">Chopped & Screwed →</a>
+  <a href="/Trunk/auto-chopped/">← Chopped & Screwed</a>
   <a href="/Trunk/scratch-paper/">Dig thru the glove box →</a>
 </div>
 
