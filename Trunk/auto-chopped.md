@@ -705,6 +705,19 @@ title: Auto Chopped - Hot Wheels & High Heels
     <img src="/assets/archive/ai/Ao3 Letter.png" alt="a open letter from a member of AO3's Heated Rivalry community" loading="lazy">
     <p class="caption">Fandom has a Hidden Generative AI Problem.pdf<br>Published to google docs, this document outlines what many creatives feel about AI-generated content:<br> it is regrettably not human.</p>
   </div>
+
+    <!-- 53. Arcana Poetry Press-->
+  <div class="slide"
+    data-source-name="Arcana Poetry Press"
+    data-source-url=""
+    data-platform="Arcana Poetry Press"
+    data-date-captured=""
+    data-date-published=""
+    data-document-type="Submission guidelines"
+    data-policy-topic="No AI">
+    <img src="/assets/archive/ai/arcana.png" alt="AI submission guidelines screenshot from Arcana Poetry Press" loading="lazy">
+    <p class="caption">Arcana Poetry Press</p>
+  </div>
   
 <div class="slideshow-controls">
   <button class="slide-btn" onclick="changeSlide(-1)">&#8592;</button>
