@@ -43,7 +43,7 @@ permalink: /Trunk/scratch-paper/
   </div>
 
   <!-- Post-0004 + Post-0005 — archons stack -->
-  <div class="post-it pink" style="left: 60px; top: 220px; transform: rotate(1.5deg);" draggable="true" data-stack="archons">
+  <div class="post-it pink" style="left: 60px; top: 320px; transform: rotate(1.5deg);" draggable="true" data-stack="archons">
     <p>"There is no political power without control of the archive, if not memory." (Manoff)</p>
   </div>
 
