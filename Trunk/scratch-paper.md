@@ -6,7 +6,7 @@ permalink: /Trunk/scratch-paper/
 
 # Scratch Paper
 
-<p style="text-align: center; opacity: 0.6; font-style: italic; margin-bottom: 32px;"> </p>
+<p style="text-align: center; opacity: 0.6; font-style: italic; margin-bottom: 32px;">Working ideas pinned to the board. Drag to rearrange. Stack related thoughts.</p>
 
 ---
 
@@ -28,18 +28,61 @@ permalink: /Trunk/scratch-paper/
        Cards with the same stack value will overlap slightly.
   -->
 
-<div class="post-it pink" style="left: 60px; top: 40px; transform: rotate(-2deg);">
-  <p>Whenever there is a memory being remembered we are performing the double perspective. An archive (any archive) performs the double perspective <i>because</i> it is an archive. It is a memory aid; it does memory work.</p>
-</div>
+  <!-- Post-0001 — double perspective (solo) -->
+  <div class="post-it pink" style="left: 60px; top: 40px; transform: rotate(-2deg);" draggable="true">
+    <p>Whenever there is a memory being remembered we are performing the double perspective. An archive (any archive) performs the double perspective <i>because</i> it is an archive. It is a memory aid; it does memory work.</p>
+  </div>
 
-<div class="post-it purple" style="left: 360px; top: 60px; transform: rotate(1deg);" data-stack="accidentalarchivist">
-  <p>You will never find me. You will always find me.</p>
-</div>
+  <!-- Post-0002 + Post-0003 — accidentalarchivist stack -->
+  <div class="post-it purple" style="left: 360px; top: 60px; transform: rotate(1deg);" draggable="true" data-stack="accidentalarchivist">
+    <p>You will never find me. You will always find me.</p>
+  </div>
 
-<div class="post-it pink" style="left: 375px; top: 75px; transform: rotate(-1deg);" data-stack="accidentalarchivist">
-  <p>You are the documentary.</p>
-</div>
+  <div class="post-it pink" style="left: 375px; top: 75px; transform: rotate(-1deg);" draggable="true" data-stack="accidentalarchivist">
+    <p>You are the documentary.</p>
+  </div>
 
+  <!-- Post-0004 + Post-0005 — archons stack -->
+  <div class="post-it pink" style="left: 60px; top: 220px; transform: rotate(1.5deg);" draggable="true" data-stack="archons">
+    <p>"There is no political power without control of the archive, if not memory." (Manoff)</p>
+  </div>
+
+  <div class="post-it purple" style="left: 75px; top: 240px; transform: rotate(-0.5deg);" draggable="true" data-stack="archons">
+    <p>"They have the power to interpret the archives... but in an unnatural fashion, that is to say in making the law or in making people respect the law." (Derrida)</p>
+  </div>
+
+  <!-- Post-0006 + Post-0007 — internet culture stack -->
+  <div class="post-it purple" style="left: 580px; top: 40px; transform: rotate(-2deg);" draggable="true" data-stack="internet-culture">
+    <p>Born-digital objects, like memes, share these characteristics: virality, mutability, and intertextuality. (Ismail)</p>
+  </div>
+
+  <div class="post-it pink" style="left: 595px; top: 60px; transform: rotate(1deg);" draggable="true" data-stack="internet-culture">
+    <p>It is sometimes the case that memes develop into something foreign from their original value. Often times, only a small insignificant piece of the whole gets taken and misinterpreted, and repeated to death.</p>
+  </div>
+
+  <!-- Post-0008 — artificial intelligence (solo) -->
+  <div class="post-it pink" style="left: 580px; top: 240px; transform: rotate(-1.5deg);" draggable="true">
+    <p>I think people accept that AI is here, what they don't accept is being "tricked" by AI. The labelling of AI content is for transparency. The user gets to decide whether or not to interact with AI generated content.</p>
+  </div>
+
+  <!-- Post-0009 — family (solo) -->
+  <div class="post-it purple" style="left: 60px; top: 420px; transform: rotate(0.5deg);" draggable="true">
+    <p>Where are my family's objects? Who keeps the archive? What do we even do with all of this? Why did we want it? Why do we keep it? Why do we say that someday we will sit and sort through an archive that gets larger and uncontrollable with each passing day;</p>
+  </div>
+
+  <!-- Post-0010 + Post-0011 — double-perspective stack -->
+  <div class="post-it purple" style="left: 360px; top: 260px; transform: rotate(-1deg);" draggable="true" data-stack="double-perspective">
+    <p>Richard Hugo says "Music doesn't conform to truth, truth conforms to music."</p>
+  </div>
+
+  <div class="post-it pink" style="left: 375px; top: 280px; transform: rotate(1.5deg);" draggable="true" data-stack="double-perspective">
+    <p>Literal truth versus literary truth... there is curation involved.</p>
+  </div>
+
+  <!-- Post-0012 — archivefever (solo) -->
+  <div class="post-it pink" style="left: 580px; top: 420px; transform: rotate(-0.5deg);" draggable="true">
+    <p>We planned what was Instagramable. We directed what was Tweetable. We used angles and filters and captions to force perspective. We became God, the creator. We created. We influenced. We locked ourselves in archival fever.</p>
+  </div>
 
 </div>
 
