@@ -76,7 +76,6 @@ sitemap: false
   nominations are processed through Formspree and sent to alejandra@hotwheelsandhighheels.com
 </p>
 
-  <hr>
 
 
   <!-- ============================================
