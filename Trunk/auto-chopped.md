@@ -754,6 +754,6 @@ function changeSlide(direction) {
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
-  <a href="/Trunk/archive/">← the Social Archive</a>
+  <a href="/Trunk/archive/">← Scroll the feed</a>
   <a href="/Trunk/back-roads/">Check the road map →</a>
 </div>
