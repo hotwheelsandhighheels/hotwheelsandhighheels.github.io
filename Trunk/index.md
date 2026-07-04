@@ -20,7 +20,7 @@ What happens when personal memory, cultural history, and digital platforms becom
     <h3>Collection 01</h3>
     <h2>The Epoch</h2>
     <p> </p>
-    <p><span style="color: var(--pink);">Explore the timeline →</span></p>
+    <p><span style="color: var(--pink);">Stroll through Memory Ln. →</span></p>
   </a>
 
   <!-- 2. THE DRIVERS -->
