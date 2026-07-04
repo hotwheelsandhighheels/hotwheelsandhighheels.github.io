@@ -13,7 +13,7 @@ sitemap: false
   <hr>
 
   <h2>Blessings</h2>
-  <p>If you know someone whose creative work is <em>epoch-making</em>, tell me about them. These are your teachers, cousins, peers & friends, someone who posted online, a community voice or a neighbor. (Find my entry below as a sample while I work on this page.)</p>  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;"><strong>Before you nominate someone:</strong> this form is for suggestions only. Submitting someone’s name does not mean they will be published, featured, contacted, or added to the archive automatically. I review nominations first, and anyone considered for a larger feature will be asked for their own consent separately.</p>
+  <p>If you know someone whose creative work is <em>epoch-making</em>, tell me about them. These are your teachers, cousins, peers & friends, someone who posted online, a community voice or a neighbor. </p>  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;"><strong>Before you suggest someone:</strong> this form is for suggestions only. Submitting someone’s name does not mean they will be published, featured, contacted, or added to the archive automatically. I review nominations first, and anyone considered for a larger feature will be asked for their own consent separately.</p>
 <form action="https://formspree.io/f/xpqeggbv" method="POST" class="submit-form">
 
   <input type="hidden" name="_subject" value="New HW&Hh Blessings nomination">
@@ -40,11 +40,6 @@ sitemap: false
   <p class="form-hint">For example: name changes, privacy concerns, minors, family/community sensitivity, grief, location details, or work that should be approached gently.</p>
   <textarea id="sensitivity" name="sensitivity" rows="3"></textarea>
 
-  <label class="form-checkbox">
-    <input type="checkbox" name="driver-consideration" value="yes">
-    I think this person should also be considered for a Driver feature, with their separate consent.
-  </label>
-
   <fieldset class="form-fieldset">
     <legend>Submission agreement <span class="form-required">*</span></legend>
 
@@ -67,9 +62,9 @@ sitemap: false
 
   </fieldset>
 
-<label for="submitter-name">Your name / alias <span class="form-optional">(optional)</span></label> <input type="text" id="submitter-name" name="submitter-name">
+<label for="submitter-name">Name / alias<span class="form-optional">(optional)</span></label> <input type="text" id="submitter-name" name="submitter-name">
 
-<label for="submitter-email">Your email <span class="form-optional">(optional — only if you want me to be able to follow up)</span></label> <input type="email" id="submitter-email" name="submitter-email">
+<label for="submitter-email">Email<span class="form-optional">(optional — for follow up)</span></label> <input type="email" id="submitter-email" name="submitter-email">
 
   <input type="text" name="_gotcha" style="display:none">
 
@@ -82,21 +77,7 @@ sitemap: false
 </p>
 
   <hr>
-  <!-- ============================================
-       ALE — EXAMPLE ENTRY
-       ============================================ -->
 
-  <div class="blessing-card">
-    <div class="blessing-image">
-      <img src="/assets/blessings/hwhh.png" alt="Hot Wheels & High Heels banner" onclick="openBlessingLightbox('/assets/blessings/hwhh.png')" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto;">
-    </div>
-    <div class="blessing-text">
-      <h2>Alejandra Hernández</h2>
-      <p class="blessing-project"><a href="https://hotwheelsandhighheels.com">Hot Wheels & High Heels</a></p>
-      <p>Memory worker. Poet. Building an archive of the millennial epoch from what started out as love poems to a generation.</p>
-      <p class="blessing-note">If I can archive myself, I can ask others to let me archive them too.</p>
-    </div>
-    </div>
 
   <!-- ============================================
        ADD MORE BLESSING CARDS BELOW
