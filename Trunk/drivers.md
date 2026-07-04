@@ -240,6 +240,6 @@ Location:
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
-  <a href="/Trunk/epoch/">← Explore Timeline</a>
+  <a href="/Trunk/epoch/">← Memory Ln.</a>
   <a href="/Trunk/archive/">Scroll the feed →</a>
 </div>
