@@ -104,6 +104,6 @@ sitemap: false
 </div>
 
 <div class="driver-nav">
-  <a href="/submit/">← Fill my gas pump!</a>
+  <a href="/submit/">← Fill my gas tank</a>
   <a href="/Trunk/">Back 2 Trunk →</a>
 </div>
