@@ -61,7 +61,7 @@ permalink: /Trunk/scratch-paper/
   </div>
 
   <!-- Post-0008 — artificial intelligence (solo) -->
-  <div class="post-it pink" style="left: 580px; top: 240px; transform: rotate(-1.5deg);" draggable="true">
+  <div class="post-it purple" style="left: 580px; top: 240px; transform: rotate(-1.5deg);" draggable="true">
     <p>I think people accept that AI is here, what they don't accept is being "tricked" by AI. The labelling of AI content is for transparency. The user gets to decide whether or not to interact with AI generated content.</p>
   </div>
 
