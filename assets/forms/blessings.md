@@ -62,9 +62,9 @@ sitemap: false
 
   </fieldset>
 
-<label for="submitter-name">Name / alias<span class="form-optional">(optional)</span></label> <input type="text" id="submitter-name" name="submitter-name">
+<label for="submitter-name">Name / alias <span class="form-optional">(optional)</span></label> <input type="text" id="submitter-name" name="submitter-name">
 
-<label for="submitter-email">Email<span class="form-optional">(optional — for follow up)</span></label> <input type="email" id="submitter-email" name="submitter-email">
+<label for="submitter-email">Email <span class="form-optional">(optional — for follow up)</span></label> <input type="email" id="submitter-email" name="submitter-email">
 
   <input type="text" name="_gotcha" style="display:none">
 
