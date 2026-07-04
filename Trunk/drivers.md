@@ -24,8 +24,6 @@ title: The Drivers - Hot Wheels & High Heels
   <span class="tag-threshold">● Threshold</span>
 </div>
 
-## Place
-
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
 Contributor:
@@ -42,11 +40,6 @@ Location:
 <p class="quote-attribution"><a href="/Drivers/NAME/">Name</a></p>
 <span class="timeline-tag place">Place</span>
 -->
-
----
-
-## Loss
-
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -65,10 +58,6 @@ Location:
 <span class="timeline-tag loss">Loss</span>
 -->
 
----
-
-## Web
-
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
 Contributor:
@@ -85,10 +74,6 @@ Location:
 <p class="quote-attribution"><a href="/Drivers/NAME/">Name</a></p>
 <span class="timeline-tag web">Web</span>
 -->
-
----
-
-## Intimacy
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -107,9 +92,6 @@ Location:
 <span class="timeline-tag intimacy">Intimacy</span>
 -->
 
----
-
-## Identity
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -128,9 +110,6 @@ Location:
 <span class="timeline-tag identity">Identity</span>
 -->
 
----
-
-## Expression
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -149,9 +128,6 @@ Location:
 <span class="timeline-tag expression">Expression</span>
 -->
 
----
-
-## Future
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -170,9 +146,6 @@ Location:
 <span class="timeline-tag future">Future</span>
 -->
 
----
-
-## Care
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -191,9 +164,6 @@ Location:
 <span class="timeline-tag care">Care</span>
 -->
 
----
-
-## Witness
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -212,9 +182,6 @@ Location:
 <span class="timeline-tag witness">Witness</span>
 -->
 
----
-
-## Surveillance
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -233,9 +200,6 @@ Location:
 <span class="timeline-tag surveillance">Surveillance</span>
 -->
 
----
-
-## Emergence
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
@@ -254,9 +218,6 @@ Location:
 <span class="timeline-tag emergence">Emergence</span>
 -->
 
----
-
-## Threshold
 
 <!--
 BLOCK QUOTE TEMPLATE — copy and fill for each quote:
