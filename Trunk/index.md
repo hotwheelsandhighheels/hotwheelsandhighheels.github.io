@@ -66,7 +66,7 @@ What happens when personal memory, cultural history, and digital platforms becom
   <!-- 7. SUBMIT -->
   <a href="/submit/" class="trunk-card" style="text-decoration: none;">
     <h3>Collection 07</h3>
-    <h2>Send Me Something</h2>
+    <h2>The Pump</h2>
     <p> </p>
     <p><span style="color: var(--pink);">Fill my gas tank →</span></p>
   </a>
