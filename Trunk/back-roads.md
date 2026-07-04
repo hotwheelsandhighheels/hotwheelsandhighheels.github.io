@@ -875,7 +875,7 @@ function positionNodes() {
     'CN-0049': { title: 'Space', type: 'Concept', description: 'places we create memory', link: null },
     'CN-0050': { title: 'Unplugged', type: 'Mode', description: 'takes place offline', link: null },
     'CN-0051': { title: 'Online', type: 'Mode', description: 'takes place on the web', link: null },
-    'CN-0052': { title: 'Double Perspective', type: 'Framework', description: 'memory self + memory worker self = memory', link: '/Trunk/dp/' },
+    'CN-0052': { title: 'Double Perspective', type: 'Framework', description: 'memory self + memory worker self = memory', link: null },
     'CN-0053': { title: 'Experiencing', type: 'Identity', description: 'the self that is showing the situation', link: null },
     'CN-0054': { title: 'Remembering', type: 'Identity', description: 'the self that is telling the story', link: null },
   };
