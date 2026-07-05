@@ -6,7 +6,7 @@ permalink: /Trunk/scratch-paper/
 
 # Scratch Paper
 
-<p style="text-align: center; opacity: 0.6; font-style: italic; margin-bottom: 32px;"> </p>
+<p style="text-align: center; opacity: 0.6; font-style: italic; margin-bottom: 32px;"></p>
 
 ---
 
