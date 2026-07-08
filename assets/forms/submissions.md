@@ -8,10 +8,8 @@ sitemap: false
 <div class="survey-container">
 
   <h1>Gas Pump</h1>
-
-  <p>Drop something in!</p>
-  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">
-    <strong>Before you send something:</strong> submissions are reviewed before anything is published. Please do not submit private messages, images of minors, medical/legal information, addresses, or sensitive personal information unless it is your own material and you are comfortable with me reviewing it. If you are not sure, tell me in the context box.
+<p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">
+    <strong>Before you send something:</strong> Please do not submit private messages, images of minors, medical/legal information, addresses, or sensitive personal information unless it is your own material and you are comfortable with me reviewing it. If you are not sure, tell me in the restrictions box.
   </p>
   <hr>
 
@@ -112,7 +110,7 @@ sitemap: false
 
   <label class="form-radio">
     <input type="radio" name="sensitivity" value="not-sure">
-    I'm not sure. Please treat this as review-only unless we discuss it.
+    I'm not sure. Please treat this as review-only.
   </label>
 </fieldset>
 
