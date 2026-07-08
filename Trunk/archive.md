@@ -1,8 +1,7 @@
 ---
 layout: default
-title: The Social Archive
-permalink: /Trunk/archive/
 title: The Social Archive - Hot Wheels & High Heels
+permalink: /Trunk/archive/
 ---
 
 # The Social Archive
@@ -22,14 +21,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide active"
         data-title="No one summonded you, Siri"
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="07-07-2014"
-        data-captured=""
         data-context="I think I had my phone in my hand or pocket, not looking at it or talking to Siri at all, but Siri responded. The text reads: &quot;Cannot find my I cannot find my dog and my friend my help I'll Malmac mag mag all my on my mind all morning wall wall wall wall wall wall memorial boreal&quot; tap to edit — Sorry, Alejandra… can you try that again in fewer words?"
         data-significance="I screenshot this because I thought it was funny that Siri was summoned and even funnier that that's what it thought I had said."
-        data-tags-driver="Web,Expression"
-        data-tags-timeline="Technology">
+        data-tags-driver="Online,Expression"
+        data-tags-timeline="Internet &amp; Web">
         <img src="/assets/archive/upgrade/hw-screenshot-siri.PNG" alt="Screenshot of Siri responding to garbled input" loading="lazy">
       </div>
       
@@ -37,14 +33,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="A Conversation Without Text"
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="03-03-2023"
-        data-captured=""
         data-context="This is a conversation happening between me and my best friend completely through audio messages on iMessage."
         data-significance="This shows the evolution of communications technology, how we kind of just went back to walkie talkies."
-        data-tags-driver="Intimacy,Web"
-        data-tags-timeline="Technology">
+        data-tags-driver="Intimacy,Online"
+        data-tags-timeline="Internet &amp; Web">
         <img src="/assets/archive/upgrade/hw-screenshot-audiomessages.PNG" alt="Screenshot of an iMessage conversation conducted entirely through audio messages" loading="lazy">
       </div>
       
@@ -52,14 +45,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="Personal QR Codes"
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="05-17-2016"
-        data-captured=""
         data-context="I have no idea why I saved it. But I am including it because when I was looking through my screenshots it popped up. This was like one of the new things you could do instead of having to search for someone, they could show you the QR code. I'm not sure who did it first, but all the apps do it now."
         data-significance="I'm including it because it was one of those new features that became standard. Someone had to save a screenshot of it once, when it was new."
-        data-tags-driver="Web"
-        data-tags-timeline="Technology,Infrastructure & Exploration">
+        data-tags-driver="Online"
+        data-tags-timeline="Internet &amp; Web,Infrastructure">
         <img src="/assets/archive/upgrade/hw-screenshot-fbcode.PNG" alt="Screenshot of a Facebook QR code feature for finding friends" loading="lazy">
       </div>
       
@@ -67,14 +57,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="High Scores as Content"
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="undated"
-        data-captured=""
         data-context="A screenshot of the Angry Birds game app on my phone. It shows that there is a new high score. I'm not sure if this was my high score or my kid's. There is a Connect to FB link to play with friends."
         data-significance="Shows the incentive of connecting social media apps to popular mobile games."
-        data-tags-driver="Web"
-        data-tags-timeline="Technology,Economy">
+        data-tags-driver="Online"
+        data-tags-timeline="Internet &amp; Web,Economy">
         <img src="/assets/archive/upgrade/hw-screenshot-angrybirds.PNG" alt="Screenshot of Angry Birds game showing a new high score and a Connect to Facebook button" loading="lazy">
       </div>
       
@@ -82,14 +69,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="Bésame en esta esquina..."
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="12-13-2024"
-        data-captured=""
         data-context="I was in Mexico and came across a kissing corner/bench. It was a bench with two potted plants for decoration and a sign that reads &quot;bésame en esta esquina&quot; — kiss me on this corner. A couple younger than me sat on the bench and took a picture but they didn't kiss, which is what the text is about."
         data-significance="I'm including it because it shows how we curate our lives for the gram with Instagrammable set ups like this."
-        data-tags-driver="Identity,Place,Web"
-        data-tags-timeline="Culture">
+        data-tags-driver="Identity,Spaces,Online"
+        data-tags-timeline="Pop Culture">
         <img src="/assets/archive/upgrade/hw-screenshot-kissingbench.jpeg" alt="Screenshot of a text message about a kissing bench in Mexico" loading="lazy">
       </div>
       
@@ -97,14 +81,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="All this water but you still thirsty"
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="04-01-2014"
-        data-captured=""
         data-context="This is a screenshot I took of a snap that my sibling sent me. In the picture there are three full 5-gallon bottles of water. The text reads, &quot;All this water but you still thirsty.&quot;"
         data-significance="This is evidence of the viral meme phrase: All this ____ but you still _____. In which tangible objects represented a feeling."
-        data-tags-driver="Intimacy,Web,Expression"
-        data-tags-timeline="Culture">
+        data-tags-driver="Intimacy,Online,Expression"
+        data-tags-timeline="Pop Culture">
         <img src="/assets/archive/viral/hw-screenshot-stillthirsty.PNG" alt="Screenshot of a Snapchat message showing three full 5-gallon water bottles with text reading 'All this water but you still thirsty.'" loading="lazy">
       </div>
       
@@ -112,14 +93,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="Straight Outta Beyonce"
         data-origin="web-screenshot"
-        data-source=""
-        data-creator=""
         data-date="08-09-2015"
-        data-captured=""
         data-context="This is a frame that was being used in 2015 when the movie Straight Outta Compton came out. It is a picture of Baby Blue Ivy Carter holding wads of cash, with a chest of cash behind her labeled TOYS. The frame reads Straight Outta Beyonce. There was also a Snapchat filter where you could place the Straight Outta Compton frame over your own photo. I have one of my kid, 5 at the time."
         data-significance="This shows the intertextuality of meme culture."
-        data-tags-driver="Web,Identity"
-        data-tags-timeline="Culture,Economics">
+        data-tags-driver="Online,Identity"
+        data-tags-timeline="Pop Culture,Economy">
         <img src="/assets/archive/viral/web-straight-outta-beyonce.PNG" alt="Baby Blue Ivy Carter holding wads of cash with a chest of cash behind her labeled TOYS. The frame reads Straight Outta Beyonce." loading="lazy">
       </div>
       
@@ -127,14 +105,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="When ur hotline bling but it aint the person u wanted"
         data-origin="web-screenshot"
-        data-source=""
-        data-creator=""
         data-date="10-25-2015"
-        data-captured=""
         data-context="This is one of many Drake reaction memes. It's a still from his Hotline Bling music video where his expression appears to be signaling yikes. His hand is raised to his head with pinky and thumb hand phone. The reaction is in classic meme text followed by meme image structure. The text reads &quot;When ur hotline bling but it aint the person u wanted.&quot;"
         data-significance="This shows the way we use memes to express feelings we might not otherwise be able to articulate."
-        data-tags-driver="Web,Expression"
-        data-tags-timeline="Culture">
+        data-tags-driver="Online,Expression"
+        data-tags-timeline="Pop Culture">
         <img src="/assets/archive/viral/web-meme-drake.JPG" alt="Drake reaction meme from Hotline Bling video. Text reads 'When ur hotline bling but it aint the person u wanted.'" loading="lazy">
       </div>
       
@@ -142,14 +117,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="Millennials Be Like:"
         data-origin="hw-meme"
-        data-source=""
-        data-creator=""
         data-date="07-26-2023"
-        data-captured=""
         data-context="This is actually a meme I made, in the ___ be like ___ meme style. The text reads &quot;Millennials be like: I'm looking up Zillow listings &amp; I'm dreaming…&quot; over a picture of a still from the 1997 movie Selena. In the scene, Selena is up on the roof and her sister climbs up to sit next to her. The sister says &quot;Selena what are you doing&quot; and Selena replies &quot;I'm looking up at the moon and I'm dreaming.&quot; It's a whole wish on a star moment, which is like millennials with owning houses."
         data-significance="This shows meme intertextuality. And the economic downsides of being a millennial."
-        data-tags-driver="Expression,Future"
-        data-tags-timeline="Culture,Economics">
+        data-tags-driver="Expression,Hope"
+        data-tags-timeline="Pop Culture,Economy">
         <img src="/assets/archive/viral/hw-selena-meme.jpeg" alt="Meme in the '___ be like ___' format over a still from the 1997 film Selena" loading="lazy">
       </div>
       
@@ -157,14 +129,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="Intrusive Thoughts, Kardashian Reaction"
         data-origin="web-meme"
-        data-source=""
-        data-creator=""
         data-date="10-05-2017"
-        data-captured=""
         data-context="Another meme in classic meme structure. The image is three frames from Keeping Up with the Kardashians where Kim and Khloé are staring blankly ahead. The text above reads &quot;when im having a good time and intrusive thoughts happen.&quot;"
         data-significance="Shows how we often used memes to lighten heavier mental health feelings."
-        data-tags-driver="Intimacy,Care"
-        data-tags-timeline="Culture">
+        data-tags-driver="Intimacy,Community"
+        data-tags-timeline="Pop Culture">
         <img src="/assets/archive/viral/web-meme-intrusivethoughts.jpeg" alt="Classic meme structure using three frames of Kim and Khloé Kardashian staring blankly" loading="lazy">
       </div>
       
@@ -172,14 +141,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="Well Now I Am Not Doing It"
         data-origin="web-meme"
-        data-source=""
-        data-creator=""
         data-date="01-04-2019"
-        data-captured=""
         data-context="Another classic meme structure. Text reads: me: ugh i want to kill myself, demons: kill yourself, me: The image is of Pingu sitting on a chair with his arms crossed and a frown and the image text reads &quot;well now i am not doing it.&quot;"
         data-significance="Shows how we often used memes to lighten heavier mental health feelings."
-        data-tags-driver="Intimacy,Care"
-        data-tags-timeline="Culture">
+        data-tags-driver="Intimacy,Community"
+        data-tags-timeline="Pop Culture">
         <img src="/assets/archive/viral/web-meme-pingu.jpeg" alt="Meme of Pingu the penguin sitting with arms crossed and a frown" loading="lazy">
       </div>
       
@@ -187,14 +153,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="Lauren Graham Announces the Gilmore Girls Reboot"
         data-origin="web-screenshot"
-        data-source=""
-        data-creator=""
         data-date="2016"
-        data-captured=""
         data-context="When Netflix revived Gilmore Girls, the announcement came through Lauren Graham posting it directly to Instagram instead of through traditional channels. Gilmore Girls was already a defining millennial show; the reboot proved nostalgia had become an industry."
         data-significance="Breaking the fourth wall between celebrity and audience. Fans would've most likely been following her Instagram and not the studio's."
-        data-tags-driver="Web"
-        data-tags-timeline="Culture,Economics">
+        data-tags-driver="Online"
+        data-tags-timeline="Pop Culture,Economy">
         <img src="/assets/archive/parasocial/web-screenshot-laurengraham.PNG" alt="Screenshot of Lauren Graham's Instagram post announcing the Gilmore Girls reboot" loading="lazy">
       </div>
       
@@ -202,14 +165,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="This Beyoncé Mug"
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="04-10-2018"
-        data-captured=""
         data-context="This is a screenshot of my sibling's IG story. It is a picture of a large bowl mug she found at a thrift store. It appears to be hand made, it looks like a watermelon half, the inside is painted a pinkish-red with black spots as seeds and the painted text reads &quot;I've been drinkin…&quot; — a reference to the Beyoncé song Drunk in Love where she sings I be drinkin watermelon. My sibling's caption reads &quot;Ya'll! This beyonce mug.&quot;"
         data-significance="This shows intertextuality. And parasocialism."
         data-tags-driver="Identity,Expression"
-        data-tags-timeline="Culture">
+        data-tags-timeline="Pop Culture">
         <img src="/assets/archive/parasocial/hw-screenshot-watermelonmug.PNG" alt="Screenshot of an Instagram story showing a handmade ceramic mug shaped like a watermelon half" loading="lazy">
       </div>
       
@@ -217,14 +177,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="Gentrys Tried to Talk to Me"
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="06-22-2017"
-        data-captured=""
         data-context="This is a screenshot of a story my sibling posted on IG. The location tag says Barrio Logan, San Diego, which is the neighborhood we are from. Over our life we have seen it turn into a tourist destination — gentrification. One of the best cafes in San Diego is sitting in Barrio Logan. We used to go there a lot before it got popular and the lines started going out the door. The picture shows a latte in a to-go cup with the Cafe Moto label printed on the side, on top of a page of what looks like either the San Diego City Beat or the San Diego Reader. We would pick those free magazines up at local shops. I'm not sure if the Reader is still being printed, I haven't seen it in a while. I would get one every Thursday. The City Beat has been out of print for a while now though. They were both pretty big local magazines. The caption text reads &quot;Gentrys tried to talk to me 🙅🏽‍♀️&quot; — implying we don't like the gentrification of our hood."
         data-significance="The free local magazines are gone or disappearing. The neighborhood we're from has become a tourist destination. It's something that happens across many cities, the outsiders come in and change things."
-        data-tags-driver="Place,Loss,Identity"
-        data-tags-timeline="Local Memory,Environment">
+        data-tags-driver="Spaces,Ghosts,Identity"
+        data-tags-timeline="Community,Climate">
         <img src="/assets/archive/uni/hw-screenshot-gentrys.PNG" alt="Screenshot of an Instagram story from Barrio Logan, San Diego" loading="lazy">
       </div>
       
@@ -232,10 +189,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="If I Write About You Are You Gonna Sue Me"
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="undated"
-        data-captured=""
         data-context="This is a screenshot of a text between me and my sibling. I texted &quot;if I write about you are you gonna sue me?&quot; They replied &quot;yes.&quot;"
         data-significance="I wanted to include this one because it's an argument on who owns memory. A lot of times in writing, writers are cautious to be as factual as possible and it sometimes fucks the authenticity of the writing, as we see in the double perspective. This is true on the internet as well where it's a participatory culture of collective memories — who owns memory."
         data-tags-driver="Identity,Intimacy,Witness"
@@ -247,14 +201,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="Horchata meets Yogurtland"
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="5-5-2016"
-        data-captured=""
         data-context="This is an announcement from Yogurtland about their Flavor Quest event. The flyer has a picture of a glass with horchata in it. There are what appears like country passport-type stamps in the background layer. Only one stamp in front of the glass reads “MEXICO” and the main text says “Celebrate Cinco de Mayo with Delicious Horchata Froyo.” I am certain I screenshotted it because I was excited to try this flavor and probably sent it to someone."
         data-significance="I am including this, not only as an example of what flyers looked like in 2016, but also because the Froyo craze was some type of fever dream where we were all obsessed with froyo and then suddenly it all went away. In the show, The Good Place, in the pilot episode, Michael, the character showing us and our protagonist around our new setting, points out the multiple froyo shops scattered in the afterlife. “People really love froyo,” he says."
-        data-tags-driver="Identity,Expression,Loss"
-        data-tags-timeline="Culture">
+        data-tags-driver="Identity,Expression,Ghosts"
+        data-tags-timeline="Pop Culture">
         <img src="/assets/archive/viral/hw-screenshot-froyo.JPG" alt="Screenshot of Yogurtland flyer announcing new Horchata flavor" loading="lazy">
       </div>
 
@@ -262,14 +213,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="No Inventes"
         data-origin="hw-screenshot"
-        data-source=""
-        data-creator=""
         data-date="11-20-2016"
-        data-captured=""
         data-context="This is a meme/tweet. It has a date stamp on it so I'm assuming it got tweeted at some point and someone took it from the tweet. The image is of Kermit the frog without a hood being confronted by Kermit the frog with a hood on. The hooded Kermit is the &quot;bad influence.&quot; The text reads, &quot;My mom: no inventes. Me to me: inventa.&quot; My mom: Don't make things up or don't lie, Me to me: Make things up, lie."
         data-significance="This meme was really popular for a minute. The text is bilingual which shows the scope of meme culture. It wasn't just a U.S. phenomenon, memes are a global language, like math."
         data-tags-driver="Expression"
-        data-tags-timeline="Culture">
+        data-tags-timeline="Pop Culture">
         <img src="/assets/archive/viral/web-meme-inventa.JPG" alt="Meme of Evil Kermit tempting Good Kermit" loading="lazy">
       </div>
 
@@ -277,14 +225,11 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <div class="artifact-slide"
         data-title="Mr. President, sign my iPad?"
         data-origin="web-tumblr"
-        data-source=""
-        data-creator=""
         data-date="10-22-2010"
-        data-captured=""
         data-context="This was posted to tumblr by &quot;thedailywhat,&quot; the original photo credit goes to &quot;Tech Crunch,&quot; who doesn't have it on their website anymore. In the photo, a black man dressed in a grey t-shirt with the silhouette of obama from his &quot;HOPE&quot; poster on it, is amongst a crowd of people greeting President Obama. People look excited and pushing on top of each other to get closer to Obama. The man holds up an ipad in which he has drawn the text &quot;Mr. President, sign my iPad x__________&quot; In the companion photo, we see the screen of the ipad with Obama's signature."
         data-significance="Obama was the first president to sign an iPad for a fan. iPads came out during his presidency. This photo also shows the celebrity of Obama. The first black president and all his photos are filled with diversity in the crowds."
         data-tags-driver="Witness"
-        data-tags-timeline="Documentation,Infrastructure & Exploration,Politics">
+        data-tags-timeline="Documentation,Infrastructure,Government">
         <img src="/assets/archive/parasocial/web-tumblr-obamaipad.jpg" alt="A photo of a man asking Obama to sign his iPad" loading="lazy">
       </div>
 
@@ -314,31 +259,33 @@ On this page, I am collecting born-digital content. Each artifact includes where
 </div>
 
 <script>
-const tagMap = {
-  'Place': 'place',
-  'Loss': 'loss',
+const driverTagMap = {
+  'Spaces': 'spaces',
+  'Ghosts': 'ghosts',
   'Intimacy': 'intimacy',
-  'Web': 'web',
+  'Online': 'online',
   'Identity': 'identity',
   'Expression': 'expression',
-  'Future': 'future',
-  'Care': 'care',
+  'Hope': 'hope',
+  'Community': 'community',
   'Witness': 'witness',
   'Surveillance': 'surveillance',
-  'Emergence': 'emergence',
-  'Threshold': 'threshold',
-  'Technology': 'tech',
-  'Politics': 'politics',
-  'Culture': 'expression',
-  'Economy': 'economics',
-  'Environment': 'environment',
-  'Local Memory': 'local',
+  'Volta': 'volta',
+  'Body': 'body'
+};
+
+const timelineTagMap = {
+  'Internet & Web': 'internet',
+  'Government': 'government',
+  'Pop Culture': 'pop-culture',
+  'Economy': 'economy',
+  'Climate': 'climate',
+  'Community': 'community',
   'Documentation': 'documentation',
   'Science & Health': 'science',
-  'Law & Justice': 'justice',
-  'Conflict & Security': 'security',
-  'Infrastructure & Exploration': 'infrastructure',
-  'Care': 'care'
+  'Society': 'society',
+  'Injustice': 'injustice',
+  'Infrastructure': 'infrastructure'
 };
 
 const archiveSlideshow = document.getElementById('archive-slideshow');
@@ -375,20 +322,21 @@ function updateArtifactMetadata(sectionId) {
   if (tagsEl) {
     const driverTags = activeSlide.getAttribute('data-tags-driver');
     const timelineTags = activeSlide.getAttribute('data-tags-timeline');
-    const allTags = [];
-    if (driverTags) allTags.push(...driverTags.split(','));
-    if (timelineTags) allTags.push(...timelineTags.split(','));
-    
     tagsEl.innerHTML = '';
-    allTags.forEach(tag => {
-      const span = document.createElement('span');
+
+    function addTag(tag, map) {
       const trimmed = tag.trim();
       if (!trimmed) return;
-      const mappedClass = tagMap[trimmed] || 'culture';
+      const span = document.createElement('span');
+      const mappedClass = map[trimmed];
+      if (!mappedClass) return;
       span.className = `timeline-tag ${mappedClass}`;
       span.textContent = trimmed;
       tagsEl.appendChild(span);
-    });
+    }
+
+    if (driverTags) driverTags.split(',').forEach(tag => addTag(tag, driverTagMap));
+    if (timelineTags) timelineTags.split(',').forEach(tag => addTag(tag, timelineTagMap));
   }
 }
 

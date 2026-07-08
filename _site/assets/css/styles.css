@@ -16,38 +16,103 @@
   --text: #f5f0f5;
   --pink: #ff00a3;
   --purple: #a300ff;
-  
-  --theme-place: #8fd3c7;
-  --theme-loss: #ff8c69;
-  --theme-intimacy: #ffe066;
-  --theme-web: #4df0ff;
-  --theme-identity: #ffb3ff;
-  --theme-expression: #7fffd4;
-  --theme-future: #e6e6e6;
-  --theme-care: #ffb7c5;
-  --theme-witness: #c7b6ff;
-  --theme-surveillance: #8fa8ff;
-  --theme-emergence: #9dff9a;
-  --theme-threshold: #d6d0ff;
+
+  /* Flexible archive color tokens */
+  --color-01: #ff7a66;  /* coral */
+  --color-02: #ff8c69;  /* soft orange */
+  --color-03: #ff8c3a;  /* orange */
+  --color-04: #ff7b00;  /* hot orange */
+  --color-05: #ffa64d;  /* peach-orange */
+  --color-06: #ffb347;  /* tangerine */
+  --color-07: #ffc94d;  /* marigold */
+  --color-08: #ffe066;  /* gold */
+  --color-09: #fff4b0;  /* pale yellow */
+  --color-10: #ffff33;  /* neon yellow */
+  --color-11: #ccff00;  /* chartreuse */
+  --color-12: #39ff14;  /* electric green */
+  --color-13: #a8e6a3;  /* soft green */
+  --color-14: #7fffd4;  /* mint */
+  --color-15: #06d6a0;  /* teal */
+  --color-16: #8fd3c7;  /* seafoam */
+  --color-17: #39c5bb;  /* turquoise */
+  --color-18: #00ffff;  /* cyan */
+  --color-19: #4df0ff;  /* electric cyan */
+  --color-20: #80e5ff;  /* pale cyan */
+  --color-21: #0099ff;  /* blue */
+  --color-22: #b3e0ff;  /* pale blue */
+  --color-23: #8fa8ff;  /* periwinkle */
+  --color-24: #c7b6ff;  /* lavender */
+  --color-25: #ffb3ff;  /* orchid */
+  --color-26: #ffb7c5;  /* rose */
+  --color-27: #e6e6e6;  /* light silver */
+  --color-28: #cccccc;  /* silver */
+  --color-29: #999999;  /* dark silver */
+  --color-30: #9dff9a;  /* spring green */
+
+  /* Current public theme names */
+  --theme-spaces: var(--color-16);
+  --theme-ghosts: var(--color-06);
+  --theme-intimacy: var(--color-08);
+  --theme-online: var(--color-19);
+  --theme-identity: var(--color-25);
+  --theme-expression: var(--color-14);
+  --theme-hope: var(--color-30);
+  --theme-community: var(--color-26);
+  --theme-witness: var(--color-24);
+  --theme-surveillance: var(--color-23);
+  --theme-volta: var(--color-15);
+  --theme-body: var(--color-20);
+
+  /* Current public timeline category names */
+  --category-internet: var(--color-19);
+  --category-government: var(--color-23);
+  --category-pop-culture: var(--color-07);
+  --category-economy: var(--color-28);
+  --category-climate: var(--color-15);
+  --category-community: var(--color-26);
+  --category-documentation: var(--color-08);
+  --category-science: var(--color-30);
+  --category-society: var(--color-24);
+  --category-injustice: var(--color-01);
+  --category-infrastructure: var(--color-21);
 }
 
 [data-theme="light"] {
   --bg: #f5f0f5;
   --text: #0a0608;
-  --theme-place: #4f8f85;
-  --theme-loss: #d96b48;
-  --theme-intimacy: #b8860b;
-  --theme-web: #008fb3;
-  --theme-identity: #9b5ca9;
-  --theme-expression: #2ca88f;
-  --theme-future: #666666;
-  --theme-care: #c96f84;
-  --theme-witness: #7a6bc2;
-  --theme-surveillance: #4f6fd6;
-  --theme-emergence: #3aa33a;
-  --theme-threshold: #6f68b8;
-}
 
+  /* Light-mode versions of flexible archive color tokens */
+  --color-01: #c95f50;  /* coral */
+  --color-02: #c86a50;  /* soft orange */
+  --color-03: #c76f2e;  /* orange */
+  --color-04: #b85b00;  /* hot orange */
+  --color-05: #b87334;  /* peach-orange */
+  --color-06: #b87922;  /* tangerine */
+  --color-07: #b88f22;  /* marigold */
+  --color-08: #b89b1f;  /* gold */
+  --color-09: #8f7f35;  /* pale yellow */
+  --color-10: #8f8f00;  /* neon yellow */
+  --color-11: #6f8f00;  /* chartreuse */
+  --color-12: #238f12;  /* electric green */
+  --color-13: #5f9f5c;  /* soft green */
+  --color-14: #2ca88f;  /* mint */
+  --color-15: #008f73;  /* teal */
+  --color-16: #4f8f85;  /* seafoam */
+  --color-17: #16877f;  /* turquoise */
+  --color-18: #009999;  /* cyan */
+  --color-19: #008fb3;  /* electric cyan */
+  --color-20: #4a9bb0;  /* pale cyan */
+  --color-21: #006bb3;  /* blue */
+  --color-22: #5f96c0;  /* pale blue */
+  --color-23: #4f6fd6;  /* periwinkle */
+  --color-24: #7a6bc2;  /* lavender */
+  --color-25: #9b5ca9;  /* orchid */
+  --color-26: #c96f84;  /* rose */
+  --color-27: #666666;  /* light silver */
+  --color-28: #595959;  /* silver */
+  --color-29: #444444;  /* dark silver */
+  --color-30: #3aa33a;  /* spring green */
+}
 
 /* ============================================
    2. ACCESSIBILITY FOUNDATION
@@ -1061,21 +1126,21 @@ audio:hover {
 }
 
 /* ============================================
-   11. COLOR-CODED QUOTE SYSTEM
+   11. COLOR-CODED PUBLIC TAG SYSTEM
    ============================================ */
 
-.tag-place { color: var(--theme-place); }
-.tag-loss { color: var(--theme-loss); }
+.tag-spaces { color: var(--theme-spaces); }
+.tag-ghosts { color: var(--theme-ghosts); }
 .tag-intimacy { color: var(--theme-intimacy); }
-.tag-web { color: var(--theme-web); }
+.tag-online { color: var(--theme-online); }
 .tag-identity { color: var(--theme-identity); }
 .tag-expression { color: var(--theme-expression); }
-.tag-future { color: var(--theme-future); }
-.tag-care { color: var(--theme-care); }
+.tag-hope { color: var(--theme-hope); }
+.tag-community { color: var(--theme-community); }
 .tag-witness { color: var(--theme-witness); }
 .tag-surveillance { color: var(--theme-surveillance); }
-.tag-emergence { color: var(--theme-emergence); }
-.tag-threshold { color: var(--theme-threshold); }
+.tag-volta { color: var(--theme-volta); }
+.tag-body { color: var(--theme-body); }
 
 .tag-quote {
   font-family: 'Cormorant Garamond', serif;
@@ -1088,18 +1153,18 @@ audio:hover {
   display: block;
 }
 
-.tag-quote.tag-place { border-color: var(--theme-place); color: var(--theme-place); }
-.tag-quote.tag-loss { border-color: var(--theme-loss); color: var(--theme-loss); }
+.tag-quote.tag-spaces { border-color: var(--theme-spaces); color: var(--theme-spaces); }
+.tag-quote.tag-ghosts { border-color: var(--theme-ghosts); color: var(--theme-ghosts); }
 .tag-quote.tag-intimacy { border-color: var(--theme-intimacy); color: var(--theme-intimacy); }
-.tag-quote.tag-web { border-color: var(--theme-web); color: var(--theme-web); }
+.tag-quote.tag-online { border-color: var(--theme-online); color: var(--theme-online); }
 .tag-quote.tag-identity { border-color: var(--theme-identity); color: var(--theme-identity); }
 .tag-quote.tag-expression { border-color: var(--theme-expression); color: var(--theme-expression); }
-.tag-quote.tag-future { border-color: var(--theme-future); color: var(--theme-future); }
-.tag-quote.tag-care { border-color: var(--theme-care); color: var(--theme-care); }
+.tag-quote.tag-hope { border-color: var(--theme-hope); color: var(--theme-hope); }
+.tag-quote.tag-community { border-color: var(--theme-community); color: var(--theme-community); }
 .tag-quote.tag-witness { border-color: var(--theme-witness); color: var(--theme-witness); }
 .tag-quote.tag-surveillance { border-color: var(--theme-surveillance); color: var(--theme-surveillance); }
-.tag-quote.tag-emergence { border-color: var(--theme-emergence); color: var(--theme-emergence); }
-.tag-quote.tag-threshold { border-color: var(--theme-threshold); color: var(--theme-threshold); }
+.tag-quote.tag-volta { border-color: var(--theme-volta); color: var(--theme-volta); }
+.tag-quote.tag-body { border-color: var(--theme-body); color: var(--theme-body); }
 
 .quote-attribution {
   font-family: 'Playfair Display', serif;
@@ -1137,31 +1202,29 @@ audio:hover {
   opacity: 0.8;
 }
 
-/* --- WITNESS PILL TAGS --- */
-.timeline-tag.place,
-.timeline-tag.loss,
+/* --- PUBLIC PILL TAGS --- */
+.timeline-tag.spaces,
+.timeline-tag.ghosts,
 .timeline-tag.intimacy,
-.timeline-tag.web,
+.timeline-tag.online,
 .timeline-tag.identity,
 .timeline-tag.expression,
-.timeline-tag.future,
-.timeline-tag.care,
+.timeline-tag.hope,
+.timeline-tag.community,
 .timeline-tag.witness,
 .timeline-tag.surveillance,
-.timeline-tag.emergence,
-.timeline-tag.threshold,
-.timeline-tag.tech,
-.timeline-tag.culture,
-.timeline-tag.local,
-.timeline-tag.environment,
-.timeline-tag.economics,
-.timeline-tag.politics,
+.timeline-tag.volta,
+.timeline-tag.body,
+.timeline-tag.internet,
+.timeline-tag.government,
+.timeline-tag.pop-culture,
+.timeline-tag.economy,
+.timeline-tag.climate,
 .timeline-tag.documentation,
 .timeline-tag.science,
-.timeline-tag.justice,
-.timeline-tag.security,
-.timeline-tag.infrastructure,
-.timeline-tag.continuity {
+.timeline-tag.society,
+.timeline-tag.injustice,
+.timeline-tag.infrastructure {
   display: inline-block;
   font-family: 'Lora', serif;
   font-size: 7pt;
@@ -1171,32 +1234,37 @@ audio:hover {
   border-radius: 12px;
   margin-right: 4px;
   margin-top: 4px;
+  color: var(--tag-color);
+  border: 0.5px solid color-mix(in srgb, var(--tag-color) 28%, transparent);
+  background: color-mix(in srgb, var(--tag-color) 12%, transparent);
 }
 
-.timeline-tag.place { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
-.timeline-tag.loss { background: rgba(255, 140, 105, 0.12); color: var(--theme-loss); border: 0.5px solid rgba(255, 140, 105, 0.25); }
-.timeline-tag.intimacy { background: rgba(255, 224, 102, 0.12); color: var(--theme-intimacy); border: 0.5px solid rgba(255, 224, 102, 0.25); }
-.timeline-tag.web { background: rgba(77, 240, 255, 0.12); color: var(--theme-web); border: 0.5px solid rgba(77, 240, 255, 0.25); }
-.timeline-tag.identity { background: rgba(255, 179, 255, 0.12); color: var(--theme-identity); border: 0.5px solid rgba(255, 179, 255, 0.25); }
-.timeline-tag.expression { background: rgba(127, 255, 212, 0.12); color: var(--theme-expression); border: 0.5px solid rgba(127, 255, 212, 0.25); }
-.timeline-tag.future { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
-.timeline-tag.care { background: rgba(255, 183, 197, 0.12); color: var(--theme-care); border: 0.5px solid rgba(255, 183, 197, 0.25); }
-.timeline-tag.witness { background: rgba(199, 182, 255, 0.12); color: var(--theme-witness); border: 0.5px solid rgba(199, 182, 255, 0.25); }
-.timeline-tag.surveillance { background: rgba(143, 168, 255, 0.12); color: var(--theme-surveillance); border: 0.5px solid rgba(143, 168, 255, 0.25); }
-.timeline-tag.emergence { background: rgba(157, 255, 154, 0.12); color: var(--theme-emergence); border: 0.5px solid rgba(157, 255, 154, 0.25); }
-.timeline-tag.threshold { background: rgba(214, 208, 255, 0.12); color: var(--theme-threshold); border: 0.5px solid rgba(214, 208, 255, 0.25); }
-.timeline-tag.tech { background: rgba(77, 240, 255, 0.12); color: var(--theme-web); border: 0.5px solid rgba(77, 240, 255, 0.25); }
-.timeline-tag.culture { background: rgba(127, 255, 212, 0.12); color: var(--theme-expression); border: 0.5px solid rgba(127, 255, 212, 0.25); }
-.timeline-tag.local { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
-.timeline-tag.politics { background: rgba(255, 179, 255, 0.12); color: var(--theme-identity); border: 0.5px solid rgba(255, 179, 255, 0.25); }
-.timeline-tag.environment { background: rgba(255, 140, 105, 0.12); color: var(--theme-loss); border: 0.5px solid rgba(255, 140, 105, 0.25); }
-.timeline-tag.economics { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
-.timeline-tag.documentation { background: rgba(255, 224, 102, 0.12); color: var(--theme-intimacy); border: 0.5px solid rgba(255, 224, 102, 0.25); }
-.timeline-tag.science { background: rgba(157, 255, 154, 0.12); color: var(--theme-emergence); border: 0.5px solid rgba(157, 255, 154, 0.25); }
-.timeline-tag.justice { background: rgba(199, 182, 255, 0.12); color: var(--theme-witness); border: 0.5px solid rgba(199, 182, 255, 0.25); }
-.timeline-tag.security { background: rgba(143, 168, 255, 0.12); color: var(--theme-surveillance); border: 0.5px solid rgba(143, 168, 255, 0.25); }
-.timeline-tag.infrastructure { background: rgba(214, 208, 255, 0.12); color: var(--theme-threshold); border: 0.5px solid rgba(214, 208, 255, 0.25); }
-.timeline-tag.continuity { background: rgba(255, 183, 197, 0.12); color: var(--theme-care); border: 0.5px solid rgba(255, 183, 197, 0.25); }/* ============================================
+/* Themes */
+.timeline-tag.spaces { --tag-color: var(--theme-spaces); }
+.timeline-tag.ghosts { --tag-color: var(--theme-ghosts); }
+.timeline-tag.intimacy { --tag-color: var(--theme-intimacy); }
+.timeline-tag.online { --tag-color: var(--theme-online); }
+.timeline-tag.identity { --tag-color: var(--theme-identity); }
+.timeline-tag.expression { --tag-color: var(--theme-expression); }
+.timeline-tag.hope { --tag-color: var(--theme-hope); }
+.timeline-tag.community { --tag-color: var(--theme-community); }
+.timeline-tag.witness { --tag-color: var(--theme-witness); }
+.timeline-tag.surveillance { --tag-color: var(--theme-surveillance); }
+.timeline-tag.volta { --tag-color: var(--theme-volta); }
+.timeline-tag.body { --tag-color: var(--theme-body); }
+
+/* Timeline categories */
+.timeline-tag.internet { --tag-color: var(--category-internet); }
+.timeline-tag.government { --tag-color: var(--category-government); }
+.timeline-tag.pop-culture { --tag-color: var(--category-pop-culture); }
+.timeline-tag.economy { --tag-color: var(--category-economy); }
+.timeline-tag.climate { --tag-color: var(--category-climate); }
+.timeline-tag.documentation { --tag-color: var(--category-documentation); }
+.timeline-tag.science { --tag-color: var(--category-science); }
+.timeline-tag.society { --tag-color: var(--category-society); }
+.timeline-tag.injustice { --tag-color: var(--category-injustice); }
+.timeline-tag.infrastructure { --tag-color: var(--category-infrastructure); }
+/* ============================================
    12. WIKI PAGE (LEGACY)
    ============================================ */
 
@@ -1446,8 +1514,8 @@ audio:hover {
 .connections-container {
   position: relative;
   width: 100%;
-  min-height: 720px;
-  height: 72vh;
+  min-height: 880px;
+  height: 82vh;
   overflow: hidden;
   margin: 0;
 }
@@ -1515,18 +1583,18 @@ audio:hover {
   margin-top: 2px;
 }
 
-.connection-node.theme-place { border-color: var(--theme-place); color: var(--theme-place); }
-.connection-node.theme-loss { border-color: var(--theme-loss); color: var(--theme-loss); }
+.connection-node.theme-spaces { border-color: var(--theme-spaces); color: var(--theme-spaces); }
+.connection-node.theme-ghosts { border-color: var(--theme-ghosts); color: var(--theme-ghosts); }
 .connection-node.theme-intimacy { border-color: var(--theme-intimacy); color: var(--theme-intimacy); }
-.connection-node.theme-web { border-color: var(--theme-web); color: var(--theme-web); }
+.connection-node.theme-online { border-color: var(--theme-online); color: var(--theme-online); }
 .connection-node.theme-identity { border-color: var(--theme-identity); color: var(--theme-identity); }
 .connection-node.theme-expression { border-color: var(--theme-expression); color: var(--theme-expression); }
-.connection-node.theme-future { border-color: var(--theme-future); color: var(--theme-future); }
-.connection-node.theme-care { border-color: var(--theme-care); color: var(--theme-care); }
+.connection-node.theme-hope { border-color: var(--theme-hope); color: var(--theme-hope); }
+.connection-node.theme-community { border-color: var(--theme-community); color: var(--theme-community); }
 .connection-node.theme-witness { border-color: var(--theme-witness); color: var(--theme-witness); }
 .connection-node.theme-surveillance { border-color: var(--theme-surveillance); color: var(--theme-surveillance); }
-.connection-node.theme-emergence { border-color: var(--theme-emergence); color: var(--theme-emergence); }
-.connection-node.theme-threshold { border-color: var(--theme-threshold); color: var(--theme-threshold); }
+.connection-node.theme-volta { border-color: var(--theme-volta); color: var(--theme-volta); }
+.connection-node.theme-body { border-color: var(--theme-body); color: var(--theme-body); }
 .connection-node.center-node {
   border-color: var(--pink);
   background: rgba(255, 0, 163, 0.06);
@@ -1638,70 +1706,65 @@ audio:hover {
   transition: opacity 0.3s ease, border-color 0.3s ease;
 }
 
-.timeline-legend .legend-tech,
-.timeline-legend .legend-tech:hover,
-.timeline-legend .legend-tech:focus,
-.timeline-legend .legend-tech:active { color: var(--theme-web) !important; }
+.timeline-legend .legend-internet,
+.timeline-legend .legend-internet:hover,
+.timeline-legend .legend-internet:focus,
+.timeline-legend .legend-internet:active { color: var(--category-internet) !important; }
 
-.timeline-legend .legend-politics,
-.timeline-legend .legend-politics:hover,
-.timeline-legend .legend-politics:focus,
-.timeline-legend .legend-politics:active { color: var(--theme-identity) !important; }
+.timeline-legend .legend-government,
+.timeline-legend .legend-government:hover,
+.timeline-legend .legend-government:focus,
+.timeline-legend .legend-government:active { color: var(--category-government) !important; }
 
-.timeline-legend .legend-environment,
-.timeline-legend .legend-environment:hover,
-.timeline-legend .legend-environment:focus,
-.timeline-legend .legend-environment:active { color: var(--theme-loss) !important; }
+.timeline-legend .legend-pop-culture,
+.timeline-legend .legend-pop-culture:hover,
+.timeline-legend .legend-pop-culture:focus,
+.timeline-legend .legend-pop-culture:active { color: var(--category-pop-culture) !important; }
 
-.timeline-legend .legend-culture,
-.timeline-legend .legend-culture:hover,
-.timeline-legend .legend-culture:focus,
-.timeline-legend .legend-culture:active { color: var(--theme-expression) !important; }
+.timeline-legend .legend-economy,
+.timeline-legend .legend-economy:hover,
+.timeline-legend .legend-economy:focus,
+.timeline-legend .legend-economy:active { color: var(--category-economy) !important; }
 
-.timeline-legend .legend-economics,
-.timeline-legend .legend-economics:hover,
-.timeline-legend .legend-economics:focus,
-.timeline-legend .legend-economics:active { color: var(--theme-future) !important; }
+.timeline-legend .legend-climate,
+.timeline-legend .legend-climate:hover,
+.timeline-legend .legend-climate:focus,
+.timeline-legend .legend-climate:active { color: var(--category-climate) !important; }
 
-.timeline-legend .legend-local,
-.timeline-legend .legend-local:hover,
-.timeline-legend .legend-local:focus,
-.timeline-legend .legend-local:active { color: var(--theme-place) !important; }
+.timeline-legend .legend-community,
+.timeline-legend .legend-community:hover,
+.timeline-legend .legend-community:focus,
+.timeline-legend .legend-community:active { color: var(--category-community) !important; }
+
+.timeline-legend .legend-documentation,
+.timeline-legend .legend-documentation:hover,
+.timeline-legend .legend-documentation:focus,
+.timeline-legend .legend-documentation:active { color: var(--category-documentation) !important; }
+
+.timeline-legend .legend-science,
+.timeline-legend .legend-science:hover,
+.timeline-legend .legend-science:focus,
+.timeline-legend .legend-science:active { color: var(--category-science) !important; }
+
+.timeline-legend .legend-society,
+.timeline-legend .legend-society:hover,
+.timeline-legend .legend-society:focus,
+.timeline-legend .legend-society:active { color: var(--category-society) !important; }
+
+.timeline-legend .legend-injustice,
+.timeline-legend .legend-injustice:hover,
+.timeline-legend .legend-injustice:focus,
+.timeline-legend .legend-injustice:active { color: var(--category-injustice) !important; }
+
+.timeline-legend .legend-infrastructure,
+.timeline-legend .legend-infrastructure:hover,
+.timeline-legend .legend-infrastructure:focus,
+.timeline-legend .legend-infrastructure:active { color: var(--category-infrastructure) !important; }
 
 .timeline-legend .legend-all,
 .timeline-legend .legend-all:hover,
 .timeline-legend .legend-all:focus,
 .timeline-legend .legend-all:active { color: var(--text) !important; }
-
-.timeline-legend .legend-documentation,
-.timeline-legend .legend-documentation:hover,
-.timeline-legend .legend-documentation:focus,
-.timeline-legend .legend-documentation:active { color: var(--theme-intimacy) !important; }
-
-.timeline-legend .legend-science,
-.timeline-legend .legend-science:hover,
-.timeline-legend .legend-science:focus,
-.timeline-legend .legend-science:active { color: var(--theme-emergence) !important; }
-
-.timeline-legend .legend-justice,
-.timeline-legend .legend-justice:hover,
-.timeline-legend .legend-justice:focus,
-.timeline-legend .legend-justice:active { color: var(--theme-witness) !important; }
-
-.timeline-legend .legend-security,
-.timeline-legend .legend-security:hover,
-.timeline-legend .legend-security:focus,
-.timeline-legend .legend-security:active { color: var(--theme-surveillance) !important; }
-
-.timeline-legend .legend-infrastructure,
-.timeline-legend .legend-infrastructure:hover,
-.timeline-legend .legend-infrastructure:focus,
-.timeline-legend .legend-infrastructure:active { color: var(--theme-threshold) !important; }
-
-.timeline-legend .legend-care,
-.timeline-legend .legend-care:hover,
-.timeline-legend .legend-care:focus,
-.timeline-legend .legend-care:active { color: var(--theme-care) !important; }
 
 .timeline-legend button:hover {
   opacity: 1;
@@ -1820,32 +1883,7 @@ audio:hover {
   margin: 0 0 6px 0;
 }
 
-/* --- CATEGORY PILL TAGS --- */
-.timeline-entry .timeline-tag {
-  display: inline-block;
-  font-family: 'Lora', serif;
-  font-size: 7pt;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  padding: 2px 8px;
-  border-radius: 12px;
-  margin-right: 4px;
-  margin-top: 4px;
-}
-
-.timeline-tag.tech { background: rgba(77, 240, 255, 0.12); color: var(--theme-web); border: 0.5px solid rgba(77, 240, 255, 0.25); }
-.timeline-tag.culture { background: rgba(127, 255, 212, 0.12); color: var(--theme-expression); border: 0.5px solid rgba(127, 255, 212, 0.25); }
-.timeline-tag.economics { background: rgba(230, 230, 230, 0.12); color: var(--theme-future); border: 0.5px solid rgba(230, 230, 230, 0.25); }
-.timeline-tag.local { background: rgba(143, 211, 199, 0.12); color: var(--theme-place); border: 0.5px solid rgba(143, 211, 199, 0.25); }
-.timeline-tag.documentation { background: rgba(255, 224, 102, 0.12); color: var(--theme-intimacy); border: 0.5px solid rgba(255, 224, 102, 0.25); }
-.timeline-tag.politics { background: rgba(255, 179, 255, 0.12); color: var(--theme-identity); border: 0.5px solid rgba(255, 179, 255, 0.25); }
-.timeline-tag.environment { background: rgba(255, 140, 105, 0.12); color: var(--theme-loss); border: 0.5px solid rgba(255, 140, 105, 0.25); }
-.timeline-tag.science { background: rgba(157, 255, 154, 0.12); color: var(--theme-emergence); border: 0.5px solid rgba(157, 255, 154, 0.25); }
-.timeline-tag.justice { background: rgba(199, 182, 255, 0.12); color: var(--theme-witness); border: 0.5px solid rgba(199, 182, 255, 0.25); }
-.timeline-tag.security { background: rgba(143, 168, 255, 0.12); color: var(--theme-surveillance); border: 0.5px solid rgba(143, 168, 255, 0.25); }
-.timeline-tag.infrastructure { background: rgba(214, 208, 255, 0.12); color: var(--theme-threshold); border: 0.5px solid rgba(214, 208, 255, 0.25); }
-.timeline-tag.care { background: rgba(255, 183, 197, 0.12); color: var(--theme-care); border: 0.5px solid rgba(255, 183, 197, 0.25); }
-.timeline-tag.continuity { background: rgba(255, 183, 197, 0.12); color: var(--theme-care); border: 0.5px solid rgba(255, 183, 197, 0.25); }
+/* Category pill colors are defined in Section 11. */
 
 .timeline-clear {
   clear: both;
@@ -2006,7 +2044,7 @@ body:not(.post) h1 {
 
   /* --- CONNECTIONS MAP --- */
   .connections-container {
-    min-height: 400px;
+    min-height: 520px;
   }
 
   .connection-node {
