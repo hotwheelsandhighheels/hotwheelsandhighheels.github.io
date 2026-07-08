@@ -96,81 +96,128 @@ function toggleMenu() {
   <main id="main" tabindex="-1">
     <h1 id="scratch-paper">Scratch Paper</h1>
 
-<hr />
+<div class="scratch-grid" id="scratch-grid">
 
-<div class="bulletin-board" id="bulletin-board">
+  <!-- POST-IT TEMPLATE
 
-  <!-- POST-IT TEMPLATE — copy and fill:
-       
-       PINK CARD (purple text):
-       <div class="post-it pink" style="left: Xpx; top: Ypx; transform: rotate(Zdeg);" draggable="true">
-         <p>Your note here.</p>
-       </div>
-       
-       PURPLE CARD (pink text):
-       <div class="post-it purple" style="left: Xpx; top: Ypx; transform: rotate(Zdeg);" draggable="true">
-         <p>Your note here.</p>
-       </div>
-       
-       Add data-stack="group-name" to cards that belong together.
-       Cards with the same stack value will overlap slightly.
+  SOLO NOTE:
+  <article class="post-it pink">
+    <p>Your short note here.</p>
+  </article>
+
+  LONG NOTE:
+  <article class="post-it purple">
+    <p>Short preview sentence.</p>
+    <details>
+      <summary>read more</summary>
+      <p>Longer note text here.</p>
+    </details>
+  </article>
+
+  STACK:
+  <div class="post-stack" data-stack="stack-name">
+    <article class="post-it pink">
+      <p>First note.</p>
+    </article>
+    <article class="post-it purple">
+      <p>Second note.</p>
+    </article>
+    <button type="button" class="stack-next">next →</button>
+  </div>
+
   -->
 
-  <!-- Post-0001 — double perspective (solo) -->
-  <div class="post-it pink" style="left: 60px; top: 40px; transform: rotate(-2deg);" draggable="true">
-    <p>Whenever there is a memory being remembered we are performing the double perspective. An archive (any archive) performs the double perspective <i>because</i> it is an archive. It is a memory aid; it does memory work.</p>
-  </div>
+  <!-- Post-0001 — double perspective -->
+  <article class="post-it pink">
+    <p>Whenever there is a memory being remembered we are performing the double perspective.</p>
+    <details>
+      <summary>read more</summary>
+      <p>An archive, any archive, performs the double perspective <i>because</i> it is an archive. It is a memory aid; it does memory work.</p>
+    </details>
+  </article>
 
   <!-- Post-0002 + Post-0003 — accidentalarchivist stack -->
-  <div class="post-it purple" style="left: 360px; top: 60px; transform: rotate(1deg);" draggable="true" data-stack="accidentalarchivist">
-    <p>You will never find me. You will always find me.</p>
-  </div>
+  <div class="post-stack" data-stack="accidentalarchivist">
+    <article class="post-it purple">
+      <p>You will never find me. You will always find me.</p>
+    </article>
 
-  <div class="post-it pink" style="left: 375px; top: 75px; transform: rotate(-1deg);" draggable="true" data-stack="accidentalarchivist">
-    <p>You are the documentary.</p>
+    <article class="post-it pink">
+      <p>You are the documentary.</p>
+    </article>
+
+    <button type="button" class="stack-next">next →</button>
   </div>
 
   <!-- Post-0004 + Post-0005 — archons stack -->
-  <div class="post-it pink" style="left: 60px; top: 320px; transform: rotate(1.5deg);" draggable="true" data-stack="archons">
-    <p>"There is no political power without control of the archive, if not memory." (Manoff)</p>
-  </div>
+  <div class="post-stack" data-stack="archons">
+    <article class="post-it pink">
+      <p>"There is no political power without control of the archive, if not memory." (Manoff)</p>
+    </article>
 
-  <div class="post-it purple" style="left: 75px; top: 240px; transform: rotate(-0.5deg);" draggable="true" data-stack="archons">
-    <p>"They have the power to interpret the archives... but in an unnatural fashion, that is to say in making the law or in making people respect the law." (Derrida)</p>
+    <article class="post-it purple">
+      <p>"They have the power to interpret the archives... but in an unnatural fashion, that is to say in making the law or in making people respect the law." (Derrida)</p>
+    </article>
+
+    <button type="button" class="stack-next">next →</button>
   </div>
 
   <!-- Post-0006 + Post-0007 — internet culture stack -->
-  <div class="post-it purple" style="left: 580px; top: 40px; transform: rotate(-2deg);" draggable="true" data-stack="internet-culture">
-    <p>Born-digital objects, like memes, share these characteristics: virality, mutability, and intertextuality. (Ismail)</p>
+  <div class="post-stack" data-stack="internet-culture">
+    <article class="post-it purple">
+      <p>Born-digital objects, like memes, share these characteristics: virality, mutability, and intertextuality. (Ismail)</p>
+    </article>
+
+    <article class="post-it pink">
+      <p>It is sometimes the case that memes develop into something foreign from their original value.</p>
+      <details>
+        <summary>read more</summary>
+        <p>Often times, only a small insignificant piece of the whole gets taken and misinterpreted, and repeated to death.</p>
+      </details>
+    </article>
+
+    <button type="button" class="stack-next">next →</button>
   </div>
 
-  <div class="post-it pink" style="left: 595px; top: 60px; transform: rotate(1deg);" draggable="true" data-stack="internet-culture">
-    <p>It is sometimes the case that memes develop into something foreign from their original value. Often times, only a small insignificant piece of the whole gets taken and misinterpreted, and repeated to death.</p>
-  </div>
+  <!-- Post-0008 — artificial intelligence -->
+  <article class="post-it purple">
+    <p>I think people accept that AI is here, what they don't accept is being "tricked" by AI.</p>
+    <details>
+      <summary>read more</summary>
+      <p>The labelling of AI content is for transparency. The user gets to decide whether or not to interact with AI generated content.</p>
+    </details>
+  </article>
 
-  <!-- Post-0008 — artificial intelligence (solo) -->
-  <div class="post-it purple" style="left: 580px; top: 240px; transform: rotate(-1.5deg);" draggable="true">
-    <p>I think people accept that AI is here, what they don't accept is being "tricked" by AI. The labelling of AI content is for transparency. The user gets to decide whether or not to interact with AI generated content.</p>
-  </div>
-
-  <!-- Post-0009 — family (solo) -->
-  <div class="post-it purple" style="left: 60px; top: 420px; transform: rotate(0.5deg);" draggable="true">
-    <p>Where are my family's objects? Who keeps the archive? What do we even do with all of this? Why did we want it? Why do we keep it? Why do we say that someday we will sit and sort through an archive that gets larger and uncontrollable with each passing day;</p>
-  </div>
+  <!-- Post-0009 — family -->
+  <article class="post-it pink">
+    <p>Where are my family's objects? Who keeps the archive?</p>
+    <details>
+      <summary>read more</summary>
+      <p>What do we even do with all of this? Why did we want it? Why do we keep it? Why do we say that someday we will sit and sort through an archive that gets larger and uncontrollable with each passing day?</p>
+    </details>
+  </article>
 
   <!-- Post-0010 + Post-0011 — double-perspective stack -->
-  <div class="post-it purple" style="left: 360px; top: 260px; transform: rotate(-1deg);" draggable="true" data-stack="double-perspective">
-    <p>Richard Hugo says "Music doesn't conform to truth, truth conforms to music."</p>
+  <div class="post-stack" data-stack="double-perspective">
+    <article class="post-it purple">
+      <p>Richard Hugo says "Music doesn't conform to truth, truth conforms to music."</p>
+    </article>
+
+    <article class="post-it pink">
+      <p>Literal truth versus literary truth... there is curation involved.</p>
+    </article>
+
+    <button type="button" class="stack-next">next →</button>
   </div>
 
-  <div class="post-it pink" style="left: 375px; top: 280px; transform: rotate(1.5deg);" draggable="true" data-stack="double-perspective">
-    <p>Literal truth versus literary truth... there is curation involved.</p>
-  </div>
-
-  <!-- Post-0012 — archivefever (solo) -->
-  <div class="post-it pink" style="left: 580px; top: 420px; transform: rotate(-0.5deg);" draggable="true">
-    <p>We planned what was Instagramable. We directed what was Tweetable. We used angles and filters and captions to force perspective. We became God, the creator. We created. We influenced. We locked ourselves in archival fever.</p>
-  </div>
+  <!-- Post-0012 — archive fever -->
+  <article class="post-it pink">
+    <p>We planned what was Instagramable. We directed what was Tweetable.</p>
+    <details>
+      <summary>read more</summary>
+      <p>We used angles and filters and captions to force perspective. We became God, the creator. We created. We influenced. We locked ourselves in archival fever.</p>
+    </details>
+  </article>
 
 </div>
 
@@ -183,100 +230,125 @@ function toggleMenu() {
 </div>
 
 <style>
-.bulletin-board {
-  position: relative;
-  width: 100%;
-  min-height: 700px;
-  background: 
-    repeating-conic-gradient(
-      var(--bg) 0% 25%,
-      transparent 0% 50%
-    ) 0 0 / 40px 40px;
-  background-color: var(--bg);
-  border: 0.5px solid rgba(163, 0, 255, 0.2);
-  border-radius: 4px;
-  padding: 20px;
-  margin: 24px 0;
-  overflow: visible;
+.scratch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 18px;
+  margin: 32px 0;
+}
+
+.post-it,
+.post-stack {
+  aspect-ratio: 1 / 1;
 }
 
 .post-it {
-  position: absolute;
-  width: 180px;
-  min-height: 80px;
-  padding: 16px;
-  border-radius: 2px;
-  cursor: grab;
-  user-select: none;
-  z-index: 1;
-  transition: z-index 0s, box-shadow 0.2s ease;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 18px;
+  border-radius: 4px;
+  overflow: auto;
   font-family: 'Lora', serif;
   font-size: 11pt;
-  line-height: 1.5;
-}
-
-.post-it:active {
-  cursor: grabbing;
-}
-
-.post-it:hover {
-  z-index: 10;
+  line-height: 1.45;
+  position: relative;
+  color: inherit;
 }
 
 .post-it p {
-  margin: 0;
+  margin: 0 0 10px 0;
   font-size: 11pt;
-  line-height: 1.5;
+  line-height: 1.45;
   font-weight: 600;
+  color: inherit;
 }
 
-/* PINK CARD */
+.post-it details {
+  margin-top: 8px;
+  color: inherit;
+}
+
+.post-it summary {
+  cursor: pointer;
+  font-size: 9pt;
+  font-style: italic;
+  opacity: 0.75;
+  color: inherit;
+}
+
 .post-it.pink {
   background: rgba(255, 0, 163, 0.2);
   border: 0.5px solid rgba(255, 0, 163, 0.4);
   box-shadow: 2px 2px 8px rgba(255, 0, 163, 0.15);
-}
-
-.post-it.pink:hover {
-  box-shadow: 2px 2px 16px rgba(255, 0, 163, 0.35);
-}
-
-.post-it.pink p {
   color: var(--pink);
 }
 
-/* PURPLE CARD */
 .post-it.purple {
   background: rgba(163, 0, 255, 0.2);
   border: 0.5px solid rgba(163, 0, 255, 0.4);
   box-shadow: 2px 2px 8px rgba(163, 0, 255, 0.15);
-}
-
-.post-it.purple:hover {
-  box-shadow: 2px 2px 16px rgba(163, 0, 255, 0.35);
-}
-
-.post-it.purple p {
   color: var(--purple);
 }
 
-/* STACKED CARDS */
-.post-it[data-stack]:hover {
-  transform: rotate(0deg) !important;
+.post-stack {
+  position: relative;
 }
 
+.post-stack .post-it {
+  position: absolute;
+  inset: 0;
+}
+
+.post-stack .post-it::before {
+  content: "";
+  position: absolute;
+  inset: 6px -6px -6px 6px;
+  border: 0.5px solid currentColor;
+  opacity: 0.25;
+  z-index: -1;
+}
+
+.stack-next {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 5;
+  background: transparent;
+  border: none;
+  color: currentColor;
+  font-family: 'Lora', serif;
+  font-size: 8pt;
+  font-style: italic;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.stack-next:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.post-stack:has(.post-it.pink:not([hidden])) {
+  color: var(--pink);
+}
+
+.post-stack:has(.post-it.purple:not([hidden])) {
+  color: var(--purple);
+}
+
+
 @media (max-width: 600px) {
-  .bulletin-board {
-    min-height: 500px;
-    padding: 12px;
+  .scratch-grid {
+    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+    gap: 12px;
   }
-  
+
   .post-it {
-    width: 140px;
-    min-height: 60px;
-    padding: 12px;
+    padding: 14px;
   }
-  
+
   .post-it p {
     font-size: 10pt;
   }
@@ -285,58 +357,30 @@ function toggleMenu() {
 
 <script>
 (function() {
-  const board = document.getElementById('bulletin-board');
-  if (!board) return;
+  const stacks = document.querySelectorAll('.post-stack');
 
-  let dragCard = null;
-  let offsetX = 0;
-  let offsetY = 0;
-  let hasMoved = false;
-  let startX = 0;
-  let startY = 0;
+  stacks.forEach(stack => {
+    const notes = Array.from(stack.querySelectorAll('.post-it'));
+    const button = stack.querySelector('.stack-next');
+    let current = 0;
 
-  board.addEventListener('mousedown', function(e) {
-    const card = e.target.closest('.post-it');
-    if (!card) return;
-    dragCard = card;
-    hasMoved = false;
-    const rect = card.getBoundingClientRect();
-    offsetX = e.clientX - rect.left;
-    offsetY = e.clientY - rect.top;
-    startX = e.clientX;
-    startY = e.clientY;
-    card.style.zIndex = 20;
-    card.style.cursor = 'grabbing';
-  });
+    function showNote(index) {
+      notes.forEach((note, i) => {
+        note.hidden = i !== index;
+      });
 
-  document.addEventListener('mousemove', function(e) {
-    if (!dragCard) return;
-    const dx = Math.abs(e.clientX - startX);
-    const dy = Math.abs(e.clientY - startY);
-    if (dx > 2 || dy > 2) hasMoved = true;
-    
-    const boardRect = board.getBoundingClientRect();
-    const x = e.clientX - boardRect.left - offsetX;
-    const y = e.clientY - boardRect.top - offsetY;
-    dragCard.style.left = x + 'px';
-    dragCard.style.top = y + 'px';
-  });
-
-  document.addEventListener('mouseup', function() {
-    if (dragCard) {
-      dragCard.style.zIndex = 1;
-      dragCard.style.cursor = 'grab';
-      dragCard = null;
+      current = index;
     }
-  });
 
-  // Prevent click events from firing after drag
-  board.addEventListener('click', function(e) {
-    if (hasMoved) {
-      e.stopPropagation();
-      e.preventDefault();
+    if (button && notes.length > 1) {
+      button.addEventListener('click', function() {
+        const next = (current + 1) % notes.length;
+        showNote(next);
+      });
     }
-  }, true);
+
+    showNote(0);
+  });
 })();
 </script>
 
