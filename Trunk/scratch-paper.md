@@ -39,7 +39,7 @@ permalink: /Trunk/scratch-paper/
   -->
 
   <!-- Post-0001 — double perspective -->
-  <article class="post-it pink">
+  <article class="post-it pink" data-post-id="Post-0001">
     <p>Whenever there is a memory being remembered we are performing the double perspective.</p>
     <details>
       <summary>read more</summary>
@@ -49,11 +49,11 @@ permalink: /Trunk/scratch-paper/
 
   <!-- Post-0002 + Post-0003 — accidentalarchivist stack -->
   <div class="post-stack" data-stack="accidentalarchivist">
-    <article class="post-it purple">
+    <article class="post-it purple" data-post-id="Post-0002" data-group-id="accidentalarchivist">
       <p>You will never find me. You will always find me.</p>
     </article>
 
-    <article class="post-it pink">
+    <article class="post-it pink" data-post-id="Post-0003" data-group-id="accidentalarchivist">
       <p>You are the documentary.</p>
     </article>
 
@@ -62,11 +62,11 @@ permalink: /Trunk/scratch-paper/
 
   <!-- Post-0004 + Post-0005 — archons stack -->
   <div class="post-stack" data-stack="archons">
-    <article class="post-it pink">
+    <article class="post-it pink" data-post-id="Post-0004" data-group-id="archons">
       <p>"There is no political power without control of the archive, if not memory." (Manoff)</p>
     </article>
 
-    <article class="post-it purple">
+      <article class="post-it purple" data-post-id="Post-0005" data-group-id="archons">
       <p>"They have the power to interpret the archives... but in an unnatural fashion, that is to say in making the law or in making people respect the law." (Derrida)</p>
     </article>
 
@@ -75,11 +75,11 @@ permalink: /Trunk/scratch-paper/
 
   <!-- Post-0006 + Post-0007 — internet culture stack -->
   <div class="post-stack" data-stack="internet-culture">
-    <article class="post-it purple">
+    <article class="post-it purple" data-post-id="Post-0006" data-group-id="internet-culture">
       <p>Born-digital objects, like memes, share these characteristics: virality, mutability, and intertextuality. (Ismail)</p>
     </article>
 
-    <article class="post-it pink">
+      <article class="post-it pink" data-post-id="Post-0007" data-group-id="internet-culture">
       <p>It is sometimes the case that memes develop into something foreign from their original value.</p>
       <details>
         <summary>read more</summary>
@@ -91,7 +91,7 @@ permalink: /Trunk/scratch-paper/
   </div>
 
   <!-- Post-0008 — artificial intelligence -->
-  <article class="post-it purple">
+  <article class="post-it purple" data-post-id="Post-0008" data-group-id="artificial-intelligence">
     <p>I think people accept that AI is here, what they don't accept is being "tricked" by AI.</p>
     <details>
       <summary>read more</summary>
@@ -100,7 +100,7 @@ permalink: /Trunk/scratch-paper/
   </article>
 
   <!-- Post-0009 — family -->
-  <article class="post-it pink">
+  <article class="post-it pink" data-post-id="Post-0009" data-group-id="family">
     <p>Where are my family's objects? Who keeps the archive?</p>
     <details>
       <summary>read more</summary>
@@ -110,11 +110,11 @@ permalink: /Trunk/scratch-paper/
 
   <!-- Post-0010 + Post-0011 — double-perspective stack -->
   <div class="post-stack" data-stack="double-perspective">
-    <article class="post-it purple">
+    <article class="post-it purple" data-post-id="Post-0010" data-group-id="double-perspective">
       <p>Richard Hugo says "Music doesn't conform to truth, truth conforms to music."</p>
     </article>
 
-    <article class="post-it pink">
+    <article class="post-it pink" data-post-id="Post-0011" data-group-id="double-perspective">
       <p>Literal truth versus literary truth... there is curation involved.</p>
     </article>
 
@@ -122,7 +122,7 @@ permalink: /Trunk/scratch-paper/
   </div>
 
   <!-- Post-0012 — archive fever -->
-  <article class="post-it pink">
+  <article class="post-it pink" data-post-id="Post-0012" data-group-id="archivefever">
     <p>We planned what was Instagramable. We directed what was Tweetable.</p>
     <details>
       <summary>read more</summary>
@@ -239,6 +239,7 @@ permalink: /Trunk/scratch-paper/
 .stack-next:hover {
   opacity: 1;
   text-decoration: underline;
+  color: inherit;
 }
 
 .post-stack:has(.post-it.pink:not([hidden])) {
