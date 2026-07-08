@@ -52,29 +52,29 @@
   /* Current public theme names */
   --theme-spaces: var(--color-16);
   --theme-ghosts: var(--color-06);
-  --theme-intimacy: var(--color-08);
-  --theme-online: var(--color-19);
+  --theme-intimacy: var(--color-09);
+  --theme-online: var(--color-18);
   --theme-identity: var(--color-25);
   --theme-expression: var(--color-14);
-  --theme-hope: var(--color-30);
+  --theme-hope: var(--color-17);
   --theme-community: var(--color-26);
-  --theme-witness: var(--color-24);
-  --theme-surveillance: var(--color-23);
+  --theme-witness: var(--color-10);
+  --theme-surveillance: var(--color-04);
   --theme-volta: var(--color-15);
   --theme-body: var(--color-20);
 
   /* Current public timeline category names */
-  --category-internet: var(--color-19);
+  --category-internet: var(--color-18);
   --category-government: var(--color-23);
-  --category-pop-culture: var(--color-07);
-  --category-economy: var(--color-28);
-  --category-climate: var(--color-15);
+  --category-pop-culture: var(--color-25);
+  --category-economy: var(--color-27);
+  --category-climate: var(--color-12);
   --category-community: var(--color-26);
-  --category-documentation: var(--color-08);
-  --category-science: var(--color-30);
+  --category-documentation: var(--color-10);
+  --category-science: var(--color-21);
   --category-society: var(--color-24);
   --category-injustice: var(--color-01);
-  --category-infrastructure: var(--color-21);
+  --category-infrastructure: var(--color-13);
 }
 
 [data-theme="light"] {
