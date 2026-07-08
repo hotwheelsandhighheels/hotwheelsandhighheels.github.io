@@ -5,10 +5,10 @@ permalink: /Trunk/drivers/
 ---
 
 # The Drivers
+Tinkering...
 
-<hr>
 
-<center><a href="/survey-driver/" class="secret-link">✦</a></center>
+<center><a href="/survey-driver/" class="secret-link">Take the Wheel?</a></center>
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">

@@ -15,7 +15,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
 
 <div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="18">
+    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="19">
 
       <!-- 1. No one summonded you, Siri -->
       <div class="artifact-slide active"
@@ -233,30 +233,17 @@ On this page, I am collecting born-digital content. Each artifact includes where
         <img src="/assets/archive/web-tumblr-obamaipad.jpg" alt="A photo of a man asking Obama to sign his iPad" loading="lazy">
       </div>
 
-      <!-- 19. Template -->
+      <!-- 19. Denny's Introduces Coffee Lenses -->
       <div class="artifact-slide"
-        data-title=" "
-        data-origin=" "
-        data-date=" "
-        data-context=" "
-        data-significance=" "
-        data-tags-driver=" "
-        data-tags-timeline=" ">
-        <img src=" " alt=" " loading="lazy">
+        data-title="Denny's Introduces Coffee Lenses"
+        data-origin="web-tumblr"
+        data-date="12-7-2016"
+        data-context="This is a meme that Denny's posted to Tumblr. It is an image of a hand dipping contact lenses into a solution of black coffee. The caption reads, &quot;If you're up really late studying for finals, try swapping your contact solution with coffee for a quick pick-me-up.&quot; A user reblogged the posted and added, &quot;dennys you're taking a serious risk here don't forget people actually tried drilling holes in their iphones to get the headphone jack back.&quot;"
+        data-significance="I am including it because of a couple reasons. The first is that it shows how companies like Denny's infiltrated social media, posting questionable contact, and interacting with users. There's an understanding that the people running these social media accounts were Millennials or Gen Z users who knew how to grow on social media, and it created this dynamic of knowing the poster was one of us but the company wasn't. The second thing I want to point out is the user who replied commenting on what people would attempt to do when lacking in common sense. The example was a headphone jack. This was pre-covid, the drinking bleach advice hadn't hit the feed yet."
+        data-tags-driver="Spaces,Expression"
+        data-tags-timeline="Community">
+        <img src="/assets/archive/web-tumblr-coffee-contact-lenses.PNG" alt=" " loading="lazy">
       </div> 
-
-      <!-- ##. Template -->
-      <div class="artifact-slide"
-        data-title=" "
-        data-origin=" "
-        data-date=" "
-        data-context=" "
-        data-significance=" "
-        data-tags-driver=" "
-        data-tags-timeline=" ">
-        <img src=" " alt=" " loading="lazy">
-      </div> 
-
 
     </div>
     <div class="artifact-slideshow-controls" id="archive-controls">
