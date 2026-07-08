@@ -612,7 +612,7 @@ Answer text goes here.
            data-context="Where this came from and why I saved it." 
            data-significance="Why it matters to the archive." 
            data-tags="Upgrade You,Technology,Web">
-        <img src="/assets/archive/upgrade/hw-screenshot-siri.PNG" alt="Example artifact one">
+        <img src="/assets/archive/hw-screenshot-siri.PNG" alt="Example artifact one">
       </div>
       
       <div class="artifact-slide" 
@@ -622,7 +622,7 @@ Answer text goes here.
            data-context="Context for the second artifact." 
            data-significance="Why this one matters." 
            data-tags="Going Viral,Culture,Identity,Expression">
-        <img src="/assets/archive/viral/web-straight-outta-beyonce.PNG" alt="Example artifact two">
+        <img src="/assets/archive/web-straight-outta-beyonce.PNG" alt="Example artifact two">
       </div>
       
     </div>
