@@ -98,7 +98,7 @@ function toggleMenu() {
 
   <h1>Gas Pump</h1>
 <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">
-    <strong>Before you send something:</strong> Please do not submit private messages, images of minors, medical/legal information, addresses, or sensitive personal information unless it is your own material and you are comfortable with me reviewing it. If you are not sure, tell me in the restrictions box.
+    <strong>Before you send something:</strong> Please do not submit private messages, images of minors, medical/legal information, addresses, or sensitive personal information unless it is your own material and you are comfortable with me reviewing it. <br />Any concerns should be noted in restrictions field. 
   </p>
   <hr />
 
@@ -118,17 +118,6 @@ function toggleMenu() {
 <!-- Title -->
 <label for="title">Title: </label>
 <input type="text" id="title" name="title" />
-
-<!-- Origin -->
-<label for="origin">Where did this come from?</label>
-<select id="origin" name="origin" required="">
-  <option value="">— pick one —</option>
-  <option value="sub-original">My content</option>
-  <option value="sub-screenshot">Camera Roll (screenshots)</option>
-  <option value="sub-photo">Camera Roll (my photo)</option>
-  <option value="web-platform">Online</option>
-  <option value="other">Other</option>
-</select>
 
 <!-- Creator / account -->
 <label for="creator">Creator / account / username: <span class="form-required">*</span></label>
@@ -160,26 +149,26 @@ function toggleMenu() {
 
 <!-- Ownership / rights -->
 <fieldset class="form-fieldset">
-  <legend>I can confirm this is: <span class="form-required">*</span></legend>
+  <legend>This is: <span class="form-required">*</span></legend>
 
   <label class="form-radio">
     <input type="radio" name="ownership" value="mine" required="" />
-    My own content / I made this
+    Your original content
   </label>
 
   <label class="form-radio">
     <input type="radio" name="ownership" value="captured" />
-    Content I saved, screenshotted, reblogged, or captured from my own device/account
+    Content you saved, screenshotted, reblogged, or captured
   </label>
 
   <label class="form-radio">
     <input type="radio" name="ownership" value="public-web" />
-    Public web content / meme / GIF / remix I found online
+    Public web content
   </label>
 
   <label class="form-radio">
     <input type="radio" name="ownership" value="unsure" />
-    I'm not sure / provenance unclear
+    Other / Not sure
   </label>
 </fieldset>
 
@@ -189,17 +178,17 @@ function toggleMenu() {
 
   <label class="form-radio">
     <input type="radio" name="sensitivity" value="no-sensitive-info" required="" />
-    To my knowledge, this does not include private messages, minors, addresses, medical/legal information, or sensitive identifying details.
+    This does NOT include private messages, minors, addresses, medical/legal information, or sensitive identifying details.
   </label>
 
   <label class="form-radio">
     <input type="radio" name="sensitivity" value="contains-sensitive-info" />
-    This may include private, identifying, or sensitive information. Please review before any publication.
+    This may include private, identifying, or sensitive information. Review before publication.
   </label>
 
   <label class="form-radio">
     <input type="radio" name="sensitivity" value="not-sure" />
-    I'm not sure. Please treat this as review-only.
+    Review-only.
   </label>
 </fieldset>
 
@@ -209,7 +198,7 @@ function toggleMenu() {
 
   <label class="form-checkbox">
     <input type="checkbox" name="agreement_review" value="yes" required="" />
-    By submitting, I give Hot Wheels &amp; High Heels permission to use this content. I have provided as much source/context information as I can and I am at least 18 years old, or I have permission from a parent/guardian to submit.
+    By submitting, you give Hot Wheels &amp; High Heels permission to review and/or use this content for archival research &amp; website publication. You also agree that you provided the best possible source/context information and are at least 18 years old or have permission from a parent/guardian to submit.
   </label>
 </fieldset>
 
