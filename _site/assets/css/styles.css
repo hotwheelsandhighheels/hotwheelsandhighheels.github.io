@@ -56,12 +56,12 @@
   --theme-online: var(--color-18);
   --theme-identity: var(--color-25);
   --theme-expression: var(--color-14);
-  --theme-hope: var(--color-17);
+  --theme-hope: var(--color-27);
   --theme-community: var(--color-26);
   --theme-witness: var(--color-10);
-  --theme-surveillance: var(--color-04);
+  --theme-surveillance: var(--color-20);
   --theme-volta: var(--color-15);
-  --theme-body: var(--color-20);
+  --theme-body: var(--color-04);
 
   /* Current public timeline category names */
   --category-internet: var(--color-18);
