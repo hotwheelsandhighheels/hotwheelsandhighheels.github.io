@@ -7,7 +7,7 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>Gas Pump</h1>
+  <h1>The Pump</h1>
 <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">
     <strong>Before you send something:</strong> Please do not submit private messages, images of minors, medical/legal information, addresses, or sensitive personal information unless it is your own material and you are comfortable with me reviewing it. <br>Any concerns should be noted in restrictions field. 
   </p>
