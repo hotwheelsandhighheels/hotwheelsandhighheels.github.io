@@ -15,7 +15,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
 
 <div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="21">
+    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="26">
 
       <!-- 1. No one summonded you, Siri -->
       <div class="artifact-slide active"
@@ -242,7 +242,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="I am including it because of a couple reasons. The first is that it shows how companies like Denny's infiltrated social media, posting questionable contact, and interacting with users. There's an understanding that the people running these social media accounts were Millennials or Gen Z users who knew how to grow on social media, and it created this dynamic of knowing the poster was one of us but the company wasn't. The second thing I want to point out is the user who replied commenting on what people would attempt to do when lacking in common sense. The example was a headphone jack. This was pre-covid, the drinking bleach advice hadn't hit the feed yet."
         data-tags-driver="Spaces,Expression"
         data-tags-timeline="Community">
-        <img src="/assets/archive/web-tumblr-coffee-contact-lenses.PNG" alt=" " loading="lazy">
+        <img src="/assets/archive/web-tumblr-coffee-contact-lenses.PNG" alt="An image of a hand dipping contact lenses into a solution of black coffee" loading="lazy">
       </div> 
       
       <!-- 20. Gen Z is so Xoomer coded. -->
@@ -270,7 +270,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="This is a popular reaction meme. It's been remixed like crazy with all sorts of text."
         data-tags-driver="Expression"
         data-tags-timeline="Pop Culture">
-        <img src="/assets/archive/web-meme-donttouch.jpg" alt=" " loading="lazy">
+        <img src="/assets/archive/web-meme-donttouch.jpg" alt="an image of a monkey and dog together, monkey is pushing a human hand away" loading="lazy">
       </div> 
 
       <!-- 22. Kanye West Tweet #1 -->
@@ -282,8 +282,56 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="The number one celebrity fued of epoch thus far has been Kanye West vs Taylor Swift. The significance of that deserves more analysis than I can offer here. It's a white woman, pop princess on one end and an obnoxious genius-level black rapper on the other."
         data-tags-driver="Expression"
         data-tags-timeline="Pop Culture">
-        <img src="/assets/archive/web-tumblr-kanyetweet.jpg" alt=" " loading="lazy">
+        <img src="/assets/archive/web-tumblr-kanyetweet.jpg" alt="A screenshot of a Kanye West tweet where he apologizes to Taylor Swift" loading="lazy">
       </div> 
+
+      <!-- 23. Inmates Fight California Fires-->
+      <div class="artifact-slide"
+        data-title="Inmates Fight California Fires"
+        data-origin="web-tumblr-salon"
+        data-date="8-4-2014"
+        data-context="From 2014, during the California brush fires, an image of a firefighter's silloutte against a forrest burning behind them. The headline reads, &quot;California inmates are fighting wildfires; are paid essentially nothing.&quot; The image is actually a screenshot of the article posted to Tumblr, with a link to the article below that reads &quot;Is this a human rights violation?&quot;"
+        data-significance="Many establishment media companies use social media as a way to engage potential readers. I am including it as an example of the language used as well. This specific article is about inmates fighting wildfires for little pay--perhaps a commentary on the 13th ammendment."
+        data-tags-driver="Ghosts"
+        data-tags-timeline="Injustice">
+        <img src="/assets/archive/web-tumblr-inmate-firefighters.png" alt="A screenshot of a headline about inmates fighting California fires." loading="lazy">
+      </div>
+
+      <!-- 24. Pro-Trump White Supremacist Rallies -->
+      <div class="artifact-slide"
+        data-title="Pro-Trump White Supremacist Rallies"
+        data-origin="web-tumblr"
+        data-date="11-22-2016"
+        data-context="A thread from late November 2016, after Trump's Presidency win was announced. The headline reads, &quot;White supremacists are holding horrifying pro-Trump rallies in Washington, DC. You need to know this is happening right. Now.&quot; I didn't follow the link to the original source because what I wanted to show was the responses in the rebloggs. Things like &quot;fucking die u disgusting nazi&quot; and &quot;STOP BLURRING THE FACES OF RACISTS 2KFOREVER&quot;"
+        data-significance="This was such a wild thing to witness: the resurgence of white supremacy on a public stage. Whereas during the Obama years, hope had pushed these groups into seemingly niche corners, Trump brought them back out into the open, prouder and louder than ever."
+        data-tags-driver=" "
+        data-tags-timeline="Society,Government,Injustice">
+        <img src="/assets/archive/web-tumblr-inmate-firefighters.png" alt="A tumblr thread regarding a pro-Trump rally in Washington" loading="lazy">
+      </div>
+
+      <!-- 25. Ariana is Festive -->
+      <div class="artifact-slide"
+        data-title="Festive, a cover by Ariana Grande"
+        data-origin="web-tumblr"
+        data-date="11-26-2014"
+        data-context="Posted by GAWKER, a now-defunct celebrity and media industry blog site, an image of Ariana Grande embracing a Santa Clause with the headline &quot;Ariana Grande's New Song Is About Being Seduced by Santa and Fucking Him.&quot; This was reblogged on tumblr, and a gif of Mariah Carey was added, audio-captioned: I know it's over the top but that's how festive I am."
+        data-significance="I am including this one because it shows intertextuality of memes with the additiion of the Mariah Carey gif. Mariah Carey's &quot;festive&quot; proclivity for Christmas is a meme in itself. It goes viral in a new mutation every single year while maintaining that intertextuality. (I also lowkey forgot about GAWKER, proof it existed I guess)."
+        data-tags-driver="Ghosts"
+        data-tags-timeline="Pop Culture">
+        <img src="/assets/archive/web-tumblr-ariana-santa.png" alt="An image of Ariana hugging Santa Clause" loading="lazy">
+      </div>
+      
+      <!-- 26. the ME ME ME generation-->
+      <div class="artifact-slide"
+        data-title="the ME ME ME generation"
+        data-origin="TIME Magazine"
+        data-date="5-20-2013"
+        data-context=" "
+        data-significance=" "
+        data-tags-driver="Identity"
+        data-tags-timeline="Society">
+        <img src="/assets/archive/web-cover-timemagazine.png" alt=" " loading="lazy">
+      </div>
 
     </div>
     <div class="artifact-slideshow-controls" id="archive-controls">
