@@ -130,6 +130,52 @@ permalink: /Trunk/scratch-paper/
     </details>
   </article>
 
+<!-- Post-0013 + Post-0014 + Post-0017 — millennials stack -->
+<div class="post-stack" data-stack="millennials">
+  <article class="post-it pink" data-post-id="Post-0013" data-group-id="millennials">
+    <p>Millennials were the most wanted generation of children. (Twenge)</p>
+    <details>
+      <summary>read more</summary>
+      <p>We were sort of like a utopian hope that weren’t able to build utopia.</p>
+    </details>
+  </article>
+
+  <article class="post-it purple" data-post-id="Post-0014" data-group-id="millennials">
+    <p>Peterson: In addition to “intensive parenting,” millennial parents are also characterized by “vigilante” parenting behaviors.</p>
+    <details>
+      <summary>read more</summary>
+      <p>Where, as sociologist Linda M. Blum describes, “a mother’s unyielding watchfulness and advocacy for her child [takes] on the imperative of a lone moral quest.”</p>
+    </details>
+  </article>
+
+  <article class="post-it pink" data-post-id="Post-0017" data-group-id="millennials">
+      <p>Similar to how we make new year resolutions, Gen Y as a cohort were a moral resolution for the new millennium.</p>
+    </article>
+
+  <button type="button" class="stack-next">next →</button>
+</div>
+
+<!-- Post-0015 + Post-0016 — participatory stack -->
+<div class="post-stack" data-stack="participatory">
+  <article class="post-it purple" data-post-id="Post-0015" data-group-id="participatory">
+    <p>There is beauty in that two strangers can contribute to the same history, living parallel lives, by participating in the same digital archive.</p>
+    <details>
+      <summary>read more</summary>
+      <p>The continuous threat is the instability of the web as a digital archive.</p>
+    </details>
+  </article>
+
+  <article class="post-it pink" data-post-id="Post-0016" data-group-id="participatory">
+    <p>Ismail refers to social media users as digital stewards, while Tošić refers to them as curators;</p>
+    <details>
+      <summary>read more</summary>
+      <p>Ismail talks about the participatory nature of born-digital content while Tošić notices the parallel truths that emerge from that participatory nature.</p>
+      </details>
+  </article>
+
+  <button type="button" class="stack-next">next →</button>
+</div>
+
 </div>
 
 <a href="https://www.zotero.org/groups/6565887/millennial_epoch/library" target="_blank" rel="noopener">Bibliography</a>
