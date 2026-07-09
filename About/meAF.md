@@ -18,7 +18,7 @@ sitemap: false
     <div class="meaf-now-grid">
       <div class="meaf-now-item">
         <h3>reading</h3>
-        <p>Writing Machines by N. Katherine Hayles</p>
+        <p>Atlas of AI by Kate Crawford</p>
       </div>
       <div class="meaf-now-item">
       <h3>listening</h3>
@@ -30,11 +30,11 @@ sitemap: false
       </div>
       <div class="meaf-now-item">
         <h3>obsessed with</h3>
-        <p>Archival research</p>
+        <p>Sun Butter </p>
       </div>
       <div class="meaf-now-item">
         <h3>working on</h3>
-        <p>Cross-stitching the Last Supper</p>
+        <p>Decluttering</p>
       </div>
       <div class="meaf-now-item">
         <h3>thinking about</h3>

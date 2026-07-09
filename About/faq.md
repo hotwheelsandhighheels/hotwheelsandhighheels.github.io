@@ -49,6 +49,9 @@ I give credit where credit is due tho
 
 Yes. I'll slip you a twenty for gas if you [drive.](/Drivers/) 
 
+### AI Policy
+
+HW&Hh is human-authored, human-curated, and human-reviewed.
 
 <div class="driver-nav">
   <a href="/About/">← Back 2 About</a>
