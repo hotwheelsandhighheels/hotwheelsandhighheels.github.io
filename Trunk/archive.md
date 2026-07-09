@@ -306,7 +306,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="This was such a wild thing to witness: the resurgence of white supremacy on a public stage. Whereas during the Obama years, hope had pushed these groups into seemingly niche corners, Trump brought them back out into the open, prouder and louder than ever."
         data-tags-driver=" "
         data-tags-timeline="Society,Government,Injustice">
-        <img src="/assets/archive/web-tumblr-inmate-firefighters.png" alt="A tumblr thread regarding a pro-Trump rally in Washington" loading="lazy">
+        <img src="assets/archive/Web-tumblr-whitesupremacist.png" alt="A tumblr thread regarding a pro-Trump rally in Washington" loading="lazy">
       </div>
 
       <!-- 25. Ariana is Festive -->
