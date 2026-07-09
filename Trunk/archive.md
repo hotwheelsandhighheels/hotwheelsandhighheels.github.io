@@ -15,7 +15,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
 
 <div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="19">
+    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="21">
 
       <!-- 1. No one summonded you, Siri -->
       <div class="artifact-slide active"
