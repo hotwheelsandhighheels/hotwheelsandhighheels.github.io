@@ -475,33 +475,37 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry right" data-category="government society injustice internet">
+<div class="timeline-entry right" data-category="government society injustice internet documentation">
   <h3>Patriot Act Passes</h3>
   <p>The USA PATRIOT Act expands government surveillance and investigative powers. Mass data collection becomes normalized, and the tension between security and civil liberties intensifies.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag society">Society</span>
   <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet pop-culture infrastructure">
+<div class="timeline-entry left" data-category="internet society infrastructure documentation">
   <h3>Wikipedia Launches</h3>
   <p>One of the largest examples of participatory knowledge creation, Wikipedia begins as a collaborative encyclopedia. The model of open, anonymous contribution is tested at scale.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag infrastructure">Infrastructure</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry right" data-category="pop-culture internet">
+<div class="timeline-entry right" data-category="society pop-culture internet">
   <h3>"Digital Natives" Coined</h3>
   <p>Marc Prensky introduces the term "digital natives" to describe the first generation to grow up with computers and the internet. The phrase flattens real differences in access and literacy.</p>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet pop-culture economy">
+<div class="timeline-entry left" data-category="infrastructure internet pop-culture economy">
   <h3>Apple Releases the iPod</h3>
   <p>Portable digital music goes mainstream. The iPod puts a thousand songs in a pocket; music becomes portable and personal in a new way.</p>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag economy">Economy</span>
@@ -510,10 +514,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2002</h2></div>
 
-<div class="timeline-entry left" data-category="government injustice society">
+<div class="timeline-entry left" data-category="government infrastructure injustice society">
   <h3>No Child Left Behind Signed</h3>
   <p>The No Child Left Behind Act ties federal education funding to standardized test scores. Testing expands and curricula narrow nationwide.</p>
   <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag society">Society</span>
 </div>
