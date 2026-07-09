@@ -297,18 +297,6 @@ On this page, I am collecting born-digital content. Each artifact includes where
         <img src="/assets/archive/web-tumblr-inmate-firefighters.png" alt="A screenshot of a headline about inmates fighting California fires." loading="lazy">
       </div>
 
-      <!-- 24. Pro-Trump White Supremacist Rallies -->
-      <div class="artifact-slide"
-        data-title="Pro-Trump White Supremacist Rallies"
-        data-origin="web-tumblr"
-        data-date="11-22-2016"
-        data-context="A thread from late November 2016, after Trump's Presidency win was announced. The headline reads, &quot;White supremacists are holding horrifying pro-Trump rallies in Washington, DC. You need to know this is happening right. Now.&quot; I didn't follow the link to the original source because what I wanted to show was the responses in the rebloggs. Things like &quot;fucking die u disgusting nazi&quot; and &quot;STOP BLURRING THE FACES OF RACISTS 2KFOREVER&quot;"
-        data-significance="This was such a wild thing to witness: the resurgence of white supremacy on a public stage. Whereas during the Obama years, hope had pushed these groups into seemingly niche corners, Trump brought them back out into the open, prouder and louder than ever."
-        data-tags-driver=" "
-        data-tags-timeline="Society,Government,Injustice">
-        <img src="/assets/archive/web-tumblr-whitesupremacist.png" alt="A tumblr thread regarding a pro-Trump rally in Washington" loading="lazy">
-      </div>
-
       <!-- 25. Ariana is Festive -->
       <div class="artifact-slide"
         data-title="Festive, a cover by Ariana Grande"
