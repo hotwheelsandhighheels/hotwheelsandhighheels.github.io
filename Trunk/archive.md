@@ -245,7 +245,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         <img src="/assets/archive/web-tumblr-coffee-contact-lenses.PNG" alt=" " loading="lazy">
       </div> 
       
-      <!-- Gen Z is so Xoomer coded. -->
+      <!-- 20. Gen Z is so Xoomer coded. -->
       <div class="artifact-slide"
         data-title="Gen Z is so Xoomer coded."
         data-origin="web-tiktok-amaris_simone"
@@ -260,6 +260,30 @@ On this page, I am collecting born-digital content. Each artifact includes where
           Your browser does not support video play.
         </video>
       </div>
+
+      <!-- 21. Don't Touch Meme -->
+      <div class="artifact-slide"
+        data-title="Don't Touch"
+        data-origin="web-tumblr"
+        data-date="11-11-2010"
+        data-context="This is an image of a hand reaching out to pet a puppy but it is being pushed away by a monkey. The animals appear to be buddies and the monkey is protective over the puppy. The text reads, &quot;SIR, No touching the dog, please.&quot;"
+        data-significance="This is a popular reaction meme. It's been remixed like crazy with all sorts of text."
+        data-tags-driver="Expression"
+        data-tags-timeline="Pop Culture">
+        <img src="/assets/archive/web-meme-donttouch.jpg" alt=" " loading="lazy">
+      </div> 
+
+      <!-- 22. Kanye West Tweet #1 -->
+      <div class="artifact-slide"
+        data-title="I'm sorry Taylor"
+        data-origin="web-tumblr"
+        data-date="9-4-2010"
+        data-context="Kanye West tweeted out &quot;I'm sorry Taylor&quot; a year after he interrupted her acceptance speech at the 2009 VMA's."
+        data-significance="The number one celebrity fued of epoch thus far has been Kanye West vs Taylor Swift. The significance of that deserves more analysis than I can offer here. It's a white woman, pop princess on one end and an obnoxious genius-level black rapper on the other."
+        data-tags-driver="Expression"
+        data-tags-timeline="Pop Culture">
+        <img src="/assets/archive/web-tumblr-kanyetweet.jpg" alt=" " loading="lazy">
+      </div> 
 
     </div>
     <div class="artifact-slideshow-controls" id="archive-controls">
