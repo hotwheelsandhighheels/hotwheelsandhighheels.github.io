@@ -19,7 +19,7 @@ permalink: /Trunk/auto-chopped/
   <h2>Data Colonialism</h2>
 
   <p>
-    Naming this Data Colonialism for now. I want to show how the web is being capitalized on and censored, it goes against the utopian vision of the web.
+    Naming this Data Colonialism for now. I want to show how the web is being capitalized on and censored, in direct contrast to the utopian vision of the web.
   </p>
 
   <div class="slideshow auto-chopped-slideshow" id="auto-chopped-slideshow-01" data-current="1" data-total="2">
