@@ -250,8 +250,8 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-title="Gen Z is so Xoomer coded."
         data-origin="web-tiktok-amaris_simone"
         data-date="06-20-2026"
-        data-context=" "
-        data-significance=" "
+        data-context="Commentary from Tiktok User @amaris_simone. Transcript in progress."
+        data-significance="This is in response to Gen Z's attitude towards Millennials. They sometimes think of us as a passive generation that never got anything done when it reality our efforts were met with hostility and obstacles. I wanted to include this because it illustrates generational attitudes that are especially amplified during election seasons, as we saw when Zohran Mamdani, a millennial, won the NYC mayoral election."
         data-tags-driver=" "
         data-tags-timeline=" ">
 
