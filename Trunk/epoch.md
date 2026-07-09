@@ -548,20 +548,22 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet pop-culture">
+<div class="timeline-entry left" data-category="infrastructure internet pop-culture">
   <h3>Skype, LinkedIn, 4chan Launch</h3>
   <p>The internet expands into distinct social, professional, and anonymous communities. Video calling, professional networking, and anonymous imageboards each carve out corners of the web.</p>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2004</h2></div>
-<div class="timeline-entry left" data-category="climate documentation">
+<div class="timeline-entry left" data-category="climate documentation society">
   <h3>Indian Ocean Tsunami</h3>
   <p>An undersea earthquake triggers the deadliest tsunami in recorded history, killing over 230,000 people across fourteen countries. Amateur footage and cellphone images become the primary documentation of the disaster, marking an early moment when global tragedy is witnessed through civilian cameras rather than professional news crews.</p>
   <span class="timeline-tag climate">Climate</span>
   <span class="timeline-tag documentation">Documentation</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 
 <div class="timeline-entry right" data-category="internet pop-culture economy">
@@ -617,26 +619,27 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2005</h2></div>
 
-<div class="timeline-entry left" data-category="pop-culture internet">
+<div class="timeline-entry left" data-category="community internet">
   <h3>MySpace Top 8</h3>
   <p>Public friend rankings make social relationships visible, ranked, and performed.</p>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag community">Community</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
 </div>
 
-<div class="timeline-entry right" data-category="internet pop-culture documentation">
+<div class="timeline-entry right" data-category="internet community documentation">
   <h3>YouTube Launches</h3>
   <p>Online video becomes a form of communication, entertainment, and documentation. Anyone with a camera can broadcast to the world, creating a new kind of public archive and a new kind of celebrity.</p>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag community">Community</span>
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet pop-culture">
+<div class="timeline-entry left" data-category="internet community">
   <h3>Reddit Launches</h3>
   <p>User-curated communities become an influential part of internet culture. The upvote and downvote system creates a new logic for determining what content matters and what disappears.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry right" data-category="internet infrastructure">
@@ -750,12 +753,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag infrastructure">Infrastructure</span>
 </div>
 
-<div class="timeline-entry left" data-category="government society internet">
+<div class="timeline-entry left" data-category="government society internet community">
   <h3>Obama Elected</h3>
   <p>Barack Obama is elected the first Black president of the United States. Social media plays a central role in political organizing for the first time at a national scale.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag society">Society</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 <div class="timeline-entry right" data-category="internet economy">
   <h3>Mechanical Turk and Crowdwork</h3>
@@ -870,13 +874,15 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="government economy documentation society">
+<div class="timeline-entry left" data-category="government economy injustice documentation society">
   <h3>Occupy Wall Street</h3>
   <p>Protesters occupy Zuccotti Park in New York City to challenge corporate power and economic inequality under the slogan "We are the 99%." The movement popularizes a new language of inequality and demonstrates how social media coordinates physical protest.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag economy">Economy</span>
+  <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag society">Society</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry right" data-category="government internet documentation injustice">
@@ -891,11 +897,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2012</h2></div>
 
-<div class="timeline-entry left" data-category="economy internet">
+<div class="timeline-entry left" data-category="economy internet pop-culture">
   <h3>Facebook Acquires Instagram</h3>
   <p>Facebook acquires Instagram for $1 billion. Platform ownership becomes concentrated among a small number of companies, and the acquisition spree that follows reshapes who controls the digital public square.</p>
   <span class="timeline-tag economy">Economy</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 
 <div class="timeline-entry right" data-category="injustice government society documentation community">
@@ -917,10 +924,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry right" data-category="government society">
+<div class="timeline-entry right" data-category="government infrastructure society">
   <h3>DACA Established</h3>
   <p>The Deferred Action for Childhood Arrivals program protects hundreds of thousands of undocumented young people brought to the U.S. as children from deportation. It is both a lifeline for immigrant youth and a political flashpoint.</p>
   <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag society">Society</span>
 </div>
 
