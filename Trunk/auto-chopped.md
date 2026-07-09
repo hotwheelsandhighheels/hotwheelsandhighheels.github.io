@@ -42,7 +42,7 @@ permalink: /Trunk/auto-chopped/
         alt="Archive Genocide About"
         loading="lazy">
       <p class="caption">
-        Archive Genocide About Page <br> This page explains the project's objective. Archive Genocide is a digital archive that documents war crimes in Gaza and the West Bank. <br> They are archiving what others erase. 
+        Archive Genocide About Page <br> This page explains the project's objective. <br> Archive Genocide is a digital archive that documents war crimes in Gaza and the West Bank. <br> They are archiving what others erase. 
       </p>
     </div>
 
