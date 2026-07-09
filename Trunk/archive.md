@@ -242,7 +242,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="I am including it because of a couple reasons. The first is that it shows how companies like Denny's infiltrated social media, posting questionable contact, and interacting with users. There's an understanding that the people running these social media accounts were Millennials or Gen Z users who knew how to grow on social media, and it created this dynamic of knowing the poster was one of us but the company wasn't. The second thing I want to point out is the user who replied commenting on what people would attempt to do when lacking in common sense. The example was a headphone jack. This was pre-covid, the drinking bleach advice hadn't hit the feed yet."
         data-tags-driver="Spaces,Expression"
         data-tags-timeline="Community">
-        <img src="/assets/archive/web-tumblr-coffee-contact-lenses.PNG" alt="An image of a hand dipping contact lenses into a solution of black coffee" loading="lazy">
+        <img src="/assets/archive/web-tumblr-coffee-contact-lenses.png" alt="An image of a hand dipping contact lenses into a solution of black coffee" loading="lazy">
       </div> 
       
       <!-- 20. Gen Z is so Xoomer coded. -->
@@ -306,7 +306,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="This was such a wild thing to witness: the resurgence of white supremacy on a public stage. Whereas during the Obama years, hope had pushed these groups into seemingly niche corners, Trump brought them back out into the open, prouder and louder than ever."
         data-tags-driver=" "
         data-tags-timeline="Society,Government,Injustice">
-        <img src="assets/archive/web-tumblr-whitesupremacist.png" alt="A tumblr thread regarding a pro-Trump rally in Washington" loading="lazy">
+        <img src="/assets/archive/web-tumblr-whitesupremacist.png" alt="A tumblr thread regarding a pro-Trump rally in Washington" loading="lazy">
       </div>
 
       <!-- 25. Ariana is Festive -->
