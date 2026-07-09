@@ -24,14 +24,14 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-date="07-07-2014"
         data-context="I think I had my phone in my hand or pocket, not looking at it or talking to Siri at all, but Siri responded. The text reads: &quot;Cannot find my I cannot find my dog and my friend my help I'll Malmac mag mag all my on my mind all morning wall wall wall wall wall wall memorial boreal&quot; tap to edit — Sorry, Alejandra… can you try that again in fewer words?"
         data-significance="I screenshot this because I thought it was funny that Siri was summoned and even funnier that that's what it thought I had said."
-        data-tags-driver="Online,Expression"
-        data-tags-timeline="Internet &amp; Web">
+        data-tags-driver="Online,Ghosts"
+        data-tags-timeline="Infrastructure">
         <img src="/assets/archive/hw-screenshot-siri.PNG" alt="Screenshot of Siri responding to garbled input" loading="lazy">
       </div>
       
       <!-- 2. A Conversation Without Text -->
       <div class="artifact-slide"
-        data-title="A Conversation Without Text"
+        data-title="Audios"
         data-origin="hw-screenshot"
         data-date="03-03-2023"
         data-context="This is a conversation happening between me and my best friend completely through audio messages on iMessage."
@@ -43,12 +43,12 @@ On this page, I am collecting born-digital content. Each artifact includes where
       
       <!-- 3. Personal QR Codes -->
       <div class="artifact-slide"
-        data-title="Personal QR Codes"
+        data-title="Profile QR's"
         data-origin="hw-screenshot"
         data-date="05-17-2016"
         data-context="I have no idea why I saved it. But I am including it because when I was looking through my screenshots it popped up. This was like one of the new things you could do instead of having to search for someone, they could show you the QR code. I'm not sure who did it first, but all the apps do it now."
         data-significance="I'm including it because it was one of those new features that became standard. Someone had to save a screenshot of it once, when it was new."
-        data-tags-driver="Online"
+        data-tags-driver="Online,Identity"
         data-tags-timeline="Society,Infrastructure">
         <img src="/assets/archive/hw-screenshot-fbcode.PNG" alt="Screenshot of a Facebook QR code feature for finding friends" loading="lazy">
       </div>
@@ -154,9 +154,9 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-title="Lauren Graham Announces the Gilmore Girls Reboot"
         data-origin="web-screenshot"
         data-date="2016"
-        data-context="When Netflix revived Gilmore Girls, the announcement came through Lauren Graham posting it directly to Instagram instead of through traditional channels. Gilmore Girls was already a defining millennial show; the reboot proved nostalgia had become an industry."
-        data-significance="Breaking the fourth wall between celebrity and audience. Fans would've most likely been following her Instagram and not the studio's."
-        data-tags-driver="Online"
+        data-context="Lauren Graham announced the Gilmore Girls reboot on Instagram by showing a jacket she stole from set in 2007."
+        data-significance="Fans would've most likely been following her Instagram and not the studio's. It shows how we interacted directly with celebrities and vise versa."
+        data-tags-driver="Online,Ghosts"
         data-tags-timeline="Pop Culture,Economy">
         <img src="/assets/archive/web-screenshot-laurengraham.PNG" alt="Screenshot of Lauren Graham's Instagram post announcing the Gilmore Girls reboot" loading="lazy">
       </div>
@@ -191,8 +191,8 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-origin="hw-screenshot"
         data-date="undated"
         data-context="This is a screenshot of a text between me and my sibling. I texted &quot;if I write about you are you gonna sue me?&quot; They replied &quot;yes.&quot;"
-        data-significance="I wanted to include this one because it's an argument on who owns memory. A lot of times in writing, writers are cautious to be as factual as possible and it sometimes fucks the authenticity of the writing, as we see in the double perspective. This is true on the internet as well where it's a participatory culture of collective memories — who owns memory."
-        data-tags-driver="Identity,Intimacy"
+        data-significance="I wanted to include this one because it's an argument on who owns memory. A lot of times in writing, writers are cautious to be as factual as possible and it sometimes fucks the authenticity of the writing, as we see in the double perspective. This is true on the internet as well where it's a participatory culture of collective memories."
+        data-tags-driver="Intimacy"
         data-tags-timeline="Documentation">
         <img src="/assets/archive/hw-screenshot-sued.PNG" alt="Screenshot of a text conversation about whether the contributor can write about their sibling" loading="lazy">
       </div>
