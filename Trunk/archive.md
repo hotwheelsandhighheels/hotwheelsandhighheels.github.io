@@ -244,6 +244,22 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-tags-timeline="Community">
         <img src="/assets/archive/web-tumblr-coffee-contact-lenses.PNG" alt=" " loading="lazy">
       </div> 
+      
+      <!-- Gen Z is so Xoomer coded. -->
+      <div class="artifact-slide"
+        data-title="Gen Z is so Xoomer coded."
+        data-origin="web-tiktok-amaris_simone"
+        data-date="06-20-2026"
+        data-context=" "
+        data-significance=" "
+        data-tags-driver=" "
+        data-tags-timeline=" ">
+
+        <video controls preload="metadata" playsinline>
+          <source src="/assets/archive/web-tiktok-amaris_simone.MP4" type="video/mp4">
+          Your browser does not support video play.
+        </video>
+      </div>
 
     </div>
     <div class="artifact-slideshow-controls" id="archive-controls">

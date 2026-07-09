@@ -884,6 +884,8 @@ audio:hover {
   min-height: 0;
 }
 
+
+
 .slideshow-controls {
   display: flex;
   align-items: center;
@@ -1468,6 +1470,15 @@ audio:hover {
   flex: 1;
   object-fit: contain;
   border: 0.5px solid rgba(255, 0, 163, 0.2);
+  min-height: 0;
+}
+
+.artifact-slideshow .artifact-slide video {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border: 0.5px solid rgba(255, 0, 163, 0.2);
+  border-radius: 4px;
   min-height: 0;
 }
 
