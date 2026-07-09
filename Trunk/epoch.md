@@ -47,24 +47,25 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1982</h2></div>
 
-<div class="timeline-entry left" data-category="pop-culture">
+<div class="timeline-entry left" data-category="society">
   <h3>The First Millennials Are Born</h3>
   <p>The oldest members of the generational age cohort are born into an analog world and will come of age in a digital one.</p>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry right" data-category="government society injustice">
+<div class="timeline-entry right" data-category="government society injustice community">
   <h3>War on Drugs</h3>
   <p>Drug enforcement policies expand throughout the 1980s. Mandatory minimum sentences and sentencing disparities fuel mass incarceration, disproportionately affecting Black and Latino communities.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag society">Society</span>
   <span class="timeline-tag injustice">Injustice</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet pop-culture">
+<div class="timeline-entry left" data-category="infrastructure pop-culture">
   <h3>Commodore 64 Released</h3>
   <p>Home computing becomes accessible. Millions of households get a computer before they get internet access.</p>
-  <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 
@@ -94,11 +95,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>1984</h2></div>
 
-<div class="timeline-entry right" data-category="internet pop-culture">
+<div class="timeline-entry right" data-category="internet pop-culture infrastructure">
   <h3>Apple Macintosh Released</h3>
   <p>The Macintosh introduces a graphical user interface that brings computing beyond the command line, making it accessible to people who don't code.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -112,31 +114,32 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag science">Science &amp; Health</span>
 </div>
 
-<div class="timeline-entry right" data-category="pop-culture science documentation">
+<div class="timeline-entry right" data-category="society science documentation">
   <h3>Space Shuttle Challenger</h3>
   <p>Challenger breaks apart shortly after launch, killing all seven crew members including teacher Christa McAuliffe. The disaster is watched live by schoolchildren across the country, the first shared national trauma broadcast directly into classrooms.</p>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag science">Science &amp; Health</span>
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>1987</h2></div>
-<div class="timeline-entry left" data-category="pop-culture government">
+<div class="timeline-entry left" data-category="society pop-culture">
   <h3>"Millennials" Coined</h3>
   <p>William Strauss and Neil Howe coin the term "millennials" for the generation that comes of age around the turn of the millennium. The generation is named before most of its members can read.</p>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
-  <span class="timeline-tag government">Government</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>1989</h2></div>
 
-<div class="timeline-entry left" data-category="government pop-culture">
+<div class="timeline-entry left" data-category="documentation government society">
   <h3>The Berlin Wall Falls</h3>
   <p>The barrier dividing East and West Berlin opens after 28 years. The moment is broadcast globally and foreshadows the end of the Cold War.</p>
+  <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag government">Government</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 
 <div class="timeline-entry right" data-category="pop-culture">
@@ -173,21 +176,22 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag internet">Internet &amp; Web</span>
 </div>
 
-<div class="timeline-entry right" data-category="government society pop-culture documentation">
+<div class="timeline-entry right" data-category="government injustice society pop-culture documentation">
   <h3>Rodney King Beating and the LA Uprising</h3>
   <p>Four LAPD officers are videotaped beating Rodney King during a traffic stop. It is the first viral video of police brutality, before social media. When the officers are acquitted in 1992, Los Angeles erupts in six days of unrest. The tape changes how Americans understand police violence and who gets to document it.</p>
   <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag society">Society</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag documentation">Documentation</span>
+  <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="government economy pop-culture">
+<div class="timeline-entry left" data-category="government economy society">
   <h3>The Soviet Union Collapses</h3>
   <p>The Soviet Union formally dissolves, ending the Cold War. Fifteen new countries emerge; the United States is left as the sole superpower, for now.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag economy">Economy</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 
 <div class="timeline-entry right" data-category="internet infrastructure">
@@ -225,10 +229,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag economy">Economy</span>
 </div>
 
-<div class="timeline-entry right" data-category="government society pop-culture">
+<div class="timeline-entry right" data-category="government injustice society pop-culture">
   <h3>Don't Ask, Don't Tell</h3>
   <p>The U.S. military adopts a policy allowing gay and lesbian people to serve only if they remain closeted. LGBTQ+ service members must hide their identities to serve their country.</p>
   <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag society">Society</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
@@ -325,19 +330,19 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="pop-culture government">
+<div class="timeline-entry left" data-category="pop-culture society government">
   <h3>Fox News Launches</h3>
   <p>Fox News begins broadcasting. The network pioneers a model of partisan cable news.</p>
   <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag government">Government</span>
 </div>  
 
-<div class="timeline-entry right" data-category="science pop-culture internet">
+<div class="timeline-entry right" data-category="science society">
   <h3>Dolly the Sheep Cloned</h3>
   <p>Scientists in Scotland successfully clone a mammal from an adult cell for the first time. The possibility of copying life enters public consciousness.</p>
   <span class="timeline-tag science">Science &amp; Health</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
-  <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 
 <div class="timeline-entry right" data-category="pop-culture internet">
@@ -415,11 +420,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet pop-culture infrastructure">
+<div class="timeline-entry left" data-category="internet society infrastructure">
   <h3>Y2K Anxiety Peaks</h3>
   <p>Concerns grow over potential computer failures at the turn of the millennium. The anxiety highlights society's deepening reliance on digital systems and the fear that those systems might fail at scale.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag infrastructure">Infrastructure</span>
 </div>
 
@@ -451,13 +456,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2001</h2></div>
 
-<div class="timeline-entry left" data-category="government injustice documentation pop-culture">
+<div class="timeline-entry left" data-category="government injustice documentation society">
   <h3>September 11 Attacks</h3>
   <p>Al-Qaeda operatives hijack four planes, killing nearly 3,000 people in New York, Washington, D.C., and Pennsylvania. The attacks usher in the War on Terror and redefine national security and surveillance.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag documentation">Documentation</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 
 <div class="timeline-entry right" data-category="government society injustice internet">
@@ -495,10 +500,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2002</h2></div>
 
-<div class="timeline-entry left" data-category="government society">
+<div class="timeline-entry left" data-category="government injustice society">
   <h3>No Child Left Behind Signed</h3>
   <p>The No Child Left Behind Act ties federal education funding to standardized test scores. Testing expands and curricula narrow nationwide.</p>
   <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag society">Society</span>
 </div>
 
@@ -625,12 +631,14 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag infrastructure">Infrastructure</span>
 </div>
 
-<div class="timeline-entry left" data-category="government climate documentation">
+<div class="timeline-entry left" data-category="government climate documentation community">
   <h3>Hurricane Katrina</h3>
   <p>Hurricane Katrina devastates New Orleans, killing over 1,300 people and displacing hundreds of thousands. The government's slow and inadequate response is documented and condemned online, while mutual aid efforts fill the void left by federal failure.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag climate">Climate</span>
   <span class="timeline-tag documentation">Documentation</span>
+  <span class="timeline-tag injustice">Injustice</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry right" data-category="internet pop-culture">
@@ -702,18 +710,21 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2008</h2></div>
 
-<div class="timeline-entry right" data-category="economy government">
+<div class="timeline-entry right" data-category="economy government society injustice">
   <h3>The Great Recession</h3>
   <p>A global financial crisis begins with the collapse of the U.S. housing market. Homeownership, marriage, and financial stability are delayed for those entering the workforce.</p>
   <span class="timeline-tag economy">Economy</span>
   <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag society">Society</span>
+  <span class="timeline-tag injustice">Injustice</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet economy">
+<div class="timeline-entry left" data-category="internet economy society">
   <h3>Bitcoin Whitepaper</h3>
   <p>Bitcoin is proposed as a decentralized digital currency outside government control. New ideas about money, trust, and decentralized systems emerge from the financial crisis's wreckage.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag economy">Economy</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 
 <div class="timeline-entry right" data-category="internet economy infrastructure">
@@ -724,19 +735,18 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag infrastructure">Infrastructure</span>
 </div>
 
-<div class="timeline-entry left" data-category="government pop-culture internet">
+<div class="timeline-entry left" data-category="government society internet">
   <h3>Obama Elected</h3>
   <p>Barack Obama is elected the first Black president of the United States. Social media plays a central role in political organizing for the first time at a national scale.</p>
   <span class="timeline-tag government">Government</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
 </div>
-<div class="timeline-entry right" data-category="internet economy pop-culture">
+<div class="timeline-entry right" data-category="internet economy">
   <h3>Mechanical Turk and Crowdwork</h3>
   <p>Amazon's Mechanical Turk and similar platforms normalize piecemeal digital labor performed by invisible workers worldwide. Tasks that power search engines, AI training, and content moderation are broken into pennies-per-task micro-jobs with no benefits, protections, or visibility.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag economy">Economy</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -790,11 +800,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag internet">Internet &amp; Web</span>
 </div>
 
-<div class="timeline-entry left" data-category="government science">
+<div class="timeline-entry left" data-category="government science society">
   <h3>Affordable Care Act Signed</h3>
   <p>The ACA allows young adults to stay on their parents' health insurance until age 26 and expands coverage to millions. For millennials entering the workforce during the Great Recession, it provides a safety net between college and career.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag science">Science &amp; Health</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 
 <div class="timeline-entry right" data-category="internet pop-culture">
@@ -871,18 +882,20 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag internet">Internet &amp; Web</span>
 </div>
 
-<div class="timeline-entry right" data-category="government society pop-culture documentation">
+<div class="timeline-entry right" data-category="injustice government society documentation community">
   <h3>Trayvon Martin and #BlackLivesMatter</h3>
   <p>Trayvon Martin, a seventeen-year-old Black teenager, is shot and killed by a neighborhood watch volunteer while walking home in Sanford, Florida. His killer is acquitted. The hashtag #BlackLivesMatter is born from the outrage, changing how protest is organized and how police violence is documented.</p>
+  <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag society">Society</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag documentation">Documentation</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
-<div class="timeline-entry left" data-category="government pop-culture society">
+<div class="timeline-entry left" data-category="injustice government pop-culture society">
   <h3>Malala Yousafzai Shot by the Taliban</h3>
   <p>A fifteen-year-old Pakistani activist is shot in the head for advocating girls' education. She survives and her advocacy continues.</p>
+  <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag society">Society</span>
@@ -912,10 +925,10 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2013</h2></div>
 
-<div class="timeline-entry left" data-category="pop-culture">
+<div class="timeline-entry left" data-category="society">
   <h3>Time Magazine's "Me Me Me" Cover</h3>
   <p>Time Magazine releases a cover story titled "Millennials: The Me Me Me Generation," calling the cohort lazy, entitled, and narcissistic. The article becomes a defining artifact of how older generations talk about millennials — and how millennials talk back.</p>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 
 <div class="timeline-entry right" data-category="internet pop-culture">
@@ -925,12 +938,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="economy internet pop-culture">
+<div class="timeline-entry left" data-category="economy internet">
   <h3>Tumblr Acquired by Yahoo</h3>
   <p>Yahoo acquires Tumblr for $1.1 billion. The purchase reflects corporate interest in online communities and the assumption that user bases can be monetized without destroying what made them valuable.</p>
   <span class="timeline-tag economy">Economy</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 
 <div class="timeline-entry right" data-category="government internet documentation injustice society">
@@ -955,13 +967,15 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2014</h2></div>
 
-<div class="timeline-entry right" data-category="government society internet documentation">
+<div class="timeline-entry right" data-category="injustice government society internet documentation community">
   <h3>Ferguson</h3>
   <p>Michael Brown, an 18-year-old Black teenager, is shot and killed by a police officer in Ferguson, Missouri. His body is left in the street for over four hours while residents document the aftermath on social media. The protests that follow, and the policing of them, are broadcast in real time by those on the ground.</p>
+  <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag society">Society</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag documentation">Documentation</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry left" data-category="pop-culture internet society">
@@ -1025,17 +1039,19 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag government">Government</span>
 </div>
 
-<div class="timeline-entry right" data-category="government economy">
+<div class="timeline-entry right" data-category="government economy society">
   <h3>Brexit</h3>
   <p>The United Kingdom votes to leave the European Union. The result shocks global markets and political establishments, revealing deep divides over immigration, sovereignty, and identity that social media campaigns exploit and amplify.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag economy">Economy</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry left" data-category="government internet pop-culture">
+<div class="timeline-entry left" data-category="government society internet pop-culture">
   <h3>Trump Elected</h3>
   <p>Donald Trump is elected president of the United States. His campaign's use of social media to bypass traditional gatekeepers and speak directly to supporters upends political communication.</p>
   <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
@@ -1055,22 +1071,21 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag infrastructure">Infrastructure</span>
 </div>
-<div class="timeline-entry right" data-category="government internet pop-culture">
+<div class="timeline-entry right" data-category="government internet society">
   <h3>"Fake News" Enters the Lexicon</h3>
   <p>The term "fake news" explodes into mainstream usage during the U.S. presidential election, initially describing fabricated articles spread for profit and political gain, then quickly weaponized to dismiss any unwelcome reporting. The collapse of shared epistemic ground becomes a defining feature of the platform era.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2017</h2></div>
 
-<div class="timeline-entry left" data-category="government pop-culture documentation society">
+<div class="timeline-entry left" data-category="government documentation society">
   <h3>#MeToo</h3>
   <p>Founded by Tarana Burke years earlier, the hashtag #MeToo goes viral as millions of survivors share their experiences of sexual assault and harassment. Social media becomes a platform for collective testimony and public accountability, bringing down powerful men and changing workplace norms.</p>
   <span class="timeline-tag government">Government</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag society">Society</span>
 </div>
@@ -1082,10 +1097,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="government internet injustice">
+<div class="timeline-entry left" data-category="government society internet injustice">
   <h3>Russian Election Interference</h3>
   <p>Investigations reveal efforts to influence the U.S. election through social media campaigns, hacked documents, and targeted disinformation. Concerns about information integrity and foreign manipulation of digital platforms enter electoral politics.</p>
   <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag injustice">Injustice</span>
 </div>
@@ -1110,37 +1126,37 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry left" data-category="government pop-culture climate">
+<div class="timeline-entry left" data-category="government society climate">
   <h3>Fridays for Future Begins</h3>
   <p>Fifteen-year-old Greta Thunberg skips school to sit outside the Swedish parliament with a handmade sign reading "Skolstrejk för klimatet." Within a year, millions of students worldwide join the climate strike movement.</p>
   <span class="timeline-tag government">Government</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag climate">Climate</span>
 </div>
 
-<div class="timeline-entry right" data-category="government pop-culture documentation society">
+<div class="timeline-entry right" data-category="government documentation society">
   <h3>Christine Blasey Ford Testifies</h3>
   <p>Christine Blasey Ford testifies before the Senate that Supreme Court nominee Brett Kavanaugh sexually assaulted her when they were teenagers. The hearing, watched live by millions, becomes a national reckoning on sexual assault, whose stories get believed, and who gets confirmed to the highest court anyway.</p>
   <span class="timeline-tag government">Government</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry left" data-category="economy government">
+<div class="timeline-entry left" data-category="economy government society">
   <h3>Student Debt Passes $1.5 Trillion</h3>
   <p>U.S. student loan debt exceeds $1.5 trillion. A generation is burdened with debt before entering the workforce; the figure continues to rise.</p>
   <span class="timeline-tag economy">Economy</span>
   <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2019</h2></div>
 
-<div class="timeline-entry left" data-category="pop-culture government economy">
+<div class="timeline-entry left" data-category="society government economy">
   <h3>Millennials Become Largest Generation</h3>
   <p>Millennials surpass baby boomers as the largest living adult generation in the United States, numbering 72.1 million compared to 71.6 million boomers.</p>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag economy">Economy</span>
 </div>
@@ -1194,13 +1210,15 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag economy">Economy</span>
 </div>
 
-<div class="timeline-entry left" data-category="government society documentation internet">
+<div class="timeline-entry left" data-category="injustice government society documentation internet community">
   <h3>George Floyd Protests</h3>
   <p>A 17-year-old girl films a Minneapolis police officer kneeling on George Floyd's neck for over nine minutes while Floyd says he can't breathe. The video sparks protests in all 50 states and across the globe — the largest social movement in U.S. history, documented and organized through social media at every stage.</p>
+  <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag society">Society</span>
   <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry right" data-category="government society injustice">
