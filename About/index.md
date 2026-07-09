@@ -58,6 +58,9 @@ Thank you to my early subscribers for making this project possible for the first
     <li>Emily Buchanan</li>
     <li>Grace Mathews</li>
 </ul>
+
+[The Manual](/FAQ/)
+
 <div class="driver-nav">
   <a href="/">← Home</a>
   <a href="/Drivers/">Drivers →</a>
