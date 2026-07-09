@@ -37,7 +37,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="This is a conversation happening between me and my best friend completely through audio messages on iMessage."
         data-significance="This shows the evolution of communications technology, how we kind of just went back to walkie talkies."
         data-tags-driver="Intimacy,Online"
-        data-tags-timeline="Internet &amp; Web">
+        data-tags-timeline="Infrastructure">
         <img src="/assets/archive/hw-screenshot-audiomessages.PNG" alt="Screenshot of an iMessage conversation conducted entirely through audio messages" loading="lazy">
       </div>
       
@@ -49,7 +49,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="I have no idea why I saved it. But I am including it because when I was looking through my screenshots it popped up. This was like one of the new things you could do instead of having to search for someone, they could show you the QR code. I'm not sure who did it first, but all the apps do it now."
         data-significance="I'm including it because it was one of those new features that became standard. Someone had to save a screenshot of it once, when it was new."
         data-tags-driver="Online"
-        data-tags-timeline="Internet &amp; Web,Infrastructure">
+        data-tags-timeline="Society,Infrastructure">
         <img src="/assets/archive/hw-screenshot-fbcode.PNG" alt="Screenshot of a Facebook QR code feature for finding friends" loading="lazy">
       </div>
       
@@ -61,7 +61,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="A screenshot of the Angry Birds game app on my phone. It shows that there is a new high score. I'm not sure if this was my high score or my kid's. There is a Connect to FB link to play with friends."
         data-significance="Shows the incentive of connecting social media apps to popular mobile games."
         data-tags-driver="Online"
-        data-tags-timeline="Internet &amp; Web,Economy">
+        data-tags-timeline="Society,Infrastructure">
         <img src="/assets/archive/hw-screenshot-angrybirds.PNG" alt="Screenshot of Angry Birds game showing a new high score and a Connect to Facebook button" loading="lazy">
       </div>
       
@@ -72,8 +72,8 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-date="12-13-2024"
         data-context="I was in Mexico and came across a kissing corner/bench. It was a bench with two potted plants for decoration and a sign that reads &quot;bésame en esta esquina&quot; — kiss me on this corner. A couple younger than me sat on the bench and took a picture but they didn't kiss, which is what the text is about."
         data-significance="I'm including it because it shows how we curate our lives for the gram with Instagrammable set ups like this."
-        data-tags-driver="Identity,Spaces,Online"
-        data-tags-timeline="Pop Culture">
+        data-tags-driver="Intimacy,Spaces"
+        data-tags-timeline="Society">
         <img src="/assets/archive/hw-screenshot-kissingbench.jpeg" alt="Screenshot of a text message about a kissing bench in Mexico" loading="lazy">
       </div>
       
@@ -85,7 +85,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="This is a screenshot I took of a snap that my sibling sent me. In the picture there are three full 5-gallon bottles of water. The text reads, &quot;All this water but you still thirsty.&quot;"
         data-significance="This is evidence of the viral meme phrase: All this ____ but you still _____. In which tangible objects represented a feeling."
         data-tags-driver="Intimacy,Online,Expression"
-        data-tags-timeline="Pop Culture">
+        data-tags-timeline="Society">
         <img src="/assets/archive/hw-screenshot-stillthirsty.PNG" alt="Screenshot of a Snapchat message showing three full 5-gallon water bottles with text reading 'All this water but you still thirsty.'" loading="lazy">
       </div>
       
@@ -96,8 +96,8 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-date="08-09-2015"
         data-context="This is a frame that was being used in 2015 when the movie Straight Outta Compton came out. It is a picture of Baby Blue Ivy Carter holding wads of cash, with a chest of cash behind her labeled TOYS. The frame reads Straight Outta Beyonce. There was also a Snapchat filter where you could place the Straight Outta Compton frame over your own photo. I have one of my kid, 5 at the time."
         data-significance="This shows the intertextuality of meme culture."
-        data-tags-driver="Online,Identity"
-        data-tags-timeline="Pop Culture,Economy">
+        data-tags-driver="Online,Expression"
+        data-tags-timeline="Pop Culture,Society">
         <img src="/assets/archive/web-straight-outta-beyonce.PNG" alt="Baby Blue Ivy Carter holding wads of cash with a chest of cash behind her labeled TOYS. The frame reads Straight Outta Beyonce." loading="lazy">
       </div>
       
@@ -121,7 +121,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="This is actually a meme I made, in the ___ be like ___ meme style. The text reads &quot;Millennials be like: I'm looking up Zillow listings &amp; I'm dreaming…&quot; over a picture of a still from the 1997 movie Selena. In the scene, Selena is up on the roof and her sister climbs up to sit next to her. The sister says &quot;Selena what are you doing&quot; and Selena replies &quot;I'm looking up at the moon and I'm dreaming.&quot; It's a whole wish on a star moment, which is like millennials with owning houses."
         data-significance="This shows meme intertextuality. And the economic downsides of being a millennial."
         data-tags-driver="Expression,Hope"
-        data-tags-timeline="Pop Culture,Economy">
+        data-tags-timeline="Society,Economy,Injustice">
         <img src="/assets/archive/hw-selena-meme.jpeg" alt="Meme in the '___ be like ___' format over a still from the 1997 film Selena" loading="lazy">
       </div>
       
@@ -132,8 +132,8 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-date="10-05-2017"
         data-context="Another meme in classic meme structure. The image is three frames from Keeping Up with the Kardashians where Kim and Khloé are staring blankly ahead. The text above reads &quot;when im having a good time and intrusive thoughts happen.&quot;"
         data-significance="Shows how we often used memes to lighten heavier mental health feelings."
-        data-tags-driver="Intimacy,Community"
-        data-tags-timeline="Pop Culture">
+        data-tags-driver="Expression"
+        data-tags-timeline="Society">
         <img src="/assets/archive/web-meme-intrusivethoughts.jpeg" alt="Classic meme structure using three frames of Kim and Khloé Kardashian staring blankly" loading="lazy">
       </div>
       
@@ -144,8 +144,8 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-date="01-04-2019"
         data-context="Another classic meme structure. Text reads: me: ugh i want to kill myself, demons: kill yourself, me: The image is of Pingu sitting on a chair with his arms crossed and a frown and the image text reads &quot;well now i am not doing it.&quot;"
         data-significance="Shows how we often used memes to lighten heavier mental health feelings."
-        data-tags-driver="Intimacy,Community"
-        data-tags-timeline="Pop Culture">
+        data-tags-driver="Expression"
+        data-tags-timeline="Society">
         <img src="/assets/archive/web-meme-pingu.jpeg" alt="Meme of Pingu the penguin sitting with arms crossed and a frown" loading="lazy">
       </div>
       
@@ -192,7 +192,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-date="undated"
         data-context="This is a screenshot of a text between me and my sibling. I texted &quot;if I write about you are you gonna sue me?&quot; They replied &quot;yes.&quot;"
         data-significance="I wanted to include this one because it's an argument on who owns memory. A lot of times in writing, writers are cautious to be as factual as possible and it sometimes fucks the authenticity of the writing, as we see in the double perspective. This is true on the internet as well where it's a participatory culture of collective memories — who owns memory."
-        data-tags-driver="Identity,Intimacy,Witness"
+        data-tags-driver="Identity,Intimacy"
         data-tags-timeline="Documentation">
         <img src="/assets/archive/hw-screenshot-sued.PNG" alt="Screenshot of a text conversation about whether the contributor can write about their sibling" loading="lazy">
       </div>
@@ -229,7 +229,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="This was posted to tumblr by &quot;thedailywhat,&quot; the original photo credit goes to &quot;Tech Crunch,&quot; who doesn't have it on their website anymore. In the photo, a black man dressed in a grey t-shirt with the silhouette of obama from his &quot;HOPE&quot; poster on it, is amongst a crowd of people greeting President Obama. People look excited and pushing on top of each other to get closer to Obama. The man holds up an ipad in which he has drawn the text &quot;Mr. President, sign my iPad x__________&quot; In the companion photo, we see the screen of the ipad with Obama's signature."
         data-significance="Obama was the first president to sign an iPad for a fan. iPads came out during his presidency. This photo also shows the celebrity of Obama. The first black president and all his photos are filled with diversity in the crowds."
         data-tags-driver="Witness"
-        data-tags-timeline="Documentation,Infrastructure,Government">
+        data-tags-timeline="Infrastructure,Government,Documentation">
         <img src="/assets/archive/web-tumblr-obamaipad.jpg" alt="A photo of a man asking Obama to sign his iPad" loading="lazy">
       </div>
 
