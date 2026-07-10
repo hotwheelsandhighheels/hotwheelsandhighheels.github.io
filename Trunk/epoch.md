@@ -302,7 +302,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="infrastructure internet pop-culture">
   <h3>Windows 95 Released</h3>
-  <p>Microsoft releases Windows 95. Personal computing and internet access become mainstream. The Start menu becomes the first interface with the digital world for millions of new users.</p>
+  <p>Microsoft releases Windows 95. The Start menu is the first interface with the digital world for millions of new users.</p>
   <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
@@ -387,7 +387,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="government economy">
   <h3>Hong Kong Returned to China</h3>
-  <p>After 156 years of British colonial rule, Hong Kong is returned to China under the principle of "one country, two systems." The handover ends 156 years of British colonial rule.</p>
+  <p>After 156 years of British colonial rule, Hong Kong is returned to China under the principle of "one country, two systems."</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag economy">Economy</span>
 </div>
@@ -423,7 +423,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="government documentation injustice society">
   <h3>Columbine</h3>
-  <p>Two students kill twelve classmates and a teacher at Columbine High School. The shooting is the first to unfold in real time on television news. Active shooter drills become routine in American schools.</p>
+  <p>Two students kill twelve classmates and a teacher at Columbine High School. The shooting is the first to unfold in real time on television news and changes the nature of school shootings in America.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag injustice">Injustice</span>
@@ -533,10 +533,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2003</h2></div>
 
-<div class="timeline-entry left" data-category="internet pop-culture">
+<div class="timeline-entry left" data-category="internet infrastructure society community pop-culture">
   <h3>MySpace Launches</h3>
   <p>MySpace launches as a social networking platform. Users create profiles, share media, and document everyday life online. Customizable layouts and Top 8 friends make social relationships visible and ranked.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
+  <span class="timeline-tag society">Society</span>
+  <span class="timeline-tag community">Community</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 
@@ -560,7 +563,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 <div class="timeline-year"><h2>2004</h2></div>
 <div class="timeline-entry left" data-category="climate documentation society">
   <h3>Indian Ocean Tsunami</h3>
-  <p>An undersea earthquake triggers the deadliest tsunami in recorded history, killing over 230,000 people across fourteen countries. Amateur footage and cellphone images become the primary documentation of the disaster, marking an early moment when global tragedy is witnessed through civilian cameras rather than professional news crews.</p>
+  <p>An undersea earthquake triggers the deadliest tsunami in recorded history, killing over 230,000 people across fourteen countries. Amateur footage and cellphone images are the primary documentation of the disaster, marking an early moment when global tragedy is witnessed through civilian cameras rather than professional news crews.</p>
   <span class="timeline-tag climate">Climate</span>
   <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag society">Society</span>
@@ -619,13 +622,6 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2005</h2></div>
 
-<div class="timeline-entry left" data-category="community internet">
-  <h3>MySpace Top 8</h3>
-  <p>Public friend rankings make social relationships visible, ranked, and performed.</p>
-  <span class="timeline-tag community">Community</span>
-  <span class="timeline-tag internet">Internet &amp; Web</span>
-</div>
-
 <div class="timeline-entry right" data-category="internet community documentation">
   <h3>YouTube Launches</h3>
   <p>Online video becomes a form of communication, entertainment, and documentation. Anyone with a camera can broadcast to the world, creating a new kind of public archive and a new kind of celebrity.</p>
@@ -635,18 +631,20 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet community">
+<div class="timeline-entry left" data-category="internet infrastructure community">
   <h3>Reddit Launches</h3>
-  <p>User-curated communities become an influential part of internet culture. The upvote and downvote system creates a new logic for determining what content matters and what disappears.</p>
+  <p>User-curated communities are an influential part of internet culture. The upvote and downvote system determine what matters and what matters less.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag community">Community</span>
 </div>
 
-<div class="timeline-entry right" data-category="internet infrastructure">
+<div class="timeline-entry right" data-category="internet infrastructure documentation">
   <h3>Google Maps Launches</h3>
   <p>Digital navigation replaces printed maps. Street-level imagery makes every address visible from anywhere, changing how people relate to place and who controls the record of a neighborhood.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag infrastructure">Infrastructure</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
 <div class="timeline-entry left" data-category="government climate documentation community">
@@ -659,46 +657,55 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag community">Community</span>
 </div>
 
-<div class="timeline-entry right" data-category="internet pop-culture">
+<div class="timeline-entry right" data-category="internet infrastructure pop-culture">
   <h3>Facebook Expands Photo Sharing</h3>
-  <p>Personal images become increasingly integrated into social networking. The platform becomes a de facto archive of millennial life, from prom photos to wedding albums.</p>
+  <p>Personal images are increasingly integrated into social networking. The platform is an archive of millennial life, from prom photos to wedding albums.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2006</h2></div>
 
-<div class="timeline-entry left" data-category="internet pop-culture government">
+<div class="timeline-entry left" data-category="internet infrastructure society community government documentation">
   <h3>Twitter Launches</h3>
-  <p>Short-form public communication becomes a major feature of online life. The platform changes how news breaks, how politicians communicate, and how public discourse is conducted.</p>
+  <p>The short-form public communication platform changes how news breaks, how politicians communicate, and how public discourse is conducted.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
+  <span class="timeline-tag society">Society</span>
+  <span class="timeline-tag community">Community</span>
   <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 
-<div class="timeline-entry right" data-category="internet pop-culture">
+<div class="timeline-entry right" data-category="internet infrastructure society community">
   <h3>Facebook Opens to Everyone</h3>
   <p>Facebook drops the .edu email address requirement, opening the platform to anyone over 13. A college directory becomes a global social network, and with it, a global archive of personal data.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+    <span class="timeline-tag infrastructure">Infrastructure</span>
+  <span class="timeline-tag society">Society</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet pop-culture">
+<div class="timeline-entry left" data-category="internet pop-culture society government documentation">
   <h3>Facebook Introduces the News Feed</h3>
-  <p>Algorithmic curation becomes how people encounter information online. The feed transforms social media from a directory you browse to a stream that decides what you see and when.</p>
+  <p>People encounter information through algorithms. The feed transforms social media from a directory you browse to a stream that decides what you see and when.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
+  <span class="timeline-tag government">Government</span>
+  <span class="timeline-tag documentation">Documentation</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2007</h2></div>
 
-<div class="timeline-entry left" data-category="internet pop-culture">
+<div class="timeline-entry left" data-category="internet community">
   <h3>Tumblr Launches</h3>
   <p>Blogging, visual culture, and online communities converge on a single platform. Tumblr becomes a home for fandom, queer community, aesthetic experimentation, and the GIF economy.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry right" data-category="internet pop-culture infrastructure">
@@ -709,20 +716,21 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag infrastructure">Infrastructure</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet pop-culture economy">
+<div class="timeline-entry left" data-category="internet infrastructure pop-culture economy">
   <h3>Netflix Expands into Streaming</h3>
   <p>Digital distribution begins replacing physical media. The economics of television and film are restructured.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag economy">Economy</span>
 </div>
 
-<div class="timeline-entry right" data-category="internet economy pop-culture">
+<div class="timeline-entry right" data-category="internet economy society">
   <h3>Airbnb Launches</h3>
   <p>The platform turns spare rooms and empty apartments into a global accommodation marketplace. Trust is mediated by ratings and reviews, and the distinction between home and commodity begins to dissolve.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag economy">Economy</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -780,35 +788,37 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="internet pop-culture">
   <h3>WhatsApp and Pinterest</h3>
-  <p>Messaging and visual curation become major forms of online activity. Encrypted chat and image boards each build distinct architectures for how people share and collect.</p>
+  <p>Encrypted messaging and image boards curation build distinct architectures for how people share and collect.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
-<div class="timeline-entry right" data-category="internet pop-culture economy">
+<div class="timeline-entry right" data-category="internet society community economy">
   <h3>The Like Button</h3>
-  <p>Facebook introduces the Like button. Engagement becomes a measurable, visible feature of social interaction, and the quantification of attention changes how content is created, shared, and valued.</p>
+  <p>Facebook introduces the Like button: a measurable, visible feature of social interaction. The quantification of attention changes how content is created, shared, and valued.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
+  <span class="timeline-tag community">Community</span>
   <span class="timeline-tag economy">Economy</span>
 </div>
 
-<div class="timeline-entry left" data-category="economy internet pop-culture">
+<div class="timeline-entry left" data-category="economy internet society">
   <h3>Uber Founded</h3>
   <p>Freelance, contract, and app-based labor replaces stable employment for millions. The gig economy promises flexibility but eliminates benefits, protections, and predictable income.</p>
   <span class="timeline-tag economy">Economy</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
 </div>
 <div class="timeline-clear"></div>
 
 <div class="timeline-year"><h2>2010</h2></div>
 
-<div class="timeline-entry left" data-category="internet pop-culture">
+<div class="timeline-entry left" data-category="internet community">
   <h3>Instagram Launches</h3>
   <p>Photo sharing becomes a central form of online self-expression and social memory. The square format and filters create a new visual language, and the platform turns everyday life into curated performance.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry right" data-category="government documentation internet">
@@ -819,26 +829,27 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag internet">Internet &amp; Web</span>
 </div>
 
-<div class="timeline-entry left" data-category="government science society">
+<div class="timeline-entry left" data-category="government science infrastructure society">
   <h3>Affordable Care Act Signed</h3>
   <p>The ACA allows young adults to stay on their parents' health insurance until age 26 and expands coverage to millions. For millennials entering the workforce during the Great Recession, it provides a safety net between college and career.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag science">Science &amp; Health</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag society">Society</span>
 </div>
 
 <div class="timeline-entry right" data-category="internet infrastructure pop-culture">
   <h3>iPad Released</h3>
-  <p>Apple releases the iPad. Tablet computing enters the mainstream consumer market, creating a new device category between phone and laptop.</p>
+  <p>Apple releases the iPad, a new device category between phone and laptop, the tablet.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag infrastructure">Infrastructure</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet economy society">
+<div class="timeline-entry left" data-category="injustice economy society">
   <h3>Foxconn Suicides</h3>
   <p>A string of suicides at Foxconn factories in China, where iPhones and other consumer electronics are assembled, draws global attention to the human cost of smartphone production. Nets are installed between dormitory buildings; the devices that connect the world are built by workers under conditions of extreme surveillance and pressure.</p>
-  <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag economy">Economy</span>
   <span class="timeline-tag society">Society</span>
 </div>
@@ -852,18 +863,20 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2011</h2></div>
 
-<div class="timeline-entry right" data-category="internet pop-culture">
+<div class="timeline-entry right" data-category="internet community">
   <h3>Snapchat Launches</h3>
   <p>Ephemeral messaging introduces new approaches to communication and digital memory. Messages that disappear challenge the idea that everything online is permanent, creating space for less performative sharing.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet pop-culture">
+<div class="timeline-entry left" data-category="internet economy pop-culture community">
   <h3>Twitch Launches</h3>
   <p>Livestreaming becomes a major form of online entertainment and community building. Watching others play games, create art, or simply talk becomes a new kind of shared social space.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag economy">Economy</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry right" data-category="government injustice documentation">
@@ -907,7 +920,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="injustice government society documentation community">
   <h3>Trayvon Martin and #BlackLivesMatter</h3>
-  <p>Trayvon Martin, a seventeen-year-old Black teenager, is shot and killed by a neighborhood watch volunteer while walking home in Sanford, Florida. His killer is acquitted. The hashtag #BlackLivesMatter is born from the outrage, changing how protest is organized and how police violence is documented.</p>
+  <p>Trayvon Martin, a seventeen-year-old Black teenager, is shot and killed by a neighborhood watch volunteer while walking home in Sanford, Florida. His killer is acquitted. The hashtag #BlackLivesMatter is born from the outrage.</p>
   <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag society">Society</span>
@@ -915,12 +928,11 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag community">Community</span>
 </div>
 
-<div class="timeline-entry left" data-category="injustice government pop-culture society">
+<div class="timeline-entry left" data-category="injustice government society">
   <h3>Malala Yousafzai Shot by the Taliban</h3>
   <p>A fifteen-year-old Pakistani activist is shot in the head for advocating girls' education. She survives and her advocacy continues.</p>
   <span class="timeline-tag injustice">Injustice</span>
   <span class="timeline-tag government">Government</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag society">Society</span>
 </div>
 
@@ -941,7 +953,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry right" data-category="pop-culture internet">
   <h3>Gangnam Style</h3>
-  <p>Psy's "Gangnam Style" becomes the first YouTube video to reach one billion views. A Korean-language song achieves unprecedented global reach.</p>
+  <p>Psy's "Gangnam Style," a Korean-language song, becomes the first YouTube video to reach one billion views.</p>
   <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
 </div>
@@ -951,15 +963,16 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="society">
   <h3>Time Magazine's "Me Me Me" Cover</h3>
-  <p>Time Magazine releases a cover story titled "Millennials: The Me Me Me Generation," calling the cohort lazy, entitled, and narcissistic. The article becomes a defining artifact of how older generations talk about millennials — and how millennials talk back.</p>
+  <p>Time Magazine releases a cover story titled "Millennials: The Me Me Me Generation," calling the cohort lazy, entitled, and narcissistic. The article becomes a defining artifact of how older generations talk about millennials.</p>
   <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry right" data-category="internet pop-culture">
+<div class="timeline-entry right" data-category="internet pop-culture community">
   <h3>Vine Launches</h3>
   <p>Short-form video becomes a distinctive form of internet creativity. The six-second loop creates a new visual language and launches the careers of creators before the platform shuts down three years later.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry left" data-category="economy internet">
@@ -970,7 +983,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 </div>
 
 <div class="timeline-entry right" data-category="government internet documentation injustice society">
-  <h3>Edward Snowden Revelations</h3>
+  <h3>Edward Snowden</h3>
   <p>Documents released by Edward Snowden reveal extensive government surveillance programs that collect data on millions of people without their knowledge. Public debate about privacy, digital infrastructure, and the relationship between citizens and the state intensifies.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
@@ -979,13 +992,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry left" data-category="internet economy society injustice">
+<div class="timeline-entry left" data-category="internet economy society">
   <h3>Silk Road Shut Down</h3>
   <p>The FBI seizes Silk Road, an online marketplace operating on the dark web where drugs, forged documents, and illicit services are bought with Bitcoin. The takedown reveals both the anonymity and the traceability of digital currencies, and the state's capacity to follow transactions through the blockchain.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag economy">Economy</span>
   <span class="timeline-tag society">Society</span>
-  <span class="timeline-tag injustice">Injustice</span>
 </div>
 <div class="timeline-clear"></div>
 
@@ -1002,20 +1014,21 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag community">Community</span>
 </div>
 
-<div class="timeline-entry left" data-category="pop-culture internet society">
+<div class="timeline-entry left" data-category="pop-culture documentation internet society">
   <h3>Celebrity Photo Leak</h3>
   <p>Private nude photographs of several female celebrities are stolen from iCloud accounts and posted online without consent. The leak sparks public discussion about digital privacy, cloud security, and victim-blaming.</p>
   <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
+  <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry right" data-category="pop-culture internet science">
+<div class="timeline-entry right" data-category="internet science community">
   <h3>Ice Bucket Challenge</h3>
   <p>Millions of people, from neighbors to celebrities, dump ice water on themselves, donate to ALS research, and tag others to do the same. The campaign funds real scientific breakthroughs while demonstrating how platforms mobilize large-scale participation for a cause.</p>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag science">Science &amp; Health</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry left" data-category="pop-culture internet injustice">
@@ -1029,11 +1042,12 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2015</h2></div>
 
-<div class="timeline-entry left" data-category="internet pop-culture">
+<div class="timeline-entry left" data-category="internet infrastructure community">
   <h3>Discord Launches</h3>
   <p>Community-based communication expands beyond traditional social networks. Voice channels, servers, and real-time chat create digital third places. Gaming communities and later study groups, political organizing, and fandoms build homes on the platform.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
-  <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag infrastructure">Infrastructure</span>
+  <span class="timeline-tag community">Community</span>
 </div>
 
 <div class="timeline-entry right" data-category="government injustice documentation">
@@ -1055,11 +1069,13 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2016</h2></div>
 
-<div class="timeline-entry left" data-category="internet pop-culture government">
+<div class="timeline-entry left" data-category="internet pop-culture society documentation government">
   <h3>TikTok Launches</h3>
   <p>TikTok launches internationally. Short-form video and algorithmic discovery become dominant features of social media culture, and the platform's ability to make anyone go viral changes entertainment, activism, and attention.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
+  <span class="timeline-tag society">Society</span>
+  <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag government">Government</span>
 </div>
 
@@ -1096,7 +1112,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag infrastructure">Infrastructure</span>
 </div>
 <div class="timeline-entry right" data-category="government internet society">
-  <h3>"Fake News" Enters the Lexicon</h3>
+  <h3>"Fake News"</h3>
   <p>The term "fake news" explodes into mainstream usage during the U.S. presidential election, initially describing fabricated articles spread for profit and political gain, then quickly weaponized to dismiss any unwelcome reporting. The collapse of shared epistemic ground becomes a defining feature of the platform era.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
