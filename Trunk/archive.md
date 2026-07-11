@@ -15,7 +15,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
 
 <div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="26">
+    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="29">
 
       <!-- 1. No one summonded you, Siri -->
       <div class="artifact-slide active"
@@ -320,6 +320,43 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-tags-timeline="Society">
         <img src="/assets/archive/web-cover-timemagazine.png" alt=" " loading="lazy">
       </div>
+
+      <!-- 27. Santa Visits Sandy Hook Victims-->
+      <div class="artifact-slide"
+        data-title="Santa Visits Sandy Hook Victims"
+        data-origin="web-tumblr"
+        data-date="12-21-2012"
+        data-context="This is a political cartoon in which Santa is picking up a little girl from the clouds, presumably &quot;heaven.&quot; There is a book bag labeled Sandy Hook Elementary. The text reads, &quot;Of course I deliver here.&quot;"
+        data-significance="Sandy Hook is the 2nd deadliest school shooting in the U.S. The shock was greater than other school shootings because these were mainly elementary school kids who died. If you look into the history of school shootings in America, Sandy Hook is right up there next to Columbine, Virginia Tech, and Parkland as most notable."
+        data-tags-driver="Ghosts,Hope"
+        data-tags-timeline="Injustice,Society,Community">
+        <img src="/assets/archive/web-tumblr-santa-sandy-hook.PNG" alt="A political cartoon of Santa delivering gifts to a Sandy Hook victim in heaven." loading="lazy">
+      </div>
+
+      <!-- 28. I can excuse... but I draw the line at...-->
+      <div class="artifact-slide"
+        data-title="I can excuse... but I draw the line at..."
+        data-origin="web-tumblr"
+        data-date="12-3-2018"
+        data-context="This a popular reaction meme from the tv show Community. The show's dialogue, delivered by a white woman, &quot;I can excuse racism but I draw the line at animal cruelty.&quot; This remix was posted to Tumblr regarding the forthcoming adult content ban. The text reads, &quot;I can excuse Nazis but draw the line at Titties.&quot;"
+        data-significance="This reaction meme was used any time we were met with the absurdity that something like natural body parts could be considered worse than another actually worse thing like white supremacy. "
+        data-tags-driver="Body,Expression"
+        data-tags-timeline="Injustice,Society">
+        <img src="/assets/archive/web-tumblr-nazi-tittles.PNG" alt="A remix of the reaction meme from the show Community that reads I can excuse Nazis but I draw the line at titties." loading="lazy">
+      </div>
+
+      <!-- 29. Tumblr Tank Top at Goodwill-->
+      <div class="artifact-slide"
+        data-title="Tumblr Tank Top at Goodwill"
+        data-origin="web-tumblr"
+        data-date="5-4-2025"
+        data-context="This is a picture of a tank top screenprinted with a post from tumblr that reads, &quot;Sometimes you gotta wake up and remember who the fuck you are.&quot; The picture was set as an ask that says &quot;I found a tumblr post on a tank top at Goodwill holy shit (it was tumblr blue too).&quot; The reply reads, &quot;and they cropped the op off and all, A+++&quot;"
+        data-significance=" "
+        data-tags-driver=" "
+        data-tags-timeline=" ">
+        <img src="/assets/archive/web-tumblr-tank-top.PNG" alt=" " loading="lazy">
+      </div>
+
 
     </div>
     <div class="artifact-slideshow-controls" id="archive-controls">
