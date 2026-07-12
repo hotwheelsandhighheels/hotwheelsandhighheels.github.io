@@ -62,6 +62,14 @@
   --theme-surveillance: var(--color-20);
   --theme-volta: var(--color-15);
   --theme-body: var(--color-04);
+    /* Additional archive themes */
+  --theme-parasocialism: var(--color-25);      /* orchid */
+  --theme-relationships: var(--color-24);      /* lavender */
+  --theme-meme-culture: var(--color-18);       /* cyan */
+  --theme-nostalgia-economy: var(--color-06);  /* tangerine */
+  --theme-upgrades: var(--color-21);           /* blue */
+  --theme-consummerism: var(--color-04);       /* hot orange */
+  --theme-activism: var(--color-30);           /* soft green */
 
   /* Current public timeline category names */
   --category-internet: var(--color-18);
@@ -1143,6 +1151,13 @@ audio:hover {
 .tag-surveillance { color: var(--theme-surveillance); }
 .tag-volta { color: var(--theme-volta); }
 .tag-body { color: var(--theme-body); }
+.tag-parasocialism { color: var(--theme-parasocialism); }
+.tag-relationships { color: var(--theme-relationships); }
+.tag-meme-culture { color: var(--theme-meme-culture); }
+.tag-nostalgia-economy { color: var(--theme-nostalgia-economy); }
+.tag-upgrades { color: var(--theme-upgrades); }
+.tag-consummerism { color: var(--theme-consummerism); }
+.tag-activism { color: var(--theme-activism); }
 
 .tag-quote {
   font-family: 'Cormorant Garamond', serif;
@@ -1167,6 +1182,13 @@ audio:hover {
 .tag-quote.tag-surveillance { border-color: var(--theme-surveillance); color: var(--theme-surveillance); }
 .tag-quote.tag-volta { border-color: var(--theme-volta); color: var(--theme-volta); }
 .tag-quote.tag-body { border-color: var(--theme-body); color: var(--theme-body); }
+.tag-quote.tag-parasocialism { border-color: var(--theme-parasocialism); color: var(--theme-parasocialism); }
+.tag-quote.tag-relationships { border-color: var(--theme-relationships); color: var(--theme-relationships); }
+.tag-quote.tag-meme-culture { border-color: var(--theme-meme-culture); color: var(--theme-meme-culture); }
+.tag-quote.tag-nostalgia-economy { border-color: var(--theme-nostalgia-economy); color: var(--theme-nostalgia-economy); }
+.tag-quote.tag-upgrades { border-color: var(--theme-upgrades); color: var(--theme-upgrades); }
+.tag-quote.tag-consummerism { border-color: var(--theme-consummerism);  color: var(--theme-consummerism); }
+.tag-quote.tag-activism { border-color: var(--theme-activism); color: var(--theme-activism); }
 
 .quote-attribution {
   font-family: 'Playfair Display', serif;
@@ -1226,7 +1248,15 @@ audio:hover {
 .timeline-tag.science,
 .timeline-tag.society,
 .timeline-tag.injustice,
-.timeline-tag.infrastructure {
+.timeline-tag.infrastructure 
+.timeline-tag.parasocialism,
+.timeline-tag.relationships,
+.timeline-tag.meme-culture,
+.timeline-tag.nostalgia-economy,
+.timeline-tag.upgrades,
+.timeline-tag.consummerism,
+.timeline-tag.activism
+{
   display: inline-block;
   font-family: 'Lora', serif;
   font-size: 7pt;
@@ -1254,6 +1284,47 @@ audio:hover {
 .timeline-tag.surveillance { --tag-color: var(--theme-surveillance); }
 .timeline-tag.volta { --tag-color: var(--theme-volta); }
 .timeline-tag.body { --tag-color: var(--theme-body); }
+.timeline-tag.parasocialism {
+  background: rgba(255, 179, 255, 0.12);
+  color: var(--theme-parasocialism);
+  border: 0.5px solid rgba(255, 179, 255, 0.25);
+}
+
+.timeline-tag.relationships {
+  background: rgba(199, 182, 255, 0.12);
+  color: var(--theme-relationships);
+  border: 0.5px solid rgba(199, 182, 255, 0.25);
+}
+
+.timeline-tag.meme-culture {
+  background: rgba(0, 255, 255, 0.12);
+  color: var(--theme-meme-culture);
+  border: 0.5px solid rgba(0, 255, 255, 0.25);
+}
+
+.timeline-tag.nostalgia-economy {
+  background: rgba(255, 179, 71, 0.12);
+  color: var(--theme-nostalgia-economy);
+  border: 0.5px solid rgba(255, 179, 71, 0.25);
+}
+
+.timeline-tag.upgrades {
+  background: rgba(0, 153, 255, 0.12);
+  color: var(--theme-upgrades);
+  border: 0.5px solid rgba(0, 153, 255, 0.25);
+}
+
+.timeline-tag.consummerism {
+  background: rgba(255, 123, 0, 0.12);
+  color: var(--theme-consummerism);
+  border: 0.5px solid rgba(255, 123, 0, 0.25);
+}
+
+.timeline-tag.activism {
+  background: rgba(157, 255, 154, 0.12);
+  color: var(--theme-activism);
+  border: 0.5px solid rgba(157, 255, 154, 0.25);
+}
 
 /* Timeline categories */
 .timeline-tag.internet { --tag-color: var(--category-internet); }
@@ -1606,6 +1677,40 @@ audio:hover {
 .connection-node.theme-surveillance { border-color: var(--theme-surveillance); color: var(--theme-surveillance); }
 .connection-node.theme-volta { border-color: var(--theme-volta); color: var(--theme-volta); }
 .connection-node.theme-body { border-color: var(--theme-body); color: var(--theme-body); }
+.connection-node.theme-parasocialism {
+  border-color: var(--theme-parasocialism);
+  color: var(--theme-parasocialism);
+}
+
+.connection-node.theme-relationships {
+  border-color: var(--theme-relationships);
+  color: var(--theme-relationships);
+}
+
+.connection-node.theme-meme-culture {
+  border-color: var(--theme-meme-culture);
+  color: var(--theme-meme-culture);
+}
+
+.connection-node.theme-nostalgia-economy {
+  border-color: var(--theme-nostalgia-economy);
+  color: var(--theme-nostalgia-economy);
+}
+
+.connection-node.theme-upgrades {
+  border-color: var(--theme-upgrades);
+  color: var(--theme-upgrades);
+}
+
+.connection-node.theme-consummerism {
+  border-color: var(--theme-consummerism);
+  color: var(--theme-consummerism);
+}
+
+.connection-node.theme-activism {
+  border-color: var(--theme-activism);
+  color: var(--theme-activism);
+}
 .connection-node.center-node {
   border-color: var(--pink);
   background: rgba(255, 0, 163, 0.06);
