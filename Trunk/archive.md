@@ -15,7 +15,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
 
 <div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="46">
+    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="50">
 
       <!-- 1. No one summonded you, Siri -->
       <div class="artifact-slide active"
@@ -577,7 +577,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         </video>
     </div>
 
-      <!-- 47. Voicemail in the 2000s be like... -->
+      <!-- 48. Voicemail in the 2000s be like... -->
       <div class="artifact-slide"
         data-title="Voicemail in the 2000s be like..."
         data-origin="web-tiktok"
@@ -593,7 +593,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         </video>
     </div>
 
-      <!-- 48. Corporate Facebook Pages are Abandoned Mansions -->
+      <!-- 49. Corporate Facebook Pages are Abandoned Mansions -->
       <div class="artifact-slide"
         data-title="Corporate Facebook Pages are Abandoned Mansions"
         data-origin="web-tiktok"
@@ -609,7 +609,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         </video>
     </div>
 
-      <!-- 49. When someone tries to blackmail a millennial -->
+      <!-- 50. When someone tries to blackmail a millennial -->
       <div class="artifact-slide"
         data-title="When someone tries to blackmail a millennial"
         data-origin="web-tiktok"
