@@ -1248,15 +1248,14 @@ audio:hover {
 .timeline-tag.science,
 .timeline-tag.society,
 .timeline-tag.injustice,
-.timeline-tag.infrastructure 
+.timeline-tag.infrastructure,
 .timeline-tag.parasocialism,
 .timeline-tag.relationships,
 .timeline-tag.meme-culture,
 .timeline-tag.nostalgia-economy,
 .timeline-tag.upgrades,
 .timeline-tag.consummerism,
-.timeline-tag.activism
-{
+.timeline-tag.activism {
   display: inline-block;
   font-family: 'Lora', serif;
   font-size: 7pt;
