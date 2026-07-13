@@ -447,7 +447,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-origin="web-tumblr"
         data-date="7-20-2012"
         data-context="This is an invoice from a hospital that lists costs for procedures and medications totaling $4570. The caption reads &quot;The monetary cost for a rape victim to receive treatment at a hospital in the United States.&quot;"
-        data-significance=" "
+        data-significance="This invoice, like many invoices from U.S. hospitals, shows just how expensive it is to treat a patient. This one specifically shows the unfairness for victims of violent crimes, like rape, who despite treatment and collection of evidence might never recieve full justice. "
         data-tags-driver="Body"
         data-tags-timeline="Documentation,Injustice,Society">
         <img src="/assets/archive/web-tumblr-monetary-cost.png" alt=" " loading="lazy">
@@ -483,7 +483,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-origin="web-tumblr"
         data-date="11-11-2024"
         data-context="This is a screenshot of a tiktok posted to tumblr. In the image, a hand is mixing a thick, peach-colored substance. The caption reads: &quot;AI is coming for your job&quot; Yeah right I'd like to see AI wax a coochie. "
-        data-significance=" "
+        data-significance="This is an example of epochal humor and also the types of jobs no one expects AI to take over. "
         data-tags-driver="Expression"
         data-tags-timeline="Economy,Infrastructure">
         <img src="/assets/archive/web-tumblr-wax-coochie.png" alt=" " loading="lazy">
@@ -495,7 +495,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-origin="web-tumblr"
         data-date="8-24-2025"
         data-context="This is a version of the &quot;Are you winning son?&quot; meme where the son is crying, on social media sites, piles of unwashed clothes, and amazon boxes, and the text reads, &quot;Yes, yes! I am winning! I have everything at my fingertips...&quot;"
-        data-significance=" "
+        data-significance="As we move further into post-late-capitalism, feelings of nihilism take over even those who would appear to have everything at their fingertips. "
         data-tags-driver="Expression,Online"
         data-tags-timeline="Society">
         <img src="/assets/archive/web-tumblr-are-ya-winning.png" alt=" " loading="lazy">
@@ -507,7 +507,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-origin="web-tumblr"
         data-date="11-2-2018"
         data-context="In this image, a road sign is bobbing in a flood of water, the visible text reads, &quot;but her emails.&quot;"
-        data-significance=" "
+        data-significance="This shows intertextuality of memes, referring to the scandal involving Hilary Clinton's personal emails during the 2016 presidential election. The sign is floating in deep water, implying that the emails were the tip of the iceberg in political circles. "
         data-tags-driver="Expression,Online"
         data-tags-timeline="Government">
         <img src="/assets/archive/web-tumblr-but-her-emails.png" alt=" " loading="lazy">
@@ -518,8 +518,8 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-title="Tumblr Adult Content Ban"
         data-origin="web-tumblr"
         data-date="12-19-2018"
-        data-context="This is a remix of the tumblr notification users recieved about the upcoming adult content ban. This version includes, &quot;and Seth Everman will be publically executed in our reception area after a prompt trial by the blogging bribunal.&quot;"
-        data-significance=" "
+        data-context="This is a remix of the tumblr notification users recieved about the upcoming adult content ban. This version includes, &quot;and Seth Everman will be publically executed in our reception area after a prompt trial by the blogging tribunal.&quot;"
+        data-significance="Seth Everman is a celebrity youtuber from sweeden who blacked out his social media and went offline in 2023. I am including it as an example of remix culture and also to point out the uncanny coincidence of him blacking out his social media, which is what many users are doing now that the web is being capitalized on. Yahoo purchasing Tumblr was what led to the ban. "
         data-tags-driver="Expression,Online"
         data-tags-timeline="Infrastructure,Injustice,Community,Society,Economy">
         <img src="/assets/archive/web-tumblr-seth-everman.png" alt=" " loading="lazy">
@@ -531,7 +531,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-origin="web-tumblr"
         data-date="12-3-2018"
         data-context="This is a tumblr post that reads &quot;I have been on tumblr for 9 years and NOW they're telling me it's illegal to be horny???&quot;"
-        data-significance=" "
+        data-significance="This is also related the Tumblr adult content ban. It was a pretty big deal, tumblr was like THE destination for horny blogging. It was also a huge loss to the sex worker community. "
         data-tags-driver="Expression,Online"
         data-tags-timeline="Infrastructure,Injustice,Community,Society,Economy">
         <img src="/assets/archive/web-tumblr-illegal-horny.png" alt=" " loading="lazy">
@@ -545,7 +545,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="This is a screenshot of a Tumblr ask that was screenshot and posted to be rebloggable. The ask says, &quot;I considered selling sex so I can feed my kids and keep my heat on. This is a pathetic way to be in America.&quot;"
         data-significance=" "
         data-tags-driver="Expression,Online"
-        data-tags-timeline=" ">
+        data-tags-timeline="I'm including this because it shows the lack of a tumblr feature before it was added in, which was reblogging asks. We had to screenshot it, make it an image post, and then people were able to reblog. It also shows the general attitudes of people struggling to make ends meet in America.">
         <img src="/assets/archive/web-tumblr-pathetic-america.png" alt=" " loading="lazy">
       </div>
 
