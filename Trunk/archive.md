@@ -15,7 +15,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
 
 <div class="artifact">
   <div class="artifact-media">
-    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="29">
+    <div class="artifact-slideshow" id="archive-slideshow" data-current="1" data-total="46">
 
       <!-- 1. No one summonded you, Siri -->
       <div class="artifact-slide active"
@@ -330,7 +330,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="Sandy Hook is the 2nd deadliest school shooting in the U.S. The shock was greater than other school shootings because these were mainly elementary school kids who died. If you look into the history of school shootings in America, Sandy Hook is right up there next to Columbine, Virginia Tech, and Parkland as most notable."
         data-tags-driver="Ghosts,Hope"
         data-tags-timeline="Injustice,Society,Community">
-        <img src="/assets/archive/web-tumblr-santa-sandy-hook.PNG" alt="A political cartoon of Santa delivering gifts to a Sandy Hook victim in heaven." loading="lazy">
+        <img src="/assets/archive/web-tumblr-santa-sandy-hook.png" alt="A political cartoon of Santa delivering gifts to a Sandy Hook victim in heaven." loading="lazy">
       </div>
 
       <!-- 28. I can excuse... but I draw the line at...-->
@@ -357,6 +357,209 @@ On this page, I am collecting born-digital content. Each artifact includes where
         <img src="/assets/archive/web-tumblr-tank-top.PNG" alt=" " loading="lazy">
       </div>
 
+      <!-- 30. Apple Computer Joke-->
+      <div class="artifact-slide"
+        data-title="Apple Computer Joke"
+        data-origin="web-tumblr"
+        data-date="12-4-2012"
+        data-context="A humorous post from tumblr where OP said they asked their parents for an apple and got a computer instead."
+        data-significance="This is fkn hilarious, and I am including it as an example of millennial humor."
+        data-tags-driver="Expression,Identity"
+        data-tags-timeline="Infrastructure">
+        <img src="/assets/archive/web-tumblr-apple-joke.PNG" alt=" " loading="lazy">
+      </div>
+
+      <!-- 31. iTunes Gift Card Conundrum  -->
+      <div class="artifact-slide"
+        data-title="iTunes Gift Card Conundrum"
+        data-origin="web-tumblr"
+        data-date="12-25-2012"
+        data-context="A tumblr post where OP says they get overwhelmed whenever they get an iTunes gift card. Exclaiming, &quot;Like what music do I deem worthy enough to legally purchase?&quot;"
+        data-significance="iTunes used to be huge when iPods first came out. However, it wasn't always easy to control access to digital files because of file sharing platforms that let users get media without purchasing it. Not knowing what to purchase with an iTunes gift card was very much a common sentiment. "
+        data-tags-driver="Expression,Online"
+        data-tags-timeline="Society">
+        <img src="/assets/archive/web-tumblr-itunes-gift-card.PNG" alt=" " loading="lazy">
+      </div>
+
+      <!-- 32. You Discovered Reblogging -->
+      <div class="artifact-slide"
+        data-title="You Discovered Reblogging"
+        data-origin="web-tumblr"
+        data-date="7-31-2025"
+        data-context="A tumblr image post shows a screenshot of a tutorial notification for the reblog feature. Op says, &quot;okay! very cool!&quot; and an added comment says &quot;did anyone else know about this&quot;"
+        data-significance="This post is from 2025, tumblr has been around since 2007 and reblogging has always been a feature. Reblogging is encouraged and valued on tumblr. It was often the case that users would beg for reblogs instead of likes. It was a different economy than other platforms, including Twitter, where a retweet has a different nuance than a reblog. Today, we reblog retweet repost remix etc."
+        data-tags-driver="Online,Expression,Hope"
+        data-tags-timeline="Society,Internet & Web,Community">
+        <img src="/assets/archive/web-tumblr-discovered-reblogging.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 33. A Meaningless Empty Capitalist System -->
+      <div class="artifact-slide"
+        data-title="A Meaningless Empty Capitalist System"
+        data-origin="web-tumblr"
+        data-date="12-10-2018"
+        data-context="An image of two dolphins floating on a blank background above a statue of an angel. The text reads, &quot;I resent having to earn money to justify my existence in a meaninless empty capitalist system.&quot;"
+        data-significance="Economy,Injustice,Society"
+        data-tags-driver="Expression,Consummerism"
+        data-tags-timeline="Economy,Injustice,Society">
+        <img src="/assets/archive/web-tumblr-meaningless.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 34. December 17th on Tumblr  -->
+      <div class="artifact-slide"
+        data-title="December 17th on Tumblr"
+        data-origin="web-tumblr"
+        data-date="12-17-2018"
+        data-context="A tumblr post that reads &quot;Me still seeing porn on my dash on December 17th&quot; accompanied by a popular reaction meme from iCarly where Miranda Cosgrove is unimpressed at a computer screen."
+        data-significance="The tumblr adult content ban was a pretty significant move for the platform. Users weren't excited about it. This is an example of tumblr humor. "
+        data-tags-driver="Online,Body,Spaces"
+        data-tags-timeline="Community,Infrastructure,Injustice">
+        <img src="/assets/archive/web-tumblr-december-17.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 35. This man so annoying-->
+      <div class="artifact-slide"
+        data-title="This man so annoying"
+        data-origin="web-tumblr"
+        data-date="12-8-2018"
+        data-context="This is a friend request from Facebook, that was screenshot and tweeted with the caption &quot;this man so annoying 🤦‍♀️&quot; and then screenshot again and posted to tumblr with the added comment &quot;this offset&quot;"
+        data-significance="I'm including this as an example of how content traveled through platforms. "
+        data-tags-driver="Parasocialism"
+        data-tags-timeline="Pop Culture">
+        <img src="assets/archive/web-tumblr-so-annoying.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 36. 2009 again -->
+      <div class="artifact-slide"
+        data-title="2009 again"
+        data-origin="web-tumblr"
+        data-date="12-19-2018"
+        data-context="This post begins with &quot;in 2019 we're bringing back 2009 scene culture&quot; with example."
+        data-significance="I'm including this because 2009 fashion actually did come back in style... millennial cringe flipped to millennial optimism, and millennial aesthetics are being resurrected by our children. "
+        data-tags-driver="Expression,Nostalgia Economy"
+        data-tags-timeline="Society,Pop Culture,Economy">
+        <img src="/assets/archive/web-tumblr-2009-again.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 37. Monetary Cost for Rape Victims in U.S. -->
+      <div class="artifact-slide"
+        data-title="Monetary Cost for Rape Victims in U.S."
+        data-origin="web-tumblr"
+        data-date="7-20-2012"
+        data-context="This is an invoice from a hospital that lists costs for procedures and medications totaling $4570. The caption reads &quot;The monetary cost for a rape victim to receive treatment at a hospital in the United States.&quot;"
+        data-significance=" "
+        data-tags-driver="Body"
+        data-tags-timeline="Documentation,Injustice,Society">
+        <img src="/assets/archive/web-tumblr-monetary-cost.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 38. Women protesting Delhi's epidemic of rapes -->
+      <div class="artifact-slide"
+        data-title="Women protesting Delhi's epidemic of rapes"
+        data-origin="web-tumblr"
+        data-date="12-22-2012"
+        data-context="This is a photograph from a protest against Rape Culture. This specific photograph is from the protests in Dehli. The crowd of young Indian women are holding a sign that reads, &quot;Don't tell ur daughter not to go out Tell your son to behave properly.&quot; They carry lit candles as well. "
+        data-significance="This is one example of how the fight against rape culture and the fight against the violence of the patriarchy were a global activism. "
+        data-tags-driver="Witness,Body,Activism"
+        data-tags-timeline="Society,Injustice,Community">
+        <img src="/assets/archive/web-tumblr-delhi-protest.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 39. Bye NRA  -->
+      <div class="artifact-slide"
+        data-title="Bye NRA"
+        data-origin="web-tumblr"
+        data-date="12-24-2012"
+        data-context="This tumblr post reads &quot;For Christmas I would like the NRA to go away.&quot;"
+        data-significance="Every time there's a school shooting, the issue of gun control comes up, and the NRA shuts it down. This was posted 10 days after the shooting at Sandy Hook Elementary."
+        data-tags-driver="Online,Expression"
+        data-tags-timeline="Injustice,Community">
+        <img src="/assets/archive/web-tumblr-bye-nra.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 40. AI is coming for your job -->
+      <div class="artifact-slide"
+        data-title="AI is coming for your job"
+        data-origin="web-tumblr"
+        data-date="11-11-2024"
+        data-context="This is a screenshot of a tiktok posted to tumblr. In the image, a hand is mixing a thick, peach-colored substance. The caption reads: &quot;AI is coming for your job&quot; Yeah right I'd like to see AI wax a coochie. "
+        data-significance=" "
+        data-tags-driver="Expression"
+        data-tags-timeline="Economy,Infrastructure">
+        <img src="/assets/archive/web-tumblr-wax-coochie.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 41. Are ya winning son?-->
+      <div class="artifact-slide"
+        data-title="Are ya winning son?"
+        data-origin="web-tumblr"
+        data-date="8-24-2025"
+        data-context="This is a version of the &quot;Are you winning son?&quot; meme where the son is crying, on social media sites, piles of unwashed clothes, and amazon boxes, and the text reads, &quot;Yes, yes! I am winning! I have everything at my fingertips...&quot;"
+        data-significance=" "
+        data-tags-driver="Expression,Online"
+        data-tags-timeline="Society">
+        <img src="/assets/archive/web-tumblr-are-ya-winning.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 42. But her emails  -->
+      <div class="artifact-slide"
+        data-title="But her emails"
+        data-origin="web-tumblr"
+        data-date="11-2-2018"
+        data-context="In this image, a road sign is bobbing in a flood of water, the visible text reads, &quot;but her emails.&quot;"
+        data-significance=" "
+        data-tags-driver="Expression,Online"
+        data-tags-timeline="Government">
+        <img src="/assets/archive/web-tumblr-but-her-emails.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 43. Tumblr Adult Content Ban -->
+      <div class="artifact-slide"
+        data-title="Tumblr Adult Content Ban"
+        data-origin="web-tumblr"
+        data-date="12-19-2018"
+        data-context="This is a remix of the tumblr notification users recieved about the upcoming adult content ban. This version includes, &quot;and Seth Everman will be publically executed in our reception area after a prompt trial by the blogging bribunal.&quot;"
+        data-significance=" "
+        data-tags-driver="Expression,Online"
+        data-tags-timeline="Infrastructure,Injustice,Community,Society,Economy">
+        <img src="/assets/archive/web-tumblr-seth-everman.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 44. Illegal to be horny  -->
+      <div class="artifact-slide"
+        data-title="Illegal to be horny"
+        data-origin="web-tumblr"
+        data-date="12-3-2018"
+        data-context="This is a tumblr post that reads &quot;I have been on tumblr for 9 years and NOW they're telling me it's illegal to be horny???&quot;"
+        data-significance=" "
+        data-tags-driver="Expression,Online"
+        data-tags-timeline="Infrastructure,Injustice,Community,Society,Economy">
+        <img src="/assets/archive/web-tumblr-illegal-horny.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 45. Pathetic America  -->
+      <div class="artifact-slide"
+        data-title="Pathetic America"
+        data-origin="web-tumblr"
+        data-date="12-27-2012"
+        data-context="This is a screenshot of a Tumblr ask that was screenshot and posted to be rebloggable. The ask says, &quot;I considered selling sex so I can feed my kids and keep my heat on. This is a pathetic way to be in America.&quot;"
+        data-significance=" "
+        data-tags-driver="Expression,Online"
+        data-tags-timeline=" ">
+        <img src="/assets/archive/web-tumblr-pathetic-america.png" alt=" " loading="lazy">
+      </div>
+
+      <!-- 46. Ba harmy putar? GLARCH!  -->
+      <div class="artifact-slide"
+        data-title="Ba harmy putar? GLARCH!"
+        data-origin="web-tumblr"
+        data-date="11-5-2012"
+        data-context="An example of millennial humor. The text reads, &quot;I heard this great joke on Sims once...&quot; followed by the joke &quot;Be harmy putar? GLARCH!&quot; And a reaction meme of a woman grinning. At the bottom, an addition reads, &quot;I've seen this post three times now and I still lose my shit.&quot;"
+        data-significance=" "
+        data-tags-driver="Expression,Online"
+        data-tags-timeline=" ">
+        <img src="/assets/archive/web-tumblr-sims-joke.png" alt=" " loading="lazy">
+      </div>
 
     </div>
     <div class="artifact-slideshow-controls" id="archive-controls">
