@@ -399,7 +399,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-origin="web-tumblr"
         data-date="12-10-2018"
         data-context="An image of two dolphins floating on a blank background above a statue of an angel. The text reads, &quot;I resent having to earn money to justify my existence in a meaninless empty capitalist system.&quot;"
-        data-significance="Economy,Injustice,Society"
+        data-significance=" "
         data-tags-driver="Expression,Consummerism"
         data-tags-timeline="Economy,Injustice,Society">
         <img src="/assets/archive/web-tumblr-meaningless.png" alt=" " loading="lazy">
@@ -543,9 +543,9 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-origin="web-tumblr"
         data-date="12-27-2012"
         data-context="This is a screenshot of a Tumblr ask that was screenshot and posted to be rebloggable. The ask says, &quot;I considered selling sex so I can feed my kids and keep my heat on. This is a pathetic way to be in America.&quot;"
-        data-significance=" "
+        data-significance="I'm including this because it shows the lack of a tumblr feature before it was added in, which was reblogging asks. We had to screenshot it, make it an image post, and then people were able to reblog. It also shows the general attitudes of people struggling to make ends meet in America."
         data-tags-driver="Expression,Online"
-        data-tags-timeline="I'm including this because it shows the lack of a tumblr feature before it was added in, which was reblogging asks. We had to screenshot it, make it an image post, and then people were able to reblog. It also shows the general attitudes of people struggling to make ends meet in America.">
+        data-tags-timeline="">
         <img src="/assets/archive/web-tumblr-pathetic-america.png" alt=" " loading="lazy">
       </div>
 
