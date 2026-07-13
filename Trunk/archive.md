@@ -25,7 +25,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="I think I had my phone in my hand or pocket, not looking at it or talking to Siri at all, but Siri responded. The text reads: &quot;Cannot find my I cannot find my dog and my friend my help I'll Malmac mag mag all my on my mind all morning wall wall wall wall wall wall memorial boreal&quot; tap to edit — Sorry, Alejandra… can you try that again in fewer words?"
         data-significance="I screenshot this because I thought it was funny that Siri was summoned and even funnier that that's what it thought I had said."
         data-tags-driver="Online,Ghosts"
-        data-tags-timeline="Infrastructure">
+        data-tags-timeline="infrastructure">
         <img src="/assets/archive/hw-screenshot-siri.PNG" alt="Screenshot of Siri responding to garbled input" loading="lazy">
       </div>
       
@@ -37,7 +37,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="This is a conversation happening between me and my best friend completely through audio messages on iMessage."
         data-significance="This shows the evolution of communications technology, how we kind of just went back to walkie talkies."
         data-tags-driver="Intimacy,Online"
-        data-tags-timeline="Infrastructure">
+        data-tags-timeline="infrastructure">
         <img src="/assets/archive/hw-screenshot-audiomessages.PNG" alt="Screenshot of an iMessage conversation conducted entirely through audio messages" loading="lazy">
       </div>
       
@@ -49,7 +49,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="I have no idea why I saved it. But I am including it because when I was looking through my screenshots it popped up. This was like one of the new things you could do instead of having to search for someone, they could show you the QR code. I'm not sure who did it first, but all the apps do it now."
         data-significance="I'm including it because it was one of those new features that became standard. Someone had to save a screenshot of it once, when it was new."
         data-tags-driver="Online,Identity"
-        data-tags-timeline="Society,Infrastructure">
+        data-tags-timeline="Society,infrastructure">
         <img src="/assets/archive/hw-screenshot-fbcode.PNG" alt="Screenshot of a Facebook QR code feature for finding friends" loading="lazy">
       </div>
       
@@ -61,7 +61,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="A screenshot of the Angry Birds game app on my phone. It shows that there is a new high score. I'm not sure if this was my high score or my kid's. There is a Connect to FB link to play with friends."
         data-significance="Shows the incentive of connecting social media apps to popular mobile games."
         data-tags-driver="Online"
-        data-tags-timeline="Society,Infrastructure">
+        data-tags-timeline="Society,infrastructure">
         <img src="/assets/archive/hw-screenshot-angrybirds.PNG" alt="Screenshot of Angry Birds game showing a new high score and a Connect to Facebook button" loading="lazy">
       </div>
       
@@ -229,7 +229,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-context="This was posted to tumblr by &quot;thedailywhat,&quot; the original photo credit goes to &quot;Tech Crunch,&quot; who doesn't have it on their website anymore. In the photo, a black man dressed in a grey t-shirt with the silhouette of Obama from his &quot;HOPE&quot; poster on it, is amongst a crowd of people greeting President Obama. People look excited and pushing on top of each other to get closer to Obama. The man holds up an ipad in which he has drawn the text &quot;Mr. President, sign my iPad x__________&quot; In the companion photo, we see the screen of the ipad with Obama's signature."
         data-significance="Obama was the first president to sign an iPad for a fan. iPads came out during his presidency. This photo also shows the celebrity of Obama. The first black president and all his photos are filled with diversity in the crowds."
         data-tags-driver="Witness"
-        data-tags-timeline="Infrastructure,Government,Documentation">
+        data-tags-timeline="infrastructure,Government,Documentation">
         <img src="/assets/archive/web-tumblr-obamaipad.jpg" alt="A photo of a man asking Obama to sign his iPad" loading="lazy">
       </div>
 
@@ -410,7 +410,7 @@ const timelineTagMap = {
   'Science & Health': 'science',
   'Society': 'society',
   'Injustice': 'injustice',
-  'Infrastructure': 'infrastructure'
+  'infrastructure': 'infrastructure'
 };
 
 const archiveSlideshow = document.getElementById('archive-slideshow');

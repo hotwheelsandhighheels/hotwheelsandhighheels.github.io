@@ -1486,18 +1486,33 @@ audio:hover {
   font-size: 12pt;
   line-height: 1.6;
   color: var(--text);
-  opacity: 0.8;
+  opacity: 1;
   margin: 0 0 6px 0;
 }
 
 .artifact-significance {
   font-family: 'Lora', serif;
-  font-style: italic;
-  font-size: 11pt;
+  font-style: normal;
+  font-size: 12pt;
   line-height: 1.6;
   color: var(--text);
-  opacity: 0.6;
+  opacity: 1;
   margin: 0 0 12px 0;
+}
+
+.artifact-description strong,
+.artifact-significance strong {
+  color: var(--pink);
+  font-weight: 600;
+  opacity: 1;
+}
+
+.artifact-description > span,
+.artifact-significance > span {
+  color: var(--text);
+  opacity: 0.78;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .artifact-meta {
