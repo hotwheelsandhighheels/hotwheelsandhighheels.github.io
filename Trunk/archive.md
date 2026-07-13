@@ -342,7 +342,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="This reaction meme was used any time we were met with the absurdity that something like natural body parts could be considered worse than another actually worse thing like white supremacy. "
         data-tags-driver="Body,Expression"
         data-tags-timeline="Injustice,Society">
-        <img src="/assets/archive/web-tumblr-nazi-tittles.PNG" alt="A remix of the reaction meme from the show Community that reads I can excuse Nazis but I draw the line at titties." loading="lazy">
+        <img src="/assets/archive/web-tumblr-nazi-tittles.png" alt="A remix of the reaction meme from the show Community that reads I can excuse Nazis but I draw the line at titties." loading="lazy">
       </div>
 
       <!-- 29. Tumblr Tank Top at Goodwill-->
@@ -354,7 +354,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance=" "
         data-tags-driver=" "
         data-tags-timeline=" ">
-        <img src="/assets/archive/web-tumblr-tank-top.PNG" alt=" " loading="lazy">
+        <img src="/assets/archive/web-tumblr-tank-top.png" alt=" " loading="lazy">
       </div>
 
       <!-- 30. Apple Computer Joke-->
@@ -366,7 +366,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="This is fkn hilarious, and I am including it as an example of millennial humor."
         data-tags-driver="Expression,Identity"
         data-tags-timeline="Infrastructure">
-        <img src="/assets/archive/web-tumblr-apple-joke.PNG" alt=" " loading="lazy">
+        <img src="/assets/archive/web-tumblr-apple-joke.png" alt=" " loading="lazy">
       </div>
 
       <!-- 31. iTunes Gift Card Conundrum  -->
@@ -378,7 +378,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="iTunes used to be huge when iPods first came out. However, it wasn't always easy to control access to digital files because of file sharing platforms that let users get media without purchasing it. Not knowing what to purchase with an iTunes gift card was very much a common sentiment. "
         data-tags-driver="Expression,Online"
         data-tags-timeline="Society">
-        <img src="/assets/archive/web-tumblr-itunes-gift-card.PNG" alt=" " loading="lazy">
+        <img src="/assets/archive/web-tumblr-itunes-gift-card.png" alt=" " loading="lazy">
       </div>
 
       <!-- 32. You Discovered Reblogging -->
