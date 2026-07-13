@@ -248,7 +248,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
       <!-- 20. Gen Z is so Xoomer coded. -->
       <div class="artifact-slide"
         data-title="Gen Z is so Xoomer coded."
-        data-origin="web-tiktok-amaris_simone"
+        data-origin="web-tiktok"
         data-date="06-20-2026"
         data-context="Commentary from Tiktok User @amaris_simone. Transcript in progress."
         data-significance="This is in response to Gen Z's attitude towards Millennials. They sometimes think of us as a passive generation that never got anything done when it reality our efforts were met with hostility and obstacles. I wanted to include this because it illustrates generational attitudes that are especially amplified during election seasons, as we saw when Zohran Mamdani, a millennial, won the NYC mayoral election."
@@ -560,6 +560,71 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-tags-timeline=" ">
         <img src="/assets/archive/web-tumblr-sims-joke.png" alt=" " loading="lazy">
       </div>
+
+      <!-- 47. Millennial Parenting -->
+      <div class="artifact-slide"
+        data-title=" Millennial Parenting "
+        data-origin="web-tiktok"
+        data-date="9-8-2025"
+        data-context="Commentary from Tiktok User @dellvansauthor. Transcript in progress."
+        data-significance=" "
+        data-tags-driver=" "
+        data-tags-timeline=" ">
+
+        <video controls preload="metadata" playsinline>
+          <source src="/assets/archive/web-tiktok-dellvansauthor.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+
+      <!-- 47. Voicemail in the 2000s be like... -->
+      <div class="artifact-slide"
+        data-title="Voicemail in the 2000s be like..."
+        data-origin="web-tiktok"
+        data-date="7-8-2026"
+        data-context="from Tiktok User @leoloks. Transcript in progress."
+        data-significance=" "
+        data-tags-driver=" "
+        data-tags-timeline=" ">
+
+        <video controls preload="metadata" playsinline>
+          <source src="/assets/archive/web-tiktok-leoloks.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+
+      <!-- 48. Corporate Facebook Pages are Abandoned Mansions -->
+      <div class="artifact-slide"
+        data-title="Corporate Facebook Pages are Abandoned Mansions"
+        data-origin="web-tiktok"
+        data-date="6-26-2026"
+        data-context="Commentary from Tiktok User @socialjosh. Transcript in progress."
+        data-significance=" "
+        data-tags-driver=" "
+        data-tags-timeline=" ">
+
+        <video controls preload="metadata" playsinline>
+          <source src="/assets/archive/web-tiktok-socialjosh.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+
+      <!-- 49. When someone tries to blackmail a millennial -->
+      <div class="artifact-slide"
+        data-title="When someone tries to blackmail a millennial"
+        data-origin="web-tiktok"
+        data-date="9-16-2025"
+        data-context="Commentary from Tiktok User @seasonalemployee. Transcript in progress."
+        data-significance=" "
+        data-tags-driver=" "
+        data-tags-timeline=" ">
+
+        <video controls preload="metadata" playsinline>
+          <source src="/assets/archive/web-tiktok-seasonalemployee.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+
 
     </div>
     <div class="artifact-slideshow-controls" id="archive-controls">
