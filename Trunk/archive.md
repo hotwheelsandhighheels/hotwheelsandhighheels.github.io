@@ -426,7 +426,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="I'm including this as an example of how content traveled through platforms. "
         data-tags-driver="Parasocialism"
         data-tags-timeline="Pop Culture">
-        <img src="assets/archive/web-tumblr-so-annoying.png" alt=" " loading="lazy">
+        <img src="assets/archive/web-tumblr-so-annoying.PNG" alt=" " loading="lazy">
       </div>
 
       <!-- 36. 2009 again -->
@@ -572,7 +572,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-tags-timeline=" ">
 
         <video controls preload="metadata" playsinline>
-          <source src="/assets/archive/web-tiktok-dellvansauthor.mp4" type="video/mp4">
+          <source src="/assets/archive/web-tiktok-dellvansauthor.MP4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
     </div>
@@ -588,7 +588,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-tags-timeline=" ">
 
         <video controls preload="metadata" playsinline>
-          <source src="/assets/archive/web-tiktok-leoloks.mp4" type="video/mp4">
+          <source src="/assets/archive/web-tiktok-leoloks.MP4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
     </div>
@@ -604,7 +604,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-tags-timeline=" ">
 
         <video controls preload="metadata" playsinline>
-          <source src="/assets/archive/web-tiktok-socialjosh.mp4" type="video/mp4">
+          <source src="/assets/archive/web-tiktok-socialjosh.MP4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
     </div>
@@ -620,7 +620,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-tags-timeline=" ">
 
         <video controls preload="metadata" playsinline>
-          <source src="/assets/archive/web-tiktok-seasonalemployee.mp4" type="video/mp4">
+          <source src="/assets/archive/web-tiktok-seasonalemployee.MP4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
     </div>
