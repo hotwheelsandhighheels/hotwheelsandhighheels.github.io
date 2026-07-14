@@ -426,7 +426,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
         data-significance="I'm including this as an example of how content traveled through platforms. "
         data-tags-driver="Parasocialism"
         data-tags-timeline="Pop Culture">
-        <img src="assets/archive/web-tumblr-so-annoying.PNG" alt=" " loading="lazy">
+        <img src="/assets/archive/web-tumblr-so-annoying.png" alt=" " loading="lazy">
       </div>
 
       <!-- 36. 2009 again -->
