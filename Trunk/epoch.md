@@ -542,14 +542,9 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2003</h2></div>
 
-<div class="timeline-entry left" data-category=" ">
+<div class="timeline-entry right" data-category=" ">
   <h3>War in Darfur</h3>
   <p>Armed conflict in the Darfur region of Sudan between government and the Sudan Liberation Movement and the Justice and Equality Movement results in a genocide of 300,000 non-Arab Sudanese.</p>
-</div>
-
-<div class="timeline-entry right" data-category=" ">
-  <h3>The United States Invades Iraq</h3>
-  <p>The U.S. invades Iraq based on claims of weapons of mass destruction that prove false. The war lasts nearly a decade and kills hundreds of thousands.</p>
 </div>
 
 <div class="timeline-entry left" data-category="internet infrastructure society community pop-culture">
@@ -1418,24 +1413,24 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag society">Society</span>
 </div>
 
-<div class="timeline-entry left" data-category="government internet documentation injustice">
+<div class="timeline-entry right" data-category="government internet documentation injustice">
   <h3>The War on Gaza</h3>
-  <p>Israel's military campaign in Gaza following the October 7 attacks is documented extensively on social media by Palestinians on the ground. The footage makes it the first mass casualty event of its scale witnessed globally in real time, while platforms are accused of suppressing content.</p>
+  <p>Israel's military campaign in Gaza following the October 7 attacks is documented extensively on social media by Palestinians on the ground. The footage makes it the first mass casualty event of its scale witnessed globally in real time. Platforms are accused of suppressing content.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag documentation">Documentation</span>
   <span class="timeline-tag injustice">Injustice</span>
 </div>
 
-<div class="timeline-entry right" data-category="internet pop-culture">
+<div class="timeline-entry left" data-category="internet pop-culture">
   <h3>Reddit API Revolt</h3>
-  <p>Reddit communities protest changes to platform access policies, shutting down thousands of forums. The event highlights tensions between users, moderators, and platform ownership, and the fragility of community-built spaces on corporate infrastructure.</p>
+  <p>Reddit communities protest changes to platform access policies, shutting down thousands of forums.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 <div class="timeline-entry left" data-category="climate documentation">
   <h3>Lahaina Fire</h3>
-  <p>Wildfires driven by drought and high winds destroy the historic town of Lahaina on Maui, killing at least 101 people and displacing thousands. The destruction of a place layered with centuries of Hawaiian history raises questions about climate preparedness, tourism dependence, and who controls the narrative of recovery.</p>
+  <p>Wildfires destroy the historic town of Lahaina on Maui, killing at least 101 people and displacing thousands.</p>
   <span class="timeline-tag climate">Climate</span>
   <span class="timeline-tag documentation">Documentation</span>
 </div>
@@ -1443,18 +1438,9 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-year"><h2>2024</h2></div>
 
-<div class="timeline-entry left" data-category="government injustice documentation internet">
-  <h3>Trump Assassination Attempt</h3>
-  <p>An assassination attempt against Donald Trump occurs during the presidential campaign. Images and video spread rapidly across digital platforms. The moment becomes instantly memetic, with competing narratives circulating before facts are confirmed.</p>
-  <span class="timeline-tag government">Government</span>
-  <span class="timeline-tag injustice">Injustice</span>
-  <span class="timeline-tag documentation">Documentation</span>
-  <span class="timeline-tag internet">Internet &amp; Web</span>
-</div>
-
 <div class="timeline-entry right" data-category="government internet society">
   <h3>Global Election Year</h3>
-  <p>More than 60 countries, nearly half the world's population, hold national elections, including the United States, India, Mexico, and Indonesia. Digital platforms play a central role in how candidates campaign, how information spreads, and how results are contested or accepted.</p>
+  <p>More than 60 countries, nearly half the world's population, hold national elections, including the United States, India, Mexico, and Indonesia. Digital platforms play a central role in political discourse.</p>
   <span class="timeline-tag government">Government</span>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag society">Society</span>
@@ -1462,7 +1448,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
 
 <div class="timeline-entry left" data-category="internet economy government">
   <h3>DeepSeek Disrupts AI Markets</h3>
-  <p>Chinese AI lab DeepSeek releases a large language model competitive with Western systems at a fraction of the cost, triggering a trillion-dollar selloff in U.S. tech stocks. The release challenges the assumption that AI dominance requires massive capital expenditure and raises the stakes of technological competition between the U.S. and China.</p>
+  <p>Chinese AI lab DeepSeek releases a large language model competitive with Western systems at a fraction of the cost, triggering a trillion-dollar selloff in U.S. tech stocks.</p>
   <span class="timeline-tag internet">Internet &amp; Web</span>
   <span class="timeline-tag economy">Economy</span>
   <span class="timeline-tag government">Government</span>
@@ -1516,7 +1502,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <span class="timeline-tag pop-culture">Pop Culture</span>
 </div>
 
-<div class="timeline-clear"></div>
+<div class="timeline-clear">
 </div>
 
 <!-- TRUNK NAVIGATION -->
