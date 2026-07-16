@@ -18,11 +18,11 @@ sitemap: false
     <div class="meaf-now-grid">
       <div class="meaf-now-item">
         <h3>reading</h3>
-        <p>Atlas of AI by Kate Crawford</p>
+        <p>a lot of archival theory</p>
       </div>
       <div class="meaf-now-item">
       <h3>listening</h3>
-      <p>Young Miko - BIAF &lt;3</p>
+      <p>Jessie Reyez - A LITTLE VENGEANCE</p>
       </div>
       <div class="meaf-now-item">
         <h3>watching</h3>
@@ -62,17 +62,30 @@ sitemap: false
 <p>My kid, Stella, is the reason there are seventeen years of social media posting to sift through, and why I am doing this project now. She is archived on Tumblr and Instragram and Youtube. She was on Vine and Tiktok and Facebook. I never posted her for the world to see. I kept what I could private and only visible to people I trusted. It is impossible to dearchive her, and myself, from the web completely. </p>
 <p>There is so much that goes into this passion project of mine & I hope it becomes clear as you read through the pages. I can't possibly articulate it all in a few short sentences. I hope you like it :) </p>
 <p>Love, <br> Ale 💕</p>
-<p><i>p.s. sign my</i></p>
+
+<br>
 
   <!-- GUESTBOOK -->
   <div class="meaf-section">
-    <h2>guestbook</h2>
+    <h2>socials</h2><br>
+    <p>AIM from 2002 to 2007<br>
+    Myspace from 2004 to 2007<br>
+    Facebook from 2006 to 2025<br>
+    <a href="https://youtube.com/playlist?list=PLlVnLgnSHL82gxRN4AS9ONS2i5-bZ8MvZ&si=NkQ9GoZXWDzWeu_z">YouTube</a> since 2007<br>
+    <a href="https://www.tumblr.com/hotwheelsandhighheels">Tumblr</a> since 2009<br>
+    Twitter from 2009 to 2012<br>
+    Pinterest from 2010 to 2025<br>
+    <a href="https://www.instagram.com/hotwheelsandhighheels/">Instagram</a> since 2011<br>
+    Snapchat from 2011 to 2025<br>
+    Vine from 2013 to 2017<br>
+    <a href="https://www.tiktok.com/@hotwheelsandhighheels_">Tiktok</a> since 2021<br>
+    <i>this beautiful website</i> since 2021<br></p>
     <div class="meaf-guestbook">
       <p>send me a message:</p>
       <p><a href="mailto:alejandra@hotwheelsandhighheels.com">alejandra@hotwheelsandhighheels.com</a></p>
     </div>
   </div>
 
-  <p style="text-align: center; font-size: 8pt; opacity: 0.4;">last updated: June 2026</p>
+  <p style="text-align: center; font-size: 8pt; opacity: 0.4;">last updated: July 2026</p>
 
 </div>
