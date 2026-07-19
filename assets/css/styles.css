@@ -417,6 +417,11 @@ nav .active {
   display: block;
   margin-bottom: 48px;
 }
+.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 .footer {
   max-height: 150pt;
