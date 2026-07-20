@@ -15,6 +15,7 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="/assets/site/banner.webp" fetchpriority="high">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="icon" type="image/svg+xml" href="/assets/svg/favicon.svg">
   <link rel="icon" type="image/png" href="/assets/svg/favicon.png">
@@ -94,7 +95,13 @@ function toggleMenu() {
 }
 </script>
   <main id="main" tabindex="-1">
-    <img class="banner" src="/assets/site/Banner.PNG" alt="Banner: Woman's feet in high heels with panties pulled down to the ankles, cropped view of toilet, woman is holding a phone in her hands. On the floor besides the toilet is an alcoholic beverage and a cigar on one side and a loose roll of toilet paper on the other.">
+    <img
+  class="banner"
+  src="/assets/site/banner.webp"
+  alt="Banner: Woman's feet in high heels with panties pulled down to the ankles, cropped view of toilet, woman is holding a phone in her hands. On the floor beside the toilet is an alcoholic beverage and a cigar on one side and a loose roll of toilet paper on the other."
+  width="1000"
+  height="536"
+  fetchpriority="high">
 <center>
     <p> Welcome to </p>
 <h1>Hot Wheels & High Heels</h1>
@@ -109,38 +116,37 @@ function toggleMenu() {
 </center>
 <footer>
   <div style="text-align: center;">
-    <img class="footer" id="runner" src="/assets/site/4runner.png" alt="Toyota 4Runner, White with black trim" onclick="revTheEngine()">
+    <img
+      class="footer"
+      id="runner"
+      src="/assets/site/4runner.webp"
+      alt="Toyota 4Runner, white with black trim"
+      width="780"
+      height="562"
+      loading="lazy"
+      decoding="async"
+      onclick="revTheEngine()">
+
     <p class="footer-dedication">RIP My 2000 Toyota 4runner</p>
     <p class="footer-dedication-sub">you were the <i>hottest</i> salvage on these sunny roads</p>
   </div>
 </footer>
 
 <script>
-// Preload 4Runner sounds so they're ready to play instantly.
-// Creating the Audio objects once and loading them upfront
-// eliminates the network fetch delay on first click.
-const sounds = [
-  new Audio('/assets/sounds/Unlocking 4runner.mp3'),
-  new Audio('/assets/sounds/02 Engine Start 4runner.mp3')
+const soundPaths = [
+  '/assets/sounds/Unlocking 4runner.mp3',
+  '/assets/sounds/02 Engine Start 4runner.mp3'
 ];
 
-// Tell the browser to load the audio files before they're needed
-sounds.forEach(audio => {
-  audio.preload = 'auto';
-  audio.load();
-});
-
 function revTheEngine() {
-  // Pick a random sound
-  const audio = sounds[Math.floor(Math.random() * sounds.length)];
-  
-  // Reset to beginning if it was played before
-  audio.currentTime = 0;
+  const src = soundPaths[Math.floor(Math.random() * soundPaths.length)];
+  const audio = new Audio(src);
   audio.play();
 
-  // Shake the car — only if user hasn't requested reduced motion
   if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     const car = document.getElementById('runner');
+    if (!car) return;
+
     car.classList.add('footer-shake');
     setTimeout(() => car.classList.remove('footer-shake'), 500);
   }

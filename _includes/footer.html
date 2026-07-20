@@ -1,16 +1,17 @@
 <footer>
   <div style="text-align: center;">
-<img
-  class="footer"
-  id="runner"
-  src="/assets/site/4runner.webp"
-  alt="Toyota 4Runner, white with black trim"
-  width="780"
-  height="562"
-  loading="lazy"
-  decoding="async"
-  onclick="revTheEngine()">
-  <p class="footer-dedication">RIP My 2000 Toyota 4runner</p>
+    <img
+      class="footer"
+      id="runner"
+      src="/assets/site/4runner.webp"
+      alt="Toyota 4Runner, white with black trim"
+      width="780"
+      height="562"
+      loading="lazy"
+      decoding="async"
+      onclick="revTheEngine()">
+
+    <p class="footer-dedication">RIP My 2000 Toyota 4runner</p>
     <p class="footer-dedication-sub">you were the <i>hottest</i> salvage on these sunny roads</p>
   </div>
 </footer>
@@ -29,6 +30,7 @@ function revTheEngine() {
   if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     const car = document.getElementById('runner');
     if (!car) return;
+
     car.classList.add('footer-shake');
     setTimeout(() => car.classList.remove('footer-shake'), 500);
   }
