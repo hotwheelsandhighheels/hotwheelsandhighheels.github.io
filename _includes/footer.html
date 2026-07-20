@@ -1,14 +1,10 @@
 <footer>
   <div style="text-align: center;">
     <img
-      class="footer"
-      id="runner"
       src="/assets/site/4runner.png"
       alt="Toyota 4Runner, white with black trim"
-      width="780"
-      height="562"
-      loading="lazy"
-      decoding="async"
+      class="footer"
+      id="runner"
       onclick="revTheEngine()">
 
     <p class="footer-dedication">RIP My 2000 Toyota 4runner</p>
@@ -17,20 +13,31 @@
 </footer>
 
 <script>
-const soundPaths = [
-  '/assets/sounds/Unlocking 4runner.mp3',
-  '/assets/sounds/02 Engine Start 4runner.mp3'
+// Preload 4Runner sounds so they're ready to play instantly.
+// Creating the Audio objects once and loading them upfront
+// eliminates the network fetch delay on first click.
+const sounds = [
+  new Audio('/assets/sounds/Unlocking 4runner.mp3'),
+  new Audio('/assets/sounds/02 Engine Start 4runner.mp3')
 ];
 
+// Tell the browser to load the audio files before they're needed
+sounds.forEach(audio => {
+  audio.preload = 'auto';
+  audio.load();
+});
+
 function revTheEngine() {
-  const src = soundPaths[Math.floor(Math.random() * soundPaths.length)];
-  const audio = new Audio(src);
+  // Pick a random sound
+  const audio = sounds[Math.floor(Math.random() * sounds.length)];
+  
+  // Reset to beginning if it was played before
+  audio.currentTime = 0;
   audio.play();
 
+  // Shake the car — only if user hasn't requested reduced motion
   if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     const car = document.getElementById('runner');
-    if (!car) return;
-
     car.classList.add('footer-shake');
     setTimeout(() => car.classList.remove('footer-shake'), 500);
   }
