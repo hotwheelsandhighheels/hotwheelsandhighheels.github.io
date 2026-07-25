@@ -18,7 +18,7 @@ Californian: Sunny, ocean waves, sandy beaches
 Driving really fast on an empty highway with the windows down and the night sky ahead
 
 ## Registration
-Humans are beautiful. Look what we made...  
+Humans are beautiful. 
 
 I'm collecting memories, do you have any to spare?   
 
