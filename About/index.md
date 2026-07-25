@@ -22,14 +22,6 @@ Humans are beautiful. Look what we made...
 
 I'm collecting memories, do you have any to spare?   
 
-Send me things like:  
-<ul>
-    <li>screenshots, photographs, poems, stories, internet relics</li>
-    <li>reblogs, retweets, reposts from your Tumblr, Twitter, etc.</li>
-    <li>conversations you had when Beyoncé broke the internet</li>
-    <li>memes you made when Trump announced he was running for president</li>
-</ul>  
-
 <a href="/submit/" style="color: var(--purple);">Fill my gas tank →</a>
 
 
