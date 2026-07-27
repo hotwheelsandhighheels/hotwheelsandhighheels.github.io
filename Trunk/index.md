@@ -68,7 +68,7 @@ What happens when personal memory, cultural history, and digital platforms becom
     <h3>Collection 07</h3>
     <h2>Hydraulics</h2>
     <p> </p>
-    <p><span style="color: var(--pink);">Detour →</span></p>
+    <p><span style="color: var(--pink);">Tale a detour →</span></p>
   </a>
 
 </div>
