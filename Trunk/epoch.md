@@ -524,6 +524,7 @@ Separate from the millennial age cohort, and much like the volta in poetry, an e
   <p>The first and only permanent international court with jurisdiction to prosecute individuals for the international crimes of genocide, crimes against humanity, war crimes, and the crime of aggression.</p>
 </div>
 
+<div class="timeline-entry left" data-category="government infrastructure injustice society">
   <h3>No Child Left Behind Signed</h3>
   <p>The No Child Left Behind Act ties federal education funding to standardized test scores. Testing expands and curricula narrow nationwide.</p>
   <span class="timeline-tag government">Government</span>
