@@ -183,7 +183,7 @@ permalink: /Trunk/scratch-paper/
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
   <a href="/Trunk/back-roads/">← Check the road map</a>
-  <a href="/submit/">Fill my gas tank →</a>
+  <a href="/Trunk/hydraulics/">Take a detour →</a>
 </div>
 
 <style>

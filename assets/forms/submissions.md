@@ -133,6 +133,6 @@ sitemap: false
 <!-- TRUNK NAVIGATION -->
 
 <div class="driver-nav">
-  <a href="/Trunk/scratch-paper">← Dig thru the glove box</a>
-  <a href="/Trunk/">Back 2 Trunk →</a>
+  <a href="/About/">← Back 2 About</a>
+  <a href="/Trunk/">Pop the Trunk →</a>
 </div>
