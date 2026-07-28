@@ -40,8 +40,3 @@ title: Drivers - Hot Wheels & High Heels
   <a href="/About/">← About</a>
   <a href="/Trunk/">Trunk →</a>
 </div>
-<!-- TRUNK NAVIGATION -->
-<div class="driver-nav">
-  <a href="/Trunk/epoch/">← Memory Ln.</a>
-  <a href="/Trunk/archive/">Scroll the feed →</a>
-</div>
