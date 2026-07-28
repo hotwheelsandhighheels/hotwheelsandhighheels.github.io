@@ -8,7 +8,7 @@ title: About - Hot Wheels & High Heels
 ## The Wheel 
 A toddler plays with toy cars in grandma's closet using shoes with heels as inclines.  
 
-I am interested in memory work and interviewing memory workers. If you fit the vibe, _crash into me_
+I am interested in memory work.
 
 ## The Vibe  
 Millennial, as in epoch-making <a href="/survey-og/" class="secret-link">✦</a>  
@@ -36,22 +36,6 @@ My cousins are my best friends. Nothing matters without them. Without them there
 
 [Engine Check →](/About/enginecheck)  
 <span class="email-toggle" onclick="this.innerHTML = this.innerHTML === 'DROPBOX' ? 'alejandra@hotwheelsandhighheels.com' : 'DROPBOX'" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; color: var(--pink); font-family: 'Courier New', monospace; font-size: 10pt; text-transform: uppercase;">DROPBOX</span>
-
-## Acknowledgements
-Thank you to my early subscribers for making this project possible for the first six months it was active in 2025. Your support means the world to me!  
-
-<ul>
-    <li>Julian & Mercedes Hernández</li>
-    <li>Julian R. Hernández</li>
-    <li>Maria E. Siordia</li>
-    <li>William A. Nericcio</li>
-    <li>Carson Sandell</li>
-    <li>Faith Davis</li>
-    <li>Emily Buchanan</li>
-    <li>Grace Mathews</li>
-</ul>
-
-[The Manual](/FAQ/)
 
 <div class="driver-nav">
   <a href="/">← Home</a>
