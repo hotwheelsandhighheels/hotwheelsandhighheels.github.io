@@ -9,11 +9,11 @@ title: Trunk - Hot Wheels & High Heels
 
 <div class="trunk-dashboard">
   <!-- INTRO — full width -->
-  <div class="trunk-card trunk-card-full">
-    <p class="wiki-intro">
+  <a href="/Manifesto/" class="trunk-card trunk-card-full" style="text-decoration: none;">
+        <p class="wiki-intro">
 What happens when personal memory, cultural history, and digital platforms become the same thing?
-    </p>
-  </div>
+        </p>
+    </a>
 
   <!-- 1. THE EPOCH — full width -->
   <a href="/Trunk/epoch/" class="trunk-card trunk-card-full" style="text-decoration: none;">
