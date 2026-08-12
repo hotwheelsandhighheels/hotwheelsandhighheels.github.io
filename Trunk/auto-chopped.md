@@ -6,63 +6,6 @@ permalink: /Trunk/auto-chopped/
 
 # Auto Chopped
 
-<!-- ============================================
-     NEW AUTO CHOPPED SLIDESHOW TEMPLATE
-     Public-facing display data only.
-     Keep source URLs, date captured, review status,
-     sensitivity notes, rights notes, AI-use notes,
-     and internal notes in the spreadsheet.
-     ============================================ -->
-
-<section class="auto-chopped-section" id="new-auto-chopped-section">
-
-  <h2>Data Colonialism</h2>
-
-  <p>
-    Naming this Data Colonialism for now. I want to show how the web is being capitalized on and censored, in direct contrast to the utopian vision of the web.
-  </p>
-
-  <div class="slideshow auto-chopped-slideshow" id="auto-chopped-slideshow-01" data-current="1" data-total="2">
-
-    <!-- SLIDE 1 -->
-    <div class="slide active">
-      <img
-        src="/assets/chopped/web-archive-content_warning.png"
-        alt="Archive Genocide Content Warning"
-        loading="lazy">
-      <p class="caption">
-        Archive Genocide Content Warning <br> This sensitivity warning notes graphic footage of war crimes in Gaza and the West Bank. 
-      </p>
-    </div>
-
-    <!-- SLIDE 2 -->
-    <div class="slide">
-      <img
-        src="/assets/chopped/web-archive-about.png"
-        alt="Archive Genocide About"
-        loading="lazy">
-      <p class="caption">
-        Archive Genocide About Page <br> This page explains the project's objective. <br> Archive Genocide is a digital archive that documents war crimes in Gaza and the West Bank. <br> They are archiving what others erase. 
-      </p>
-    </div>
-
-  </div>
-
-  <div class="slideshow-controls">
-    <button class="slide-btn" type="button" onclick="changeAutoChoppedSlide('auto-chopped-slideshow-01', -1)">&#8592;</button>
-    <span class="slide-count">
-      <span id="auto-chopped-slideshow-01-current">1</span> /
-      <span id="auto-chopped-slideshow-01-total">3</span>
-    </span>
-    <button class="slide-btn" type="button" onclick="changeAutoChoppedSlide('auto-chopped-slideshow-01', 1)">&#8594;</button>
-  </div>
-
-</section>
-
----
-
-## AI Reception
-
 *54 artifacts collected*
 
 *This is all the stuff I see online about generative AI and LLMs. It's mostly submission guidelines from literary establishments.*
