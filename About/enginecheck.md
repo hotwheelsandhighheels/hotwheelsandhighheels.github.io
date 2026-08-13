@@ -12,7 +12,7 @@ title: Engine Check Light
 "Those Them Series" "Mexican-American" and "Quinceañera" — *Azahares Literary Magazine*  
 "Blue Dream" — *Mantis Literary Journal*
 
-<center><a href="/meAF/"><img src="/assets/blinkies/770524f3sgv165ey.gif"></a> </center>
+<center><a href="/meAF/"><img src="/assets/blinkies/bluscrn.gif"></a> </center>
 <div class="driver-nav">
   <a href="/About/">← About</a>
   <a href="/Trunk/epoch/">The Epoch →</a>

@@ -11,7 +11,7 @@ A toddler plays with toy cars in grandma's closet using shoes with heels as incl
 I am interested in memory work.
 
 ## The Vibe  
-Millennial, as in epoch-making  <a href="/survey-og/"><img src="/assets/blinkies/bluscrn.gif"></a>  
+Millennial, as in epoch-making  
 21st century, in the symbiotic sense  
 Archival, in the form of parallel truths   
 Californian: Sunny, ocean waves, sandy beaches  
@@ -36,6 +36,10 @@ My cousins are my best friends. Nothing matters without them. Without them there
 
 [Engine Check →](/About/enginecheck)  
 <span class="email-toggle" onclick="this.innerHTML = this.innerHTML === 'DROPBOX' ? 'alejandra@hotwheelsandhighheels.com' : 'DROPBOX'" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; color: var(--pink); font-family: 'Courier New', monospace; font-size: 10pt; text-transform: uppercase;">DROPBOX</span>
+
+
+<center><a href="/survey-og/"><img src="/assets/blinkies/aimlink.gif"></a></center>
+
 
 <div class="driver-nav">
   <a href="/">← Home</a>
