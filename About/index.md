@@ -11,7 +11,7 @@ A toddler plays with toy cars in grandma's closet using shoes with heels as incl
 I am interested in memory work.
 
 ## The Vibe  
-Millennial, as in epoch-making <a href="/survey-og/" class="secret-link">✦</a>  
+Millennial, as in epoch-making  <a href="/survey-og/"><img src="/assets/blinkies/bluscrn.gif"></a>  
 21st century, in the symbiotic sense  
 Archival, in the form of parallel truths   
 Californian: Sunny, ocean waves, sandy beaches  

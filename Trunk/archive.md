@@ -643,7 +643,7 @@ On this page, I am collecting born-digital content. Each artifact includes where
 </div>
 
 
-<center><a href="/survey-cameraroll/" class="secret-link">✦</a></center>
+<center><a href="/survey-cameraroll/"><img src="/assets/blinkies/mailput.gif"></a></center>
 
 <!-- TRUNK NAVIGATION -->
 <div class="driver-nav">
