@@ -11,7 +11,7 @@ A toddler plays with toy cars in grandma's closet using shoes with heels as incl
 I am interested in memory work.
 
 ## The Vibe  
-Millennial, as in epoch-making  
+Millennial, as in epoch-making <a href="/survey-og/"><img src="/assets/blinkies/mailput.gif"></a>  
 21st century, in the symbiotic sense  
 Archival, in the form of parallel truths   
 Californian: Sunny, ocean waves, sandy beaches  
@@ -35,11 +35,7 @@ I'm from San Diego and have no aspirations to leave; San Diego is too beautiful.
 My cousins are my best friends. Nothing matters without them. Without them there is no love, no poetry.   
 
 [Engine Check →](/About/enginecheck)  
-<span class="email-toggle" onclick="this.innerHTML = this.innerHTML === 'DROPBOX' ? 'alejandra@hotwheelsandhighheels.com' : 'DROPBOX'" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; color: var(--pink); font-family: 'Courier New', monospace; font-size: 10pt; text-transform: uppercase;">DROPBOX</span>
-
-
-<center><a href="/survey-og/"><img src="/assets/blinkies/aimlink.gif"></a></center>
-
+<span class="email-toggle" onclick="this.innerHTML = this.innerHTML === 'DROPBOX' ? 'alejandra@hotwheelsandhighheels.com' : 'DROPBOX'" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; color: var(--pink); font-family: 'Courier New', monospace; font-size: 10pt; text-transform: uppercase;"><DROPBOX></span>
 
 <div class="driver-nav">
   <a href="/">← Home</a>
