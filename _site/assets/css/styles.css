@@ -2756,3 +2756,143 @@ a.secret-link:hover,
     width: 100%;
   }
 }
+
+/* ============================================
+   27. OPTIONAL COLUMN LAYOUTS
+   Impala: main content + right sidebar
+   Kandy Lime: left sidebar + main content
+   Dave's Dream: left rail + main content + right rail
+
+   These selectors are isolated. Existing pages are unaffected
+   unless their front matter uses one of the new layouts.
+   ============================================ */
+
+.hwhh-column-layout {
+  --layout-accent: var(--purple);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1120px, calc(100vw - 48px));
+  display: grid;
+  gap: 24px;
+  align-items: start;
+  margin: 24px 0 48px;
+}
+
+.hwhh-column-main {
+  min-width: 0;
+}
+
+.hwhh-column-sidebar {
+  min-width: 0;
+  position: sticky;
+  top: 24px;
+  padding: 16px 18px;
+  background: color-mix(in srgb, var(--layout-accent) 4%, transparent);
+  font-family: 'Lora', serif;
+}
+
+.hwhh-column-sidebar-left {
+  border-right: 0.5px solid color-mix(in srgb, var(--layout-accent) 34%, transparent);
+}
+
+.hwhh-column-sidebar-right {
+  border-left: 0.5px solid color-mix(in srgb, var(--layout-accent) 34%, transparent);
+}
+
+.hwhh-column-sidebar h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17pt;
+  line-height: 1.2;
+  color: var(--layout-accent);
+  margin: 0 0 12px;
+}
+
+.hwhh-column-sidebar h3 {
+  font-size: 9pt;
+  line-height: 1.4;
+  color: var(--layout-accent);
+  margin: 18px 0 8px;
+}
+
+.hwhh-column-sidebar p,
+.hwhh-column-sidebar li {
+  font-size: 10.5pt;
+  line-height: 1.55;
+}
+
+.hwhh-column-sidebar p {
+  margin: 0 0 10px;
+}
+
+.hwhh-column-sidebar ul,
+.hwhh-column-sidebar ol {
+  margin: 0 0 12px;
+  padding-left: 18px;
+}
+
+.hwhh-column-sidebar a {
+  font-size: inherit;
+}
+
+.hwhh-column-sidebar hr {
+  border-top-color: color-mix(in srgb, var(--layout-accent) 34%, transparent);
+  margin: 16px 0;
+}
+
+/* Impala — wide main lane with a right-side column. */
+.hwhh-impala {
+  --layout-accent: var(--pink);
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+}
+
+/* Kandy Lime — compact left rail with the main lane on the right. */
+.hwhh-kandy-lime {
+  --layout-accent: var(--color-30);
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+}
+
+/* Dave's Dream — broad dashboard with two narrow side rails. */
+.hwhh-daves-dream {
+  --layout-accent: var(--purple);
+  width: min(1280px, calc(100vw - 48px));
+  grid-template-columns: minmax(150px, 210px) minmax(0, 1fr) minmax(150px, 210px);
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .hwhh-column-layout,
+  .hwhh-daves-dream {
+    left: auto;
+    transform: none;
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin: 18px 0 36px;
+  }
+
+  .hwhh-column-main {
+    order: 1;
+  }
+
+  .hwhh-column-sidebar {
+    position: static;
+    padding: 14px 0 0;
+    background: transparent;
+  }
+
+  .hwhh-column-sidebar-left,
+  .hwhh-column-sidebar-right {
+    border-right: 0;
+    border-left: 0;
+    border-top: 0.5px solid color-mix(in srgb, var(--layout-accent) 34%, transparent);
+  }
+
+  .hwhh-column-sidebar {
+    order: 2;
+  }
+
+  .hwhh-daves-dream .hwhh-column-sidebar-right {
+    order: 3;
+  }
+}

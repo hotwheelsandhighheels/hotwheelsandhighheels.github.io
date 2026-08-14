@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="hwhh-column-layout hwhh-daves-dream">
+  <aside
+    class="hwhh-column-sidebar hwhh-column-sidebar-left"
+    aria-label="{{ page.left_sidebar_label | default: 'Section navigation' }}">
+    {% if page.left_sidebar_title %}
+      <h2>{{ page.left_sidebar_title }}</h2>
+    {% endif %}
+    {{ page.left_sidebar | markdownify }}
+  </aside>
+
+  <article class="hwhh-column-main">
+    {{ content }}
+  </article>
+
+  <aside
+    class="hwhh-column-sidebar hwhh-column-sidebar-right"
+    aria-label="{{ page.right_sidebar_label | default: 'Related information' }}">
+    {% if page.right_sidebar_title %}
+      <h2>{{ page.right_sidebar_title }}</h2>
+    {% endif %}
+    {{ page.right_sidebar | markdownify }}
+  </aside>
+</div>
