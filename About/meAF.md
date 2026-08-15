@@ -1,8 +1,30 @@
 ---
-layout: default
+layout: daves-dream
 title: meAF
 permalink: /meAF/
 sitemap: false
+
+left_sidebar_title: Bulletin
+left_sidebar_label: Page navigation
+left_sidebar: |
+
+right_sidebar_title: Socials
+right_sidebar_label: Related pages and sources
+right_sidebar: |
+
+    <p>AIM from 2002 to 2007<br>
+    Myspace from 2004 to 2007<br>
+    Facebook from 2006 to 2025<br>
+    <a href="https://youtube.com/playlist?list=PLlVnLgnSHL82gxRN4AS9ONS2i5-bZ8MvZ&si=NkQ9GoZXWDzWeu_z">YouTube</a> since 2007<br>
+    <a href="https://www.tumblr.com/hotwheelsandhighheels">Tumblr</a> since 2009<br>
+    Twitter from 2009 to 2012<br>
+    Pinterest from 2010 to 2025<br>
+    <a href="https://www.instagram.com/hotwheelsandhighheels/">Instagram</a> since 2011<br>
+    Snapchat from 2011 to 2025<br>
+    Vine from 2013 to 2017<br>
+    <a href="https://www.tiktok.com/@hotwheelsandhighheels_">Tiktok</a> since 2021<br>
+    <i>this beautiful website</i> since 2021<br></p>
+
 ---
 
 <div class="meaf-container">
@@ -63,29 +85,6 @@ sitemap: false
 <p>There is so much that goes into this passion project of mine & I hope it becomes clear as you read through the pages. I can't possibly articulate it all in a few short sentences. I hope you like it :) </p>
 <p>Love, <br> Ale 💕</p>
 
-<br>
-
-  <!-- GUESTBOOK -->
-  <div class="meaf-section">
-    <h2>socials</h2><br>
-    <p>AIM from 2002 to 2007<br>
-    Myspace from 2004 to 2007<br>
-    Facebook from 2006 to 2025<br>
-    <a href="https://youtube.com/playlist?list=PLlVnLgnSHL82gxRN4AS9ONS2i5-bZ8MvZ&si=NkQ9GoZXWDzWeu_z">YouTube</a> since 2007<br>
-    <a href="https://www.tumblr.com/hotwheelsandhighheels">Tumblr</a> since 2009<br>
-    Twitter from 2009 to 2012<br>
-    Pinterest from 2010 to 2025<br>
-    <a href="https://www.instagram.com/hotwheelsandhighheels/">Instagram</a> since 2011<br>
-    Snapchat from 2011 to 2025<br>
-    Vine from 2013 to 2017<br>
-    <a href="https://www.tiktok.com/@hotwheelsandhighheels_">Tiktok</a> since 2021<br>
-    <i>this beautiful website</i> since 2021<br></p>
-    <div class="meaf-guestbook">
-      <p>send me a message:</p>
-      <p><a href="mailto:alejandra@hotwheelsandhighheels.com">alejandra@hotwheelsandhighheels.com</a></p>
-    </div>
-  </div>
-
-  <p style="text-align: center; font-size: 8pt; opacity: 0.4;">last updated: July 2026</p>
+<p style="text-align: center; font-size: 8pt; opacity: 0.4;">last updated: July 2026</p>
 
 </div>
