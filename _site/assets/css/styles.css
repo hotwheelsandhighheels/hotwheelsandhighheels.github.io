@@ -2761,13 +2761,13 @@ body:not(.post) h1 {
 /* Impala — wide main lane with a right-side column. */
 .hwhh-impala {
   --layout-accent: var(--pink);
-  grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 240px);
 }
 
 /* Kandy Lime — compact left rail with the main lane on the right. */
 .hwhh-kandy-lime {
   --layout-accent: var(--color-30);
-  grid-template-columns: minmax(300px, 380px) minmax(0, 1fr);
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
 }
 
 /* Dave's Dream — broad dashboard with two narrow side rails. */
