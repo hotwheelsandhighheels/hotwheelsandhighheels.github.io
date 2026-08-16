@@ -12,6 +12,12 @@ sidebar: |
   - [Back Roads](/Trunk/back-roads/)
   - [Scratch Paper](/Trunk/scratch-paper.md/)
   - [Hydraulics](/Trunk/hydraulics/)
+
+  ## No-so-secret Surveys
+  - [OG Myspace Survey](/survey-og/)
+  - [3am Survey](/survey-3am/)
+  - [Camera Roll Survey](/survey-cameraroll/)
+  - [Graveyard Survey](/survey-graveyard/)
 ---
 
 # Driver's Manual
