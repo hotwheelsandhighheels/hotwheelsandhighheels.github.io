@@ -7,7 +7,7 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>og myspace/h1>
+  <h1>og myspace</h1>
 
   <hr>
 
