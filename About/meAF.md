@@ -8,7 +8,7 @@ left_sidebar_title: Bulletin
 left_sidebar_label: Page navigation
 left_sidebar: |
 
-    <img src="/assets/blinkies/images.melonland-2.gif"><img src="/assets/blinkies/images.melonland-28.gif"><img src="/assets/blinkies/images.melonland-54.gif"><img src="/assets/blinkies/images.melonland.gif"><img src="/assets/blinkies/tumblr_9c71c2304704d33e986ea8a6b66766fa_8e4a03b2_250.webp"><img src="/assets/blinkies/tumblr_82b6bba53d13955571f6144d06670e5b_9f6c2326_400.png"><img src="/assets/blinkies/tumblr_a05da845999416f84910aac71f9d2645_1ed74034_400.png">
+    <img src="/assets/blinkies/tumblr_a05da845999416f84910aac71f9d2645_1ed74034_400.png"><img src="/assets/blinkies/images.melonland-54.gif"><img src="/assets/blinkies/images.melonland-53.gif"><img src="/assets/blinkies/images.melonland.gif"><img src="/assets/blinkies/tumblr_9c71c2304704d33e986ea8a6b66766fa_8e4a03b2_250.webp"><img src="/assets/blinkies/images.melonland-2.gif">
 
 right_sidebar_title: Socials
 right_sidebar_label: Related pages and sources
@@ -25,7 +25,7 @@ right_sidebar: |
     Snapchat from 2011 to 2025<br>
     Vine from 2013 to 2017<br>
     <a href="https://www.tiktok.com/@hotwheelsandhighheels_">Tiktok</a> since 2021<br>
-    <i>this beautiful website</i> since 2021<br></p>
+    <i>this beautiful website</i> since 2021<br></p><img src="/assets/blinkies/tumblr_82b6bba53d13955571f6144d06670e5b_9f6c2326_400.png">
 
 ---
 
