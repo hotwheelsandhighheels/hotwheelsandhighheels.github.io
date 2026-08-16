@@ -15,11 +15,16 @@ sidebar: |
 
 ##  Web Surfing 
 
-Do you remember when we used to play computers together as kids? The web was a new and exciting adventure. We visited pages filled with games, stories, and music. We kept away from dark sections filled with looming predators and got together to hang out on blog spaces and instant messengers. 
+Do you remember when we used to play computers together as kids? The web was a new and exciting adventure. We visited pages filled with games, stories, and music. We kept away from dark sections filled with looming predators and got together to hang out on blog spaces and instant messengers.
 
-I kind of miss that. 
-
+I kind of miss that. <a href="https://newpublic.substack.com/p/the-handmade-internet-is-making-a" target="_black"><img src="/assets/blinkies/images.melonland-36.gif"></a>  
 
 
 ## De-Archiving
+
+<img src="/assets/blinkies/263gggk.gif"><a href="https://journals.sagepub.com/doi/10.1177/20563051261437487" target="_blank"><img src="/assets/blinkies/images.melonland-6.gif"></a>
+
+Why can't we live without having to participate in sign-in culture? 
+
+
 
