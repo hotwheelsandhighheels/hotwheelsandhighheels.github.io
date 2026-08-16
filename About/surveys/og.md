@@ -7,9 +7,7 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>og bulletin</h1>
-    <p> hey! you found a secret survey! There are 7 throughout the site.</p>
-  <p>copy and paste into an email, your own blog, or a note to yourself.</p>
+  <h1>og myspace/h1>
 
   <hr>
 

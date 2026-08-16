@@ -7,9 +7,8 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>graveyard survey</h1>
-  <p>for the digital ghosts we left behind.</p>
-  <p> hey! you found a secret survey! There are 7 throughout the site.</p>
+  <h1>graveyard</h1>
+
   <hr>
 
   <div class="copy-area" id="survey-text" onclick="selectAllText(this)">

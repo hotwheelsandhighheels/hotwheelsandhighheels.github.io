@@ -7,9 +7,7 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>camera roll dump</h1>
-  <p>open your phone. answer honestly.</p>
-    <p> hey! you found a secret survey! There are 7 throughout the site.</p>
+  <h1>camera roll</h1>
 
   <hr>
 

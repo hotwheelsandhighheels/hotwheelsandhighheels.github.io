@@ -7,10 +7,7 @@ sitemap: false
 
 <div class="survey-container">
 
-  <h1>driver survey</h1>
-  <p>short version.</p>
-  <p> hey! you found a secret survey! There are 7 throughout the site.</p>
-  <p>if you are interested in being a driver, email me your responses!</p>
+  <h1>drivers</h1>
 
   <hr>
 
