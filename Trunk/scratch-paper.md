@@ -43,7 +43,7 @@ permalink: /Trunk/scratch-paper/
     <p>Whenever there is a memory being remembered we are performing the double perspective.</p>
     <details>
       <summary>read more</summary>
-      <p>An archive, any archive, performs the double perspective <i>because</i> it is an archive. It is a memory aid; it does memory work.</p>
+      <p>An archive, any archive, performs the double perspective <i>because</i> it is an archive. It is a memory aid; it does memory work... <a href="/Trunk/dp/"><img src="/assets/blinkies/images.melonland-8.gif"></a></p>
     </details>
   </article>
 
@@ -115,7 +115,7 @@ permalink: /Trunk/scratch-paper/
     </article>
 
     <article class="post-it pink" data-post-id="Post-0011" data-group-id="double-perspective">
-      <p>Literal truth versus literary truth... there is curation involved.</p>
+      <p>Literal truth versus literary truth... there is curation involved. <a href="/Trunk/dp/"><img src="/assets/blinkies/images.melonland-8.gif"></a></p>
     </article>
 
     <button type="button" class="stack-next">next →</button>
