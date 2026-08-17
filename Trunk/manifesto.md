@@ -1,7 +1,7 @@
 ---
 layout: impala
 permalink: /Manifesto/
-title: Manifesto - Hot Wheels & High Heels
+title: Driver's Manual - Hot Wheels & High Heels
 sidebar_title: Collections
 sidebar_label: Related links and context
 sidebar: |
