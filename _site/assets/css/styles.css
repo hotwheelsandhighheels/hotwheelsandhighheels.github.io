@@ -2824,3 +2824,75 @@ body:not(.post) h1 {
     order: 3;
   }
 }
+
+/* ============================================
+   27. SCROLL STRIP
+   Horizontal image strip with scroll-snap.
+   Standalone component — not tied to column layouts.
+   Uses pink accents by default.
+   ============================================ */
+
+.scroll-strip {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px 0 24px 0;
+  margin: 16px 0 32px 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 0, 163, 0.5) transparent;
+}
+
+.scroll-strip::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scroll-strip::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-strip::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 163, 0.4);
+  border-radius: 3px;
+}
+
+.scroll-strip::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 0, 163, 0.7);
+}
+
+.scroll-strip-item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  width: 300px;
+}
+
+.scroll-strip-item img {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+  border: 0.5px solid rgba(255, 0, 163, 0.3);
+  border-radius: 4px;
+  display: block;
+}
+
+.scroll-strip-item .caption {
+  font-family: 'Lora', serif;
+  font-size: 9pt;
+  color: var(--text);
+  opacity: 0.6;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .scroll-strip-item {
+    width: 240px;
+  }
+
+  .scroll-strip-item img {
+    height: 180px;
+  }
+}

@@ -1,6 +1,5 @@
 ---
 layout: kandy-lime
-title: Double Perspective
 permalink: /Trunk/dp/
 title: Double Perspective - Hot Wheels & High Heels
 sidebar_title: Recommended Reading

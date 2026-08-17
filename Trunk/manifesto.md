@@ -51,6 +51,6 @@ sidebar: |
     - Collection 06: Post-it notes about my research and synthesis 
     - Collection 07: Web revival links page for web exploration (takes you offsite) <img src="/assets/blinkies/images.melonland-16.gif">
 
- <img src="/assets/blinkies/images.melonland-1.png"><br>
+ <a href="/Trunk/gen/"><img src="/assets/blinkies/images.melonland-1.png"><a><br>
   Some pages link to "Myspace Bulletin" style surveys, unlinked surveys can be found in the sidebar. Click the box to select, copy-paste into your own website or email to a friend to start a chain! 
 
