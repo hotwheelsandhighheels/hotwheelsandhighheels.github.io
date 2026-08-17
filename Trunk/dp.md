@@ -1,211 +1,39 @@
 ---
-layout: post
+layout: kandy-lime
 title: Double Perspective
 permalink: /Trunk/dp/
 title: Double Perspective - Hot Wheels & High Heels
+sidebar_title: Recommended Reading
+sidebar: |
+  - [To Show and to Tell by Phillip Lopate](https://www.abebooks.com/9781451696325/Show-Tell-Craft-Literary-Nonfiction-1451696329/plp)
+  - [The Situation and the Story by Vivian Gornick](https://us.macmillan.com/books/9780374528584/thesituationandthestory/)
+  - [The Triggering Town by Richard Hugo](https://www.poetryfoundation.org/articles/69402/the-triggering-town) - this is an excerpt from the book. 
+
+  ## My favorite essays
+  - [The Love of My Life by Cheryl Strayed](https://www.thesunmagazine.org/articles/21716-the-love-of-my-life)
+  - [What Bullets Do To Bodies by Jason Fagone](https://highline.huffingtonpost.com/articles/en/gun-violence/) - taken from this list of [The Best Journalism of 2017](https://www.si.com/media/2017/12/10/best-journalism-writing-reporting-2017-media-circus) which has several incredible pieces. Richard Deitsch publishes his list yearly.  
+  - [On Liking Women by Andrea Long Chu](https://www.nplusonemag.com/issue-30/essays/on-liking-women/) - Her essay collection, [Authority](https://us.macmillan.com/books/9780374600341/authority/), is one of the best essay collections I've read by a single author. 
 ---
 
 # The Double Perspective
 
-<div class="double-perspective-interactive">
+<br>
+<br>
 
-<div class="dp-row" onclick="revealResult(this)" tabindex="0" role="button" aria-expanded="false">
-  <div class="dp-experience">Past</div>
-  <div class="dp-connector">+</div>
-  <div class="dp-narrator">Present</div>
-  <div class="dp-result">Time</div>
-</div>
+## Recording a memory 
 
-<div class="dp-row" onclick="revealResult(this)" tabindex="0" role="button" aria-expanded="false">
-  <div class="dp-experience">Reactive</div>
-  <div class="dp-connector">+</div>
-  <div class="dp-narrator">Organized</div>
-  <div class="dp-result">Structure</div>
-</div>
+The first thing we try to do is remember an event exactly as it was -- every detail accounted for, every truth verifiable. We look for evidence: pictures, notes, a ticket stub or receipt. In the digital age, we check screenshots: time stamps, locations (the meta data). 
 
-<div class="dp-row" onclick="revealResult(this)" tabindex="0" role="button" aria-expanded="false">
-  <div class="dp-experience">Blind spots</div>
-  <div class="dp-connector">+</div>
-  <div class="dp-narrator">Self-awareness</div>
-  <div class="dp-result">Insight</div>
-</div>
-
-<div class="dp-row" onclick="revealResult(this)" tabindex="0" role="button" aria-expanded="false">
-  <div class="dp-experience">Objectivity</div>
-  <div class="dp-connector">+</div>
-  <div class="dp-narrator">Subjectivity</div>
-  <div class="dp-result">Interpretation</div>
-</div>
-
-<div class="dp-row" onclick="revealResult(this)" tabindex="0" role="button" aria-expanded="false">
-  <div class="dp-experience">Veracity / literal truth</div>
-  <div class="dp-connector">+</div>
-  <div class="dp-narrator">Authenticity / literary truth</div>
-  <div class="dp-result">The story</div>
-</div>
-
-<div class="dp-row" onclick="revealResult(this)" tabindex="0" role="button" aria-expanded="false">
-  <div class="dp-experience">Show</div>
-  <div class="dp-connector">+</div>
-  <div class="dp-narrator">Tell</div>
-  <div class="dp-result">Narrative</div>
-</div>
-
-<div class="dp-row" onclick="revealResult(this)" tabindex="0" role="button" aria-expanded="false">
-  <div class="dp-experience">Situation / context</div>
-  <div class="dp-connector">+</div>
-  <div class="dp-narrator">Story / insight</div>
-  <div class="dp-result">Meaning</div>
-</div>
-
-<div class="dp-row dp-summary" onclick="revealResult(this)" tabindex="0" role="button" aria-expanded="false">
-  <div class="dp-experience">Experience Self</div>
-  <div class="dp-connector">+</div>
-  <div class="dp-narrator">Narrator Self</div>
-  <div class="dp-result">Double Perspective</div>
-</div>
-
-</div>
-
-<p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">Built from Vivian Gornick's *The Situation and the Story* and Phillip Lopate's *To Show and To Tell*.<br>Click to expand</p>
+Sometimes to remember we close our eyes and try to relive the moment through a movie in our brains. Our minds are constantly kneading the memory. 
 
 
-<!-- TRUNK NAVIGATION -->
-<div class="driver-nav">
-  <a href="/Trunk/scratch-paper">← Dig thru the glove box</a>
-  <a href="/Trunk/connections/">Check the road map →</a>
-</div>
 
-<script>
-function revealResult(row) {
-  const result = row.querySelector('.dp-result');
-  const connector = row.querySelector('.dp-connector');
-  const isOpen = row.getAttribute('aria-expanded') === 'true';
-  
-  if (isOpen) {
-    result.classList.remove('revealed');
-    connector.textContent = '+';
-    row.setAttribute('aria-expanded', 'false');
-  } else {
-    result.classList.add('revealed');
-    connector.textContent = '=';
-    row.setAttribute('aria-expanded', 'true');
-  }
-}
-</script>
+## Curating a memory 
 
-<style>
-.double-perspective-interactive {
-  max-width: 800px;
-  margin: 32px auto;
-}
+### Partnership of selves
 
-.dp-row {
-  display: flex;
-  align-items: center;
-  padding: 12px 16px;
-  margin-bottom: 4px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background 0.3s ease;
-  border: 0.5px solid rgba(163, 0, 255, 0.1);
-}
+#### Time 
 
-.dp-row:hover {
-  background: rgba(255, 0, 163, 0.04);
-  border-color: rgba(255, 0, 163, 0.2);
-}
+#### 
 
-.dp-row:focus-visible {
-  outline: 2px solid var(--pink);
-  outline-offset: 2px;
-}
 
-.dp-experience,
-.dp-narrator {
-  flex: 1;
-  font-family: 'Lora', serif;
-  font-size: 13pt;
-  color: var(--text);
-  opacity: 0.85;
-}
-
-.dp-experience {
-  text-align: right;
-  padding-right: 16px;
-}
-
-.dp-narrator {
-  text-align: left;
-  padding-left: 16px;
-}
-
-.dp-connector {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 18pt;
-  font-weight: 600;
-  color: var(--pink);
-  width: 32px;
-  text-align: center;
-  flex-shrink: 0;
-  transition: all 0.3s ease;
-}
-
-.dp-result {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-size: 14pt;
-  color: var(--purple);
-  opacity: 0;
-  max-width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  transition: all 0.4s ease;
-  text-align: center;
-}
-
-.dp-result.revealed {
-  opacity: 1;
-  max-width: 200px;
-  margin-left: 12px;
-}
-
-.dp-summary {
-  margin-top: 12px;
-  border-color: rgba(255, 0, 163, 0.25);
-}
-
-.dp-summary .dp-experience,
-.dp-summary .dp-narrator {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 600;
-  font-size: 15pt;
-  color: var(--pink);
-}
-
-.dp-summary .dp-result {
-  font-size: 16pt;
-  color: var(--pink);
-}
-
-@media (max-width: 600px) {
-  .dp-experience,
-  .dp-narrator {
-    font-size: 10pt;
-  }
-  
-  .dp-connector {
-    font-size: 14pt;
-    width: 24px;
-  }
-  
-  .dp-result {
-    font-size: 11pt;
-  }
-  
-  .dp-summary .dp-experience,
-  .dp-summary .dp-narrator {
-    font-size: 12pt;
-  }
-}
-</style>
