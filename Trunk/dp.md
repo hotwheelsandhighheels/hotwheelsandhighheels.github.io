@@ -4,7 +4,7 @@ permalink: /Trunk/dp/
 title: Double Perspective - Hot Wheels & High Heels
 sidebar_title: Recommended Reading
 sidebar: |
-  - [To Show and to Tell by Phillip Lopate](https://www.abebooks.com/9781451696325/Show-Tell-Craft-Literary-Nonfiction-1451696329/plp)
+  - [To Show and to Tell by Phillip Lopate](https://www.abebooks.com/9781451696325/Show-Tell-Craft-Literary-Nonfiction-1451696329/plp) - Here is an [excerpt.](https://rolfpotts.com/reflection-and-retrospection-lopate/)
   - [The Situation and the Story by Vivian Gornick](https://us.macmillan.com/books/9780374528584/thesituationandthestory/)
   - [The Triggering Town by Richard Hugo](https://www.poetryfoundation.org/articles/69402/the-triggering-town) - this is an excerpt from the book. 
 
@@ -31,6 +31,34 @@ Sometimes to remember we close our eyes and try to relive the moment through a m
 
 ### Partnership of selves
 
-#### Time 
+The <span style="color: var(--color-01);">character</span> <span style="color: var(--color-21);">showing</span> <span style="color: var(--pink);">the situation</span> + The <span style="color: var(--color-01);">narrator</span> <span style="color: var(--color-21);">telling</span> <span style="color: var(--pink);">the story</span>
 
+#### Past + Present 
 
+Perhaps our most valuable asset is the passage of time which creates room for <span style="color: var(--color-08);"> retrospection.</span> If a memory made an impression on my five year old self, it would make a different impression on my 15 year old self and my 50 year old self. And each impression would be a different copy of the original event.
+
+#### Reactive + Organized Thought
+
+The <span style="color: var(--color-01);">character</span> experiencing <span style="color: var(--pink);">the situation</span> is always going to have <span style="color: var(--color-21);">reactive thought</span> because they don’t have the privilege of distance to create <span style="color: var(--color-08);"> retrospection.</span> With that distance, we are allowed the space to <span style="color: var(--color-21);">organize our thoughts</span> about <span style="color: var(--pink);">the situation</span> and create meaning. 
+
+The <span style="color: var(--color-01);">character</span> is allowed to <span style="color: var(--color-21);">be messy</span> and the distance allows us to <span style="color: var(--color-21);">be a judge</span> through <span style="color: var(--color-08);"> retrospection.</span> 
+
+#### Blind spots + Self Awareness
+
+The <span style="color: var(--color-01);">narrator</span> is given the authority to <span style="color: var(--color-21);">be a judge</span> because they have developed <span style="color: var(--color-21);">self-awareness.</span> The <span style="color: var(--color-01);">character</span> is not privy to <span style="color: var(--color-08);">hindsight,</span> they have <span style="color: var(--color-21);">blind spots.</span> The <span style="color: var(--color-01);">narrator</span> has the full picture. 
+
+#### Objectivity + Subjectivity
+
+The <span style="color: var(--color-01);">narrator</span> has to allow for <span style="color: var(--color-21);">objectivity</span> in the <span style="color: var(--color-01);">character</span>. The <span style="color: var(--color-01);">character</span> doesn’t know anything yet, they are just experiencing it. It is the <span style="color: var(--color-01);">narrator's</span> job to bring the <span style="color: var(--color-21);">subjective</span> value, the emotional weight of <span style="color: var(--pink);">the situation</span> by performing <span style="color: var(--color-21);">objectively</span> through the <span style="color: var(--color-01);">character</span>. 
+
+Performing <span style="color: var(--color-21);">objectivity</span> is done through the <span style="color: var(--color-21);">five senses.</span> Moving through <span style="color: var(--pink);">the situation</span> as closely as possible to what can be <span style="color: var(--color-21);">verified.</span> 
+
+It doesn’t offer any <span style="color: var(--color-21);">interpretation</span> of <span style="color: var(--pink);">the situation</span>, it just <span style="color: var(--color-21);">reacts</span> to it. 
+
+#### Veracity + Authenticity
+
+<span style="color: var(--color-21);">Authenticity</span> is added by creating that <span style="color: var(--color-21);">subjective</span> emotional lens. This is what separates an anecdote from literature. The <span style="color: var(--color-01);">narrator</span> offers insight and meaning. 
+
+#### Showing the Situation + Telling a Story
+
+It is a partnership between what happened (the context of an event) and the insight (the value of a story). These have to work together not against each other. 
