@@ -35,11 +35,11 @@ The <span style="color: var(--color-01);">character</span> <span style="color: v
 
 #### Past + Present 
 
-Perhaps our most valuable asset is the passage of time which creates room for <span style="color: var(--color-08);"> retrospection.</span> If a memory made an impression on my five year old self, it would make a different impression on my 15 year old self and my 50 year old self. And each impression would be a different copy of the original event.
+Perhaps our most valuable asset is the passage of time which creates room for <span style="color: var(--color-08);"> retrospection.</span> If a memory made <span style="color: var(--pink);">an impression</span> on my five year old <span style="color: var(--color-01);">self,</span> it would make a different <span style="color: var(--pink);">impression</span> on my 15 year old <span style="color: var(--color-01);">self</span> and my 50 year old <span style="color: var(--color-01);">self.</span> And each <span style="color: var(--pink);">impression</span> would be a <span style="color: var(--color-08);">different</span> <span style="color: var(--color-21);">copy</span> of <span style="color: var(--pink);">the original event.</span>
 
 #### Reactive + Organized Thought
 
-The <span style="color: var(--color-01);">character</span> experiencing <span style="color: var(--pink);">the situation</span> is always going to have <span style="color: var(--color-21);">reactive thought</span> because they don’t have the privilege of distance to create <span style="color: var(--color-08);"> retrospection.</span> With that distance, we are allowed the space to <span style="color: var(--color-21);">organize our thoughts</span> about <span style="color: var(--pink);">the situation</span> and create meaning. 
+The <span style="color: var(--color-01);">character</span> experiencing <span style="color: var(--pink);">the situation</span> is always going to have <span style="color: var(--color-21);">reactive thought</span> because they don’t have the privilege of distance to create <span style="color: var(--color-08);"> retrospection.</span> With that distance, we are allowed the space to <span style="color: var(--color-21);">organize our thoughts</span> about <span style="color: var(--pink);">the situation</span> and create <span style="color: var(--pink);">meaning.</span> 
 
 The <span style="color: var(--color-01);">character</span> is allowed to <span style="color: var(--color-21);">be messy</span> and the distance allows us to <span style="color: var(--color-21);">be a judge</span> through <span style="color: var(--color-08);"> retrospection.</span> 
 
@@ -57,7 +57,7 @@ It doesn’t offer any <span style="color: var(--color-21);">interpretation</spa
 
 #### Veracity + Authenticity
 
-<span style="color: var(--color-21);">Authenticity</span> is added by creating that <span style="color: var(--color-21);">subjective</span> emotional lens. This is what separates an anecdote from literature. The <span style="color: var(--color-01);">narrator</span> offers insight and meaning. 
+<span style="color: var(--color-21);">Authenticity</span> is added by creating that <span style="color: var(--color-21);">subjective</span> emotional lens. This is what <span style="color: var(--color-08);">separates</span> an anecdote from literature. The <span style="color: var(--color-01);">narrator</span> offers <span style="color: var(--pink);">insight and meaning.</span> 
 
 #### Showing the Situation + Telling a Story
 
