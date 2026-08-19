@@ -9,7 +9,7 @@ title: Trunk - Hot Wheels & High Heels
 <div class="trunk-dashboard">
   <!-- INTRO — full width -->
   <a href="/Manifesto/" class="trunk-card trunk-card-full" style="text-decoration: none;">
-        <p class="wiki-intro">
+        <p class="trunk-intro">
 What happens when personal memory, cultural history, and digital platforms become the same thing?
         </p>
     </a>
