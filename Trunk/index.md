@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Trunk
 permalink: /Trunk/
 title: Trunk - Hot Wheels & High Heels
 ---
