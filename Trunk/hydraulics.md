@@ -6,6 +6,7 @@ sidebar_title: Cup Holder
 sidebar_label: Page index
 sidebar: |
   <br><object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#383838" type="image/svg+xml" style="width: 100px; height: 100px;"></object><br>
+  <A HREF="https://www.deathcult.fun/"><IMG SRC="/assets/blinkies/idcflogo.png"></a>
 
 ---
 
@@ -25,6 +26,3 @@ I kind of miss that. <a href="https://newpublic.substack.com/p/the-handmade-inte
 <img src="/assets/blinkies/263gggk.gif"><a href="https://journals.sagepub.com/doi/10.1177/20563051261437487" target="_blank"><img src="/assets/blinkies/images.melonland-6.gif"></a>
 
 Why can't we live without having to participate in sign-in culture? 
-
-
-
