@@ -14,16 +14,37 @@ sidebar: |
 
 ## Epochal
 ### Silent Gen
-~1928-1945
+#### Ranges
+- 1928 to 1945 (Pew Research Center)
+- 1925 to 1945 (Jean M. Twenge)
+
 ### Boomers
-~1946-1964
+#### Ranges
+- 1946 to 1964 (Pew Research Center)
+- 1946 to 1964 (Jean M. Twenge)
+
 ### Gen X
-~1965-1980
+#### Ranges
+- 1965 to 1980 (Pew Research Center)
+- 1965 to 1979 (Jean M. Twenge)
+
 ### Gen Y aka Millennials
-~1981-1996
+#### Ranges
+- 1980 to 1994 (Jean M. Twenge)
+- 1981 to 1996 (Pew Research Center)
+- 1982 to 2004 (Howe & Stauss) 
+- 1982 to 2002-2006 (Shaun Scott)
+
 ### Gen Z
-~1997-2012
+#### Ranges
+- 1997 to 2012 (Pew Research Center)
+- 1995 to 2012 (Jean M. Twenge)
+
 ### Gen Alpha
-~2013-2020s
+#### Ranges
+- 2013 to 2020s (Pew Research Center)
+- 2013 to 2029 (Jean M. Twenge)
+
 ### Gen Beta
-~2020s 
+#### Ranges
+- 2020s (Pew Research Center)
