@@ -29,7 +29,7 @@ permalink: /revving-up/
       <div class="static-line"></div>
     </div>
     <div class="teaser-content">
-      <p class="teaser-label">Next Collection</p>
+      <p class="teaser-label">Next Driver</p>
       <h1 class="teaser-title">Revving Up</h1>
       <p class="teaser-sub">wont be too long</p>
     </div>
@@ -43,7 +43,7 @@ permalink: /revving-up/
     >
       <label for="bd-email" class="sr-only">Enter your email</label>
       <input type="email" name="email" id="bd-email" />
-      <input type="submit" value="I'm in!" />
+      <input type="submit" value="Vroom" />
       <p>
         <a href="https://buttondown.com/refer/hotwheelsandhighheels" target="_blank">
           Powered by Buttondown.
