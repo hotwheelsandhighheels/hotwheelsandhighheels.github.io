@@ -5,7 +5,9 @@ title: Generations - Hot Wheels & High Heels
 sidebar_title: Gen Y  Articles
 sidebar: |
   - [TIME Magazine's "The ME ME ME Generation"](https://content.time.com/time/subscriber/article/0,33009,2143001,00.html)
-  - 
+  - ["FML Why millennials are facing the scariest financial future of any generation since the Great Depression"](https://highline.huffingtonpost.com/articles/en/poor-millennials/)
+  - ["How millennials became the hardest working generation"](https://www.the-independent.com/life-style/millennials-gen-z-boomers-working-hours-compared-b2484624.html)
+  - ["How Millennials Became The Burnout Generation"](https://www.buzzfeednews.com/article/annehelenpetersen/millennials-burnout-generation-debt-work)
 ---
 
 # Generations

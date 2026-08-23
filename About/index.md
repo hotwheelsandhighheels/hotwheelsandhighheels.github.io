@@ -8,22 +8,12 @@ title: About - Hot Wheels & High Heels
 ## The Wheel 
 A toddler plays with toy cars in grandma's closet using shoes with heels as inclines.  
 
-I am interested in memory work.
-
 ## The Vibe  
 Millennial, as in epoch-making <a href="/survey-og/"><img src="/assets/blinkies/mailput.gif"></a>  
 21st century, in the symbiotic sense  
 Archival, in the form of parallel truths   
 Californian: Sunny, ocean waves, sandy beaches  
 Driving really fast on an empty highway with the windows down and the night sky ahead
-
-## Registration
-Humans are beautiful. 
-
-I'm collecting memories, do you have any to spare?   
-
-<a href="/submit/" style="color: var(--purple);">Fill my gas tank →</a>
-
 
 <h1 class="editor-name">Alejandra Hernández</h1>
 ## Editor,   

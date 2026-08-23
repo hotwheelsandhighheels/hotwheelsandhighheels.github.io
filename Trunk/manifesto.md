@@ -41,6 +41,13 @@ sidebar: |
   - Home / Landing Page
   - About: brief description of the site and road to personal profile
   - Drivers: Oral histories of city dwelling told from the perspective of young creatives plus some creative content 
+     > In reverse publication order: 
+    - Carson Sandell, San Jose, CA <a href="/Drivers/Carson/"><img src="/assets/blinkies/images.melonland-16.gif"></a>
+    - Sam Yaziji, Miami, FL
+    - a.benét, San Diego, CA
+    - Angela Mendoza, Santa Rosa, CA
+    - Alana Rodriguez, San Diego, CA
+    - Jon Tobias, San Diego, CA
   - Trunk: Archival collections  
       > Find links to all archival collections in the sidebar: 
     - Collection 01: An interactive timeline of the Millennial Epoch
@@ -49,7 +56,7 @@ sidebar: |
     - Collection 04: Another digital archive
     - Collection 05: Preview of my mind map 
     - Collection 06: Post-it notes about my research and synthesis 
-    - Collection 07: Web revival links page for web exploration (takes you offsite) <img src="/assets/blinkies/images.melonland-16.gif">
+    - Collection 07: Web revival links page for web exploration (takes you offsite) <a href="/Trunk/hydraulics/"><img src="/assets/blinkies/images.melonland-16.gif"></a>
 
  <a href="/Trunk/gen/"><img src="/assets/blinkies/images.melonland-1.png"></a><br>
   Some pages link to "Myspace Bulletin" style surveys, unlinked surveys can be found in the sidebar. Click the box to select, copy-paste into your own website or email to a friend to start a chain! 
