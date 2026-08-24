@@ -7,7 +7,10 @@ sidebar_label: Page index
 sidebar: |
   <br><object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#383838" type="image/svg+xml" style="width: 100px; height: 100px;"></object><br>
   <A HREF="https://www.deathcult.fun/"><IMG SRC="/assets/blinkies/idcflogo.png"></a>
-
+  <div id='cdr'>
+  <script type="text/javascript" src="https://cdring.neocities.org/cdring/onionring-variables.js"></script>
+  <script type="text/javascript" src="https://cdring.neocities.org/cdring/onionring-widget.js"></script>
+    </div>  
 ---
 
 # Hydraulics
