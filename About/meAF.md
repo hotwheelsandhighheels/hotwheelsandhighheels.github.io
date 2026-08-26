@@ -32,7 +32,7 @@ right_sidebar: |
 <div class="meaf-container">
 
   <div class="meaf-header">
-    <h1>meAF</h1>
+    <h1 class="editor-name">meAf</h1>
     <p>catch a vibe</p>
   </div>
 

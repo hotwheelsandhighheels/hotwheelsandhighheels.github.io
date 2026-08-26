@@ -57,41 +57,47 @@
 
   /* ============================================
      SEMANTIC COLOR KEY
-     Canonical meaning of the 30-color palette.
      Annotation key + Double Perspective are the source of truth.
-     ============================================ */
-  --concept-conflict: var(--color-01);
-  --concept-reactive-thought: var(--color-02);
-  --concept-character: var(--color-03);
-  --concept-body-objectivity: var(--color-04);
-  --concept-situation: var(--color-05);
-  --concept-memory: var(--color-06);
-  --concept-veracity: var(--color-07);
-  --concept-evidence: var(--color-08);
-  --concept-retrospection: var(--color-09);
-  --concept-time-history: var(--color-10);
-  --concept-curiosity: var(--color-11);
-  --concept-web: var(--color-12);
-  --concept-structure: var(--color-13);
-  --concept-articulation: var(--color-14);
-  --concept-technique: var(--color-15);
-  --concept-space: var(--color-16);
-  --concept-dialogue-sound: var(--color-17);
-  --concept-technology: var(--color-18);
-  --concept-double-perspective: var(--color-19);
-  --concept-surveillance: var(--color-20);
-  --concept-self-awareness: var(--color-21);
-  --concept-narrator: var(--color-22);
-  --concept-insight: var(--color-23);
-  --concept-meaning-story: var(--color-24);
-  --concept-identity: var(--color-25);
-  --concept-emotion-authenticity: var(--color-26);
-  --concept-future-hope: var(--color-27);
-  --concept-social-organization: var(--color-28);
-  --concept-blind-spot: var(--color-29);
-  --concept-action-performance: var(--color-30);
 
-  /* Annotation-key aliases. R stays an umbrella and uses its specific concept colors. */
+     Rule:
+     - Same concept = same anchor color.
+     - Related concepts = same color family.
+     - Different public categories/themes stay visibly distinct.
+     ============================================ */
+
+  /* Annotation + Double Perspective anchors */
+  --concept-character: var(--color-01);                 /* Character / Experience Self (C) */
+  --concept-conflict: var(--color-02);                  /* conflict / harm / injustice */
+  --concept-evidence: var(--color-03);                  /* important information / evidence (M) */
+  --concept-reactive-thought: var(--color-04);          /* reactive thought */
+  --concept-body-objectivity: var(--color-05);          /* body / five senses / objectivity (P) */
+  --concept-memory: var(--color-06);                    /* memory trace / nostalgia */
+  --concept-veracity: var(--color-07);                  /* literal truth / veracity */
+  --concept-situation: var(--color-08);                 /* situation / what happened */
+  --concept-retrospection: var(--color-09);             /* what follows placement in TIME (R) */
+  --concept-time-history: var(--color-10);              /* placed in TIME / history / witness / documentation (H) */
+  --concept-curiosity: var(--color-11);                 /* interesting / intriguing / curious (I) */
+  --concept-web: var(--color-12);                       /* WEB */
+  --concept-structure: var(--color-13);                 /* structure / form (St) */
+  --concept-articulation: var(--color-14);              /* articulation / diction / expression (A) */
+  --concept-technique: var(--color-15);                 /* technique / stylistic choice (T) */
+  --concept-space: var(--color-16);                     /* space / place / setting */
+  --concept-dialogue-sound: var(--color-17);            /* dialogue / sound (D + S) */
+  --concept-technology: var(--color-18);                /* technology / mediation */
+  --concept-double-perspective: var(--color-19);        /* Double Perspective / synthesis (EN) */
+  --concept-surveillance: var(--color-20);              /* observation / watching / surveillance */
+  --concept-self-awareness: var(--color-21);            /* SELF AWARENESS (R) */
+  --concept-narrator: var(--color-22);                  /* Narrator Self / organized thought / present tense (N + R) */
+  --concept-insight: var(--color-23);                   /* INSIGHT (R) */
+  --concept-meaning-story: var(--color-24);             /* what follows INSIGHT / meaning / story / interpretation */
+  --concept-identity: var(--color-25);                  /* identity / selfhood / preference (L) */
+  --concept-emotion-authenticity: var(--color-26);      /* emotional lens / authenticity / love (E + V) */
+  --concept-future-hope: var(--color-27);               /* future / hope */
+  --concept-social-organization: var(--color-28);       /* institution / social organization */
+  --concept-blind-spot: var(--color-29);                /* blind spot / uncertainty / absence */
+  --concept-action-performance: var(--color-30);        /* action / performance cue / stage direction (G) */
+
+  /* Annotation-key aliases. R is intentionally an umbrella. */
   --annotation-a: var(--concept-articulation);
   --annotation-c: var(--concept-character);
   --annotation-d: var(--concept-dialogue-sound);
@@ -109,39 +115,63 @@
   --annotation-v: var(--concept-emotion-authenticity);
   --annotation-en: var(--concept-double-perspective);
 
-  /* Public archive themes inherit from the semantic key. */
+  /* Double Perspective pair aliases — warm Experience Self / cool Narrator Self */
+  --dp-experience-self: var(--concept-character);
+  --dp-narrator-self: var(--concept-narrator);
+  --dp-past: var(--concept-character);
+  --dp-present: var(--concept-narrator);
+  --dp-reactive: var(--concept-reactive-thought);
+  --dp-organized: var(--concept-narrator);
+  --dp-blind-spot: var(--concept-blind-spot);
+  --dp-self-awareness: var(--concept-self-awareness);
+  --dp-objectivity: var(--concept-body-objectivity);
+  --dp-subjectivity: var(--concept-emotion-authenticity);
+  --dp-veracity: var(--concept-veracity);
+  --dp-authenticity: var(--concept-emotion-authenticity);
+  --dp-situation: var(--concept-situation);
+  --dp-story: var(--concept-meaning-story);
+
+  /* ============================================
+     PUBLIC ARCHIVE THEMES
+     Exact matches keep the anchor color.
+     Related themes use a nearby/blended color so the archive stays colorful.
+     ============================================ */
   --theme-spaces: var(--concept-space);
-  --theme-ghosts: var(--concept-memory);
+  --theme-ghosts: color-mix(in srgb, var(--color-27) 82%, var(--color-06) 18%);
   --theme-intimacy: var(--concept-emotion-authenticity);
   --theme-online: var(--concept-web);
   --theme-identity: var(--concept-identity);
   --theme-expression: var(--concept-articulation);
-  --theme-hope: var(--concept-future-hope);
-  --theme-community: var(--concept-emotion-authenticity);
+  --theme-hope: color-mix(in srgb, var(--color-22) 74%, var(--color-27) 26%);
+  --theme-community: color-mix(in srgb, var(--color-26) 72%, var(--color-25) 28%);
   --theme-witness: var(--concept-time-history);
   --theme-surveillance: var(--concept-surveillance);
   --theme-volta: var(--concept-technique);
   --theme-body: var(--concept-body-objectivity);
-  --theme-parasocialism: var(--concept-identity);
-  --theme-relationships: var(--concept-emotion-authenticity);
-  --theme-meme-culture: var(--concept-web);
+  --theme-parasocialism: color-mix(in srgb, var(--color-25) 62%, var(--color-23) 38%);
+  --theme-relationships: color-mix(in srgb, var(--color-26) 52%, var(--color-24) 48%);
+  --theme-meme-culture: color-mix(in srgb, var(--color-12) 42%, var(--color-18) 58%);
   --theme-nostalgia-economy: var(--concept-memory);
-  --theme-upgrades: var(--concept-technology);
-  --theme-consummerism: var(--concept-future-hope);
+  --theme-upgrades: color-mix(in srgb, var(--color-18) 55%, var(--color-19) 45%);
+  --theme-consummerism: color-mix(in srgb, var(--color-08) 58%, var(--color-04) 42%);
   --theme-activism: var(--concept-action-performance);
 
-  /* Public timeline categories inherit from the same semantic key. */
+  /* ============================================
+     TIMELINE CATEGORIES
+     Categories stay visually distinct while remaining in related semantic families.
+     ============================================ */
   --category-internet: var(--concept-web);
-  --category-government: var(--concept-social-organization);
+  --category-government: color-mix(in srgb, var(--color-23) 72%, var(--color-28) 28%);
   --category-pop-culture: var(--concept-identity);
-  --category-economy: var(--concept-future-hope);
+  --category-economy: color-mix(in srgb, var(--color-08) 78%, var(--color-07) 22%);
   --category-climate: var(--concept-space);
-  --category-community: var(--concept-emotion-authenticity);
+  --category-community: var(--theme-community);
   --category-documentation: var(--concept-time-history);
   --category-science: var(--concept-technology);
-  --category-society: var(--concept-social-organization);
-  --category-injustice: var(--concept-conflict);
+  --category-society: color-mix(in srgb, var(--color-24) 72%, var(--color-28) 28%);
+  --category-injustice: color-mix(in srgb, var(--color-02) 68%, var(--pink) 32%);
   --category-infrastructure: var(--concept-structure);
+
 }
 
 [data-theme="light"] {
@@ -246,8 +276,7 @@
   font-size: clamp(28pt, 8vw, 48pt);
 }
 
-.home-title,
-.about-page {
+.home-title {
   font-family: var(--font-script-name);
   font-style: normal;
 }
