@@ -59,11 +59,11 @@ image: assets/drivers/Carson_Cover.JPG
 
 <hr>
 
-# A Memory
+# a Memory
 
 ### Tell me about your favorite pair of shoes:
 
-When I was 17, I worked as a courtesy clerk at Safeway (Vons or Albertsons for SoCal folks), cleaning bathrooms, collecting shopping carts from the corrals, and bagging groceries. With my first paycheck, I bought a pair of white Converse. I worshipped these shoes. It was my first venture into expressing / presenting myself the way I desired. I was a gay kid in the 2010s. During that time, you practically had to own a pair of Converse. It was a queer rite of passage. Every day after school, I cleaned them with a spare toothbrush and dish soap. I had them for about 3 years until the soles started peeling from the insole. I tried supergluing it back together for a little while, but one day the sole popped out, and I threw them away. Those shoes affirmed me, made me feel as though I belonged in the queer circles at school. They were almost a hanky code for us.
+<span style="color: var(--color-10);">When I was 17,</span> <span style="color: var(--color-09);">I worked as a courtesy clerk at Safeway (Vons or Albertsons for SoCal folks), cleaning bathrooms, collecting shopping carts from the corrals, and bagging groceries.</span> With my first paycheck, I bought a pair of white Converse. I worshipped these shoes. It was my first venture into expressing / presenting myself the way I desired. I was a gay kid in the 2010s. <span style="color: var(--color-23);">During that time, you practically had to own a pair of Converse. It was a queer rite of passage.</span> <span style="color: var(--color-24);">Every day after school, I cleaned them with a spare toothbrush and dish soap.</span> I had them for about 3 years until the soles started peeling from the insole. I tried supergluing it back together for a little while, but one day the sole popped out, and I threw them away. <span style="color: var(--color-21);">Those shoes affirmed me, made me feel as though I belonged in the queer circles at school.</span> They were almost a hanky code for us.
 
 ### Tell me about your favorite car:
 

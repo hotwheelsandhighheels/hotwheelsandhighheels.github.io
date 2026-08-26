@@ -25,7 +25,7 @@ I'm from San Diego and have no aspirations to leave; San Diego is too beautiful.
 My cousins are my best friends. Nothing matters without them. Without them there is no love, no poetry.   
 
 [Engine Check →](/About/enginecheck)  
-<span class="email-toggle" onclick="this.innerHTML = this.innerHTML === 'DROPBOX' ? 'alejandra@hotwheelsandhighheels.com' : 'DROPBOX'" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; color: var(--pink); font-family: 'Courier New', monospace; font-size: 10pt; text-transform: uppercase;">DROPBOX</span>
+<span class="email-toggle" onclick="this.innerHTML = this.innerHTML === 'DROPBOX' ? 'alejandra@hotwheelsandhighheels.com' : 'DROPBOX'" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; color: var(--pink); font-family: var(--font-mono); font-size: 10pt; text-transform: uppercase;">DROPBOX</span>
 
 <div class="driver-nav">
   <a href="/">← Home</a>

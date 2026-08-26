@@ -58,7 +58,7 @@ image: assets/drivers/Jack_Cover.jpeg
 
 <hr>
 
-# A Memory
+# a Memory
 
 ### Tell me about your favorite pair of shoes: 
 

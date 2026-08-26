@@ -58,7 +58,7 @@ image: assets/drivers/Alana_Cover.jpeg
 
 <hr>
 
-# A Poem
+# a Poem
 
 ## For that swirling pile of trash 
 
@@ -107,7 +107,7 @@ how it beats like a heart.
 
 ***
 
-# A Memory
+# a Memory
 
 ### Tell me about your favorite pair of shoes: 
 

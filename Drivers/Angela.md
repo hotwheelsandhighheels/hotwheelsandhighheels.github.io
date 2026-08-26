@@ -58,7 +58,7 @@ image: assets/drivers/Angela_Cover.JPG
 
 <hr>
 
-# A Memory
+# a Memory
 
 ### Tell me about your favorite pair of shoes:
 

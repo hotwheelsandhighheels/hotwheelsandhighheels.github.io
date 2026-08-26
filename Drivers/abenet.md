@@ -61,7 +61,7 @@ image: assets/drivers/A-benet_cover.jpg
 
 <hr>
 
-# A Poem
+# a Poem
 
 ## **Somewhere in the Bay, a Girl Dreams of Daygo**
 
@@ -87,7 +87,7 @@ behind. A relief.
 
 ***
 
-# A Memory
+# a Memory
 
 ### Tell me about your favorite pair of shoes: 
 

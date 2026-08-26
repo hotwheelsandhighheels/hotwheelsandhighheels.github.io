@@ -59,7 +59,7 @@ image: assets/drivers/Jon_Cover.jpg
 
 <hr>
 
-# A Memory
+# a Memory
 
 ### Tell me about your favorite pair of shoes: 
 

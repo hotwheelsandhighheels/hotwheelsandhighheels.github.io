@@ -1,7 +1,7 @@
 /* ============================================
    HOT WHEELS & HIGH HEELS — styles.css
    Colors: #ff00a3 (pink), #a300ff (purple), #f5f0f5 (off-white), #0a0608 (off-black)
-   Fonts: Playfair Display (h1/names), Cormorant Garamond (h2/nav-logo), Lora (body/h3)
+   Fonts: Smooch (most H1s), Mea Culpa (Home/About/contributor names), Ysabeau (body/headings), Azeret Mono (mono/interface)
    Last updated: June 2026
    ============================================ */
 
@@ -10,12 +10,18 @@
    1. FONTS & VARIABLES
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Mea+Culpa&family=Smooch&family=Ysabeau:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
 :root {
   --bg: #0a0608;
   --text: #f5f0f5;
   --pink: #ff00a3;
   --purple: #a300ff;
+
+  /* Typography */
+  --font-script-main: 'Smooch', cursive;
+  --font-script-name: 'Mea Culpa', cursive;
+  --font-body: 'Ysabeau', sans-serif;
+  --font-mono: 'Azeret Mono', monospace;
 
   /* Flexible archive color tokens */
   --color-01: #ff7a66;  /* coral */
@@ -147,7 +153,7 @@
   color: #fff;
   padding: 8px 16px;
   z-index: 9999;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   text-decoration: none;
   border-radius: 0 0 4px 4px;
@@ -182,7 +188,15 @@
 
 .editor-name {
   white-space: nowrap;
+  font-family: var(--font-script-name);
+  font-style: normal;
   font-size: clamp(28pt, 8vw, 48pt);
+}
+
+.home-title,
+.about-page {
+  font-family: var(--font-script-name);
+  font-style: normal;
 }
 body:not(.post) h1 {
   white-space: nowrap;
@@ -197,6 +211,7 @@ body:not(.post) h1 {
 
 body {
   background-color: var(--bg);
+  font-family: var(--font-body);
 }
 
 img {
@@ -205,8 +220,8 @@ img {
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: var(--font-script-main);
+  font-style: normal;
   font-weight: 400;
   font-size: 32pt;
   color: var(--pink);
@@ -218,8 +233,8 @@ body.post h1 {
 }
 
 .poetry-links h1 {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: var(--font-script-main);
+  font-style: normal;
   font-weight: 400;
   font-size: 32pt;
   color: var(--purple);
@@ -227,16 +242,16 @@ body.post h1 {
 }
 
 h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 600;
+  font-family: var(--font-body);
+  font-weight: 700;
   font-size: 24pt;
   color: var(--purple);
   margin: 0 0 8px 0;
 }
 
 h3 {
-  font-family: 'Lora', serif;
-  font-weight: 500;
+  font-family: var(--font-body);
+  font-weight: 600;
   font-size: 12pt;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -245,7 +260,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-weight: 500;
   font-size: 12pt;
   letter-spacing: 0.2em;
@@ -255,7 +270,7 @@ h4 {
 }
 
 p {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-weight: 400;
   font-size: 14pt;
   line-height: 1.75;
@@ -264,7 +279,7 @@ p {
 }
 
 a {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 14pt;
   color: var(--pink);
   text-decoration: none;
@@ -288,7 +303,7 @@ hr {
   list-style: none;
   padding-bottom: 20pt;
   margin: 0;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 12pt;
   color: var(--text);
 }
@@ -298,7 +313,7 @@ hr {
 }
 
 .container ul:not(.a-list), .container ol, .wiki-page ul:not(.a-list), .wiki-page ol {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 14pt;
   color: var(--text);
   line-height: 1.75;
@@ -311,8 +326,8 @@ hr {
 }
 
 .ride-link {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
+  font-family: var(--font-script-main);
+  font-style: normal;
   font-size: 22pt;
   color: var(--pink);
   text-decoration: none;
@@ -337,9 +352,9 @@ nav {
 }
 
 .nav-logo {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-size: 13pt;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--purple) !important;
@@ -436,15 +451,15 @@ nav .active {
 }
 
 .footer-dedication {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
+  font-family: var(--font-script-main);
+  font-style: normal;
   font-size: 18pt;
   color: var(--purple);
   margin: 0 0 4px 0;
 }
 
 .footer-dedication-sub {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-style: italic;
   font-size: 13pt;
   color: var(--text);
@@ -539,7 +554,7 @@ a, button {
 }
 
 .connect-links {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 12pt;
   margin-top: 8px;
 }
@@ -601,9 +616,9 @@ a, button {
 }
 
 .gallery-overlay p {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 16pt;
-  font-style: italic;
+  font-family: var(--font-script-name);
+  font-size: 20pt;
+  font-style: normal;
   color: var(--pink);
   margin: 0;
 }
@@ -666,7 +681,7 @@ a, button {
   position: absolute;
   top: 24px;
   right: 24px;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 14pt;
   color: var(--pink);
   cursor: url('/assets/svg/cursor.svg') 8 2, auto;
@@ -680,7 +695,7 @@ a, button {
 }
 
 .cover-photo-link {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 14pt;
   font-style: italic;
   color: var(--pink);
@@ -705,7 +720,7 @@ a, button {
 }
 
 .driver-nav a {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-style: italic;
   font-size: 14pt;
   color: var(--text);
@@ -724,6 +739,8 @@ a, button {
 }
 
 h1.driver-name {
+  font-family: var(--font-script-name);
+  font-style: normal;
   font-size: 36pt;
 }
 
@@ -733,7 +750,7 @@ h1.driver-name {
    ============================================ */
 
 .pull-quote {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-style: italic;
   font-size: 20pt;
   color: var(--text);
@@ -744,7 +761,7 @@ h1.driver-name {
 }
 
 .caption {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 9pt;
   color: var(--text);
   opacity: 0.4;
@@ -756,7 +773,7 @@ h1.driver-name {
 
 .tag {
   display: inline-block;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 9pt;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -786,7 +803,7 @@ h1.driver-name {
 }
 
 .audio-label {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 9pt;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -832,7 +849,7 @@ audio:hover {
   background: transparent;
   border: none;
   color: var(--text);
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 12pt;
   letter-spacing: 0.1em;
   text-align: left;
@@ -936,7 +953,7 @@ audio:hover {
 }
 
 .slide-count {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 10pt;
   letter-spacing: 0.15em;
   color: var(--text);
@@ -947,7 +964,7 @@ audio:hover {
   width: 100%;
   border-collapse: collapse;
   margin: 16px 0 24px 0;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   line-height: 1.6;
   color: var(--text);
@@ -1017,7 +1034,7 @@ audio:hover {
   background: transparent;
   border: 0.5px solid var(--pink);
   color: var(--text);
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   padding: 10px 16px;
 }
@@ -1031,7 +1048,7 @@ audio:hover {
   background: transparent;
   border: 0.5px solid var(--pink);
   color: var(--pink);
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -1105,7 +1122,7 @@ audio:hover {
 }
 
 .teaser-label {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 10pt;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -1115,15 +1132,15 @@ audio:hover {
 }
 
 .teaser-title {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: var(--font-script-main);
+  font-style: normal;
   font-size: 48pt;
   color: var(--pink);
   margin: 0 0 8px 0;
 }
 
 .teaser-sub {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-size: 13pt;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -1138,7 +1155,7 @@ audio:hover {
 }
 
 .teaser-subscribe-label {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 10pt;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -1172,7 +1189,7 @@ audio:hover {
 .tag-activism { color: var(--theme-activism); }
 
 .tag-quote {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-style: italic;
   font-size: 18pt;
   line-height: 1.5;
@@ -1203,16 +1220,16 @@ audio:hover {
 .tag-quote.tag-activism { border-color: var(--theme-activism); color: var(--theme-activism); }
 
 .quote-attribution {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 16pt;
+  font-family: var(--font-script-name);
+  font-style: normal;
+  font-size: 18pt;
   margin: 4px 0 8px 0;
 }
 
 .quote-attribution a {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 16pt;
+  font-family: var(--font-script-name);
+  font-style: normal;
+  font-size: 18pt;
   color: var(--pink);
   text-decoration: none;
 }
@@ -1231,7 +1248,7 @@ audio:hover {
 }
 
 .theme-legend span {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 9pt;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -1269,7 +1286,7 @@ audio:hover {
 .timeline-tag.consummerism,
 .timeline-tag.activism {
   display: inline-block;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 7pt;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1349,12 +1366,7 @@ audio:hover {
 .timeline-tag.injustice { --tag-color: var(--category-injustice); }
 .timeline-tag.infrastructure { --tag-color: var(--category-infrastructure); }
 /* ============================================
-   12. WIKI PAGE (LEGACY)
-   ============================================ */
-
-
-/* ============================================
-   13. TRUNK DASHBOARD
+   12. TRUNK DASHBOARD
    ============================================ */
 
 .trunk-intro {
@@ -1383,16 +1395,16 @@ audio:hover {
 }
 
 .trunk-card h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 600;
+  font-family: var(--font-body);
+  font-weight: 700;
   font-size: 20pt;
   color: var(--purple);
   margin: 0 0 8px 0;
 }
 
 .trunk-card h3 {
-  font-family: 'Lora', serif;
-  font-weight: 500;
+  font-family: var(--font-body);
+  font-weight: 600;
   font-size: 10pt;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -1402,7 +1414,7 @@ audio:hover {
 }
 
 .trunk-card p {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 12pt;
   line-height: 1.6;
   color: var(--text);
@@ -1416,7 +1428,7 @@ audio:hover {
 
 
 /* ============================================
-   14. ARCHIVE ARTIFACT SYSTEM
+   13. ARCHIVE ARTIFACT SYSTEM
    ============================================ */
 
 .artifact {
@@ -1441,7 +1453,7 @@ audio:hover {
 }
 
 .artifact-context h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-weight: 600;
   font-size: 16pt;
   color: var(--purple);
@@ -1451,7 +1463,7 @@ audio:hover {
 }
 
 .artifact-description {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 12pt;
   line-height: 1.6;
   color: var(--text);
@@ -1460,7 +1472,7 @@ audio:hover {
 }
 
 .artifact-significance {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-style: normal;
   font-size: 12pt;
   line-height: 1.6;
@@ -1489,7 +1501,7 @@ audio:hover {
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 9pt;
   color: var(--text);
   opacity: 1;
@@ -1566,7 +1578,7 @@ audio:hover {
 }
 
 .artifact-slideshow-controls .slide-count {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 9pt;
   letter-spacing: 0.1em;
   color: var(--text);
@@ -1574,7 +1586,7 @@ audio:hover {
 }
 
 /* ============================================
-   15. CONNECTIONS MAP
+   14. CONNECTIONS MAP
    ============================================ */
 
 .connections-container {
@@ -1631,7 +1643,7 @@ audio:hover {
 }
 
 .connection-node h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-weight: 600;
   font-size: 13pt;
   margin: 0;
@@ -1640,7 +1652,7 @@ audio:hover {
 }
 
 .connection-node .node-type {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 7pt;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1725,7 +1737,7 @@ audio:hover {
 }
 
 .node-preview-content h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-weight: 600;
   font-size: 18pt;
   color: var(--pink);
@@ -1735,7 +1747,7 @@ audio:hover {
 }
 
 .node-preview-content p {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   line-height: 1.6;
   color: var(--text);
@@ -1744,7 +1756,7 @@ audio:hover {
 }
 
 .node-preview-content a {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   color: var(--pink);
   text-decoration: none;
@@ -1758,7 +1770,7 @@ audio:hover {
   position: absolute;
   top: 8px;
   right: 12px;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 10pt;
   color: var(--pink);
   cursor: pointer;
@@ -1772,7 +1784,7 @@ audio:hover {
 }
 
 /* ============================================
-   16. EPOCH TIMELINE
+   15. EPOCH TIMELINE
    ============================================ */
 
 .timeline {
@@ -1792,7 +1804,7 @@ audio:hover {
 }
 
 .timeline-legend button {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 9pt;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -1889,7 +1901,7 @@ audio:hover {
 .timeline-era h3 {
   display: inline-block;
   background: var(--bg);
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-weight: 600;
   font-size: 14pt;
   letter-spacing: 0.2em;
@@ -1926,7 +1938,7 @@ audio:hover {
   display: inline-block;
   background: var(--bg);
   padding: 0 16px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-weight: 500;
   font-size: 20pt;
   color: var(--purple);
@@ -1965,7 +1977,7 @@ audio:hover {
 }
 
 .timeline-entry h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-weight: 600;
   font-size: 14pt;
   color: var(--text);
@@ -1975,7 +1987,7 @@ audio:hover {
 }
 
 .timeline-entry p {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   line-height: 1.6;
   color: var(--text);
@@ -1989,7 +2001,7 @@ audio:hover {
   clear: both;
 }
 /* ============================================
-   17. KEYFRAMES
+   16. KEYFRAMES
    ============================================ */
 
 @keyframes flicker {
@@ -2012,7 +2024,7 @@ audio:hover {
 }
 
 /* ============================================
-   18. MOBILE STYLES (MAX-WIDTH: 600px)
+   17. MOBILE STYLES (MAX-WIDTH: 600px)
    ============================================ */
 
 @media (max-width: 600px) {
@@ -2225,7 +2237,7 @@ body:not(.post) h1 {
 
 
 /* ============================================
-   19. ANIMATIONS (MOTION-SAFE ONLY)
+   18. ANIMATIONS (MOTION-SAFE ONLY)
    ============================================ */
 
 @media (prefers-reduced-motion: no-preference) {
@@ -2246,7 +2258,7 @@ body:not(.post) h1 {
   }
 }
 /* ============================================
-   20. meAF PAGE
+   19. meAF PAGE
    ============================================ */
 
 .meaf-container {
@@ -2267,7 +2279,7 @@ body:not(.post) h1 {
 }
 
 .meaf-header p {
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 10pt;
   color: var(--pink);
   opacity: 0.6;
@@ -2279,7 +2291,7 @@ body:not(.post) h1 {
 }
 
 .meaf-section h2 {
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 14pt;
   letter-spacing: 2px;
   border-bottom: 1px solid var(--pink);
@@ -2301,7 +2313,7 @@ body:not(.post) h1 {
 }
 
 .meaf-now-item h3 {
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 9pt;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -2327,7 +2339,7 @@ body:not(.post) h1 {
 }
 
 .meaf-guestbook a {
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 10pt;
   text-transform: uppercase;
 }
@@ -2336,7 +2348,7 @@ body:not(.post) h1 {
   margin: 48px 0;
 }
 /* ============================================
-   21. MYSPACE INTERESTS (✦ SEPARATORS + TOGGLE)
+   20. MYSPACE INTERESTS (✦ SEPARATORS + TOGGLE)
    ============================================ */
 
 .connect-links {
@@ -2386,7 +2398,7 @@ body:not(.post) h1 {
 .interests-table {
   width: 100%;
   border-collapse: collapse;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   color: var(--text);
 }
@@ -2399,7 +2411,7 @@ body:not(.post) h1 {
 
 .interests-table td:first-child {
   width: 100px;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 9pt;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -2411,7 +2423,7 @@ body:not(.post) h1 {
   border-bottom: none;
 }
 /* ============================================
-   22. MYSPACE SURVEYS
+   21. MYSPACE SURVEYS
    ============================================ */
   .survey-container {
     max-width: 700px;
@@ -2432,14 +2444,14 @@ body:not(.post) h1 {
     padding: 20px;
     margin: 32px 0;
     white-space: pre-wrap;
-    font-family: 'Courier New', monospace;
+    font-family: var(--font-mono);
     font-size: 10pt;
     color: var(--text);
     cursor: url('/assets/svg/cursor.svg') 8 2, auto;
   }
 
 /* ============================================
-   24. SUBMISSION FORM
+   22. SUBMISSION FORM
    ============================================ */
 
 .submit-form {
@@ -2450,7 +2462,7 @@ body:not(.post) h1 {
 }
 
 .submit-form label {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 12pt;
   color: var(--text);
   margin-bottom: 4px;
@@ -2481,7 +2493,7 @@ body:not(.post) h1 {
   background: transparent;
   border: 0.5px solid rgba(163, 0, 255, 0.3);
   color: var(--text);
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   padding: 10px 14px;
   border-radius: 4px;
@@ -2513,7 +2525,7 @@ body:not(.post) h1 {
 }
 
 .submit-form .form-fieldset legend {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   color: var(--text);
   padding: 0 8px;
@@ -2523,7 +2535,7 @@ body:not(.post) h1 {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   color: var(--text);
   opacity: 0.8;
@@ -2544,7 +2556,7 @@ body:not(.post) h1 {
   background: transparent;
   border: 0.5px solid var(--pink);
   color: var(--pink);
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 14pt;
   padding: 12px 28px;
   cursor: url('/assets/svg/cursor.svg') 8 2, auto;
@@ -2562,7 +2574,7 @@ body:not(.post) h1 {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   color: var(--text);
   opacity: 0.8;
@@ -2577,7 +2589,7 @@ body:not(.post) h1 {
   flex-shrink: 0;
 }
 /* ============================================
-   25. MOBILE DESKTOP NUDGE
+   23. MOBILE DESKTOP NUDGE
    ============================================ */
 
 #desktop-nudge {
@@ -2599,7 +2611,7 @@ body:not(.post) h1 {
 }
 
 #desktop-nudge p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-style: italic;
   font-size: 13pt;
   color: var(--purple);
@@ -2610,7 +2622,7 @@ body:not(.post) h1 {
   background: transparent;
   border: 0.5px solid var(--pink);
   color: var(--pink);
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 9pt;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -2625,7 +2637,7 @@ body:not(.post) h1 {
   opacity: 1;
 }
 /* ============================================
-   26. OPTIONAL COLUMN LAYOUTS
+   24. OPTIONAL COLUMN LAYOUTS
    Impala: main content + right sidebar
    Kandy Lime: left sidebar + main content
    Dave's Dream: left rail + main content + right rail
@@ -2656,7 +2668,7 @@ body:not(.post) h1 {
   top: 24px;
   padding: 16px 18px;
   background: color-mix(in srgb, var(--layout-accent) 4%, transparent);
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   margin-top: 175px;
 }
 
@@ -2670,7 +2682,7 @@ body:not(.post) h1 {
 
 
 .hwhh-column-sidebar h2 {
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 14pt;
   letter-spacing: 2px;
   border-bottom: 1px solid var(--pink);
@@ -2683,7 +2695,7 @@ body:not(.post) h1 {
 }
 
 .hwhh-column-sidebar h3 {
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 9pt;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -2693,7 +2705,7 @@ body:not(.post) h1 {
 
 .hwhh-column-sidebar p,
 .hwhh-column-sidebar li {
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 10pt;
   line-height: 1.55;
   color: var(--text);
@@ -2710,7 +2722,7 @@ body:not(.post) h1 {
 }
 
 .hwhh-column-sidebar a {
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 9pt;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -2781,7 +2793,7 @@ body:not(.post) h1 {
 }
 
 /* ============================================
-   27. SCROLL STRIP
+   25. SCROLL STRIP
    Horizontal image strip with scroll-snap.
    Standalone component — not tied to column layouts.
    Uses pink accents by default.
@@ -2832,7 +2844,7 @@ body:not(.post) h1 {
 }
 
 .scroll-strip-item .caption {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 9pt;
   color: var(--text);
   opacity: 0.6;

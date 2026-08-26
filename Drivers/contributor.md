@@ -104,13 +104,13 @@ published: false
 
 <!-- ============================================
      POEM SECTION (DELETE THIS WHOLE BLOCK IF NO POEM)
-     Use # A Poem as the heading.
+     Use # a Poem as the heading.
      Poem title goes in ##
      Poem text follows.
      Close with *** to mark the section end.
      ============================================ -->
 
-# A Poem
+# a Poem
 
 ## POEM TITLE
 
@@ -124,13 +124,13 @@ or a blank line between stanzas.
 <!-- ============================================
      INTERVIEW CONTENT
      
-     Use # A Memory or # A Conversation as the section header.
+     Use # a Memory or # A Conversation as the section header.
      H3 (###) for each question (small uppercase purple).
      Regular paragraph text for answers.
      Tag epochal moments with inline spans (see top of file).
      ============================================ -->
 
-# A Memory
+# a Memory
 
 ### INTERVIEW QUESTION ONE
 
