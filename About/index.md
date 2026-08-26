@@ -13,7 +13,7 @@ Millennial, as in epoch-making <a href="/survey-og/"><img src="/assets/blinkies/
 21st century, in the symbiotic sense  
 Archival, in the form of parallel truths   
 Californian: Sunny, ocean waves, sandy beaches  
-Driving really fast on an empty highway with the windows down and the night sky ahead
+Driving really fast on an empty highway with the windows down and the night sky ahead <br><br>
 
 <h1 class="editor-name">Alejandra Hernández</h1>
 ## Editor,   

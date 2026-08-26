@@ -11,9 +11,6 @@ sidebar: |
 ---
 
 # Generations
-<br>
-<br>
-
 ## Epochal
 ### Silent Gen
 #### Ranges

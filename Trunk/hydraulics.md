@@ -14,8 +14,6 @@ sidebar: |
 ---
 
 # Hydraulics
-<br>
-<br>
 
 ##  Web Surfing 
 

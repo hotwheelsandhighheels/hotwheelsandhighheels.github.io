@@ -16,9 +16,6 @@ sidebar: |
 
 # The Double Perspective
 
-<br>
-<br>
-
 ## Recording a memory 
 
 The first thing we try to do is remember an event exactly as it was -- every detail accounted for, every truth verifiable. We look for evidence: pictures, notes, a ticket stub or receipt. In the digital age, we check screenshots: time stamps, locations (the meta data). 

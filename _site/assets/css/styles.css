@@ -23,6 +23,16 @@
   --font-body: 'Ysabeau', sans-serif;
   --font-mono: 'Azeret Mono', monospace;
 
+  /* Type scale */
+  --type-body: 13pt;
+  --type-body-line: 1.68;
+  --type-h1: clamp(32pt, 6vw, 48pt);
+  --type-h2: 22pt;
+  --type-h3: 11pt;
+  --type-editor-name: clamp(52pt, 7vw, 68pt);
+  --type-driver-name: clamp(44pt, 5.5vw, 54pt);
+  --type-driver-h1: clamp(30pt, 4.5vw, 40pt);
+
   /* Flexible archive color tokens */
   --color-01: #ff7a66;  /* coral */
   --color-02: #ff8c69;  /* soft orange */
@@ -273,16 +283,16 @@
   white-space: nowrap;
   font-family: var(--font-script-name);
   font-style: normal;
-  font-size: clamp(28pt, 8vw, 48pt);
+  font-size: var(--type-editor-name);
+  line-height: 0.95;
+  margin: 12px 0 20px 0;
 }
 
 .home-title {
   font-family: var(--font-script-name);
   font-style: normal;
-}
-body:not(.post) h1 {
-  white-space: nowrap;
-  font-size: clamp(28pt, 8vw, 48pt);
+  font-size: clamp(48pt, 8vw, 68pt);
+  line-height: 0.95;
 }
 .container {
   margin: auto;
@@ -305,9 +315,10 @@ h1 {
   font-family: var(--font-script-main);
   font-style: normal;
   font-weight: 400;
-  font-size: 32pt;
+  font-size: var(--type-h1);
+  line-height: 1;
   color: var(--pink);
-  margin: 0 0 8px 0;
+  margin: 0 0 12px 0;
 }
 
 body.post h1 {
@@ -326,16 +337,18 @@ body.post h1 {
 h2 {
   font-family: var(--font-body);
   font-weight: 700;
-  font-size: 24pt;
+  font-size: var(--type-h2);
+  line-height: 1.15;
   color: var(--purple);
-  margin: 0 0 8px 0;
+  margin: 0 0 10px 0;
 }
 
 h3 {
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 12pt;
-  letter-spacing: 0.2em;
+  font-size: var(--type-h3);
+  line-height: 1.25;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--purple);
   margin: 0 0 8px 0;
@@ -354,15 +367,15 @@ h4 {
 p {
   font-family: var(--font-body);
   font-weight: 400;
-  font-size: 14pt;
-  line-height: 1.75;
+  font-size: var(--type-body);
+  line-height: var(--type-body-line);
   margin-bottom: 12px;
   color: var(--text);
 }
 
 a {
   font-family: var(--font-body);
-  font-size: 14pt;
+  font-size: var(--type-body);
   color: var(--pink);
   text-decoration: none;
 }
@@ -396,9 +409,9 @@ hr {
 
 .container ul:not(.a-list), .container ol, .wiki-page ul:not(.a-list), .wiki-page ol {
   font-family: var(--font-body);
-  font-size: 14pt;
+  font-size: var(--type-body);
   color: var(--text);
-  line-height: 1.75;
+  line-height: var(--type-body-line);
   padding-left: 24px;
   margin-bottom: 12px;
 }
@@ -410,14 +423,17 @@ hr {
 .ride-link {
   font-family: var(--font-script-main);
   font-style: normal;
-  font-size: 22pt;
+  font-size: 24pt;
   color: var(--pink);
   text-decoration: none;
 }
 .about-page,
 .trunk-page {
   text-align: center;
-  font-size: clamp(32pt, 10vw, 52pt);
+}
+
+.trunk-page {
+  font-size: clamp(36pt, 8vw, 52pt);
 }
 /* ============================================
    4. NAVIGATION
@@ -535,7 +551,7 @@ nav .active {
 .footer-dedication {
   font-family: var(--font-script-main);
   font-style: normal;
-  font-size: 18pt;
+  font-size: 22pt;
   color: var(--purple);
   margin: 0 0 4px 0;
 }
@@ -616,9 +632,9 @@ a, button {
 
 .bio-card {
   display: flex;
-  gap: 24px;
+  gap: 28px;
   align-items: flex-start;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .bio-image {
@@ -796,7 +812,7 @@ a, button {
 .driver-nav {
   display: flex;
   justify-content: space-between;
-  margin: 32px 0 16px 0;
+  margin: 40px 0 16px 0;
   padding-top: 16px;
   border-top: 0.5px solid rgba(163, 0, 255, 0.2);
 }
@@ -823,7 +839,17 @@ a, button {
 h1.driver-name {
   font-family: var(--font-script-name);
   font-style: normal;
-  font-size: 36pt;
+  font-size: var(--type-driver-name);
+  line-height: 0.95;
+  margin: 22px 0 28px;
+}
+
+/* Contributor section H1s use Smooch at a smaller scale than the name. */
+.container:has(h1.driver-name) h1:not(.driver-name) {
+  font-family: var(--font-script-main);
+  font-size: var(--type-driver-h1);
+  line-height: 1;
+  margin: 34px 0 20px;
 }
 
 
@@ -2117,17 +2143,38 @@ audio:hover {
   }
 
   /* --- GLOBAL TYPE SCALING --- */
-  p { font-size: 10pt; }
-  h1 { font-size: 20pt; }
+  p { font-size: 10.5pt; line-height: 1.65; }
+  h1 { font-size: clamp(28pt, 10vw, 38pt); }
   h2 { font-size: 18pt; }
-  a { font-size: 10pt; }
+  h3 { font-size: 9.5pt; }
+  a { font-size: 10.5pt; }
 
-body:not(.post) h1 {
-  font-size: clamp(22pt, 8vw, 36pt);
-}
-.ride-link {
-  font-size: 18pt;
-}
+  .home-title,
+  .about-page {
+    font-size: clamp(40pt, 14vw, 54pt);
+  }
+
+  .editor-name {
+    white-space: normal;
+    font-size: clamp(42pt, 14vw, 56pt);
+  }
+
+  h1.driver-name {
+    white-space: normal;
+    font-size: clamp(36pt, 12vw, 46pt);
+  }
+
+  .container:has(h1.driver-name) h1:not(.driver-name) {
+    font-size: clamp(28pt, 10vw, 34pt);
+  }
+
+  .ride-link {
+    font-size: 20pt;
+  }
+
+  .footer-dedication {
+    font-size: 19pt;
+  }
   /* --- ABOUT & TRUNK H1 — huge on mobile --- */
   .about-page,
   .trunk-page {
@@ -2717,6 +2764,11 @@ body:not(.post) h1 {
   padding: 16px 18px;
   background: color-mix(in srgb, var(--layout-accent) 4%, transparent);
   font-family: var(--font-body);
+  margin-top: 0;
+}
+
+/* meAF intentionally drops its sidebars to align with the Blurbs row. */
+.hwhh-column-layout:has(.meaf-container) .hwhh-column-sidebar {
   margin-top: 175px;
 }
 
@@ -2731,7 +2783,7 @@ body:not(.post) h1 {
 
 .hwhh-column-sidebar h2 {
   font-family: var(--font-mono);
-  font-size: 14pt;
+  font-size: 13pt;
   letter-spacing: 2px;
   border-bottom: 1px solid var(--pink);
   display: inline-block;
@@ -2754,7 +2806,7 @@ body:not(.post) h1 {
 .hwhh-column-sidebar p,
 .hwhh-column-sidebar li {
   font-family: var(--font-mono);
-  font-size: 10pt;
+  font-size: 9.5pt;
   line-height: 1.55;
   color: var(--text);
 }
@@ -2822,6 +2874,11 @@ body:not(.post) h1 {
     position: static;
     padding: 14px 0 0;
     background: transparent;
+    margin-top: 0;
+  }
+
+  .hwhh-column-layout:has(.meaf-container) .hwhh-column-sidebar {
+    margin-top: 0;
   }
 
   .hwhh-column-sidebar-left,
