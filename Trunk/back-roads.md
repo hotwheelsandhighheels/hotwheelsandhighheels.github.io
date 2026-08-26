@@ -26,8 +26,8 @@ This is a visualization of all the ideas being mapped in the archive. It's a lot
 <svg class="connections-svg" id="connections-svg"></svg>
 
 <div style="position: absolute; top: 10px; right: 10px; z-index: 30; display: flex; gap: 8px;">
-  <button id="reveal-all-btn" style="background: transparent; border: 0.5px solid var(--pink); color: var(--pink); font-family: 'Lora', serif; font-size: 9pt; padding: 4px 10px; cursor: url('/assets/svg/cursor.svg') 8 2, auto; opacity: 0.7;">unfold</button>
-  <button id="reset-map-btn" style="background: transparent; border: 0.5px solid var(--purple); color: var(--purple); font-family: 'Lora', serif; font-size: 9pt; padding: 4px 10px; cursor: url('/assets/svg/cursor.svg') 8 2, auto; opacity: 0.7;">fold</button>
+  <button id="reveal-all-btn" style="background: transparent; border: 0.5px solid var(--pink); color: var(--pink); font-family: var(--font-body); font-size: 9pt; padding: 4px 10px; cursor: url('/assets/svg/cursor.svg') 8 2, auto; opacity: 0.7;">unfold</button>
+  <button id="reset-map-btn" style="background: transparent; border: 0.5px solid var(--purple); color: var(--purple); font-family: var(--font-body); font-size: 9pt; padding: 4px 10px; cursor: url('/assets/svg/cursor.svg') 8 2, auto; opacity: 0.7;">fold</button>
 </div>
 
 <!-- ============================================
@@ -1011,7 +1011,7 @@ requestAnimationFrame(positionNodes);
 }
 
 .node-preview-content p {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   line-height: 1.6;
   color: var(--text);
@@ -1020,7 +1020,7 @@ requestAnimationFrame(positionNodes);
 }
 
 .node-preview-content a {
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   color: var(--pink);
   text-decoration: none;
@@ -1034,7 +1034,7 @@ requestAnimationFrame(positionNodes);
   position: absolute;
   top: 8px;
   right: 12px;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 10pt;
   color: var(--pink);
   cursor: pointer;

@@ -9,7 +9,7 @@ permalink: /Trunk/archive/
 On this page, I am collecting born-digital content. Each artifact includes where I got it, when I got it, why I got it, and why it matters. 
 
 *I'm low on gas, fill me up <3*  
-<a href="/submit/" style="color: var(--pink); font-family: 'Lora', serif; font-size: 12pt; text-decoration: none;">Pump →</a>
+<a href="/submit/" style="color: var(--pink); font-family: var(--font-body); font-size: 12pt; text-decoration: none;">Pump →</a>
 
 ---
 

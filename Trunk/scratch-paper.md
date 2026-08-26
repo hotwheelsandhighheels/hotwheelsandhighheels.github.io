@@ -206,7 +206,7 @@ permalink: /Trunk/scratch-paper/
   padding: 18px;
   border-radius: 4px;
   overflow: auto;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 11pt;
   line-height: 1.45;
   position: relative;
@@ -274,7 +274,7 @@ permalink: /Trunk/scratch-paper/
   background: transparent;
   border: none;
   color: currentColor;
-  font-family: 'Lora', serif;
+  font-family: var(--font-body);
   font-size: 8pt;
   font-style: italic;
   padding: 0;
