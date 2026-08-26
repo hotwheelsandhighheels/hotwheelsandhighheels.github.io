@@ -62,50 +62,8 @@
 
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <div class="container">
-    <nav>
-  <a href="/" class="nav-logo">Hot Wheels & High Heels</a>
-  <button class="nav-toggle" 
-          aria-label="Open menu" 
-          aria-expanded="false"
-          aria-controls="nav-menu"
-          onclick="toggleMenu()">
-    <span></span><span></span><span></span>
-  </button>
-  <ul id="nav-menu">
-    
-    <li><a class="active" href="/">Home</a></li>
-    
-    <li><a class="" href="/About/">About</a></li>
-    
-    <li><a class="" href="/Drivers/">Drivers</a></li>
-    
-    <li><a class="" href="/Trunk/">Trunk</a></li>
-    
-  </ul>
-</nav>
-<script>
-function toggleMenu() {
-  const menu = document.getElementById('nav-menu');
-  const btn = document.querySelector('.nav-toggle');
-
-  menu.classList.toggle('open');
-  btn.classList.toggle('open');
-
-  const expanded = btn.classList.contains('open');
-  btn.setAttribute('aria-expanded', expanded);
-  btn.setAttribute('aria-label', expanded ? 'Close menu' : 'Open menu');
-}
-</script>
-  <main id="main" tabindex="-1">
-    <img
-  class="banner"
-  src="/assets/site/Banner.webp"
-  alt="Banner: Woman's feet in high heels with panties pulled down to the ankles, cropped view of toilet, woman is holding a phone in her hands. On the floor beside the toilet is an alcoholic beverage and a cigar on one side and a loose roll of toilet paper on the other."
-  width="1000"
-  height="536"
-  fetchpriority="high">
-<center>
+    <main id="main" tabindex="-1">
+      <center>
     <p> Welcome to </p>
 <h1 class="home-title">Hot Wheels & High Heels</h1>
     <p>The speed limit is 140mph but some cars go&nbsp;faster&nbsp;than&nbsp;that!<br>
@@ -162,15 +120,10 @@ function revTheEngine() {
   }
 }
 </script>
-  </main>
-    </div>
-    <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="back-to-top">&#8593;</button>
-    <!-- light/dark mode toggle — bottom left corner, mirrors back-to-top button on right -->
+    </main>
+    <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="Back to top">&#8593;</button>
     <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">☼</button>
 <script>
-  // toggleTheme() flips between dark (default) and light mode.
-  // The actual theme detection happens in head.html before page render.
-  // This script only handles the button click and icon update.
   function toggleTheme() {
     const html = document.documentElement;
     const btn = document.querySelector('.theme-toggle');
@@ -185,30 +138,11 @@ function revTheEngine() {
     }
   }
 
-  // Update the toggle button icon on page load if a saved theme exists.
-  // The theme itself was already applied by the script in head.html,
-  // so we don't need to set data-theme again — just fix the icon.
   (function() {
     if (localStorage.getItem('theme') === 'light') {
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
-
-function selectAllText(element) {
-  var range = document.createRange();
-  var selection = window.getSelection();
-  range.selectNodeContents(element);
-  selection.removeAllRanges();
-  selection.addRange(range);
-}
-function openBlessingLightbox(src) {
-  document.getElementById('blessing-lightbox-img').src = src;
-  document.getElementById('blessing-lightbox').classList.add('open');
-}
-
-function closeBlessingLightbox() {
-  document.getElementById('blessing-lightbox').classList.remove('open');
-}
 </script>
   </body>
 </html>

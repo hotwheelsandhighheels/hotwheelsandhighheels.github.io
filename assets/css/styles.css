@@ -55,40 +55,93 @@
   --color-29: #999999;  /* dark silver */
   --color-30: #9dff9a;  /* spring green */
 
-  /* Current public theme names */
-  --theme-spaces: var(--color-16);
-  --theme-ghosts: var(--color-06);
-  --theme-intimacy: var(--color-09);
-  --theme-online: var(--color-18);
-  --theme-identity: var(--color-25);
-  --theme-expression: var(--color-14);
-  --theme-hope: var(--color-27);
-  --theme-community: var(--color-26);
-  --theme-witness: var(--color-10);
-  --theme-surveillance: var(--color-20);
-  --theme-volta: var(--color-15);
-  --theme-body: var(--color-04);
-    /* Additional archive themes */
-  --theme-parasocialism: var(--color-25);      /* orchid */
-  --theme-relationships: var(--color-24);      /* lavender */
-  --theme-meme-culture: var(--color-18);       /* cyan */
-  --theme-nostalgia-economy: var(--color-06);  /* tangerine */
-  --theme-upgrades: var(--color-21);           /* blue */
-  --theme-consummerism: var(--color-04);       /* hot orange */
-  --theme-activism: var(--color-30);           /* soft green */
+  /* ============================================
+     SEMANTIC COLOR KEY
+     Canonical meaning of the 30-color palette.
+     Annotation key + Double Perspective are the source of truth.
+     ============================================ */
+  --concept-conflict: var(--color-01);
+  --concept-reactive-thought: var(--color-02);
+  --concept-character: var(--color-03);
+  --concept-body-objectivity: var(--color-04);
+  --concept-situation: var(--color-05);
+  --concept-memory: var(--color-06);
+  --concept-veracity: var(--color-07);
+  --concept-evidence: var(--color-08);
+  --concept-retrospection: var(--color-09);
+  --concept-time-history: var(--color-10);
+  --concept-curiosity: var(--color-11);
+  --concept-web: var(--color-12);
+  --concept-structure: var(--color-13);
+  --concept-articulation: var(--color-14);
+  --concept-technique: var(--color-15);
+  --concept-space: var(--color-16);
+  --concept-dialogue-sound: var(--color-17);
+  --concept-technology: var(--color-18);
+  --concept-double-perspective: var(--color-19);
+  --concept-surveillance: var(--color-20);
+  --concept-self-awareness: var(--color-21);
+  --concept-narrator: var(--color-22);
+  --concept-insight: var(--color-23);
+  --concept-meaning-story: var(--color-24);
+  --concept-identity: var(--color-25);
+  --concept-emotion-authenticity: var(--color-26);
+  --concept-future-hope: var(--color-27);
+  --concept-social-organization: var(--color-28);
+  --concept-blind-spot: var(--color-29);
+  --concept-action-performance: var(--color-30);
 
-  /* Current public timeline category names */
-  --category-internet: var(--color-18);
-  --category-government: var(--color-23);
-  --category-pop-culture: var(--color-25);
-  --category-economy: var(--color-27);
-  --category-climate: var(--color-12);
-  --category-community: var(--color-26);
-  --category-documentation: var(--color-10);
-  --category-science: var(--color-21);
-  --category-society: var(--color-24);
-  --category-injustice: var(--color-01);
-  --category-infrastructure: var(--color-13);
+  /* Annotation-key aliases. R stays an umbrella and uses its specific concept colors. */
+  --annotation-a: var(--concept-articulation);
+  --annotation-c: var(--concept-character);
+  --annotation-d: var(--concept-dialogue-sound);
+  --annotation-e: var(--concept-emotion-authenticity);
+  --annotation-g: var(--concept-action-performance);
+  --annotation-h: var(--concept-time-history);
+  --annotation-i: var(--concept-curiosity);
+  --annotation-l: var(--concept-identity);
+  --annotation-m: var(--concept-evidence);
+  --annotation-n: var(--concept-narrator);
+  --annotation-p: var(--concept-body-objectivity);
+  --annotation-s: var(--concept-dialogue-sound);
+  --annotation-st: var(--concept-structure);
+  --annotation-t: var(--concept-technique);
+  --annotation-v: var(--concept-emotion-authenticity);
+  --annotation-en: var(--concept-double-perspective);
+
+  /* Public archive themes inherit from the semantic key. */
+  --theme-spaces: var(--concept-space);
+  --theme-ghosts: var(--concept-memory);
+  --theme-intimacy: var(--concept-emotion-authenticity);
+  --theme-online: var(--concept-web);
+  --theme-identity: var(--concept-identity);
+  --theme-expression: var(--concept-articulation);
+  --theme-hope: var(--concept-future-hope);
+  --theme-community: var(--concept-emotion-authenticity);
+  --theme-witness: var(--concept-time-history);
+  --theme-surveillance: var(--concept-surveillance);
+  --theme-volta: var(--concept-technique);
+  --theme-body: var(--concept-body-objectivity);
+  --theme-parasocialism: var(--concept-identity);
+  --theme-relationships: var(--concept-emotion-authenticity);
+  --theme-meme-culture: var(--concept-web);
+  --theme-nostalgia-economy: var(--concept-memory);
+  --theme-upgrades: var(--concept-technology);
+  --theme-consummerism: var(--concept-future-hope);
+  --theme-activism: var(--concept-action-performance);
+
+  /* Public timeline categories inherit from the same semantic key. */
+  --category-internet: var(--concept-web);
+  --category-government: var(--concept-social-organization);
+  --category-pop-culture: var(--concept-identity);
+  --category-economy: var(--concept-future-hope);
+  --category-climate: var(--concept-space);
+  --category-community: var(--concept-emotion-authenticity);
+  --category-documentation: var(--concept-time-history);
+  --category-science: var(--concept-technology);
+  --category-society: var(--concept-social-organization);
+  --category-injustice: var(--concept-conflict);
+  --category-infrastructure: var(--concept-structure);
 }
 
 [data-theme="light"] {
@@ -1312,47 +1365,13 @@ audio:hover {
 .timeline-tag.surveillance { --tag-color: var(--theme-surveillance); }
 .timeline-tag.volta { --tag-color: var(--theme-volta); }
 .timeline-tag.body { --tag-color: var(--theme-body); }
-.timeline-tag.parasocialism {
-  background: rgba(255, 179, 255, 0.12);
-  color: var(--theme-parasocialism);
-  border: 0.5px solid rgba(255, 179, 255, 0.25);
-}
-
-.timeline-tag.relationships {
-  background: rgba(199, 182, 255, 0.12);
-  color: var(--theme-relationships);
-  border: 0.5px solid rgba(199, 182, 255, 0.25);
-}
-
-.timeline-tag.meme-culture {
-  background: rgba(0, 255, 255, 0.12);
-  color: var(--theme-meme-culture);
-  border: 0.5px solid rgba(0, 255, 255, 0.25);
-}
-
-.timeline-tag.nostalgia-economy {
-  background: rgba(255, 179, 71, 0.12);
-  color: var(--theme-nostalgia-economy);
-  border: 0.5px solid rgba(255, 179, 71, 0.25);
-}
-
-.timeline-tag.upgrades {
-  background: rgba(0, 153, 255, 0.12);
-  color: var(--theme-upgrades);
-  border: 0.5px solid rgba(0, 153, 255, 0.25);
-}
-
-.timeline-tag.consummerism {
-  background: rgba(255, 123, 0, 0.12);
-  color: var(--theme-consummerism);
-  border: 0.5px solid rgba(255, 123, 0, 0.25);
-}
-
-.timeline-tag.activism {
-  background: rgba(157, 255, 154, 0.12);
-  color: var(--theme-activism);
-  border: 0.5px solid rgba(157, 255, 154, 0.25);
-}
+.timeline-tag.parasocialism { --tag-color: var(--theme-parasocialism); }
+.timeline-tag.relationships { --tag-color: var(--theme-relationships); }
+.timeline-tag.meme-culture { --tag-color: var(--theme-meme-culture); }
+.timeline-tag.nostalgia-economy { --tag-color: var(--theme-nostalgia-economy); }
+.timeline-tag.upgrades { --tag-color: var(--theme-upgrades); }
+.timeline-tag.consummerism { --tag-color: var(--theme-consummerism); }
+.timeline-tag.activism { --tag-color: var(--theme-activism); }
 
 /* Timeline categories */
 .timeline-tag.internet { --tag-color: var(--category-internet); }

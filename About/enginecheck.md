@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: default
+body_class: post
 title: Engine Check Light
 ---
 

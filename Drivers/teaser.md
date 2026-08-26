@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Revving Up
 permalink: /revving-up/
 ---

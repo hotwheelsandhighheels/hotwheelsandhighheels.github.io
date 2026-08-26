@@ -1,4 +1,4 @@
-<!doctype html><!-- defines document type -->
+<!doctype html>
 <html lang="en-US">
 <head><!-- the head includes all meta data -->
     <meta charset="UTF-8">
@@ -60,7 +60,7 @@
 
 </head>
 
-  <body class="post"> <!-- this is the container for all visible content -->
+  <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="container">
       <nav>
@@ -97,8 +97,8 @@ function toggleMenu() {
   btn.setAttribute('aria-label', expanded ? 'Close menu' : 'Open menu');
 }
 </script>
-    <main id="main" tabindex="-1">
-      <div class="teaser-page">
+      <main id="main" tabindex="-1">
+        <div class="teaser-page">
   <div class="teaser-static">
     <div class="static-lines">
       <div class="static-line"></div>
@@ -143,15 +143,11 @@ function toggleMenu() {
   </div>
 </div>
 
-    </main>
+      </main>
     </div>
     <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="Back to top">&#8593;</button>
-      <!-- light/dark mode toggle — bottom left corner, mirrors back-to-top button on right -->
     <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">☼</button>
 <script>
-  // toggleTheme() flips between dark (default) and light mode.
-  // The actual theme detection happens in head.html before page render.
-  // This script only handles the button click and icon update.
   function toggleTheme() {
     const html = document.documentElement;
     const btn = document.querySelector('.theme-toggle');
@@ -166,22 +162,36 @@ function toggleMenu() {
     }
   }
 
-  // Update the toggle button icon on page load if a saved theme exists.
-  // The theme itself was already applied by the script in head.html,
-  // so we don't need to set data-theme again — just fix the icon.
   (function() {
     if (localStorage.getItem('theme') === 'light') {
       document.querySelector('.theme-toggle').textContent = '☽';
     }
   })();
-function toggleInterests(el) {
-  // Find the next myspace-interests div after the parent paragraph
-  var container = el.closest('.bio-text').querySelector('.myspace-interests');
-  if (container) {
-    container.classList.toggle('open');
+
+  function selectAllText(element) {
+    var range = document.createRange();
+    var selection = window.getSelection();
+    range.selectNodeContents(element);
+    selection.removeAllRanges();
+    selection.addRange(range);
   }
-}
-  // LIGHTBOX FUNCTIONS — now in layout instead of each page
+
+  function openBlessingLightbox(src) {
+    document.getElementById('blessing-lightbox-img').src = src;
+    document.getElementById('blessing-lightbox').classList.add('open');
+  }
+
+  function closeBlessingLightbox() {
+    document.getElementById('blessing-lightbox').classList.remove('open');
+  }
+
+  function toggleInterests(el) {
+    var container = el.closest('.bio-text').querySelector('.myspace-interests');
+    if (container) {
+      container.classList.toggle('open');
+    }
+  }
+
   function openLightbox() {
     const lightbox = document.getElementById('lightbox');
     if (lightbox) lightbox.classList.add('open');

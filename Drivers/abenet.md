@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: default
+body_class: post
 title: a.benét
 description: An interview with a.benét, San Diego native and poetry MFA candidate at San Diego State University. 
 image: assets/drivers/A-benet_cover.jpg

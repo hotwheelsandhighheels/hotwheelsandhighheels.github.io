@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Jack Hinzo
 description: An interview with Jack Hinzo, San Diego native and photographer with interest in polaroid. 
 image: assets/drivers/Jack_Cover.jpeg

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 permalink: /Drivers/
 title: Drivers - Hot Wheels & High Heels
 ---

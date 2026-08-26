@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: default
+body_class: post
 title: Alana Rodriguez
 description: An interview with Alana Rodriguez, Poetry MFA graduate from San Diego State University and Social Media & Marketing Coordinator for the San Diego Poetry Annual. 
 image: assets/drivers/Alana_Cover.jpeg

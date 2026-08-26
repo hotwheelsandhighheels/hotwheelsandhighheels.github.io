@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Jon Tobias
 description: An interview with Jon Tobias, San Diego native, poetry MFA graduate from San Diego State University and author of the chapbook Talking to Ghosts, published by Quillkeepers Press.
 image: assets/drivers/Jon_Cover.jpg
