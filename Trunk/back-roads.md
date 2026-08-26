@@ -953,7 +953,7 @@ requestAnimationFrame(positionNodes);
 }
 
 .connection-node h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-mono);
   font-weight: 600;
   font-size: 13pt;
   margin: 0;
@@ -1001,7 +1001,7 @@ requestAnimationFrame(positionNodes);
 }
 
 .node-preview-content h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-mono);
   font-weight: 600;
   font-size: 18pt;
   color: var(--pink);
