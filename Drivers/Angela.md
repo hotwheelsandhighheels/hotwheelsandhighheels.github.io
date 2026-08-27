@@ -11,7 +11,7 @@ image: assets/drivers/Angela_Cover.JPG
      src="/assets/drivers/Angela_Cover.JPG" 
      alt="A cropped photo of a blue Chevy lowrider with a woman leaning against it. You can see the lower, driver's side half of the front bumper, headlight, and front wheel. The woman poses with one leg bent as if to show off her heels. The heels are open-toed, strapped, and golden." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 48px;">
 
 <h1 class="driver-name">Angela Mendoza</h1>
 

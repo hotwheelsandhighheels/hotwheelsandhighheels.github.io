@@ -11,7 +11,7 @@ image: assets/drivers/Jon_Cover.jpg
      src="/assets/drivers/Jon_Cover.jpg" 
      alt="A recreated photo of Hot Wheels & High Heels' banner. A cropped view of Jon Tobias reading a book on the toilet with a mug on the ground in front of him. He is wearing blue briefs with bananas printed on them. He has colorful sneakers with pink laces. The book he is reading is by CA CONRAD." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 48px;">
 
 <h1 class="driver-name">Jon Tobias</h1>
 

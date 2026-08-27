@@ -11,7 +11,7 @@ image: assets/drivers/A-benet_cover.jpg
      src="/assets/drivers/A-benet_cover.jpg" 
      alt="A recreated photo of Hot Wheels & High Heels' banner. a.benét's hands holding a cell phone between her knees with both hands. The cell phone is in camera mode. There is a leopard-print bag on the ground next to a green mug with coffee in it. The bag is open and shows a pencil case and notebook. a.benét wears a jean jacket, gold jewelry, black pants and Nikes." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 48px;">
 
 <h1 class="driver-name">a.benét</h1>
 

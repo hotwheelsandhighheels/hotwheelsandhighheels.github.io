@@ -11,7 +11,7 @@ image: assets/drivers/Alana_Cover.jpeg
      src="/assets/drivers/Alana_Cover.jpeg" 
      alt="A recreated photo of Hot Wheels & High Heels' banner. Alana Rodriguez sits outside on a stoop. Visible in the frame are her hands holding a cell phone, her long hair, an iced latte, and her sneakers. On one shoe, the laces hold a City of Chula Vista pendant." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 48px;">
 
 <h1 class="driver-name">Alana Rodriguez</h1>
 

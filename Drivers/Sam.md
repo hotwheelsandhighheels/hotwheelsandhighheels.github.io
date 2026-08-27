@@ -11,7 +11,7 @@ image: assets/drivers/Sam_Cover.jpg
      src="/assets/drivers/Sam_Cover.jpg" 
      alt="A blurry photo taken from a vehicle. The outline of the vehicle's window is visible in the frame. The view captures a coral sunset above a small shopping center. The location markers are blurred, the only text legible is DELI." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 48px;">
 
 <h1 class="driver-name">Sam Yaziji</h1>
 

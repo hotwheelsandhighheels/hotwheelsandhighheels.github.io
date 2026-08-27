@@ -11,7 +11,7 @@ image: assets/drivers/Jack_Cover.jpeg
      src="/assets/drivers/Jack_Cover.jpeg" 
      alt="A photo of Jack sitting on a bathroom counter, one leg bent and the other extended under a closed faucet. There is a full wall mirror in front of the counter that Jack is leaning against. There is a wine bottle on the counter, a wine glass in his hand, and a book in the other. His face is only visible in the mirror." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 48px;">
 
 <h1 class="driver-name">Jack Hinzo</h1>
 

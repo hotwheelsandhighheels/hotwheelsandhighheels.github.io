@@ -11,7 +11,7 @@ image: assets/drivers/Carson_Cover.JPG
      src="/assets/drivers/Carson_Cover.JPG" 
      alt="A recreated photo of Hot Wheels & High Heels' banner. A person sits open-legged on a toilet in a dark room, hands brought together at center. Below the hands, a Jason Voorhees mask from Friday the 13th glows green. To the right, a figurine from the Saw franchise. To the left, a character with flower-shaped glasses, grinning with all teeth, wearing what looks like a swimming cap. In the hands rests a Hellraiser puzzle cube, with a small character silhouette balanced on top. The scene is lit by green glow against the dark." 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 48px;">
 
 <h1 class="driver-name">Carson Sandell</h1>
 
@@ -64,7 +64,7 @@ image: assets/drivers/Carson_Cover.JPG
 
 ### Tell me about your favorite pair of shoes:
 
-<span style="color: var(--color-10);">When I was 17,</span> <span style="color: var(--color-09);">I worked as a courtesy clerk at Safeway (Vons or Albertsons for SoCal folks), cleaning bathrooms, collecting shopping carts from the corrals, and bagging groceries.</span> With my first paycheck, I bought a pair of white Converse. I worshipped these shoes. It was my first venture into expressing / presenting myself the way I desired. I was a gay kid in the 2010s. <span style="color: var(--color-23);">During that time, you practically had to own a pair of Converse. It was a queer rite of passage.</span> <span style="color: var(--color-24);">Every day after school, I cleaned them with a spare toothbrush and dish soap.</span> I had them for about 3 years until the soles started peeling from the insole. I tried supergluing it back together for a little while, but one day the sole popped out, and I threw them away. <span style="color: var(--color-21);">Those shoes affirmed me, made me feel as though I belonged in the queer circles at school.</span> They were almost a hanky code for us.
+When I was 17, I worked as a courtesy clerk at Safeway (Vons or Albertsons for SoCal folks), cleaning bathrooms, collecting shopping carts from the corrals, and bagging groceries. With my first paycheck, I bought a pair of white Converse. I worshipped these shoes. It was my first venture into expressing / presenting myself the way I desired. I was a gay kid in the 2010s. During that time, you practically had to own a pair of Converse. It was a queer rite of passage.Every day after school, I cleaned them with a spare toothbrush and dish soap. I had them for about 3 years until the soles started peeling from the insole. I tried supergluing it back together for a little while, but one day the sole popped out, and I threw them away. Those shoes affirmed me, made me feel as though I belonged in the queer circles at school. They were almost a hanky code for us.
 
 ### Tell me about your favorite car:
 
@@ -171,7 +171,7 @@ Dear San Jose of the future, I hope we stay even more committed to resistance an
 <!-- DRIVER NAVIGATION -->
 <div class="driver-nav">
   <a href="/Drivers/Sam/">← Previous Driver</a>
-  <a href="/Trunk/">Check the Trunk →</a>
+  <a href="/Trunk/">Pop the Trunk →</a>
 </div>
 
 <!-- LIGHTBOX -->

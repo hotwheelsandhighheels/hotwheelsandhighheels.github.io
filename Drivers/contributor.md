@@ -39,7 +39,7 @@ published: false
      src="/assets/drivers/FIRSTNAME_Cover.jpg" 
      alt="DESCRIBE THE COVER PHOTO" 
      onclick="openLightbox()" 
-     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 24px;">
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 48px;">
 
 <h1 class="driver-name">First Last</h1>
 
