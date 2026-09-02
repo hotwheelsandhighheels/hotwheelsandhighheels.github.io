@@ -14,7 +14,48 @@ image:
 
 <h1 class="driver-name">Kimberly Wolf</h1>
 
+<section class="driver-card">
 
+  <div class="driver-card-photo">
+    <img
+      src="/assets/drivers/Kimberly_Profile.jpeg"
+      alt="Contributor Name"
+    >
+  </div>
+
+  <div class="driver-card-blurbs">
+
+    <div class="driver-blurb driver-blurb-reading">
+      <span class="driver-blurb-label">Recently Read</span>
+      <span class="driver-blurb-text">My Work by Olga Ravn. A brutally honest look at what it means to be a mother and an artist.</span>
+    </div>
+
+    <div class="driver-blurb driver-blurb-listening">
+      <span class="driver-blurb-label">Listening</span>
+      <span class="driver-blurb-text">I am ricocheting between Slayyyter's Wor$t Girl in America and Phoebe Bridgers' Lost Weekend.</span>
+    </div>
+
+    <div class="driver-blurb driver-blurb-watching">
+      <span class="driver-blurb-label">Watching</span>
+      <span class="driver-blurb-text">I am re-watching Hacks with my partner. It's so funny and also makes me sob!</span>
+    </div>
+
+  </div>
+
+<div class="driver-card-bio">
+
+    <p>
+      As for myself, I'm currently working on a full length collection. I've been thinking a lot about silence and the unsaid, about Emily Dickinson and the inexpressible, the finality of death and what it means to protect someone's memories..
+    </p>
+
+    <div class="driver-card-links">
+      <a href="instagram.com/hiddenpocketknife" target="_blank" rel="noopener">Instagram</a>
+      <a href="www.kimberlywolfpoet.com" target="_blank" rel="noopener">Website</a>
+    </div>
+
+  </div>
+
+</section>
 
 # a Memory 
 
