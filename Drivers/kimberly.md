@@ -14,46 +14,116 @@ image:
 
 <h1 class="driver-name">Kimberly Wolf</h1>
 
-<section class="driver-card">
+<section class="driver-canvas">
 
-  <div class="driver-card-photo">
+
+  <!-- ROW 1: THREE BLURBS -->
+
+
+  <div
+    class="driver-piece driver-blurb piece-fade"
+    style="
+      --col: 1 / span 4;
+      --row: 1;
+      --piece-color: var(--color-12);
+    "
+  >
+    <span class="driver-blurb-label">Recent Read</span>
+    <span class="driver-blurb-text">
+      My Work by Olga Ravn. A brutally honest look at what it means to be a mother and an artist.
+    </span>
+  </div>
+
+
+  <div
+    class="driver-piece driver-blurb piece-line"
+    style="
+      --col: 5 / span 4;
+      --row: 1;
+      --piece-color: var(--color-18);
+    "
+  >
+    <span class="driver-blurb-label">Listening</span>
+    <span class="driver-blurb-text">
+      I am ricocheting between Slayyyter's Wor$t Girl in America and Phoebe Bridgers' Lost Weekend.
+    </span>
+  </div>
+
+
+  <div
+    class="driver-piece driver-blurb piece-wash"
+    style="
+      --col: 9 / span 4;
+      --row: 1;
+      --piece-color: var(--color-25);
+    "
+  >
+    <span class="driver-blurb-label">Watching</span>
+    <span class="driver-blurb-text">
+      I am re-watching Hacks with my partner. It's so funny and also makes me sob!
+    </span>
+  </div>
+
+
+
+  <!-- ROW 2: PHOTO -->
+
+
+  <div
+    class="driver-piece driver-photo"
+    style="
+      --col: 1 / span 4;
+      --row: 2;
+    "
+  >
     <img
       src="/assets/drivers/Kimberly_Profile.jpeg"
       alt="Contributor Name"
     >
   </div>
 
-  <div class="driver-card-blurbs">
 
-    <div class="driver-blurb driver-blurb-reading">
-      <span class="driver-blurb-label">Recently Read</span>
-      <span class="driver-blurb-text">My Work by Olga Ravn. A brutally honest look at what it means to be a mother and an artist.</span>
-    </div>
 
-    <div class="driver-blurb driver-blurb-listening">
-      <span class="driver-blurb-label">Listening</span>
-      <span class="driver-blurb-text">I am ricocheting between Slayyyter's Wor$t Girl in America and Phoebe Bridgers' Lost Weekend.</span>
-    </div>
+  <!-- ROW 2: BIO / OTHER BLURB -->
 
-    <div class="driver-blurb driver-blurb-watching">
-      <span class="driver-blurb-label">Watching</span>
-      <span class="driver-blurb-text">I am re-watching Hacks with my partner. It's so funny and also makes me sob!</span>
-    </div>
 
-  </div>
-
-<div class="driver-card-bio">
+  <div
+    class="driver-piece driver-bio piece-fade"
+    style="
+      --col: 5 / span 6;
+      --row: 2;
+      --piece-color: var(--color-24);
+    "
+  >
+    <span class="driver-blurb-label">Working on / Thinking about</span>
 
     <p>
-      As for myself, I'm currently working on a full length collection. I've been thinking a lot about silence and the unsaid, about Emily Dickinson and the inexpressible, the finality of death and what it means to protect someone's memories..
+      As for myself, I'm currently working on a full length collection. I've been thinking a lot about silence and the unsaid, about Emily Dickinson and the inexpressible, the finality of death and what it means to protect someone's memories.
     </p>
-
-    <div class="driver-card-links">
-      <a href="instagram.com/hiddenpocketknife" target="_blank" rel="noopener">Instagram</a>
-      <a href="www.kimberlywolfpoet.com" target="_blank" rel="noopener">Website</a>
-    </div>
-
   </div>
+
+
+
+  <!-- ROW 2: LINKS -->
+
+
+  <div
+    class="driver-piece driver-links"
+    style="
+      --col: 1 / span 5;
+      --row: 3;
+      --piece-color: var(--color-23);
+    "
+  >
+    <a href="https://www.instagram.com/hiddenpocketknife" target="_blank" rel="noopener">
+      Instagram
+    </a>
+
+    <a href="https://www.kimberlywolfpoet.com" target="_blank" rel="noopener">
+      Website
+    </a>
+  </div>
+
 
 </section>
 
