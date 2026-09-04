@@ -841,7 +841,7 @@ h1.driver-name {
   font-style: normal;
   font-size: var(--type-driver-name);
   line-height: 0.95;
-  margin: 22px 0 28px;
+  margin: 40px 0 30px;
 }
 
 /* Contributor section H1s use Smooch at a smaller scale than the name. */

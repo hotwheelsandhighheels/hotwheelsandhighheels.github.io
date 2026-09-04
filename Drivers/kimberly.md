@@ -74,7 +74,7 @@ image:
 <div
   class="driver-piece driver-photo"
   style="
-    --col: 1 / span 4;
+    --col: 2 / span 4;
     --row: 2;
   "
 >
@@ -90,7 +90,7 @@ image:
 <div
   class="driver-piece driver-stack"
   style="
-    --col: 5 / span 6;
+    --col: 6 / span 6;
     --row: 2;
   "
 >
