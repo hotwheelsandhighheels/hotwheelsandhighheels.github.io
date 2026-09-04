@@ -16,6 +16,9 @@
 <loc>http://localhost:4000/Drivers/Jon/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Drivers/Kimberly/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Drivers/Sam/</loc>
 </url>
 <url>
@@ -59,9 +62,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/Trunk/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/Drivers/kimberly/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Manifesto/</loc>
