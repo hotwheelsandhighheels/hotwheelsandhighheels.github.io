@@ -2,8 +2,11 @@
 layout: default
 body_class: post
 title: Sam Yaziji
+publication date: May 21, 2025
 description: An interview with Sam Yaziji, poet, musician, and researcher interested in Eastern Christian hymnography, post-phenomenology, and cybernetics.
-image: assets/drivers/Sam_Cover.jpg
+banner: assets/drivers/Sam_Cover.jpg
+tags: 
+published: true
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->

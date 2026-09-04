@@ -2,8 +2,11 @@
 layout: default
 body_class: post
 title: Angela Mendoza
+publication date: February 21, 2025
 description: An interview with Angela Mendoza, Fiction MFA graduate from San Diego State University and professor at U.C. San Diego. 
 image: assets/drivers/Angela_Cover.JPG
+tags: 
+published: true
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->

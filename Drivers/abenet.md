@@ -2,8 +2,11 @@
 layout: default
 body_class: post
 title: a.benét
+publication date: April 21, 2025
 description: An interview with a.benét, San Diego native and poetry MFA candidate at San Diego State University. 
-image: assets/drivers/A-benet_cover.jpg
+banner: assets/drivers/A-benet_cover.jpg
+tags: 
+published: true
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->

@@ -2,8 +2,11 @@
 layout: default
 body_class: post
 title: Kimberly Wolf
-description:
-image:
+publication date: Autumnal Equinox, 2026 
+description: An interview with Kimberly Wolf, poet from Deer Park, Texas, and author of How the Frogs Get Married, published by Bullshit Lit. 
+banner: assets/drivers/Kimberly_Cover.JPG"
+tags: 
+published: true
 ---
 
 <img class="banner" 
@@ -133,10 +136,45 @@ image:
       Website
     </a>
   </div>
-
 </div>
-
 </section>
+
+# a Poem
+## Guided Tour
+### Waymark Literary Magazine, Issue 8, Spring 2026
+Here is where the press gathered. Note the wear on the carpet,  
+blemishes  
+you wouldn’t have even noticed if you had been there---  
+the sheer mass of people interrogating the room.  
+
+And here is the podium where he addressed them,  
+the microphone  
+still reeks  
+of his breath.  
+
+And here is the pen he used  
+to sign away the lives of children.  
+
+Yes, children.  
+
+And here is where he received important phone calls  
+from split-tongued friends  
+who lived across the boiling sea.  
+
+And here is the rose garden his wife oversaw,  
+bred for their thorns  
+and the delicate way they rot.  
+
+And here is his favorite chair,  
+scorched during the riots.  
+
+And just in front of it is where they lined up to kiss his feet.  
+
+Yes, all of them.  
+
+Yes, even the parents.  
+
+<a href="https://waymarkmagazine.com/spring-summer-2026-issue/"><img src="/assets/blinkies/images.melonland-5.png"></a>
 
 # a Memory 
 
@@ -220,7 +258,7 @@ I find references to tech, or more specifically, the act of being online show up
 
 ### SHOUT OUTS
 
-Kelly White Arnold is an incredible poet who just put out her debut chapbook with Finishing LIne Press, you can get it here: <a href="https://finishinglinepress.com/product/decidedly-uncertain-by-kelly-white-arnold"><img src="/assets/blinkies/images.melonland-4.png">
+Kelly White Arnold is an incredible poet who just put out her debut chapbook with Finishing LIne Press, you can get it here: <a href="https://finishinglinepress.com/product/decidedly-uncertain-by-kelly-white-arnold"><img src="/assets/blinkies/images.melonland-4.png"></a>
 
 ### What would you write in a letter to the Deer Park of your childhood? What would you write to the Deer Park of the future? 
 

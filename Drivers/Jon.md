@@ -2,8 +2,11 @@
 layout: default
 body_class: post
 title: Jon Tobias
+publication date: Winter Solstice, 2024
 description: An interview with Jon Tobias, San Diego native, poetry MFA graduate from San Diego State University and author of the chapbook Talking to Ghosts, published by Quillkeepers Press.
-image: assets/drivers/Jon_Cover.jpg
+banner: assets/drivers/Jon_Cover.jpg
+tags: 
+published: true
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->

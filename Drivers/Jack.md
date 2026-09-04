@@ -2,8 +2,11 @@
 layout: default
 body_class: post
 title: Jack Hinzo
+publication date: Spring Equinox, 2025
 description: An interview with Jack Hinzo, San Diego native and photographer with interest in polaroid. 
-image: assets/drivers/Jack_Cover.jpeg
+banner: assets/drivers/Jack_Cover.jpeg
+tags: 
+published: true
 ---
 
 <!-- COVER PHOTO BANNER — click to expand -->
