@@ -111,7 +111,7 @@ function toggleMenu() {
   <!-- ROW 1: THREE BLURBS -->
 
 
-  <div class="driver-piece driver-blurb piece-fade" style="
+  <div class="driver-piece driver-blurb piece-halo" style="
       --col: 1 / span 4;
       --row: 1;
       --piece-color: var(--color-12);
@@ -123,7 +123,7 @@ function toggleMenu() {
   </div>
 
 
-  <div class="driver-piece driver-blurb piece-line" style="
+  <div class="driver-piece driver-blurb piece-bare" style="
       --col: 5 / span 4;
       --row: 1;
       --piece-color: var(--color-18);
@@ -135,10 +135,10 @@ function toggleMenu() {
   </div>
 
 
-  <div class="driver-piece driver-blurb piece-wash" style="
+  <div class="driver-piece driver-blurb piece-sheen" style="
       --col: 9 / span 4;
       --row: 1;
-      --piece-color: var(--color-25);
+      --piece-color: var(--color-01);
     ">
     <span class="driver-blurb-label">Watching</span>
     <span class="driver-blurb-text">
@@ -151,24 +151,29 @@ function toggleMenu() {
   <!-- ROW 2: PHOTO -->
 
 
-  <div class="driver-piece driver-photo" style="
-      --col: 1 / span 4;
-      --row: 2;
-    ">
-    <img src="/assets/drivers/Kimberly_Profile.jpeg" alt="Contributor Name" />
-  </div>
+  <!-- ROW 2: PHOTO -->
+
+<div class="driver-piece driver-photo" style="
+    --col: 1 / span 4;
+    --row: 2;
+  ">
+  <img src="/assets/drivers/Kimberly_Profile.jpeg" alt="Kimberly Wolf" />
+</div>
 
 
+<!-- ROW 2: BIO / BLURB + LINKS -->
 
-  <!-- ROW 2: BIO / OTHER BLURB -->
+<div class="driver-piece driver-stack" style="
+    --col: 5 / span 6;
+    --row: 2;
+  ">
 
-
-  <div class="driver-piece driver-bio piece-fade" style="
-      --col: 5 / span 6;
-      --row: 2;
+  <div class="driver-bio piece-glow" style="
       --piece-color: var(--color-24);
     ">
-    <span class="driver-blurb-label">Working on / Thinking about</span>
+    <span class="driver-blurb-label">
+      Working on / Thinking about
+    </span>
 
     <p>
       As for myself, I'm currently working on a full length collection. I've been thinking a lot about silence and the unsaid, about Emily Dickinson and the inexpressible, the finality of death and what it means to protect someone's memories.
@@ -176,13 +181,7 @@ function toggleMenu() {
   </div>
 
 
-
-  <!-- ROW 2: LINKS -->
-
-
-  <div class="driver-piece driver-links" style="
-      --col: 1 / span 5;
-      --row: 3;
+  <div class="driver-links" style="
       --piece-color: var(--color-23);
     ">
     <a href="https://www.instagram.com/hiddenpocketknife" target="_blank" rel="noopener">
@@ -194,6 +193,7 @@ function toggleMenu() {
     </a>
   </div>
 
+</div>
 
 </section>
 

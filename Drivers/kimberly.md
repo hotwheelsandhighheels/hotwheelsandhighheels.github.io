@@ -21,7 +21,7 @@ image:
 
 
   <div
-    class="driver-piece driver-blurb piece-fade"
+    class="driver-piece driver-blurb piece-halo"
     style="
       --col: 1 / span 4;
       --row: 1;
@@ -36,7 +36,7 @@ image:
 
 
   <div
-    class="driver-piece driver-blurb piece-line"
+    class="driver-piece driver-blurb piece-bare"
     style="
       --col: 5 / span 4;
       --row: 1;
@@ -51,11 +51,11 @@ image:
 
 
   <div
-    class="driver-piece driver-blurb piece-wash"
+    class="driver-piece driver-blurb piece-sheen"
     style="
       --col: 9 / span 4;
       --row: 1;
-      --piece-color: var(--color-25);
+      --piece-color: var(--color-01);
     "
   >
     <span class="driver-blurb-label">Watching</span>
@@ -69,33 +69,41 @@ image:
   <!-- ROW 2: PHOTO -->
 
 
-  <div
-    class="driver-piece driver-photo"
-    style="
-      --col: 1 / span 4;
-      --row: 2;
-    "
+  <!-- ROW 2: PHOTO -->
+
+<div
+  class="driver-piece driver-photo"
+  style="
+    --col: 1 / span 4;
+    --row: 2;
+  "
+>
+  <img
+    src="/assets/drivers/Kimberly_Profile.jpeg"
+    alt="Kimberly Wolf"
   >
-    <img
-      src="/assets/drivers/Kimberly_Profile.jpeg"
-      alt="Contributor Name"
-    >
-  </div>
+</div>
 
 
+<!-- ROW 2: BIO / BLURB + LINKS -->
 
-  <!-- ROW 2: BIO / OTHER BLURB -->
-
+<div
+  class="driver-piece driver-stack"
+  style="
+    --col: 5 / span 6;
+    --row: 2;
+  "
+>
 
   <div
-    class="driver-piece driver-bio piece-fade"
+    class="driver-bio piece-glow"
     style="
-      --col: 5 / span 6;
-      --row: 2;
       --piece-color: var(--color-24);
     "
   >
-    <span class="driver-blurb-label">Working on / Thinking about</span>
+    <span class="driver-blurb-label">
+      Working on / Thinking about
+    </span>
 
     <p>
       As for myself, I'm currently working on a full length collection. I've been thinking a lot about silence and the unsaid, about Emily Dickinson and the inexpressible, the finality of death and what it means to protect someone's memories.
@@ -103,27 +111,30 @@ image:
   </div>
 
 
-
-  <!-- ROW 2: LINKS -->
-
-
   <div
-    class="driver-piece driver-links"
+    class="driver-links"
     style="
-      --col: 1 / span 5;
-      --row: 3;
       --piece-color: var(--color-23);
     "
   >
-    <a href="https://www.instagram.com/hiddenpocketknife" target="_blank" rel="noopener">
+    <a
+      href="https://www.instagram.com/hiddenpocketknife"
+      target="_blank"
+      rel="noopener"
+    >
       Instagram
     </a>
 
-    <a href="https://www.kimberlywolfpoet.com" target="_blank" rel="noopener">
+    <a
+      href="https://www.kimberlywolfpoet.com"
+      target="_blank"
+      rel="noopener"
+    >
       Website
     </a>
   </div>
 
+</div>
 
 </section>
 

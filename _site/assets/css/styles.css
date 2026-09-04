@@ -2981,13 +2981,23 @@ audio:hover {
   grid-template-columns: repeat(12, minmax(0, 1fr));
   grid-auto-rows: minmax(40px, auto);
   gap: 20px 24px;
-
+  row-gap: 28px;
+  margin-top: 42px;
   width: 100%;
   margin: 32px 0 64px;
 
   /* intentionally no border/background/glow */
 }
 
+.driver-stack {
+  align-self: stretch;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 24px;
+}
 
 /* ============================================
    DRIVER PIECES
@@ -3000,7 +3010,7 @@ audio:hover {
 
   grid-column: var(--col, auto);
   grid-row: var(--row, auto);
-
+  padding-bottom: 6px;
   min-width: 0;
   align-self: start;
 }
@@ -3092,71 +3102,41 @@ audio:hover {
 
 
 /* ============================================
-   OPTIONAL SURFACE TREATMENTS
-
-   These are independent of content type.
-   Pick whichever treatment/color fits that
-   contributor's composition.
+   DRIVER PIECE SURFACES
+   Light/paint effects only.
+   No borders, boxes, or card treatments.
    ============================================ */
 
+.driver-piece {
+  --piece-color: var(--purple);
 
-/* Thin painted edge */
+  grid-column: var(--col, auto);
+  grid-row: var(--row, auto);
 
-.driver-piece.piece-line {
-  padding-top: 12px;
+  min-width: 0;
+  align-self: start;
 
-  border-top: 1px solid
-    color-mix(
-      in srgb,
-      var(--piece-color) 60%,
-      transparent
-    );
+  position: relative;
+  isolation: isolate;
 }
 
 
-/* Very light translucent candy wash */
+/* --------------------------------------------
+   BARE
+   No treatment at all.
+   -------------------------------------------- */
 
-.driver-piece.piece-wash {
-  padding: 16px 18px;
-
-  background:
-    linear-gradient(
-      120deg,
-      color-mix(
-        in srgb,
-        var(--piece-color) 13%,
-        transparent
-      ),
-      color-mix(
-        in srgb,
-        var(--piece-color) 4%,
-        transparent
-      ) 55%,
-      transparent
-    );
+.driver-piece.piece-bare {
+  background: none;
+  box-shadow: none;
+  filter: none;
 }
 
 
-/* Softer fade rather than a rectangular fill */
-
-.driver-piece.piece-fade {
-  padding: 16px 18px;
-
-  background:
-    radial-gradient(
-      ellipse at top left,
-      color-mix(
-        in srgb,
-        var(--piece-color) 15%,
-        transparent
-      ),
-      transparent 68%
-    );
-}
-
-
-/* Glow — useful around an image or individual panel,
-   but never applied to the whole canvas */
+/* --------------------------------------------
+   GLOW
+   Keep this one.
+   -------------------------------------------- */
 
 .driver-piece.piece-glow {
   filter:
@@ -3164,35 +3144,134 @@ audio:hover {
       0 0 10px
       color-mix(
         in srgb,
-        var(--piece-color) 24%,
+        var(--piece-color) 30%,
+        transparent
+      )
+    )
+    drop-shadow(
+      0 0 22px
+      color-mix(
+        in srgb,
+        var(--piece-color) 14%,
         transparent
       )
     );
 }
 
 
-/* Optional inset/panel treatment */
+/* --------------------------------------------
+   CANDY
+   Layered translucent color underneath.
+   No visible rectangle.
+   -------------------------------------------- */
 
-.driver-piece.piece-panel {
-  padding: 16px 18px;
+.driver-piece.piece-candy::before {
+  content: "";
 
-  border-left: 2px solid
-    color-mix(
-      in srgb,
-      var(--piece-color) 55%,
-      transparent
+  position: absolute;
+  z-index: -1;
+
+  inset: -18% -12%;
+
+  background:
+    radial-gradient(
+      ellipse at 30% 45%,
+      color-mix(
+        in srgb,
+        var(--piece-color) 24%,
+        transparent
+      ) 0%,
+      color-mix(
+        in srgb,
+        var(--piece-color) 10%,
+        transparent
+      ) 42%,
+      transparent 72%
     );
+
+  filter: blur(14px);
+  pointer-events: none;
+}
+
+
+/* --------------------------------------------
+   HALO
+   More concentrated reflected light.
+   -------------------------------------------- */
+
+.driver-piece.piece-halo::before {
+  content: "";
+
+  position: absolute;
+  z-index: -1;
+
+  width: 85%;
+  height: 70%;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  background:
+    radial-gradient(
+      ellipse,
+      color-mix(
+        in srgb,
+        var(--piece-color) 28%,
+        transparent
+      ) 0%,
+      color-mix(
+        in srgb,
+        var(--piece-color) 10%,
+        transparent
+      ) 45%,
+      transparent 75%
+    );
+
+  filter: blur(18px);
+  pointer-events: none;
+}
+
+
+/* --------------------------------------------
+   SHEEN
+   A faint diagonal reflection rather than
+   a background panel.
+   -------------------------------------------- */
+
+.driver-piece.piece-sheen::before {
+  content: "";
+
+  position: absolute;
+  z-index: -1;
+
+  inset: -10%;
 
   background:
     linear-gradient(
-      90deg,
+      115deg,
+      transparent 20%,
       color-mix(
         in srgb,
-        var(--piece-color) 9%,
+        var(--piece-color) 8%,
         transparent
-      ),
-      transparent 70%
+      ) 42%,
+      color-mix(
+        in srgb,
+        white 9%,
+        transparent
+      ) 50%,
+      color-mix(
+        in srgb,
+        var(--piece-color) 7%,
+        transparent
+      ) 57%,
+      transparent 78%
     );
+
+  filter: blur(5px);
+  pointer-events: none;
 }
 
 
