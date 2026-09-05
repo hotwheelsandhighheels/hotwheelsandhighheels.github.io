@@ -29,6 +29,7 @@
   --type-h1: clamp(32pt, 6vw, 48pt);
   --type-h2: 22pt;
   --type-h3: 11pt;
+  --type-h4: 11pt;
   --type-editor-name: clamp(52pt, 7vw, 68pt);
   --type-driver-name: clamp(44pt, 5.5vw, 54pt);
   --type-driver-h1: clamp(30pt, 4.5vw, 40pt);
@@ -357,7 +358,7 @@ h3 {
 h4 {
   font-family: var(--font-mono);
   font-weight: 500;
-  font-size: 12pt;
+  font-size: var(--type-h4);
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--color-30);

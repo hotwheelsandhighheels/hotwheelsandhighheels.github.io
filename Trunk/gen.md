@@ -17,10 +17,24 @@ sidebar: |
 - 1928 to 1945 (Pew Research Center)
 - 1925 to 1945 (Jean M. Twenge)
 
+#### Vibes
+- Traditionalist 
+- "Seen but not heard" 
+- Children of the Great Depression
+
 ### Boomers
 #### Ranges
 - 1946 to 1964 (Pew Research Center)
-- 1946 to 1964 (Jean M. Twenge)
+- 1946 to 1964 (Jean M. Twenge)  
+
+#### Vibes
+- Economic prosperity 
+- "Pull yourself up by your bootstraps"
+
+#### CUSP: Generation Jones
+- Economic struggles following prosperity
+- "Keeping up the with Joneses" or "Jonesing"
+  - a yearning/craving for unfulfilled expectations of an economic boom
 
 ### Gen X
 #### Ranges
@@ -34,15 +48,25 @@ sidebar: |
 - 1982 to 2004 (Howe & Stauss) 
 - 1982 to 2002-2006 (Shaun Scott)
 
+#### Vibes
+- "Peter Pan" syndrome
+- "Millennial pause"  
+
 ### Gen Z
 #### Ranges
 - 1997 to 2012 (Pew Research Center)
 - 1995 to 2012 (Jean M. Twenge)
 
+#### Vibes
+- "Gen Z stare"
+
 ### Gen Alpha
 #### Ranges
 - 2013 to 2020s (Pew Research Center)
 - 2013 to 2029 (Jean M. Twenge)
+
+#### Vibes
+- Honeybadgers
 
 ### Gen Beta
 #### Ranges
