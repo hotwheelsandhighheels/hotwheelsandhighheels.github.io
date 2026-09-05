@@ -175,7 +175,8 @@ If I was a flower, I would grow inside Amboy Crater.
 <!-- DRIVER NAVIGATION -->
 <div class="driver-nav">
   <a href="/Drivers/Sam/">← Previous Driver</a>
-  <a href="/Trunk/">Pop the Trunk →</a>
+  <a href="/Drivers/Kimberly/">Next Driver →</a>
+</div>
 </div>
 
 <!-- LIGHTBOX -->

@@ -11,7 +11,7 @@ published: true
 
 <img class="banner" 
      src="/assets/drivers/Kimberly_Cover.JPG" 
-     alt="DESCRIBE THE COVER PHOTO" 
+     alt="A recreated photo of Hot Wheels & High Heels' banner. From inside the backseat of a vehicle, legs extend out an open window, ankles crossed, feet wearing sandals. Outside the car window, a view of the sky and some trees. The photo has a rainbowed glare towards the top and is dated in the old school digital camera way." 
      onclick="openLightbox()" 
      style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 48px;">
 
@@ -265,3 +265,15 @@ Kelly White Arnold is an incredible poet who just put out her debut chapbook wit
 Deer Park long gone, You were good for teaching me that something ugly can mean something, even if what it means isn't kind. Thank you for everything.  
 
 Deer Park that's yet to come, Be good to the kids, support the arts, clean up your act.
+
+<!-- DRIVER NAVIGATION -->
+<div class="driver-nav">
+  <a href="/Drivers/Carson/">← Previous Driver</a>
+  <a href="/Trunk/">Pop the Trunk →</a>
+</div>
+
+<!-- LIGHTBOX — hidden by default, opens when banner is clicked -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/drivers/Kimberly_Cover.JPG alt="A recreated photo of Hot Wheels & High Heels' banner. From inside the backseat of a vehicle, legs extend out an open window, ankles crossed, feet wearing sandals. Outside the car window, a view of the sky and some trees. The photo has a rainbowed glare towards the top and is dated in the old school digital camera way.">
+</div>
