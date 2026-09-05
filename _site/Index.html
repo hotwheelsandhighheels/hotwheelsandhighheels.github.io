@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en-US">
+<head><!-- the head includes all meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Wheels & High Heels</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+  <!-- Prevent theme flash: check saved preference before page renders -->
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="/assets/site/Banner.webp" fetchpriority="high">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="/assets/svg/favicon.svg">
+  <link rel="icon" type="image/png" href="/assets/svg/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/svg/favicon.svg">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hot Wheels &amp; High Heels" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Hot Wheels &amp; High Heels | Come with me &amp; catch a vibe!</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Hot Wheels &amp; High Heels" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Come with me &amp; catch a vibe!" />
+<meta property="og:description" content="Come with me &amp; catch a vibe!" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Hot Wheels &amp; High Heels" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Hot Wheels &amp; High Heels" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Come with me &amp; catch a vibe!","headline":"Hot Wheels &amp; High Heels","name":"Hot Wheels &amp; High Heels","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <script>
+  (function() {
+    if (window.innerWidth <= 600) {
+      var shown = sessionStorage.getItem('desktop-nudge-shown');
+      if (!shown) {
+        setTimeout(function() {
+          var nudge = document.createElement('div');
+          nudge.id = 'desktop-nudge';
+          nudge.innerHTML = '<p>This project is best explored on desktop</p><button onclick="document.getElementById(\'desktop-nudge\').remove(); sessionStorage.setItem(\'desktop-nudge-shown\', \'true\');">got it ♡</button>';
+          document.body.appendChild(nudge);
+          sessionStorage.setItem('desktop-nudge-shown', 'true');
+        }, 2000);
+      }
+    }
+  })();
+</script>
+ 
+<link rel="stylesheet" href="https://cdring.neocities.org/cdring/onionring.css">
+
+</head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <main id="main" tabindex="-1">
+      <br>
+<br>
+<br>
+<center>
+    <p> Welcome to </p>
+<h1 class="home-title">Hot Wheels & High Heels</h1>
+    <p>The speed limit is 140mph but some cars go&nbsp;faster&nbsp;than&nbsp;that!<br>
+    Watch out, you might catch a <i>flash</i><br><br>
+    These creatives are brought to you from the Mediterranean center of Southern California,<br>
+    where the Pacific meets the West Coast <br>
+    a dreamy place of palm trees & perfect sun <br></p>
+<p>
+<a href="/Drivers/" class="ride-link">Come Ride With Us</a>
+</p>
+</center>
+<footer>
+  <div style="text-align: center;">
+    <img
+      src="/assets/site/4runner.png"
+      alt="Toyota 4Runner, white with black trim"
+      class="footer"
+      id="runner"
+      onclick="revTheEngine()">
+
+    <p class="footer-dedication">RIP My 2000 Toyota 4runner</p>
+    <p class="footer-dedication-sub">you were the <b><b></b>hottest</b></i> salvage on these sunny roads</p>
+  </div>
+</footer>
+
+<script>
+// Preload 4Runner sounds so they're ready to play instantly.
+// Creating the Audio objects once and loading them upfront
+// eliminates the network fetch delay on first click.
+const sounds = [
+  new Audio('/assets/sounds/Unlocking 4runner.mp3'),
+  new Audio('/assets/sounds/02 Engine Start 4runner.mp3')
+];
+
+// Tell the browser to load the audio files before they're needed
+sounds.forEach(audio => {
+  audio.preload = 'auto';
+  audio.load();
+});
+
+function revTheEngine() {
+  // Pick a random sound
+  const audio = sounds[Math.floor(Math.random() * sounds.length)];
+  
+  // Reset to beginning if it was played before
+  audio.currentTime = 0;
+  audio.play();
+
+  // Shake the car — only if user hasn't requested reduced motion
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const car = document.getElementById('runner');
+    car.classList.add('footer-shake');
+    setTimeout(() => car.classList.remove('footer-shake'), 500);
+  }
+}
+</script>
+    </main>
+    <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="Back to top">&#8593;</button>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">☼</button>
+<script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    const btn = document.querySelector('.theme-toggle');
+    if (html.getAttribute('data-theme') === 'light') {
+      html.removeAttribute('data-theme');
+      btn.textContent = '☼';
+      localStorage.removeItem('theme');
+    } else {
+      html.setAttribute('data-theme', 'light');
+      btn.textContent = '☽';
+      localStorage.setItem('theme', 'light');
+    }
+  }
+
+  (function() {
+    if (localStorage.getItem('theme') === 'light') {
+      document.querySelector('.theme-toggle').textContent = '☽';
+    }
+  })();
+</script>
+  </body>
+</html>

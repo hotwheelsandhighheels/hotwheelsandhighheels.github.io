@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en-US">
+<head><!-- the head includes all meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+  <!-- Prevent theme flash: check saved preference before page renders -->
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="/assets/site/Banner.webp" fetchpriority="high">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="/assets/svg/favicon.svg">
+  <link rel="icon" type="image/png" href="/assets/svg/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/svg/favicon.svg">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hot Wheels &amp; High Heels" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Submit | Hot Wheels &amp; High Heels</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Submit" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Come with me &amp; catch a vibe!" />
+<meta property="og:description" content="Come with me &amp; catch a vibe!" />
+<link rel="canonical" href="http://localhost:4000/submit/" />
+<meta property="og:url" content="http://localhost:4000/submit/" />
+<meta property="og:site_name" content="Hot Wheels &amp; High Heels" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Submit" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Come with me &amp; catch a vibe!","headline":"Submit","url":"http://localhost:4000/submit/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <script>
+  (function() {
+    if (window.innerWidth <= 600) {
+      var shown = sessionStorage.getItem('desktop-nudge-shown');
+      if (!shown) {
+        setTimeout(function() {
+          var nudge = document.createElement('div');
+          nudge.id = 'desktop-nudge';
+          nudge.innerHTML = '<p>This project is best explored on desktop</p><button onclick="document.getElementById(\'desktop-nudge\').remove(); sessionStorage.setItem(\'desktop-nudge-shown\', \'true\');">got it ♡</button>';
+          document.body.appendChild(nudge);
+          sessionStorage.setItem('desktop-nudge-shown', 'true');
+        }, 2000);
+      }
+    }
+  })();
+</script>
+ 
+<link rel="stylesheet" href="https://cdring.neocities.org/cdring/onionring.css">
+
+</head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="container">
+      <nav>
+  <a href="/" class="nav-logo">Hot Wheels & High Heels</a>
+  <button class="nav-toggle" 
+          aria-label="Open menu" 
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+  <ul id="nav-menu">
+    
+    <li><a class="" href="/About/">About</a></li>
+    
+    <li><a class="" href="/Drivers/">Drivers</a></li>
+    
+    <li><a class="" href="/Trunk/">Trunk</a></li>
+    
+  </ul>
+</nav>
+<script>
+function toggleMenu() {
+  const menu = document.getElementById('nav-menu');
+  const btn = document.querySelector('.nav-toggle');
+
+  menu.classList.toggle('open');
+  btn.classList.toggle('open');
+
+  const expanded = btn.classList.contains('open');
+  btn.setAttribute('aria-expanded', expanded);
+  btn.setAttribute('aria-label', expanded ? 'Close menu' : 'Open menu');
+}
+</script>
+      <main id="main" tabindex="-1">
+        <div class="survey-container">
+
+  <h1>The Pump</h1>
+<p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">
+    <strong>Before you send something:</strong> Please do not submit private messages, images of minors, medical/legal information, addresses, or sensitive personal information unless it is your own material and you are comfortable with me reviewing it. <br />Any concerns should be noted in restrictions field. 
+  </p>
+  <hr />
+
+  <form action="https://formspree.io/f/mwvjwgjy" method="POST" enctype="multipart/form-data" class="submit-form">
+
+<input type="hidden" name="_subject" value="New HW&amp;Hh archive submission" />
+<!-- File -->
+<label for="file">File: </label>
+<p class="form-hint">Upload. Or input link below.</p>
+<input type="file" id="file" name="file" accept="file_extension,audio/*,video/*,image/*,.gif,media_type" />
+
+<!-- Source link -->
+<label for="source_link">Source link: </label>
+<p class="form-hint">Share source link if possible.</p>
+<input type="url" id="source_link" name="source_link" placeholder="https://..." />
+
+<!-- Title -->
+<label for="title">Title: </label>
+<input type="text" id="title" name="title" />
+
+<!-- Creator / account -->
+<label for="creator">Creator / account / username: <span class="form-required">*</span></label>
+<input type="text" id="creator" name="creator" placeholder="e.g. @username, unknown, deleted account" />
+
+<!-- Date -->
+<label for="date">Date created: </label>
+<input type="text" id="date" name="date" placeholder="e.g. 03-15-2014, June 2026, circa 2012" />
+
+<!-- Capture / saved date -->
+<label for="capture_date">Date saved, reblogged, or screenshot: </label>
+<input type="text" id="capture_date" name="capture_date" placeholder="e.g. saved 05-27-2015, reblogged circa 2014" />
+
+<!-- Context -->
+<label for="context">Context: <span class="form-required">*</span></label>
+<p class="form-hint">What's the lore?</p>
+<textarea id="context" name="context" rows="5" required=""></textarea>
+
+<!-- Significance -->
+<label for="significance">Significance: </label>
+<p class="form-hint">Why is it important?</p>
+<textarea id="significance" name="significance" rows="3"></textarea>
+
+<!-- Restrictions -->
+<label for="restrictions">Restrictions: <span class="form-required">*</span></label>
+<p class="form-hint">Should anything be blurred, anonymized, kept private, credited carefully, or reviewed before publication? <br /> If no, type 'clear.'</p>
+<textarea id="restrictions" name="restrictions" rows="3"></textarea>
+
+<!-- Ownership / rights -->
+<fieldset class="form-fieldset">
+  <legend>This is: <span class="form-required">*</span></legend>
+
+  <label class="form-radio">
+    <input type="radio" name="ownership" value="mine" required="" />
+    Your original content
+  </label>
+
+  <label class="form-radio">
+    <input type="radio" name="ownership" value="captured" />
+    Content you saved, screenshotted, reblogged, or captured
+  </label>
+
+  <label class="form-radio">
+    <input type="radio" name="ownership" value="public-web" />
+    Public web content
+  </label>
+
+  <label class="form-radio">
+    <input type="radio" name="ownership" value="unsure" />
+    Other / Not sure
+  </label>
+</fieldset>
+
+<!-- Sensitivity -->
+<fieldset class="form-fieldset">
+  <legend>Privacy / sensitivity check <span class="form-required">*</span></legend>
+
+  <label class="form-radio">
+    <input type="radio" name="sensitivity" value="no-sensitive-info" required="" />
+    This does NOT include private messages, minors, addresses, medical/legal information, or sensitive identifying details.
+  </label>
+
+  <label class="form-radio">
+    <input type="radio" name="sensitivity" value="contains-sensitive-info" />
+    This may include private, identifying, or sensitive information. Review before publication.
+  </label>
+
+  <label class="form-radio">
+    <input type="radio" name="sensitivity" value="not-sure" />
+    Review-only.
+  </label>
+</fieldset>
+
+<!-- Consent / review -->
+<fieldset class="form-fieldset">
+  <legend>Submission agreement <span class="form-required">*</span></legend>
+
+  <label class="form-checkbox">
+    <input type="checkbox" name="agreement_review" value="yes" required="" />
+    By submitting, you give Hot Wheels &amp; High Heels permission to review and/or use this content for archival research &amp; website publication. You also agree that you provided the best possible source/context information and are at least 18 years old or have permission from a parent/guardian to submit.
+  </label>
+</fieldset>
+
+<!-- Email -->
+<label for="email">Contact </label>
+<input type="email" id="email" name="email" />
+
+<input type="text" name="_gotcha" style="display:none" />
+
+<button type="submit" class="submit-btn">Send ♡</button>
+```
+
+  </form>
+
+  <p style="text-align: center; font-size: 9pt; opacity: 0.5; margin-top: 32px;">
+    submissions are processed through Formspree and sent to alejandra@hotwheelsandhighheels.com
+  </p>
+
+</div>
+
+<!-- TRUNK NAVIGATION -->
+
+<div class="driver-nav">
+  <a href="/About/">← Back 2 About</a>
+  <a href="/Trunk/">Pop the Trunk →</a>
+</div>
+
+      </main>
+    </div>
+    <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="Back to top">&#8593;</button>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">☼</button>
+<script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    const btn = document.querySelector('.theme-toggle');
+    if (html.getAttribute('data-theme') === 'light') {
+      html.removeAttribute('data-theme');
+      btn.textContent = '☼';
+      localStorage.removeItem('theme');
+    } else {
+      html.setAttribute('data-theme', 'light');
+      btn.textContent = '☽';
+      localStorage.setItem('theme', 'light');
+    }
+  }
+
+  (function() {
+    if (localStorage.getItem('theme') === 'light') {
+      document.querySelector('.theme-toggle').textContent = '☽';
+    }
+  })();
+
+  function selectAllText(element) {
+    var range = document.createRange();
+    var selection = window.getSelection();
+    range.selectNodeContents(element);
+    selection.removeAllRanges();
+    selection.addRange(range);
+  }
+
+  function openBlessingLightbox(src) {
+    document.getElementById('blessing-lightbox-img').src = src;
+    document.getElementById('blessing-lightbox').classList.add('open');
+  }
+
+  function closeBlessingLightbox() {
+    document.getElementById('blessing-lightbox').classList.remove('open');
+  }
+
+  function toggleInterests(el) {
+    var container = el.closest('.bio-text').querySelector('.myspace-interests');
+    if (container) {
+      container.classList.toggle('open');
+    }
+  }
+
+  function openLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) lightbox.classList.add('open');
+  }
+
+  function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) lightbox.classList.remove('open');
+  }
+</script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="hwhh-column-layout hwhh-kandy-lime">
+  <aside
+    class="hwhh-column-sidebar hwhh-column-sidebar-left"
+    aria-label="{{ page.sidebar_label | default: 'Section navigation' }}">
+    {% if page.sidebar_title %}
+      <h2>{{ page.sidebar_title }}</h2>
+    {% endif %}
+    {{ page.sidebar | markdownify }}
+  </aside>
+
+  <article class="hwhh-column-main">
+    {{ content }}
+  </article>
+</div>

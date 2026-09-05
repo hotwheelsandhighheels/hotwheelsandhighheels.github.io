@@ -1,14 +1,69 @@
-# Jon Tobias
-
-![Photo by Kimberly Tobias](/Images/Jon_Profile.jpg "Photo by Kimberly Tobias") 
-
-Jon Tobias is an MFA student at San Diego State University. He is the author of the chapbook, **Talking to Ghosts**, published by _Quillkeepers Press_. His poems have appeared in anthologies and online with _Quillkeepers Press_, _Zone 3_, _White Stag Publishing_, and _Kindabummed Magazine_. His short fiction has appeared online and in print by _A Word With You Press_.
-
-_Connect with Jon on IG_: [Metaphors_be_with_you](instagram.com/metaphors_be_with_you)
-
-_Check out his chapbook_ [Talking to Ghosts](https://www.amazon.com/dp/B0CXRZGD7P?ref=cm_sw_r_ffobk_cp_ud_dp_72299J8DV36J7M4SQZE4&ref_=cm_sw_r_ffobk_cp_ud_dp_72299J8DV36J7M4SQZE4&social_share=cm_sw_r_ffobk_cp_ud_dp_72299J8DV36J7M4SQZE4&bestFormat=true)
-
 ---
+layout: default
+body_class: post
+title: Jon Tobias
+publication date: Winter Solstice, 2024
+description: An interview with Jon Tobias, San Diego native, poetry MFA graduate from San Diego State University and author of the chapbook Talking to Ghosts, published by Quillkeepers Press.
+banner: assets/drivers/Jon_Cover.jpg
+tags: 
+published: true
+---
+
+<!-- COVER PHOTO BANNER — click to expand -->
+<img class="banner" 
+     src="/assets/drivers/Jon_Cover.jpg" 
+     alt="A recreated photo of Hot Wheels & High Heels' banner. A cropped view of Jon Tobias reading a book on the toilet with a mug on the ground in front of him. He is wearing blue briefs with bananas printed on them. He has colorful sneakers with pink laces. The book he is reading is by CA CONRAD." 
+     onclick="openLightbox()" 
+     style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; margin-bottom: 48px;">
+
+<h1 class="driver-name">Jon Tobias</h1>
+
+<!-- BIO CARD -->
+<div class="bio-card">
+  <div class="bio-image">
+    <img src="/assets/drivers/Jon_Profile.jpg" alt="Black and White photo of Jon in a hoodie and beanie against a tiled wall.">
+  </div>
+  <div class="bio-text">
+    <p>Jon Tobias is an MFA student at San Diego State University. He is the author of the chapbook, <strong>Talking to Ghosts</strong>, published by <em>Quillkeepers Press</em>. His poems have appeared in anthologies and online with <em>Quillkeepers Press</em>, <em>Zone 3</em>, <em>White Stag Publishing</em>, and <em>Kindabummed Magazine</em>. His short fiction has appeared online and in print by <em>A Word With You Press</em>.</p>
+    <p class="connect-links">
+      <a href="https://www.instagram.com/metaphors_be_with_you">Instagram</a>
+      <span class="interests-toggle" onclick="toggleInterests(this)">✦</span>
+      <a href="https://www.amazon.com/dp/B0CXRZGD7P">Talking to Ghosts</a>
+    </p>
+    <div class="myspace-interests">
+      <table class="interests-table">
+        <tr>
+          <td>general</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>music</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>movies</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>television</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>books</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>heroes</td>
+          <td> </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+# a Memory
 
 ### Tell me about your favorite pair of shoes: 
 
@@ -16,15 +71,15 @@ The first pair of shoes I remember were a blue and grey pair of light up shoes f
 
 ### Tell me about your favorite car: 
 
-My favorite car was gifted to me by Kimberley's father. Kimberley is my wife. It was her old car when she was in high school. They kept it and used it to run errands. It was a little 04 red Chevy Cobalt named Carol. We were living in San Antonio at the time, and my 04 Nissan Maxima died on me. That was the worst car I ever owned. A total lemon. But, Carol, she got me back to Texas from Simi Valley where Kimberley’s parents live, and then back to San Diego in 2019 just before Covid hit. If I type my current address into google and then street image the map, I can see Carol parked on the street in front of my apartment. There's probably a poem in there somewhere. Something about memory and google maps.
+My favorite car was gifted to me by Kimberley's father. Kimberley is my wife. It was her old car when she was in high school. They kept it and used it to run errands. It was a little 04 red Chevy Cobalt named Carol. We were living in San Antonio at the time, and my 04 Nissan Maxima died on me. That was the worst car I ever owned. A total lemon. But, Carol, she got me back to Texas from Simi Valley where Kimberley's parents live, and then back to San Diego in 2019 just before Covid hit. If I type my current address into google and then street image the map, I can see Carol parked on the street in front of my apartment. There's probably a poem in there somewhere. Something about memory and google maps.
 
-### What parts of San Diego feel like they belong to you alone? Which places capture the essence of “true” San Diego for you, and which ones feel like they’re just playing the part?
+### What parts of San Diego feel like they belong to you alone? Which places capture the essence of "true" San Diego for you, and which ones feel like they're just playing the part?
 
-I grew up in El Cajon. Spent most of my early teen years on Estes Street right across from Renette Park. I made my best friend, Chris, there on that street when I was 12. We're still best friends. We'll never not be. For me, El Cajon is San Diego. I have way too many good memories tied to that city for it not to be my place. I would never tell anyone to vacation there. Don't even worry about visiting. It's special for reasons that no one else can experience while there. If you want to visit, stay downtown. Go check out the Zoo and Sea World, and Balboa Park, and Old Town. Go to Mission or Ccean Beach.
+I grew up in El Cajon. Spent most of my early teen years on Estes Street right across from Renette Park. I made my best friend, Chris, there on that street when I was 12. We're still best friends. We'll never not be. For me, El Cajon is San Diego. I have way too many good memories tied to that city for it not to be my place. I would never tell anyone to vacation there. Don't even worry about visiting. It's special for reasons that no one else can experience while there. If you want to visit, stay downtown. Go check out the Zoo and Sea World, and Balboa Park, and Old Town. Go to Mission or Ocean Beach.
 
 ### What was it like growing up in San Diego? Was there ever a time you dreamt of leaving? If you could go anywhere, where would you go—and would you eventually find yourself back here?
 
-San Diego is my home. Growing up was hard, but it would have been hard anywhere. Both my parents were mentally ill, and unfortunately that traveled with them wherever they went. We were very poor. Don't let the light up kicks confuse you. We went to a lot of church food distributions. El Cajon isn't the nicest part of SD, but the community was strong. For example, Gary, the owner of Gary's Pizza which isn't there anymore, used to send me home with pizza and breadsticks for free when he knew we were struggling. The owner of the laundromat across from Gary's used to let us do our laundry for free when we couldn't pay. We looked out for each other. 
+San Diego is my home. Growing up was hard, but it would have been hard anywhere. Both my parents were mentally ill, and unfortunately that traveled with them wherever they went. We were very poor. Don't let the light up kicks confuse you. We went to a lot of church food distributions. El Cajon isn't the nicest part of SD, but the community was strong. For example, Gary, the owner of Gary's Pizza which isn't there anymore, used to send me home with pizza and breadsticks for free when he knew we were struggling. The owner of the laundromat across from Gary's used to let us do our laundry for free when we couldn't pay. We looked out for each other.
 
 I've visited Chicago twice, and I could move there. I loved it. I don't know how to explain it, but it really brought out the artist in me. I also visited Chris in Springfield, Missouri while he was getting his nursing degree, and felt weirdly at peace there. I had no interest in making art or writing, but I remember feeling so unexplainably calm. So, to sum up your question, I could see myself moving to Chicago, but I always envision myself coming back here to San Diego.
 
@@ -32,9 +87,9 @@ I've visited Chicago twice, and I could move there. I loved it. I don't know how
 
 My father was born in Clairemont and my mother was adopted and raised in Point Loma. They met at a bank where she was a teller and he was a security guard. I don't know what San Diego was to them besides home. I never thought to ask if it was more than that.
 
-### Which parent do you see most when you look at yourself? And what pieces of the other parent show up in ways you can’t deny?
+### Which parent do you see most when you look at yourself? And what pieces of the other parent show up in ways you can't deny?
 
-I'm my father. I have his face and body shape. His hair turned completely grey by the time he was thirty, so I don't have that. For a long time I wanted it though. I thought it would make me look dapper to be young with grey hair. The older I get the more I look like him. My mother had this unending need to take care of people to the point of self-destruction. I don't have it as bad as she did, but I sometimes do find myself forgetting my own needs so that I can meet someone else's. It's hard to not want to help people, and if you love them, it’s almost impossible. I'm better about it now, but it has taken a lot of work.
+I'm my father. I have his face and body shape. His hair turned completely grey by the time he was thirty, so I don't have that. For a long time I wanted it though. I thought it would make me look dapper to be young with grey hair. The older I get the more I look like him. My mother had this unending need to take care of people to the point of self-destruction. I don't have it as bad as she did, but I sometimes do find myself forgetting my own needs so that I can meet someone else's. It's hard to not want to help people, and if you love them, it's almost impossible. I'm better about it now, but it has taken a lot of work.
 
 ### Where do you go when you crave romance? What place draws you back to friendship, to childhood? Where do you go to feel free, to unleash anger, to find unfiltered joy?
 
@@ -72,11 +127,11 @@ The real reason? No. I think people say its because of the climate and generatio
 
 It's not someplace I went too often. For me, it was the architecture. I remember it being very aesthetically pleasing. Its absence is a reminder of how much money and only money matters to some people. I know it was a shopping mall, but it also felt like a landmark.
 
-### What’s changed most about San Diego in the past 10 years, or even the past 20? What parts of it never change, no matter what?
+### What's changed most about San Diego in the past 10 years, or even the past 20? What parts of it never change, no matter what?
 
 El Cajon is still the same from when I was a kid. Maybe a few mom and pop shops have come and gone, but that's it. I think what I see now is lots of new apartment buildings springing up everywhere. Oh and the bridge between North Park and Hillcrest finally got built. It felt like they were working on that little bridge for years. I'm not even sure how useful it is.
 
-### San Diego has such a mix of people from different places. Who is a person you’ve met here who changed you unexpectedly? Tell us about them.
+### San Diego has such a mix of people from different places. Who is a person you've met here who changed you unexpectedly? Tell us about them.
 
 I think anyone who expressed kindness. When we were kids ,there was this guy named Kenny, who we secretly called Swings because he swung his arms so high while he walked. He used to work at the Home Town Buffet and would sneak us in through the exit so we could eat. He was just a nice guy and was 100% unafraid of the consequences. I think I learned from him the importance of breaking rules especially if it helps someone else.
 
@@ -84,7 +139,7 @@ I think anyone who expressed kindness. When we were kids ,there was this guy nam
 
 Oh man. One thing I love about San Diego is how culturally diverse it is. I meet more people who moved here than I meet natives. In El Cajon we had a big Arabic community. I remember one time I had to take a cab to the store I worked at in Rancho San Diego, and when the cab pulled up there were a bunch of Arabic men playing backgammon in front of a nearby Starbucks. The driver with tears in his eyes, said, "it's like home," parked and went to join the men. I loved how welcomed I felt in that community. It's probably influenced my writing in that I've written poems about experiences I've had while being a part of those communities. Definitely a lot of recognizing moments of kindness and acceptance.
 
-### What’s a sound unique to San Diego that instantly brings you back to a particular memory or feeling?
+### What's a sound unique to San Diego that instantly brings you back to a particular memory or feeling?
 
 The parrots. I think the sound of parrots squawking is always going to remind me of San Diego.
 
@@ -94,13 +149,13 @@ Right now would be when I do the same morning walks with my dog in my neighborho
 
 ### Tell me about that moment of transcendence that sealed your destiny as a writer:
 
-I was given my first book of poetry as a kid. It was a copy of Dragons Dragons by Eric Carle. It's a collection of poems about mythological characters across multiple cultures. I couldn't read yet, but people wouldn't know it because I pretty much had that book memorized. It's where I found my love for poetry. For the longest time because of that book I thought poetry was what you went to when you wanted to talk about what you thought god was. It wasn't until I found Russel Simmons Def Poetry Jam that I knew I was going to be a poet. It was the first time poetry felt like it was about my own lived experiences. Something clicked while watching it, and I knew it was what I was going to do for the rest of my life. I'll never not be a poet. I'll die if I try to be anything else.
+I was given my first book of poetry as a kid. It was a copy of Dragons Dragons by Eric Carle. It's a collection of poems about mythological characters across multiple cultures. I couldn't read yet, but people wouldn't know it because I pretty much had that book memorized. It's where I found my love for poetry. For the longest time because of that book I thought poetry was what you went to when you wanted to talk about what you thought god was. It wasn't until I found Russell Simmons Def Poetry Jam that I knew I was going to be a poet. It was the first time poetry felt like it was about my own lived experiences. Something clicked while watching it, and I knew it was what I was going to do for the rest of my life. I'll never not be a poet. I'll die if I try to be anything else.
 
-### Who are your inspirations?Name a few that are constant and a few that are new. 
+### Who are your inspirations?Name a few that are constant and a few that are new. 
 
 William Carlos Williams. Blake. Amy Hempel. Yehuda Amichai. CA Conrad.
 
-### What was your favorite book growing up? Favorite book(s) as an adult? Recent read that you loved? Name all the books! 
+### What was your favorite book growing up? Favorite book(s) as an adult? Recent read that you loved? Name all the books! 
 
 Dragons Dragons by Eric Carle. Stephen King's Dark Tower Series. House of Leaves by Danielewski. Incidents Around the House by Josh Malerman. Gaze Back by Marylyn Tan. Listen to the Golden Boomerang Return by CA Conrad.
 
@@ -108,15 +163,15 @@ Dragons Dragons by Eric Carle. Stephen King's Dark Tower Series. House of Leaves
 
 I love pretty much all words. I don't know if I have any I hold close to my chest. I do hate the word singeing. I don't like the way it looks. I find the e in that word very upsetting.
 
-### What kinds of themes do you subconsciously return to? 
+### What kinds of themes do you subconsciously return to? 
 
 Tenderness. Self-reflection. I really like to uplift/poetize other people. Especially strangers. I especially like to use poetry to practice vulnerability. I find that no matter how deep I dig I am never alone with what I find. If you're vulnerable and practice it with care, there is always going to be someone who can relate. It gives people a chance to be seen. You make someone feel not-alone and you'll realize there are few feelings that are better than that.
 
-### What’s a boundary you feel you’ll always need to push? What’s one you’re happy to keep?
+### What's a boundary you feel you'll always need to push? What's one you're happy to keep?
 
 Writers should always push boundaries. I think poetry should always feel like punk rock. Please, if you are any type of writer, always take risks. Always.
 
-### Do you have any superstitions about the writing process that you absolutely stick to? 
+### Do you have any superstitions about the writing process that you absolutely stick to? 
 
 Live. Don't ever tell yourself, "I should be writing right now." You jinx yourself and you stop being present. Your writing comes from many wells and they can run dry. 
 
@@ -130,7 +185,7 @@ Sometimes I hear something and a poem gets stuck in my head. I can't get it out 
 
 I'm coming back to this question, and I also have to say that it depends on what I want to write. I have a lot of habits that would probably start to read like neurosis if I listed them off. I definitely have a different way of entering the writing space based off what I want to accomplish. It's a long list.
 
-### How does life inform your poetry? How does your poetry inform life? Do you think writing is more about observing life or living it? Where do you draw the line?
+### How does life inform your poetry? How does your poetry inform life? Do you think writing is more about observing life or living it? Where do you draw the line?
 
 I don't think I know how not to be a poet. I'm pretty sure every space I enter I do it language first. Language, especially metaphor, is embodied. We need it to express ourselves and we hold on to it in ways that really defines us. Poetry informs my life because I do everything as Jon the poet. If I am trying to be something else, I am Jon the poet and this other thing. Writing is about observing and living life at the same time. Learn how to be present. Learn how to recognize a moment becoming a poem. That moment is water for your well. You have to do both and you have to do it at the same time. My advice is start by learning how to be present. Just exist as you are wherever you are. Be with the people you are with. Be in the place you are occupying. Then start journaling about what you noticed. What you remember that felt like a poem or a story. Eventually you'll start doing both at the same time. You'll be in the moment and have the poem. The most important thing though is to live. Live your life. 
 
@@ -138,13 +193,13 @@ Some of the best advice I read about writing came from William Saroyan who said,
 
 ### What question do you wish people asked you about your writing or your life that they rarely do?
 
-I don't know if I have any questions I wish I was asked. I like talking about craft. I like the philosophical parts of writing and the "experimental.” Secretly, I wish everyone asked, "How did you get so fucking good?!"
+I don't know if I have any questions I wish I was asked. I like talking about craft. I like the philosophical parts of writing and the "experimental." Secretly, I wish everyone asked, "How did you get so fucking good?!"
 
 ### What crafts and hobbies do you love and take part in? Is there a specific craft or hobby you are proud of that many people might not know about you? 
 
 I really like wood burning. I'll make coasters by tracing images from polaroids and then use transfer paper to copy the images to wooden disks. Then I'll trace the image with my wood burner. I like working with my hands. Any opportunity to create something I'll take. Kimberley is often coming up with new projects for us to do at home. Our apartment is full of art we've made. I'm trying to learn Python at the moment so I can start writing code poetry.
 
-### Is there a place in San Diego that’s woven into your memory or writing in ways that surprise you? What’s the story behind it?
+### Is there a place in San Diego that's woven into your memory or writing in ways that surprise you? What's the story behind it?
 
 I got this idea for a poem from that big tree in the middle of Balboa Park. I was walking Penny there, and suddenly thought, if trees weren't ever cut down would they live forever? Then I thought, If I could live forever I would want to spend however long it took to watch a tree grow from a seed all the way to its natural death. I started working on a few poems imagining what that would be like.
 
@@ -155,3 +210,15 @@ Probably the street/neighborhood I grew up in. Where I spent most of my unadult 
 ### What would you write in a letter to the San Diego of your childhood, and what would you write in a letter to the San Diego of the future?
 
 Dear baby San Diego. Do you remember the Drive-in? Do you remember Marshal Scotty's? The Wednesday afternoon muscle cars and lowriders? Do you remember when I was fascinated with ghosts and my mother would call me at home from places that were crowded and tell me she was alone? From the middle of the Santa Fe Station, she'd say, "Do you think this place is haunted? Can you hear all the people? It's weird because I am alone. It's just me and all the dead travelers waiting for their train." San Diego. How much of you is a ghost. How do you phantom limb a street? Do you still hold the memory of my first kiss in the dirt lot behind my old home that is now apartment housing? Is the ghost of my first kiss floating in someone's bedroom? What part of you is grave? What part of you is phoenix? What patch of you do you want me to press my lips to before I pray?
+
+<!-- DRIVER NAVIGATION -->
+<div class="driver-nav">
+  <a href="/Drivers/">← Back to Gallery</a>
+  <a href="/Drivers/Alana/">Next Driver →</a>
+</div>
+
+<!-- LIGHTBOX — hidden by default, opens when banner is clicked -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">close</span>
+  <img src="/assets/drivers/Jon_Cover.jpg" alt="A recreated photo of Hot Wheels & High Heels' banner. A cropped view of Jon Tobias reading a book on the toilet with a mug on the ground in front of him. He is wearing blue briefs with bananas printed on them. He has colorful sneakers with pink laces. The book he is reading is by CA CONRAD.">
+</div>

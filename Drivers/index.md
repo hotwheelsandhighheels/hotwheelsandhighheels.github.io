@@ -1,0 +1,43 @@
+---
+layout: default
+permalink: /Drivers/
+title: Drivers - Hot Wheels & High Heels
+---
+
+<div class="gallery">
+  <a href="/revving-up/" class="gallery-card feature-card" aria-label="Revving Up teaser">
+  </a>
+  <a href="/Drivers/Carson" class="gallery-card">
+    <img src="/assets/drivers/Carson_Cover.JPG" alt="A recreated photo of Hot Wheels & High Heels' banner. A person sits open-legged on a toilet in a dark room, hands brought together at center. Below the hands, a Jason Voorhees mask from Friday the 13th glows green. To the right, a figurine from the Saw franchise. To the left, a character with flower-shaped glasses, grinning with all teeth, wearing what looks like a swimming cap. In the hands rests a Hellraiser puzzle cube, with a small character silhouette balanced on top. The scene is lit by green glow against the dark.">
+  </a>
+  <a href="/Drivers/Sam" class="gallery-card">
+    <img src="/assets/drivers/Sam_Cover.jpg" alt="A blurry photo taken from a vehicle. The outline of the vehicle's window is visible in the frame. The view captures a coral sunset above a small shopping center. The location markers are blurred, the only text legible is DELI.">
+  </a>
+  <a href="/Drivers/abenet" class="gallery-card">
+    <img src="/assets/drivers/A-benet_cover.jpg" alt="a recreated photo of hot wheels and high heels's banner. a.benét's hands holding a cell phone between her knees with both hands. the cell phone is in camera mode. there is a leopard-print bag on the ground next to a green mug with coffee in it. the bag is open and shows a pencil case and notebook. a.benét wears a jean jacket, gold jewelry, black pants and Nikes.">
+  </a>
+  <a href="/Drivers/Jack" class="gallery-card">
+    <img src="/assets/drivers/Jack_Cover.jpeg" alt="A photo of Jack sitting on a bathroom counter, one leg bent and the other extend under a closed faucet. There is a full wall mirror in front of the counter that Jack is leaning against. There is a wine bottle on the counter, a wine glass in his hand, and a book in the other. His face is only visible in the mirror.">
+  </a>
+  <a href="/Drivers/Angela" class="gallery-card">
+    <img src="/assets/drivers/Angela_Cover.JPG" alt="A cropped photo of a blue chevy lowrider with a woman leaning against it. You can see the lower, driver's side half of the front bumper, headlight, and front wheel. The woman poses with one leg bent as if to show off her heels. The heels are open-toed, strapped, and golden.">
+  </a>
+  <a href="/Drivers/Alana" class="gallery-card">
+    <img src="/assets/drivers/Alana_Cover.jpeg" alt="a recreated photo of hot wheels and high heels's banner. Alana Rodriguez sits outside on a stoop. Visible in the fram are her hands holding a cell phone, her long hair, an iced latte, and her sneakers. On one shoe, the laces hold a City of Chula Vista pendant.">
+  </a>
+  <a href="/Drivers/Jon" class="gallery-card">
+    <img src="/assets/drivers/Jon_Cover.jpg" alt="a recreated photo of hot wheels and high heels's banner. A cropped view of Jon Tobias reading a book on the toilet with a mug on the ground in front of him. He is wearing blue briefs with bananas printed on them. He has colorful sneakers with pink laces. The book he is reading is by CA CONRAD.">
+  </a>
+</div>
+
+<div class="poetry-links">
+  <h1>Poetry</h1>
+  <a href="/Drivers/abenet#a-poem">"Somewhere in the Bay, a Girl Dreams of Daygo" by a.benét</a>
+  <a href="/Drivers/Alana#a-poem">"For that swirling pile of trash" by Alana Rodriguez</a>
+  <p><a href="/survey-driver/"><img src="/assets/blinkies/cellflash.gif"></a></p>
+</div>
+
+<div class="driver-nav">
+  <a href="/About/">← About</a>
+  <a href="/Trunk/">Trunk →</a>
+</div>

@@ -1,0 +1,46 @@
+<head><!-- the head includes all meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+  <!-- Prevent theme flash: check saved preference before page renders -->
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="/assets/site/Banner.webp" fetchpriority="high">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="/assets/svg/favicon.svg">
+  <link rel="icon" type="image/png" href="/assets/svg/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/svg/favicon.svg">
+    {% feed_meta %}
+    {% seo %}
+
+  <script>
+  (function() {
+    if (window.innerWidth <= 600) {
+      var shown = sessionStorage.getItem('desktop-nudge-shown');
+      if (!shown) {
+        setTimeout(function() {
+          var nudge = document.createElement('div');
+          nudge.id = 'desktop-nudge';
+          nudge.innerHTML = '<p>This project is best explored on desktop</p><button onclick="document.getElementById(\'desktop-nudge\').remove(); sessionStorage.setItem(\'desktop-nudge-shown\', \'true\');">got it ♡</button>';
+          document.body.appendChild(nudge);
+          sessionStorage.setItem('desktop-nudge-shown', 'true');
+        }, 2000);
+      }
+    }
+  })();
+</script>
+ 
+<link rel="stylesheet" href="https://cdring.neocities.org/cdring/onionring.css">
+
+</head>
