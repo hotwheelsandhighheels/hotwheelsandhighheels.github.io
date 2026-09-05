@@ -177,7 +177,7 @@ If I was a flower, I would grow inside Amboy Crater.
   <a href="/Drivers/Sam/">← Previous Driver</a>
   <a href="/Drivers/Kimberly/">Next Driver →</a>
 </div>
-</div>
+
 
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
