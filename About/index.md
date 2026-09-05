@@ -28,6 +28,6 @@ My cousins are my best friends. Nothing matters without them. Without them there
 <span class="email-toggle" onclick="this.innerHTML = this.innerHTML === 'DROPBOX' ? 'alejandra@hotwheelsandhighheels.com' : 'DROPBOX'" style="cursor: url('/assets/svg/cursor.svg') 8 2, auto; color: var(--pink); font-family: var(--font-mono); font-size: 10pt; text-transform: uppercase;">DROPBOX</span>
 
 <div class="driver-nav">
-  <a href="/">← Home</a>
+  <a href="/"></a>
   <a href="/Drivers/">Drivers →</a>
 </div>

@@ -29,7 +29,7 @@
   --type-h1: clamp(32pt, 6vw, 48pt);
   --type-h2: 22pt;
   --type-h3: 11pt;
-  --type-h4: 11pt;
+  --type-h4: 10pt;
   --type-editor-name: clamp(52pt, 7vw, 68pt);
   --type-driver-name: clamp(44pt, 5.5vw, 54pt);
   --type-driver-h1: clamp(30pt, 4.5vw, 40pt);
@@ -382,7 +382,8 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: var(--purple);
 }
 
 hr {
@@ -390,7 +391,11 @@ hr {
   border-top: 0.5px solid var(--pink);
   margin: 24px 0;
 }
-
+h4 + ul,
+h4 + ol {
+  margin-top: 0;
+  padding-top: 0;
+}
 /* --- LISTS --- */
 .a-list {
   display: grid;
@@ -418,7 +423,11 @@ hr {
 }
 
 .container ul li, .container ol li, .wiki-page ul li, .wiki-page ol li {
-  margin-bottom: 4px;
+  margin-bottom: 0px;
+}
+.container ul:not(.a-list) li::marker,
+.wiki-page ul:not(.a-list) li::marker {
+  font-size: 8pt;
 }
 
 .ride-link {
@@ -496,7 +505,6 @@ nav ul li a:hover {
 nav .active {
   color: var(--pink) !important;
   opacity: 1 !important;
-  text-decoration: underline !important;
 }
 
 /* --- HAMBURGER MENU --- */
