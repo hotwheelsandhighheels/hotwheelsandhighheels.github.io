@@ -27,13 +27,7 @@ sidebar: |
     <a id="next" href="#" style="color: #8de926; text-decoration: none; font-weight: bold;">next</a>
     <span style="color: white;">&gt;</span></p>
   </div></center>
-  <div style="text-align:center;">
-  <a href="https://literring.neocities.org/?action=previous" target="_top" rel="noopener" style="text-decoration:none;color:#000;">←</a>
-  <a href="https://literring.neocities.org/" target="_top" rel="noopener" style="display:inline-block;">
-    <img src="https://literring.neocities.org/images/literring/lt-purple.png" alt="Literring button" width="140" style="height:auto;border:0;vertical-align:middle;">
-  </a>
-  <a href="https://literring.neocities.org/?action=next" target="_top" rel="noopener" style="text-decoration:none;color:#000;">→</a>
-  </div>  
+    
 ---
 
 # Hydraulics
