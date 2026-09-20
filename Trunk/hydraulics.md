@@ -26,8 +26,11 @@ sidebar: |
     <a id="random" href="#" style="color: #8de926; text-decoration: none; font-weight: bold;">random</a> <span style="color: white;">|</span>
     <a id="next" href="#" style="color: #8de926; text-decoration: none; font-weight: bold;">next</a>
     <span style="color: white;">&gt;</span></p>
-  </div></center>
-    
+  </div><img src="/assets/blinkies/widget.png" usemap="#hispanogrid" /><map name="hispanogrid"><area target="_blank" title="Previo" href="https://webri.ng/webring/hispano/previous?via=SITIO" coords="0,0,15,31" shape="rect" /><area target="_blank" title="Listado" href="https://webri.ng/webring/hispano" coords="71,16,57,30,71,30" shape="poly" /><area target="_blank" title="Aleatorio" href="https://webri.ng/webring/hispano/random" coords="16,14,30,0,16,0" shape="poly" /><area target="_blank" title="Siguiente" href="https://webri.ng/webring/hispano/next?via=SITIO" coords="72,0,88,31" shape="rect" /><area target="_blank" title="Webring Hispanohablante" href="https://lcp.nekoweb.org/hispano" coords="16,0,71,30" shape="rect" /></map><div>
+    <a href="https://latamring.neocities.org/"><b>LATAMring</b></a><br />
+    <a href="https://latamring.neocities.org/?action=previous">previous</a>
+    <a href="https://latamring.neocities.org/?action=random">random</a>
+    <a href="https://latamring.neocities.org/?action=next">next</a></div></center>
 ---
 
 # Hydraulics

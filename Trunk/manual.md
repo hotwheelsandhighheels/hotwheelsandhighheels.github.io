@@ -1,6 +1,6 @@
 ---
 layout: impala
-permalink: /Manifesto/
+permalink: /Manual/
 title: Driver's Manual - Hot Wheels & High Heels
 sidebar_title: Collections
 sidebar_label: Related links and context
@@ -25,7 +25,7 @@ sidebar: |
 ## Dashboard 
 
   This website is a culmination of these projects:
-  - Study of the personal narrative in creative non-fiction as related to the Double Perspective
+  - Study of the personal narrative in creative non-fiction as related to the Double Perspective <a href="/Trunk/dp/"><img src="/assets/blinkies/images.melonland-21.gif"></a>
   - Application of the Double Perspective to poetry 
   - Oral histories of city dwelling told from the perspective of young creatives
   - Study of the Millennial generation and associated generations
@@ -42,7 +42,8 @@ sidebar: |
   - About: brief description of the site and road to personal profile
   - Drivers: Oral histories of city dwelling told from the perspective of young creatives plus some creative content 
      > In reverse publication order: 
-    - Carson Sandell, San Jose, CA <a href="/Drivers/Carson/"><img src="/assets/blinkies/images.melonland-16.gif"></a>
+    - Kimberly Wolf, Deer Park, TX <a href="/Drivers/Kimberly/"><img src="/assets/blinkies/images.melonland-16.gif"></a>
+    - Carson Sandell, San Jose, CA 
     - Sam Yaziji, Miami, FL
     - a.benét, San Diego, CA
     - Angela Mendoza, Santa Rosa, CA
