@@ -5,7 +5,8 @@ title: Drivers - Hot Wheels & High Heels
 ---
 
 <div class="gallery">
-  <a href="/revving-up/" class="gallery-card feature-card" aria-label="Revving Up teaser">
+  <a href="/Drivers/Kimberly" class="gallery-card">
+    <img src="/assets/drivers/Kimberly_Cover.JPG" alt="A recreated photo of Hot Wheels & High Heels' banner. From inside the backseat of a vehicle, legs extend out an open window, ankles crossed, feet wearing sandals. Outside the car window, a view of the sky and some trees. The photo has a rainbowed glare towards the top and is dated in the old school digital camera way.">
   </a>
   <a href="/Drivers/Carson" class="gallery-card">
     <img src="/assets/drivers/Carson_Cover.JPG" alt="A recreated photo of Hot Wheels & High Heels' banner. A person sits open-legged on a toilet in a dark room, hands brought together at center. Below the hands, a Jason Voorhees mask from Friday the 13th glows green. To the right, a figurine from the Saw franchise. To the left, a character with flower-shaped glasses, grinning with all teeth, wearing what looks like a swimming cap. In the hands rests a Hellraiser puzzle cube, with a small character silhouette balanced on top. The scene is lit by green glow against the dark.">
@@ -34,6 +35,8 @@ title: Drivers - Hot Wheels & High Heels
   <h1>Poetry</h1>
   <a href="/Drivers/abenet#a-poem">"Somewhere in the Bay, a Girl Dreams of Daygo" by a.benét</a>
   <a href="/Drivers/Alana#a-poem">"For that swirling pile of trash" by Alana Rodriguez</a>
+  <a href="/Drivers/Kimberly#a-poem">"Guided Tour" by Kimberly Wolf</a>
+  <>
   <p><a href="/survey-driver/"><img src="/assets/blinkies/cellflash.gif"></a></p>
 </div>
 
