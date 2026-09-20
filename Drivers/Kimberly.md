@@ -174,7 +174,7 @@ Yes, all of them.
 
 Yes, even the parents.  
 
-<a href="https://waymarkmagazine.com/spring-summer-2026-issue/"><img src="/assets/blinkies/images.melonland-5.png"></a>
+<a href="https://waymarkmagazine.com/spring-summer-2026-issue/" target="_blank"><img src="/assets/blinkies/images.melonland-5.png"></a>
 
 # a Memory 
 
@@ -230,11 +230,11 @@ Oh wow, absolutely. I started drinking heavily around the time I turned 19. Prio
 
 ### Another thing we have connected on is being a parent. How does being a parent affect how you navigate writing, work, and an online presence? 
 
-I had my first kid when I was 21, and my second when I was 26. During this time I struggled with my sobriety, and didn't make any time for creativity. Now that I'm sober, I have had to learn how to balance being a parent and being a poet while raw dogging reality without any mind altering substances! <span style="color: var(--color-21);">Routine is important for me. If I don't have a schedule, I feel like I'm lost at sea.</span> What that looks like is making a down to the hour daily schedule where I spend x amount of time writing, x amount of time studying (I'm a full time student), x amount of time doing things that are just fun (reading, video games, tv), and my evenings are open to family time.
+<span style="color: var(--color-22);">I had my first kid when I was 21, and my second when I was 26.</span> <span style="color: var(--color-09);">During this time I struggled with my sobriety, and didn't make any time for creativity.</span> <span style="color: var(--color-22);">Now that I'm sober, I have had to learn how to balance being a parent and being a poet while raw dogging reality without any mind altering substances!</span> <span style="color: var(--color-21);">Routine is important for me. If I don't have a schedule, I feel like I'm lost at sea.</span> What that looks like is making a down to the hour daily schedule where I spend x amount of time writing, x amount of time studying (I'm a full time student), x amount of time doing things that are just fun (reading, video games, tv), and my evenings are open to family time.
 
 ### What generation do you consider yourself a part of? What generalizations about your generation do you accept and which ones feel stereotypical? 
 
-I'm a millennial! It's funny to me to hear my kids use "millennial" as an almost derogatory term, but at the same time, how many times have I heard millennials use "boomer" in the same way? I can't even count lol! I tend to just not even really think about generational rivalries, and sometimes the little digs at millennials are funny! Especially the concept of the "millennial pause", that's so real. Having a 15 year old will definitely give you thick skin, they notice EVERYTHING and will call you out on it! I think my number one thought process when it comes to teenagers like my kid making fun of millennials is that I'm an adult and refuse to let a teenager hurt my feelings lol!!
+I'm a millennial! It's funny to me to hear my kids use "millennial" as an almost derogatory term, but at the same time, how many times have I heard millennials use "boomer" in the same way? I can't even count lol! I tend to just not even really think about generational rivalries, and sometimes the little digs at millennials are funny! Especially the concept of the "millennial pause", that's so real. <span style="color: var(--color-23);">Having a 15 year old will definitely give you thick skin, they notice EVERYTHING and will call you out on it!</span> I think my number one thought process when it comes to teenagers like my kid making fun of millennials is that I'm an adult and refuse to let a teenager hurt my feelings lol!!
 
 ### How do you relate to others in your generation? What struggles seem to affect a whole generation versus you as an individual? 
 
@@ -242,7 +242,7 @@ I'm a millennial! It's funny to me to hear my kids use "millennial" as an almost
 
 ### How would you compare your generation to your parents' or your children's? 
 
-I think my generation is much more prone to seeking help vs. my parent's generation seeing asking for help as some kind of moral failure. That is something that I'm glad is changing. My kid's generation, at least from the examples I see from my children and their friends, are so much more accepting of people's differences. Last night, we watched an old episode of The Amazing Race with my 10 year old son, and he was SHOCKED by all of the derogatory and bigoted comments made by some contestants about other's appearances. He was like, "Is this really what was normal back then?"
+I think my generation is much more prone to seeking help vs. my parent's generation seeing asking for help as some kind of moral failure. That is something that I'm glad is changing. <span style="color: var(--color-11);">My kid's generation, at least from the examples I see from my children and their friends, are so much more accepting of people's differences.</span> <span style="color: var(--color-08);">Last night, we watched an old episode of The Amazing Race with my 10 year old son, and he was SHOCKED by all of the derogatory and bigoted comments made by some contestants about other's appearances. He was like, "Is this really what was normal back then?"</span>
 
 ### Describe a moment from growing up in Texas that felt like it changed your whole generation. 
 
@@ -250,21 +250,21 @@ I think my generation is much more prone to seeking help vs. my parent's generat
 
 ### What is your relationship with the web like? When did you hop on? How did it start and how is it going? What do you love about it? What do you hate about it? 
 
-We got a computer when I was in middle school, and Neopets was my jam. Oh my god, I loved Neopets. It was this website where you "raised" this little creature and could but it food and take it to the vet if it got sick. There were also message boards on Neopets, and I think my first foray into creative writing was on the vampire RPG message boards where I was roleplaying as a sexy blonde vampire girl who didn't want to be evil but had to have human blood to live, the DRAMA!! I love the way the internet connects people who otherwise would have NEVER crossed paths. I actually met my partner of 8 years on Tumblr, which is maybe one of the most millennial things ever. That being said, what the internet has become is something I don't love anymore. It's less about connecting and more about selling something. I don't want to be addicted to watching ads all day.
+<span style="color: var(--color-10);">We got a computer when I was in middle school,</span> <span style="color: var(--color-09);">and Neopets was my jam. Oh my god, I loved Neopets.</span> <span style="color: var(--color-14);">It was this website where you "raised" this little creature and could but it food and take it to the vet if it got sick.</span> There were also message boards on Neopets, and I think <span style="color: var(--color-01);">my first foray into creative writing was on the vampire RPG message boards where I was roleplaying as a sexy blonde vampire girl who didn't want to be evil but had to have human blood to live, the DRAMA!!</span> <span style="color: var(--color-23);">I love the way the internet connects people who otherwise would have NEVER crossed paths.</span> <span style="color: var(--color-26);">I actually met my partner of 8 years on Tumblr, which is maybe one of the most millennial things ever.</span> <span style="color: var(--color-02);">That being said, what the internet has become is something I don't love anymore.</span> It's less about connecting and more about selling something. I don't want to be addicted to watching ads all day.
 
 ### How has technology influenced or shaped your creative projects? How do you feel about references to digital life in poetry? 
 
-I find references to tech, or more specifically, the act of being online show up more and more in my poetry. It's something that I think about a lot, the relationship most people have to the internet being this all consuming thing that dictates how they behave and show up in their relationships. The weirdest thing for me is when I'm hanging out with someone and they are on their phone half the time, scrolling through various apps.
+<span style="color: var(--color-25);">I find references to tech, or more specifically, the act of being online show up more and more in my poetry.</span> It's something that I think about a lot, <span style="color: var(--color-20);">the relationship most people have to the internet being this all consuming thing that dictates how they behave and show up in their relationships.</span> The weirdest thing for me is when I'm hanging out with someone and they are on their phone half the time, scrolling through various apps.
 
 ### SHOUT OUTS
 
-Kelly White Arnold is an incredible poet who just put out her debut chapbook with Finishing LIne Press, you can get it here: <a href="https://finishinglinepress.com/product/decidedly-uncertain-by-kelly-white-arnold"><img src="/assets/blinkies/images.melonland-4.png"></a>
+<span style="color: var(--color-30);">Kelly White Arnold</span> is an incredible poet who just put out her debut chapbook with <span style="color: var(--color-28);">Finishing Line Press,</span> you can get it here: <a href="https://finishinglinepress.com/product/decidedly-uncertain-by-kelly-white-arnold" target="_blank"><img src="/assets/blinkies/images.melonland-4.png"></a>
 
 ### What would you write in a letter to the Deer Park of your childhood? What would you write to the Deer Park of the future? 
 
-Deer Park long gone, You were good for teaching me that something ugly can mean something, even if what it means isn't kind. Thank you for everything.  
+Deer Park long gone, You were good for teaching me that <span style="color: var(--color-21);">something ugly can mean something, even if what it means isn't kind.</span> Thank you for everything.  
 
-Deer Park that's yet to come, Be good to the kids, support the arts, clean up your act.
+Deer Park that's yet to come, <span style="color: var(--color-05);">Be good to the kids, support the arts, clean up your act.</span>
 
 <!-- DRIVER NAVIGATION -->
 <div class="driver-nav">
