@@ -275,5 +275,5 @@ Deer Park that's yet to come, <span style="color: var(--color-05);">Be good to t
 <!-- LIGHTBOX — hidden by default, opens when banner is clicked -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close">close</span>
-  <img src="/assets/drivers/Kimberly_Cover.JPG alt="A recreated photo of Hot Wheels & High Heels' banner. From inside the backseat of a vehicle, legs extend out an open window, ankles crossed, feet wearing sandals. Outside the car window, a view of the sky and some trees. The photo has a rainbowed glare towards the top and is dated in the old school digital camera way.">
+  <img src="/assets/drivers/Kimberly_Cover.JPG" alt="A recreated photo of Hot Wheels & High Heels' banner. From inside the backseat of a vehicle, legs extend out an open window, ankles crossed, feet wearing sandals. Outside the car window, a view of the sky and some trees. The photo has a rainbowed glare towards the top and is dated in the old school digital camera way.">
 </div>
