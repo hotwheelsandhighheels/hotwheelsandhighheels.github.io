@@ -1,0 +1,19 @@
+# this is where you do configurations apparently. I don't exactly know what that means. 
+title: Hot Wheels & High Heels 
+description: Come with me & catch a vibe! 
+url: "https://hotwheelsandhighheels.com"
+permalink: pretty
+
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
+
+include:
+  - .htaccess
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - _templates

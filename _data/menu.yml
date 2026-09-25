@@ -1,0 +1,10 @@
+# this is your navigation menu. the navigation.html file in includes plugs these in
+- title: About
+  link: /About/
+  show_on_mobile: true
+- title: Drivers
+  link: /Drivers/
+  show_on_mobile: true
+- title: Trunk
+  link: /Trunk/
+  show_on_mobile: true
