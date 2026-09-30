@@ -680,14 +680,14 @@ a, button {
 }
 
 /* --- IMAGE GALLERY --- */
+
 .container .gallery {
-  display: grid;
+  display: block;
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 16px;
+  columns: 3 250px;
+  column-gap: 16px;
   margin-bottom: 48px;
 }
 
@@ -695,13 +695,15 @@ a, button {
   position: relative;
   overflow: hidden;
   border-radius: 4px;
-  display: block;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 16px;
+  break-inside: avoid;
 }
 
 .gallery-card img {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
+  height: auto;
   display: block;
   filter: brightness(0.6);
   transition: filter 0.3s ease;
