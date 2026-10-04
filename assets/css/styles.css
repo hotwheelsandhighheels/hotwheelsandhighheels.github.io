@@ -3315,3 +3315,102 @@ audio:hover {
   }
 
 }
+
+/* ============================================
+   13. TRUNK — INTERACTIVE COLLECTION MAP
+   Path-based hotspots. The pink drawing stays visible
+   above each colored hover fill.
+   ============================================ */
+
+.trunk-scene {
+  width: min(100%, 1200px);
+  margin: 32px auto 64px;
+}
+
+.trunk-map {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.trunk-map-base,
+.trunk-map-lines {
+  pointer-events: none;
+}
+
+.trunk-map-lines {
+  opacity: 1;
+}
+
+.trunk-hotspot {
+  --hotspot-color: var(--pink);
+  cursor: url('/assets/svg/cursor.svg') 8 2, pointer;
+  outline: none;
+}
+
+.trunk-hotspot-shape {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 2px;
+  vector-effect: non-scaling-stroke;
+  pointer-events: all;
+  transition:
+    fill 180ms ease,
+    stroke 180ms ease,
+    filter 180ms ease,
+    opacity 180ms ease;
+}
+
+/* Seatbelt is a narrow object, so its path behaves like a thick illuminated line. */
+.trunk-hotspot-line {
+  fill: none;
+  stroke: transparent;
+  stroke-width: 24px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.trunk-hotspot:hover .trunk-hotspot-shape:not(.trunk-hotspot-line),
+.trunk-hotspot:focus-visible .trunk-hotspot-shape:not(.trunk-hotspot-line) {
+  fill: color-mix(in srgb, var(--hotspot-color) 48%, transparent);
+  stroke: var(--hotspot-color);
+  filter:
+    drop-shadow(0 0 5px var(--hotspot-color))
+    drop-shadow(0 0 14px var(--hotspot-color));
+}
+
+.trunk-hotspot:hover .trunk-hotspot-line,
+.trunk-hotspot:focus-visible .trunk-hotspot-line {
+  stroke: color-mix(in srgb, var(--hotspot-color) 70%, transparent);
+  filter:
+    drop-shadow(0 0 5px var(--hotspot-color))
+    drop-shadow(0 0 14px var(--hotspot-color));
+}
+
+.trunk-hotspot-label {
+  opacity: 0;
+  pointer-events: none;
+  font-family: var(--font-mono);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  fill: var(--hotspot-color);
+  paint-order: stroke;
+  stroke: var(--bg);
+  stroke-width: 6px;
+  stroke-linejoin: round;
+  transition: opacity 150ms ease;
+}
+
+.trunk-hotspot:hover .trunk-hotspot-label,
+.trunk-hotspot:focus-visible .trunk-hotspot-label {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trunk-hotspot-shape,
+  .trunk-hotspot-label {
+    transition: none;
+  }
+}
