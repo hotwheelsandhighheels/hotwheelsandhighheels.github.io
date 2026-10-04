@@ -25,7 +25,7 @@ title: Trunk - Hot Wheels & High Heels
     <!-- REARVIEW -->
     <a class="trunk-hotspot" data-hotspot="rearview" href="/Trunk/epoch/" aria-label="Memory Ln." style="--hotspot-color: var(--color-10);">
       <path class="trunk-hotspot-shape" d="M 574 151 C 595 149 642 150 662 153 C 668 158 668 169 664 174 C 646 179 594 180 573 176 C 568 171 568 158 574 151 Z" />
-      <text class="trunk-hotspot-label" x="618" y="137" text-anchor="middle">Memory Ln.</text>
+      <text class="trunk-hotspot-label" x="618" y="210" text-anchor="middle">Memory Ln.</text>
     </a>
 
     <!-- LEFT WINDOW -->
@@ -37,7 +37,7 @@ title: Trunk - Hot Wheels & High Heels
     <!-- RIGHT WINDOW 1 -->
     <a class="trunk-hotspot" data-hotspot="right-window-1" href="/Trunk/archive/" aria-label="The Feed" style="--hotspot-color: var(--color-12);">
       <path class="trunk-hotspot-shape" d="M 914 135 C 934 124 958 116 987 109 C 1002 112 1012 126 1016 145 C 1024 180 1028 221 1017 264 C 995 269 968 270 942 268 C 934 244 928 220 923 193 C 918 169 914 150 914 135 Z" />
-      <text class="trunk-hotspot-label" x="962" y="118" text-anchor="middle">The Feed</text>
+      <text class="trunk-hotspot-label" x="962" y="165" text-anchor="middle">The Feed</text>
     </a>
 
     <!-- RIGHT WINDOW 2 -->
