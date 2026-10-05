@@ -3366,7 +3366,7 @@ audio:hover {
 .trunk-hotspot-line {
   fill: none;
   stroke: transparent;
-  stroke-width: 24px;
+  stroke-width: 8px;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
@@ -3413,4 +3413,7 @@ audio:hover {
   .trunk-hotspot-label {
     transition: none;
   }
+}
+.trunk-grid {
+  pointer-events: none;
 }
