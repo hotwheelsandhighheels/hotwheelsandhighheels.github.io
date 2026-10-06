@@ -11,7 +11,6 @@ title: Trunk - Hot Wheels & High Heels
 
   <image class="trunk-map-base" href="/assets/site/trunk.png" x="0" y="0" width="1614" height="975" preserveAspectRatio="xMidYMid meet" />
 
-
 <!-- LEFT VISOR -->
 <a class="trunk-hotspot" data-hotspot="left-visor" href="#unassigned" aria-label="Left Visor" style="--hotspot-color: var(--color-24);">
   <path class="trunk-hotspot-shape" d="M 391 108 C 420 105 487 105 520 107 C 524 114 530 117 542 116 L 542 126 C 530 126 526 131 520 135 C 485 137 430 137 413 135 C 405 128 397 129 391 127 C 386 123 386 113 391 108 Z" />
@@ -140,7 +139,7 @@ title: Trunk - Hot Wheels & High Heels
   L 1120 340 
   C 1120 340 1130 300 1150 260 
   Z" />
-  <text class="trunk-hotspot-label" x="1229" y="310" text-anchor="middle">Pocket</text>
+  <text class="trunk-hotspot-label" x="1239" y="310" text-anchor="middle">Pocket</text>
 </a>
 
 <!-- SIDE SHELF -->
@@ -156,7 +155,7 @@ title: Trunk - Hot Wheels & High Heels
   C 1100 400 1070 395 1070 390
   C 1070 390 1070 360 1080 355
   Z" />
-  <text class="trunk-hotspot-label" x="1170" y="395" text-anchor="middle">Shelf</text>
+  <text class="trunk-hotspot-label" x="1170" y="405" text-anchor="middle">Shelf</text>
 </a>
 
 <!-- SIDE POCKET -->
@@ -197,7 +196,7 @@ d="
   C 1050 520 1060 490 1040 470
   L 1070 410
   Z" />
-  <text class="trunk-hotspot-label" x="1190" y="585" text-anchor="middle">Panel</text>
+  <text class="trunk-hotspot-label" x="1100" y="585" text-anchor="middle">Panel</text>
 </a>
 
 <!-- POWER OUTLET -->
@@ -209,7 +208,7 @@ d="
   C 1415 650 1400 650 1391 642 
   L 1391 600
   Z" />
-  <text class="trunk-hotspot-label" x="1395" y="558" text-anchor="middle">Hydraulics</text>
+  <text class="trunk-hotspot-label" x="1300" y="600" text-anchor="middle">Hydraulics</text>
 </a>
 
 <!-- LEFT BRAKE -->
@@ -231,7 +230,7 @@ d="
   C 1524 480 1525 450 1524 420 
   C 1520 420 1520 380 1495 331
   Z" />
-  <text class="trunk-hotspot-label" x="1555" y="309" text-anchor="middle">Brakelight</text>
+  <text class="trunk-hotspot-label" x="1550" y="320" text-anchor="start">Brakelight</text>
 </a>
 
 <!-- CARGO FLOOR -->
@@ -239,12 +238,11 @@ d="
   <path class="trunk-hotspot-shape" d="
   M 315 640 
   C 497 632 819 624 1075 617 
-  C 1166 651 1251 690 1325 731 
-  C 1308 744 1278 751 1238 755 
-  C 1026 765 718 770 387 777 
-  C 347 779 319 776 301 770 
-  C 282 764 268 755 259 744 
-  C 268 708 284 674 315 640 
+  C 1166 651 1251 690 1325 735 
+  C 1308 744 1278 748 1238 748 
+  C 1026 765 718 770 500 777 
+  C 500 777 280 800 266 755
+  L 310 645
   Z" />
   <text class="trunk-hotspot-label" x="790" y="704" text-anchor="middle">Cargo</text>
 </a>
@@ -267,7 +265,7 @@ d="
   L 150 925
   L 200 888
   Z" />
-  <text class="trunk-hotspot-label" x="808" y="902" text-anchor="middle">Bumper</text>
+  <text class="trunk-hotspot-label" x="808" y="1000" text-anchor="middle">Bumper</text>
 </a>
 
 <!-- Re-draw the pink linework over the hover fills so the drawing stays crisp. -->
