@@ -1,0 +1,28 @@
+<nav>
+  <a href="/" class="nav-logo">Hot Wheels & High Heels</a>
+  <button class="nav-toggle" 
+          aria-label="Open menu" 
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+  <ul id="nav-menu">
+    {% for item in site.data.menu %}
+    <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+<script>
+function toggleMenu() {
+  const menu = document.getElementById('nav-menu');
+  const btn = document.querySelector('.nav-toggle');
+
+  menu.classList.toggle('open');
+  btn.classList.toggle('open');
+
+  const expanded = btn.classList.contains('open');
+  btn.setAttribute('aria-expanded', expanded);
+  btn.setAttribute('aria-label', expanded ? 'Close menu' : 'Open menu');
+}
+</script>

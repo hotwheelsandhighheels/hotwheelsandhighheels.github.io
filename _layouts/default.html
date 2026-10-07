@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-US">
+{% include head.html %}
+
+  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="container">
+      {% include header.html %}
+      <main id="main" tabindex="-1">
+        {{ content }}
+      </main>
+    </div>
+    <button onclick="window.scrollTo({top:0, behavior: 'smooth'})" class="back-to-top" aria-label="Back to top">&#8593;</button>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">☼</button>
+<script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    const btn = document.querySelector('.theme-toggle');
+    if (html.getAttribute('data-theme') === 'light') {
+      html.removeAttribute('data-theme');
+      btn.textContent = '☼';
+      localStorage.removeItem('theme');
+    } else {
+      html.setAttribute('data-theme', 'light');
+      btn.textContent = '☽';
+      localStorage.setItem('theme', 'light');
+    }
+  }
+
+  (function() {
+    if (localStorage.getItem('theme') === 'light') {
+      document.querySelector('.theme-toggle').textContent = '☽';
+    }
+  })();
+
+  function selectAllText(element) {
+    var range = document.createRange();
+    var selection = window.getSelection();
+    range.selectNodeContents(element);
+    selection.removeAllRanges();
+    selection.addRange(range);
+  }
+
+  function openBlessingLightbox(src) {
+    document.getElementById('blessing-lightbox-img').src = src;
+    document.getElementById('blessing-lightbox').classList.add('open');
+  }
+
+  function closeBlessingLightbox() {
+    document.getElementById('blessing-lightbox').classList.remove('open');
+  }
+
+  function toggleInterests(el) {
+    var container = el.closest('.bio-text').querySelector('.myspace-interests');
+    if (container) {
+      container.classList.toggle('open');
+    }
+  }
+
+  function openLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) lightbox.classList.add('open');
+  }
+
+  function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) lightbox.classList.remove('open');
+  }
+</script>
+  </body>
+</html>

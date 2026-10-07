@@ -1,0 +1,1071 @@
+---
+layout: default
+title: Back Roads - Hot Wheels & High Heels
+permalink: /Trunk/back-roads/
+---
+
+# Back Roads
+This is a visualization of all the ideas being mapped in the archive. It's a lot messier than I intended it to be but like all pages in the Trunk, it is a work in progress and will be changing as I do more research and add to the archive. You can drag the boxes around and click on them to get a little summary.
+
+---
+
+<div class="connections-map-wrapper">
+<div class="connections-container" id="connections-map">
+
+<!-- NODE PREVIEW POPUP -->
+<div class="node-preview" id="node-preview" style="display: none;">
+  <div class="node-preview-content">
+    <span class="node-preview-close" onclick="closePreview()"></span>
+    <h3 id="preview-title"></h3>
+    <p id="preview-type"></p>
+    <p id="preview-description"></p>
+    <a id="preview-link" href="#">→</a>
+  </div>
+</div>
+
+<svg class="connections-svg" id="connections-svg"></svg>
+
+<div style="position: absolute; top: 10px; right: 10px; z-index: 30; display: flex; gap: 8px;">
+  <button id="reveal-all-btn" style="background: transparent; border: 0.5px solid var(--pink); color: var(--pink); font-family: var(--font-body); font-size: 9pt; padding: 4px 10px; cursor: url('/assets/svg/cursor.svg') 8 2, auto; opacity: 0.7;">unfold</button>
+  <button id="reset-map-btn" style="background: transparent; border: 0.5px solid var(--purple); color: var(--purple); font-family: var(--font-body); font-size: 9pt; padding: 4px 10px; cursor: url('/assets/svg/cursor.svg') 8 2, auto; opacity: 0.7;">fold</button>
+</div>
+
+<!-- ============================================
+     CENTER NODE
+     ============================================ -->
+<div class="connection-node center-node" 
+     id="CN-0001"
+     data-x="950" data-y="420"
+     data-depth="0"
+     data-children="CN-0002,CN-0003,CN-0004,CN-0049"
+     data-visible="true">
+  <h3>Humans</h3>
+</div>
+
+<!-- ============================================
+     BRANCH 1: MEMORY (far left, children cascade inward)
+     ============================================ -->
+<div class="connection-node theme-surveillance" 
+     id="CN-0002" 
+     data-x="560" data-y="420" 
+     data-depth="1" 
+     data-parent="CN-0001" 
+     data-children="CN-0005,CN-0006">
+  <h3>Memory</h3>
+</div>
+
+<div class="connection-node theme-surveillance" 
+     id="CN-0005" 
+     data-x="560" data-y="240" 
+     data-depth="2" 
+     data-parent="CN-0002" 
+     data-children="CN-0010,CN-0011,CN-0012,CN-0013">
+  <h3>Memory Worker</h3>
+</div>
+
+<div class="connection-node theme-surveillance" 
+     id="CN-0006" 
+     data-x="560" data-y="600" 
+     data-depth="2" 
+     data-parent="CN-0002" 
+     data-children="CN-0014,CN-0015">
+  <h3>Memory Aids</h3>
+</div>
+
+<div class="connection-node theme-body" 
+     id="CN-0010" 
+     data-x="360" data-y="120" 
+     data-depth="3" 
+     data-parent="CN-0005" 
+     data-children="">
+  <h3>Librarians</h3>
+</div>
+<div class="connection-node theme-body" 
+     id="CN-0011" 
+     data-x="480" data-y="120" 
+     data-depth="3" 
+     data-parent="CN-0005" 
+     data-children="">
+  <h3>Historians</h3>
+</div>
+<div class="connection-node theme-expression" 
+     id="CN-0012" 
+     data-x="600" data-y="120" 
+     data-depth="3" 
+     data-parent="CN-0005" 
+     data-children="CN-0023,CN-0024,CN-0025">
+  <h3>Creatives</h3>
+</div>
+<div class="connection-node theme-body" 
+     id="CN-0013" 
+     data-x="720" data-y="120" 
+     data-depth="3" 
+     data-parent="CN-0005" 
+     data-children="">
+  <h3>Archivists</h3>
+</div>
+
+<!-- CHILDREN of Creatives — cascade inward toward center -->
+<div class="connection-node theme-expression" 
+     id="CN-0023" 
+     data-x="520" data-y="270" 
+     data-depth="4" 
+     data-parent="CN-0012" 
+     data-children="CN-0027,CN-0028,CN-0029,CN-0030">
+  <h3>Literary Arts</h3>
+</div>
+<div class="connection-node theme-expression" 
+     id="CN-0024" 
+     data-x="660" data-y="270" 
+     data-depth="4" 
+     data-parent="CN-0012" 
+     data-children="CN-0031,CN-0032">
+  <h3>Visual Arts</h3>
+</div>
+<div class="connection-node theme-expression" 
+     id="CN-0025" 
+     data-x="800" data-y="270" 
+     data-depth="4" 
+     data-parent="CN-0012" 
+     data-children="CN-0033,CN-0034,CN-0035">
+  <h3>Performing Arts</h3>
+</div>
+
+<!-- CHILDREN of Literary Arts -->
+<div class="connection-node theme-expression" 
+     id="CN-0027" 
+     data-x="420" data-y="390" 
+     data-depth="5" 
+     data-parent="CN-0023" 
+     data-children="">
+  <h3>Poetry</h3>
+</div>
+<div class="connection-node theme-expression" 
+     id="CN-0028" 
+     data-x="520" data-y="390" 
+     data-depth="5" 
+     data-parent="CN-0023" 
+     data-children="">
+  <h3>Drama</h3>
+</div>
+<div class="connection-node theme-expression" 
+     id="CN-0029" 
+     data-x="620" data-y="390" 
+     data-depth="5" 
+     data-parent="CN-0023" 
+     data-children="">
+  <h3>Fiction</h3>
+</div>
+<div class="connection-node theme-expression" 
+     id="CN-0030" 
+     data-x="720" data-y="390" 
+     data-depth="5" 
+     data-parent="CN-0023" 
+     data-children="CN-0052">
+  <h3>Nonfiction</h3>
+</div>
+
+<!-- Double Perspective branch (under Nonfiction, cascading inward) -->
+<div class="connection-node theme-identity" 
+     id="CN-0052" 
+     data-x="820" data-y="500" 
+     data-depth="6" 
+     data-parent="CN-0030" 
+     data-children="CN-0053,CN-0054">
+  <h3>Double Perspective</h3>
+</div>
+<div class="connection-node theme-identity" 
+     id="CN-0053" 
+     data-x="740" data-y="585" 
+     data-depth="7" 
+     data-parent="CN-0052" 
+     data-children="">
+  <h3>Experiencing</h3>
+</div>
+<div class="connection-node theme-identity" 
+     id="CN-0054" 
+     data-x="900" data-y="585" 
+     data-depth="7" 
+     data-parent="CN-0052" 
+     data-children="">
+  <h3>Remembering</h3>
+</div>
+
+<!-- CHILDREN of Visual Arts -->
+<div class="connection-node theme-expression" 
+     id="CN-0031" 
+     data-x="640" data-y="390" 
+     data-depth="5" 
+     data-parent="CN-0024" 
+     data-children="">
+  <h3>Photographers</h3>
+</div>
+<div class="connection-node theme-expression" 
+     id="CN-0032" 
+     data-x="760" data-y="390" 
+     data-depth="5" 
+     data-parent="CN-0024" 
+     data-children="">
+  <h3>Filmmakers</h3>
+</div>
+
+<!-- CHILDREN of Performing Arts -->
+<div class="connection-node theme-expression" 
+     id="CN-0033" 
+     data-x="900" data-y="350" 
+     data-depth="5" 
+     data-parent="CN-0025" 
+     data-children="">
+  <h3>Musicians</h3>
+</div>
+<div class="connection-node theme-expression" 
+     id="CN-0034" 
+     data-x="940" data-y="420" 
+     data-depth="5" 
+     data-parent="CN-0025" 
+     data-children="">
+  <h3>Dancers</h3>
+</div>
+<div class="connection-node theme-expression" 
+     id="CN-0035" 
+     data-x="900" data-y="490" 
+     data-depth="5" 
+     data-parent="CN-0025" 
+     data-children="">
+  <h3>Actors</h3>
+</div>
+
+<!-- CHILDREN of Memory Aids — cascade inward -->
+<div class="connection-node theme-body" 
+     id="CN-0014" 
+     data-x="400" data-y="660" 
+     data-depth="3" 
+     data-parent="CN-0006" 
+     data-children="CN-0036,CN-0037,CN-0038">
+  <h3>Physical Media</h3>
+</div>
+<div class="connection-node theme-online" 
+     id="CN-0015" 
+     data-x="700" data-y="660" 
+     data-depth="3" 
+     data-parent="CN-0006" 
+     data-children="CN-0039,CN-0040,CN-0041,CN-0026">
+  <h3>Digital Media</h3>
+</div>
+
+<!-- CHILDREN of Physical Media -->
+<div class="connection-node theme-body" 
+     id="CN-0036" 
+     data-x="300" data-y="760" 
+     data-depth="4" 
+     data-parent="CN-0014" 
+     data-children="">
+  <h3>Books</h3>
+</div>
+<div class="connection-node theme-body" 
+     id="CN-0037" 
+     data-x="420" data-y="760" 
+     data-depth="4" 
+     data-parent="CN-0014" 
+     data-children="">
+  <h3>Sculptures</h3>
+</div>
+<div class="connection-node theme-body" 
+     id="CN-0038" 
+     data-x="540" data-y="760" 
+     data-depth="4" 
+     data-parent="CN-0014" 
+     data-children="">
+  <h3>Paint</h3>
+</div>
+
+<!-- CHILDREN of Digital Media -->
+<div class="connection-node theme-online" 
+     id="CN-0039" 
+     data-x="620" data-y="760" 
+     data-depth="4" 
+     data-parent="CN-0015" 
+     data-children="">
+  <h3>Movies</h3>
+</div>
+<div class="connection-node theme-online" 
+     id="CN-0040" 
+     data-x="760" data-y="760" 
+     data-depth="4" 
+     data-parent="CN-0015" 
+     data-children="">
+  <h3>Video Games</h3>
+</div>
+<div class="connection-node theme-online" 
+     id="CN-0041" 
+     data-x="900" data-y="760" 
+     data-depth="4" 
+     data-parent="CN-0015" 
+     data-children="">
+  <h3>Music</h3>
+</div>
+<div class="connection-node theme-online" 
+     id="CN-0026" 
+     data-x="1040" data-y="760" 
+     data-depth="4" 
+     data-parent="CN-0015" 
+     data-children="">
+  <h3>The Web</h3>
+</div>
+
+<!-- ============================================
+     BRANCH 2: TIME (center-top, children cascade down)
+     ============================================ -->
+<div class="connection-node theme-hope" 
+     id="CN-0003" 
+     data-x="950" data-y="250" 
+     data-depth="1" 
+     data-parent="CN-0001" 
+     data-children="CN-0007">
+  <h3>Time</h3>
+</div>
+
+<div class="connection-node theme-hope" 
+     id="CN-0007" 
+     data-x="950" data-y="160" 
+     data-depth="2" 
+     data-parent="CN-0003" 
+     data-children="CN-0016">
+  <h3>The Millennial Epoch</h3>
+</div>
+
+<div class="connection-node theme-identity" 
+     id="CN-0016" 
+     data-x="950" data-y="80" 
+     data-depth="3" 
+     data-parent="CN-0007" 
+     data-children="CN-0017,CN-0018,CN-0019,CN-0020,CN-0021,CN-0022">
+  <h3>Generations</h3>
+</div>
+
+<div class="connection-node theme-body" 
+     id="CN-0017" 
+     data-x="700" data-y="35" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Boomers</h3>
+</div>
+<div class="connection-node theme-body" 
+     id="CN-0018" 
+     data-x="800" data-y="35" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Gen X</h3>
+</div>
+<div class="connection-node theme-identity" 
+     id="CN-0019" 
+     data-x="900" data-y="35" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Gen Y</h3>
+</div>
+<div class="connection-node theme-identity" 
+     id="CN-0020" 
+     data-x="1000" data-y="35" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Gen Z</h3>
+</div>
+<div class="connection-node theme-volta" 
+     id="CN-0021" 
+     data-x="1100" data-y="35" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Gen Alpha</h3>
+</div>
+<div class="connection-node theme-volta" 
+     id="CN-0022" 
+     data-x="1200" data-y="35" 
+     data-depth="4" 
+     data-parent="CN-0016" 
+     data-children="">
+  <h3>Beta??</h3>
+</div>
+
+<!-- ============================================
+     BRANCH 3: RELATIONSHIPS (right, children cascade inward)
+     ============================================ -->
+<div class="connection-node theme-witness" 
+     id="CN-0004" 
+     data-x="1360" data-y="420" 
+     data-depth="1" 
+     data-parent="CN-0001" 
+     data-children="CN-0008,CN-0009">
+  <h3>Relationships</h3>
+</div>
+
+<div class="connection-node theme-intimacy" 
+     id="CN-0008" 
+     data-x="1280" data-y="260" 
+     data-depth="2" 
+     data-parent="CN-0004" 
+     data-children="CN-0042,CN-0043,CN-0044,CN-0045">
+  <h3>Between You & I</h3>
+</div>
+
+<div class="connection-node theme-community" 
+     id="CN-0009" 
+     data-x="1280" data-y="580" 
+     data-depth="2" 
+     data-parent="CN-0004" 
+     data-children="CN-0046,CN-0047,CN-0048">
+  <h3>Lost in a Crowd</h3>
+</div>
+
+<div class="connection-node theme-intimacy" 
+     id="CN-0042" 
+     data-x="1460" data-y="170" 
+     data-depth="3" 
+     data-parent="CN-0008" 
+     data-children="">
+  <h3>Lovers</h3>
+</div>
+<div class="connection-node theme-intimacy" 
+     id="CN-0043" 
+     data-x="1460" data-y="230" 
+     data-depth="3" 
+     data-parent="CN-0008" 
+     data-children="">
+  <h3>Friends</h3>
+</div>
+<div class="connection-node theme-intimacy" 
+     id="CN-0044" 
+     data-x="1460" data-y="290" 
+     data-depth="3" 
+     data-parent="CN-0008" 
+     data-children="">
+  <h3>Family</h3>
+</div>
+<div class="connection-node theme-intimacy" 
+     id="CN-0045" 
+     data-x="1460" data-y="350" 
+     data-depth="3" 
+     data-parent="CN-0008" 
+     data-children="">
+  <h3>Self</h3>
+</div>
+
+<div class="connection-node theme-community" 
+     id="CN-0046" 
+     data-x="1460" data-y="500" 
+     data-depth="3" 
+     data-parent="CN-0009" 
+     data-children="">
+  <h3>Acquaintances</h3>
+</div>
+<div class="connection-node theme-community" 
+     id="CN-0047" 
+     data-x="1460" data-y="560" 
+     data-depth="3" 
+     data-parent="CN-0009" 
+     data-children="">
+  <h3>Networks</h3>
+</div>
+<div class="connection-node theme-community" 
+     id="CN-0048" 
+     data-x="1460" data-y="620" 
+     data-depth="3" 
+     data-parent="CN-0009" 
+     data-children="">
+  <h3>Larger Communities</h3>
+</div>
+
+<!-- ============================================
+     BRANCH 4: SPACE (far right, children cascade inward)
+     ============================================ -->
+<div class="connection-node theme-spaces" 
+     id="CN-0049" 
+     data-x="950" data-y="650" 
+     data-depth="1" 
+     data-parent="CN-0001" 
+     data-children="CN-0050,CN-0051">
+  <h3>Space</h3>
+</div>
+
+<div class="connection-node theme-spaces" 
+     id="CN-0050" 
+     data-x="840" data-y="705" 
+     data-depth="2" 
+     data-parent="CN-0049" 
+     data-children="">
+  <h3>Unplugged</h3>
+</div>
+
+<div class="connection-node theme-online" 
+     id="CN-0051" 
+     data-x="1060" data-y="705" 
+     data-depth="2" 
+     data-parent="CN-0049" 
+     data-children="">
+  <h3>Online</h3>
+</div>
+
+<script>
+(function() {
+  const container = document.getElementById('connections-map');
+  const svg = document.getElementById('connections-svg');
+  const allNodes = container.querySelectorAll('.connection-node');
+  const nodeClicks = {};
+
+  const connections = [
+    { id: 'CE-0001', from: 'CN-0001', to: 'CN-0002' },
+    { id: 'CE-0002', from: 'CN-0001', to: 'CN-0003' },
+    { id: 'CE-0003', from: 'CN-0001', to: 'CN-0004' },
+    { id: 'CE-0051', from: 'CN-0001', to: 'CN-0049' },
+    { id: 'CE-0004', from: 'CN-0002', to: 'CN-0005' },
+    { id: 'CE-0005', from: 'CN-0002', to: 'CN-0006' },
+    { id: 'CE-0006', from: 'CN-0005', to: 'CN-0010' },
+    { id: 'CE-0007', from: 'CN-0005', to: 'CN-0011' },
+    { id: 'CE-0008', from: 'CN-0005', to: 'CN-0012' },
+    { id: 'CE-0009', from: 'CN-0005', to: 'CN-0013' },
+    { id: 'CE-0022', from: 'CN-0012', to: 'CN-0023' },
+    { id: 'CE-0023', from: 'CN-0012', to: 'CN-0024' },
+    { id: 'CE-0024', from: 'CN-0012', to: 'CN-0025' },
+    { id: 'CE-0028', from: 'CN-0023', to: 'CN-0027' },
+    { id: 'CE-0029', from: 'CN-0023', to: 'CN-0028' },
+    { id: 'CE-0030', from: 'CN-0023', to: 'CN-0029' },
+    { id: 'CE-0031', from: 'CN-0023', to: 'CN-0030' },
+    { id: 'CE-0054', from: 'CN-0030', to: 'CN-0052' },
+    { id: 'CE-0055', from: 'CN-0052', to: 'CN-0053' },
+    { id: 'CE-0056', from: 'CN-0052', to: 'CN-0054' },
+    { id: 'CE-0032', from: 'CN-0024', to: 'CN-0031' },
+    { id: 'CE-0033', from: 'CN-0024', to: 'CN-0032' },
+    { id: 'CE-0034', from: 'CN-0025', to: 'CN-0033' },
+    { id: 'CE-0035', from: 'CN-0025', to: 'CN-0034' },
+    { id: 'CE-0036', from: 'CN-0025', to: 'CN-0035' },
+    { id: 'CE-0010', from: 'CN-0006', to: 'CN-0014' },
+    { id: 'CE-0011', from: 'CN-0006', to: 'CN-0015' },
+    { id: 'CE-0037', from: 'CN-0014', to: 'CN-0036' },
+    { id: 'CE-0038', from: 'CN-0014', to: 'CN-0037' },
+    { id: 'CE-0039', from: 'CN-0014', to: 'CN-0038' },
+    { id: 'CE-0040', from: 'CN-0015', to: 'CN-0039' },
+    { id: 'CE-0041', from: 'CN-0015', to: 'CN-0040' },
+    { id: 'CE-0042', from: 'CN-0015', to: 'CN-0041' },
+    { id: 'CE-0043', from: 'CN-0015', to: 'CN-0026' },
+    { id: 'CE-0012', from: 'CN-0003', to: 'CN-0007' },
+    { id: 'CE-0013', from: 'CN-0007', to: 'CN-0016' },
+    { id: 'CE-0014', from: 'CN-0016', to: 'CN-0017' },
+    { id: 'CE-0015', from: 'CN-0016', to: 'CN-0018' },
+    { id: 'CE-0016', from: 'CN-0016', to: 'CN-0019' },
+    { id: 'CE-0017', from: 'CN-0016', to: 'CN-0020' },
+    { id: 'CE-0018', from: 'CN-0016', to: 'CN-0021' },
+    { id: 'CE-0019', from: 'CN-0016', to: 'CN-0022' },
+    { id: 'CE-0020', from: 'CN-0004', to: 'CN-0008' },
+    { id: 'CE-0021', from: 'CN-0004', to: 'CN-0009' },
+    { id: 'CE-0044', from: 'CN-0008', to: 'CN-0042' },
+    { id: 'CE-0045', from: 'CN-0008', to: 'CN-0043' },
+    { id: 'CE-0046', from: 'CN-0008', to: 'CN-0044' },
+    { id: 'CE-0047', from: 'CN-0008', to: 'CN-0045' },
+    { id: 'CE-0048', from: 'CN-0009', to: 'CN-0046' },
+    { id: 'CE-0049', from: 'CN-0009', to: 'CN-0047' },
+    { id: 'CE-0050', from: 'CN-0009', to: 'CN-0048' },
+    { id: 'CE-0052', from: 'CN-0049', to: 'CN-0050' },
+    { id: 'CE-0053', from: 'CN-0049', to: 'CN-0051' },
+  ];
+
+  allNodes.forEach(node => {
+    if (node.id !== 'CN-0001') {
+      node.style.display = 'none';
+    }
+  });
+
+  function showNode(id) {
+    const node = document.getElementById(id);
+    if (node) {
+      node.style.display = 'block';
+      drawLines();
+    }
+  }
+
+  function showChildren(parentId) {
+    const parent = document.getElementById(parentId);
+    if (!parent) return;
+    const childrenIds = parent.getAttribute('data-children');
+    if (!childrenIds) return;
+    childrenIds.split(',').forEach(id => {
+      showNode(id.trim());
+    });
+  }
+
+  function hideChildren(parentId) {
+    const parent = document.getElementById(parentId);
+    if (!parent) return;
+    const childrenIds = parent.getAttribute('data-children');
+    if (!childrenIds) return;
+    childrenIds.split(',').forEach(id => {
+      const child = document.getElementById(id.trim());
+      if (child) {
+        child.style.display = 'none';
+        const grandKids = child.getAttribute('data-children');
+        if (grandKids) {
+          grandKids.split(',').forEach(gid => {
+            const gchild = document.getElementById(gid.trim());
+            if (gchild) gchild.style.display = 'none';
+          });
+        }
+        nodeClicks[id.trim()] = 0;
+      }
+    });
+    drawLines();
+  }
+
+  function revealAll() {
+    allNodes.forEach(node => {
+      node.style.display = 'block';
+      nodeClicks[node.id] = 0;
+    });
+    closePreview();
+    drawLines();
+  }
+
+  function resetMap() {
+    allNodes.forEach(node => {
+      if (node.id !== 'CN-0001') {
+        node.style.display = 'none';
+      }
+      nodeClicks[node.id] = 0;
+    });
+    closePreview();
+    drawLines();
+  }
+  document.getElementById('reveal-all-btn').addEventListener('click', revealAll);
+  document.getElementById('reset-map-btn').addEventListener('click', resetMap);
+  
+function positionNodes() {
+  const centerNode = document.getElementById('CN-0001');
+  if (!centerNode) return;
+
+  const originX = 950;
+  const originY = 420;
+
+  const cx = Math.floor(container.clientWidth / 2);
+  const cy = Math.floor(container.clientHeight / 2);
+
+  allNodes.forEach(node => {
+    const rawX = parseInt(node.getAttribute('data-x'));
+    const rawY = parseInt(node.getAttribute('data-y'));
+    if (isNaN(rawX) || isNaN(rawY)) return;
+
+    const offsetX = rawX - originX;
+    const offsetY = rawY - originY;
+
+    node.style.left = (cx + offsetX - node.offsetWidth / 2) + 'px';
+    node.style.top = (cy + offsetY - node.offsetHeight / 2) + 'px';
+  });
+
+  drawLines();
+}
+
+  function drawLines(highlightId) {
+    svg.innerHTML = '';
+    connections.forEach(conn => {
+      const fromNode = document.getElementById(conn.from);
+      const toNode = document.getElementById(conn.to);
+      if (!fromNode || !toNode) return;
+      if (fromNode.style.display === 'none' || toNode.style.display === 'none') return;
+
+      const fromRect = fromNode.getBoundingClientRect();
+      const toRect = toNode.getBoundingClientRect();
+      const containerRect = container.getBoundingClientRect();
+
+      const x1 = fromRect.left - containerRect.left + fromRect.width / 2;
+      const y1 = fromRect.top - containerRect.top + fromRect.height / 2;
+      const x2 = toRect.left - containerRect.left + toRect.width / 2;
+      const y2 = toRect.top - containerRect.top + toRect.height / 2;
+
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      line.setAttribute('x1', x1);
+      line.setAttribute('y1', y1);
+      line.setAttribute('x2', x2);
+      line.setAttribute('y2', y2);
+      
+      if (highlightId && (conn.from === highlightId || conn.to === highlightId)) {
+        line.classList.add('glow');
+      }
+      
+      svg.appendChild(line);
+    });
+  }
+
+  let dragNode = null;
+  let offsetX = 0;
+  let offsetY = 0;
+  let hasMoved = false;
+
+  container.addEventListener('mousedown', function(e) {
+    const node = e.target.closest('.connection-node');
+    if (!node) return;
+    dragNode = node;
+    hasMoved = false;
+    const rect = node.getBoundingClientRect();
+    offsetX = e.clientX - rect.left;
+    offsetY = e.clientY - rect.top;
+    node.style.zIndex = 10;
+  });
+
+  document.addEventListener('mousemove', function(e) {
+    if (!dragNode) return;
+    hasMoved = true;
+    const containerRect = container.getBoundingClientRect();
+    const x = e.clientX - containerRect.left - offsetX;
+    const y = e.clientY - containerRect.top - offsetY;
+    dragNode.style.left = x + 'px';
+    dragNode.style.top = y + 'px';
+    drawLines();
+  });
+
+  document.addEventListener('mouseup', function() {
+    if (dragNode) {
+      dragNode.style.zIndex = 1;
+      dragNode = null;
+    }
+  });
+
+  function showPreview(node) {
+    const id = node.id;
+    const data = previewData[id];
+    if (!data) return;
+
+    const preview = document.getElementById('node-preview');
+    document.getElementById('preview-title').textContent = data.title;
+    document.getElementById('preview-type').textContent = data.type;
+    document.getElementById('preview-description').textContent = data.description;
+
+    const link = document.getElementById('preview-link');
+    if (data.link) {
+      link.href = data.link;
+      link.style.display = 'inline';
+    } else {
+      link.style.display = 'none';
+    }
+
+    const nodeRect = node.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
+    const previewWidth = 320;
+    const previewHeight = 220;
+
+    let left = nodeRect.left - containerRect.left + nodeRect.width + 16;
+    let top = nodeRect.top - containerRect.top;
+
+    if (left + previewWidth > containerRect.width) {
+      left = nodeRect.left - containerRect.left - previewWidth - 16;
+    }
+    if (top + previewHeight > containerRect.height) {
+      top = containerRect.height - previewHeight - 16;
+    }
+    if (top < 0) top = 16;
+
+    preview.style.left = left + 'px';
+    preview.style.top = top + 'px';
+    preview.style.transform = 'none';
+    preview.style.display = 'block';
+    
+    drawLines(node.id);
+  }
+
+  function closePreview() {
+    document.getElementById('node-preview').style.display = 'none';
+    drawLines();
+  }
+
+  container.addEventListener('click', function(e) {
+    if (hasMoved) return;
+    const node = e.target.closest('.connection-node');
+    if (!node) {
+      closePreview();
+      return;
+    }
+    
+    const id = node.id;
+    if (!nodeClicks[id]) nodeClicks[id] = 0;
+    
+    nodeClicks[id]++;
+    
+    const step = nodeClicks[id];
+    const hasChildren = node.getAttribute('data-children');
+    
+    if (step === 1 && hasChildren) {
+      showChildren(id);
+    }
+    
+    if (step === 2) {
+      showPreview(node);
+    }
+    
+    if (step === 3) {
+      closePreview();
+    }
+    
+    if (step === 4 && hasChildren) {
+      hideChildren(id);
+      nodeClicks[id] = 0;
+    }
+    
+    if (!hasChildren) {
+      if (step === 1) {
+        showPreview(node);
+      } else if (step === 2) {
+        closePreview();
+        nodeClicks[id] = 0;
+      }
+    }
+  });
+
+  const previewData = {
+    'CN-0001': { title: 'Humans', type: 'Organism', description: 'a life-form that thinks it\'s the most intelligent to ever exist but it can\'t possibly be sure', link: null },
+    'CN-0002': { title: 'Memory', type: 'Concept', description: 'an impression that can be repeated', link: null },
+    'CN-0003': { title: 'Time', type: 'Concept', description: 'a measurement for memory', link: null },
+    'CN-0004': { title: 'Relationships', type: 'Concept', description: 'what inspires memory', link: null },
+    'CN-0005': { title: 'Memory Worker', type: 'Driver', description: 'a human who records memory', link: null },
+    'CN-0006': { title: 'Memory Aids', type: 'Vehicle', description: 'a tool for recording memory', link: null },
+    'CN-0007': { title: 'The Millennial Epoch', type: 'Time Period', description: 'a turn in time, 1982 into the new millennium.', link: '/Trunk/epoch/' },
+    'CN-0008': { title: 'Between You & I', type: 'Relationship', description: 'the relationships we hold sacred', link: null },
+    'CN-0009': { title: 'Lost in a Crowd', type: 'Relationships', description: 'the relationships we must forge', link: null },
+    'CN-0010': { title: 'Librarians', type: 'Driver', description: 'the keeper of the records', link: null },
+    'CN-0011': { title: 'Historians', type: 'Driver', description: 'the interpreter of the records', link: null },
+    'CN-0012': { title: 'Creatives', type: 'Driver', description: 'curators of memory', link: null },
+    'CN-0013': { title: 'Archivists', type: 'Driver', description: 'the curators of the records', link: null },
+    'CN-0014': { title: 'Physical Media', type: 'Media', description: 'what you can touch with your bare hands', link: null },
+    'CN-0015': { title: 'Digital Media', type: 'Media', description: 'what is made up of code', link: null },
+    'CN-0016': { title: 'Generations', type: 'Concept', description: 'humans living in the same space and time that share relationships and memories', link: null },
+    'CN-0017': { title: 'Boomers', type: 'Cohort', description: 'Our Parents / Grandparents', link: null },
+    'CN-0018': { title: 'Gen X', type: 'Cohort', description: 'Children of the Silent Generation', link: null },
+    'CN-0019': { title: 'Gen Y', type: 'Cohort', description: 'Me', link: null },
+    'CN-0020': { title: 'Gen Z', type: 'Cohort', description: 'Between us', link: null },
+    'CN-0021': { title: 'Gen Alpha', type: 'Cohort', description: 'You', link: null },
+    'CN-0022': { title: 'Beta??', type: 'Cohort', description: 'These them post-covid babies.', link: null },
+    'CN-0023': { title: 'Literary Arts', type: 'Vehicle', description: 'things you can read', link: null },
+    'CN-0024': { title: 'Visual Arts', type: 'Vehicle', description: 'things you can see', link: null },
+    'CN-0025': { title: 'Performing Arts', type: 'Vehicle', description: 'things you can watch', link: null },
+    'CN-0026': { title: 'The Web', type: 'Vehicle', description: 'a global memory aid', link: null },
+    'CN-0027': { title: 'Poetry', type: 'Driver', description: 'feelings things, real or not, in verse', link: null },
+    'CN-0028': { title: 'Drama', type: 'Driver', description: 'feeling things, real or not, in dialogue', link: null },
+    'CN-0029': { title: 'Fiction', type: 'Genre', description: 'making things up, in prose', link: null },
+    'CN-0030': { title: 'Nonfiction', type: 'Genre', description: 'telling the truth, in prose', link: null },
+    'CN-0031': { title: 'Photographers', type: 'Driver', description: 'capture still memories', link: null },
+    'CN-0032': { title: 'Filmmakers', type: 'Driver', description: 'capture moving memories', link: null },
+    'CN-0033': { title: 'Musicians', type: 'Driver', description: 'capture memory using sound', link: null },
+    'CN-0034': { title: 'Dancers', type: 'Driver', description: 'capture memory using sound and movement', link: null },
+    'CN-0035': { title: 'Actors', type: 'Driver', description: 'replicate memory', link: null },
+    'CN-0036': { title: 'Books', type: 'Media', description: 'written records', link: null },
+    'CN-0037': { title: 'Sculptures', type: 'Media', description: 'records in solid objects', link: null },
+    'CN-0038': { title: 'Paint', type: 'Media', description: 'a visual memory', link: null },
+    'CN-0039': { title: 'Movies', type: 'Media', description: 'a moving memory', link: null },
+    'CN-0040': { title: 'Video Games', type: 'Media', description: 'an interactive memory', link: null },
+    'CN-0041': { title: 'Music', type: 'Media', description: 'an auditory memory', link: null },
+    'CN-0042': { title: 'Lovers', type: 'Private', description: 'a complimentary self', link: null },
+    'CN-0043': { title: 'Friends', type: 'Private', description: 'a companion self', link: null },
+    'CN-0044': { title: 'Family', type: 'Private', description: 'a foundational unit of self', link: null },
+    'CN-0045': { title: 'Self', type: 'Private', description: 'the intangible parts of being human', link: null },
+    'CN-0046': { title: 'Acquaintances', type: 'Public', description: 'we aint strangers but we aint friends', link: null },
+    'CN-0047': { title: 'Networks', type: 'Public', description: 'communities with a set purpose', link: null },
+    'CN-0048': { title: 'Larger Communities', type: 'Public', description: 'communities without a set purpose', link: null },
+    'CN-0049': { title: 'Space', type: 'Concept', description: 'places we create memory', link: null },
+    'CN-0050': { title: 'Unplugged', type: 'Mode', description: 'takes place offline', link: null },
+    'CN-0051': { title: 'Online', type: 'Mode', description: 'takes place on the web', link: null },
+    'CN-0052': { title: 'Double Perspective', type: 'Framework', description: 'memory self + memory worker self = memory', link: null },
+    'CN-0053': { title: 'Experiencing', type: 'Identity', description: 'the self that is showing the situation', link: null },
+    'CN-0054': { title: 'Remembering', type: 'Identity', description: 'the self that is telling the story', link: null },
+  };
+
+positionNodes();
+window.addEventListener('load', positionNodes);
+window.addEventListener('resize', positionNodes);
+requestAnimationFrame(positionNodes);
+})();
+</script>
+</div>
+</div>
+
+<!-- TRUNK NAVIGATION -->
+<div class="driver-nav">
+  <a href="/Trunk/auto-chopped/">← Chopped & Screwed</a>
+  <a href="/Trunk/scratch-paper/">Dig thru the glove box →</a>
+</div>
+
+<style>
+.connections-map-wrapper {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.connections-container {
+  position: relative;
+  width: 100%;
+  min-height: 900px;
+  overflow: visible;
+  margin: 0;
+}
+
+.connections-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.connections-svg line {
+  stroke: var(--pink);
+  stroke-width: 0.5px;
+  opacity: 0.3;
+}
+
+.connections-svg line.glow {
+  stroke: var(--pink);
+  stroke-width: 1.5px;
+  opacity: 0.8;
+  filter: drop-shadow(0 0 6px rgba(255, 0, 163, 0.6));
+}
+
+.connection-node {
+  position: absolute;
+  padding: 8px 14px;
+  border: 0.5px solid;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  z-index: 1;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  min-width: 60px;
+  text-align: center;
+  background: var(--bg);
+}
+
+.connection-node:hover {
+  box-shadow: 0 0 16px rgba(255, 0, 163, 0.12);
+  z-index: 2;
+}
+
+.connection-node h3 {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 13pt;
+  margin: 0;
+  text-transform: none;
+  letter-spacing: 0;
+  color: inherit;
+}
+
+.connection-node.center-node {
+  border-color: var(--pink);
+  background: rgba(255, 0, 163, 0.06);
+}
+
+.connection-node.center-node h3 {
+  color: var(--pink);
+  font-size: 16pt;
+}
+
+.theme-spaces { border-color: var(--theme-spaces); color: var(--theme-spaces); }
+.theme-ghosts { border-color: var(--theme-ghosts); color: var(--theme-ghosts); }
+.theme-intimacy { border-color: var(--theme-intimacy); color: var(--theme-intimacy); }
+.theme-online { border-color: var(--theme-online); color: var(--theme-online); }
+.theme-identity { border-color: var(--theme-identity); color: var(--theme-identity); }
+.theme-expression { border-color: var(--theme-expression); color: var(--theme-expression); }
+.theme-hope { border-color: var(--theme-hope); color: var(--theme-hope); }
+.theme-community { border-color: var(--theme-community); color: var(--theme-community); }
+.theme-witness { border-color: var(--theme-witness); color: var(--theme-witness); }
+.theme-surveillance { border-color: var(--theme-surveillance); color: var(--theme-surveillance); }
+.theme-volta { border-color: var(--theme-volta); color: var(--theme-volta); }
+.theme-body { border-color: var(--theme-body); color: var(--theme-body); }
+
+.node-preview {
+  position: absolute;
+  z-index: 20;
+  min-width: 280px;
+  max-width: 360px;
+}
+
+.node-preview-content {
+  background: var(--bg);
+  border: 0.5px solid var(--pink);
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 24px rgba(255, 0, 163, 0.15);
+}
+
+.node-preview-content h3 {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 18pt;
+  color: var(--pink);
+  margin: 0 0 4px 0;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.node-preview-content p {
+  font-family: var(--font-body);
+  font-size: 11pt;
+  line-height: 1.6;
+  color: var(--text);
+  opacity: 0.8;
+  margin: 0 0 12px 0;
+}
+
+.node-preview-content a {
+  font-family: var(--font-body);
+  font-size: 11pt;
+  color: var(--pink);
+  text-decoration: none;
+}
+
+.node-preview-content a:hover {
+  text-decoration: underline;
+}
+
+.node-preview-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-family: var(--font-body);
+  font-size: 10pt;
+  color: var(--pink);
+  cursor: pointer;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.node-preview-close:hover {
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .connections-container {
+    min-height: 600px;
+  }
+  
+  .connection-node {
+    padding: 6px 10px;
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .connection-node h3 {
+    font-size: 10pt;
+  }
+  
+  .connection-node.center-node h3 {
+    font-size: 13pt;
+  }
+}
+</style>
