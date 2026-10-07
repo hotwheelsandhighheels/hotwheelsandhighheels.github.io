@@ -200,7 +200,7 @@ d="
 </a>
 
 <!-- POWER OUTLET -->
-<a class="trunk-hotspot" data-hotspot="power-outlet" href="/Trunk/Hydraulics/" aria-label="Hydraulics" style="--hotspot-color: var(--color-24);">
+<a class="trunk-hotspot" data-hotspot="power-outlet" href="/Trunk/hydraulics/" aria-label="Hydraulics" style="--hotspot-color: var(--color-24);">
   <path class="trunk-hotspot-shape" d="
   M 1391 593 
   C 1390 593 1405 595 1415 600 
