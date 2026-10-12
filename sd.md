@@ -1,7 +1,7 @@
 ---
 layout: daves-dream
 title: San Diego 619
-permalink: /SD619/
+permalink: /Trunk/SD619/
 
 left_sidebar_title: 
 left_sidebar_label: 
