@@ -3435,3 +3435,23 @@ audio:hover {
 .trunk-grid {
   pointer-events: none;
 }
+
+div.scroll-container {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 12px 0;
+  scroll-behavior: smooth;
+}
+
+div.scroll-container img {
+  display: block;
+  flex: 0 0 auto;
+  height: 720px;
+  width: auto;
+  max-width: none;
+  padding: 0;
+  object-fit: cover;
+  border: 0.5px solid var(--gray);
+}
