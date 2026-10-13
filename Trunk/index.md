@@ -30,13 +30,13 @@ title: Trunk - Hot Wheels & High Heels
 </a>
 
 <!-- LEFT WINDOW -->
-<a class="trunk-hotspot" data-hotspot="left-window" href="#unassigned" aria-label="Window" style="--hotspot-color: var(--color-18);">
+<a class="trunk-hotspot" data-hotspot="left-window" href="/Trunk/Earth/" aria-label="Window" style="--hotspot-color: var(--color-18);">
   <path class="trunk-hotspot-shape" d="M 218 41 L 146 193 L 116 268 Q 116 272 120 272 L 189 272 Q 195 272 196 266 L 218 41 Z" />
-  <text class="trunk-hotspot-label" x="165" y="155" text-anchor="middle">Window</text>
+  <text class="trunk-hotspot-label" x="50" y="155" text-anchor="middle">Window</text>
 </a>
 
 <!-- RIGHT WINDOW 1 -->
-<a class="trunk-hotspot" data-hotspot="right-window-1" href="#unassigned" aria-label="Window" style="--hotspot-color: var(--color-12);">
+<a class="trunk-hotspot" data-hotspot="right-window-1" href="/Trunk/SD619/" aria-label="Window" style="--hotspot-color: var(--color-12);">
   <path class="trunk-hotspot-shape" d="
   M 920 130
   L 990 110
@@ -46,11 +46,11 @@ title: Trunk - Hot Wheels & High Heels
   L 915 150
   C 910 150 910 135 920 130
   Z" />
-  <text class="trunk-hotspot-label" x="962" y="195" text-anchor="middle">Window</text>
+  <text class="trunk-hotspot-label" x="962" y="195" text-anchor="middle">619</text>
 </a>
 
 <!-- RIGHT WINDOW 2 -->
-<a class="trunk-hotspot" data-hotspot="right-window-2" href="#unassigned" aria-label="Window" style="--hotspot-color: var(--color-21);">
+<a class="trunk-hotspot" data-hotspot="right-window-2" href="/Trunk/Skys/" aria-label="Window" style="--hotspot-color: var(--color-21);">
   <path class="trunk-hotspot-shape" d="
   M 1110 73
   L 1190 46 
@@ -119,13 +119,13 @@ title: Trunk - Hot Wheels & High Heels
   C 300 509 295 503 294 495 
   L 294 454 
   C 302 435 312 422 323 416 Z" />
-  <text class="trunk-hotspot-label" x="445" y="470" text-anchor="middle">Chopped & Skrwd</text>
+  <text class="trunk-hotspot-label" x="445" y="480" text-anchor="middle">Chopped & Skrwd</text>
 </a>
 
 <!-- FOLDED RIGHT -->
 <a class="trunk-hotspot" data-hotspot="folded-right" href="/Trunk/archive/" aria-label="Folded Seat Right" style="--hotspot-color: var(--color-23);">
   <path class="trunk-hotspot-shape" d="M 594 414 C 681 409 830 409 921 411 C 959 432 1000 457 1037 483 C 1042 491 1036 499 1024 503 C 1002 506 960 505 916 505 L 653 511 C 640 506 630 499 624 491 C 614 468 604 442 594 414 Z" />
-  <text class="trunk-hotspot-label" x="805" y="470" text-anchor="middle">Digital Archive</text>
+  <text class="trunk-hotspot-label" x="805" y="480" text-anchor="middle">Digital Archive</text>
 </a>
 
 <!-- UPPER COMPARTMENT -->
@@ -214,7 +214,7 @@ d="
 <!-- LEFT BRAKE -->
 <a class="trunk-hotspot" data-hotspot="left-brake" href="/Trunk/back-roads/" aria-label="Back Roads" style="--hotspot-color: var(--color-01);">
   <path class="trunk-hotspot-shape" d="M 57 332 C 57 332 100 335 147 335 C 147 335 145 390 142 535 C 142 535 140 570 140 570 C 140 570 30 565 30 565 C 15 540 5 500 10 420 C 10 420 25 370 57 332 Z" />
-  <text class="trunk-hotspot-label" x="84" y="310" text-anchor="middle">Back Roads</text>
+  <text class="trunk-hotspot-label" x="-100" y="410" text-anchor="middle">Back Roads</text>
 </a>
 
 <!-- RIGHT BRAKE -->

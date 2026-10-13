@@ -7,7 +7,7 @@ left_sidebar_title:
 left_sidebar_label: 
 left_sidebar: |
 
-right_sidebar_title: My favorite 
+right_sidebar_title: 
 right_sidebar_label: 
 right_sidebar: |
 
