@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- dark background tile -->
+  <rect width="32" height="32" rx="4" fill="#0a0608"/>
+  <!-- left heart, tilted slightly up and left -->
+  <path d="M10 8 C7 5 3 7 3 11 C3 15 7 19 10 22 C13 19 17 15 17 11 C17 7 13 5 10 8 Z"
+        fill="none" stroke="#ff00a3" stroke-width="1.5"
+        transform="rotate(-15, 10, 14)"/>
+  <!-- right heart, tilted slightly down and right -->
+  <path d="M20 10 C17 7 13 9 13 13 C13 17 17 21 20 24 C23 21 27 17 27 13 C27 9 23 7 20 10 Z"
+        fill="none" stroke="#ff00a3" stroke-width="1.5"
+        transform="rotate(15, 20, 16)"/>
+</svg>

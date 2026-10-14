@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="hwhh-column-layout hwhh-impala">
+  <article class="hwhh-column-main">
+    {{ content }}
+  </article>
+
+  <aside
+    class="hwhh-column-sidebar hwhh-column-sidebar-right"
+    aria-label="{{ page.sidebar_label | default: 'Related information' }}">
+    {% if page.sidebar_title %}
+      <h2>{{ page.sidebar_title }}</h2>
+    {% endif %}
+    {{ page.sidebar | markdownify }}
+  </aside>
+</div>
