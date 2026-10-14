@@ -2,9 +2,7 @@
    HOT WHEELS & HIGH HEELS — styles.css
    Colors: #ff00a3 (pink), #a300ff (purple), #f5f0f5 (off-white), #0a0608 (off-black)
    Fonts: Smooch (most H1s), Mea Culpa (Home/About/contributor names), Ysabeau (body/headings), Azeret Mono (mono/interface)
-   Last updated: June 2026
    ============================================ */
-
 
 /* ============================================
    1. FONTS & VARIABLES
@@ -66,15 +64,12 @@
   --color-29: #999999;  /* dark silver */
   --color-30: #9dff9a;  /* spring green */
 
-  /* ============================================
-     SEMANTIC COLOR KEY
-     Annotation key + Double Perspective are the source of truth.
-
-     Rule:
-     - Same concept = same anchor color.
-     - Related concepts = same color family.
-     - Different public categories/themes stay visibly distinct.
-     ============================================ */
+  /* --- SEMANTIC COLOR KEY ---
+   Annotation key + Double Perspective are the source of truth.
+   Rule:
+   - Same concept = same anchor color.
+   - Related concepts = same color family.
+   - Different public categories/themes stay visibly distinct. */
 
   /* Annotation + Double Perspective anchors */
   --concept-character: var(--color-01);                 /* Character / Experience Self (C) */
@@ -142,11 +137,9 @@
   --dp-situation: var(--concept-situation);
   --dp-story: var(--concept-meaning-story);
 
-  /* ============================================
-     PUBLIC ARCHIVE THEMES
-     Exact matches keep the anchor color.
-     Related themes use a nearby/blended color so the archive stays colorful.
-     ============================================ */
+  /* --- PUBLIC ARCHIVE THEMES ---
+   Exact matches keep the anchor color.
+   Related themes use a nearby/blended color so the archive stays colorful. */
   --theme-spaces: var(--concept-space);
   --theme-ghosts: color-mix(in srgb, var(--color-27) 82%, var(--color-06) 18%);
   --theme-intimacy: var(--concept-emotion-authenticity);
@@ -167,10 +160,8 @@
   --theme-consummerism: color-mix(in srgb, var(--color-08) 58%, var(--color-04) 42%);
   --theme-activism: var(--concept-action-performance);
 
-  /* ============================================
-     TIMELINE CATEGORIES
-     Categories stay visually distinct while remaining in related semantic families.
-     ============================================ */
+  /* --- TIMELINE CATEGORIES ---
+   Categories stay visually distinct while remaining in related semantic families. */
   --category-internet: var(--concept-web);
   --category-government: color-mix(in srgb, var(--color-23) 72%, var(--color-28) 28%);
   --category-pop-culture: var(--concept-identity);
@@ -182,6 +173,11 @@
   --category-society: color-mix(in srgb, var(--color-24) 72%, var(--color-28) 28%);
   --category-injustice: color-mix(in srgb, var(--color-02) 68%, var(--pink) 32%);
   --category-infrastructure: var(--concept-structure);
+
+  /* Scratch Paper */
+  --scrap-paper-strength: 52%;
+  --scrap-line-strength: 56%;
+  --scrap-glow-strength: 0.34;
 
 }
 
@@ -220,6 +216,11 @@
   --color-28: #595959;  /* silver */
   --color-29: #444444;  /* dark silver */
   --color-30: #3aa33a;  /* spring green */
+
+  /* Scratch Paper */
+  --scrap-paper-strength: 20%;
+  --scrap-line-strength: 24%;
+  --scrap-glow-strength: 0.12;
 }
 
 /* ============================================
@@ -236,6 +237,11 @@
   }
   body, a, button {
     cursor: auto !important;
+  }
+
+  .trunk-hotspot-shape,
+  .trunk-hotspot-label {
+    transition: none;
   }
 }
 
@@ -275,7 +281,6 @@
   border: 0;
 }
 
-
 /* ============================================
    3. GLOBAL ELEMENTS
    ============================================ */
@@ -295,6 +300,7 @@
   font-size: clamp(48pt, 8vw, 68pt);
   line-height: 0.95;
 }
+
 .container {
   margin: auto;
   max-width: 900px;
@@ -305,6 +311,7 @@
 body {
   background-color: var(--bg);
   font-family: var(--font-body);
+  cursor: url('/assets/svg/cursor.svg'), auto;
 }
 
 img {
@@ -391,11 +398,13 @@ hr {
   border-top: 0.5px solid var(--pink);
   margin: 24px 0;
 }
+
 h4 + ul,
 h4 + ol {
   margin-top: 0;
   padding-top: 0;
 }
+
 /* --- LISTS --- */
 .a-list {
   display: grid;
@@ -425,6 +434,7 @@ h4 + ol {
 .container ul li, .container ol li, .wiki-page ul li, .wiki-page ol li {
   margin-bottom: 0px;
 }
+
 .container ul:not(.a-list) li::marker,
 .wiki-page ul:not(.a-list) li::marker {
   font-size: 8pt;
@@ -437,6 +447,7 @@ h4 + ol {
   color: var(--pink);
   text-decoration: none;
 }
+
 .about-page,
 .trunk-page {
   text-align: center;
@@ -445,6 +456,7 @@ h4 + ol {
 .trunk-page {
   font-size: clamp(36pt, 8vw, 52pt);
 }
+
 /* ============================================
    4. NAVIGATION
    ============================================ */
@@ -538,7 +550,6 @@ nav .active {
   transform: translateY(-6.5px) rotate(-45deg);
 }
 
-
 /* ============================================
    5. BANNER & FOOTER
    ============================================ */
@@ -573,7 +584,6 @@ nav .active {
   opacity: 0.6;
   margin: 0;
 }
-
 
 /* ============================================
    6. BUTTONS & INTERACTIVE
@@ -626,14 +636,10 @@ body .theme-toggle:hover {
   opacity: 1;
 }
 
-body {
-  cursor: url('/assets/svg/cursor.svg'), auto;
-}
 
 a, button {
   cursor: url('/assets/svg/cursor.svg') 8 2, auto;
 }
-
 
 /* ============================================
    7. CONTRIBUTOR PAGES
@@ -661,9 +667,13 @@ a, button {
 }
 
 .connect-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin-top: 8px;
   font-family: var(--font-body);
   font-size: 12pt;
-  margin-top: 8px;
 }
 
 .connect-links a {
@@ -863,9 +873,285 @@ h1.driver-name {
   margin: 34px 0 20px;
 }
 
+/* ============================================
+   8. CONTRIBUTOR CANVAS
+   12-column contributor layout, pieces, links, and surface effects.
+   ============================================ */
+
+.driver-canvas {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-rows: minmax(40px, auto);
+  column-gap: 24px;
+  row-gap: 28px;
+  width: 100%;
+  margin: 32px 0 64px;
+
+  /* intentionally no border/background/glow */
+}
+
+.driver-stack {
+  align-self: stretch;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 24px;
+}
+
+/* --- DRIVER PIECES ---
+   Placement is controlled per contributor
+   with --col and --row in the Markdown. */
+
+.driver-piece {
+  --piece-color: var(--purple);
+
+  grid-column: var(--col, auto);
+  grid-row: var(--row, auto);
+  padding-bottom: 6px;
+  min-width: 0;
+  align-self: start;
+  position: relative;
+  isolation: isolate;
+}
+
+
+/* --- PHOTO --- */
+
+.driver-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/* --- BIO --- */
+
+.driver-bio p:first-child {
+  margin-top: 0;
+}
+
+.driver-bio p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* --- BLURBS --- */
+
+.driver-blurb-label {
+  display: block;
+  margin-bottom: 6px;
+
+  font-family: var(--font-mono);
+  font-size: 8.5pt;
+  font-weight: 600;
+  line-height: 1.2;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: var(--piece-color);
+}
+
+.driver-blurb-text {
+  display: block;
+
+  font-family: var(--font-body);
+  font-size: 11pt;
+  line-height: 1.5;
+
+  color: var(--text);
+}
+
+
+/* --- SOCIAL LINKS ---
+   No decorative separators. */
+
+.driver-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+}
+
+.driver-links a {
+  font-family: var(--font-mono);
+  font-size: 9pt;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+
+  color: var(--piece-color);
+
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 4px;
+}
+
+.driver-links a:hover,
+.driver-links a:focus-visible {
+  opacity: 0.7;
+}
+
+
+/* --- DRIVER PIECE SURFACES ---
+   Light/paint effects only.
+   No borders, boxes, or card treatments. */
+/* --------------------------------------------
+   BARE
+   No treatment at all.
+   -------------------------------------------- */
+
+.driver-piece.piece-bare {
+  background: none;
+  box-shadow: none;
+  filter: none;
+}
+
+
+/* --------------------------------------------
+   GLOW
+   Keep this one.
+   -------------------------------------------- */
+
+.driver-piece.piece-glow {
+  filter:
+    drop-shadow(
+      0 0 10px
+      color-mix(
+        in srgb,
+        var(--piece-color) 30%,
+        transparent
+      )
+    )
+    drop-shadow(
+      0 0 22px
+      color-mix(
+        in srgb,
+        var(--piece-color) 14%,
+        transparent
+      )
+    );
+}
+
+
+/* --------------------------------------------
+   CANDY
+   Layered translucent color underneath.
+   No visible rectangle.
+   -------------------------------------------- */
+
+.driver-piece.piece-candy::before {
+  content: "";
+
+  position: absolute;
+  z-index: -1;
+
+  inset: -18% -12%;
+
+  background:
+    radial-gradient(
+      ellipse at 30% 45%,
+      color-mix(
+        in srgb,
+        var(--piece-color) 24%,
+        transparent
+      ) 0%,
+      color-mix(
+        in srgb,
+        var(--piece-color) 10%,
+        transparent
+      ) 42%,
+      transparent 72%
+    );
+
+  filter: blur(14px);
+  pointer-events: none;
+}
+
+
+/* --------------------------------------------
+   HALO
+   More concentrated reflected light.
+   -------------------------------------------- */
+
+.driver-piece.piece-halo::before {
+  content: "";
+
+  position: absolute;
+  z-index: -1;
+
+  width: 85%;
+  height: 70%;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  background:
+    radial-gradient(
+      ellipse,
+      color-mix(
+        in srgb,
+        var(--piece-color) 28%,
+        transparent
+      ) 0%,
+      color-mix(
+        in srgb,
+        var(--piece-color) 10%,
+        transparent
+      ) 45%,
+      transparent 75%
+    );
+
+  filter: blur(18px);
+  pointer-events: none;
+}
+
+
+/* --------------------------------------------
+   SHEEN
+   A faint diagonal reflection rather than
+   a background panel.
+   -------------------------------------------- */
+
+.driver-piece.piece-sheen::before {
+  content: "";
+
+  position: absolute;
+  z-index: -1;
+
+  inset: -10%;
+
+  background:
+    linear-gradient(
+      115deg,
+      transparent 20%,
+      color-mix(
+        in srgb,
+        var(--piece-color) 8%,
+        transparent
+      ) 42%,
+      color-mix(
+        in srgb,
+        white 9%,
+        transparent
+      ) 50%,
+      color-mix(
+        in srgb,
+        var(--piece-color) 7%,
+        transparent
+      ) 57%,
+      transparent 78%
+    );
+
+  filter: blur(5px);
+  pointer-events: none;
+}
 
 /* ============================================
-   8. COMPONENTS
+   9. COMPONENTS
    ============================================ */
 
 .pull-quote {
@@ -1041,7 +1327,6 @@ audio:hover {
 }
 
 
-
 .slideshow-controls {
   display: flex;
   align-items: center;
@@ -1131,7 +1416,7 @@ audio:hover {
 }
 
 /* ============================================
-   9. EMAIL SIGNUP FORM
+   10. EMAIL SIGNUP FORM
    ============================================ */
 
 .container .embeddable-buttondown-form {
@@ -1184,9 +1469,8 @@ audio:hover {
   display: none;
 }
 
-
 /* ============================================
-   10. TEASER PAGE
+   11. TEASER PAGE
    ============================================ */
 
 .teaser-page {
@@ -1284,7 +1568,7 @@ audio:hover {
 }
 
 /* ============================================
-   11. COLOR-CODED PUBLIC TAG SYSTEM
+   12. COLOR-CODED PUBLIC TAG SYSTEM
    ============================================ */
 
 .tag-spaces { color: var(--theme-spaces); }
@@ -1450,8 +1734,9 @@ audio:hover {
 .timeline-tag.society { --tag-color: var(--category-society); }
 .timeline-tag.injustice { --tag-color: var(--category-injustice); }
 .timeline-tag.infrastructure { --tag-color: var(--category-infrastructure); }
+
 /* ============================================
-   12. TRUNK DASHBOARD
+   13. TRUNK DASHBOARD
    ============================================ */
 
 .trunk-intro {
@@ -1511,9 +1796,103 @@ audio:hover {
   grid-column: 1 / -1;
 }
 
+/* ============================================
+   14. TRUNK — INTERACTIVE COLLECTION MAP
+   Path-based hotspots. The pink drawing stays visible above each colored hover fill.
+   ============================================ */
+
+.trunk-scene {
+  width: min(100%, 1200px);
+  margin: 32px auto 64px;
+}
+
+.trunk-map {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.trunk-map-base,
+.trunk-map-lines {
+  pointer-events: none;
+}
+
+.trunk-map-lines {
+  opacity: 1;
+}
+
+.trunk-hotspot {
+  --hotspot-color: var(--pink);
+  cursor: url('/assets/svg/cursor.svg') 8 2, pointer;
+  outline: none;
+}
+
+.trunk-hotspot-shape {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 2px;
+  vector-effect: non-scaling-stroke;
+  pointer-events: all;
+  transition:
+    fill 180ms ease,
+    stroke 180ms ease,
+    filter 180ms ease,
+    opacity 180ms ease;
+}
+
+/* Seatbelt is a narrow object, so its path behaves like a thick illuminated line. */
+.trunk-hotspot-line {
+  fill: none;
+  stroke: transparent;
+  stroke-width: 8px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.trunk-hotspot:hover .trunk-hotspot-shape:not(.trunk-hotspot-line),
+.trunk-hotspot:focus-visible .trunk-hotspot-shape:not(.trunk-hotspot-line) {
+  fill: color-mix(in srgb, var(--hotspot-color) 48%, transparent);
+  stroke: var(--hotspot-color);
+  filter:
+    drop-shadow(0 0 5px var(--hotspot-color))
+    drop-shadow(0 0 14px var(--hotspot-color));
+}
+
+.trunk-hotspot:hover .trunk-hotspot-line,
+.trunk-hotspot:focus-visible .trunk-hotspot-line {
+  stroke: color-mix(in srgb, var(--hotspot-color) 70%, transparent);
+  filter:
+    drop-shadow(0 0 5px var(--hotspot-color))
+    drop-shadow(0 0 14px var(--hotspot-color));
+}
+
+.trunk-hotspot-label {
+  opacity: 0;
+  pointer-events: none;
+  font-family: var(--font-mono);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  fill: var(--hotspot-color);
+  paint-order: stroke;
+  stroke: var(--bg);
+  stroke-width: 6px;
+  stroke-linejoin: round;
+  transition: opacity 150ms ease;
+}
+
+.trunk-hotspot:hover .trunk-hotspot-label,
+.trunk-hotspot:focus-visible .trunk-hotspot-label {
+  opacity: 1;
+}
+
+.trunk-grid {
+  pointer-events: none;
+}
 
 /* ============================================
-   13. ARCHIVE ARTIFACT SYSTEM
+   15. ARCHIVE ARTIFACT SYSTEM
    ============================================ */
 
 .artifact {
@@ -1616,7 +1995,6 @@ audio:hover {
   justify-content: center;
   align-items: center;
 }
-
 .artifact-slideshow .artifact-slide img {
   width: 100%;
   flex: 1;
@@ -1671,7 +2049,7 @@ audio:hover {
 }
 
 /* ============================================
-   14. CONNECTIONS MAP
+   16. CONNECTIONS MAP
    ============================================ */
 
 .connections-container {
@@ -1887,7 +2265,7 @@ audio:hover {
 }
 
 /* ============================================
-   15. EPOCH TIMELINE
+   17. EPOCH TIMELINE
    ============================================ */
 
 .timeline {
@@ -2103,8 +2481,946 @@ audio:hover {
 .timeline-clear {
   clear: both;
 }
+
 /* ============================================
-   16. KEYFRAMES
+   18. meAF PAGE
+   ============================================ */
+
+.meaf-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.meaf-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.meaf-header h1 {
+  font-size: 48pt;
+  letter-spacing: -2px;
+  opacity: 0.9;
+}
+
+.meaf-header p {
+  font-family: var(--font-mono);
+  font-size: 10pt;
+  color: var(--pink);
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+
+.meaf-section {
+  margin-bottom: 48px;
+}
+
+.meaf-section h2 {
+  font-family: var(--font-mono);
+  font-size: 14pt;
+  letter-spacing: 2px;
+  border-bottom: 1px solid var(--pink);
+  display: inline-block;
+  padding-right: 24px;
+  margin-bottom: 24px;
+}
+
+.meaf-now-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.meaf-now-item {
+  border-left: 2px solid var(--pink);
+  padding-left: 12px;
+}
+
+.meaf-now-item h3 {
+  font-family: var(--font-mono);
+  font-size: 9pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--pink);
+  margin: 0 0 8px 0;
+}
+
+.meaf-now-item p {
+  font-size: 11pt;
+  margin: 0;
+}
+
+.meaf-guestbook {
+  border-top: 1px solid rgba(255, 0, 163, 0.2);
+  padding-top: 32px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.meaf-guestbook p {
+  font-size: 10pt;
+  opacity: 0.6;
+}
+
+.meaf-guestbook a {
+  font-family: var(--font-mono);
+  font-size: 10pt;
+  text-transform: uppercase;
+}
+
+.meaf-container hr {
+  margin: 48px 0;
+}
+
+/* ============================================
+   19. MYSPACE INTERESTS
+   ============================================ */
+
+.interest-separator,
+.interests-toggle {
+  display: inline-block;
+  color: var(--pink);
+  font-size: 12pt;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+}
+
+.interests-toggle:hover {
+  opacity: 1;
+}
+
+.myspace-interests {
+  margin-top: 16px;
+  border: 0.5px solid rgba(163, 0, 255, 0.2);
+  border-radius: 4px;
+  display: none;
+}
+
+.myspace-interests.open {
+  display: block;
+}
+
+.interests-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-body);
+  font-size: 11pt;
+  color: var(--text);
+}
+
+.interests-table td {
+  padding: 10px 16px;
+  vertical-align: top;
+  border-bottom: 0.5px solid rgba(163, 0, 255, 0.1);
+}
+
+.interests-table td:first-child {
+  width: 100px;
+  font-family: var(--font-mono);
+  font-size: 9pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--pink);
+  opacity: 0.7;
+}
+
+.interests-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* ============================================
+   20. MYSPACE SURVEYS
+   ============================================ */
+
+.survey-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.survey-container h1 {
+  font-size: 48pt;
+  letter-spacing: -2px;
+  text-align: center;
+}
+.survey-container hr {
+  margin: 32px 0;
+}
+.copy-area {
+  background: rgba(255, 0, 163, 0.05);
+  border: 0.5px solid rgba(163, 0, 255, 0.2);
+  padding: 20px;
+  margin: 32px 0;
+  white-space: pre-wrap;
+  font-family: var(--font-mono);
+  font-size: 10pt;
+  color: var(--text);
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+}
+
+/* ============================================
+   21. SUBMISSION FORM
+   ============================================ */
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 32px 0;
+}
+
+.submit-form label {
+  font-family: var(--font-body);
+  font-size: 12pt;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.submit-form .form-optional {
+  font-size: 9pt;
+  opacity: 0.4;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.submit-form .form-required {
+  color: var(--pink);
+}
+
+.submit-form .form-hint {
+  font-size: 10pt;
+  opacity: 0.5;
+  margin: -16px 0 -8px 0;
+}
+
+.submit-form input[type="text"],
+.submit-form input[type="email"],
+.submit-form input[type="file"],
+.submit-form select,
+.submit-form textarea {
+  background: transparent;
+  border: 0.5px solid rgba(163, 0, 255, 0.3);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 11pt;
+  padding: 10px 14px;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.submit-form input[type="text"]:focus,
+.submit-form input[type="email"]:focus,
+.submit-form input[type="file"]:focus,
+.submit-form select:focus,
+.submit-form textarea:focus {
+  outline: none;
+  border-color: var(--pink);
+}
+
+.submit-form select {
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+}
+
+.submit-form select option {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.submit-form .form-fieldset {
+  border: 0.5px solid rgba(163, 0, 255, 0.2);
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.submit-form .form-fieldset legend {
+  font-family: var(--font-body);
+  font-size: 11pt;
+  color: var(--text);
+  padding: 0 8px;
+}
+
+.submit-form .form-radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 11pt;
+  color: var(--text);
+  opacity: 0.8;
+  margin-bottom: 8px;
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+}
+
+.submit-form .form-radio:last-child {
+  margin-bottom: 0;
+}
+
+.submit-form .form-radio input[type="radio"] {
+  accent-color: var(--pink);
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+}
+
+.submit-form .submit-btn {
+  background: transparent;
+  border: 0.5px solid var(--pink);
+  color: var(--pink);
+  font-family: var(--font-body);
+  font-size: 14pt;
+  padding: 12px 28px;
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+  border-radius: 4px;
+  transition: opacity 0.3s ease, box-shadow 0.3s ease;
+  align-self: flex-start;
+  margin-top: 8px;
+}
+
+.submit-form .submit-btn:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 12px rgba(255, 0, 163, 0.2);
+}
+.submit-form .form-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: var(--font-body);
+  font-size: 11pt;
+  color: var(--text);
+  opacity: 0.8;
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+  margin-top: 4px;
+}
+
+.submit-form .form-checkbox input[type="checkbox"] {
+  accent-color: var(--pink);
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+/* ============================================
+   22. OPTIONAL COLUMN LAYOUTS
+   Impala: main content + right sidebar
+   Kandy Lime: left sidebar + main content
+   Dave's Dream: left rail + main content + right rail
+   ============================================ */
+
+.hwhh-column-layout {
+  --layout-accent: var(--purple);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1120px, calc(100vw - 48px));
+  display: grid;
+  gap: 24px;
+  align-items: start;
+  margin: 24px 0 48px;
+}
+
+.hwhh-column-main {
+  min-width: 0;
+}
+
+.hwhh-column-sidebar {
+  min-width: 0;
+  position: sticky;
+  top: 24px;
+  padding: 16px 18px;
+  background: color-mix(in srgb, var(--layout-accent) 4%, transparent);
+  font-family: var(--font-body);
+  margin-top: 0;
+}
+
+/* meAF intentionally drops its sidebars to align with the Blurbs row. */
+.hwhh-column-layout:has(.meaf-container) .hwhh-column-sidebar {
+  margin-top: 175px;
+}
+
+.hwhh-column-sidebar-left {
+  border-right: 0.5px solid color-mix(in srgb, var(--layout-accent) 34%, transparent);
+}
+
+.hwhh-column-sidebar-right {
+  border-left: 0.5px solid color-mix(in srgb, var(--layout-accent) 34%, transparent);
+}
+
+
+.hwhh-column-sidebar h2 {
+  font-family: var(--font-mono);
+  font-size: 13pt;
+  letter-spacing: 2px;
+  border-bottom: 1px solid var(--pink);
+  display: inline-block;
+  padding-right: 24px;
+  margin-bottom: 24px;
+  color: var(--layout-accent);
+  line-height: 1.2;
+  text-transform: none;
+}
+
+.hwhh-column-sidebar h3 {
+  font-family: var(--font-mono);
+  font-size: 9pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--pink);
+  margin: 18px 0 8px;
+}
+
+.hwhh-column-sidebar p,
+.hwhh-column-sidebar li {
+  font-family: var(--font-mono);
+  font-size: 9.5pt;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.hwhh-column-sidebar p {
+  margin: 0 0 10px;
+}
+
+.hwhh-column-sidebar ul,
+.hwhh-column-sidebar ol {
+  margin: 0 0 12px;
+  padding-left: 18px;
+}
+
+.hwhh-column-sidebar a {
+  font-family: var(--font-mono);
+  font-size: 9pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--pink);
+  margin: 18px 0 8px;
+}
+
+.hwhh-column-sidebar hr {
+  border-top-color: color-mix(in srgb, var(--layout-accent) 34%, transparent);
+  margin: 16px 0;
+}
+
+/* Impala — wide main lane with a right-side column. */
+.hwhh-impala {
+  --layout-accent: var(--pink);
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 240px);
+}
+
+/* Kandy Lime — compact left rail with the main lane on the right. */
+.hwhh-kandy-lime {
+  --layout-accent: var(--color-30);
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+}
+
+/* Dave's Dream — broad dashboard with two narrow side rails. */
+.hwhh-daves-dream {
+  --layout-accent: var(--purple);
+  width: min(1280px, calc(100vw - 48px));
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr) minmax(220px, 300px);
+  gap: 20px;
+}
+
+/* ============================================
+   23. SCROLL COMPONENTS
+   ============================================ */
+
+/* --- SCROLL STRIP --- */
+
+.scroll-strip {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px 0 24px 0;
+  margin: 16px 0 32px 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 0, 163, 0.5) transparent;
+}
+
+.scroll-strip::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scroll-strip::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-strip::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 163, 0.4);
+  border-radius: 3px;
+}
+
+.scroll-strip::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 0, 163, 0.7);
+}
+
+.scroll-strip-item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  width: 300px;
+}
+
+.scroll-strip-item img {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+  border: 0.5px solid rgba(255, 0, 163, 0.3);
+  border-radius: 4px;
+  display: block;
+}
+
+.scroll-strip-item .caption {
+  font-family: var(--font-body);
+  font-size: 9pt;
+  color: var(--text);
+  opacity: 0.6;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+/* --- IMAGE SCROLL CONTAINER --- */
+
+div.scroll-container {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 12px 0;
+  scroll-behavior: smooth;
+}
+
+div.scroll-container img {
+  display: block;
+  flex: 0 0 auto;
+height: 720px;
+  width: auto;
+  max-width: none;
+  padding: 0;
+  object-fit: cover;
+  border: 0.5px solid var(--gray);
+}
+
+/* ============================================
+   24. SCRATCH PAPER — TORN SCRAPS BOARD
+   Torn edges stay irregular; printed lines stay straight; dark mode gets stronger color + glow.
+   ============================================ */
+
+.scrap-board {
+  position: relative;
+  width: 100%;
+  min-height: 1800px;
+  margin: 40px 0 80px;
+}
+
+
+/* --- SVG FILTER HOLDER --- */
+
+.scrap-svg-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+
+/* --- SCRAP --- */
+
+.scrap {
+  position: absolute;
+
+  padding: 22px 26px;
+
+  color: var(--text);
+
+  font-family: var(--font-body);
+  font-size: 12pt;
+  line-height: 1.5;
+
+  cursor: grab;
+  user-select: none;
+
+  isolation: isolate;
+
+  transition:
+    translate 0.15s ease,
+    filter 0.15s ease;
+}
+
+
+/* --- TORN PAPER LAYER --- */
+
+.scrap::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  z-index: -2;
+  pointer-events: none;
+
+  filter: url("#torn-edge");
+
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.18),
+    0 4px 12px rgba(0, 0, 0, 0.28),
+    0 0 18px color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-25))
+      calc(var(--scrap-glow-strength) * 100%),
+      transparent
+    );
+
+  transition:
+    box-shadow 0.15s ease,
+    filter 0.15s ease;
+}
+
+
+/* --- PRINTED PATTERN LAYER ---
+   No SVG displacement here.
+   Lines stay perfectly straight. */
+
+.scrap::after {
+  content: "";
+
+  position: absolute;
+  inset: 8px;
+
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+/* --- INTERACTION --- */
+
+.scrap:active {
+  cursor: grabbing;
+}
+
+.scrap:hover {
+  translate: 0 -3px;
+  z-index: 100;
+}
+
+.scrap:hover::before {
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.24),
+    0 10px 24px rgba(0, 0, 0, 0.38),
+    0 0 26px color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-25)) 58%,
+      transparent
+    ),
+    0 0 48px color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-25)) 24%,
+      transparent
+    );
+}
+
+
+/* --- PLAIN PAPER --- */
+
+.scrap[data-paper="plain"]::before {
+  background:
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-27))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+}
+
+
+/* --- NOTEBOOK PAPER --- */
+
+.scrap[data-paper="notebook"]::before {
+  background:
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-22))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+}
+
+.scrap[data-paper="notebook"]::after {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 24px,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-22))
+        var(--scrap-line-strength),
+        transparent
+      ) 24px,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-22))
+        var(--scrap-line-strength),
+        transparent
+      ) 25px
+    );
+}
+
+
+/* --- INDEX CARD --- */
+
+.scrap[data-paper="index"]::before {
+  background:
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-26))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+}
+
+.scrap[data-paper="index"]::after {
+  background:
+
+    /* top rule */
+    linear-gradient(
+      to bottom,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-26))
+        var(--scrap-line-strength),
+        transparent
+      ) 0,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-26))
+        var(--scrap-line-strength),
+        transparent
+      ) 1px,
+
+      transparent 1px
+    ),
+
+    /* ruled lines */
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 28px,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-26))
+        var(--scrap-line-strength),
+        transparent
+      ) 28px,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-26))
+        var(--scrap-line-strength),
+        transparent
+      ) 29px
+    );
+}
+
+
+/* --- NEWSPRINT --- */
+
+.scrap[data-paper="newsprint"]::before {
+  background:
+
+    radial-gradient(
+      circle at 1px 1px,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-28)) 34%,
+        transparent
+      ) 0.6px,
+
+      transparent 0.8px
+    ),
+
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-28))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+
+  background-size:
+    4px 4px,
+    auto;
+}
+
+
+/* --- RECEIPT PAPER --- */
+
+.scrap[data-paper="receipt"]::before {
+  background:
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-27))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+}
+
+
+/* --- KRAFT PAPER --- */
+
+.scrap[data-paper="kraft"]::before {
+  background:
+    linear-gradient(
+      145deg,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-06)) 62%,
+        var(--bg)
+      ),
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-06)) 44%,
+        var(--bg)
+      )
+    );
+}
+
+
+/* --- GRAPH PAPER --- */
+
+.scrap[data-paper="graph"]::before {
+  background:
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-19))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+}
+
+.scrap[data-paper="graph"]::after {
+  background:
+
+    linear-gradient(
+      to right,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-19))
+        var(--scrap-line-strength),
+        transparent
+      ) 1px,
+
+      transparent 1px
+    ),
+
+    linear-gradient(
+      to bottom,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-19))
+        var(--scrap-line-strength),
+        transparent
+      ) 1px,
+
+      transparent 1px
+    );
+
+  background-size:
+    12px 12px,
+    12px 12px;
+}
+
+
+/* --- SCRAP SIZES --- */
+
+.scrap-sm {
+  max-width: 200px;
+}
+
+.scrap-md {
+  max-width: 300px;
+}
+
+.scrap-lg {
+  max-width: 400px;
+}
+
+.scrap-strip {
+  max-width: 240px;
+}
+
+
+/* --- TEXT --- */
+
+.scrap p {
+  margin: 0 0 8px;
+
+  font-size: 12pt;
+  line-height: 1.5;
+
+  color: inherit;
+}
+
+.scrap p:last-child {
+  margin-bottom: 0;
+}
+
+.scrap a {
+  color: inherit;
+}
+
+
+/* --- BLINKIES --- */
+
+.scrap img {
+  display: inline-block;
+  vertical-align: middle;
+
+  max-width: 100%;
+  height: auto;
+
+  margin-top: 8px;
+
+  image-rendering: pixelated;
+}
+
+
+/* --- LIGHT MODE SHADOW ADJUSTMENT --- */
+
+[data-theme="light"] .scrap::before {
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.12),
+    0 4px 10px rgba(0, 0, 0, 0.16),
+    0 0 12px color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-25)) 10%,
+      transparent
+    );
+}
+
+[data-theme="light"] .scrap:hover::before {
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.16),
+    0 8px 18px rgba(0, 0, 0, 0.2),
+    0 0 18px color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-25)) 16%,
+      transparent
+    );
+}
+
+/* ============================================
+   25. ANIMATIONS & MOTION
    ============================================ */
 
 @keyframes flicker {
@@ -2126,11 +3442,99 @@ audio:hover {
   80% { transform: translateX(4px) rotate(0.5deg); }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .static-line {
+    animation: flicker 2s ease-in-out infinite;
+  }
+
+  .static-line:nth-child(odd) {
+    animation-delay: 1s;
+  }
+
+  .footer-shake {
+    animation: carShake 0.5s ease-in-out;
+  }
+
+  .feature-card:hover {
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+}
+
 /* ============================================
-   17. MOBILE STYLES (MAX-WIDTH: 600px)
+   26. MOBILE STYLES
+   All responsive layout overrides live here.
    ============================================ */
 
+/* --- MOBILE DESKTOP NUDGE --- */
+
+#desktop-nudge {
+  position: fixed;
+  bottom: 50%;
+  transform: translateY(50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: var(--bg);
+  border: 0.5px solid var(--pink);
+  padding: 14px 20px;
+  border-radius: 8px;
+  z-index: 999;
+  text-align: center;
+  box-shadow: 0 0 24px rgba(255, 0, 163, 0.15);
+  max-width: 280px;
+  width: fit-content;
+}
+
+#desktop-nudge p {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 13pt;
+  color: var(--purple);
+  margin: 0 0 10px 0;
+}
+
+#desktop-nudge button {
+  background: transparent;
+  border: 0.5px solid var(--pink);
+  color: var(--pink);
+  font-family: var(--font-body);
+  font-size: 9pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 16px;
+  border-radius: 4px;
+  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+#desktop-nudge button:hover {
+  opacity: 1;
+}
+
+/* --- SITE MOBILE: MAX 600PX --- */
+
 @media (max-width: 600px) {
+  /* --- CONTRIBUTOR CANVAS --- */
+  .driver-canvas {
+    grid-template-columns: 1fr;
+    gap: 22px;
+
+    margin: 24px 0 48px;
+  }
+
+  .driver-piece {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+
+  .driver-photo {
+    max-width: 340px;
+  }
+
+  .driver-blurb-text {
+    font-size: 10.5pt;
+  }
 
   /* --- NAV --- */
   nav {
@@ -2214,8 +3618,6 @@ audio:hover {
   .survey-container h1 {
     font-size: 28pt !important;
   }
-
-  /* rest of your mobile styles... */
 
   .container ul:not(.a-list), .container ol, .wiki-page ul:not(.a-list), .wiki-page ol {
     font-size: 10pt;
@@ -2357,534 +3759,8 @@ audio:hover {
   .double-perspective-table td {
     padding: 4px 4px;
   }
-}
 
-
-/* ============================================
-   18. ANIMATIONS (MOTION-SAFE ONLY)
-   ============================================ */
-
-@media (prefers-reduced-motion: no-preference) {
-  .static-line {
-    animation: flicker 2s ease-in-out infinite;
-  }
-
-  .static-line:nth-child(odd) {
-    animation-delay: 1s;
-  }
-
-  .footer-shake {
-    animation: carShake 0.5s ease-in-out;
-  }
-
-  .feature-card:hover {
-    animation: pulse 1.5s ease-in-out infinite;
-  }
-}
-/* ============================================
-   19. meAF PAGE
-   ============================================ */
-
-.meaf-container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 24px;
-}
-
-.meaf-header {
-  text-align: center;
-  margin-bottom: 48px;
-}
-
-.meaf-header h1 {
-  font-size: 48pt;
-  letter-spacing: -2px;
-  opacity: 0.9;
-}
-
-.meaf-header p {
-  font-family: var(--font-mono);
-  font-size: 10pt;
-  color: var(--pink);
-  opacity: 0.6;
-  text-transform: uppercase;
-}
-
-.meaf-section {
-  margin-bottom: 48px;
-}
-
-.meaf-section h2 {
-  font-family: var(--font-mono);
-  font-size: 14pt;
-  letter-spacing: 2px;
-  border-bottom: 1px solid var(--pink);
-  display: inline-block;
-  padding-right: 24px;
-  margin-bottom: 24px;
-}
-
-.meaf-now-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 24px;
-  margin: 24px 0;
-}
-
-.meaf-now-item {
-  border-left: 2px solid var(--pink);
-  padding-left: 12px;
-}
-
-.meaf-now-item h3 {
-  font-family: var(--font-mono);
-  font-size: 9pt;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--pink);
-  margin: 0 0 8px 0;
-}
-
-.meaf-now-item p {
-  font-size: 11pt;
-  margin: 0;
-}
-
-.meaf-guestbook {
-  border-top: 1px solid rgba(255, 0, 163, 0.2);
-  padding-top: 32px;
-  margin-top: 32px;
-  text-align: center;
-}
-
-.meaf-guestbook p {
-  font-size: 10pt;
-  opacity: 0.6;
-}
-
-.meaf-guestbook a {
-  font-family: var(--font-mono);
-  font-size: 10pt;
-  text-transform: uppercase;
-}
-
-.meaf-container hr {
-  margin: 48px 0;
-}
-/* ============================================
-   20. MYSPACE INTERESTS (✦ SEPARATORS + TOGGLE)
-   ============================================ */
-
-.connect-links {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 4px 8px;
-}
-
-.connect-links a {
-  font-size: 12pt;
-  color: var(--text);
-  opacity: 0.7;
-  text-decoration: none;
-}
-
-.connect-links a:hover {
-  color: var(--pink);
-  opacity: 1;
-}
-
-.interest-separator,
-.interests-toggle {
-  display: inline-block;
-  color: var(--pink);
-  font-size: 12pt;
-  opacity: 0.6;
-  transition: opacity 0.2s ease;
-  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
-}
-
-.interests-toggle:hover {
-  opacity: 1;
-}
-
-.myspace-interests {
-  margin-top: 16px;
-  border: 0.5px solid rgba(163, 0, 255, 0.2);
-  border-radius: 4px;
-  display: none;
-}
-
-.myspace-interests.open {
-  display: block;
-}
-
-.interests-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: var(--font-body);
-  font-size: 11pt;
-  color: var(--text);
-}
-
-.interests-table td {
-  padding: 10px 16px;
-  vertical-align: top;
-  border-bottom: 0.5px solid rgba(163, 0, 255, 0.1);
-}
-
-.interests-table td:first-child {
-  width: 100px;
-  font-family: var(--font-mono);
-  font-size: 9pt;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--pink);
-  opacity: 0.7;
-}
-
-.interests-table tr:last-child td {
-  border-bottom: none;
-}
-/* ============================================
-   21. MYSPACE SURVEYS
-   ============================================ */
-  .survey-container {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 24px;
-  }
-  .survey-container h1 {
-    font-size: 48pt;
-    letter-spacing: -2px;
-    text-align: center;
-  }
-  .survey-container hr {
-    margin: 32px 0;
-  }
-  .copy-area {
-    background: rgba(255, 0, 163, 0.05);
-    border: 0.5px solid rgba(163, 0, 255, 0.2);
-    padding: 20px;
-    margin: 32px 0;
-    white-space: pre-wrap;
-    font-family: var(--font-mono);
-    font-size: 10pt;
-    color: var(--text);
-    cursor: url('/assets/svg/cursor.svg') 8 2, auto;
-  }
-
-/* ============================================
-   22. SUBMISSION FORM
-   ============================================ */
-
-.submit-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin: 32px 0;
-}
-
-.submit-form label {
-  font-family: var(--font-body);
-  font-size: 12pt;
-  color: var(--text);
-  margin-bottom: 4px;
-}
-
-.submit-form .form-optional {
-  font-size: 9pt;
-  opacity: 0.4;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.submit-form .form-required {
-  color: var(--pink);
-}
-
-.submit-form .form-hint {
-  font-size: 10pt;
-  opacity: 0.5;
-  margin: -16px 0 -8px 0;
-}
-
-.submit-form input[type="text"],
-.submit-form input[type="email"],
-.submit-form input[type="file"],
-.submit-form select,
-.submit-form textarea {
-  background: transparent;
-  border: 0.5px solid rgba(163, 0, 255, 0.3);
-  color: var(--text);
-  font-family: var(--font-body);
-  font-size: 11pt;
-  padding: 10px 14px;
-  border-radius: 4px;
-  transition: border-color 0.3s ease;
-}
-
-.submit-form input[type="text"]:focus,
-.submit-form input[type="email"]:focus,
-.submit-form input[type="file"]:focus,
-.submit-form select:focus,
-.submit-form textarea:focus {
-  outline: none;
-  border-color: var(--pink);
-}
-
-.submit-form select {
-  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
-}
-
-.submit-form select option {
-  background: var(--bg);
-  color: var(--text);
-}
-
-.submit-form .form-fieldset {
-  border: 0.5px solid rgba(163, 0, 255, 0.2);
-  border-radius: 4px;
-  padding: 16px;
-}
-
-.submit-form .form-fieldset legend {
-  font-family: var(--font-body);
-  font-size: 11pt;
-  color: var(--text);
-  padding: 0 8px;
-}
-
-.submit-form .form-radio {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-family: var(--font-body);
-  font-size: 11pt;
-  color: var(--text);
-  opacity: 0.8;
-  margin-bottom: 8px;
-  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
-}
-
-.submit-form .form-radio:last-child {
-  margin-bottom: 0;
-}
-
-.submit-form .form-radio input[type="radio"] {
-  accent-color: var(--pink);
-  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
-}
-
-.submit-form .submit-btn {
-  background: transparent;
-  border: 0.5px solid var(--pink);
-  color: var(--pink);
-  font-family: var(--font-body);
-  font-size: 14pt;
-  padding: 12px 28px;
-  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
-  border-radius: 4px;
-  transition: opacity 0.3s ease, box-shadow 0.3s ease;
-  align-self: flex-start;
-  margin-top: 8px;
-}
-
-.submit-form .submit-btn:hover {
-  opacity: 0.8;
-  box-shadow: 0 0 12px rgba(255, 0, 163, 0.2);
-}
-.submit-form .form-checkbox {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  font-family: var(--font-body);
-  font-size: 11pt;
-  color: var(--text);
-  opacity: 0.8;
-  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
-  margin-top: 4px;
-}
-
-.submit-form .form-checkbox input[type="checkbox"] {
-  accent-color: var(--pink);
-  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
-  margin-top: 3px;
-  flex-shrink: 0;
-}
-/* ============================================
-   23. MOBILE DESKTOP NUDGE
-   ============================================ */
-
-#desktop-nudge {
-  position: fixed;
-  bottom: 50%;
-  transform: translateY(50%);
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  background: var(--bg);
-  border: 0.5px solid var(--pink);
-  padding: 14px 20px;
-  border-radius: 8px;
-  z-index: 999;
-  text-align: center;
-  box-shadow: 0 0 24px rgba(255, 0, 163, 0.15);
-  max-width: 280px;
-  width: fit-content;
-}
-
-#desktop-nudge p {
-  font-family: var(--font-body);
-  font-style: italic;
-  font-size: 13pt;
-  color: var(--purple);
-  margin: 0 0 10px 0;
-}
-
-#desktop-nudge button {
-  background: transparent;
-  border: 0.5px solid var(--pink);
-  color: var(--pink);
-  font-family: var(--font-body);
-  font-size: 9pt;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 5px 16px;
-  border-radius: 4px;
-  cursor: url('/assets/svg/cursor.svg') 8 2, auto;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-}
-
-#desktop-nudge button:hover {
-  opacity: 1;
-}
-/* ============================================
-   24. OPTIONAL COLUMN LAYOUTS
-   Impala: main content + right sidebar
-   Kandy Lime: left sidebar + main content
-   Dave's Dream: left rail + main content + right rail
-
-   These selectors are isolated. Existing pages are unaffected
-   unless their front matter uses one of the new layouts.
-   ============================================ */
-
-.hwhh-column-layout {
-  --layout-accent: var(--purple);
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: min(1120px, calc(100vw - 48px));
-  display: grid;
-  gap: 24px;
-  align-items: start;
-  margin: 24px 0 48px;
-}
-
-.hwhh-column-main {
-  min-width: 0;
-}
-
-.hwhh-column-sidebar {
-  min-width: 0;
-  position: sticky;
-  top: 24px;
-  padding: 16px 18px;
-  background: color-mix(in srgb, var(--layout-accent) 4%, transparent);
-  font-family: var(--font-body);
-  margin-top: 0;
-}
-
-/* meAF intentionally drops its sidebars to align with the Blurbs row. */
-.hwhh-column-layout:has(.meaf-container) .hwhh-column-sidebar {
-  margin-top: 175px;
-}
-
-.hwhh-column-sidebar-left {
-  border-right: 0.5px solid color-mix(in srgb, var(--layout-accent) 34%, transparent);
-}
-
-.hwhh-column-sidebar-right {
-  border-left: 0.5px solid color-mix(in srgb, var(--layout-accent) 34%, transparent);
-}
-
-
-.hwhh-column-sidebar h2 {
-  font-family: var(--font-mono);
-  font-size: 13pt;
-  letter-spacing: 2px;
-  border-bottom: 1px solid var(--pink);
-  display: inline-block;
-  padding-right: 24px;
-  margin-bottom: 24px;
-  color: var(--layout-accent);
-  line-height: 1.2;
-  text-transform: none;
-}
-
-.hwhh-column-sidebar h3 {
-  font-family: var(--font-mono);
-  font-size: 9pt;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--pink);
-  margin: 18px 0 8px;
-}
-
-.hwhh-column-sidebar p,
-.hwhh-column-sidebar li {
-  font-family: var(--font-mono);
-  font-size: 9.5pt;
-  line-height: 1.55;
-  color: var(--text);
-}
-
-.hwhh-column-sidebar p {
-  margin: 0 0 10px;
-}
-
-.hwhh-column-sidebar ul,
-.hwhh-column-sidebar ol {
-  margin: 0 0 12px;
-  padding-left: 18px;
-}
-
-.hwhh-column-sidebar a {
-  font-family: var(--font-mono);
-  font-size: 9pt;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--pink);
-  margin: 18px 0 8px;
-}
-
-.hwhh-column-sidebar hr {
-  border-top-color: color-mix(in srgb, var(--layout-accent) 34%, transparent);
-  margin: 16px 0;
-}
-
-/* Impala — wide main lane with a right-side column. */
-.hwhh-impala {
-  --layout-accent: var(--pink);
-  grid-template-columns: minmax(0, 1fr) minmax(180px, 240px);
-}
-
-/* Kandy Lime — compact left rail with the main lane on the right. */
-.hwhh-kandy-lime {
-  --layout-accent: var(--color-30);
-  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
-}
-
-/* Dave's Dream — broad dashboard with two narrow side rails. */
-.hwhh-daves-dream {
-  --layout-accent: var(--purple);
-  width: min(1280px, calc(100vw - 48px));
-  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr) minmax(220px, 300px);
-  gap: 20px;
-}
-
-@media (max-width: 600px) {
+  /* --- OPTIONAL COLUMN LAYOUTS --- */
   .hwhh-column-layout,
   .hwhh-daves-dream {
     left: auto;
@@ -2904,6 +3780,7 @@ audio:hover {
     padding: 14px 0 0;
     background: transparent;
     margin-top: 0;
+    order: 2;
   }
 
   .hwhh-column-layout:has(.meaf-container) .hwhh-column-sidebar {
@@ -2917,78 +3794,11 @@ audio:hover {
     border-top: 0.5px solid color-mix(in srgb, var(--layout-accent) 34%, transparent);
   }
 
-  .hwhh-column-sidebar {
-    order: 2;
-  }
-
   .hwhh-daves-dream .hwhh-column-sidebar-right {
     order: 3;
   }
-}
 
-/* ============================================
-   25. SCROLL STRIP
-   Horizontal image strip with scroll-snap.
-   Standalone component — not tied to column layouts.
-   Uses pink accents by default.
-   ============================================ */
-
-.scroll-strip {
-  display: flex;
-  gap: 16px;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  padding: 8px 0 24px 0;
-  margin: 16px 0 32px 0;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255, 0, 163, 0.5) transparent;
-}
-
-.scroll-strip::-webkit-scrollbar {
-  height: 6px;
-}
-
-.scroll-strip::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.scroll-strip::-webkit-scrollbar-thumb {
-  background: rgba(255, 0, 163, 0.4);
-  border-radius: 3px;
-}
-
-.scroll-strip::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 0, 163, 0.7);
-}
-
-.scroll-strip-item {
-  flex: 0 0 auto;
-  scroll-snap-align: start;
-  width: 300px;
-}
-
-.scroll-strip-item img {
-  width: 100%;
-  height: 225px;
-  object-fit: cover;
-  border: 0.5px solid rgba(255, 0, 163, 0.3);
-  border-radius: 4px;
-  display: block;
-}
-
-.scroll-strip-item .caption {
-  font-family: var(--font-body);
-  font-size: 9pt;
-  color: var(--text);
-  opacity: 0.6;
-  letter-spacing: 0.1em;
-  text-align: left;
-  margin-top: 6px;
-  margin-bottom: 0;
-}
-
-@media (max-width: 600px) {
+  /* --- SCROLL STRIP --- */
   .scroll-strip-item {
     width: 240px;
   }
@@ -2996,943 +3806,8 @@ audio:hover {
   .scroll-strip-item img {
     height: 180px;
   }
-}
 
-/* ============================================
-   DRIVER CANVAS
-   Invisible 12-column grid for new contributor
-   profiles. The grid is the chassis; each
-   contributor can arrange the pieces differently.
-   ============================================ */
-
-.driver-canvas {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  grid-auto-rows: minmax(40px, auto);
-  gap: 20px 24px;
-  row-gap: 28px;
-  margin-top: 42px;
-  width: 100%;
-  margin: 32px 0 64px;
-
-  /* intentionally no border/background/glow */
-}
-
-.driver-stack {
-  align-self: stretch;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  gap: 24px;
-}
-
-/* ============================================
-   DRIVER PIECES
-   Placement is controlled per contributor
-   with --col and --row in the Markdown.
-   ============================================ */
-
-.driver-piece {
-  --piece-color: var(--purple);
-
-  grid-column: var(--col, auto);
-  grid-row: var(--row, auto);
-  padding-bottom: 6px;
-  min-width: 0;
-  align-self: start;
-}
-
-
-/* ============================================
-   PHOTO
-   ============================================ */
-
-.driver-photo img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-
-/* ============================================
-   BIO
-   ============================================ */
-
-.driver-bio p:first-child {
-  margin-top: 0;
-}
-
-.driver-bio p:last-child {
-  margin-bottom: 0;
-}
-
-
-/* ============================================
-   BLURBS
-   ============================================ */
-
-.driver-blurb-label {
-  display: block;
-  margin-bottom: 6px;
-
-  font-family: var(--font-mono);
-  font-size: 8.5pt;
-  font-weight: 600;
-  line-height: 1.2;
-
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-
-  color: var(--piece-color);
-}
-
-.driver-blurb-text {
-  display: block;
-
-  font-family: var(--font-body);
-  font-size: 11pt;
-  line-height: 1.5;
-
-  color: var(--text);
-}
-
-
-/* ============================================
-   SOCIAL LINKS
-   No decorative separators.
-   ============================================ */
-
-.driver-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 22px;
-}
-
-.driver-links a {
-  font-family: var(--font-mono);
-  font-size: 9pt;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-
-  color: var(--piece-color);
-
-  text-decoration: underline;
-  text-decoration-thickness: 0.5px;
-  text-underline-offset: 4px;
-}
-
-.driver-links a:hover,
-.driver-links a:focus-visible {
-  opacity: 0.7;
-}
-
-
-/* ============================================
-   DRIVER PIECE SURFACES
-   Light/paint effects only.
-   No borders, boxes, or card treatments.
-   ============================================ */
-
-.driver-piece {
-  --piece-color: var(--purple);
-
-  grid-column: var(--col, auto);
-  grid-row: var(--row, auto);
-
-  min-width: 0;
-  align-self: start;
-
-  position: relative;
-  isolation: isolate;
-}
-
-
-/* --------------------------------------------
-   BARE
-   No treatment at all.
-   -------------------------------------------- */
-
-.driver-piece.piece-bare {
-  background: none;
-  box-shadow: none;
-  filter: none;
-}
-
-
-/* --------------------------------------------
-   GLOW
-   Keep this one.
-   -------------------------------------------- */
-
-.driver-piece.piece-glow {
-  filter:
-    drop-shadow(
-      0 0 10px
-      color-mix(
-        in srgb,
-        var(--piece-color) 30%,
-        transparent
-      )
-    )
-    drop-shadow(
-      0 0 22px
-      color-mix(
-        in srgb,
-        var(--piece-color) 14%,
-        transparent
-      )
-    );
-}
-
-
-/* --------------------------------------------
-   CANDY
-   Layered translucent color underneath.
-   No visible rectangle.
-   -------------------------------------------- */
-
-.driver-piece.piece-candy::before {
-  content: "";
-
-  position: absolute;
-  z-index: -1;
-
-  inset: -18% -12%;
-
-  background:
-    radial-gradient(
-      ellipse at 30% 45%,
-      color-mix(
-        in srgb,
-        var(--piece-color) 24%,
-        transparent
-      ) 0%,
-      color-mix(
-        in srgb,
-        var(--piece-color) 10%,
-        transparent
-      ) 42%,
-      transparent 72%
-    );
-
-  filter: blur(14px);
-  pointer-events: none;
-}
-
-
-/* --------------------------------------------
-   HALO
-   More concentrated reflected light.
-   -------------------------------------------- */
-
-.driver-piece.piece-halo::before {
-  content: "";
-
-  position: absolute;
-  z-index: -1;
-
-  width: 85%;
-  height: 70%;
-
-  left: 50%;
-  top: 50%;
-
-  transform: translate(-50%, -50%);
-
-  background:
-    radial-gradient(
-      ellipse,
-      color-mix(
-        in srgb,
-        var(--piece-color) 28%,
-        transparent
-      ) 0%,
-      color-mix(
-        in srgb,
-        var(--piece-color) 10%,
-        transparent
-      ) 45%,
-      transparent 75%
-    );
-
-  filter: blur(18px);
-  pointer-events: none;
-}
-
-
-/* --------------------------------------------
-   SHEEN
-   A faint diagonal reflection rather than
-   a background panel.
-   -------------------------------------------- */
-
-.driver-piece.piece-sheen::before {
-  content: "";
-
-  position: absolute;
-  z-index: -1;
-
-  inset: -10%;
-
-  background:
-    linear-gradient(
-      115deg,
-      transparent 20%,
-      color-mix(
-        in srgb,
-        var(--piece-color) 8%,
-        transparent
-      ) 42%,
-      color-mix(
-        in srgb,
-        white 9%,
-        transparent
-      ) 50%,
-      color-mix(
-        in srgb,
-        var(--piece-color) 7%,
-        transparent
-      ) 57%,
-      transparent 78%
-    );
-
-  filter: blur(5px);
-  pointer-events: none;
-}
-
-
-/* ============================================
-   MOBILE
-   Ignore the custom desktop placement and
-   stack everything in source order.
-   ============================================ */
-
-@media (max-width: 700px) {
-
-  .driver-canvas {
-    grid-template-columns: 1fr;
-    gap: 22px;
-
-    margin: 24px 0 48px;
-  }
-
-  .driver-piece {
-    grid-column: 1 / -1;
-    grid-row: auto;
-  }
-
-  .driver-photo {
-    max-width: 340px;
-  }
-
-  .driver-blurb-text {
-    font-size: 10.5pt;
-  }
-
-}
-
-/* ============================================
-   13. TRUNK — INTERACTIVE COLLECTION MAP
-   Path-based hotspots. The pink drawing stays visible
-   above each colored hover fill.
-   ============================================ */
-
-.trunk-scene {
-  width: min(100%, 1200px);
-  margin: 32px auto 64px;
-}
-
-.trunk-map {
-  display: block;
-  width: 100%;
-  height: auto;
-  overflow: visible;
-}
-
-.trunk-map-base,
-.trunk-map-lines {
-  pointer-events: none;
-}
-
-.trunk-map-lines {
-  opacity: 1;
-}
-
-.trunk-hotspot {
-  --hotspot-color: var(--pink);
-  cursor: url('/assets/svg/cursor.svg') 8 2, pointer;
-  outline: none;
-}
-
-.trunk-hotspot-shape {
-  fill: transparent;
-  stroke: transparent;
-  stroke-width: 2px;
-  vector-effect: non-scaling-stroke;
-  pointer-events: all;
-  transition:
-    fill 180ms ease,
-    stroke 180ms ease,
-    filter 180ms ease,
-    opacity 180ms ease;
-}
-
-/* Seatbelt is a narrow object, so its path behaves like a thick illuminated line. */
-.trunk-hotspot-line {
-  fill: none;
-  stroke: transparent;
-  stroke-width: 8px;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.trunk-hotspot:hover .trunk-hotspot-shape:not(.trunk-hotspot-line),
-.trunk-hotspot:focus-visible .trunk-hotspot-shape:not(.trunk-hotspot-line) {
-  fill: color-mix(in srgb, var(--hotspot-color) 48%, transparent);
-  stroke: var(--hotspot-color);
-  filter:
-    drop-shadow(0 0 5px var(--hotspot-color))
-    drop-shadow(0 0 14px var(--hotspot-color));
-}
-
-.trunk-hotspot:hover .trunk-hotspot-line,
-.trunk-hotspot:focus-visible .trunk-hotspot-line {
-  stroke: color-mix(in srgb, var(--hotspot-color) 70%, transparent);
-  filter:
-    drop-shadow(0 0 5px var(--hotspot-color))
-    drop-shadow(0 0 14px var(--hotspot-color));
-}
-
-.trunk-hotspot-label {
-  opacity: 0;
-  pointer-events: none;
-  font-family: var(--font-mono);
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  fill: var(--hotspot-color);
-  paint-order: stroke;
-  stroke: var(--bg);
-  stroke-width: 6px;
-  stroke-linejoin: round;
-  transition: opacity 150ms ease;
-}
-
-.trunk-hotspot:hover .trunk-hotspot-label,
-.trunk-hotspot:focus-visible .trunk-hotspot-label {
-  opacity: 1;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .trunk-hotspot-shape,
-  .trunk-hotspot-label {
-    transition: none;
-  }
-}
-.trunk-grid {
-  pointer-events: none;
-}
-
-div.scroll-container {
-  display: flex;
-  gap: 12px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding: 12px 0;
-  scroll-behavior: smooth;
-}
-
-div.scroll-container img {
-  display: block;
-  flex: 0 0 auto;
-  height: 720px;
-  width: auto;
-  max-width: none;
-  padding: 0;
-  object-fit: cover;
-  border: 0.5px solid var(--gray);
-}
-
-/* ============================================
-   26. SCRATCH PAPER — TORN SCRAPS BOARD
-   Scraps of paper scattered on the page.
-   Torn edges stay irregular.
-   Printed lines stay straight.
-   Dark mode gets stronger color + glow.
-   Light mode stays softer.
-   ============================================ */
-
-:root {
-  --scrap-paper-strength: 52%;
-  --scrap-line-strength: 56%;
-  --scrap-glow-strength: 0.34;
-}
-
-[data-theme="light"] {
-  --scrap-paper-strength: 20%;
-  --scrap-line-strength: 24%;
-  --scrap-glow-strength: 0.12;
-}
-
-
-/* ============================================
-   BOARD
-   ============================================ */
-
-.scrap-board {
-  position: relative;
-  width: 100%;
-  min-height: 1800px;
-  margin: 40px 0 80px;
-}
-
-
-/* ============================================
-   SVG FILTER HOLDER
-   ============================================ */
-
-.scrap-svg-defs {
-  position: absolute;
-  width: 0;
-  height: 0;
-  pointer-events: none;
-}
-
-
-/* ============================================
-   SCRAP
-   ============================================ */
-
-.scrap {
-  position: absolute;
-
-  padding: 22px 26px;
-
-  color: var(--text);
-
-  font-family: var(--font-body);
-  font-size: 12pt;
-  line-height: 1.5;
-
-  cursor: grab;
-  user-select: none;
-
-  isolation: isolate;
-
-  transition:
-    translate 0.15s ease,
-    filter 0.15s ease;
-}
-
-
-/* ============================================
-   TORN PAPER LAYER
-   ============================================ */
-
-.scrap::before {
-  content: "";
-
-  position: absolute;
-  inset: 0;
-
-  z-index: -2;
-  pointer-events: none;
-
-  filter: url("#torn-edge");
-
-  box-shadow:
-    0 1px 2px rgba(0, 0, 0, 0.18),
-    0 4px 12px rgba(0, 0, 0, 0.28),
-    0 0 18px color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-25))
-      calc(var(--scrap-glow-strength) * 100%),
-      transparent
-    );
-
-  transition:
-    box-shadow 0.15s ease,
-    filter 0.15s ease;
-}
-
-
-/* ============================================
-   PRINTED PATTERN LAYER
-   No SVG displacement here.
-   Lines stay perfectly straight.
-   ============================================ */
-
-.scrap::after {
-  content: "";
-
-  position: absolute;
-  inset: 8px;
-
-  z-index: -1;
-  pointer-events: none;
-}
-
-
-/* ============================================
-   INTERACTION
-   ============================================ */
-
-.scrap:active {
-  cursor: grabbing;
-}
-
-.scrap:hover {
-  translate: 0 -3px;
-  z-index: 100;
-}
-
-.scrap:hover::before {
-  box-shadow:
-    0 2px 5px rgba(0, 0, 0, 0.24),
-    0 10px 24px rgba(0, 0, 0, 0.38),
-    0 0 26px color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-25)) 58%,
-      transparent
-    ),
-    0 0 48px color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-25)) 24%,
-      transparent
-    );
-}
-
-
-/* ============================================
-   PLAIN PAPER
-   ============================================ */
-
-.scrap[data-paper="plain"]::before {
-  background:
-    color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-27))
-      var(--scrap-paper-strength),
-      var(--bg)
-    );
-}
-
-
-/* ============================================
-   NOTEBOOK PAPER
-   ============================================ */
-
-.scrap[data-paper="notebook"]::before {
-  background:
-    color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-22))
-      var(--scrap-paper-strength),
-      var(--bg)
-    );
-}
-
-.scrap[data-paper="notebook"]::after {
-  background:
-    repeating-linear-gradient(
-      to bottom,
-      transparent 0,
-      transparent 24px,
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-22))
-        var(--scrap-line-strength),
-        transparent
-      ) 24px,
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-22))
-        var(--scrap-line-strength),
-        transparent
-      ) 25px
-    );
-}
-
-
-/* ============================================
-   INDEX CARD
-   ============================================ */
-
-.scrap[data-paper="index"]::before {
-  background:
-    color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-26))
-      var(--scrap-paper-strength),
-      var(--bg)
-    );
-}
-
-.scrap[data-paper="index"]::after {
-  background:
-
-    /* top rule */
-    linear-gradient(
-      to bottom,
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-26))
-        var(--scrap-line-strength),
-        transparent
-      ) 0,
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-26))
-        var(--scrap-line-strength),
-        transparent
-      ) 1px,
-
-      transparent 1px
-    ),
-
-    /* ruled lines */
-    repeating-linear-gradient(
-      to bottom,
-      transparent 0,
-      transparent 28px,
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-26))
-        var(--scrap-line-strength),
-        transparent
-      ) 28px,
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-26))
-        var(--scrap-line-strength),
-        transparent
-      ) 29px
-    );
-}
-
-
-/* ============================================
-   NEWSPRINT
-   ============================================ */
-
-.scrap[data-paper="newsprint"]::before {
-  background:
-
-    radial-gradient(
-      circle at 1px 1px,
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-28)) 34%,
-        transparent
-      ) 0.6px,
-
-      transparent 0.8px
-    ),
-
-    color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-28))
-      var(--scrap-paper-strength),
-      var(--bg)
-    );
-
-  background-size:
-    4px 4px,
-    auto;
-}
-
-
-/* ============================================
-   RECEIPT PAPER
-   ============================================ */
-
-.scrap[data-paper="receipt"]::before {
-  background:
-    color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-27))
-      var(--scrap-paper-strength),
-      var(--bg)
-    );
-}
-
-
-/* ============================================
-   KRAFT PAPER
-   ============================================ */
-
-.scrap[data-paper="kraft"]::before {
-  background:
-    linear-gradient(
-      145deg,
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-06)) 62%,
-        var(--bg)
-      ),
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-06)) 44%,
-        var(--bg)
-      )
-    );
-}
-
-
-/* ============================================
-   GRAPH PAPER
-   ============================================ */
-
-.scrap[data-paper="graph"]::before {
-  background:
-    color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-19))
-      var(--scrap-paper-strength),
-      var(--bg)
-    );
-}
-
-.scrap[data-paper="graph"]::after {
-  background:
-
-    linear-gradient(
-      to right,
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-19))
-        var(--scrap-line-strength),
-        transparent
-      ) 1px,
-
-      transparent 1px
-    ),
-
-    linear-gradient(
-      to bottom,
-
-      color-mix(
-        in srgb,
-        var(--scrap-color, var(--color-19))
-        var(--scrap-line-strength),
-        transparent
-      ) 1px,
-
-      transparent 1px
-    );
-
-  background-size:
-    12px 12px,
-    12px 12px;
-}
-
-
-/* ============================================
-   SCRAP SIZES
-   ============================================ */
-
-.scrap-sm {
-  max-width: 200px;
-}
-
-.scrap-md {
-  max-width: 300px;
-}
-
-.scrap-lg {
-  max-width: 400px;
-}
-
-.scrap-strip {
-  max-width: 240px;
-}
-
-
-/* ============================================
-   TEXT
-   ============================================ */
-
-.scrap p {
-  margin: 0 0 8px;
-
-  font-size: 12pt;
-  line-height: 1.5;
-
-  color: inherit;
-}
-
-.scrap p:last-child {
-  margin-bottom: 0;
-}
-
-.scrap a {
-  color: inherit;
-}
-
-
-/* ============================================
-   BLINKIES
-   ============================================ */
-
-.scrap img {
-  display: inline-block;
-  vertical-align: middle;
-
-  max-width: 100%;
-  height: auto;
-
-  margin-top: 8px;
-
-  image-rendering: pixelated;
-}
-
-
-/* ============================================
-   LIGHT MODE SHADOW ADJUSTMENT
-   ============================================ */
-
-[data-theme="light"] .scrap::before {
-  box-shadow:
-    0 1px 2px rgba(0, 0, 0, 0.12),
-    0 4px 10px rgba(0, 0, 0, 0.16),
-    0 0 12px color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-25)) 10%,
-      transparent
-    );
-}
-
-[data-theme="light"] .scrap:hover::before {
-  box-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.16),
-    0 8px 18px rgba(0, 0, 0, 0.2),
-    0 0 18px color-mix(
-      in srgb,
-      var(--scrap-color, var(--color-25)) 16%,
-      transparent
-    );
-}
-
-
-/* ============================================
-   MOBILE
-   ============================================ */
-
-@media (max-width: 600px) {
-
+  /* --- SCRATCH PAPER --- */
   .scrap-board {
     position: static;
     min-height: auto;
