@@ -3455,3 +3455,498 @@ div.scroll-container img {
   object-fit: cover;
   border: 0.5px solid var(--gray);
 }
+
+/* ============================================
+   26. SCRATCH PAPER — TORN SCRAPS BOARD
+   Scraps of paper scattered on the page.
+   Torn edges stay irregular.
+   Printed lines stay straight.
+   Dark mode gets stronger color + glow.
+   Light mode stays softer.
+   ============================================ */
+
+:root {
+  --scrap-paper-strength: 52%;
+  --scrap-line-strength: 56%;
+  --scrap-glow-strength: 0.34;
+}
+
+[data-theme="light"] {
+  --scrap-paper-strength: 20%;
+  --scrap-line-strength: 24%;
+  --scrap-glow-strength: 0.12;
+}
+
+
+/* ============================================
+   BOARD
+   ============================================ */
+
+.scrap-board {
+  position: relative;
+  width: 100%;
+  min-height: 1800px;
+  margin: 40px 0 80px;
+}
+
+
+/* ============================================
+   SVG FILTER HOLDER
+   ============================================ */
+
+.scrap-svg-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+
+/* ============================================
+   SCRAP
+   ============================================ */
+
+.scrap {
+  position: absolute;
+
+  padding: 22px 26px;
+
+  color: var(--text);
+
+  font-family: var(--font-body);
+  font-size: 12pt;
+  line-height: 1.5;
+
+  cursor: grab;
+  user-select: none;
+
+  isolation: isolate;
+
+  transition:
+    translate 0.15s ease,
+    filter 0.15s ease;
+}
+
+
+/* ============================================
+   TORN PAPER LAYER
+   ============================================ */
+
+.scrap::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  z-index: -2;
+  pointer-events: none;
+
+  filter: url("#torn-edge");
+
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.18),
+    0 4px 12px rgba(0, 0, 0, 0.28),
+    0 0 18px color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-25))
+      calc(var(--scrap-glow-strength) * 100%),
+      transparent
+    );
+
+  transition:
+    box-shadow 0.15s ease,
+    filter 0.15s ease;
+}
+
+
+/* ============================================
+   PRINTED PATTERN LAYER
+   No SVG displacement here.
+   Lines stay perfectly straight.
+   ============================================ */
+
+.scrap::after {
+  content: "";
+
+  position: absolute;
+  inset: 8px;
+
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+/* ============================================
+   INTERACTION
+   ============================================ */
+
+.scrap:active {
+  cursor: grabbing;
+}
+
+.scrap:hover {
+  translate: 0 -3px;
+  z-index: 100;
+}
+
+.scrap:hover::before {
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.24),
+    0 10px 24px rgba(0, 0, 0, 0.38),
+    0 0 26px color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-25)) 58%,
+      transparent
+    ),
+    0 0 48px color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-25)) 24%,
+      transparent
+    );
+}
+
+
+/* ============================================
+   PLAIN PAPER
+   ============================================ */
+
+.scrap[data-paper="plain"]::before {
+  background:
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-27))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+}
+
+
+/* ============================================
+   NOTEBOOK PAPER
+   ============================================ */
+
+.scrap[data-paper="notebook"]::before {
+  background:
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-22))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+}
+
+.scrap[data-paper="notebook"]::after {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 24px,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-22))
+        var(--scrap-line-strength),
+        transparent
+      ) 24px,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-22))
+        var(--scrap-line-strength),
+        transparent
+      ) 25px
+    );
+}
+
+
+/* ============================================
+   INDEX CARD
+   ============================================ */
+
+.scrap[data-paper="index"]::before {
+  background:
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-26))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+}
+
+.scrap[data-paper="index"]::after {
+  background:
+
+    /* top rule */
+    linear-gradient(
+      to bottom,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-26))
+        var(--scrap-line-strength),
+        transparent
+      ) 0,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-26))
+        var(--scrap-line-strength),
+        transparent
+      ) 1px,
+
+      transparent 1px
+    ),
+
+    /* ruled lines */
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 28px,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-26))
+        var(--scrap-line-strength),
+        transparent
+      ) 28px,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-26))
+        var(--scrap-line-strength),
+        transparent
+      ) 29px
+    );
+}
+
+
+/* ============================================
+   NEWSPRINT
+   ============================================ */
+
+.scrap[data-paper="newsprint"]::before {
+  background:
+
+    radial-gradient(
+      circle at 1px 1px,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-28)) 34%,
+        transparent
+      ) 0.6px,
+
+      transparent 0.8px
+    ),
+
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-28))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+
+  background-size:
+    4px 4px,
+    auto;
+}
+
+
+/* ============================================
+   RECEIPT PAPER
+   ============================================ */
+
+.scrap[data-paper="receipt"]::before {
+  background:
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-27))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+}
+
+
+/* ============================================
+   KRAFT PAPER
+   ============================================ */
+
+.scrap[data-paper="kraft"]::before {
+  background:
+    linear-gradient(
+      145deg,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-06)) 62%,
+        var(--bg)
+      ),
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-06)) 44%,
+        var(--bg)
+      )
+    );
+}
+
+
+/* ============================================
+   GRAPH PAPER
+   ============================================ */
+
+.scrap[data-paper="graph"]::before {
+  background:
+    color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-19))
+      var(--scrap-paper-strength),
+      var(--bg)
+    );
+}
+
+.scrap[data-paper="graph"]::after {
+  background:
+
+    linear-gradient(
+      to right,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-19))
+        var(--scrap-line-strength),
+        transparent
+      ) 1px,
+
+      transparent 1px
+    ),
+
+    linear-gradient(
+      to bottom,
+
+      color-mix(
+        in srgb,
+        var(--scrap-color, var(--color-19))
+        var(--scrap-line-strength),
+        transparent
+      ) 1px,
+
+      transparent 1px
+    );
+
+  background-size:
+    12px 12px,
+    12px 12px;
+}
+
+
+/* ============================================
+   SCRAP SIZES
+   ============================================ */
+
+.scrap-sm {
+  max-width: 200px;
+}
+
+.scrap-md {
+  max-width: 300px;
+}
+
+.scrap-lg {
+  max-width: 400px;
+}
+
+.scrap-strip {
+  max-width: 240px;
+}
+
+
+/* ============================================
+   TEXT
+   ============================================ */
+
+.scrap p {
+  margin: 0 0 8px;
+
+  font-size: 12pt;
+  line-height: 1.5;
+
+  color: inherit;
+}
+
+.scrap p:last-child {
+  margin-bottom: 0;
+}
+
+.scrap a {
+  color: inherit;
+}
+
+
+/* ============================================
+   BLINKIES
+   ============================================ */
+
+.scrap img {
+  display: inline-block;
+  vertical-align: middle;
+
+  max-width: 100%;
+  height: auto;
+
+  margin-top: 8px;
+
+  image-rendering: pixelated;
+}
+
+
+/* ============================================
+   LIGHT MODE SHADOW ADJUSTMENT
+   ============================================ */
+
+[data-theme="light"] .scrap::before {
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.12),
+    0 4px 10px rgba(0, 0, 0, 0.16),
+    0 0 12px color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-25)) 10%,
+      transparent
+    );
+}
+
+[data-theme="light"] .scrap:hover::before {
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.16),
+    0 8px 18px rgba(0, 0, 0, 0.2),
+    0 0 18px color-mix(
+      in srgb,
+      var(--scrap-color, var(--color-25)) 16%,
+      transparent
+    );
+}
+
+
+/* ============================================
+   MOBILE
+   ============================================ */
+
+@media (max-width: 600px) {
+
+  .scrap-board {
+    position: static;
+    min-height: auto;
+  }
+
+  .scrap {
+    position: static !important;
+
+    width: auto;
+    max-width: 100%;
+
+    margin: 16px auto;
+
+    transform: none !important;
+    translate: none;
+  }
+}
