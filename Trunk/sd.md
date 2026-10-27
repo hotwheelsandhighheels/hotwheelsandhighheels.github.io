@@ -7,7 +7,7 @@ left_sidebar_title: Maps
 left_sidebar_label: 
 left_sidebar: | 
   #### Kumeyaay<br>
-  <a href="https://storymaps.arcgis.com/stories/b8b9dffb544d423891e36727c03842f6">Kumeyaay Placements</a><br>
+  <a href="https://storymaps.arcgis.com/stories/b8b9dffb544d423891e36727c03842f6">Kumeyaay Placenames</a><br>
   #### Barrio Logan<br>
   <a href="https://parkmagnet.com/united-states/california/san-diego/chicano-park">Chicano Park</a><br>
   <a href="https://www.chicano-park.com/cpmap.html">Chicano Park Murals</a><br>
