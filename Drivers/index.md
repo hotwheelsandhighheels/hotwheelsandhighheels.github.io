@@ -36,7 +36,6 @@ title: Drivers - Hot Wheels & High Heels
   <a href="/Drivers/abenet#a-poem">"Somewhere in the Bay, a Girl Dreams of Daygo" by a.benét</a>
   <a href="/Drivers/Alana#a-poem">"For that swirling pile of trash" by Alana Rodriguez</a>
   <a href="/Drivers/Kimberly#a-poem">"Guided Tour" by Kimberly Wolf</a>
-  <>
   <p><a href="/survey-driver/"><img src="/assets/blinkies/cellflash.gif"></a></p>
 </div>
 
