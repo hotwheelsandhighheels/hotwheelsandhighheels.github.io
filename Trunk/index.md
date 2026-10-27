@@ -272,3 +272,5 @@ d="
 <image class="trunk-map-lines" href="/assets/site/trunk.png" x="0" y="0" width="1614" height="975" preserveAspectRatio="xMidYMid meet" />
 </svg>
 </div>
+
+<p style="text-align: center; font-size: 12pt; opacity: 0.4;">Click on a car part to visit a collection</p>
