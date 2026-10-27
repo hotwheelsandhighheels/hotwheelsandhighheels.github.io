@@ -84,7 +84,7 @@ Father Brown siempre me decía: "Tienes cara de ángel."
 - <a href="https://timesofsandiego.com/life/2018/03/11/father-browns-loving-farewell-padre-del-barrio-logan-retires-at-90/">Father Brown’s Loving Farewell: ‘El Padre del Barrio’ Retires at 90</a><br>
 - <a href="https://www.sandiegouniontribune.com/2020/05/21/father-richard-brown-beloved-padrecito-del-barrio-dies-at-93/">Father Richard Brown, beloved ‘padrecito del barrio,’ dies at 93</a><br>
 - <a href="https://www.jesuitswest.org/in-memoriam/brown-richard-h-father/">In Memoriam: BROWN, RICHARD H. (FATHER)</a><br>
-<a href="https://unwall.app/www.sandiegouniontribune.com/2022/06/17/father-richard-brown-was-more-than-a-priest-he-was-truly-our-father/">Father Richard Brown was more than a priest; he was truly our father</a><br>
+- <a href="https://unwall.app/www.sandiegouniontribune.com/2022/06/17/father-richard-brown-was-more-than-a-priest-he-was-truly-our-father/">Father Richard Brown was more than a priest; he was truly our father</a><br>
 - <a href="https://www.kpbs.org/news/local/2023/10/06/barrio-logan-street-to-be-renamed-after-father-brown-el-padrecito-del-barrio">Barrio Logan street to be renamed after Father Brown, ‘El Padrecito del Barrio’</a><br>
 - <a href="https://www.jesuitswest.org/stories/street-renamed-in-honor-of-the-late-fr-richard-brown-sj-in-san-diego/">Street Renamed in Honor of the Late Fr. Richard Brown, SJ, in San Diego</a><br>
 
