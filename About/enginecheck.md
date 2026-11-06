@@ -6,7 +6,7 @@ title: Engine Check Light
 
 ## Poetry
 
-"Diphenhydramine IV, Migraine Cocktail" and "I, too, would kiss the ground" — forthcoming in *Watershed Review*  
+"Diphenhydramine IV, Migraine Cocktail" and "I, too, would kiss the ground" — [*Watershed Review*](https://watershedreview.com/poetry/alejandra-hernandez/)   
 "There's gold on the other side of this mountain, we just have to cross this bridge first" — *Raleigh Review*  
 "The day I realized we were gods —" — [*Jet Fuel Review*](https://www.jetfuelreview.com/alejandra-hernaacutendez-8203spring-2025.html)  
 "From way down here" — [*Zone 3*](https://zone3press.com/poetry-entries/from-way-down-here/)  
